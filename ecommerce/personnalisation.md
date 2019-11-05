@@ -110,7 +110,7 @@ Page | Détails
 [MasterPage](personnalisation/ecommerce-masterpage.md)|Contient les éléments communs à toutes les pages (header et footer par exemple)
 [Home](personnalisation/ecommerce-homepage.md)|La page d'accueil du site
 [Descente](personnalisation/ecommerce-descente.md)|Les pages de listes de produits (descentes multi-facettes, recherches, etc.)
-Fiche produit|La fiche produit
+[Fiche produit](personnalisation/ecommerce-ficheproduit.md)|La fiche produit
 Panier|
 Login|
 Confirmation Commande|
