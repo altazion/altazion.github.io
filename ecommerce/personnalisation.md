@@ -19,14 +19,15 @@ Comme toute application basée sur la techno WebForms, les pages du site e-comme
 Le module e-commerce étant basé sur WebForms, il contient de nombreux contrôles, dans le namespace `CPointSoftware.ECommerce.Tools` qui sont à utiliser pour afficher des données dynamiques, provenant de la base de données ou d'un calcul serveur. Ces controles sont à "simplement" poser dans le code source de la page. 
 
 Par exemple, le code suivant ajoute un controle qui affiche une liste de 10 produits venant d'une "vitrine" (une sélection de produits) :
-
-    <div class="leftCol">
-        <ecom:VitrinesListeProduits 
-            ID="listeVitrine" runat="server" 
-            CodeVitrine="CODEVITRINE"
-            ProductTemplateSkinID="ProduitSurLaHome"
-            NombreArticles="10" TypeAffichage="Flux" />
-    </div>
+ ``` HTML
+<div class="leftCol">
+    <ecom:VitrinesListeProduits 
+        ID="listeVitrine" runat="server" 
+        CodeVitrine="CODEVITRINE"
+        ProductTemplateSkinID="ProduitSurLaHome"
+        NombreArticles="10" TypeAffichage="Flux" />
+</div>
+```
 
 Les contrôles spécifiques à la solution ecommerce sont regroupé sous le prefixe <ecom:... /> (là où les contrôles standard ASP.net sont sous <asp:... />). Vous trouverez une liste des éléments disponibles [dans la partie "contrôles e-commerce" de la référence de classe](../ecommerce/index.md). 
 
@@ -38,6 +39,42 @@ Certains contrôles ont des conditions d'utilisations spécifiques qui sont déc
 path|description
 ---|---
 /default.aspx|La home page générale du site
+
+## Contenu personnalisable
+
+### Publicités
+
+
+
+### Espaces SEO
+
+Les espaces SEO sont des emplacements personnalisables dans vos pages qui, à la différences ces publicités ci-dessus, ne sont pas destinés à être modifiés en fonction d'un planning commercial. On peut par exemple retrouver dans ces emplacements un contenu de footer, de la rassurance, des contenus spécialisés dans le référencement, etc.
+Pour déclarer un emplacement SEO, vous devez l'insérer dans le fichier de thème (cf. ci-dessous) et l'intégrer dans vos fichiers de personnalisations.
+
+Prenons comme exemple un espace de bas de page destiné à fournir des informations sur votre société :
+
+``` HTML
+<p>
+    <ecom:SeoContent runat="server" 
+      CodeEmplacement="DescSocieteFooter"  />
+</p>
+```
+
+En complément de l'ajout dans vos fichiers de personnalisations .skin, vous devez déclarer l'emplacement dans votre fichier de thème, sous la forme :
+
+``` XML
+<Theme xmlns="http://simplement-e.com/ecommerce/theme/theme.xsd">
+...
+  <Seo>
+    <Emplacement code="DescSocieteFooter" 
+        libelle="Bloc de description de la société">
+      <SurTypePage type="Page" />
+    </Emplacement>
+    ....
+  </Seo>
+...
+</Theme>
+```
 
 ## Themes
 
@@ -54,46 +91,50 @@ Il est assez simple de modifier l'apparence d'un site en utilisant un ensemble d
 
 Si l'on prend une page telle que la home, son contenu par défaut est extrêmement réduit : 
 
-    <asp:Content ContentPlaceHolderID="BeforeContent" 
-    runat="server" ID="BeforeContent1">
-        <ecom:ThemablePanelControl 
-            ID="ThemablePanelControl1" runat="server" SkinID="HomePageBeforeContent">
-        </ecom:ThemablePanelControl>
-    </asp:Content>
+ ``` XML
+<asp:Content ContentPlaceHolderID="BeforeContent" 
+runat="server" ID="BeforeContent1">
+    <ecom:ThemablePanelControl 
+        ID="ThemablePanelControl1" runat="server" SkinID="HomePageBeforeContent">
+    </ecom:ThemablePanelControl>
+</asp:Content>
 
-    <asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-        <asp:ScriptManagerProxy 
-            ID="ScriptManagerProxy1" runat="server">
-        </asp:ScriptManagerProxy>
-        <ecom:ThemablePanelControl runat="server" 
-            SkinID="HomePagePanel" ID="HomePagePanel">
-            <Content>
-                <!-- placez le contenu de votre home ici -->
-            </Content>
-        </ecom:ThemablePanelControl>
-    </asp:Content>
+<asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+    <asp:ScriptManagerProxy 
+        ID="ScriptManagerProxy1" runat="server">
+    </asp:ScriptManagerProxy>
+    <ecom:ThemablePanelControl runat="server" 
+        SkinID="HomePagePanel" ID="HomePagePanel">
+        <Content>
+            <!-- placez le contenu de votre home ici -->
+        </Content>
+    </ecom:ThemablePanelControl>
+</asp:Content>
 
-    <asp:Content 
-        ContentPlaceHolderID="AfterContent" runat="server" ID="Content2">
-        <ecom:ThemablePanelControl 
-            ID="ThemablePanelControl2" 
-            runat="server" SkinID="HomePageAfterContent">
-        </ecom:ThemablePanelControl>
-    </asp:Content>
+<asp:Content 
+    ContentPlaceHolderID="AfterContent" runat="server" ID="Content2">
+    <ecom:ThemablePanelControl 
+        ID="ThemablePanelControl2" 
+        runat="server" SkinID="HomePageAfterContent">
+    </ecom:ThemablePanelControl>
+</asp:Content>
+```
 
 Pour placer du contenu dans cette page via un fichier skin, il faut reprendre le contrôle de type `<ecom:ThemablePanelControl />` et de l'utiliser dans un fichier .skin (si le contrôle d'origine a un `ID`, vous devrez l'omettre dans ce fichier). Par exemple :
 
 Fichier `home.skin` :
 
-    <ecom:ThemablePanelControl runat="server" 
-        SkinID="HomePagePanel">
-        <Content>
-            <div class='home-main-pub'>
-              <ecom:CampagnePublicite runat="server"
-                 TypeOperation="CARROUS"  />
-            </div>
-        </Content>
-    </ecom:ThemablePanelControl>
+ ``` XML
+<ecom:ThemablePanelControl runat="server" 
+    SkinID="HomePagePanel">
+    <Content>
+        <div class='home-main-pub'>
+            <ecom:CampagnePublicite runat="server"
+                TypeOperation="CARROUS"  />
+        </div>
+    </Content>
+</ecom:ThemablePanelControl>
+```
 
 Pour connaitre les noms des différentes zones personnalisables, il vous faudra regarder dans le fichier `.aspx` que vous souhaitez personnaliser. Tous les contrôles portant un SkinID sont personnalisables de façon spécifique. 
 
