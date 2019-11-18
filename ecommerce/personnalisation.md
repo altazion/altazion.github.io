@@ -178,3 +178,23 @@ Le même principe est utilisé pour créer des modèles de fiches produits.
 ### Contrôles personnalisés
 
 ### Fichier de thème
+
+#### Emplacements SEO
+
+Pour définir un emplacement utilisables dans les blocs SEO, vous devez :
+- dans le fichier de thème, décrire les différents emplacements et leur cas d'utilisation
+- positionner dans la (ou les pages) correspondantes, le contrôle 
+
+``` xml
+<Seo>
+    <Emplacement code="DESCBLOCHOME" libelle="Emplacement description sur la home">
+      <SurTypePage type="Page" />
+    </Emplacement>
+</Seo>
+```
+
+Le `code` sera à réutiliser dans le contrôle d'affichage et doit être unique. Vous devez ensuite définir sur quel(s) type(s) de pages le contrôle peut s'afficher, vous pouvez utiliser :
+- `Descente` pour les pages de recherches et de descentes produits. La configuration du contenu se fera, dans ce cas, dans la partie "SEO"
+- `Article` pour une fiche produit, vous devrez saisir les informations de ces blocs, directement dans les pages d'édition e-commerce de chaque produit
+- `Home` : pour affichage uniquement sur la HomePage
+- `Page` : pour un bloc qui sera affiché sur toutes les pages incluant le tag (utilisez cette valeur si vous souhaitez positionner le contrôle sur toutes les pages)
