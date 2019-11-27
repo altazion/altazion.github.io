@@ -16,7 +16,7 @@ Comme toute application basée sur la techno WebForms, les pages du site e-comme
 
 ### Contrôles
 
-Le module e-commerce étant basé sur WebForms, il contient de nombreux contrôles, dans le namespace `CPointSoftware.ECommerce.Tools` qui sont à utiliser pour afficher des données dynamiques, provenant de la base de données ou d'un calcul serveur. Ces controles sont à "simplement" poser dans le code source de la page. 
+Le module e-commerce étant basé sur WebForms, il contient de nombreux contrôles, dans le namespace `Altazion.Commerce.Controls` qui sont à utiliser pour afficher des données dynamiques, provenant de la base de données ou d'un calcul serveur. Ces controles sont à "simplement" poser dans le code source de la page. 
 
 Par exemple, le code suivant ajoute un controle qui affiche une liste de 10 produits venant d'une "vitrine" (une sélection de produits) :
  ``` HTML
@@ -44,7 +44,14 @@ path|description
 
 ### Publicités
 
+Les publicités sont des emplacements destinés à recevoir du contenu qui changera de façon fréquente en fonction de l'actuatlité commerciale du site. On peut prendre pour exemple un carousel sur une home page, un emplacement de mise en avant promotionnel dans un panier, etc.
 
+N'utilisez pas ce type de personnalisation si vous souhaitez simplement pouvoir configurer dans le back-office le contenu d'un bloc, préférez dans ce cas des espaces SEO (cf. ci-dessous).
+
+Il existe plusieurs types de publicités :
+- les blocs "images"
+- les blocs "Google Ads-format"
+- les blocs "template html5"
 
 ### Espaces SEO
 
@@ -60,21 +67,8 @@ Prenons comme exemple un espace de bas de page destiné à fournir des informati
 </p>
 ```
 
-En complément de l'ajout dans vos fichiers de personnalisations .skin, vous devez déclarer l'emplacement dans votre fichier de thème, sous la forme :
+En complément de l'ajout dans vos fichiers de personnalisations .skin, vous devez déclarer l'emplacement dans votre fichier de thème, cf. ci-dessous
 
-``` XML
-<Theme xmlns="http://simplement-e.com/ecommerce/theme/theme.xsd">
-...
-  <Seo>
-    <Emplacement code="DescSocieteFooter" 
-        libelle="Bloc de description de la société">
-      <SurTypePage type="Page" />
-    </Emplacement>
-    ....
-  </Seo>
-...
-</Theme>
-```
 
 ## Themes
 
@@ -181,20 +175,37 @@ Le même principe est utilisé pour créer des modèles de fiches produits.
 
 #### Emplacements SEO
 
-Pour définir un emplacement utilisables dans les blocs SEO, vous devez :
-- dans le fichier de thème, décrire les différents emplacements et leur cas d'utilisation
-- positionner dans la (ou les pages) correspondantes, le contrôle 
+Pour définir un emplacement utilisables dans les blocs SEO, vous devez décrire les différents emplacements et leur cas d'utilisation, dans le fichier de thème.
 
 ``` xml
+<Theme xmlns="http://simplement-e.com/ecommerce/theme/theme.xsd">
+...
+<Seo>
+    <Emplacement code="DESCBLOCFOOTER" libelle="Emplacement description dans le footer">
+      <SurTypePage type="Page" />
+    </Emplacement>
+</Seo>
+...
+```
+
+Le `code` sera à réutiliser dans le contrôle d'affichage et doit être unique. Vous devez ensuite définir sur quel(s) type(s) de pages le contrôle peut s'afficher, vous pouvez utiliser :
+
+- `Descente` pour les pages de recherches et de descentes produits. La configuration du contenu se fera, dans ce cas, dans la partie "SEO"
+- `Article` pour une fiche produit, vous devrez saisir les informations de ces blocs, directement dans les pages d'édition e-commerce de chaque produit
+- `Home` : pour affichage uniquement sur la HomePage
+- `Page` : pour un bloc qui sera affiché sur toutes les pages incluant le tag (utilisez aussi cette valeur si vous souhaitez positionner le contrôle sur toutes les pages)
+
+Une fois cette définition créée, les contrôles vu précédemment affiche le contenu personnalisé:
+
+- `<ecom:SeoContentTitle runat="server" />` affichera l'information "Titre" saisie dans la page de configuration
+- `<ecom:SeoContent runat="server"  />` affichera le contenu du bloc
+
+Par exemple, pour le thème suivant :
+
+```xml
 <Seo>
     <Emplacement code="DESCBLOCHOME" libelle="Emplacement description sur la home">
       <SurTypePage type="Page" />
     </Emplacement>
 </Seo>
 ```
-
-Le `code` sera à réutiliser dans le contrôle d'affichage et doit être unique. Vous devez ensuite définir sur quel(s) type(s) de pages le contrôle peut s'afficher, vous pouvez utiliser :
-- `Descente` pour les pages de recherches et de descentes produits. La configuration du contenu se fera, dans ce cas, dans la partie "SEO"
-- `Article` pour une fiche produit, vous devrez saisir les informations de ces blocs, directement dans les pages d'édition e-commerce de chaque produit
-- `Home` : pour affichage uniquement sur la HomePage
-- `Page` : pour un bloc qui sera affiché sur toutes les pages incluant le tag (utilisez cette valeur si vous souhaitez positionner le contrôle sur toutes les pages)
