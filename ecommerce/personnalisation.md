@@ -173,6 +173,12 @@ Le même principe est utilisé pour créer des modèles de fiches produits.
 
 ### Fichier de thème
 
+### Templates de publicités
+
+#### Images
+
+#### HTML5
+
 #### Emplacements SEO
 
 Pour définir un emplacement utilisables dans les blocs SEO, vous devez décrire les différents emplacements et leur cas d'utilisation, dans le fichier de thème.
