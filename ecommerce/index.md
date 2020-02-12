@@ -1,3 +1,7 @@
+---
+toc: toc.yml
+---
+
 # Module Altazion Commerce
 
 ## Personnaliser votre site e-commerce
