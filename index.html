@@ -1,29 +1,76 @@
----
+﻿---
 layout: default
 title: Altazion for developpers
 ---
+
+<style>
+    div.items {
+        margin:0 -10px;
+        padding:0;
+        vertical-align: top;
+    }
+
+    div.items .item {
+        margin:10px;
+        display:inline-block;
+        width: calc(33% - 24px);
+    }
+
+    div.header {
+        height: 60px;
+        padding:20px 10px 10px 10px;
+    }
+
+div.header .title {
+    font-size:24px;
+    display: block;
+}
+
+div.header .desc {
+    font-size:16px;
+    display: block;
+}
+
+    div.header a {
+        color:aliceblue;
+        text-decoration: none;        
+    }
+
+    div.header.altazion-commerce {
+        background:#36274c;
+    }
+
+    div.header.altazion-signage {
+        background:#646B7B;
+    }
+</style>
 
 <p style="text-align: center;">
     <img src="images/home.png" />
 </p>
 <h1 style="text-align: center;">Altazion for developpers</h1>
 
-<p>Bienvenue sur le site d'aide Altazion pour les développeurs.</p>
-
-<h2>Resources</h2>
-<h3><a href="/ecommerce/index.html">Altazion Commerce</a></h3>
-<p>Documentation sur notre module e-commerce</p>
-<ul>
-    <li><a href="/ecommerce/">Présentation du module</a></li>
-    <li><a href="/altazion-commerce-controls/api/Altazion.ECommerce.Controls.html">Références de classes sur les contrôles</a></li>
-    <li><a href="/ecommerce/personnalisation.html">Personnaliser les pages</a></li>
-</ul>
-
-<h3><a href="/signage/index.html">Altazion Signage</a></h3>
-<p>Documentation sur notre module digital & interactive signage.</p>
-<ul>
-    <li><a href="/signage/">Présentation du module</a></li>
-</ul>
+<div class="items">
+    <div class="item">
+        <div class="header altazion-commerce"><a href="/ecommerce/">
+            <h2><span class="title">Altazion</span><span class="desc">Commerce</span></h2></a>
+        </div>
+        <ul>
+            <li><a href="/ecommerce/">Présentation du module</a></li>
+            <li><a href="/altazion-commerce-controls/api/Altazion.ECommerce.Controls.html">Références de classes sur les
+                    contrôles</a></li>
+            <li><a href="/ecommerce/personnalisation.html">Personnaliser les pages</a></li>
+        </ul>
+    </div>
+    <div class="item">
+        <div class="header altazion-signage">
+            <h2><a href="/signage/"><span class="title">Altazion</span><span class="desc">Signage</span></h2></a>
+        </div>
+        <ul>
+            <li><a href="/signage/">Présentation du module</a></li>
+        </ul>
+    </div>
+</div>
 
 <h2>Roadmap</h2>
 <p>
