@@ -11,7 +11,7 @@ function setupSearch(id, tags) {
             hideSearch();
         }
         else {
-            var tofetch = "https://aidesimplemente.search.windows.net/indexes/aide-altazion/docs?api-version=2019-05-06&&$count=30$filter=type/any(t :";
+            var tofetch = "https://aidesimplemente.search.windows.net/indexes/aide-altazion/docs?api-version=2019-05-06&$filter=type/any(t :";
             tofetch += tags;
             tofetch += ")&query=";
             tofetch += ctn;
@@ -26,7 +26,7 @@ function setupSearch(id, tags) {
         }
     }
     var tmp = document.createElement("div");
-    tmp.id = "altazion-search";
+    tmp.className = "altazion-search";
     document.appendChild(tmp);
 
     tmp = document.createElement("link");
@@ -37,11 +37,11 @@ function setupSearch(id, tags) {
 
 function showSearch(data) {
     console.log(data.values);
-    document.getElementById("altazion-search").classList.add("visible");
+    document.getElementsByClassName(".altazion-search").classList.add("visible");
 }
 
 function hideSearch(){
-    document.getElementById("altazion-search").classList.remove("visible");
+    document.getElementsByClassName(".altazion-search").classList.remove("visible");
 }
 
-setupSearch("searchBox", " t eq 'dev'");
+setupSearch("searchBox", "t eq 'dev'");
