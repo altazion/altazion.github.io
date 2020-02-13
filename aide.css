@@ -16,7 +16,7 @@ div {
 
 
 
-.jumbotron {
+.pageHeader {
 
     background: #36274c no-repeat;
 
@@ -24,13 +24,13 @@ div {
 
 }
 
-.jumbotron ul { 
+.pageHeader ul { 
     list-style-type: none;
     padding:0;
     margin:0;
 }
 
-.jumbotron ul li { 
+.pageHeader ul li { 
     display:inline-block;
 }
 
