@@ -26,6 +26,7 @@ function setupSearch(id, tags) {
         }
     }
     var tmp = document.createElement("div");
+    tmp.id = "altazion-search";
     tmp.className = "altazion-search";
     document.body.appendChild(tmp);
 
@@ -37,11 +38,11 @@ function setupSearch(id, tags) {
 
 function showSearch(data) {
     console.log(data.values);
-    document.getElementsByClassName(".altazion-search").classList.add("visible");
+    document.getElementById("altazion-search").classList.add("visible");
 }
 
 function hideSearch(){
-    document.getElementsByClassName(".altazion-search").classList.remove("visible");
+    document.getElementById("altazion-search").classList.remove("visible");
 }
 
 setupSearch("searchBox", "t eq 'dev'");
