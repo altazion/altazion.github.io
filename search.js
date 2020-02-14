@@ -27,12 +27,12 @@ function setupSearch(id, tags) {
     }
     var tmp = document.createElement("div");
     tmp.className = "altazion-search";
-    document.appendChild(tmp);
+    document.body.appendChild(tmp);
 
     tmp = document.createElement("link");
     tmp.attributes["rel"] = "stylesheet";
-    tmp.attributes["href"] = "https://wxcwxcwx.csqdqs.com/test.css";
-    document.appendChild(tmp);
+    tmp.attributes["href"] = "/search.css";
+    document.head.appendChild(tmp);
 }
 
 function showSearch(data) {
