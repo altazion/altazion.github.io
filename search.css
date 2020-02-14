@@ -6,8 +6,13 @@
     background:white;
     top:calc(50% - 100px);
     left:calc(50% - 100px);
+    border:solid 1px #efefef;
+}
+.altazion-search .wait{
+    display:none;
 }
 
+.altazion-search .wait.visible,
 .altazion-search.visible {
     display:block;
 }
