@@ -61,6 +61,11 @@ div {
     opacity: 0.8;
 }
 
+.pageHeader ul li.item a:hover {
+    border-bottom: solid 1px #efefef;
+    opacity: 1;
+}
+
 .pageHeader ul li.item.selected a {
     color: white;
     text-decoration: none;
