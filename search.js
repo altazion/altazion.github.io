@@ -22,7 +22,7 @@ function setupSearch(id, tags) {
             
             var tofetch = "https://aidesimplemente.search.windows.net/indexes/aide-altazion/docs?api-version=2019-05-06&$filter=type/any(t :";
             tofetch += tags;
-            tofetch += ")&query=";
+            tofetch += ")&search=";
             tofetch += ctn;
             
             idxSearch = setTimeout(function() {
