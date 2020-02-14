@@ -31,8 +31,8 @@ function setupSearch(id, tags) {
     document.body.appendChild(tmp);
 
     tmp = document.createElement("link");
-    tmp.attributes["rel"] = "stylesheet";
-    tmp.attributes["href"] = "/search.css";
+    tmp.attributes.add("rel","stylesheet");
+    tmp.attributes.add("href","/search.css");
     document.head.appendChild(tmp);
 }
 
