@@ -5,14 +5,15 @@
       {
         "files": [
           "**/toc.yml",
-          "**.md"
+          "**.md",
+          "ecommerce/controls/**.yml"
         ]
       }
     ],
     "resource": [
       {
         "files": [
-          "CNAME."
+          "cnam*.*"
           ,"index.html"
           ,"**/images/**"
           ,"**.jpg"
