@@ -1,0 +1,49 @@
+## <span id='obtenir'>Obtenir un devis</span>
+
+Récupère une dernière révision de devis
+
+Url :`[GET] api/ventes/devis/{devisId}`
+
+Paramètres : 
+
+- **devisId** (long) : L'identifiant du devis
+
+Url :`[GET] api/ventes/devis/revision/{devisNumero}`
+
+Paramètres : 
+
+- **devisNumero** (string) : Le numéro du devis
+
+Type de retour : `Devis`
+
+Type(s) de données :
+
+```csharp
+class Devis
+{
+	CPointSoftware.Equihira.Common.LigneDevis[] Lignes { get; set; }
+	string NumeroComplet { get; }
+	System.Int32? Revision { get; set; }
+	string Etat { get; set; }
+	string EtatDetaille { get; }
+	DateTime? DateMaxValidite { get; set; }
+	string Numero { get; set; }
+	decimal Id { get; set; }
+	decimal MontantTTC { get; set; }
+	decimal MontantHT { get; set; }
+	string Nom { get; set; }
+	string Adresse { get; set; }
+	string CodePostal { get; set; }
+	string Ville { get; set; }
+	string Pays { get; set; }
+	System.Int32? ClientID { get; set; }
+	bool EstLieAClientOuProspect { get; }
+	string Email { get; set; }
+	DateTime Date { get; set; }
+	string Libelle { get; set; }
+	string SourceAcceptation { get; set; }
+	DateTime? DateAcceptation { get; set; }
+	bool EstAccepte { get; }
+}
+
+```

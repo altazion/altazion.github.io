@@ -1,0 +1,272 @@
+- name: Généralités
+  href: index.md
+- name: ECommerce
+  href: ecommerce/index.md
+  items: 
+  - name: Clients
+    href: ecommerce/clients/index.md
+    items: 
+    - name: Wishlists
+      href: ecommerce/clients/wishlists.md
+      items: 
+  - name: Process
+    href: ecommerce/process/index.md
+    items: 
+    - name: Client
+      href: ecommerce/process/client.md
+      items: 
+    - name: Panier
+      href: ecommerce/process/panier.md
+      items: 
+    - name: Validation
+      href: ecommerce/process/validation.md
+      items: 
+  - name: Catalogue
+    href: ecommerce/catalogue/index.md
+    items: 
+    - name: Articles
+      href: ecommerce/catalogue/articles.md
+      items: 
+- name: Utilisateur
+  href: utilisateur/index.md
+  items: 
+  - name: Ventes
+    href: utilisateur/ventes/index.md
+    items: 
+    - name: Devis
+      href: utilisateur/ventes/devis.md
+      items: 
+    - name: Factures
+      href: utilisateur/ventes/factures.md
+      items: 
+  - name: Technique
+    href: utilisateur/technique/index.md
+    items: 
+    - name: Médiations
+      href: utilisateur/technique/mediations.md
+      items: 
+  - name: Paramètres
+    href: utilisateur/parametres/index.md
+    items: 
+    - name: Magasins
+      href: utilisateur/parametres/magasins.md
+      items: 
+    - name: Options
+      href: utilisateur/parametres/options.md
+      items: 
+  - name: Utilisateur
+    href: utilisateur/utilisateur/index.md
+    items: 
+    - name: Info. personnelles
+      href: utilisateur/utilisateur/infopersonnelles.md
+      items: 
+  - name: Commercial
+    href: utilisateur/commercial/index.md
+    items: 
+    - name: Sauvegarde contenu article
+      href: utilisateur/commercial/index.md#sauvegardecontenuarticle
+    - name: Supprime contenu article
+      href: utilisateur/commercial/index.md#supprimecontenuarticle
+    - name: Campagnes
+      href: utilisateur/commercial/campagnes.md
+      items: 
+    - name: Catalogues
+      href: utilisateur/commercial/catalogues.md
+      items: 
+    - name: Publicités
+      href: utilisateur/commercial/publicites.md
+      items: 
+  - name: Catalogue
+    href: utilisateur/catalogue/index.md
+    items: 
+    - name: Articles
+      href: utilisateur/catalogue/articles.md
+      items: 
+    - name: Marques
+      href: utilisateur/catalogue/marques.md
+      items: 
+    - name: Segmentation
+      href: utilisateur/catalogue/segmentation.md
+      items: 
+    - name: Selections
+      href: utilisateur/catalogue/selections.md
+      items: 
+    - name: Taxes
+      href: utilisateur/catalogue/taxes.md
+      items: 
+  - name: Achats
+    href: utilisateur/achats/index.md
+    items: 
+    - name: Dépenses
+      href: utilisateur/achats/depenses.md
+      items: 
+    - name: Fournisseurs
+      href: utilisateur/achats/fournisseurs.md
+      items: 
+- name: Serveur
+  href: serveur/index.md
+  items: 
+  - name: Technique
+    href: serveur/technique/index.md
+    items: 
+    - name: Médiations
+      href: serveur/technique/mediations.md
+      items: 
+  - name: Paramètres
+    href: serveur/parametres/index.md
+    items: 
+    - name: Raison juridique
+      href: serveur/parametres/index.md#raisonjuridique
+    - name: Sites webs
+      href: serveur/parametres/index.md#siteswebs
+    - name: Magasins
+      href: serveur/parametres/magasins.md
+      items: 
+    - name: Options
+      href: serveur/parametres/options.md
+      items: 
+  - name: Cross Canal
+    href: serveur/crosscanal/index.md
+    items: 
+    - name: Commandes
+      href: serveur/crosscanal/commandes.md
+      items: 
+    - name: Magasins
+      href: serveur/crosscanal/magasins.md
+      items: 
+    - name: Produits
+      href: serveur/crosscanal/produits.md
+      items: 
+  - name: Commercial
+    href: serveur/commercial/index.md
+    items: 
+    - name: Sauvegarde contenu article
+      href: serveur/commercial/index.md#sauvegardecontenuarticle
+    - name: Supprime contenu article
+      href: serveur/commercial/index.md#supprimecontenuarticle
+    - name: Campagnes
+      href: serveur/commercial/campagnes.md
+      items: 
+    - name: Catalogues
+      href: serveur/commercial/catalogues.md
+      items: 
+    - name: Publicités
+      href: serveur/commercial/publicites.md
+      items: 
+  - name: Catalogue
+    href: serveur/catalogue/index.md
+    items: 
+    - name: Articles
+      href: serveur/catalogue/articles.md
+      items: 
+    - name: Import données
+      href: serveur/catalogue/importdonnees.md
+      items: 
+    - name: Marques
+      href: serveur/catalogue/marques.md
+      items: 
+    - name: Segmentation
+      href: serveur/catalogue/segmentation.md
+      items: 
+    - name: Selections
+      href: serveur/catalogue/selections.md
+      items: 
+    - name: Taxes
+      href: serveur/catalogue/taxes.md
+      items: 
+  - name: Achats
+    href: serveur/achats/index.md
+    items: 
+    - name: Fournisseurs
+      href: serveur/achats/fournisseurs.md
+      items: 
+- name: Partenaire
+  href: partenaire/index.md
+  items: 
+  - name: Opérations partenaires
+    href: partenaire/operationspartenaires/index.md
+    items: 
+    - name: Devices
+      href: partenaire/operationspartenaires/devices.md
+      items: 
+    - name: Tenants
+      href: partenaire/operationspartenaires/tenants.md
+      items: 
+- name: Phygital
+  href: phygital/index.md
+  items: 
+  - name: Magasins
+    href: phygital/magasins/index.md
+    items: 
+    - name: Device actif
+      href: phygital/magasins/deviceactif.md
+      items: 
+    - name: Devices
+      href: phygital/magasins/devices.md
+      items: 
+    - name: Magasins
+      href: phygital/magasins/magasins.md
+      items: 
+    - name: Vendeurs
+      href: phygital/magasins/vendeurs.md
+      items: 
+  - name: Panier et commande
+    href: phygital/panieretcommande/index.md
+    items: 
+    - name: Panier
+      href: phygital/panieretcommande/panier.md
+      items: 
+    - name: Process
+      href: phygital/panieretcommande/process.md
+      items: 
+  - name: MarketPlace
+    href: phygital/marketplace/index.md
+    items: 
+    - name: Vendeurs
+      href: phygital/marketplace/vendeurs.md
+      items: 
+  - name: Clients
+    href: phygital/clients/index.md
+    items: 
+    - name: Clients
+      href: phygital/clients/clients.md
+      items: 
+    - name: Coupons
+      href: phygital/clients/coupons.md
+      items: 
+    - name: Fidélité
+      href: phygital/clients/fidelite.md
+      items: 
+    - name: Prospects
+      href: phygital/clients/prospects.md
+      items: 
+  - name: Contenu
+    href: phygital/contenu/index.md
+    items: 
+    - name: Pages
+      href: phygital/contenu/pages.md
+      items: 
+  - name: Commercial
+    href: phygital/commercial/index.md
+    items: 
+    - name: Animation
+      href: phygital/commercial/animation.md
+      items: 
+    - name: Catalogues
+      href: phygital/commercial/catalogues.md
+      items: 
+    - name: Opt-ins/Newsletters
+      href: phygital/commercial/opt-insnewsletters.md
+      items: 
+  - name: Ventes
+    href: phygital/ventes/index.md
+    items: 
+    - name: Commandes
+      href: phygital/ventes/commandes.md
+      items: 
+  - name: Catalogue
+    href: phygital/catalogue/index.md
+    items: 
+    - name: Articles
+      href: phygital/catalogue/articles.md
+      items: 

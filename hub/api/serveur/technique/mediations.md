@@ -1,0 +1,17 @@
+# Médiations
+
+[!include[activerdefinition](mediations.activerdefinition.autogen.md)]
+
+[!include[definitions](mediations.definitions.autogen.md)]
+
+[!include[desactiverdefinition](mediations.desactiverdefinition.autogen.md)]
+
+[!include[etatdunemediation](mediations.etatdunemediation.autogen.md)]
+
+[!include[ignorer](mediations.ignorer.autogen.md)]
+
+[!include[listedesmediations](mediations.listedesmediations.autogen.md)]
+
+[!include[relancer](mediations.relancer.autogen.md)]
+
+

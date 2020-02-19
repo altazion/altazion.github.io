@@ -1,0 +1,43 @@
+## <span id='modifsimple'>Modifier une selection</span>
+
+Modifier une selection.
+
+Url :`[POST] api/catalogue/selections?data={data:VitrineEditData}`
+
+Paramètres : 
+
+- **data** (VitrineEditData) : Le détail de la vitrine
+
+Type de retour : `VitrineContentData`
+
+Type(s) de données :
+
+```csharp
+class VitrineContentData
+{
+	GestomWebApi.Catalogue.SelectionsController+ArticleDetailDansVitrineData[] Articles { get; set; }
+	Guid Guid { get; set; }
+	string Libelle { get; set; }
+	string Code { get; set; }
+	string Groupe { get; set; }
+	bool EstAutomatique { get; set; }
+	Guid? CampagneAssocieeGuid { get; set; }
+}
+
+class VitrineEditData
+{
+	Guid Guid { get; set; }
+	string Libelle { get; set; }
+	string Code { get; set; }
+	string Groupe { get; set; }
+	Guid? CampagneAssocieeGuid { get; set; }
+	GestomWebApi.Catalogue.SelectionsController+ArticleDansVitrineData[] Articles { get; set; }
+}
+
+class ArticleDansVitrineData
+{
+	Guid ArticleGuid { get; set; }
+	decimal Pertinence { get; set; }
+}
+
+```

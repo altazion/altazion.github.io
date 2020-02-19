@@ -1,0 +1,57 @@
+{
+  "metadata": [],
+  "build": {
+    "content": [
+      {
+        "files": [
+          "**/toc.yml",
+          "**.md"
+        ]
+      }
+    ],
+    "resource": [
+      {
+        "files": [
+          "index.html"
+          ,"**/images/**"
+          ,"**.jpg"
+          ,"**.jpeg"
+          ,"**.png"
+          ,"**.bmp"
+          ,"**.ico"
+          ,"**.gif"
+          ,"**.mov"
+          ,"**.mkv"
+          ,"**.mp4"
+          ,"**.pptx"
+          ,"**.css"
+          ,"**.js"
+          ,"**.ttf"
+          ,"**.woff"
+          ,"**.svg"
+        ]
+      }
+    ],
+    "overwrite": [
+      {
+        "files": [
+        ],
+        "exclude": [
+          "obj/**",
+          "_site/**"
+        ]
+      }
+    ],
+    "dest": "_site",
+    "globalMetadataFiles": [],
+    "fileMetadataFiles": [],
+    "template": [
+      "default",  "templates/altazion"
+    ],
+    "postProcessors": [],
+    "noLangKeyword": false,
+    "keepFileLink": false,
+    "cleanupCacheHistory": false,
+    "disableGitFeatures": false
+  }
+}
