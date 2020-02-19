@@ -7,7 +7,6 @@ items:
   children:
   - Altazion.ECommerce.Controls.PanelPageSpecifique.#ctor
   - Altazion.ECommerce.Controls.PanelPageSpecifique.InlineContent
-  - Altazion.ECommerce.Controls.PanelPageSpecifique.OnPreRender(EventArgs)
   - Altazion.ECommerce.Controls.PanelPageSpecifique.SaufPour
   - Altazion.ECommerce.Controls.PanelPageSpecifique.VisibiliteParDefaut
   langs:
@@ -19,7 +18,7 @@ items:
   type: Class
   source:
     remote:
-      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanelPageSpecifique.cs
+      path: C:/agent/_work/2/s/EquihiraRelease/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanelPageSpecifique.cs
     id: PanelPageSpecifique
     path: PanelPageSpecifique.cs
     startLine: 22
@@ -30,12 +29,18 @@ items:
   remarks: "\nCe controle est destiné à être placé dans une partie normalement commune à toutes les pages. Son utilisation est la suivante:\n<ul><li></li><li></li></ul>\nPour afficher une div que sur la home, par exemple : VisibiliteParDefaut=&apos;false&apos;, SaufPour=&apos;HomePage&apos;\n"
   example: []
   syntax:
-    content: 'public class PanelPageSpecifique : Panel'
+    content: 'public class PanelPageSpecifique : Panel, IComponent, IDisposable, IParserAccessor, IUrlResolutionService, IDataBindingsAccessor, IControlBuilderAccessor, IControlDesignerAccessor, IExpressionsAccessor, IAttributeAccessor'
     content.vb: >-
       Public Class PanelPageSpecifique
           Inherits Panel
+          Implements IComponent, IDisposable, IParserAccessor, IUrlResolutionService, IDataBindingsAccessor, IControlBuilderAccessor, IControlDesignerAccessor, IExpressionsAccessor, IAttributeAccessor
   inheritance:
   - System.Object
+  - System.Web.UI.Control
+  - System.Web.UI.WebControls.WebControl
+  - System.Web.UI.WebControls.Panel
+  implements:
+  - System.IDisposable
   modifiers.csharp:
   - public
   - class
@@ -55,7 +60,7 @@ items:
   type: Constructor
   source:
     remote:
-      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanelPageSpecifique.cs
+      path: C:/agent/_work/2/s/EquihiraRelease/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanelPageSpecifique.cs
     id: .ctor
     path: PanelPageSpecifique.cs
     startLine: 24
@@ -83,7 +88,7 @@ items:
   type: Property
   source:
     remote:
-      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanelPageSpecifique.cs
+      path: C:/agent/_work/2/s/EquihiraRelease/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanelPageSpecifique.cs
     id: InlineContent
     path: PanelPageSpecifique.cs
     startLine: 29
@@ -116,7 +121,7 @@ items:
   type: Property
   source:
     remote:
-      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanelPageSpecifique.cs
+      path: C:/agent/_work/2/s/EquihiraRelease/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanelPageSpecifique.cs
     id: VisibiliteParDefaut
     path: PanelPageSpecifique.cs
     startLine: 30
@@ -149,7 +154,7 @@ items:
   type: Property
   source:
     remote:
-      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanelPageSpecifique.cs
+      path: C:/agent/_work/2/s/EquihiraRelease/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanelPageSpecifique.cs
     id: SaufPour
     path: PanelPageSpecifique.cs
     startLine: 31
@@ -169,39 +174,6 @@ items:
   - set
   modifiers.vb:
   - Public
-- uid: Altazion.ECommerce.Controls.PanelPageSpecifique.OnPreRender(EventArgs)
-  commentId: M:Altazion.ECommerce.Controls.PanelPageSpecifique.OnPreRender(EventArgs)
-  id: OnPreRender(EventArgs)
-  parent: Altazion.ECommerce.Controls.PanelPageSpecifique
-  langs:
-  - csharp
-  - vb
-  name: OnPreRender(EventArgs)
-  nameWithType: PanelPageSpecifique.OnPreRender(EventArgs)
-  fullName: Altazion.ECommerce.Controls.PanelPageSpecifique.OnPreRender(EventArgs)
-  type: Method
-  source:
-    remote:
-      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanelPageSpecifique.cs
-    id: OnPreRender
-    path: PanelPageSpecifique.cs
-    startLine: 33
-  assemblies:
-  - Altazion.ECommerce.Controls
-  namespace: Altazion.ECommerce.Controls
-  syntax:
-    content: protected override void OnPreRender(EventArgs e)
-    parameters:
-    - id: e
-      type: EventArgs
-    content.vb: Protected Overrides Sub OnPreRender(e As EventArgs)
-  overload: Altazion.ECommerce.Controls.PanelPageSpecifique.OnPreRender*
-  modifiers.csharp:
-  - protected
-  - override
-  modifiers.vb:
-  - Protected
-  - Overrides
 references:
 - uid: Altazion.ECommerce.Controls
   commentId: N:Altazion.ECommerce.Controls
@@ -209,11 +181,58 @@ references:
   nameWithType: Altazion.ECommerce.Controls
   fullName: Altazion.ECommerce.Controls
 - uid: System.Object
-  commentId: '!:System.Object'
+  commentId: T:System.Object
+  parent: System
   isExternal: true
   name: Object
   nameWithType: Object
   fullName: System.Object
+- uid: System.Web.UI.Control
+  commentId: T:System.Web.UI.Control
+  parent: System.Web.UI
+  isExternal: true
+  name: Control
+  nameWithType: Control
+  fullName: System.Web.UI.Control
+- uid: System.Web.UI.WebControls.WebControl
+  commentId: T:System.Web.UI.WebControls.WebControl
+  parent: System.Web.UI.WebControls
+  isExternal: true
+  name: WebControl
+  nameWithType: WebControl
+  fullName: System.Web.UI.WebControls.WebControl
+- uid: System.Web.UI.WebControls.Panel
+  commentId: T:System.Web.UI.WebControls.Panel
+  parent: System.Web.UI.WebControls
+  isExternal: true
+  name: Panel
+  nameWithType: Panel
+  fullName: System.Web.UI.WebControls.Panel
+- uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
+  isExternal: true
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Web.UI
+  commentId: N:System.Web.UI
+  isExternal: true
+  name: System.Web.UI
+  nameWithType: System.Web.UI
+  fullName: System.Web.UI
+- uid: System.Web.UI.WebControls
+  commentId: N:System.Web.UI.WebControls
+  isExternal: true
+  name: System.Web.UI.WebControls
+  nameWithType: System.Web.UI.WebControls
+  fullName: System.Web.UI.WebControls
 - uid: Altazion.ECommerce.Controls.PanelPageSpecifique.#ctor*
   commentId: Overload:Altazion.ECommerce.Controls.PanelPageSpecifique.#ctor
   name: PanelPageSpecifique
@@ -225,6 +244,8 @@ references:
   nameWithType: PanelPageSpecifique.InlineContent
   fullName: Altazion.ECommerce.Controls.PanelPageSpecifique.InlineContent
 - uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
   isExternal: true
   name: Boolean
   nameWithType: Boolean
@@ -250,13 +271,3 @@ references:
   name: CPointSoftware.ECommerce.Tools
   nameWithType: CPointSoftware.ECommerce.Tools
   fullName: CPointSoftware.ECommerce.Tools
-- uid: Altazion.ECommerce.Controls.PanelPageSpecifique.OnPreRender*
-  commentId: Overload:Altazion.ECommerce.Controls.PanelPageSpecifique.OnPreRender
-  name: OnPreRender
-  nameWithType: PanelPageSpecifique.OnPreRender
-  fullName: Altazion.ECommerce.Controls.PanelPageSpecifique.OnPreRender
-- uid: EventArgs
-  isExternal: true
-  name: EventArgs
-  nameWithType: EventArgs
-  fullName: EventArgs

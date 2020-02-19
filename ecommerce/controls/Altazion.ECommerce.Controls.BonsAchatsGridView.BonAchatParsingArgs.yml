@@ -16,7 +16,7 @@ items:
   type: Class
   source:
     remote:
-      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/BonsAchatsControls.cs
+      path: C:/agent/_work/2/s/EquihiraRelease/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/BonsAchatsControls.cs
     id: BonAchatParsingArgs
     path: BonsAchatsControls.cs
     startLine: 260
@@ -32,6 +32,9 @@ items:
           Inherits EventArgs
   inheritance:
   - System.Object
+  - System.EventArgs
+  inheritedMembers:
+  - System.EventArgs.Empty
   modifiers.csharp:
   - public
   - class
@@ -51,7 +54,7 @@ items:
   type: Constructor
   source:
     remote:
-      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/BonsAchatsControls.cs
+      path: C:/agent/_work/2/s/EquihiraRelease/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/BonsAchatsControls.cs
     id: .ctor
     path: BonsAchatsControls.cs
     startLine: 267
@@ -85,7 +88,7 @@ items:
   type: Property
   source:
     remote:
-      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/BonsAchatsControls.cs
+      path: C:/agent/_work/2/s/EquihiraRelease/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/BonsAchatsControls.cs
     id: BonAchat
     path: BonsAchatsControls.cs
     startLine: 275
@@ -117,11 +120,32 @@ references:
   nameWithType: Altazion.ECommerce.Controls
   fullName: Altazion.ECommerce.Controls
 - uid: System.Object
-  commentId: '!:System.Object'
+  commentId: T:System.Object
+  parent: System
   isExternal: true
   name: Object
   nameWithType: Object
   fullName: System.Object
+- uid: System.EventArgs
+  commentId: T:System.EventArgs
+  parent: System
+  isExternal: true
+  name: EventArgs
+  nameWithType: EventArgs
+  fullName: System.EventArgs
+- uid: System.EventArgs.Empty
+  commentId: F:System.EventArgs.Empty
+  parent: System.EventArgs
+  isExternal: true
+  name: Empty
+  nameWithType: EventArgs.Empty
+  fullName: System.EventArgs.Empty
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: Altazion.ECommerce.Controls.BonsAchatsGridView.BonAchatParsingArgs
   commentId: T:Altazion.ECommerce.Controls.BonsAchatsGridView.BonAchatParsingArgs
   parent: Altazion.ECommerce.Controls

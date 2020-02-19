@@ -26,7 +26,7 @@ items:
   type: Class
   source:
     remote:
-      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/BonsAchatsControls.cs
+      path: C:/agent/_work/2/s/EquihiraRelease/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/BonsAchatsControls.cs
     id: BonAchatData
     path: BonsAchatsControls.cs
     startLine: 327
@@ -36,12 +36,34 @@ items:
   summary: "\nReprésente un bon d&apos;achat pour affichage dans\nle contrôle de règlement par bon d&apos;achat\n"
   example: []
   syntax:
-    content: 'public class BonAchatData : IComparable'
+    content: >-
+      [Obsolete("Cette classe est obsolète. Utilisez la classe ReglementDedie du namespace CPointSoftware.Equihira.Extensibility.Process", false)]
+
+      [Serializable]
+
+      public class BonAchatData : IComparable
     content.vb: >-
+      <Obsolete("Cette classe est obsolète. Utilisez la classe ReglementDedie du namespace CPointSoftware.Equihira.Extensibility.Process", False)>
+
+      <Serializable>
+
       Public Class BonAchatData
-          Inherits IComparable
+          Implements IComparable
   inheritance:
   - System.Object
+  implements:
+  - System.IComparable
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor(System.String,System.Boolean)
+    arguments:
+    - type: System.String
+      value: Cette classe est obsolète. Utilisez la classe ReglementDedie du namespace CPointSoftware.Equihira.Extensibility.Process
+    - type: System.Boolean
+      value: false
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
   modifiers.csharp:
   - public
   - class
@@ -61,7 +83,7 @@ items:
   type: Property
   source:
     remote:
-      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/BonsAchatsControls.cs
+      path: C:/agent/_work/2/s/EquihiraRelease/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/BonsAchatsControls.cs
     id: Guid
     path: BonsAchatsControls.cs
     startLine: 334
@@ -74,7 +96,7 @@ items:
     content: public Guid Guid { get; set; }
     parameters: []
     return:
-      type: Guid
+      type: System.Guid
     content.vb: Public Property Guid As Guid
   overload: Altazion.ECommerce.Controls.BonsAchatsGridView.BonAchatData.Guid*
   modifiers.csharp:
@@ -96,7 +118,7 @@ items:
   type: Property
   source:
     remote:
-      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/BonsAchatsControls.cs
+      path: C:/agent/_work/2/s/EquihiraRelease/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/BonsAchatsControls.cs
     id: EstUtilisable
     path: BonsAchatsControls.cs
     startLine: 340
@@ -131,7 +153,7 @@ items:
   type: Property
   source:
     remote:
-      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/BonsAchatsControls.cs
+      path: C:/agent/_work/2/s/EquihiraRelease/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/BonsAchatsControls.cs
     id: Libelle
     path: BonsAchatsControls.cs
     startLine: 345
@@ -166,7 +188,7 @@ items:
   type: Property
   source:
     remote:
-      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/BonsAchatsControls.cs
+      path: C:/agent/_work/2/s/EquihiraRelease/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/BonsAchatsControls.cs
     id: Conditions
     path: BonsAchatsControls.cs
     startLine: 350
@@ -201,7 +223,7 @@ items:
   type: Property
   source:
     remote:
-      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/BonsAchatsControls.cs
+      path: C:/agent/_work/2/s/EquihiraRelease/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/BonsAchatsControls.cs
     id: LimitesArticles
     path: BonsAchatsControls.cs
     startLine: 355
@@ -236,7 +258,7 @@ items:
   type: Property
   source:
     remote:
-      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/BonsAchatsControls.cs
+      path: C:/agent/_work/2/s/EquihiraRelease/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/BonsAchatsControls.cs
     id: Groupe
     path: BonsAchatsControls.cs
     startLine: 362
@@ -275,7 +297,7 @@ items:
   type: Property
   source:
     remote:
-      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/BonsAchatsControls.cs
+      path: C:/agent/_work/2/s/EquihiraRelease/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/BonsAchatsControls.cs
     id: EstUtilise
     path: BonsAchatsControls.cs
     startLine: 368
@@ -310,7 +332,7 @@ items:
   type: Property
   source:
     remote:
-      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/BonsAchatsControls.cs
+      path: C:/agent/_work/2/s/EquihiraRelease/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/BonsAchatsControls.cs
     id: Montant
     path: BonsAchatsControls.cs
     startLine: 373
@@ -345,7 +367,7 @@ items:
   type: Property
   source:
     remote:
-      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/BonsAchatsControls.cs
+      path: C:/agent/_work/2/s/EquihiraRelease/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/BonsAchatsControls.cs
     id: MontantOriginal
     path: BonsAchatsControls.cs
     startLine: 378
@@ -380,7 +402,7 @@ items:
   type: Property
   source:
     remote:
-      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/BonsAchatsControls.cs
+      path: C:/agent/_work/2/s/EquihiraRelease/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/BonsAchatsControls.cs
     id: EstLimiteArticle
     path: BonsAchatsControls.cs
     startLine: 385
@@ -415,7 +437,7 @@ items:
   type: Property
   source:
     remote:
-      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/BonsAchatsControls.cs
+      path: C:/agent/_work/2/s/EquihiraRelease/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/BonsAchatsControls.cs
     id: DateMaxUtilisation
     path: BonsAchatsControls.cs
     startLine: 391
@@ -428,8 +450,8 @@ items:
     content: public DateTime DateMaxUtilisation { get; set; }
     parameters: []
     return:
-      type: DateTime
-    content.vb: Public Property DateMaxUtilisation As DateTime
+      type: System.DateTime
+    content.vb: Public Property DateMaxUtilisation As Date
   overload: Altazion.ECommerce.Controls.BonsAchatsGridView.BonAchatData.DateMaxUtilisation*
   modifiers.csharp:
   - public
@@ -450,7 +472,7 @@ items:
   type: Property
   source:
     remote:
-      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/BonsAchatsControls.cs
+      path: C:/agent/_work/2/s/EquihiraRelease/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/BonsAchatsControls.cs
     id: DateMinUtilisation
     path: BonsAchatsControls.cs
     startLine: 397
@@ -463,8 +485,8 @@ items:
     content: public DateTime DateMinUtilisation { get; set; }
     parameters: []
     return:
-      type: DateTime
-    content.vb: Public Property DateMinUtilisation As DateTime
+      type: System.DateTime
+    content.vb: Public Property DateMinUtilisation As Date
   overload: Altazion.ECommerce.Controls.BonsAchatsGridView.BonAchatData.DateMinUtilisation*
   modifiers.csharp:
   - public
@@ -479,27 +501,45 @@ references:
   nameWithType: Altazion.ECommerce.Controls
   fullName: Altazion.ECommerce.Controls
 - uid: System.Object
-  commentId: '!:System.Object'
+  commentId: T:System.Object
+  parent: System
   isExternal: true
   name: Object
   nameWithType: Object
   fullName: System.Object
+- uid: System.IComparable
+  commentId: T:System.IComparable
+  parent: System
+  isExternal: true
+  name: IComparable
+  nameWithType: IComparable
+  fullName: System.IComparable
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: Altazion.ECommerce.Controls.BonsAchatsGridView.BonAchatData.Guid*
   commentId: Overload:Altazion.ECommerce.Controls.BonsAchatsGridView.BonAchatData.Guid
   name: Guid
   nameWithType: BonsAchatsGridView.BonAchatData.Guid
   fullName: Altazion.ECommerce.Controls.BonsAchatsGridView.BonAchatData.Guid
-- uid: Guid
+- uid: System.Guid
+  commentId: T:System.Guid
+  parent: System
   isExternal: true
   name: Guid
   nameWithType: Guid
-  fullName: Guid
+  fullName: System.Guid
 - uid: Altazion.ECommerce.Controls.BonsAchatsGridView.BonAchatData.EstUtilisable*
   commentId: Overload:Altazion.ECommerce.Controls.BonsAchatsGridView.BonAchatData.EstUtilisable
   name: EstUtilisable
   nameWithType: BonsAchatsGridView.BonAchatData.EstUtilisable
   fullName: Altazion.ECommerce.Controls.BonsAchatsGridView.BonAchatData.EstUtilisable
 - uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
   isExternal: true
   name: Boolean
   nameWithType: Boolean
@@ -510,6 +550,8 @@ references:
   nameWithType: BonsAchatsGridView.BonAchatData.Libelle
   fullName: Altazion.ECommerce.Controls.BonsAchatsGridView.BonAchatData.Libelle
 - uid: System.String
+  commentId: T:System.String
+  parent: System
   isExternal: true
   name: String
   nameWithType: String
@@ -540,6 +582,8 @@ references:
   nameWithType: BonsAchatsGridView.BonAchatData.Montant
   fullName: Altazion.ECommerce.Controls.BonsAchatsGridView.BonAchatData.Montant
 - uid: System.Decimal
+  commentId: T:System.Decimal
+  parent: System
   isExternal: true
   name: Decimal
   nameWithType: Decimal
@@ -559,11 +603,13 @@ references:
   name: DateMaxUtilisation
   nameWithType: BonsAchatsGridView.BonAchatData.DateMaxUtilisation
   fullName: Altazion.ECommerce.Controls.BonsAchatsGridView.BonAchatData.DateMaxUtilisation
-- uid: DateTime
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
   isExternal: true
   name: DateTime
   nameWithType: DateTime
-  fullName: DateTime
+  fullName: System.DateTime
 - uid: Altazion.ECommerce.Controls.BonsAchatsGridView.BonAchatData.DateMinUtilisation*
   commentId: Overload:Altazion.ECommerce.Controls.BonsAchatsGridView.BonAchatData.DateMinUtilisation
   name: DateMinUtilisation

@@ -19,7 +19,7 @@ items:
   type: Enum
   source:
     remote:
-      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/ProductLabels.cs
+      path: C:/agent/_work/2/s/EquihiraRelease/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/ProductLabels.cs
     id: Dimension
     path: ProductLabels.cs
     startLine: 1902
@@ -27,8 +27,8 @@ items:
   - Altazion.ECommerce.Controls
   namespace: Altazion.ECommerce.Controls
   syntax:
-    content: 'public enum Dimension : int'
-    content.vb: Public Enum Dimension As Integer
+    content: public enum Dimension
+    content.vb: Public Enum Dimension
   modifiers.csharp:
   - public
   - enum
@@ -48,7 +48,7 @@ items:
   type: Field
   source:
     remote:
-      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/ProductLabels.cs
+      path: C:/agent/_work/2/s/EquihiraRelease/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/ProductLabels.cs
     id: Largeur
     path: ProductLabels.cs
     startLine: 1904
@@ -78,7 +78,7 @@ items:
   type: Field
   source:
     remote:
-      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/ProductLabels.cs
+      path: C:/agent/_work/2/s/EquihiraRelease/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/ProductLabels.cs
     id: Hauteur
     path: ProductLabels.cs
     startLine: 1905
@@ -108,7 +108,7 @@ items:
   type: Field
   source:
     remote:
-      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/ProductLabels.cs
+      path: C:/agent/_work/2/s/EquihiraRelease/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/ProductLabels.cs
     id: Profondeur
     path: ProductLabels.cs
     startLine: 1906
@@ -138,7 +138,7 @@ items:
   type: Field
   source:
     remote:
-      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/ProductLabels.cs
+      path: C:/agent/_work/2/s/EquihiraRelease/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/ProductLabels.cs
     id: PoidsEnKg
     path: ProductLabels.cs
     startLine: 1907
@@ -168,7 +168,7 @@ items:
   type: Field
   source:
     remote:
-      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/ProductLabels.cs
+      path: C:/agent/_work/2/s/EquihiraRelease/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/ProductLabels.cs
     id: PoidsEnG
     path: ProductLabels.cs
     startLine: 1908

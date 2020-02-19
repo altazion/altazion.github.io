@@ -7,7 +7,7 @@ items:
   children:
   - Altazion.ECommerce.Controls.BonsAchatsAjouterLink.AjoutImpossible
   - Altazion.ECommerce.Controls.BonsAchatsAjouterLink.BonsAchatsAjoute
-  - Altazion.ECommerce.Controls.BonsAchatsAjouterLink.OnClick(EventArgs)
+  - Altazion.ECommerce.Controls.BonsAchatsAjouterLink.OnClick(System.EventArgs)
   - Altazion.ECommerce.Controls.BonsAchatsAjouterLink.TextboxID
   langs:
   - csharp
@@ -18,7 +18,7 @@ items:
   type: Class
   source:
     remote:
-      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/BonsAchatsControls.cs
+      path: C:/agent/_work/2/s/EquihiraRelease/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/BonsAchatsControls.cs
     id: BonsAchatsAjouterLink
     path: BonsAchatsControls.cs
     startLine: 94
@@ -32,12 +32,18 @@ items:
     personnalisé <pre><code>BonsAchatsSelectionnables.ascx</code></pre>
   example: []
   syntax:
-    content: 'public class BonsAchatsAjouterLink : LinkButton'
+    content: 'public class BonsAchatsAjouterLink : LinkButton, IComponent, IDisposable, IParserAccessor, IUrlResolutionService, IDataBindingsAccessor, IControlBuilderAccessor, IControlDesignerAccessor, IExpressionsAccessor, IAttributeAccessor, IButtonControl, IPostBackEventHandler'
     content.vb: >-
       Public Class BonsAchatsAjouterLink
           Inherits LinkButton
+          Implements IComponent, IDisposable, IParserAccessor, IUrlResolutionService, IDataBindingsAccessor, IControlBuilderAccessor, IControlDesignerAccessor, IExpressionsAccessor, IAttributeAccessor, IButtonControl, IPostBackEventHandler
   inheritance:
   - System.Object
+  - System.Web.UI.Control
+  - System.Web.UI.WebControls.WebControl
+  - System.Web.UI.WebControls.LinkButton
+  implements:
+  - System.IDisposable
   modifiers.csharp:
   - public
   - class
@@ -57,16 +63,16 @@ items:
   type: Property
   source:
     remote:
-      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/BonsAchatsControls.cs
+      path: C:/agent/_work/2/s/EquihiraRelease/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/BonsAchatsControls.cs
     id: TextboxID
     path: BonsAchatsControls.cs
     startLine: 139
   assemblies:
   - Altazion.ECommerce.Controls
   namespace: Altazion.ECommerce.Controls
-  summary: "\nObtient ou définit l&apos;identifiant de la <see cref=\"!:System.Web.UI.WebControls.TextBox\"></see>\ndans laquelle sera saisi le code du bon d&apos;achat à ajouter\n"
+  summary: "\nObtient ou définit l&apos;identifiant de la <xref href=\"System.Web.UI.WebControls.TextBox\" data-throw-if-not-resolved=\"false\"></xref>\ndans laquelle sera saisi le code du bon d&apos;achat à ajouter\n"
   remarks: >-
-    La <see cref="!:System.Web.UI.WebControls.TextBox"></see> pointée doit être
+    La <xref href="System.Web.UI.WebControls.TextBox" data-throw-if-not-resolved="false"></xref> pointée doit être
 
     dans le même espace de nommage que ce contrôle
   example: []
@@ -96,7 +102,7 @@ items:
   type: Event
   source:
     remote:
-      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/BonsAchatsControls.cs
+      path: C:/agent/_work/2/s/EquihiraRelease/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/BonsAchatsControls.cs
     id: BonsAchatsAjoute
     path: BonsAchatsControls.cs
     startLine: 160
@@ -108,7 +114,7 @@ items:
   syntax:
     content: public event EventHandler<BonsAchatsAjouterLink.BonsAchatsAjoutAjouteEventArgs> BonsAchatsAjoute
     return:
-      type: EventHandler{Altazion.ECommerce.Controls.BonsAchatsAjouterLink.BonsAchatsAjoutAjouteEventArgs}
+      type: System.EventHandler{Altazion.ECommerce.Controls.BonsAchatsAjouterLink.BonsAchatsAjoutAjouteEventArgs}
     content.vb: Public Event BonsAchatsAjoute As EventHandler(Of BonsAchatsAjouterLink.BonsAchatsAjoutAjouteEventArgs)
   modifiers.csharp:
   - public
@@ -127,7 +133,7 @@ items:
   type: Event
   source:
     remote:
-      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/BonsAchatsControls.cs
+      path: C:/agent/_work/2/s/EquihiraRelease/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/BonsAchatsControls.cs
     id: AjoutImpossible
     path: BonsAchatsControls.cs
     startLine: 176
@@ -139,26 +145,26 @@ items:
   syntax:
     content: public event EventHandler<BonsAchatsAjouterLink.BonsAchatsAjoutImpossibleEventArgs> AjoutImpossible
     return:
-      type: EventHandler{Altazion.ECommerce.Controls.BonsAchatsAjouterLink.BonsAchatsAjoutImpossibleEventArgs}
+      type: System.EventHandler{Altazion.ECommerce.Controls.BonsAchatsAjouterLink.BonsAchatsAjoutImpossibleEventArgs}
     content.vb: Public Event AjoutImpossible As EventHandler(Of BonsAchatsAjouterLink.BonsAchatsAjoutImpossibleEventArgs)
   modifiers.csharp:
   - public
   modifiers.vb:
   - Public
-- uid: Altazion.ECommerce.Controls.BonsAchatsAjouterLink.OnClick(EventArgs)
-  commentId: M:Altazion.ECommerce.Controls.BonsAchatsAjouterLink.OnClick(EventArgs)
-  id: OnClick(EventArgs)
+- uid: Altazion.ECommerce.Controls.BonsAchatsAjouterLink.OnClick(System.EventArgs)
+  commentId: M:Altazion.ECommerce.Controls.BonsAchatsAjouterLink.OnClick(System.EventArgs)
+  id: OnClick(System.EventArgs)
   parent: Altazion.ECommerce.Controls.BonsAchatsAjouterLink
   langs:
   - csharp
   - vb
   name: OnClick(EventArgs)
   nameWithType: BonsAchatsAjouterLink.OnClick(EventArgs)
-  fullName: Altazion.ECommerce.Controls.BonsAchatsAjouterLink.OnClick(EventArgs)
+  fullName: Altazion.ECommerce.Controls.BonsAchatsAjouterLink.OnClick(System.EventArgs)
   type: Method
   source:
     remote:
-      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/BonsAchatsControls.cs
+      path: C:/agent/_work/2/s/EquihiraRelease/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/BonsAchatsControls.cs
     id: OnClick
     path: BonsAchatsControls.cs
     startLine: 194
@@ -171,10 +177,15 @@ items:
     content: protected override void OnClick(EventArgs e)
     parameters:
     - id: e
-      type: EventArgs
+      type: System.EventArgs
       description: <xref href="System.EventArgs" data-throw-if-not-resolved="false"></xref> qui contient les données d&apos;événement.
     content.vb: Protected Overrides Sub OnClick(e As EventArgs)
+  overridden: System.Web.UI.WebControls.LinkButton.OnClick(System.EventArgs)
   overload: Altazion.ECommerce.Controls.BonsAchatsAjouterLink.OnClick*
+  exceptions:
+  - type: System.ApplicationException
+    commentId: T:System.ApplicationException
+    description: Le controle  + _textboxId +  est introuvable
   modifiers.csharp:
   - protected
   - override
@@ -191,35 +202,88 @@ references:
   nameWithType: Altazion.ECommerce.Controls
   fullName: Altazion.ECommerce.Controls
 - uid: System.Object
-  commentId: '!:System.Object'
+  commentId: T:System.Object
+  parent: System
   isExternal: true
   name: Object
   nameWithType: Object
   fullName: System.Object
+- uid: System.Web.UI.Control
+  commentId: T:System.Web.UI.Control
+  parent: System.Web.UI
+  isExternal: true
+  name: Control
+  nameWithType: Control
+  fullName: System.Web.UI.Control
+- uid: System.Web.UI.WebControls.WebControl
+  commentId: T:System.Web.UI.WebControls.WebControl
+  parent: System.Web.UI.WebControls
+  isExternal: true
+  name: WebControl
+  nameWithType: WebControl
+  fullName: System.Web.UI.WebControls.WebControl
+- uid: System.Web.UI.WebControls.LinkButton
+  commentId: T:System.Web.UI.WebControls.LinkButton
+  parent: System.Web.UI.WebControls
+  isExternal: true
+  name: LinkButton
+  nameWithType: LinkButton
+  fullName: System.Web.UI.WebControls.LinkButton
+- uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
+  isExternal: true
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Web.UI
+  commentId: N:System.Web.UI
+  isExternal: true
+  name: System.Web.UI
+  nameWithType: System.Web.UI
+  fullName: System.Web.UI
+- uid: System.Web.UI.WebControls
+  commentId: N:System.Web.UI.WebControls
+  isExternal: true
+  name: System.Web.UI.WebControls
+  nameWithType: System.Web.UI.WebControls
+  fullName: System.Web.UI.WebControls
+- uid: System.Web.UI.WebControls.TextBox
+  commentId: T:System.Web.UI.WebControls.TextBox
+  isExternal: true
 - uid: Altazion.ECommerce.Controls.BonsAchatsAjouterLink.TextboxID*
   commentId: Overload:Altazion.ECommerce.Controls.BonsAchatsAjouterLink.TextboxID
   name: TextboxID
   nameWithType: BonsAchatsAjouterLink.TextboxID
   fullName: Altazion.ECommerce.Controls.BonsAchatsAjouterLink.TextboxID
 - uid: System.String
+  commentId: T:System.String
+  parent: System
   isExternal: true
   name: String
   nameWithType: String
   fullName: System.String
-- uid: EventHandler{Altazion.ECommerce.Controls.BonsAchatsAjouterLink.BonsAchatsAjoutAjouteEventArgs}
-  commentId: '!:EventHandler{Altazion.ECommerce.Controls.BonsAchatsAjouterLink.BonsAchatsAjoutAjouteEventArgs}'
-  definition: EventHandler`1
+- uid: System.EventHandler{Altazion.ECommerce.Controls.BonsAchatsAjouterLink.BonsAchatsAjoutAjouteEventArgs}
+  commentId: T:System.EventHandler{Altazion.ECommerce.Controls.BonsAchatsAjouterLink.BonsAchatsAjoutAjouteEventArgs}
+  parent: System
+  definition: System.EventHandler`1
   name: EventHandler<BonsAchatsAjouterLink.BonsAchatsAjoutAjouteEventArgs>
   nameWithType: EventHandler<BonsAchatsAjouterLink.BonsAchatsAjoutAjouteEventArgs>
-  fullName: EventHandler<Altazion.ECommerce.Controls.BonsAchatsAjouterLink.BonsAchatsAjoutAjouteEventArgs>
+  fullName: System.EventHandler<Altazion.ECommerce.Controls.BonsAchatsAjouterLink.BonsAchatsAjoutAjouteEventArgs>
   nameWithType.vb: EventHandler(Of BonsAchatsAjouterLink.BonsAchatsAjoutAjouteEventArgs)
-  fullName.vb: EventHandler(Of Altazion.ECommerce.Controls.BonsAchatsAjouterLink.BonsAchatsAjoutAjouteEventArgs)
+  fullName.vb: System.EventHandler(Of Altazion.ECommerce.Controls.BonsAchatsAjouterLink.BonsAchatsAjoutAjouteEventArgs)
   name.vb: EventHandler(Of BonsAchatsAjouterLink.BonsAchatsAjoutAjouteEventArgs)
   spec.csharp:
-  - uid: EventHandler`1
+  - uid: System.EventHandler`1
     name: EventHandler
     nameWithType: EventHandler
-    fullName: EventHandler
+    fullName: System.EventHandler
     isExternal: true
   - name: <
     nameWithType: <
@@ -232,10 +296,10 @@ references:
     nameWithType: '>'
     fullName: '>'
   spec.vb:
-  - uid: EventHandler`1
+  - uid: System.EventHandler`1
     name: EventHandler
     nameWithType: EventHandler
-    fullName: EventHandler
+    fullName: System.EventHandler
     isExternal: true
   - name: '(Of '
     nameWithType: '(Of '
@@ -247,58 +311,60 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: EventHandler`1
+- uid: System.EventHandler`1
+  commentId: T:System.EventHandler`1
   isExternal: true
-  name: EventHandler<>
-  nameWithType: EventHandler<>
-  fullName: EventHandler<>
-  nameWithType.vb: EventHandler(Of )
-  fullName.vb: EventHandler(Of )
-  name.vb: EventHandler(Of )
+  name: EventHandler<TEventArgs>
+  nameWithType: EventHandler<TEventArgs>
+  fullName: System.EventHandler<TEventArgs>
+  nameWithType.vb: EventHandler(Of TEventArgs)
+  fullName.vb: System.EventHandler(Of TEventArgs)
+  name.vb: EventHandler(Of TEventArgs)
   spec.csharp:
-  - uid: EventHandler`1
+  - uid: System.EventHandler`1
     name: EventHandler
     nameWithType: EventHandler
-    fullName: EventHandler
+    fullName: System.EventHandler
     isExternal: true
   - name: <
     nameWithType: <
     fullName: <
-  - name: ''
-    nameWithType: ''
-    fullName: ''
+  - name: TEventArgs
+    nameWithType: TEventArgs
+    fullName: TEventArgs
   - name: '>'
     nameWithType: '>'
     fullName: '>'
   spec.vb:
-  - uid: EventHandler`1
+  - uid: System.EventHandler`1
     name: EventHandler
     nameWithType: EventHandler
-    fullName: EventHandler
+    fullName: System.EventHandler
     isExternal: true
   - name: '(Of '
     nameWithType: '(Of '
     fullName: '(Of '
-  - name: ''
-    nameWithType: ''
-    fullName: ''
+  - name: TEventArgs
+    nameWithType: TEventArgs
+    fullName: TEventArgs
   - name: )
     nameWithType: )
     fullName: )
-- uid: EventHandler{Altazion.ECommerce.Controls.BonsAchatsAjouterLink.BonsAchatsAjoutImpossibleEventArgs}
-  commentId: '!:EventHandler{Altazion.ECommerce.Controls.BonsAchatsAjouterLink.BonsAchatsAjoutImpossibleEventArgs}'
-  definition: EventHandler`1
+- uid: System.EventHandler{Altazion.ECommerce.Controls.BonsAchatsAjouterLink.BonsAchatsAjoutImpossibleEventArgs}
+  commentId: T:System.EventHandler{Altazion.ECommerce.Controls.BonsAchatsAjouterLink.BonsAchatsAjoutImpossibleEventArgs}
+  parent: System
+  definition: System.EventHandler`1
   name: EventHandler<BonsAchatsAjouterLink.BonsAchatsAjoutImpossibleEventArgs>
   nameWithType: EventHandler<BonsAchatsAjouterLink.BonsAchatsAjoutImpossibleEventArgs>
-  fullName: EventHandler<Altazion.ECommerce.Controls.BonsAchatsAjouterLink.BonsAchatsAjoutImpossibleEventArgs>
+  fullName: System.EventHandler<Altazion.ECommerce.Controls.BonsAchatsAjouterLink.BonsAchatsAjoutImpossibleEventArgs>
   nameWithType.vb: EventHandler(Of BonsAchatsAjouterLink.BonsAchatsAjoutImpossibleEventArgs)
-  fullName.vb: EventHandler(Of Altazion.ECommerce.Controls.BonsAchatsAjouterLink.BonsAchatsAjoutImpossibleEventArgs)
+  fullName.vb: System.EventHandler(Of Altazion.ECommerce.Controls.BonsAchatsAjouterLink.BonsAchatsAjoutImpossibleEventArgs)
   name.vb: EventHandler(Of BonsAchatsAjouterLink.BonsAchatsAjoutImpossibleEventArgs)
   spec.csharp:
-  - uid: EventHandler`1
+  - uid: System.EventHandler`1
     name: EventHandler
     nameWithType: EventHandler
-    fullName: EventHandler
+    fullName: System.EventHandler
     isExternal: true
   - name: <
     nameWithType: <
@@ -311,10 +377,10 @@ references:
     nameWithType: '>'
     fullName: '>'
   spec.vb:
-  - uid: EventHandler`1
+  - uid: System.EventHandler`1
     name: EventHandler
     nameWithType: EventHandler
-    fullName: EventHandler
+    fullName: System.EventHandler
     isExternal: true
   - name: '(Of '
     nameWithType: '(Of '
@@ -329,19 +395,59 @@ references:
 - uid: System.Web.UI.WebControls.LinkButton.Click
   commentId: E:System.Web.UI.WebControls.LinkButton.Click
   isExternal: true
-- uid: System.Web.UI.WebControls.LinkButton
-  commentId: T:System.Web.UI.WebControls.LinkButton
-  isExternal: true
 - uid: System.EventArgs
   commentId: T:System.EventArgs
+  parent: System
   isExternal: true
+  name: EventArgs
+  nameWithType: EventArgs
+  fullName: System.EventArgs
+- uid: System.ApplicationException
+  commentId: T:System.ApplicationException
+  isExternal: true
+- uid: System.Web.UI.WebControls.LinkButton.OnClick(System.EventArgs)
+  commentId: M:System.Web.UI.WebControls.LinkButton.OnClick(System.EventArgs)
+  parent: System.Web.UI.WebControls.LinkButton
+  isExternal: true
+  name: OnClick(EventArgs)
+  nameWithType: LinkButton.OnClick(EventArgs)
+  fullName: System.Web.UI.WebControls.LinkButton.OnClick(System.EventArgs)
+  spec.csharp:
+  - uid: System.Web.UI.WebControls.LinkButton.OnClick(System.EventArgs)
+    name: OnClick
+    nameWithType: LinkButton.OnClick
+    fullName: System.Web.UI.WebControls.LinkButton.OnClick
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.EventArgs
+    name: EventArgs
+    nameWithType: EventArgs
+    fullName: System.EventArgs
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Web.UI.WebControls.LinkButton.OnClick(System.EventArgs)
+    name: OnClick
+    nameWithType: LinkButton.OnClick
+    fullName: System.Web.UI.WebControls.LinkButton.OnClick
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.EventArgs
+    name: EventArgs
+    nameWithType: EventArgs
+    fullName: System.EventArgs
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: Altazion.ECommerce.Controls.BonsAchatsAjouterLink.OnClick*
   commentId: Overload:Altazion.ECommerce.Controls.BonsAchatsAjouterLink.OnClick
   name: OnClick
   nameWithType: BonsAchatsAjouterLink.OnClick
   fullName: Altazion.ECommerce.Controls.BonsAchatsAjouterLink.OnClick
-- uid: EventArgs
-  isExternal: true
-  name: EventArgs
-  nameWithType: EventArgs
-  fullName: EventArgs

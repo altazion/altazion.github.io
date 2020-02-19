@@ -22,7 +22,7 @@ items:
   type: Class
   source:
     remote:
-      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/ProductLabels.cs
+      path: C:/agent/_work/2/s/EquihiraRelease/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/ProductLabels.cs
     id: ProduitPrixValeurPromo
     path: ProductLabels.cs
     startLine: 1366
@@ -32,14 +32,18 @@ items:
   summary: "\nA utiliser dans un contrôle bindé sur un produit : affiche un span\navec le valeur ou le pourcentage de la promo \n"
   example: []
   syntax:
-    content: 'public class ProduitPrixValeurPromo : Label, IEquihiraBindable'
+    content: 'public class ProduitPrixValeurPromo : Label, IComponent, IDisposable, IParserAccessor, IUrlResolutionService, IDataBindingsAccessor, IControlBuilderAccessor, IControlDesignerAccessor, IExpressionsAccessor, IAttributeAccessor, ITextControl, IEquihiraBindable'
     content.vb: >-
       Public Class ProduitPrixValeurPromo
           Inherits Label
-          Implements IEquihiraBindable
+          Implements IComponent, IDisposable, IParserAccessor, IUrlResolutionService, IDataBindingsAccessor, IControlBuilderAccessor, IControlDesignerAccessor, IExpressionsAccessor, IAttributeAccessor, ITextControl, IEquihiraBindable
   inheritance:
   - System.Object
+  - System.Web.UI.Control
+  - System.Web.UI.WebControls.WebControl
+  - System.Web.UI.WebControls.Label
   implements:
+  - System.IDisposable
   - CPointSoftware.ECommerce.Tools.IEquihiraBindable
   modifiers.csharp:
   - public
@@ -60,7 +64,7 @@ items:
   type: Property
   source:
     remote:
-      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/ProductLabels.cs
+      path: C:/agent/_work/2/s/EquihiraRelease/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/ProductLabels.cs
     id: AssocierAuMagasin
     path: ProductLabels.cs
     startLine: 1369
@@ -93,7 +97,7 @@ items:
   type: Property
   source:
     remote:
-      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/ProductLabels.cs
+      path: C:/agent/_work/2/s/EquihiraRelease/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/ProductLabels.cs
     id: FormatPrix
     path: ProductLabels.cs
     startLine: 1379
@@ -101,12 +105,24 @@ items:
   - Altazion.ECommerce.Controls
   namespace: Altazion.ECommerce.Controls
   syntax:
-    content: public string FormatPrix { get; set; }
+    content: >-
+      [Browsable(true)]
+
+      public string FormatPrix { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: Public Property FormatPrix As String
+    content.vb: >-
+      <Browsable(True)>
+
+      Public Property FormatPrix As String
   overload: Altazion.ECommerce.Controls.ProduitPrixValeurPromo.FormatPrix*
+  attributes:
+  - type: System.ComponentModel.BrowsableAttribute
+    ctor: System.ComponentModel.BrowsableAttribute.#ctor(System.Boolean)
+    arguments:
+    - type: System.Boolean
+      value: true
   modifiers.csharp:
   - public
   - get
@@ -126,7 +142,7 @@ items:
   type: Property
   source:
     remote:
-      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/ProductLabels.cs
+      path: C:/agent/_work/2/s/EquihiraRelease/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/ProductLabels.cs
     id: FormatSiMultiTarif
     path: ProductLabels.cs
     startLine: 1386
@@ -159,7 +175,7 @@ items:
   type: Property
   source:
     remote:
-      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/ProductLabels.cs
+      path: C:/agent/_work/2/s/EquihiraRelease/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/ProductLabels.cs
     id: FormatPourcentage
     path: ProductLabels.cs
     startLine: 1389
@@ -167,12 +183,24 @@ items:
   - Altazion.ECommerce.Controls
   namespace: Altazion.ECommerce.Controls
   syntax:
-    content: public string FormatPourcentage { get; set; }
+    content: >-
+      [Browsable(true)]
+
+      public string FormatPourcentage { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: Public Property FormatPourcentage As String
+    content.vb: >-
+      <Browsable(True)>
+
+      Public Property FormatPourcentage As String
   overload: Altazion.ECommerce.Controls.ProduitPrixValeurPromo.FormatPourcentage*
+  attributes:
+  - type: System.ComponentModel.BrowsableAttribute
+    ctor: System.ComponentModel.BrowsableAttribute.#ctor(System.Boolean)
+    arguments:
+    - type: System.Boolean
+      value: true
   modifiers.csharp:
   - public
   - get
@@ -192,7 +220,7 @@ items:
   type: Property
   source:
     remote:
-      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/ProductLabels.cs
+      path: C:/agent/_work/2/s/EquihiraRelease/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/ProductLabels.cs
     id: TypeAffichage
     path: ProductLabels.cs
     startLine: 1397
@@ -200,12 +228,24 @@ items:
   - Altazion.ECommerce.Controls
   namespace: Altazion.ECommerce.Controls
   syntax:
-    content: public ProduitPrixValeurPromo.TypeAffichePromo TypeAffichage { get; set; }
+    content: >-
+      [Browsable(true)]
+
+      public ProduitPrixValeurPromo.TypeAffichePromo TypeAffichage { get; set; }
     parameters: []
     return:
       type: Altazion.ECommerce.Controls.ProduitPrixValeurPromo.TypeAffichePromo
-    content.vb: Public Property TypeAffichage As ProduitPrixValeurPromo.TypeAffichePromo
+    content.vb: >-
+      <Browsable(True)>
+
+      Public Property TypeAffichage As ProduitPrixValeurPromo.TypeAffichePromo
   overload: Altazion.ECommerce.Controls.ProduitPrixValeurPromo.TypeAffichage*
+  attributes:
+  - type: System.ComponentModel.BrowsableAttribute
+    ctor: System.ComponentModel.BrowsableAttribute.#ctor(System.Boolean)
+    arguments:
+    - type: System.Boolean
+      value: true
   modifiers.csharp:
   - public
   - get
@@ -225,7 +265,7 @@ items:
   type: Property
   source:
     remote:
-      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/ProductLabels.cs
+      path: C:/agent/_work/2/s/EquihiraRelease/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/ProductLabels.cs
     id: AfficheHT
     path: ProductLabels.cs
     startLine: 1406
@@ -233,12 +273,24 @@ items:
   - Altazion.ECommerce.Controls
   namespace: Altazion.ECommerce.Controls
   syntax:
-    content: public bool AfficheHT { get; set; }
+    content: >-
+      [Browsable(true)]
+
+      public bool AfficheHT { get; set; }
     parameters: []
     return:
       type: System.Boolean
-    content.vb: Public Property AfficheHT As Boolean
+    content.vb: >-
+      <Browsable(True)>
+
+      Public Property AfficheHT As Boolean
   overload: Altazion.ECommerce.Controls.ProduitPrixValeurPromo.AfficheHT*
+  attributes:
+  - type: System.ComponentModel.BrowsableAttribute
+    ctor: System.ComponentModel.BrowsableAttribute.#ctor(System.Boolean)
+    arguments:
+    - type: System.Boolean
+      value: true
   modifiers.csharp:
   - public
   - get
@@ -258,7 +310,7 @@ items:
   type: Property
   source:
     remote:
-      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/ProductLabels.cs
+      path: C:/agent/_work/2/s/EquihiraRelease/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/ProductLabels.cs
     id: PrixMaxiPourPourcentage
     path: ProductLabels.cs
     startLine: 1414
@@ -266,12 +318,24 @@ items:
   - Altazion.ECommerce.Controls
   namespace: Altazion.ECommerce.Controls
   syntax:
-    content: public decimal PrixMaxiPourPourcentage { get; set; }
+    content: >-
+      [Browsable(true)]
+
+      public decimal PrixMaxiPourPourcentage { get; set; }
     parameters: []
     return:
       type: System.Decimal
-    content.vb: Public Property PrixMaxiPourPourcentage As Decimal
+    content.vb: >-
+      <Browsable(True)>
+
+      Public Property PrixMaxiPourPourcentage As Decimal
   overload: Altazion.ECommerce.Controls.ProduitPrixValeurPromo.PrixMaxiPourPourcentage*
+  attributes:
+  - type: System.ComponentModel.BrowsableAttribute
+    ctor: System.ComponentModel.BrowsableAttribute.#ctor(System.Boolean)
+    arguments:
+    - type: System.Boolean
+      value: true
   modifiers.csharp:
   - public
   - get
@@ -291,7 +355,7 @@ items:
   type: Property
   source:
     remote:
-      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/ProductLabels.cs
+      path: C:/agent/_work/2/s/EquihiraRelease/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/ProductLabels.cs
     id: CacherSiHorsPromo
     path: ProductLabels.cs
     startLine: 1421
@@ -318,17 +382,64 @@ references:
   nameWithType: Altazion.ECommerce.Controls
   fullName: Altazion.ECommerce.Controls
 - uid: System.Object
-  commentId: '!:System.Object'
+  commentId: T:System.Object
+  parent: System
   isExternal: true
   name: Object
   nameWithType: Object
   fullName: System.Object
+- uid: System.Web.UI.Control
+  commentId: T:System.Web.UI.Control
+  parent: System.Web.UI
+  isExternal: true
+  name: Control
+  nameWithType: Control
+  fullName: System.Web.UI.Control
+- uid: System.Web.UI.WebControls.WebControl
+  commentId: T:System.Web.UI.WebControls.WebControl
+  parent: System.Web.UI.WebControls
+  isExternal: true
+  name: WebControl
+  nameWithType: WebControl
+  fullName: System.Web.UI.WebControls.WebControl
+- uid: System.Web.UI.WebControls.Label
+  commentId: T:System.Web.UI.WebControls.Label
+  parent: System.Web.UI.WebControls
+  isExternal: true
+  name: Label
+  nameWithType: Label
+  fullName: System.Web.UI.WebControls.Label
+- uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
+  isExternal: true
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
 - uid: CPointSoftware.ECommerce.Tools.IEquihiraBindable
   commentId: T:CPointSoftware.ECommerce.Tools.IEquihiraBindable
   parent: CPointSoftware.ECommerce.Tools
   name: IEquihiraBindable
   nameWithType: IEquihiraBindable
   fullName: CPointSoftware.ECommerce.Tools.IEquihiraBindable
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Web.UI
+  commentId: N:System.Web.UI
+  isExternal: true
+  name: System.Web.UI
+  nameWithType: System.Web.UI
+  fullName: System.Web.UI
+- uid: System.Web.UI.WebControls
+  commentId: N:System.Web.UI.WebControls
+  isExternal: true
+  name: System.Web.UI.WebControls
+  nameWithType: System.Web.UI.WebControls
+  fullName: System.Web.UI.WebControls
 - uid: CPointSoftware.ECommerce.Tools
   commentId: N:CPointSoftware.ECommerce.Tools
   name: CPointSoftware.ECommerce.Tools
@@ -340,6 +451,8 @@ references:
   nameWithType: ProduitPrixValeurPromo.AssocierAuMagasin
   fullName: Altazion.ECommerce.Controls.ProduitPrixValeurPromo.AssocierAuMagasin
 - uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
   isExternal: true
   name: Boolean
   nameWithType: Boolean
@@ -350,6 +463,8 @@ references:
   nameWithType: ProduitPrixValeurPromo.FormatPrix
   fullName: Altazion.ECommerce.Controls.ProduitPrixValeurPromo.FormatPrix
 - uid: System.String
+  commentId: T:System.String
+  parent: System
   isExternal: true
   name: String
   nameWithType: String
@@ -386,6 +501,8 @@ references:
   nameWithType: ProduitPrixValeurPromo.PrixMaxiPourPourcentage
   fullName: Altazion.ECommerce.Controls.ProduitPrixValeurPromo.PrixMaxiPourPourcentage
 - uid: System.Decimal
+  commentId: T:System.Decimal
+  parent: System
   isExternal: true
   name: Decimal
   nameWithType: Decimal

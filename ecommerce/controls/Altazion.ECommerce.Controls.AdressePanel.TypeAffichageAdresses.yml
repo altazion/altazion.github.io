@@ -17,7 +17,7 @@ items:
   type: Enum
   source:
     remote:
-      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/AdressePanel.cs
+      path: C:/agent/_work/2/s/EquihiraRelease/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/AdressePanel.cs
     id: TypeAffichageAdresses
     path: AdressePanel.cs
     startLine: 40
@@ -27,8 +27,8 @@ items:
   summary: "\nConditions d&apos;affichage de l&apos;adresse\n"
   example: []
   syntax:
-    content: 'public enum TypeAffichageAdresses : int'
-    content.vb: Public Enum TypeAffichageAdresses As Integer
+    content: public enum TypeAffichageAdresses
+    content.vb: Public Enum TypeAffichageAdresses
   modifiers.csharp:
   - public
   - enum
@@ -48,7 +48,7 @@ items:
   type: Field
   source:
     remote:
-      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/AdressePanel.cs
+      path: C:/agent/_work/2/s/EquihiraRelease/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/AdressePanel.cs
     id: ToutLeTemps
     path: AdressePanel.cs
     startLine: 45
@@ -80,7 +80,7 @@ items:
   type: Field
   source:
     remote:
-      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/AdressePanel.cs
+      path: C:/agent/_work/2/s/EquihiraRelease/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/AdressePanel.cs
     id: UniquementSiDifferentes
     path: AdressePanel.cs
     startLine: 50
@@ -112,7 +112,7 @@ items:
   type: Field
   source:
     remote:
-      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/AdressePanel.cs
+      path: C:/agent/_work/2/s/EquihiraRelease/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/AdressePanel.cs
     id: UniquementSiIdentiques
     path: AdressePanel.cs
     startLine: 55

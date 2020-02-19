@@ -15,14 +15,14 @@ items:
   type: Class
   source:
     remote:
-      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/BonsAchatsControls.cs
+      path: C:/agent/_work/2/s/EquihiraRelease/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/BonsAchatsControls.cs
     id: BonsAchatsRecuperationEventArgs
     path: BonsAchatsControls.cs
     startLine: 1243
   assemblies:
   - Altazion.ECommerce.Controls
   namespace: Altazion.ECommerce.Controls
-  summary: "\nReprésente les détails pour un événement du type <see cref=\"!:Recuperation\"></see>\n"
+  summary: "\nReprésente les détails pour un événement du type <xref href=\"Altazion.ECommerce.Controls.BonAchatsRecupereLink.BonsAchatsRecuperationEventArgs\" data-throw-if-not-resolved=\"false\"></xref>\n"
   example: []
   syntax:
     content: 'public class BonsAchatsRecuperationEventArgs : EventArgs'
@@ -31,6 +31,9 @@ items:
           Inherits EventArgs
   inheritance:
   - System.Object
+  - System.EventArgs
+  inheritedMembers:
+  - System.EventArgs.Empty
   modifiers.csharp:
   - public
   - class
@@ -50,7 +53,7 @@ items:
   type: Property
   source:
     remote:
-      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/BonsAchatsControls.cs
+      path: C:/agent/_work/2/s/EquihiraRelease/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/BonsAchatsControls.cs
     id: Texte
     path: BonsAchatsControls.cs
     startLine: 1248
@@ -73,23 +76,51 @@ items:
   modifiers.vb:
   - Public
 references:
+- uid: Altazion.ECommerce.Controls.BonAchatsRecupereLink.BonsAchatsRecuperationEventArgs
+  commentId: T:Altazion.ECommerce.Controls.BonAchatsRecupereLink.BonsAchatsRecuperationEventArgs
+  name: BonAchatsRecupereLink.BonsAchatsRecuperationEventArgs
+  nameWithType: BonAchatsRecupereLink.BonsAchatsRecuperationEventArgs
+  fullName: Altazion.ECommerce.Controls.BonAchatsRecupereLink.BonsAchatsRecuperationEventArgs
 - uid: Altazion.ECommerce.Controls
   commentId: N:Altazion.ECommerce.Controls
   name: Altazion.ECommerce.Controls
   nameWithType: Altazion.ECommerce.Controls
   fullName: Altazion.ECommerce.Controls
 - uid: System.Object
-  commentId: '!:System.Object'
+  commentId: T:System.Object
+  parent: System
   isExternal: true
   name: Object
   nameWithType: Object
   fullName: System.Object
+- uid: System.EventArgs
+  commentId: T:System.EventArgs
+  parent: System
+  isExternal: true
+  name: EventArgs
+  nameWithType: EventArgs
+  fullName: System.EventArgs
+- uid: System.EventArgs.Empty
+  commentId: F:System.EventArgs.Empty
+  parent: System.EventArgs
+  isExternal: true
+  name: Empty
+  nameWithType: EventArgs.Empty
+  fullName: System.EventArgs.Empty
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: Altazion.ECommerce.Controls.BonAchatsRecupereLink.BonsAchatsRecuperationEventArgs.Texte*
   commentId: Overload:Altazion.ECommerce.Controls.BonAchatsRecupereLink.BonsAchatsRecuperationEventArgs.Texte
   name: Texte
   nameWithType: BonAchatsRecupereLink.BonsAchatsRecuperationEventArgs.Texte
   fullName: Altazion.ECommerce.Controls.BonAchatsRecupereLink.BonsAchatsRecuperationEventArgs.Texte
 - uid: System.String
+  commentId: T:System.String
+  parent: System
   isExternal: true
   name: String
   nameWithType: String

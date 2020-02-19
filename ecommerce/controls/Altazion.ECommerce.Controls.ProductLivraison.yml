@@ -20,7 +20,7 @@ items:
   type: Class
   source:
     remote:
-      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/ProductDelaiLivraison.cs
+      path: C:/agent/_work/2/s/EquihiraRelease/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/ProductDelaiLivraison.cs
     id: ProductLivraison
     path: ProductDelaiLivraison.cs
     startLine: 29
@@ -30,14 +30,18 @@ items:
   summary: "\naffiche un span avec la date de livraison prévue pour\nun produit.\n"
   example: []
   syntax:
-    content: 'public class ProductLivraison : Label, IEquihiraBindable'
+    content: 'public class ProductLivraison : Label, IComponent, IDisposable, IParserAccessor, IUrlResolutionService, IDataBindingsAccessor, IControlBuilderAccessor, IControlDesignerAccessor, IExpressionsAccessor, IAttributeAccessor, ITextControl, IEquihiraBindable'
     content.vb: >-
       Public Class ProductLivraison
           Inherits Label
-          Implements IEquihiraBindable
+          Implements IComponent, IDisposable, IParserAccessor, IUrlResolutionService, IDataBindingsAccessor, IControlBuilderAccessor, IControlDesignerAccessor, IExpressionsAccessor, IAttributeAccessor, ITextControl, IEquihiraBindable
   inheritance:
   - System.Object
+  - System.Web.UI.Control
+  - System.Web.UI.WebControls.WebControl
+  - System.Web.UI.WebControls.Label
   implements:
+  - System.IDisposable
   - CPointSoftware.ECommerce.Tools.IEquihiraBindable
   modifiers.csharp:
   - public
@@ -58,7 +62,7 @@ items:
   type: Property
   source:
     remote:
-      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/ProductDelaiLivraison.cs
+      path: C:/agent/_work/2/s/EquihiraRelease/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/ProductDelaiLivraison.cs
     id: Format
     path: ProductDelaiLivraison.cs
     startLine: 34
@@ -91,7 +95,7 @@ items:
   type: Property
   source:
     remote:
-      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/ProductDelaiLivraison.cs
+      path: C:/agent/_work/2/s/EquihiraRelease/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/ProductDelaiLivraison.cs
     id: MessageNonLivrable
     path: ProductDelaiLivraison.cs
     startLine: 35
@@ -124,7 +128,7 @@ items:
   type: Property
   source:
     remote:
-      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/ProductDelaiLivraison.cs
+      path: C:/agent/_work/2/s/EquihiraRelease/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/ProductDelaiLivraison.cs
     id: MessageImmateriel
     path: ProductDelaiLivraison.cs
     startLine: 36
@@ -157,7 +161,7 @@ items:
   type: Property
   source:
     remote:
-      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/ProductDelaiLivraison.cs
+      path: C:/agent/_work/2/s/EquihiraRelease/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/ProductDelaiLivraison.cs
     id: Preference
     path: ProductDelaiLivraison.cs
     startLine: 37
@@ -190,7 +194,7 @@ items:
   type: Property
   source:
     remote:
-      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/ProductDelaiLivraison.cs
+      path: C:/agent/_work/2/s/EquihiraRelease/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/ProductDelaiLivraison.cs
     id: Libelles
     path: ProductDelaiLivraison.cs
     startLine: 39
@@ -201,7 +205,7 @@ items:
     content: public ArrayList Libelles { get; }
     parameters: []
     return:
-      type: ArrayList
+      type: System.Collections.ArrayList
     content.vb: Public ReadOnly Property Libelles As ArrayList
   overload: Altazion.ECommerce.Controls.ProductLivraison.Libelles*
   modifiers.csharp:
@@ -223,7 +227,7 @@ items:
   type: Constructor
   source:
     remote:
-      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/ProductDelaiLivraison.cs
+      path: C:/agent/_work/2/s/EquihiraRelease/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/ProductDelaiLivraison.cs
     id: .ctor
     path: ProductDelaiLivraison.cs
     startLine: 48
@@ -245,17 +249,64 @@ references:
   nameWithType: Altazion.ECommerce.Controls
   fullName: Altazion.ECommerce.Controls
 - uid: System.Object
-  commentId: '!:System.Object'
+  commentId: T:System.Object
+  parent: System
   isExternal: true
   name: Object
   nameWithType: Object
   fullName: System.Object
+- uid: System.Web.UI.Control
+  commentId: T:System.Web.UI.Control
+  parent: System.Web.UI
+  isExternal: true
+  name: Control
+  nameWithType: Control
+  fullName: System.Web.UI.Control
+- uid: System.Web.UI.WebControls.WebControl
+  commentId: T:System.Web.UI.WebControls.WebControl
+  parent: System.Web.UI.WebControls
+  isExternal: true
+  name: WebControl
+  nameWithType: WebControl
+  fullName: System.Web.UI.WebControls.WebControl
+- uid: System.Web.UI.WebControls.Label
+  commentId: T:System.Web.UI.WebControls.Label
+  parent: System.Web.UI.WebControls
+  isExternal: true
+  name: Label
+  nameWithType: Label
+  fullName: System.Web.UI.WebControls.Label
+- uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
+  isExternal: true
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
 - uid: CPointSoftware.ECommerce.Tools.IEquihiraBindable
   commentId: T:CPointSoftware.ECommerce.Tools.IEquihiraBindable
   parent: CPointSoftware.ECommerce.Tools
   name: IEquihiraBindable
   nameWithType: IEquihiraBindable
   fullName: CPointSoftware.ECommerce.Tools.IEquihiraBindable
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Web.UI
+  commentId: N:System.Web.UI
+  isExternal: true
+  name: System.Web.UI
+  nameWithType: System.Web.UI
+  fullName: System.Web.UI
+- uid: System.Web.UI.WebControls
+  commentId: N:System.Web.UI.WebControls
+  isExternal: true
+  name: System.Web.UI.WebControls
+  nameWithType: System.Web.UI.WebControls
+  fullName: System.Web.UI.WebControls
 - uid: CPointSoftware.ECommerce.Tools
   commentId: N:CPointSoftware.ECommerce.Tools
   name: CPointSoftware.ECommerce.Tools
@@ -267,6 +318,8 @@ references:
   nameWithType: ProductLivraison.Format
   fullName: Altazion.ECommerce.Controls.ProductLivraison.Format
 - uid: System.String
+  commentId: T:System.String
+  parent: System
   isExternal: true
   name: String
   nameWithType: String
@@ -297,11 +350,19 @@ references:
   name: Libelles
   nameWithType: ProductLivraison.Libelles
   fullName: Altazion.ECommerce.Controls.ProductLivraison.Libelles
-- uid: ArrayList
+- uid: System.Collections.ArrayList
+  commentId: T:System.Collections.ArrayList
+  parent: System.Collections
   isExternal: true
   name: ArrayList
   nameWithType: ArrayList
-  fullName: ArrayList
+  fullName: System.Collections.ArrayList
+- uid: System.Collections
+  commentId: N:System.Collections
+  isExternal: true
+  name: System.Collections
+  nameWithType: System.Collections
+  fullName: System.Collections
 - uid: Altazion.ECommerce.Controls.ProductLivraison.#ctor*
   commentId: Overload:Altazion.ECommerce.Controls.ProductLivraison.#ctor
   name: ProductLivraison

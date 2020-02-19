@@ -17,7 +17,7 @@ items:
   type: Enum
   source:
     remote:
-      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/BonsAchatsControls.cs
+      path: C:/agent/_work/2/s/EquihiraRelease/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/BonsAchatsControls.cs
     id: BonsAchatsAjoutImpossibleRaison
     path: BonsAchatsControls.cs
     startLine: 99
@@ -27,8 +27,8 @@ items:
   summary: "\nRaisons empêchant l&apos;ajout d&apos;un bon d&apos;achat\n"
   example: []
   syntax:
-    content: 'public enum BonsAchatsAjoutImpossibleRaison : int'
-    content.vb: Public Enum BonsAchatsAjoutImpossibleRaison As Integer
+    content: public enum BonsAchatsAjoutImpossibleRaison
+    content.vb: Public Enum BonsAchatsAjoutImpossibleRaison
   modifiers.csharp:
   - public
   - enum
@@ -48,7 +48,7 @@ items:
   type: Field
   source:
     remote:
-      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/BonsAchatsControls.cs
+      path: C:/agent/_work/2/s/EquihiraRelease/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/BonsAchatsControls.cs
     id: ErreurTechnique
     path: BonsAchatsControls.cs
     startLine: 104
@@ -80,7 +80,7 @@ items:
   type: Field
   source:
     remote:
-      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/BonsAchatsControls.cs
+      path: C:/agent/_work/2/s/EquihiraRelease/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/BonsAchatsControls.cs
     id: BonAchatInconnu
     path: BonsAchatsControls.cs
     startLine: 108
@@ -112,7 +112,7 @@ items:
   type: Field
   source:
     remote:
-      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/BonsAchatsControls.cs
+      path: C:/agent/_work/2/s/EquihiraRelease/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/BonsAchatsControls.cs
     id: BonAchatDejaUtilise
     path: BonsAchatsControls.cs
     startLine: 112

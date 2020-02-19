@@ -16,18 +16,16 @@ items:
   type: Class
   source:
     remote:
-      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/FilArianeCategories.cs
+      path: C:/agent/_work/2/s/EquihiraRelease/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/FilArianeCategories.cs
     id: Item
     path: FilArianeCategories.cs
-    startLine: 310
+    startLine: 350
   assemblies:
   - Altazion.ECommerce.Controls
   namespace: Altazion.ECommerce.Controls
   syntax:
-    content: 'public class Item : object'
-    content.vb: >-
-      Public Class Item
-          Inherits Object
+    content: public class Item
+    content.vb: Public Class Item
   inheritance:
   - System.Object
   modifiers.csharp:
@@ -49,20 +47,32 @@ items:
   type: Property
   source:
     remote:
-      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/FilArianeCategories.cs
+      path: C:/agent/_work/2/s/EquihiraRelease/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/FilArianeCategories.cs
     id: id
     path: FilArianeCategories.cs
-    startLine: 312
+    startLine: 352
   assemblies:
   - Altazion.ECommerce.Controls
   namespace: Altazion.ECommerce.Controls
   syntax:
-    content: public string id { get; set; }
+    content: >-
+      [JsonProperty("@id")]
+
+      public string id { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: Public Property id As String
+    content.vb: >-
+      <JsonProperty("@id")>
+
+      Public Property id As String
   overload: Altazion.ECommerce.Controls.ProductFilArianeJsonLd.Item.id*
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: '@id'
   modifiers.csharp:
   - public
   - get
@@ -82,10 +92,10 @@ items:
   type: Property
   source:
     remote:
-      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/FilArianeCategories.cs
+      path: C:/agent/_work/2/s/EquihiraRelease/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/FilArianeCategories.cs
     id: name
     path: FilArianeCategories.cs
-    startLine: 314
+    startLine: 354
   assemblies:
   - Altazion.ECommerce.Controls
   namespace: Altazion.ECommerce.Controls
@@ -109,17 +119,26 @@ references:
   nameWithType: Altazion.ECommerce.Controls
   fullName: Altazion.ECommerce.Controls
 - uid: System.Object
-  commentId: '!:System.Object'
+  commentId: T:System.Object
+  parent: System
   isExternal: true
   name: Object
   nameWithType: Object
   fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: Altazion.ECommerce.Controls.ProductFilArianeJsonLd.Item.id*
   commentId: Overload:Altazion.ECommerce.Controls.ProductFilArianeJsonLd.Item.id
   name: id
   nameWithType: ProductFilArianeJsonLd.Item.id
   fullName: Altazion.ECommerce.Controls.ProductFilArianeJsonLd.Item.id
 - uid: System.String
+  commentId: T:System.String
+  parent: System
   isExternal: true
   name: String
   nameWithType: String

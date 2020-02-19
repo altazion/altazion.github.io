@@ -33,7 +33,7 @@ items:
   type: Enum
   source:
     remote:
-      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanierProduitField.cs
+      path: C:/agent/_work/2/s/EquihiraRelease/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanierProduitField.cs
     id: ProduitField
     path: PanierProduitField.cs
     startLine: 109
@@ -41,8 +41,8 @@ items:
   - Altazion.ECommerce.Controls
   namespace: Altazion.ECommerce.Controls
   syntax:
-    content: 'public enum ProduitField : int'
-    content.vb: Public Enum ProduitField As Integer
+    content: public enum ProduitField
+    content.vb: Public Enum ProduitField
   modifiers.csharp:
   - public
   - enum
@@ -62,7 +62,7 @@ items:
   type: Field
   source:
     remote:
-      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanierProduitField.cs
+      path: C:/agent/_work/2/s/EquihiraRelease/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanierProduitField.cs
     id: Reference
     path: PanierProduitField.cs
     startLine: 111
@@ -92,7 +92,7 @@ items:
   type: Field
   source:
     remote:
-      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanierProduitField.cs
+      path: C:/agent/_work/2/s/EquihiraRelease/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanierProduitField.cs
     id: Quantite
     path: PanierProduitField.cs
     startLine: 112
@@ -122,7 +122,7 @@ items:
   type: Field
   source:
     remote:
-      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanierProduitField.cs
+      path: C:/agent/_work/2/s/EquihiraRelease/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanierProduitField.cs
     id: PrixUnitaire
     path: PanierProduitField.cs
     startLine: 113
@@ -152,7 +152,7 @@ items:
   type: Field
   source:
     remote:
-      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanierProduitField.cs
+      path: C:/agent/_work/2/s/EquihiraRelease/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanierProduitField.cs
     id: PrixUnitaireHt
     path: PanierProduitField.cs
     startLine: 114
@@ -182,7 +182,7 @@ items:
   type: Field
   source:
     remote:
-      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanierProduitField.cs
+      path: C:/agent/_work/2/s/EquihiraRelease/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanierProduitField.cs
     id: PrixUnitaireTtc
     path: PanierProduitField.cs
     startLine: 115
@@ -212,7 +212,7 @@ items:
   type: Field
   source:
     remote:
-      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanierProduitField.cs
+      path: C:/agent/_work/2/s/EquihiraRelease/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanierProduitField.cs
     id: Libelle
     path: PanierProduitField.cs
     startLine: 116
@@ -242,7 +242,7 @@ items:
   type: Field
   source:
     remote:
-      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanierProduitField.cs
+      path: C:/agent/_work/2/s/EquihiraRelease/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanierProduitField.cs
     id: MontantHt
     path: PanierProduitField.cs
     startLine: 117
@@ -272,7 +272,7 @@ items:
   type: Field
   source:
     remote:
-      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanierProduitField.cs
+      path: C:/agent/_work/2/s/EquihiraRelease/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanierProduitField.cs
     id: MontantTtc
     path: PanierProduitField.cs
     startLine: 118
@@ -302,7 +302,7 @@ items:
   type: Field
   source:
     remote:
-      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanierProduitField.cs
+      path: C:/agent/_work/2/s/EquihiraRelease/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanierProduitField.cs
     id: PrixUnitaireHtHorsPromo
     path: PanierProduitField.cs
     startLine: 119
@@ -332,7 +332,7 @@ items:
   type: Field
   source:
     remote:
-      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanierProduitField.cs
+      path: C:/agent/_work/2/s/EquihiraRelease/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanierProduitField.cs
     id: PrixUnitaireTtcHorsPromo
     path: PanierProduitField.cs
     startLine: 120
@@ -362,7 +362,7 @@ items:
   type: Field
   source:
     remote:
-      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanierProduitField.cs
+      path: C:/agent/_work/2/s/EquihiraRelease/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanierProduitField.cs
     id: PrixUnitaireTtcHorsRemise
     path: PanierProduitField.cs
     startLine: 121
@@ -392,7 +392,7 @@ items:
   type: Field
   source:
     remote:
-      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanierProduitField.cs
+      path: C:/agent/_work/2/s/EquihiraRelease/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanierProduitField.cs
     id: PrixUnitaireHtHorsRemise
     path: PanierProduitField.cs
     startLine: 122
@@ -422,7 +422,7 @@ items:
   type: Field
   source:
     remote:
-      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanierProduitField.cs
+      path: C:/agent/_work/2/s/EquihiraRelease/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanierProduitField.cs
     id: PrixUnitaireTtcEtTtcHorsPromo
     path: PanierProduitField.cs
     startLine: 123
@@ -452,7 +452,7 @@ items:
   type: Field
   source:
     remote:
-      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanierProduitField.cs
+      path: C:/agent/_work/2/s/EquihiraRelease/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanierProduitField.cs
     id: PrixUnitaireHtEtHtHorsPromo
     path: PanierProduitField.cs
     startLine: 124
@@ -482,7 +482,7 @@ items:
   type: Field
   source:
     remote:
-      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanierProduitField.cs
+      path: C:/agent/_work/2/s/EquihiraRelease/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanierProduitField.cs
     id: PctPromo
     path: PanierProduitField.cs
     startLine: 125
@@ -512,7 +512,7 @@ items:
   type: Field
   source:
     remote:
-      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanierProduitField.cs
+      path: C:/agent/_work/2/s/EquihiraRelease/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanierProduitField.cs
     id: Montant
     path: PanierProduitField.cs
     startLine: 126
@@ -542,7 +542,7 @@ items:
   type: Field
   source:
     remote:
-      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanierProduitField.cs
+      path: C:/agent/_work/2/s/EquihiraRelease/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanierProduitField.cs
     id: PrixUnitaireHorsPromo
     path: PanierProduitField.cs
     startLine: 127
@@ -572,7 +572,7 @@ items:
   type: Field
   source:
     remote:
-      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanierProduitField.cs
+      path: C:/agent/_work/2/s/EquihiraRelease/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanierProduitField.cs
     id: PrixUnitaireHorsRemise
     path: PanierProduitField.cs
     startLine: 128
@@ -602,7 +602,7 @@ items:
   type: Field
   source:
     remote:
-      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanierProduitField.cs
+      path: C:/agent/_work/2/s/EquihiraRelease/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanierProduitField.cs
     id: PrixUnitaireEtHorsPromo
     path: PanierProduitField.cs
     startLine: 129

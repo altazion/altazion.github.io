@@ -16,7 +16,7 @@ items:
   type: Enum
   source:
     remote:
-      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/ControlesMarques.cs
+      path: C:/agent/_work/2/s/EquihiraRelease/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/ControlesMarques.cs
     id: TypeMarqueLink
     path: ControlesMarques.cs
     startLine: 44
@@ -26,8 +26,8 @@ items:
   summary: "\nRepresente le type de lien\n"
   example: []
   syntax:
-    content: 'public enum TypeMarqueLink : int'
-    content.vb: Public Enum TypeMarqueLink As Integer
+    content: public enum TypeMarqueLink
+    content.vb: Public Enum TypeMarqueLink
   modifiers.csharp:
   - public
   - enum
@@ -47,7 +47,7 @@ items:
   type: Field
   source:
     remote:
-      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/ControlesMarques.cs
+      path: C:/agent/_work/2/s/EquihiraRelease/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/ControlesMarques.cs
     id: MoteurDeRecherche
     path: ControlesMarques.cs
     startLine: 50
@@ -79,7 +79,7 @@ items:
   type: Field
   source:
     remote:
-      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/ControlesMarques.cs
+      path: C:/agent/_work/2/s/EquihiraRelease/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/ControlesMarques.cs
     id: SiteWeb
     path: ControlesMarques.cs
     startLine: 55

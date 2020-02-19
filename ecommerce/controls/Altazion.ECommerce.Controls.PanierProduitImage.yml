@@ -6,7 +6,6 @@ items:
   parent: Altazion.ECommerce.Controls
   children:
   - Altazion.ECommerce.Controls.PanierProduitImage.DoNotLink
-  - Altazion.ECommerce.Controls.PanierProduitImage.OnDataBinding(EventArgs)
   langs:
   - csharp
   - vb
@@ -16,7 +15,7 @@ items:
   type: Class
   source:
     remote:
-      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanierProduitField.cs
+      path: C:/agent/_work/2/s/EquihiraRelease/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanierProduitField.cs
     id: PanierProduitImage
     path: PanierProduitField.cs
     startLine: 1145
@@ -26,16 +25,21 @@ items:
   summary: "\nA utiliser dans un <xref href=\"Altazion.ECommerce.Controls.PanierProduitsDataList\" data-throw-if-not-resolved=\"false\"></xref> pour \nafficher un lien avec l&apos;image du produit\n"
   example: []
   syntax:
-    content: 'public class PanierProduitImage : Hyperlink'
+    content: 'public class PanierProduitImage : Hyperlink, IComponent, IDisposable, IParserAccessor, IUrlResolutionService, IDataBindingsAccessor, IControlBuilderAccessor, IControlDesignerAccessor, IExpressionsAccessor, IAttributeAccessor'
     content.vb: >-
       Public Class PanierProduitImage
           Inherits Hyperlink
+          Implements IComponent, IDisposable, IParserAccessor, IUrlResolutionService, IDataBindingsAccessor, IControlBuilderAccessor, IControlDesignerAccessor, IExpressionsAccessor, IAttributeAccessor
   inheritance:
   - System.Object
+  - System.Web.UI.Control
+  - System.Web.UI.WebControls.WebControl
+  - System.Web.UI.WebControls.HyperLink
   - CPointSoftware.ECommerce.Tools.Hyperlink
+  implements:
+  - System.IDisposable
   inheritedMembers:
   - CPointSoftware.ECommerce.Tools.Hyperlink.CssClassIfCurrent
-  - CPointSoftware.ECommerce.Tools.Hyperlink.OnPreRender(EventArgs)
   modifiers.csharp:
   - public
   - class
@@ -55,7 +59,7 @@ items:
   type: Property
   source:
     remote:
-      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanierProduitField.cs
+      path: C:/agent/_work/2/s/EquihiraRelease/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanierProduitField.cs
     id: DoNotLink
     path: PanierProduitField.cs
     startLine: 1147
@@ -63,51 +67,30 @@ items:
   - Altazion.ECommerce.Controls
   namespace: Altazion.ECommerce.Controls
   syntax:
-    content: public bool DoNotLink { get; set; }
+    content: >-
+      [Bindable(false)]
+
+      public bool DoNotLink { get; set; }
     parameters: []
     return:
       type: System.Boolean
-    content.vb: Public Property DoNotLink As Boolean
+    content.vb: >-
+      <Bindable(False)>
+
+      Public Property DoNotLink As Boolean
   overload: Altazion.ECommerce.Controls.PanierProduitImage.DoNotLink*
+  attributes:
+  - type: System.ComponentModel.BindableAttribute
+    ctor: System.ComponentModel.BindableAttribute.#ctor(System.Boolean)
+    arguments:
+    - type: System.Boolean
+      value: false
   modifiers.csharp:
   - public
   - get
   - set
   modifiers.vb:
   - Public
-- uid: Altazion.ECommerce.Controls.PanierProduitImage.OnDataBinding(EventArgs)
-  commentId: M:Altazion.ECommerce.Controls.PanierProduitImage.OnDataBinding(EventArgs)
-  id: OnDataBinding(EventArgs)
-  parent: Altazion.ECommerce.Controls.PanierProduitImage
-  langs:
-  - csharp
-  - vb
-  name: OnDataBinding(EventArgs)
-  nameWithType: PanierProduitImage.OnDataBinding(EventArgs)
-  fullName: Altazion.ECommerce.Controls.PanierProduitImage.OnDataBinding(EventArgs)
-  type: Method
-  source:
-    remote:
-      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanierProduitField.cs
-    id: OnDataBinding
-    path: PanierProduitField.cs
-    startLine: 1152
-  assemblies:
-  - Altazion.ECommerce.Controls
-  namespace: Altazion.ECommerce.Controls
-  syntax:
-    content: protected override void OnDataBinding(EventArgs e)
-    parameters:
-    - id: e
-      type: EventArgs
-    content.vb: Protected Overrides Sub OnDataBinding(e As EventArgs)
-  overload: Altazion.ECommerce.Controls.PanierProduitImage.OnDataBinding*
-  modifiers.csharp:
-  - protected
-  - override
-  modifiers.vb:
-  - Protected
-  - Overrides
 references:
 - uid: Altazion.ECommerce.Controls.PanierProduitsDataList
   commentId: T:Altazion.ECommerce.Controls.PanierProduitsDataList
@@ -120,62 +103,70 @@ references:
   nameWithType: Altazion.ECommerce.Controls
   fullName: Altazion.ECommerce.Controls
 - uid: System.Object
-  commentId: '!:System.Object'
+  commentId: T:System.Object
+  parent: System
   isExternal: true
   name: Object
   nameWithType: Object
   fullName: System.Object
+- uid: System.Web.UI.Control
+  commentId: T:System.Web.UI.Control
+  parent: System.Web.UI
+  isExternal: true
+  name: Control
+  nameWithType: Control
+  fullName: System.Web.UI.Control
+- uid: System.Web.UI.WebControls.WebControl
+  commentId: T:System.Web.UI.WebControls.WebControl
+  parent: System.Web.UI.WebControls
+  isExternal: true
+  name: WebControl
+  nameWithType: WebControl
+  fullName: System.Web.UI.WebControls.WebControl
+- uid: System.Web.UI.WebControls.HyperLink
+  commentId: T:System.Web.UI.WebControls.HyperLink
+  parent: System.Web.UI.WebControls
+  isExternal: true
+  name: HyperLink
+  nameWithType: HyperLink
+  fullName: System.Web.UI.WebControls.HyperLink
 - uid: CPointSoftware.ECommerce.Tools.Hyperlink
   commentId: T:CPointSoftware.ECommerce.Tools.Hyperlink
   parent: CPointSoftware.ECommerce.Tools
   name: Hyperlink
   nameWithType: Hyperlink
   fullName: CPointSoftware.ECommerce.Tools.Hyperlink
+- uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
+  isExternal: true
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
 - uid: CPointSoftware.ECommerce.Tools.Hyperlink.CssClassIfCurrent
   commentId: P:CPointSoftware.ECommerce.Tools.Hyperlink.CssClassIfCurrent
   parent: CPointSoftware.ECommerce.Tools.Hyperlink
   name: CssClassIfCurrent
   nameWithType: Hyperlink.CssClassIfCurrent
   fullName: CPointSoftware.ECommerce.Tools.Hyperlink.CssClassIfCurrent
-- uid: CPointSoftware.ECommerce.Tools.Hyperlink.OnPreRender(EventArgs)
-  commentId: M:CPointSoftware.ECommerce.Tools.Hyperlink.OnPreRender(EventArgs)
-  parent: CPointSoftware.ECommerce.Tools.Hyperlink
+- uid: System
+  commentId: N:System
   isExternal: true
-  name: OnPreRender(EventArgs)
-  nameWithType: Hyperlink.OnPreRender(EventArgs)
-  fullName: CPointSoftware.ECommerce.Tools.Hyperlink.OnPreRender(EventArgs)
-  spec.csharp:
-  - uid: CPointSoftware.ECommerce.Tools.Hyperlink.OnPreRender(EventArgs)
-    name: OnPreRender
-    nameWithType: Hyperlink.OnPreRender
-    fullName: CPointSoftware.ECommerce.Tools.Hyperlink.OnPreRender
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: EventArgs
-    name: EventArgs
-    nameWithType: EventArgs
-    fullName: EventArgs
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: CPointSoftware.ECommerce.Tools.Hyperlink.OnPreRender(EventArgs)
-    name: OnPreRender
-    nameWithType: Hyperlink.OnPreRender
-    fullName: CPointSoftware.ECommerce.Tools.Hyperlink.OnPreRender
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: EventArgs
-    name: EventArgs
-    nameWithType: EventArgs
-    fullName: EventArgs
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Web.UI
+  commentId: N:System.Web.UI
+  isExternal: true
+  name: System.Web.UI
+  nameWithType: System.Web.UI
+  fullName: System.Web.UI
+- uid: System.Web.UI.WebControls
+  commentId: N:System.Web.UI.WebControls
+  isExternal: true
+  name: System.Web.UI.WebControls
+  nameWithType: System.Web.UI.WebControls
+  fullName: System.Web.UI.WebControls
 - uid: CPointSoftware.ECommerce.Tools
   commentId: N:CPointSoftware.ECommerce.Tools
   name: CPointSoftware.ECommerce.Tools
@@ -187,17 +178,9 @@ references:
   nameWithType: PanierProduitImage.DoNotLink
   fullName: Altazion.ECommerce.Controls.PanierProduitImage.DoNotLink
 - uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
   isExternal: true
   name: Boolean
   nameWithType: Boolean
   fullName: System.Boolean
-- uid: Altazion.ECommerce.Controls.PanierProduitImage.OnDataBinding*
-  commentId: Overload:Altazion.ECommerce.Controls.PanierProduitImage.OnDataBinding
-  name: OnDataBinding
-  nameWithType: PanierProduitImage.OnDataBinding
-  fullName: Altazion.ECommerce.Controls.PanierProduitImage.OnDataBinding
-- uid: EventArgs
-  isExternal: true
-  name: EventArgs
-  nameWithType: EventArgs
-  fullName: EventArgs

@@ -8,7 +8,6 @@ items:
   - Altazion.ECommerce.Controls.IncitationProduitField.CssClassSiPromo
   - Altazion.ECommerce.Controls.IncitationProduitField.Field
   - Altazion.ECommerce.Controls.IncitationProduitField.Format
-  - Altazion.ECommerce.Controls.IncitationProduitField.OnPreRender(EventArgs)
   - Altazion.ECommerce.Controls.IncitationProduitField.TextePrixZero
   langs:
   - csharp
@@ -19,7 +18,7 @@ items:
   type: Class
   source:
     remote:
-      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/IncitationControls.cs
+      path: C:/agent/_work/2/s/EquihiraRelease/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/IncitationControls.cs
     id: IncitationProduitField
     path: IncitationControls.cs
     startLine: 81
@@ -29,12 +28,18 @@ items:
   summary: "\nAffiche un span avec l&apos;une des informations\nproduit pour celui associé à l&apos;incitation\n"
   example: []
   syntax:
-    content: 'public class IncitationProduitField : Label'
+    content: 'public class IncitationProduitField : Label, IComponent, IDisposable, IParserAccessor, IUrlResolutionService, IDataBindingsAccessor, IControlBuilderAccessor, IControlDesignerAccessor, IExpressionsAccessor, IAttributeAccessor, ITextControl'
     content.vb: >-
       Public Class IncitationProduitField
           Inherits Label
+          Implements IComponent, IDisposable, IParserAccessor, IUrlResolutionService, IDataBindingsAccessor, IControlBuilderAccessor, IControlDesignerAccessor, IExpressionsAccessor, IAttributeAccessor, ITextControl
   inheritance:
   - System.Object
+  - System.Web.UI.Control
+  - System.Web.UI.WebControls.WebControl
+  - System.Web.UI.WebControls.Label
+  implements:
+  - System.IDisposable
   modifiers.csharp:
   - public
   - class
@@ -54,7 +59,7 @@ items:
   type: Property
   source:
     remote:
-      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/IncitationControls.cs
+      path: C:/agent/_work/2/s/EquihiraRelease/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/IncitationControls.cs
     id: Format
     path: IncitationControls.cs
     startLine: 94
@@ -62,12 +67,24 @@ items:
   - Altazion.ECommerce.Controls
   namespace: Altazion.ECommerce.Controls
   syntax:
-    content: public String Format { get; set; }
+    content: >-
+      [Bindable(true)]
+
+      public string Format { get; set; }
     parameters: []
     return:
-      type: String
-    content.vb: Public Property Format As String
+      type: System.String
+    content.vb: >-
+      <Bindable(True)>
+
+      Public Property Format As String
   overload: Altazion.ECommerce.Controls.IncitationProduitField.Format*
+  attributes:
+  - type: System.ComponentModel.BindableAttribute
+    ctor: System.ComponentModel.BindableAttribute.#ctor(System.Boolean)
+    arguments:
+    - type: System.Boolean
+      value: true
   modifiers.csharp:
   - public
   - get
@@ -87,7 +104,7 @@ items:
   type: Property
   source:
     remote:
-      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/IncitationControls.cs
+      path: C:/agent/_work/2/s/EquihiraRelease/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/IncitationControls.cs
     id: TextePrixZero
     path: IncitationControls.cs
     startLine: 115
@@ -95,12 +112,24 @@ items:
   - Altazion.ECommerce.Controls
   namespace: Altazion.ECommerce.Controls
   syntax:
-    content: public String TextePrixZero { get; set; }
+    content: >-
+      [Bindable(true)]
+
+      public string TextePrixZero { get; set; }
     parameters: []
     return:
-      type: String
-    content.vb: Public Property TextePrixZero As String
+      type: System.String
+    content.vb: >-
+      <Bindable(True)>
+
+      Public Property TextePrixZero As String
   overload: Altazion.ECommerce.Controls.IncitationProduitField.TextePrixZero*
+  attributes:
+  - type: System.ComponentModel.BindableAttribute
+    ctor: System.ComponentModel.BindableAttribute.#ctor(System.Boolean)
+    arguments:
+    - type: System.Boolean
+      value: true
   modifiers.csharp:
   - public
   - get
@@ -120,7 +149,7 @@ items:
   type: Property
   source:
     remote:
-      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/IncitationControls.cs
+      path: C:/agent/_work/2/s/EquihiraRelease/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/IncitationControls.cs
     id: Field
     path: IncitationControls.cs
     startLine: 136
@@ -153,7 +182,7 @@ items:
   type: Property
   source:
     remote:
-      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/IncitationControls.cs
+      path: C:/agent/_work/2/s/EquihiraRelease/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/IncitationControls.cs
     id: CssClassSiPromo
     path: IncitationControls.cs
     startLine: 155
@@ -161,51 +190,30 @@ items:
   - Altazion.ECommerce.Controls
   namespace: Altazion.ECommerce.Controls
   syntax:
-    content: public String CssClassSiPromo { get; set; }
+    content: >-
+      [Bindable(true)]
+
+      public string CssClassSiPromo { get; set; }
     parameters: []
     return:
-      type: String
-    content.vb: Public Property CssClassSiPromo As String
+      type: System.String
+    content.vb: >-
+      <Bindable(True)>
+
+      Public Property CssClassSiPromo As String
   overload: Altazion.ECommerce.Controls.IncitationProduitField.CssClassSiPromo*
+  attributes:
+  - type: System.ComponentModel.BindableAttribute
+    ctor: System.ComponentModel.BindableAttribute.#ctor(System.Boolean)
+    arguments:
+    - type: System.Boolean
+      value: true
   modifiers.csharp:
   - public
   - get
   - set
   modifiers.vb:
   - Public
-- uid: Altazion.ECommerce.Controls.IncitationProduitField.OnPreRender(EventArgs)
-  commentId: M:Altazion.ECommerce.Controls.IncitationProduitField.OnPreRender(EventArgs)
-  id: OnPreRender(EventArgs)
-  parent: Altazion.ECommerce.Controls.IncitationProduitField
-  langs:
-  - csharp
-  - vb
-  name: OnPreRender(EventArgs)
-  nameWithType: IncitationProduitField.OnPreRender(EventArgs)
-  fullName: Altazion.ECommerce.Controls.IncitationProduitField.OnPreRender(EventArgs)
-  type: Method
-  source:
-    remote:
-      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/IncitationControls.cs
-    id: OnPreRender
-    path: IncitationControls.cs
-    startLine: 177
-  assemblies:
-  - Altazion.ECommerce.Controls
-  namespace: Altazion.ECommerce.Controls
-  syntax:
-    content: protected override void OnPreRender(EventArgs e)
-    parameters:
-    - id: e
-      type: EventArgs
-    content.vb: Protected Overrides Sub OnPreRender(e As EventArgs)
-  overload: Altazion.ECommerce.Controls.IncitationProduitField.OnPreRender*
-  modifiers.csharp:
-  - protected
-  - override
-  modifiers.vb:
-  - Protected
-  - Overrides
 references:
 - uid: Altazion.ECommerce.Controls
   commentId: N:Altazion.ECommerce.Controls
@@ -213,21 +221,70 @@ references:
   nameWithType: Altazion.ECommerce.Controls
   fullName: Altazion.ECommerce.Controls
 - uid: System.Object
-  commentId: '!:System.Object'
+  commentId: T:System.Object
+  parent: System
   isExternal: true
   name: Object
   nameWithType: Object
   fullName: System.Object
+- uid: System.Web.UI.Control
+  commentId: T:System.Web.UI.Control
+  parent: System.Web.UI
+  isExternal: true
+  name: Control
+  nameWithType: Control
+  fullName: System.Web.UI.Control
+- uid: System.Web.UI.WebControls.WebControl
+  commentId: T:System.Web.UI.WebControls.WebControl
+  parent: System.Web.UI.WebControls
+  isExternal: true
+  name: WebControl
+  nameWithType: WebControl
+  fullName: System.Web.UI.WebControls.WebControl
+- uid: System.Web.UI.WebControls.Label
+  commentId: T:System.Web.UI.WebControls.Label
+  parent: System.Web.UI.WebControls
+  isExternal: true
+  name: Label
+  nameWithType: Label
+  fullName: System.Web.UI.WebControls.Label
+- uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
+  isExternal: true
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Web.UI
+  commentId: N:System.Web.UI
+  isExternal: true
+  name: System.Web.UI
+  nameWithType: System.Web.UI
+  fullName: System.Web.UI
+- uid: System.Web.UI.WebControls
+  commentId: N:System.Web.UI.WebControls
+  isExternal: true
+  name: System.Web.UI.WebControls
+  nameWithType: System.Web.UI.WebControls
+  fullName: System.Web.UI.WebControls
 - uid: Altazion.ECommerce.Controls.IncitationProduitField.Format*
   commentId: Overload:Altazion.ECommerce.Controls.IncitationProduitField.Format
   name: Format
   nameWithType: IncitationProduitField.Format
   fullName: Altazion.ECommerce.Controls.IncitationProduitField.Format
-- uid: String
+- uid: System.String
+  commentId: T:System.String
+  parent: System
   isExternal: true
   name: String
   nameWithType: String
-  fullName: String
+  fullName: System.String
 - uid: Altazion.ECommerce.Controls.IncitationProduitField.TextePrixZero*
   commentId: Overload:Altazion.ECommerce.Controls.IncitationProduitField.TextePrixZero
   name: TextePrixZero
@@ -249,13 +306,3 @@ references:
   name: CssClassSiPromo
   nameWithType: IncitationProduitField.CssClassSiPromo
   fullName: Altazion.ECommerce.Controls.IncitationProduitField.CssClassSiPromo
-- uid: Altazion.ECommerce.Controls.IncitationProduitField.OnPreRender*
-  commentId: Overload:Altazion.ECommerce.Controls.IncitationProduitField.OnPreRender
-  name: OnPreRender
-  nameWithType: IncitationProduitField.OnPreRender
-  fullName: Altazion.ECommerce.Controls.IncitationProduitField.OnPreRender
-- uid: EventArgs
-  isExternal: true
-  name: EventArgs
-  nameWithType: EventArgs
-  fullName: EventArgs

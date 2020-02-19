@@ -17,7 +17,7 @@ items:
   type: Class
   source:
     remote:
-      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/ProductLinks.cs
+      path: C:/agent/_work/2/s/EquihiraRelease/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/ProductLinks.cs
     id: ProduitMailToLink
     path: ProductLinks.cs
     startLine: 166
@@ -27,14 +27,18 @@ items:
   summary: "\nA utiliser dans un contrôle bindé sur un produit : affiche un lien\nmailto avec l&apos;url du produit\n"
   example: []
   syntax:
-    content: 'public class ProduitMailToLink : HyperLink, IEquihiraBindable'
+    content: 'public class ProduitMailToLink : HyperLink, IComponent, IDisposable, IParserAccessor, IUrlResolutionService, IDataBindingsAccessor, IControlBuilderAccessor, IControlDesignerAccessor, IExpressionsAccessor, IAttributeAccessor, IEquihiraBindable'
     content.vb: >-
       Public Class ProduitMailToLink
           Inherits HyperLink
-          Implements IEquihiraBindable
+          Implements IComponent, IDisposable, IParserAccessor, IUrlResolutionService, IDataBindingsAccessor, IControlBuilderAccessor, IControlDesignerAccessor, IExpressionsAccessor, IAttributeAccessor, IEquihiraBindable
   inheritance:
   - System.Object
+  - System.Web.UI.Control
+  - System.Web.UI.WebControls.WebControl
+  - System.Web.UI.WebControls.HyperLink
   implements:
+  - System.IDisposable
   - CPointSoftware.ECommerce.Tools.IEquihiraBindable
   modifiers.csharp:
   - public
@@ -55,7 +59,7 @@ items:
   type: Property
   source:
     remote:
-      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/ProductLinks.cs
+      path: C:/agent/_work/2/s/EquihiraRelease/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/ProductLinks.cs
     id: Content
     path: ProductLinks.cs
     startLine: 179
@@ -88,7 +92,7 @@ items:
   type: Property
   source:
     remote:
-      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/ProductLinks.cs
+      path: C:/agent/_work/2/s/EquihiraRelease/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/ProductLinks.cs
     id: Subject
     path: ProductLinks.cs
     startLine: 180
@@ -121,7 +125,7 @@ items:
   type: Constructor
   source:
     remote:
-      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/ProductLinks.cs
+      path: C:/agent/_work/2/s/EquihiraRelease/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/ProductLinks.cs
     id: .ctor
     path: ProductLinks.cs
     startLine: 182
@@ -143,17 +147,64 @@ references:
   nameWithType: Altazion.ECommerce.Controls
   fullName: Altazion.ECommerce.Controls
 - uid: System.Object
-  commentId: '!:System.Object'
+  commentId: T:System.Object
+  parent: System
   isExternal: true
   name: Object
   nameWithType: Object
   fullName: System.Object
+- uid: System.Web.UI.Control
+  commentId: T:System.Web.UI.Control
+  parent: System.Web.UI
+  isExternal: true
+  name: Control
+  nameWithType: Control
+  fullName: System.Web.UI.Control
+- uid: System.Web.UI.WebControls.WebControl
+  commentId: T:System.Web.UI.WebControls.WebControl
+  parent: System.Web.UI.WebControls
+  isExternal: true
+  name: WebControl
+  nameWithType: WebControl
+  fullName: System.Web.UI.WebControls.WebControl
+- uid: System.Web.UI.WebControls.HyperLink
+  commentId: T:System.Web.UI.WebControls.HyperLink
+  parent: System.Web.UI.WebControls
+  isExternal: true
+  name: HyperLink
+  nameWithType: HyperLink
+  fullName: System.Web.UI.WebControls.HyperLink
+- uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
+  isExternal: true
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
 - uid: CPointSoftware.ECommerce.Tools.IEquihiraBindable
   commentId: T:CPointSoftware.ECommerce.Tools.IEquihiraBindable
   parent: CPointSoftware.ECommerce.Tools
   name: IEquihiraBindable
   nameWithType: IEquihiraBindable
   fullName: CPointSoftware.ECommerce.Tools.IEquihiraBindable
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Web.UI
+  commentId: N:System.Web.UI
+  isExternal: true
+  name: System.Web.UI
+  nameWithType: System.Web.UI
+  fullName: System.Web.UI
+- uid: System.Web.UI.WebControls
+  commentId: N:System.Web.UI.WebControls
+  isExternal: true
+  name: System.Web.UI.WebControls
+  nameWithType: System.Web.UI.WebControls
+  fullName: System.Web.UI.WebControls
 - uid: CPointSoftware.ECommerce.Tools
   commentId: N:CPointSoftware.ECommerce.Tools
   name: CPointSoftware.ECommerce.Tools
@@ -165,6 +216,8 @@ references:
   nameWithType: ProduitMailToLink.Content
   fullName: Altazion.ECommerce.Controls.ProduitMailToLink.Content
 - uid: System.String
+  commentId: T:System.String
+  parent: System
   isExternal: true
   name: String
   nameWithType: String

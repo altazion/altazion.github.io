@@ -14,7 +14,7 @@ items:
   type: Class
   source:
     remote:
-      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanierProduitGrid.cs
+      path: C:/agent/_work/2/s/EquihiraRelease/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanierProduitGrid.cs
     id: PanierProduitsDataList
     path: PanierProduitGrid.cs
     startLine: 12
@@ -24,12 +24,19 @@ items:
   summary: "\nDatalist pouvant être bindé sur un <xref href=\"CPointSoftware.ECommerce.Tools.PanierSourceControl\" data-throw-if-not-resolved=\"false\"></xref>\n"
   example: []
   syntax:
-    content: 'public class PanierProduitsDataList : DataList'
+    content: 'public class PanierProduitsDataList : DataList, IComponent, IDisposable, IParserAccessor, IUrlResolutionService, IDataBindingsAccessor, IControlBuilderAccessor, IControlDesignerAccessor, IExpressionsAccessor, IAttributeAccessor, INamingContainer, IRepeatInfoUser, IWizardSideBarListControl'
     content.vb: >-
       Public Class PanierProduitsDataList
           Inherits DataList
+          Implements IComponent, IDisposable, IParserAccessor, IUrlResolutionService, IDataBindingsAccessor, IControlBuilderAccessor, IControlDesignerAccessor, IExpressionsAccessor, IAttributeAccessor, INamingContainer, IRepeatInfoUser, IWizardSideBarListControl
   inheritance:
   - System.Object
+  - System.Web.UI.Control
+  - System.Web.UI.WebControls.WebControl
+  - System.Web.UI.WebControls.BaseDataList
+  - System.Web.UI.WebControls.DataList
+  implements:
+  - System.IDisposable
   modifiers.csharp:
   - public
   - class
@@ -46,8 +53,62 @@ references:
   nameWithType: Altazion.ECommerce.Controls
   fullName: Altazion.ECommerce.Controls
 - uid: System.Object
-  commentId: '!:System.Object'
+  commentId: T:System.Object
+  parent: System
   isExternal: true
   name: Object
   nameWithType: Object
   fullName: System.Object
+- uid: System.Web.UI.Control
+  commentId: T:System.Web.UI.Control
+  parent: System.Web.UI
+  isExternal: true
+  name: Control
+  nameWithType: Control
+  fullName: System.Web.UI.Control
+- uid: System.Web.UI.WebControls.WebControl
+  commentId: T:System.Web.UI.WebControls.WebControl
+  parent: System.Web.UI.WebControls
+  isExternal: true
+  name: WebControl
+  nameWithType: WebControl
+  fullName: System.Web.UI.WebControls.WebControl
+- uid: System.Web.UI.WebControls.BaseDataList
+  commentId: T:System.Web.UI.WebControls.BaseDataList
+  parent: System.Web.UI.WebControls
+  isExternal: true
+  name: BaseDataList
+  nameWithType: BaseDataList
+  fullName: System.Web.UI.WebControls.BaseDataList
+- uid: System.Web.UI.WebControls.DataList
+  commentId: T:System.Web.UI.WebControls.DataList
+  parent: System.Web.UI.WebControls
+  isExternal: true
+  name: DataList
+  nameWithType: DataList
+  fullName: System.Web.UI.WebControls.DataList
+- uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
+  isExternal: true
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Web.UI
+  commentId: N:System.Web.UI
+  isExternal: true
+  name: System.Web.UI
+  nameWithType: System.Web.UI
+  fullName: System.Web.UI
+- uid: System.Web.UI.WebControls
+  commentId: N:System.Web.UI.WebControls
+  isExternal: true
+  name: System.Web.UI.WebControls
+  nameWithType: System.Web.UI.WebControls
+  fullName: System.Web.UI.WebControls
