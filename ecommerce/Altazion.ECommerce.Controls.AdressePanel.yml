@@ -1,0 +1,262 @@
+### YamlMime:ManagedReference
+items:
+- uid: Altazion.ECommerce.Controls.AdressePanel
+  commentId: T:Altazion.ECommerce.Controls.AdressePanel
+  id: AdressePanel
+  parent: Altazion.ECommerce.Controls
+  children:
+  - Altazion.ECommerce.Controls.AdressePanel.#ctor
+  - Altazion.ECommerce.Controls.AdressePanel.AfficherSiPointRelais
+  - Altazion.ECommerce.Controls.AdressePanel.TypeAffichage
+  langs:
+  - csharp
+  - vb
+  name: AdressePanel
+  nameWithType: AdressePanel
+  fullName: Altazion.ECommerce.Controls.AdressePanel
+  type: Class
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/AdressePanel.cs
+    id: AdressePanel
+    path: AdressePanel.cs
+    startLine: 28
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  summary: "\nCe panel (div) est un conteneur d&apos;adresse\net s&apos;affichera si nécessaire en fonction du type d&apos;affichage\n"
+  remarks: "\nLes différents types d&apos;affichages sont :\n<ul><li>ToutLeTempsLe panel s&apos;affichera tout le temps</li><li>UniquementSiDifferentesLe panel s&apos;affichera uniquement si l&apos;adresse de facturation\net l&apos;adresse de livraison sont différentes</li><li>UniquementSiIdentiquesLe panel s&apos;affichera uniquement si l&apos;adresse de facturation\nest aussi l&apos;adresse de livraison</li></ul>\n"
+  example: []
+  syntax:
+    content: 'public class AdressePanel : Panel'
+    content.vb: >-
+      Public Class AdressePanel
+          Inherits Panel
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Altazion.ECommerce.Controls.AdressePanel.#ctor
+  commentId: M:Altazion.ECommerce.Controls.AdressePanel.#ctor
+  id: '#ctor'
+  parent: Altazion.ECommerce.Controls.AdressePanel
+  langs:
+  - csharp
+  - vb
+  name: AdressePanel()
+  nameWithType: AdressePanel.AdressePanel()
+  fullName: Altazion.ECommerce.Controls.AdressePanel.AdressePanel()
+  type: Constructor
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/AdressePanel.cs
+    id: .ctor
+    path: AdressePanel.cs
+    startLine: 33
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  summary: "\nInitialise une instance de <xref href=\"Altazion.ECommerce.Controls.AdressePanel\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  example: []
+  syntax:
+    content: public AdressePanel()
+    content.vb: Public Sub New
+  overload: Altazion.ECommerce.Controls.AdressePanel.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Altazion.ECommerce.Controls.AdressePanel.TypeAffichage
+  commentId: P:Altazion.ECommerce.Controls.AdressePanel.TypeAffichage
+  id: TypeAffichage
+  parent: Altazion.ECommerce.Controls.AdressePanel
+  langs:
+  - csharp
+  - vb
+  name: TypeAffichage
+  nameWithType: AdressePanel.TypeAffichage
+  fullName: Altazion.ECommerce.Controls.AdressePanel.TypeAffichage
+  type: Property
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/AdressePanel.cs
+    id: TypeAffichage
+    path: AdressePanel.cs
+    startLine: 61
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  summary: "\nObtient ou définit les conditions d&apos;affichage de l&apos;adresse\n"
+  example: []
+  syntax:
+    content: public AdressePanel.TypeAffichageAdresses TypeAffichage { get; set; }
+    parameters: []
+    return:
+      type: Altazion.ECommerce.Controls.AdressePanel.TypeAffichageAdresses
+    content.vb: Public Property TypeAffichage As AdressePanel.TypeAffichageAdresses
+  overload: Altazion.ECommerce.Controls.AdressePanel.TypeAffichage*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Altazion.ECommerce.Controls.AdressePanel.AfficherSiPointRelais
+  commentId: P:Altazion.ECommerce.Controls.AdressePanel.AfficherSiPointRelais
+  id: AfficherSiPointRelais
+  parent: Altazion.ECommerce.Controls.AdressePanel
+  langs:
+  - csharp
+  - vb
+  name: AfficherSiPointRelais
+  nameWithType: AdressePanel.AfficherSiPointRelais
+  fullName: Altazion.ECommerce.Controls.AdressePanel.AfficherSiPointRelais
+  type: Property
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/AdressePanel.cs
+    id: AfficherSiPointRelais
+    path: AdressePanel.cs
+    startLine: 72
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  summary: "\nObtient ou définit un booléen précisant si le panel\ns&apos;affiche en cas de point relais\n"
+  remarks: "\nUtilisez : true pour n&apos;afficher qu&apos;en cas de point relai,\nfalse pour n&apos;afficher qu&apos;en cas de livraison domicile\nou null (ne pas mettre l&apos;attribut) pour s&apos;afficher \ndans tous les cas"
+  example: []
+  syntax:
+    content: public bool? AfficherSiPointRelais { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{System.Boolean}
+    content.vb: Public Property AfficherSiPointRelais As Boolean?
+  overload: Altazion.ECommerce.Controls.AdressePanel.AfficherSiPointRelais*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: Altazion.ECommerce.Controls
+  commentId: N:Altazion.ECommerce.Controls
+  name: Altazion.ECommerce.Controls
+  nameWithType: Altazion.ECommerce.Controls
+  fullName: Altazion.ECommerce.Controls
+- uid: System.Object
+  commentId: '!:System.Object'
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Altazion.ECommerce.Controls.AdressePanel
+  commentId: T:Altazion.ECommerce.Controls.AdressePanel
+  name: AdressePanel
+  nameWithType: AdressePanel
+  fullName: Altazion.ECommerce.Controls.AdressePanel
+- uid: Altazion.ECommerce.Controls.AdressePanel.#ctor*
+  commentId: Overload:Altazion.ECommerce.Controls.AdressePanel.#ctor
+  name: AdressePanel
+  nameWithType: AdressePanel.AdressePanel
+  fullName: Altazion.ECommerce.Controls.AdressePanel.AdressePanel
+- uid: Altazion.ECommerce.Controls.AdressePanel.TypeAffichage*
+  commentId: Overload:Altazion.ECommerce.Controls.AdressePanel.TypeAffichage
+  name: TypeAffichage
+  nameWithType: AdressePanel.TypeAffichage
+  fullName: Altazion.ECommerce.Controls.AdressePanel.TypeAffichage
+- uid: Altazion.ECommerce.Controls.AdressePanel.TypeAffichageAdresses
+  commentId: T:Altazion.ECommerce.Controls.AdressePanel.TypeAffichageAdresses
+  parent: Altazion.ECommerce.Controls
+  name: AdressePanel.TypeAffichageAdresses
+  nameWithType: AdressePanel.TypeAffichageAdresses
+  fullName: Altazion.ECommerce.Controls.AdressePanel.TypeAffichageAdresses
+- uid: Altazion.ECommerce.Controls.AdressePanel.AfficherSiPointRelais*
+  commentId: Overload:Altazion.ECommerce.Controls.AdressePanel.AfficherSiPointRelais
+  name: AfficherSiPointRelais
+  nameWithType: AdressePanel.AfficherSiPointRelais
+  fullName: Altazion.ECommerce.Controls.AdressePanel.AfficherSiPointRelais
+- uid: System.Nullable{System.Boolean}
+  commentId: '!:System.Nullable{System.Boolean}'
+  definition: System.Nullable`1
+  name: Nullable<Boolean>
+  nameWithType: Nullable<Boolean>
+  fullName: System.Nullable<System.Boolean>
+  nameWithType.vb: Nullable(Of Boolean)
+  fullName.vb: System.Nullable(Of System.Boolean)
+  name.vb: Nullable(Of Boolean)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable`1
+  isExternal: true
+  name: Nullable<>
+  nameWithType: Nullable<>
+  fullName: System.Nullable<>
+  nameWithType.vb: Nullable(Of )
+  fullName.vb: System.Nullable(Of )
+  name.vb: Nullable(Of )
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
