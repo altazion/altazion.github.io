@@ -14,6 +14,8 @@
       {
         "files": [
           "cnam*.*"
+          ,"CNAM*.*"
+          ,"CNAME"
           ,"index.html"
           ,"**/images/**"
           ,"**.jpg"
