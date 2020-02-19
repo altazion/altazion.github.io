@@ -1,0 +1,163 @@
+### YamlMime:ManagedReference
+items:
+- uid: Altazion.ECommerce.Controls.ProduitSegmentLink
+  commentId: T:Altazion.ECommerce.Controls.ProduitSegmentLink
+  id: ProduitSegmentLink
+  parent: Altazion.ECommerce.Controls
+  children:
+  - Altazion.ECommerce.Controls.ProduitSegmentLink.TextIfEmpty
+  langs:
+  - csharp
+  - vb
+  name: ProduitSegmentLink
+  nameWithType: ProduitSegmentLink
+  fullName: Altazion.ECommerce.Controls.ProduitSegmentLink
+  type: Class
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/ProductLinks.cs
+    id: ProduitSegmentLink
+    path: ProductLinks.cs
+    startLine: 319
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  summary: "\nA utiliser dans un contrôle bindé sur un produit : affiche un lien\navec le segment du produit pointant sur la page de recherche correspondant\nà ce segment\n"
+  example: []
+  syntax:
+    content: 'public class ProduitSegmentLink : Hyperlink, IEquihiraBindable'
+    content.vb: >-
+      Public Class ProduitSegmentLink
+          Inherits Hyperlink
+          Implements IEquihiraBindable
+  inheritance:
+  - System.Object
+  - CPointSoftware.ECommerce.Tools.Hyperlink
+  implements:
+  - CPointSoftware.ECommerce.Tools.IEquihiraBindable
+  inheritedMembers:
+  - CPointSoftware.ECommerce.Tools.Hyperlink.CssClassIfCurrent
+  - CPointSoftware.ECommerce.Tools.Hyperlink.OnPreRender(EventArgs)
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Altazion.ECommerce.Controls.ProduitSegmentLink.TextIfEmpty
+  commentId: P:Altazion.ECommerce.Controls.ProduitSegmentLink.TextIfEmpty
+  id: TextIfEmpty
+  parent: Altazion.ECommerce.Controls.ProduitSegmentLink
+  langs:
+  - csharp
+  - vb
+  name: TextIfEmpty
+  nameWithType: ProduitSegmentLink.TextIfEmpty
+  fullName: Altazion.ECommerce.Controls.ProduitSegmentLink.TextIfEmpty
+  type: Property
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/ProductLinks.cs
+    id: TextIfEmpty
+    path: ProductLinks.cs
+    startLine: 339
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: public string TextIfEmpty { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property TextIfEmpty As String
+  overload: Altazion.ECommerce.Controls.ProduitSegmentLink.TextIfEmpty*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: Altazion.ECommerce.Controls
+  commentId: N:Altazion.ECommerce.Controls
+  name: Altazion.ECommerce.Controls
+  nameWithType: Altazion.ECommerce.Controls
+  fullName: Altazion.ECommerce.Controls
+- uid: System.Object
+  commentId: '!:System.Object'
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: CPointSoftware.ECommerce.Tools.Hyperlink
+  commentId: T:CPointSoftware.ECommerce.Tools.Hyperlink
+  parent: CPointSoftware.ECommerce.Tools
+  name: Hyperlink
+  nameWithType: Hyperlink
+  fullName: CPointSoftware.ECommerce.Tools.Hyperlink
+- uid: CPointSoftware.ECommerce.Tools.IEquihiraBindable
+  commentId: T:CPointSoftware.ECommerce.Tools.IEquihiraBindable
+  parent: CPointSoftware.ECommerce.Tools
+  name: IEquihiraBindable
+  nameWithType: IEquihiraBindable
+  fullName: CPointSoftware.ECommerce.Tools.IEquihiraBindable
+- uid: CPointSoftware.ECommerce.Tools.Hyperlink.CssClassIfCurrent
+  commentId: P:CPointSoftware.ECommerce.Tools.Hyperlink.CssClassIfCurrent
+  parent: CPointSoftware.ECommerce.Tools.Hyperlink
+  name: CssClassIfCurrent
+  nameWithType: Hyperlink.CssClassIfCurrent
+  fullName: CPointSoftware.ECommerce.Tools.Hyperlink.CssClassIfCurrent
+- uid: CPointSoftware.ECommerce.Tools.Hyperlink.OnPreRender(EventArgs)
+  commentId: M:CPointSoftware.ECommerce.Tools.Hyperlink.OnPreRender(EventArgs)
+  parent: CPointSoftware.ECommerce.Tools.Hyperlink
+  isExternal: true
+  name: OnPreRender(EventArgs)
+  nameWithType: Hyperlink.OnPreRender(EventArgs)
+  fullName: CPointSoftware.ECommerce.Tools.Hyperlink.OnPreRender(EventArgs)
+  spec.csharp:
+  - uid: CPointSoftware.ECommerce.Tools.Hyperlink.OnPreRender(EventArgs)
+    name: OnPreRender
+    nameWithType: Hyperlink.OnPreRender
+    fullName: CPointSoftware.ECommerce.Tools.Hyperlink.OnPreRender
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: EventArgs
+    name: EventArgs
+    nameWithType: EventArgs
+    fullName: EventArgs
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: CPointSoftware.ECommerce.Tools.Hyperlink.OnPreRender(EventArgs)
+    name: OnPreRender
+    nameWithType: Hyperlink.OnPreRender
+    fullName: CPointSoftware.ECommerce.Tools.Hyperlink.OnPreRender
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: EventArgs
+    name: EventArgs
+    nameWithType: EventArgs
+    fullName: EventArgs
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CPointSoftware.ECommerce.Tools
+  commentId: N:CPointSoftware.ECommerce.Tools
+  name: CPointSoftware.ECommerce.Tools
+  nameWithType: CPointSoftware.ECommerce.Tools
+  fullName: CPointSoftware.ECommerce.Tools
+- uid: Altazion.ECommerce.Controls.ProduitSegmentLink.TextIfEmpty*
+  commentId: Overload:Altazion.ECommerce.Controls.ProduitSegmentLink.TextIfEmpty
+  name: TextIfEmpty
+  nameWithType: ProduitSegmentLink.TextIfEmpty
+  fullName: Altazion.ECommerce.Controls.ProduitSegmentLink.TextIfEmpty
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

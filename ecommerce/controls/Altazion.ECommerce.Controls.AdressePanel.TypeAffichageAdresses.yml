@@ -1,0 +1,145 @@
+### YamlMime:ManagedReference
+items:
+- uid: Altazion.ECommerce.Controls.AdressePanel.TypeAffichageAdresses
+  commentId: T:Altazion.ECommerce.Controls.AdressePanel.TypeAffichageAdresses
+  id: AdressePanel.TypeAffichageAdresses
+  parent: Altazion.ECommerce.Controls
+  children:
+  - Altazion.ECommerce.Controls.AdressePanel.TypeAffichageAdresses.ToutLeTemps
+  - Altazion.ECommerce.Controls.AdressePanel.TypeAffichageAdresses.UniquementSiDifferentes
+  - Altazion.ECommerce.Controls.AdressePanel.TypeAffichageAdresses.UniquementSiIdentiques
+  langs:
+  - csharp
+  - vb
+  name: AdressePanel.TypeAffichageAdresses
+  nameWithType: AdressePanel.TypeAffichageAdresses
+  fullName: Altazion.ECommerce.Controls.AdressePanel.TypeAffichageAdresses
+  type: Enum
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/AdressePanel.cs
+    id: TypeAffichageAdresses
+    path: AdressePanel.cs
+    startLine: 40
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  summary: "\nConditions d&apos;affichage de l&apos;adresse\n"
+  example: []
+  syntax:
+    content: 'public enum TypeAffichageAdresses : int'
+    content.vb: Public Enum TypeAffichageAdresses As Integer
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Altazion.ECommerce.Controls.AdressePanel.TypeAffichageAdresses.ToutLeTemps
+  commentId: F:Altazion.ECommerce.Controls.AdressePanel.TypeAffichageAdresses.ToutLeTemps
+  id: ToutLeTemps
+  parent: Altazion.ECommerce.Controls.AdressePanel.TypeAffichageAdresses
+  langs:
+  - csharp
+  - vb
+  name: ToutLeTemps
+  nameWithType: AdressePanel.TypeAffichageAdresses.ToutLeTemps
+  fullName: Altazion.ECommerce.Controls.AdressePanel.TypeAffichageAdresses.ToutLeTemps
+  type: Field
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/AdressePanel.cs
+    id: ToutLeTemps
+    path: AdressePanel.cs
+    startLine: 45
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  summary: "\nLe panel s&apos;affichera tout le temps\n"
+  example: []
+  syntax:
+    content: ToutLeTemps = 0
+    return:
+      type: Altazion.ECommerce.Controls.AdressePanel.TypeAffichageAdresses
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Altazion.ECommerce.Controls.AdressePanel.TypeAffichageAdresses.UniquementSiDifferentes
+  commentId: F:Altazion.ECommerce.Controls.AdressePanel.TypeAffichageAdresses.UniquementSiDifferentes
+  id: UniquementSiDifferentes
+  parent: Altazion.ECommerce.Controls.AdressePanel.TypeAffichageAdresses
+  langs:
+  - csharp
+  - vb
+  name: UniquementSiDifferentes
+  nameWithType: AdressePanel.TypeAffichageAdresses.UniquementSiDifferentes
+  fullName: Altazion.ECommerce.Controls.AdressePanel.TypeAffichageAdresses.UniquementSiDifferentes
+  type: Field
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/AdressePanel.cs
+    id: UniquementSiDifferentes
+    path: AdressePanel.cs
+    startLine: 50
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  summary: "\nLe panel s&apos;affichera uniquement si l&apos;adresse de facturation\net l&apos;adresse de livraison sont différentes\n"
+  example: []
+  syntax:
+    content: UniquementSiDifferentes = 1
+    return:
+      type: Altazion.ECommerce.Controls.AdressePanel.TypeAffichageAdresses
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Altazion.ECommerce.Controls.AdressePanel.TypeAffichageAdresses.UniquementSiIdentiques
+  commentId: F:Altazion.ECommerce.Controls.AdressePanel.TypeAffichageAdresses.UniquementSiIdentiques
+  id: UniquementSiIdentiques
+  parent: Altazion.ECommerce.Controls.AdressePanel.TypeAffichageAdresses
+  langs:
+  - csharp
+  - vb
+  name: UniquementSiIdentiques
+  nameWithType: AdressePanel.TypeAffichageAdresses.UniquementSiIdentiques
+  fullName: Altazion.ECommerce.Controls.AdressePanel.TypeAffichageAdresses.UniquementSiIdentiques
+  type: Field
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/AdressePanel.cs
+    id: UniquementSiIdentiques
+    path: AdressePanel.cs
+    startLine: 55
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  summary: "\nLe panel s&apos;affichera uniquement si l&apos;adresse de facturation\nest aussi l&apos;adresse de livraison\n"
+  example: []
+  syntax:
+    content: UniquementSiIdentiques = 2
+    return:
+      type: Altazion.ECommerce.Controls.AdressePanel.TypeAffichageAdresses
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Altazion.ECommerce.Controls
+  commentId: N:Altazion.ECommerce.Controls
+  name: Altazion.ECommerce.Controls
+  nameWithType: Altazion.ECommerce.Controls
+  fullName: Altazion.ECommerce.Controls
+- uid: Altazion.ECommerce.Controls.AdressePanel.TypeAffichageAdresses
+  commentId: T:Altazion.ECommerce.Controls.AdressePanel.TypeAffichageAdresses
+  parent: Altazion.ECommerce.Controls
+  name: AdressePanel.TypeAffichageAdresses
+  nameWithType: AdressePanel.TypeAffichageAdresses
+  fullName: Altazion.ECommerce.Controls.AdressePanel.TypeAffichageAdresses

@@ -1,0 +1,106 @@
+### YamlMime:ManagedReference
+items:
+- uid: Altazion.ECommerce.Controls.PanierProduitImageField.PanierTypeImage
+  commentId: T:Altazion.ECommerce.Controls.PanierProduitImageField.PanierTypeImage
+  id: PanierProduitImageField.PanierTypeImage
+  parent: Altazion.ECommerce.Controls
+  children:
+  - Altazion.ECommerce.Controls.PanierProduitImageField.PanierTypeImage.Intermediate
+  - Altazion.ECommerce.Controls.PanierProduitImageField.PanierTypeImage.Tiny
+  langs:
+  - csharp
+  - vb
+  name: PanierProduitImageField.PanierTypeImage
+  nameWithType: PanierProduitImageField.PanierTypeImage
+  fullName: Altazion.ECommerce.Controls.PanierProduitImageField.PanierTypeImage
+  type: Enum
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanierProduitField.cs
+    id: PanierTypeImage
+    path: PanierProduitField.cs
+    startLine: 1029
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: 'public enum PanierTypeImage : int'
+    content.vb: Public Enum PanierTypeImage As Integer
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Altazion.ECommerce.Controls.PanierProduitImageField.PanierTypeImage.Tiny
+  commentId: F:Altazion.ECommerce.Controls.PanierProduitImageField.PanierTypeImage.Tiny
+  id: Tiny
+  parent: Altazion.ECommerce.Controls.PanierProduitImageField.PanierTypeImage
+  langs:
+  - csharp
+  - vb
+  name: Tiny
+  nameWithType: PanierProduitImageField.PanierTypeImage.Tiny
+  fullName: Altazion.ECommerce.Controls.PanierProduitImageField.PanierTypeImage.Tiny
+  type: Field
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanierProduitField.cs
+    id: Tiny
+    path: PanierProduitField.cs
+    startLine: 1031
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: Tiny = 0
+    return:
+      type: Altazion.ECommerce.Controls.PanierProduitImageField.PanierTypeImage
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Altazion.ECommerce.Controls.PanierProduitImageField.PanierTypeImage.Intermediate
+  commentId: F:Altazion.ECommerce.Controls.PanierProduitImageField.PanierTypeImage.Intermediate
+  id: Intermediate
+  parent: Altazion.ECommerce.Controls.PanierProduitImageField.PanierTypeImage
+  langs:
+  - csharp
+  - vb
+  name: Intermediate
+  nameWithType: PanierProduitImageField.PanierTypeImage.Intermediate
+  fullName: Altazion.ECommerce.Controls.PanierProduitImageField.PanierTypeImage.Intermediate
+  type: Field
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanierProduitField.cs
+    id: Intermediate
+    path: PanierProduitField.cs
+    startLine: 1032
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: Intermediate = 1
+    return:
+      type: Altazion.ECommerce.Controls.PanierProduitImageField.PanierTypeImage
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Altazion.ECommerce.Controls
+  commentId: N:Altazion.ECommerce.Controls
+  name: Altazion.ECommerce.Controls
+  nameWithType: Altazion.ECommerce.Controls
+  fullName: Altazion.ECommerce.Controls
+- uid: Altazion.ECommerce.Controls.PanierProduitImageField.PanierTypeImage
+  commentId: T:Altazion.ECommerce.Controls.PanierProduitImageField.PanierTypeImage
+  parent: Altazion.ECommerce.Controls
+  name: PanierProduitImageField.PanierTypeImage
+  nameWithType: PanierProduitImageField.PanierTypeImage
+  fullName: Altazion.ECommerce.Controls.PanierProduitImageField.PanierTypeImage

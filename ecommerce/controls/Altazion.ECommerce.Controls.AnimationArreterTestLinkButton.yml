@@ -1,0 +1,112 @@
+### YamlMime:ManagedReference
+items:
+- uid: Altazion.ECommerce.Controls.AnimationArreterTestLinkButton
+  commentId: T:Altazion.ECommerce.Controls.AnimationArreterTestLinkButton
+  id: AnimationArreterTestLinkButton
+  parent: Altazion.ECommerce.Controls
+  children:
+  - Altazion.ECommerce.Controls.AnimationArreterTestLinkButton.OnClick(EventArgs)
+  langs:
+  - csharp
+  - vb
+  name: AnimationArreterTestLinkButton
+  nameWithType: AnimationArreterTestLinkButton
+  fullName: Altazion.ECommerce.Controls.AnimationArreterTestLinkButton
+  type: Class
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/AnimationArreterTestLinkButton.cs
+    id: AnimationArreterTestLinkButton
+    path: AnimationArreterTestLinkButton.cs
+    startLine: 14
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  summary: "\nLien permettant de désactiver le mode de test des campagnes\ncommerciales. \n"
+  remarks: Ce contrôle devrait être placé dans un <xref href="Altazion.ECommerce.Controls.AnimationEnTestPanel" data-throw-if-not-resolved="false"></xref>
+  example: []
+  syntax:
+    content: 'public class AnimationArreterTestLinkButton : LinkButton'
+    content.vb: >-
+      Public Class AnimationArreterTestLinkButton
+          Inherits LinkButton
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Altazion.ECommerce.Controls.AnimationArreterTestLinkButton.OnClick(EventArgs)
+  commentId: M:Altazion.ECommerce.Controls.AnimationArreterTestLinkButton.OnClick(EventArgs)
+  id: OnClick(EventArgs)
+  parent: Altazion.ECommerce.Controls.AnimationArreterTestLinkButton
+  langs:
+  - csharp
+  - vb
+  name: OnClick(EventArgs)
+  nameWithType: AnimationArreterTestLinkButton.OnClick(EventArgs)
+  fullName: Altazion.ECommerce.Controls.AnimationArreterTestLinkButton.OnClick(EventArgs)
+  type: Method
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/AnimationArreterTestLinkButton.cs
+    id: OnClick
+    path: AnimationArreterTestLinkButton.cs
+    startLine: 21
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  summary: "\nDéclenche l&apos;événement <xref href=\"System.Web.UI.WebControls.LinkButton.Click\" data-throw-if-not-resolved=\"false\"></xref> du contrôle <xref href=\"System.Web.UI.WebControls.LinkButton\" data-throw-if-not-resolved=\"false\"></xref>\net désactive le mode de test.\n"
+  example: []
+  syntax:
+    content: protected override void OnClick(EventArgs e)
+    parameters:
+    - id: e
+      type: EventArgs
+      description: <xref href="System.EventArgs" data-throw-if-not-resolved="false"></xref> qui contient les données d&apos;événement.
+    content.vb: Protected Overrides Sub OnClick(e As EventArgs)
+  overload: Altazion.ECommerce.Controls.AnimationArreterTestLinkButton.OnClick*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+references:
+- uid: Altazion.ECommerce.Controls.AnimationEnTestPanel
+  commentId: T:Altazion.ECommerce.Controls.AnimationEnTestPanel
+  name: AnimationEnTestPanel
+  nameWithType: AnimationEnTestPanel
+  fullName: Altazion.ECommerce.Controls.AnimationEnTestPanel
+- uid: Altazion.ECommerce.Controls
+  commentId: N:Altazion.ECommerce.Controls
+  name: Altazion.ECommerce.Controls
+  nameWithType: Altazion.ECommerce.Controls
+  fullName: Altazion.ECommerce.Controls
+- uid: System.Object
+  commentId: '!:System.Object'
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Web.UI.WebControls.LinkButton.Click
+  commentId: E:System.Web.UI.WebControls.LinkButton.Click
+  isExternal: true
+- uid: System.Web.UI.WebControls.LinkButton
+  commentId: T:System.Web.UI.WebControls.LinkButton
+  isExternal: true
+- uid: System.EventArgs
+  commentId: T:System.EventArgs
+  isExternal: true
+- uid: Altazion.ECommerce.Controls.AnimationArreterTestLinkButton.OnClick*
+  commentId: Overload:Altazion.ECommerce.Controls.AnimationArreterTestLinkButton.OnClick
+  name: OnClick
+  nameWithType: AnimationArreterTestLinkButton.OnClick
+  fullName: Altazion.ECommerce.Controls.AnimationArreterTestLinkButton.OnClick
+- uid: EventArgs
+  isExternal: true
+  name: EventArgs
+  nameWithType: EventArgs
+  fullName: EventArgs

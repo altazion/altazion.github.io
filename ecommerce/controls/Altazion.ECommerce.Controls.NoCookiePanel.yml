@@ -1,0 +1,170 @@
+### YamlMime:ManagedReference
+items:
+- uid: Altazion.ECommerce.Controls.NoCookiePanel
+  commentId: T:Altazion.ECommerce.Controls.NoCookiePanel
+  id: NoCookiePanel
+  parent: Altazion.ECommerce.Controls
+  children:
+  - Altazion.ECommerce.Controls.NoCookiePanel.#ctor
+  - Altazion.ECommerce.Controls.NoCookiePanel.CookieName
+  - Altazion.ECommerce.Controls.NoCookiePanel.OnPreRender(EventArgs)
+  langs:
+  - csharp
+  - vb
+  name: NoCookiePanel
+  nameWithType: NoCookiePanel
+  fullName: Altazion.ECommerce.Controls.NoCookiePanel
+  type: Class
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/CookiePanel.cs
+    id: NoCookiePanel
+    path: CookiePanel.cs
+    startLine: 11
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: 'public class NoCookiePanel : Panel'
+    content.vb: >-
+      Public Class NoCookiePanel
+          Inherits Panel
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Altazion.ECommerce.Controls.NoCookiePanel.#ctor
+  commentId: M:Altazion.ECommerce.Controls.NoCookiePanel.#ctor
+  id: '#ctor'
+  parent: Altazion.ECommerce.Controls.NoCookiePanel
+  langs:
+  - csharp
+  - vb
+  name: NoCookiePanel()
+  nameWithType: NoCookiePanel.NoCookiePanel()
+  fullName: Altazion.ECommerce.Controls.NoCookiePanel.NoCookiePanel()
+  type: Constructor
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/CookiePanel.cs
+    id: .ctor
+    path: CookiePanel.cs
+    startLine: 13
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: public NoCookiePanel()
+    content.vb: Public Sub New
+  overload: Altazion.ECommerce.Controls.NoCookiePanel.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Altazion.ECommerce.Controls.NoCookiePanel.CookieName
+  commentId: P:Altazion.ECommerce.Controls.NoCookiePanel.CookieName
+  id: CookieName
+  parent: Altazion.ECommerce.Controls.NoCookiePanel
+  langs:
+  - csharp
+  - vb
+  name: CookieName
+  nameWithType: NoCookiePanel.CookieName
+  fullName: Altazion.ECommerce.Controls.NoCookiePanel.CookieName
+  type: Property
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/CookiePanel.cs
+    id: CookieName
+    path: CookiePanel.cs
+    startLine: 18
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: public string CookieName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property CookieName As String
+  overload: Altazion.ECommerce.Controls.NoCookiePanel.CookieName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Altazion.ECommerce.Controls.NoCookiePanel.OnPreRender(EventArgs)
+  commentId: M:Altazion.ECommerce.Controls.NoCookiePanel.OnPreRender(EventArgs)
+  id: OnPreRender(EventArgs)
+  parent: Altazion.ECommerce.Controls.NoCookiePanel
+  langs:
+  - csharp
+  - vb
+  name: OnPreRender(EventArgs)
+  nameWithType: NoCookiePanel.OnPreRender(EventArgs)
+  fullName: Altazion.ECommerce.Controls.NoCookiePanel.OnPreRender(EventArgs)
+  type: Method
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/CookiePanel.cs
+    id: OnPreRender
+    path: CookiePanel.cs
+    startLine: 20
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: protected override void OnPreRender(EventArgs e)
+    parameters:
+    - id: e
+      type: EventArgs
+    content.vb: Protected Overrides Sub OnPreRender(e As EventArgs)
+  overload: Altazion.ECommerce.Controls.NoCookiePanel.OnPreRender*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+references:
+- uid: Altazion.ECommerce.Controls
+  commentId: N:Altazion.ECommerce.Controls
+  name: Altazion.ECommerce.Controls
+  nameWithType: Altazion.ECommerce.Controls
+  fullName: Altazion.ECommerce.Controls
+- uid: System.Object
+  commentId: '!:System.Object'
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Altazion.ECommerce.Controls.NoCookiePanel.#ctor*
+  commentId: Overload:Altazion.ECommerce.Controls.NoCookiePanel.#ctor
+  name: NoCookiePanel
+  nameWithType: NoCookiePanel.NoCookiePanel
+  fullName: Altazion.ECommerce.Controls.NoCookiePanel.NoCookiePanel
+- uid: Altazion.ECommerce.Controls.NoCookiePanel.CookieName*
+  commentId: Overload:Altazion.ECommerce.Controls.NoCookiePanel.CookieName
+  name: CookieName
+  nameWithType: NoCookiePanel.CookieName
+  fullName: Altazion.ECommerce.Controls.NoCookiePanel.CookieName
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Altazion.ECommerce.Controls.NoCookiePanel.OnPreRender*
+  commentId: Overload:Altazion.ECommerce.Controls.NoCookiePanel.OnPreRender
+  name: OnPreRender
+  nameWithType: NoCookiePanel.OnPreRender
+  fullName: Altazion.ECommerce.Controls.NoCookiePanel.OnPreRender
+- uid: EventArgs
+  isExternal: true
+  name: EventArgs
+  nameWithType: EventArgs
+  fullName: EventArgs

@@ -1,0 +1,261 @@
+### YamlMime:ManagedReference
+items:
+- uid: Altazion.ECommerce.Controls.IncitationProduitField.ProduitField
+  commentId: T:Altazion.ECommerce.Controls.IncitationProduitField.ProduitField
+  id: IncitationProduitField.ProduitField
+  parent: Altazion.ECommerce.Controls
+  children:
+  - Altazion.ECommerce.Controls.IncitationProduitField.ProduitField.Libelle
+  - Altazion.ECommerce.Controls.IncitationProduitField.ProduitField.MontantHt
+  - Altazion.ECommerce.Controls.IncitationProduitField.ProduitField.MontantTtc
+  - Altazion.ECommerce.Controls.IncitationProduitField.ProduitField.PrixUnitaireHt
+  - Altazion.ECommerce.Controls.IncitationProduitField.ProduitField.PrixUnitaireTtc
+  - Altazion.ECommerce.Controls.IncitationProduitField.ProduitField.Quantite
+  - Altazion.ECommerce.Controls.IncitationProduitField.ProduitField.Reference
+  langs:
+  - csharp
+  - vb
+  name: IncitationProduitField.ProduitField
+  nameWithType: IncitationProduitField.ProduitField
+  fullName: Altazion.ECommerce.Controls.IncitationProduitField.ProduitField
+  type: Enum
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/IncitationControls.cs
+    id: ProduitField
+    path: IncitationControls.cs
+    startLine: 83
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: 'public enum ProduitField : int'
+    content.vb: Public Enum ProduitField As Integer
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Altazion.ECommerce.Controls.IncitationProduitField.ProduitField.Reference
+  commentId: F:Altazion.ECommerce.Controls.IncitationProduitField.ProduitField.Reference
+  id: Reference
+  parent: Altazion.ECommerce.Controls.IncitationProduitField.ProduitField
+  langs:
+  - csharp
+  - vb
+  name: Reference
+  nameWithType: IncitationProduitField.ProduitField.Reference
+  fullName: Altazion.ECommerce.Controls.IncitationProduitField.ProduitField.Reference
+  type: Field
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/IncitationControls.cs
+    id: Reference
+    path: IncitationControls.cs
+    startLine: 85
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: Reference = 0
+    return:
+      type: Altazion.ECommerce.Controls.IncitationProduitField.ProduitField
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Altazion.ECommerce.Controls.IncitationProduitField.ProduitField.Quantite
+  commentId: F:Altazion.ECommerce.Controls.IncitationProduitField.ProduitField.Quantite
+  id: Quantite
+  parent: Altazion.ECommerce.Controls.IncitationProduitField.ProduitField
+  langs:
+  - csharp
+  - vb
+  name: Quantite
+  nameWithType: IncitationProduitField.ProduitField.Quantite
+  fullName: Altazion.ECommerce.Controls.IncitationProduitField.ProduitField.Quantite
+  type: Field
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/IncitationControls.cs
+    id: Quantite
+    path: IncitationControls.cs
+    startLine: 86
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: Quantite = 1
+    return:
+      type: Altazion.ECommerce.Controls.IncitationProduitField.ProduitField
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Altazion.ECommerce.Controls.IncitationProduitField.ProduitField.PrixUnitaireHt
+  commentId: F:Altazion.ECommerce.Controls.IncitationProduitField.ProduitField.PrixUnitaireHt
+  id: PrixUnitaireHt
+  parent: Altazion.ECommerce.Controls.IncitationProduitField.ProduitField
+  langs:
+  - csharp
+  - vb
+  name: PrixUnitaireHt
+  nameWithType: IncitationProduitField.ProduitField.PrixUnitaireHt
+  fullName: Altazion.ECommerce.Controls.IncitationProduitField.ProduitField.PrixUnitaireHt
+  type: Field
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/IncitationControls.cs
+    id: PrixUnitaireHt
+    path: IncitationControls.cs
+    startLine: 87
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: PrixUnitaireHt = 2
+    return:
+      type: Altazion.ECommerce.Controls.IncitationProduitField.ProduitField
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Altazion.ECommerce.Controls.IncitationProduitField.ProduitField.PrixUnitaireTtc
+  commentId: F:Altazion.ECommerce.Controls.IncitationProduitField.ProduitField.PrixUnitaireTtc
+  id: PrixUnitaireTtc
+  parent: Altazion.ECommerce.Controls.IncitationProduitField.ProduitField
+  langs:
+  - csharp
+  - vb
+  name: PrixUnitaireTtc
+  nameWithType: IncitationProduitField.ProduitField.PrixUnitaireTtc
+  fullName: Altazion.ECommerce.Controls.IncitationProduitField.ProduitField.PrixUnitaireTtc
+  type: Field
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/IncitationControls.cs
+    id: PrixUnitaireTtc
+    path: IncitationControls.cs
+    startLine: 88
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: PrixUnitaireTtc = 3
+    return:
+      type: Altazion.ECommerce.Controls.IncitationProduitField.ProduitField
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Altazion.ECommerce.Controls.IncitationProduitField.ProduitField.Libelle
+  commentId: F:Altazion.ECommerce.Controls.IncitationProduitField.ProduitField.Libelle
+  id: Libelle
+  parent: Altazion.ECommerce.Controls.IncitationProduitField.ProduitField
+  langs:
+  - csharp
+  - vb
+  name: Libelle
+  nameWithType: IncitationProduitField.ProduitField.Libelle
+  fullName: Altazion.ECommerce.Controls.IncitationProduitField.ProduitField.Libelle
+  type: Field
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/IncitationControls.cs
+    id: Libelle
+    path: IncitationControls.cs
+    startLine: 89
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: Libelle = 4
+    return:
+      type: Altazion.ECommerce.Controls.IncitationProduitField.ProduitField
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Altazion.ECommerce.Controls.IncitationProduitField.ProduitField.MontantHt
+  commentId: F:Altazion.ECommerce.Controls.IncitationProduitField.ProduitField.MontantHt
+  id: MontantHt
+  parent: Altazion.ECommerce.Controls.IncitationProduitField.ProduitField
+  langs:
+  - csharp
+  - vb
+  name: MontantHt
+  nameWithType: IncitationProduitField.ProduitField.MontantHt
+  fullName: Altazion.ECommerce.Controls.IncitationProduitField.ProduitField.MontantHt
+  type: Field
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/IncitationControls.cs
+    id: MontantHt
+    path: IncitationControls.cs
+    startLine: 90
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: MontantHt = 5
+    return:
+      type: Altazion.ECommerce.Controls.IncitationProduitField.ProduitField
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Altazion.ECommerce.Controls.IncitationProduitField.ProduitField.MontantTtc
+  commentId: F:Altazion.ECommerce.Controls.IncitationProduitField.ProduitField.MontantTtc
+  id: MontantTtc
+  parent: Altazion.ECommerce.Controls.IncitationProduitField.ProduitField
+  langs:
+  - csharp
+  - vb
+  name: MontantTtc
+  nameWithType: IncitationProduitField.ProduitField.MontantTtc
+  fullName: Altazion.ECommerce.Controls.IncitationProduitField.ProduitField.MontantTtc
+  type: Field
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/IncitationControls.cs
+    id: MontantTtc
+    path: IncitationControls.cs
+    startLine: 91
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: MontantTtc = 6
+    return:
+      type: Altazion.ECommerce.Controls.IncitationProduitField.ProduitField
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Altazion.ECommerce.Controls
+  commentId: N:Altazion.ECommerce.Controls
+  name: Altazion.ECommerce.Controls
+  nameWithType: Altazion.ECommerce.Controls
+  fullName: Altazion.ECommerce.Controls
+- uid: Altazion.ECommerce.Controls.IncitationProduitField.ProduitField
+  commentId: T:Altazion.ECommerce.Controls.IncitationProduitField.ProduitField
+  parent: Altazion.ECommerce.Controls
+  name: IncitationProduitField.ProduitField
+  nameWithType: IncitationProduitField.ProduitField
+  fullName: Altazion.ECommerce.Controls.IncitationProduitField.ProduitField

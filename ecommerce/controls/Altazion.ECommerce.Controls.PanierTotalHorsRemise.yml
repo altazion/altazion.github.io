@@ -1,0 +1,334 @@
+### YamlMime:ManagedReference
+items:
+- uid: Altazion.ECommerce.Controls.PanierTotalHorsRemise
+  commentId: T:Altazion.ECommerce.Controls.PanierTotalHorsRemise
+  id: PanierTotalHorsRemise
+  parent: Altazion.ECommerce.Controls
+  children:
+  - Altazion.ECommerce.Controls.PanierTotalHorsRemise.#ctor
+  - Altazion.ECommerce.Controls.PanierTotalHorsRemise.AssocieMagasin
+  - Altazion.ECommerce.Controls.PanierTotalHorsRemise.Format
+  - Altazion.ECommerce.Controls.PanierTotalHorsRemise.IgnorerFraisDePort
+  - Altazion.ECommerce.Controls.PanierTotalHorsRemise.OnPreRender(EventArgs)
+  langs:
+  - csharp
+  - vb
+  name: PanierTotalHorsRemise
+  nameWithType: PanierTotalHorsRemise
+  fullName: Altazion.ECommerce.Controls.PanierTotalHorsRemise
+  type: Class
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanierTotalLabel.cs
+    id: PanierTotalHorsRemise
+    path: PanierTotalLabel.cs
+    startLine: 140
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: 'public class PanierTotalHorsRemise : Label'
+    content.vb: >-
+      Public Class PanierTotalHorsRemise
+          Inherits Label
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Altazion.ECommerce.Controls.PanierTotalHorsRemise.#ctor
+  commentId: M:Altazion.ECommerce.Controls.PanierTotalHorsRemise.#ctor
+  id: '#ctor'
+  parent: Altazion.ECommerce.Controls.PanierTotalHorsRemise
+  langs:
+  - csharp
+  - vb
+  name: PanierTotalHorsRemise()
+  nameWithType: PanierTotalHorsRemise.PanierTotalHorsRemise()
+  fullName: Altazion.ECommerce.Controls.PanierTotalHorsRemise.PanierTotalHorsRemise()
+  type: Constructor
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanierTotalLabel.cs
+    id: .ctor
+    path: PanierTotalLabel.cs
+    startLine: 142
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: public PanierTotalHorsRemise()
+    content.vb: Public Sub New
+  overload: Altazion.ECommerce.Controls.PanierTotalHorsRemise.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Altazion.ECommerce.Controls.PanierTotalHorsRemise.Format
+  commentId: P:Altazion.ECommerce.Controls.PanierTotalHorsRemise.Format
+  id: Format
+  parent: Altazion.ECommerce.Controls.PanierTotalHorsRemise
+  langs:
+  - csharp
+  - vb
+  name: Format
+  nameWithType: PanierTotalHorsRemise.Format
+  fullName: Altazion.ECommerce.Controls.PanierTotalHorsRemise.Format
+  type: Property
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanierTotalLabel.cs
+    id: Format
+    path: PanierTotalLabel.cs
+    startLine: 148
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: public string Format { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Format As String
+  overload: Altazion.ECommerce.Controls.PanierTotalHorsRemise.Format*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Altazion.ECommerce.Controls.PanierTotalHorsRemise.AssocieMagasin
+  commentId: P:Altazion.ECommerce.Controls.PanierTotalHorsRemise.AssocieMagasin
+  id: AssocieMagasin
+  parent: Altazion.ECommerce.Controls.PanierTotalHorsRemise
+  langs:
+  - csharp
+  - vb
+  name: AssocieMagasin
+  nameWithType: PanierTotalHorsRemise.AssocieMagasin
+  fullName: Altazion.ECommerce.Controls.PanierTotalHorsRemise.AssocieMagasin
+  type: Property
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanierTotalLabel.cs
+    id: AssocieMagasin
+    path: PanierTotalLabel.cs
+    startLine: 150
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: public bool? AssocieMagasin { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{System.Boolean}
+    content.vb: Public Property AssocieMagasin As Boolean?
+  overload: Altazion.ECommerce.Controls.PanierTotalHorsRemise.AssocieMagasin*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Altazion.ECommerce.Controls.PanierTotalHorsRemise.IgnorerFraisDePort
+  commentId: P:Altazion.ECommerce.Controls.PanierTotalHorsRemise.IgnorerFraisDePort
+  id: IgnorerFraisDePort
+  parent: Altazion.ECommerce.Controls.PanierTotalHorsRemise
+  langs:
+  - csharp
+  - vb
+  name: IgnorerFraisDePort
+  nameWithType: PanierTotalHorsRemise.IgnorerFraisDePort
+  fullName: Altazion.ECommerce.Controls.PanierTotalHorsRemise.IgnorerFraisDePort
+  type: Property
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanierTotalLabel.cs
+    id: IgnorerFraisDePort
+    path: PanierTotalLabel.cs
+    startLine: 152
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: public bool IgnorerFraisDePort { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property IgnorerFraisDePort As Boolean
+  overload: Altazion.ECommerce.Controls.PanierTotalHorsRemise.IgnorerFraisDePort*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Altazion.ECommerce.Controls.PanierTotalHorsRemise.OnPreRender(EventArgs)
+  commentId: M:Altazion.ECommerce.Controls.PanierTotalHorsRemise.OnPreRender(EventArgs)
+  id: OnPreRender(EventArgs)
+  parent: Altazion.ECommerce.Controls.PanierTotalHorsRemise
+  langs:
+  - csharp
+  - vb
+  name: OnPreRender(EventArgs)
+  nameWithType: PanierTotalHorsRemise.OnPreRender(EventArgs)
+  fullName: Altazion.ECommerce.Controls.PanierTotalHorsRemise.OnPreRender(EventArgs)
+  type: Method
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanierTotalLabel.cs
+    id: OnPreRender
+    path: PanierTotalLabel.cs
+    startLine: 154
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: protected override void OnPreRender(EventArgs e)
+    parameters:
+    - id: e
+      type: EventArgs
+    content.vb: Protected Overrides Sub OnPreRender(e As EventArgs)
+  overload: Altazion.ECommerce.Controls.PanierTotalHorsRemise.OnPreRender*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+references:
+- uid: Altazion.ECommerce.Controls
+  commentId: N:Altazion.ECommerce.Controls
+  name: Altazion.ECommerce.Controls
+  nameWithType: Altazion.ECommerce.Controls
+  fullName: Altazion.ECommerce.Controls
+- uid: System.Object
+  commentId: '!:System.Object'
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Altazion.ECommerce.Controls.PanierTotalHorsRemise.#ctor*
+  commentId: Overload:Altazion.ECommerce.Controls.PanierTotalHorsRemise.#ctor
+  name: PanierTotalHorsRemise
+  nameWithType: PanierTotalHorsRemise.PanierTotalHorsRemise
+  fullName: Altazion.ECommerce.Controls.PanierTotalHorsRemise.PanierTotalHorsRemise
+- uid: Altazion.ECommerce.Controls.PanierTotalHorsRemise.Format*
+  commentId: Overload:Altazion.ECommerce.Controls.PanierTotalHorsRemise.Format
+  name: Format
+  nameWithType: PanierTotalHorsRemise.Format
+  fullName: Altazion.ECommerce.Controls.PanierTotalHorsRemise.Format
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Altazion.ECommerce.Controls.PanierTotalHorsRemise.AssocieMagasin*
+  commentId: Overload:Altazion.ECommerce.Controls.PanierTotalHorsRemise.AssocieMagasin
+  name: AssocieMagasin
+  nameWithType: PanierTotalHorsRemise.AssocieMagasin
+  fullName: Altazion.ECommerce.Controls.PanierTotalHorsRemise.AssocieMagasin
+- uid: System.Nullable{System.Boolean}
+  commentId: '!:System.Nullable{System.Boolean}'
+  definition: System.Nullable`1
+  name: Nullable<Boolean>
+  nameWithType: Nullable<Boolean>
+  fullName: System.Nullable<System.Boolean>
+  nameWithType.vb: Nullable(Of Boolean)
+  fullName.vb: System.Nullable(Of System.Boolean)
+  name.vb: Nullable(Of Boolean)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable`1
+  isExternal: true
+  name: Nullable<>
+  nameWithType: Nullable<>
+  fullName: System.Nullable<>
+  nameWithType.vb: Nullable(Of )
+  fullName.vb: System.Nullable(Of )
+  name.vb: Nullable(Of )
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Altazion.ECommerce.Controls.PanierTotalHorsRemise.IgnorerFraisDePort*
+  commentId: Overload:Altazion.ECommerce.Controls.PanierTotalHorsRemise.IgnorerFraisDePort
+  name: IgnorerFraisDePort
+  nameWithType: PanierTotalHorsRemise.IgnorerFraisDePort
+  fullName: Altazion.ECommerce.Controls.PanierTotalHorsRemise.IgnorerFraisDePort
+- uid: System.Boolean
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Altazion.ECommerce.Controls.PanierTotalHorsRemise.OnPreRender*
+  commentId: Overload:Altazion.ECommerce.Controls.PanierTotalHorsRemise.OnPreRender
+  name: OnPreRender
+  nameWithType: PanierTotalHorsRemise.OnPreRender
+  fullName: Altazion.ECommerce.Controls.PanierTotalHorsRemise.OnPreRender
+- uid: EventArgs
+  isExternal: true
+  name: EventArgs
+  nameWithType: EventArgs
+  fullName: EventArgs

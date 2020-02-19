@@ -1,0 +1,166 @@
+### YamlMime:ManagedReference
+items:
+- uid: Altazion.ECommerce.Controls.BonAchatsAmountGridColumn
+  commentId: T:Altazion.ECommerce.Controls.BonAchatsAmountGridColumn
+  id: BonAchatsAmountGridColumn
+  parent: Altazion.ECommerce.Controls
+  children:
+  - Altazion.ECommerce.Controls.BonAchatsAmountGridColumn.#ctor
+  - Altazion.ECommerce.Controls.BonAchatsAmountGridColumn.Format
+  langs:
+  - csharp
+  - vb
+  name: BonAchatsAmountGridColumn
+  nameWithType: BonAchatsAmountGridColumn
+  fullName: Altazion.ECommerce.Controls.BonAchatsAmountGridColumn
+  type: Class
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/BonsAchatsControls.cs
+    id: BonAchatsAmountGridColumn
+    path: BonsAchatsControls.cs
+    startLine: 654
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  summary: "\nReprésente une colonne dans une <xref href=\"Altazion.ECommerce.Controls.BonsAchatsGridView\" data-throw-if-not-resolved=\"false\"></xref>\naffichant un td avec le montant actuel du bon d&apos;achat\n"
+  remarks: >-
+    Ce contrôle ne peut être utilisé que dans le cadre du contrôle
+
+    <xref href="Altazion.ECommerce.Controls.BonsAchatsGridView" data-throw-if-not-resolved="false"></xref>
+  example: []
+  syntax:
+    content: 'public class BonAchatsAmountGridColumn : EDataControlField'
+    content.vb: >-
+      Public Class BonAchatsAmountGridColumn
+          Inherits EDataControlField
+  inheritance:
+  - System.Object
+  - CPointSoftware.ECommerce.Tools.EDataControlField
+  inheritedMembers:
+  - CPointSoftware.ECommerce.Tools.EDataControlField.ColumnSpan
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Altazion.ECommerce.Controls.BonAchatsAmountGridColumn.#ctor
+  commentId: M:Altazion.ECommerce.Controls.BonAchatsAmountGridColumn.#ctor
+  id: '#ctor'
+  parent: Altazion.ECommerce.Controls.BonAchatsAmountGridColumn
+  langs:
+  - csharp
+  - vb
+  name: BonAchatsAmountGridColumn()
+  nameWithType: BonAchatsAmountGridColumn.BonAchatsAmountGridColumn()
+  fullName: Altazion.ECommerce.Controls.BonAchatsAmountGridColumn.BonAchatsAmountGridColumn()
+  type: Constructor
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/BonsAchatsControls.cs
+    id: .ctor
+    path: BonsAchatsControls.cs
+    startLine: 659
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  summary: "\nInitialise une instance de <xref href=\"Altazion.ECommerce.Controls.BonAchatsAmountGridColumn\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  example: []
+  syntax:
+    content: public BonAchatsAmountGridColumn()
+    content.vb: Public Sub New
+  overload: Altazion.ECommerce.Controls.BonAchatsAmountGridColumn.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Altazion.ECommerce.Controls.BonAchatsAmountGridColumn.Format
+  commentId: P:Altazion.ECommerce.Controls.BonAchatsAmountGridColumn.Format
+  id: Format
+  parent: Altazion.ECommerce.Controls.BonAchatsAmountGridColumn
+  langs:
+  - csharp
+  - vb
+  name: Format
+  nameWithType: BonAchatsAmountGridColumn.Format
+  fullName: Altazion.ECommerce.Controls.BonAchatsAmountGridColumn.Format
+  type: Property
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/BonsAchatsControls.cs
+    id: Format
+    path: BonsAchatsControls.cs
+    startLine: 667
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  summary: "\nObtient ou définit le format d&apos;affichage du montant\n"
+  example: []
+  syntax:
+    content: public string Format { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Format As String
+  overload: Altazion.ECommerce.Controls.BonAchatsAmountGridColumn.Format*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: Altazion.ECommerce.Controls.BonsAchatsGridView
+  commentId: T:Altazion.ECommerce.Controls.BonsAchatsGridView
+  name: BonsAchatsGridView
+  nameWithType: BonsAchatsGridView
+  fullName: Altazion.ECommerce.Controls.BonsAchatsGridView
+- uid: Altazion.ECommerce.Controls
+  commentId: N:Altazion.ECommerce.Controls
+  name: Altazion.ECommerce.Controls
+  nameWithType: Altazion.ECommerce.Controls
+  fullName: Altazion.ECommerce.Controls
+- uid: System.Object
+  commentId: '!:System.Object'
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: CPointSoftware.ECommerce.Tools.EDataControlField
+  commentId: T:CPointSoftware.ECommerce.Tools.EDataControlField
+  parent: CPointSoftware.ECommerce.Tools
+  name: EDataControlField
+  nameWithType: EDataControlField
+  fullName: CPointSoftware.ECommerce.Tools.EDataControlField
+- uid: CPointSoftware.ECommerce.Tools.EDataControlField.ColumnSpan
+  commentId: P:CPointSoftware.ECommerce.Tools.EDataControlField.ColumnSpan
+  parent: CPointSoftware.ECommerce.Tools.EDataControlField
+  name: ColumnSpan
+  nameWithType: EDataControlField.ColumnSpan
+  fullName: CPointSoftware.ECommerce.Tools.EDataControlField.ColumnSpan
+- uid: CPointSoftware.ECommerce.Tools
+  commentId: N:CPointSoftware.ECommerce.Tools
+  name: CPointSoftware.ECommerce.Tools
+  nameWithType: CPointSoftware.ECommerce.Tools
+  fullName: CPointSoftware.ECommerce.Tools
+- uid: Altazion.ECommerce.Controls.BonAchatsAmountGridColumn
+  commentId: T:Altazion.ECommerce.Controls.BonAchatsAmountGridColumn
+  name: BonAchatsAmountGridColumn
+  nameWithType: BonAchatsAmountGridColumn
+  fullName: Altazion.ECommerce.Controls.BonAchatsAmountGridColumn
+- uid: Altazion.ECommerce.Controls.BonAchatsAmountGridColumn.#ctor*
+  commentId: Overload:Altazion.ECommerce.Controls.BonAchatsAmountGridColumn.#ctor
+  name: BonAchatsAmountGridColumn
+  nameWithType: BonAchatsAmountGridColumn.BonAchatsAmountGridColumn
+  fullName: Altazion.ECommerce.Controls.BonAchatsAmountGridColumn.BonAchatsAmountGridColumn
+- uid: Altazion.ECommerce.Controls.BonAchatsAmountGridColumn.Format*
+  commentId: Overload:Altazion.ECommerce.Controls.BonAchatsAmountGridColumn.Format
+  name: Format
+  nameWithType: BonAchatsAmountGridColumn.Format
+  fullName: Altazion.ECommerce.Controls.BonAchatsAmountGridColumn.Format
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

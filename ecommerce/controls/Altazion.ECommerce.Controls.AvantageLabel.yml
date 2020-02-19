@@ -1,0 +1,195 @@
+### YamlMime:ManagedReference
+items:
+- uid: Altazion.ECommerce.Controls.AvantageLabel
+  commentId: T:Altazion.ECommerce.Controls.AvantageLabel
+  id: AvantageLabel
+  parent: Altazion.ECommerce.Controls
+  children:
+  - Altazion.ECommerce.Controls.AvantageLabel.OnPreRender(EventArgs)
+  - Altazion.ECommerce.Controls.AvantageLabel.TextIfActive
+  - Altazion.ECommerce.Controls.AvantageLabel.TextIfInactive
+  langs:
+  - csharp
+  - vb
+  name: AvantageLabel
+  nameWithType: AvantageLabel
+  fullName: Altazion.ECommerce.Controls.AvantageLabel
+  type: Class
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/AvantageLabel.cs
+    id: AvantageLabel
+    path: AvantageLabel.cs
+    startLine: 29
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  summary: "\nAffiche un span avec le code avantage \nactif sur le panier en cours\n"
+  remarks: "\n<p>Vous pouvez utiliser ce contrôle dans toutes les\npages du site, sous la forme :</p>\n<pre><code>&lt;ecom:AvantageLabel runat=&quot;server&quot;\n  TextIfActive=&quot;Votre code avantage : {0}&quot;\n  /gt;</code></pre>\n<p>Si vous renseignez la propriété\n<xref href=\"Altazion.ECommerce.Controls.AvantageLabel.TextIfInactive\" data-throw-if-not-resolved=\"false\"></xref>, le contenu de\ncette propriété sera affiché lorsque le\npanier n&apos;est pas associé à un code avantage.\nSi cette propriété est vide et que le \npanier n&apos;a pas de code avantage actif,\nle &lt;span> ne sera pas ajouté dans\nla page</p>\n"
+  example: []
+  syntax:
+    content: 'public class AvantageLabel : Label'
+    content.vb: >-
+      Public Class AvantageLabel
+          Inherits Label
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Altazion.ECommerce.Controls.AvantageLabel.TextIfActive
+  commentId: P:Altazion.ECommerce.Controls.AvantageLabel.TextIfActive
+  id: TextIfActive
+  parent: Altazion.ECommerce.Controls.AvantageLabel
+  langs:
+  - csharp
+  - vb
+  name: TextIfActive
+  nameWithType: AvantageLabel.TextIfActive
+  fullName: Altazion.ECommerce.Controls.AvantageLabel.TextIfActive
+  type: Property
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/AvantageLabel.cs
+    id: TextIfActive
+    path: AvantageLabel.cs
+    startLine: 40
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  summary: "\nObtient ou définit le texte à afficher si un code \navantage saisi est actif. \n"
+  remarks: "\nCe texte est utilisé pour formater le code saisi :\nutilisez {0} dans ce texte pour afficher le\ncode.\n"
+  example: []
+  syntax:
+    content: public string TextIfActive { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property TextIfActive As String
+  overload: Altazion.ECommerce.Controls.AvantageLabel.TextIfActive*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Altazion.ECommerce.Controls.AvantageLabel.TextIfInactive
+  commentId: P:Altazion.ECommerce.Controls.AvantageLabel.TextIfInactive
+  id: TextIfInactive
+  parent: Altazion.ECommerce.Controls.AvantageLabel
+  langs:
+  - csharp
+  - vb
+  name: TextIfInactive
+  nameWithType: AvantageLabel.TextIfInactive
+  fullName: Altazion.ECommerce.Controls.AvantageLabel.TextIfInactive
+  type: Property
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/AvantageLabel.cs
+    id: TextIfInactive
+    path: AvantageLabel.cs
+    startLine: 46
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  summary: "\nObtient ou définit le message lorsqu&apos;aucun code\nn&apos;est saisi\n"
+  example: []
+  syntax:
+    content: public string TextIfInactive { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property TextIfInactive As String
+  overload: Altazion.ECommerce.Controls.AvantageLabel.TextIfInactive*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Altazion.ECommerce.Controls.AvantageLabel.OnPreRender(EventArgs)
+  commentId: M:Altazion.ECommerce.Controls.AvantageLabel.OnPreRender(EventArgs)
+  id: OnPreRender(EventArgs)
+  parent: Altazion.ECommerce.Controls.AvantageLabel
+  langs:
+  - csharp
+  - vb
+  name: OnPreRender(EventArgs)
+  nameWithType: AvantageLabel.OnPreRender(EventArgs)
+  fullName: Altazion.ECommerce.Controls.AvantageLabel.OnPreRender(EventArgs)
+  type: Method
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/AvantageLabel.cs
+    id: OnPreRender
+    path: AvantageLabel.cs
+    startLine: 53
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  summary: "\nDéclenche l&apos;événement <xref href=\"System.Web.UI.Control.PreRender\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  example: []
+  syntax:
+    content: protected override void OnPreRender(EventArgs e)
+    parameters:
+    - id: e
+      type: EventArgs
+      description: Objet <xref href="System.EventArgs" data-throw-if-not-resolved="false"></xref> qui contient les données d&apos;événement.
+    content.vb: Protected Overrides Sub OnPreRender(e As EventArgs)
+  overload: Altazion.ECommerce.Controls.AvantageLabel.OnPreRender*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+references:
+- uid: Altazion.ECommerce.Controls.AvantageLabel.TextIfInactive
+  commentId: P:Altazion.ECommerce.Controls.AvantageLabel.TextIfInactive
+  isExternal: true
+- uid: Altazion.ECommerce.Controls
+  commentId: N:Altazion.ECommerce.Controls
+  name: Altazion.ECommerce.Controls
+  nameWithType: Altazion.ECommerce.Controls
+  fullName: Altazion.ECommerce.Controls
+- uid: System.Object
+  commentId: '!:System.Object'
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Altazion.ECommerce.Controls.AvantageLabel.TextIfActive*
+  commentId: Overload:Altazion.ECommerce.Controls.AvantageLabel.TextIfActive
+  name: TextIfActive
+  nameWithType: AvantageLabel.TextIfActive
+  fullName: Altazion.ECommerce.Controls.AvantageLabel.TextIfActive
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Altazion.ECommerce.Controls.AvantageLabel.TextIfInactive*
+  commentId: Overload:Altazion.ECommerce.Controls.AvantageLabel.TextIfInactive
+  name: TextIfInactive
+  nameWithType: AvantageLabel.TextIfInactive
+  fullName: Altazion.ECommerce.Controls.AvantageLabel.TextIfInactive
+- uid: System.Web.UI.Control.PreRender
+  commentId: E:System.Web.UI.Control.PreRender
+  isExternal: true
+- uid: System.EventArgs
+  commentId: T:System.EventArgs
+  isExternal: true
+- uid: Altazion.ECommerce.Controls.AvantageLabel.OnPreRender*
+  commentId: Overload:Altazion.ECommerce.Controls.AvantageLabel.OnPreRender
+  name: OnPreRender
+  nameWithType: AvantageLabel.OnPreRender
+  fullName: Altazion.ECommerce.Controls.AvantageLabel.OnPreRender
+- uid: EventArgs
+  isExternal: true
+  name: EventArgs
+  nameWithType: EventArgs
+  fullName: EventArgs

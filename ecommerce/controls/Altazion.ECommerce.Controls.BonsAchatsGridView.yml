@@ -1,0 +1,341 @@
+### YamlMime:ManagedReference
+items:
+- uid: Altazion.ECommerce.Controls.BonsAchatsGridView
+  commentId: T:Altazion.ECommerce.Controls.BonsAchatsGridView
+  id: BonsAchatsGridView
+  parent: Altazion.ECommerce.Controls
+  children:
+  - Altazion.ECommerce.Controls.BonsAchatsGridView.#ctor
+  - Altazion.ECommerce.Controls.BonsAchatsGridView.IsReadOnly
+  - Altazion.ECommerce.Controls.BonsAchatsGridView.ParseBons(CPointSoftware.Equihira.Business.Clients.Data.BonsAchatsDS,CPointSoftware.ECommerce.Tools.PanierProvider)
+  - Altazion.ECommerce.Controls.BonsAchatsGridView.Parsing
+  langs:
+  - csharp
+  - vb
+  name: BonsAchatsGridView
+  nameWithType: BonsAchatsGridView
+  fullName: Altazion.ECommerce.Controls.BonsAchatsGridView
+  type: Class
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/BonsAchatsControls.cs
+    id: BonsAchatsGridView
+    path: BonsAchatsControls.cs
+    startLine: 253
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  summary: "\nGridView (table) affichant les bons d&apos;achats\nd&apos;un client.\n"
+  remarks: Les données affichées sont de type <xref href="Altazion.ECommerce.Controls.BonsAchatsGridView.BonAchatData" data-throw-if-not-resolved="false"></xref>
+  example: []
+  syntax:
+    content: 'public class BonsAchatsGridView : GridView'
+    content.vb: >-
+      Public Class BonsAchatsGridView
+          Inherits GridView
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Altazion.ECommerce.Controls.BonsAchatsGridView.#ctor
+  commentId: M:Altazion.ECommerce.Controls.BonsAchatsGridView.#ctor
+  id: '#ctor'
+  parent: Altazion.ECommerce.Controls.BonsAchatsGridView
+  langs:
+  - csharp
+  - vb
+  name: BonsAchatsGridView()
+  nameWithType: BonsAchatsGridView.BonsAchatsGridView()
+  fullName: Altazion.ECommerce.Controls.BonsAchatsGridView.BonsAchatsGridView()
+  type: Constructor
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/BonsAchatsControls.cs
+    id: .ctor
+    path: BonsAchatsControls.cs
+    startLine: 291
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  summary: "\nInitialise une instance de <xref href=\"Altazion.ECommerce.Controls.BonsAchatsGridView\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  example: []
+  syntax:
+    content: public BonsAchatsGridView()
+    content.vb: Public Sub New
+  overload: Altazion.ECommerce.Controls.BonsAchatsGridView.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Altazion.ECommerce.Controls.BonsAchatsGridView.IsReadOnly
+  commentId: P:Altazion.ECommerce.Controls.BonsAchatsGridView.IsReadOnly
+  id: IsReadOnly
+  parent: Altazion.ECommerce.Controls.BonsAchatsGridView
+  langs:
+  - csharp
+  - vb
+  name: IsReadOnly
+  nameWithType: BonsAchatsGridView.IsReadOnly
+  fullName: Altazion.ECommerce.Controls.BonsAchatsGridView.IsReadOnly
+  type: Property
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/BonsAchatsControls.cs
+    id: IsReadOnly
+    path: BonsAchatsControls.cs
+    startLine: 303
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  summary: "\nSi le composant est readonly, les liens seront invisibles\net les montants/etc ne seront pas marqués &quot;disabled&quot; si\nils ne sont pas utilisables\n"
+  example: []
+  syntax:
+    content: public bool IsReadOnly { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property IsReadOnly As Boolean
+  overload: Altazion.ECommerce.Controls.BonsAchatsGridView.IsReadOnly*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Altazion.ECommerce.Controls.BonsAchatsGridView.Parsing
+  commentId: E:Altazion.ECommerce.Controls.BonsAchatsGridView.Parsing
+  id: Parsing
+  parent: Altazion.ECommerce.Controls.BonsAchatsGridView
+  langs:
+  - csharp
+  - vb
+  name: Parsing
+  nameWithType: BonsAchatsGridView.Parsing
+  fullName: Altazion.ECommerce.Controls.BonsAchatsGridView.Parsing
+  type: Event
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/BonsAchatsControls.cs
+    id: Parsing
+    path: BonsAchatsControls.cs
+    startLine: 311
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  summary: "\nLevé lorsque les bons d&apos;achats ont été convertis depuis\nla base de données dans la méthode <xref href=\"Altazion.ECommerce.Controls.BonsAchatsGridView.ParseBons(CPointSoftware.Equihira.Business.Clients.Data.BonsAchatsDS%2cCPointSoftware.ECommerce.Tools.PanierProvider)\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  remarks: >-
+    Cet évènement vous permet de modifier les bons
+
+    pour appliquer des règles de gestion supplémentaires
+  example: []
+  syntax:
+    content: public static event BonsAchatsGridView.BonAchatParsingHandler Parsing
+    return:
+      type: Altazion.ECommerce.Controls.BonsAchatsGridView.BonAchatParsingHandler
+    content.vb: Public Shared Event Parsing As BonsAchatsGridView.BonAchatParsingHandler
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Altazion.ECommerce.Controls.BonsAchatsGridView.ParseBons(CPointSoftware.Equihira.Business.Clients.Data.BonsAchatsDS,CPointSoftware.ECommerce.Tools.PanierProvider)
+  commentId: M:Altazion.ECommerce.Controls.BonsAchatsGridView.ParseBons(CPointSoftware.Equihira.Business.Clients.Data.BonsAchatsDS,CPointSoftware.ECommerce.Tools.PanierProvider)
+  id: ParseBons(CPointSoftware.Equihira.Business.Clients.Data.BonsAchatsDS,CPointSoftware.ECommerce.Tools.PanierProvider)
+  parent: Altazion.ECommerce.Controls.BonsAchatsGridView
+  langs:
+  - csharp
+  - vb
+  name: ParseBons(BonsAchatsDS, PanierProvider)
+  nameWithType: BonsAchatsGridView.ParseBons(BonsAchatsDS, PanierProvider)
+  fullName: Altazion.ECommerce.Controls.BonsAchatsGridView.ParseBons(CPointSoftware.Equihira.Business.Clients.Data.BonsAchatsDS, CPointSoftware.ECommerce.Tools.PanierProvider)
+  type: Method
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/BonsAchatsControls.cs
+    id: ParseBons
+    path: BonsAchatsControls.cs
+    startLine: 432
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  summary: "\nConverti un dataset avec des bons d&apos;achats en objets\npour affichage\n"
+  example: []
+  syntax:
+    content: public static List<BonsAchatsGridView.BonAchatData> ParseBons(BonsAchatsDS ds, PanierProvider prv)
+    parameters:
+    - id: ds
+      type: CPointSoftware.Equihira.Business.Clients.Data.BonsAchatsDS
+      description: Le dataset contenant les bons d&apos;achats.
+    - id: prv
+      type: CPointSoftware.ECommerce.Tools.PanierProvider
+      description: Le panier actuel pour calculer les conditions.
+    return:
+      type: List{Altazion.ECommerce.Controls.BonsAchatsGridView.BonAchatData}
+      description: Une liste de bons d&apos;achats pour affichage
+    content.vb: Public Shared Function ParseBons(ds As BonsAchatsDS, prv As PanierProvider) As List(Of BonsAchatsGridView.BonAchatData)
+  overload: Altazion.ECommerce.Controls.BonsAchatsGridView.ParseBons*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: Altazion.ECommerce.Controls.BonsAchatsGridView.BonAchatData
+  commentId: T:Altazion.ECommerce.Controls.BonsAchatsGridView.BonAchatData
+  parent: Altazion.ECommerce.Controls
+  name: BonsAchatsGridView.BonAchatData
+  nameWithType: BonsAchatsGridView.BonAchatData
+  fullName: Altazion.ECommerce.Controls.BonsAchatsGridView.BonAchatData
+- uid: Altazion.ECommerce.Controls
+  commentId: N:Altazion.ECommerce.Controls
+  name: Altazion.ECommerce.Controls
+  nameWithType: Altazion.ECommerce.Controls
+  fullName: Altazion.ECommerce.Controls
+- uid: System.Object
+  commentId: '!:System.Object'
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Altazion.ECommerce.Controls.BonsAchatsGridView
+  commentId: T:Altazion.ECommerce.Controls.BonsAchatsGridView
+  name: BonsAchatsGridView
+  nameWithType: BonsAchatsGridView
+  fullName: Altazion.ECommerce.Controls.BonsAchatsGridView
+- uid: Altazion.ECommerce.Controls.BonsAchatsGridView.#ctor*
+  commentId: Overload:Altazion.ECommerce.Controls.BonsAchatsGridView.#ctor
+  name: BonsAchatsGridView
+  nameWithType: BonsAchatsGridView.BonsAchatsGridView
+  fullName: Altazion.ECommerce.Controls.BonsAchatsGridView.BonsAchatsGridView
+- uid: Altazion.ECommerce.Controls.BonsAchatsGridView.IsReadOnly*
+  commentId: Overload:Altazion.ECommerce.Controls.BonsAchatsGridView.IsReadOnly
+  name: IsReadOnly
+  nameWithType: BonsAchatsGridView.IsReadOnly
+  fullName: Altazion.ECommerce.Controls.BonsAchatsGridView.IsReadOnly
+- uid: System.Boolean
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Altazion.ECommerce.Controls.BonsAchatsGridView.ParseBons(CPointSoftware.Equihira.Business.Clients.Data.BonsAchatsDS,CPointSoftware.ECommerce.Tools.PanierProvider)
+  commentId: M:Altazion.ECommerce.Controls.BonsAchatsGridView.ParseBons(CPointSoftware.Equihira.Business.Clients.Data.BonsAchatsDS,CPointSoftware.ECommerce.Tools.PanierProvider)
+  isExternal: true
+- uid: Altazion.ECommerce.Controls.BonsAchatsGridView.BonAchatParsingHandler
+  commentId: T:Altazion.ECommerce.Controls.BonsAchatsGridView.BonAchatParsingHandler
+  parent: Altazion.ECommerce.Controls
+  name: BonsAchatsGridView.BonAchatParsingHandler
+  nameWithType: BonsAchatsGridView.BonAchatParsingHandler
+  fullName: Altazion.ECommerce.Controls.BonsAchatsGridView.BonAchatParsingHandler
+- uid: Altazion.ECommerce.Controls.BonsAchatsGridView.ParseBons*
+  commentId: Overload:Altazion.ECommerce.Controls.BonsAchatsGridView.ParseBons
+  name: ParseBons
+  nameWithType: BonsAchatsGridView.ParseBons
+  fullName: Altazion.ECommerce.Controls.BonsAchatsGridView.ParseBons
+- uid: CPointSoftware.Equihira.Business.Clients.Data.BonsAchatsDS
+  commentId: T:CPointSoftware.Equihira.Business.Clients.Data.BonsAchatsDS
+  parent: CPointSoftware.Equihira.Business.Clients.Data
+  name: BonsAchatsDS
+  nameWithType: BonsAchatsDS
+  fullName: CPointSoftware.Equihira.Business.Clients.Data.BonsAchatsDS
+- uid: CPointSoftware.ECommerce.Tools.PanierProvider
+  commentId: T:CPointSoftware.ECommerce.Tools.PanierProvider
+  parent: CPointSoftware.ECommerce.Tools
+  name: PanierProvider
+  nameWithType: PanierProvider
+  fullName: CPointSoftware.ECommerce.Tools.PanierProvider
+- uid: List{Altazion.ECommerce.Controls.BonsAchatsGridView.BonAchatData}
+  commentId: '!:List{Altazion.ECommerce.Controls.BonsAchatsGridView.BonAchatData}'
+  definition: List`1
+  name: List<BonsAchatsGridView.BonAchatData>
+  nameWithType: List<BonsAchatsGridView.BonAchatData>
+  fullName: List<Altazion.ECommerce.Controls.BonsAchatsGridView.BonAchatData>
+  nameWithType.vb: List(Of BonsAchatsGridView.BonAchatData)
+  fullName.vb: List(Of Altazion.ECommerce.Controls.BonsAchatsGridView.BonAchatData)
+  name.vb: List(Of BonsAchatsGridView.BonAchatData)
+  spec.csharp:
+  - uid: List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Altazion.ECommerce.Controls.BonsAchatsGridView.BonAchatData
+    name: BonsAchatsGridView.BonAchatData
+    nameWithType: BonsAchatsGridView.BonAchatData
+    fullName: Altazion.ECommerce.Controls.BonsAchatsGridView.BonAchatData
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Altazion.ECommerce.Controls.BonsAchatsGridView.BonAchatData
+    name: BonsAchatsGridView.BonAchatData
+    nameWithType: BonsAchatsGridView.BonAchatData
+    fullName: Altazion.ECommerce.Controls.BonsAchatsGridView.BonAchatData
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CPointSoftware.Equihira.Business.Clients.Data
+  commentId: N:CPointSoftware.Equihira.Business.Clients.Data
+  name: CPointSoftware.Equihira.Business.Clients.Data
+  nameWithType: CPointSoftware.Equihira.Business.Clients.Data
+  fullName: CPointSoftware.Equihira.Business.Clients.Data
+- uid: CPointSoftware.ECommerce.Tools
+  commentId: N:CPointSoftware.ECommerce.Tools
+  name: CPointSoftware.ECommerce.Tools
+  nameWithType: CPointSoftware.ECommerce.Tools
+  fullName: CPointSoftware.ECommerce.Tools
+- uid: List`1
+  commentId: '!:List`1'
+  isExternal: true
+  name: List<>
+  nameWithType: List<>
+  fullName: List<>
+  nameWithType.vb: List(Of )
+  fullName.vb: List(Of )
+  name.vb: List(Of )
+  spec.csharp:
+  - uid: List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )

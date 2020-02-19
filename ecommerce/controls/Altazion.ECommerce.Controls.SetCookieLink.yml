@@ -1,0 +1,209 @@
+### YamlMime:ManagedReference
+items:
+- uid: Altazion.ECommerce.Controls.SetCookieLink
+  commentId: T:Altazion.ECommerce.Controls.SetCookieLink
+  id: SetCookieLink
+  parent: Altazion.ECommerce.Controls
+  children:
+  - Altazion.ECommerce.Controls.SetCookieLink.#ctor
+  - Altazion.ECommerce.Controls.SetCookieLink.CookieName
+  - Altazion.ECommerce.Controls.SetCookieLink.CookieValueToSet
+  - Altazion.ECommerce.Controls.SetCookieLink.OnPreRender(EventArgs)
+  langs:
+  - csharp
+  - vb
+  name: SetCookieLink
+  nameWithType: SetCookieLink
+  fullName: Altazion.ECommerce.Controls.SetCookieLink
+  type: Class
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/CookiePanel.cs
+    id: SetCookieLink
+    path: CookiePanel.cs
+    startLine: 51
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: 'public class SetCookieLink : Web.UI.HtmlControls.HtmlAnchor'
+    content.vb: >-
+      Public Class SetCookieLink
+          Inherits Web.UI.HtmlControls.HtmlAnchor
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Altazion.ECommerce.Controls.SetCookieLink.#ctor
+  commentId: M:Altazion.ECommerce.Controls.SetCookieLink.#ctor
+  id: '#ctor'
+  parent: Altazion.ECommerce.Controls.SetCookieLink
+  langs:
+  - csharp
+  - vb
+  name: SetCookieLink()
+  nameWithType: SetCookieLink.SetCookieLink()
+  fullName: Altazion.ECommerce.Controls.SetCookieLink.SetCookieLink()
+  type: Constructor
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/CookiePanel.cs
+    id: .ctor
+    path: CookiePanel.cs
+    startLine: 53
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: public SetCookieLink()
+    content.vb: Public Sub New
+  overload: Altazion.ECommerce.Controls.SetCookieLink.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Altazion.ECommerce.Controls.SetCookieLink.CookieName
+  commentId: P:Altazion.ECommerce.Controls.SetCookieLink.CookieName
+  id: CookieName
+  parent: Altazion.ECommerce.Controls.SetCookieLink
+  langs:
+  - csharp
+  - vb
+  name: CookieName
+  nameWithType: SetCookieLink.CookieName
+  fullName: Altazion.ECommerce.Controls.SetCookieLink.CookieName
+  type: Property
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/CookiePanel.cs
+    id: CookieName
+    path: CookiePanel.cs
+    startLine: 59
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: public string CookieName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property CookieName As String
+  overload: Altazion.ECommerce.Controls.SetCookieLink.CookieName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Altazion.ECommerce.Controls.SetCookieLink.CookieValueToSet
+  commentId: P:Altazion.ECommerce.Controls.SetCookieLink.CookieValueToSet
+  id: CookieValueToSet
+  parent: Altazion.ECommerce.Controls.SetCookieLink
+  langs:
+  - csharp
+  - vb
+  name: CookieValueToSet
+  nameWithType: SetCookieLink.CookieValueToSet
+  fullName: Altazion.ECommerce.Controls.SetCookieLink.CookieValueToSet
+  type: Property
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/CookiePanel.cs
+    id: CookieValueToSet
+    path: CookiePanel.cs
+    startLine: 60
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: public string CookieValueToSet { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property CookieValueToSet As String
+  overload: Altazion.ECommerce.Controls.SetCookieLink.CookieValueToSet*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Altazion.ECommerce.Controls.SetCookieLink.OnPreRender(EventArgs)
+  commentId: M:Altazion.ECommerce.Controls.SetCookieLink.OnPreRender(EventArgs)
+  id: OnPreRender(EventArgs)
+  parent: Altazion.ECommerce.Controls.SetCookieLink
+  langs:
+  - csharp
+  - vb
+  name: OnPreRender(EventArgs)
+  nameWithType: SetCookieLink.OnPreRender(EventArgs)
+  fullName: Altazion.ECommerce.Controls.SetCookieLink.OnPreRender(EventArgs)
+  type: Method
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/CookiePanel.cs
+    id: OnPreRender
+    path: CookiePanel.cs
+    startLine: 62
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: protected override void OnPreRender(EventArgs e)
+    parameters:
+    - id: e
+      type: EventArgs
+    content.vb: Protected Overrides Sub OnPreRender(e As EventArgs)
+  overload: Altazion.ECommerce.Controls.SetCookieLink.OnPreRender*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+references:
+- uid: Altazion.ECommerce.Controls
+  commentId: N:Altazion.ECommerce.Controls
+  name: Altazion.ECommerce.Controls
+  nameWithType: Altazion.ECommerce.Controls
+  fullName: Altazion.ECommerce.Controls
+- uid: System.Object
+  commentId: '!:System.Object'
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Altazion.ECommerce.Controls.SetCookieLink.#ctor*
+  commentId: Overload:Altazion.ECommerce.Controls.SetCookieLink.#ctor
+  name: SetCookieLink
+  nameWithType: SetCookieLink.SetCookieLink
+  fullName: Altazion.ECommerce.Controls.SetCookieLink.SetCookieLink
+- uid: Altazion.ECommerce.Controls.SetCookieLink.CookieName*
+  commentId: Overload:Altazion.ECommerce.Controls.SetCookieLink.CookieName
+  name: CookieName
+  nameWithType: SetCookieLink.CookieName
+  fullName: Altazion.ECommerce.Controls.SetCookieLink.CookieName
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Altazion.ECommerce.Controls.SetCookieLink.CookieValueToSet*
+  commentId: Overload:Altazion.ECommerce.Controls.SetCookieLink.CookieValueToSet
+  name: CookieValueToSet
+  nameWithType: SetCookieLink.CookieValueToSet
+  fullName: Altazion.ECommerce.Controls.SetCookieLink.CookieValueToSet
+- uid: Altazion.ECommerce.Controls.SetCookieLink.OnPreRender*
+  commentId: Overload:Altazion.ECommerce.Controls.SetCookieLink.OnPreRender
+  name: OnPreRender
+  nameWithType: SetCookieLink.OnPreRender
+  fullName: Altazion.ECommerce.Controls.SetCookieLink.OnPreRender
+- uid: EventArgs
+  isExternal: true
+  name: EventArgs
+  nameWithType: EventArgs
+  fullName: EventArgs

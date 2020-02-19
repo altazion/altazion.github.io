@@ -1,0 +1,92 @@
+### YamlMime:ManagedReference
+items:
+- uid: Altazion.ECommerce.Controls.PanelCacherSiNonGuest
+  commentId: T:Altazion.ECommerce.Controls.PanelCacherSiNonGuest
+  id: PanelCacherSiNonGuest
+  parent: Altazion.ECommerce.Controls
+  children:
+  - Altazion.ECommerce.Controls.PanelCacherSiNonGuest.OnPreRender(EventArgs)
+  langs:
+  - csharp
+  - vb
+  name: PanelCacherSiNonGuest
+  nameWithType: PanelCacherSiNonGuest
+  fullName: Altazion.ECommerce.Controls.PanelCacherSiNonGuest
+  type: Class
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanelsGuest.cs
+    id: PanelCacherSiNonGuest
+    path: PanelsGuest.cs
+    startLine: 19
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: 'public class PanelCacherSiNonGuest : Panel'
+    content.vb: >-
+      Public Class PanelCacherSiNonGuest
+          Inherits Panel
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Altazion.ECommerce.Controls.PanelCacherSiNonGuest.OnPreRender(EventArgs)
+  commentId: M:Altazion.ECommerce.Controls.PanelCacherSiNonGuest.OnPreRender(EventArgs)
+  id: OnPreRender(EventArgs)
+  parent: Altazion.ECommerce.Controls.PanelCacherSiNonGuest
+  langs:
+  - csharp
+  - vb
+  name: OnPreRender(EventArgs)
+  nameWithType: PanelCacherSiNonGuest.OnPreRender(EventArgs)
+  fullName: Altazion.ECommerce.Controls.PanelCacherSiNonGuest.OnPreRender(EventArgs)
+  type: Method
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanelsGuest.cs
+    id: OnPreRender
+    path: PanelsGuest.cs
+    startLine: 21
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: protected override void OnPreRender(EventArgs e)
+    parameters:
+    - id: e
+      type: EventArgs
+    content.vb: Protected Overrides Sub OnPreRender(e As EventArgs)
+  overload: Altazion.ECommerce.Controls.PanelCacherSiNonGuest.OnPreRender*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+references:
+- uid: Altazion.ECommerce.Controls
+  commentId: N:Altazion.ECommerce.Controls
+  name: Altazion.ECommerce.Controls
+  nameWithType: Altazion.ECommerce.Controls
+  fullName: Altazion.ECommerce.Controls
+- uid: System.Object
+  commentId: '!:System.Object'
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Altazion.ECommerce.Controls.PanelCacherSiNonGuest.OnPreRender*
+  commentId: Overload:Altazion.ECommerce.Controls.PanelCacherSiNonGuest.OnPreRender
+  name: OnPreRender
+  nameWithType: PanelCacherSiNonGuest.OnPreRender
+  fullName: Altazion.ECommerce.Controls.PanelCacherSiNonGuest.OnPreRender
+- uid: EventArgs
+  isExternal: true
+  name: EventArgs
+  nameWithType: EventArgs
+  fullName: EventArgs

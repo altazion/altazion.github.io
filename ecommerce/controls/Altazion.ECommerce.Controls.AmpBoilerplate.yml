@@ -1,0 +1,50 @@
+### YamlMime:ManagedReference
+items:
+- uid: Altazion.ECommerce.Controls.AmpBoilerplate
+  commentId: T:Altazion.ECommerce.Controls.AmpBoilerplate
+  id: AmpBoilerplate
+  parent: Altazion.ECommerce.Controls
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: AmpBoilerplate
+  nameWithType: AmpBoilerplate
+  fullName: Altazion.ECommerce.Controls.AmpBoilerplate
+  type: Class
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/AmpBoilerplate.cs
+    id: AmpBoilerplate
+    path: AmpBoilerplate.cs
+    startLine: 15
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  summary: "\nContrôle de base insérant le code &quot;boilerplate&quot; de AMP dans\nune page (script de démarrage d&apos;une page AMP).\n"
+  example: []
+  syntax:
+    content: 'public class AmpBoilerplate : WebControl'
+    content.vb: >-
+      Public Class AmpBoilerplate
+          Inherits WebControl
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+references:
+- uid: Altazion.ECommerce.Controls
+  commentId: N:Altazion.ECommerce.Controls
+  name: Altazion.ECommerce.Controls
+  nameWithType: Altazion.ECommerce.Controls
+  fullName: Altazion.ECommerce.Controls
+- uid: System.Object
+  commentId: '!:System.Object'
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object

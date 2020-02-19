@@ -1,0 +1,146 @@
+### YamlMime:ManagedReference
+items:
+- uid: Altazion.ECommerce.Controls.BonsAchatsAjouterLink.BonsAchatsAjoutImpossibleEventArgs
+  commentId: T:Altazion.ECommerce.Controls.BonsAchatsAjouterLink.BonsAchatsAjoutImpossibleEventArgs
+  id: BonsAchatsAjouterLink.BonsAchatsAjoutImpossibleEventArgs
+  parent: Altazion.ECommerce.Controls
+  children:
+  - Altazion.ECommerce.Controls.BonsAchatsAjouterLink.BonsAchatsAjoutImpossibleEventArgs.Raison
+  - Altazion.ECommerce.Controls.BonsAchatsAjouterLink.BonsAchatsAjoutImpossibleEventArgs.Texte
+  langs:
+  - csharp
+  - vb
+  name: BonsAchatsAjouterLink.BonsAchatsAjoutImpossibleEventArgs
+  nameWithType: BonsAchatsAjouterLink.BonsAchatsAjoutImpossibleEventArgs
+  fullName: Altazion.ECommerce.Controls.BonsAchatsAjouterLink.BonsAchatsAjoutImpossibleEventArgs
+  type: Class
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/BonsAchatsControls.cs
+    id: BonsAchatsAjoutImpossibleEventArgs
+    path: BonsAchatsControls.cs
+    startLine: 118
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  summary: "\nReprésente les détails pour un événement du type <xref href=\"Altazion.ECommerce.Controls.BonsAchatsAjouterLink.AjoutImpossible\" data-throw-if-not-resolved=\"false\"></xref>\n"
+  example: []
+  syntax:
+    content: 'public class BonsAchatsAjoutImpossibleEventArgs : EventArgs'
+    content.vb: >-
+      Public Class BonsAchatsAjoutImpossibleEventArgs
+          Inherits EventArgs
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Altazion.ECommerce.Controls.BonsAchatsAjouterLink.BonsAchatsAjoutImpossibleEventArgs.Raison
+  commentId: P:Altazion.ECommerce.Controls.BonsAchatsAjouterLink.BonsAchatsAjoutImpossibleEventArgs.Raison
+  id: Raison
+  parent: Altazion.ECommerce.Controls.BonsAchatsAjouterLink.BonsAchatsAjoutImpossibleEventArgs
+  langs:
+  - csharp
+  - vb
+  name: Raison
+  nameWithType: BonsAchatsAjouterLink.BonsAchatsAjoutImpossibleEventArgs.Raison
+  fullName: Altazion.ECommerce.Controls.BonsAchatsAjouterLink.BonsAchatsAjoutImpossibleEventArgs.Raison
+  type: Property
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/BonsAchatsControls.cs
+    id: Raison
+    path: BonsAchatsControls.cs
+    startLine: 124
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  summary: "\nObtient ou définit la raison de l&apos;impossibilité d&apos;ajouter\nle bon d&apos;achat\n"
+  example: []
+  syntax:
+    content: public BonsAchatsAjouterLink.BonsAchatsAjoutImpossibleRaison Raison { get; set; }
+    parameters: []
+    return:
+      type: Altazion.ECommerce.Controls.BonsAchatsAjouterLink.BonsAchatsAjoutImpossibleRaison
+    content.vb: Public Property Raison As BonsAchatsAjouterLink.BonsAchatsAjoutImpossibleRaison
+  overload: Altazion.ECommerce.Controls.BonsAchatsAjouterLink.BonsAchatsAjoutImpossibleEventArgs.Raison*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Altazion.ECommerce.Controls.BonsAchatsAjouterLink.BonsAchatsAjoutImpossibleEventArgs.Texte
+  commentId: P:Altazion.ECommerce.Controls.BonsAchatsAjouterLink.BonsAchatsAjoutImpossibleEventArgs.Texte
+  id: Texte
+  parent: Altazion.ECommerce.Controls.BonsAchatsAjouterLink.BonsAchatsAjoutImpossibleEventArgs
+  langs:
+  - csharp
+  - vb
+  name: Texte
+  nameWithType: BonsAchatsAjouterLink.BonsAchatsAjoutImpossibleEventArgs.Texte
+  fullName: Altazion.ECommerce.Controls.BonsAchatsAjouterLink.BonsAchatsAjoutImpossibleEventArgs.Texte
+  type: Property
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/BonsAchatsControls.cs
+    id: Texte
+    path: BonsAchatsControls.cs
+    startLine: 129
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  summary: "\nObtient ou définit le descriptif de l&apos;erreur\n"
+  example: []
+  syntax:
+    content: public string Texte { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Texte As String
+  overload: Altazion.ECommerce.Controls.BonsAchatsAjouterLink.BonsAchatsAjoutImpossibleEventArgs.Texte*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: Altazion.ECommerce.Controls.BonsAchatsAjouterLink.AjoutImpossible
+  commentId: E:Altazion.ECommerce.Controls.BonsAchatsAjouterLink.AjoutImpossible
+  isExternal: true
+- uid: Altazion.ECommerce.Controls
+  commentId: N:Altazion.ECommerce.Controls
+  name: Altazion.ECommerce.Controls
+  nameWithType: Altazion.ECommerce.Controls
+  fullName: Altazion.ECommerce.Controls
+- uid: System.Object
+  commentId: '!:System.Object'
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Altazion.ECommerce.Controls.BonsAchatsAjouterLink.BonsAchatsAjoutImpossibleEventArgs.Raison*
+  commentId: Overload:Altazion.ECommerce.Controls.BonsAchatsAjouterLink.BonsAchatsAjoutImpossibleEventArgs.Raison
+  name: Raison
+  nameWithType: BonsAchatsAjouterLink.BonsAchatsAjoutImpossibleEventArgs.Raison
+  fullName: Altazion.ECommerce.Controls.BonsAchatsAjouterLink.BonsAchatsAjoutImpossibleEventArgs.Raison
+- uid: Altazion.ECommerce.Controls.BonsAchatsAjouterLink.BonsAchatsAjoutImpossibleRaison
+  commentId: T:Altazion.ECommerce.Controls.BonsAchatsAjouterLink.BonsAchatsAjoutImpossibleRaison
+  parent: Altazion.ECommerce.Controls
+  name: BonsAchatsAjouterLink.BonsAchatsAjoutImpossibleRaison
+  nameWithType: BonsAchatsAjouterLink.BonsAchatsAjoutImpossibleRaison
+  fullName: Altazion.ECommerce.Controls.BonsAchatsAjouterLink.BonsAchatsAjoutImpossibleRaison
+- uid: Altazion.ECommerce.Controls.BonsAchatsAjouterLink.BonsAchatsAjoutImpossibleEventArgs.Texte*
+  commentId: Overload:Altazion.ECommerce.Controls.BonsAchatsAjouterLink.BonsAchatsAjoutImpossibleEventArgs.Texte
+  name: Texte
+  nameWithType: BonsAchatsAjouterLink.BonsAchatsAjoutImpossibleEventArgs.Texte
+  fullName: Altazion.ECommerce.Controls.BonsAchatsAjouterLink.BonsAchatsAjoutImpossibleEventArgs.Texte
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

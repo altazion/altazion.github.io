@@ -1,0 +1,319 @@
+### YamlMime:ManagedReference
+items:
+- uid: Altazion.ECommerce.Controls.PanierProduitLink
+  commentId: T:Altazion.ECommerce.Controls.PanierProduitLink
+  id: PanierProduitLink
+  parent: Altazion.ECommerce.Controls
+  children:
+  - Altazion.ECommerce.Controls.PanierProduitLink.CssClassSiPromo
+  - Altazion.ECommerce.Controls.PanierProduitLink.Field
+  - Altazion.ECommerce.Controls.PanierProduitLink.Format
+  - Altazion.ECommerce.Controls.PanierProduitLink.PourPageAmp
+  - Altazion.ECommerce.Controls.PanierProduitLink.TextePrixZero
+  langs:
+  - csharp
+  - vb
+  name: PanierProduitLink
+  nameWithType: PanierProduitLink
+  fullName: Altazion.ECommerce.Controls.PanierProduitLink
+  type: Class
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanierProduitField.cs
+    id: PanierProduitLink
+    path: PanierProduitField.cs
+    startLine: 840
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: 'public class PanierProduitLink : Hyperlink'
+    content.vb: >-
+      Public Class PanierProduitLink
+          Inherits Hyperlink
+  inheritance:
+  - System.Object
+  - CPointSoftware.ECommerce.Tools.Hyperlink
+  inheritedMembers:
+  - CPointSoftware.ECommerce.Tools.Hyperlink.CssClassIfCurrent
+  - CPointSoftware.ECommerce.Tools.Hyperlink.OnPreRender(EventArgs)
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Altazion.ECommerce.Controls.PanierProduitLink.PourPageAmp
+  commentId: P:Altazion.ECommerce.Controls.PanierProduitLink.PourPageAmp
+  id: PourPageAmp
+  parent: Altazion.ECommerce.Controls.PanierProduitLink
+  langs:
+  - csharp
+  - vb
+  name: PourPageAmp
+  nameWithType: PanierProduitLink.PourPageAmp
+  fullName: Altazion.ECommerce.Controls.PanierProduitLink.PourPageAmp
+  type: Property
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanierProduitField.cs
+    id: PourPageAmp
+    path: PanierProduitField.cs
+    startLine: 853
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: public bool PourPageAmp { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property PourPageAmp As Boolean
+  overload: Altazion.ECommerce.Controls.PanierProduitLink.PourPageAmp*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Altazion.ECommerce.Controls.PanierProduitLink.Format
+  commentId: P:Altazion.ECommerce.Controls.PanierProduitLink.Format
+  id: Format
+  parent: Altazion.ECommerce.Controls.PanierProduitLink
+  langs:
+  - csharp
+  - vb
+  name: Format
+  nameWithType: PanierProduitLink.Format
+  fullName: Altazion.ECommerce.Controls.PanierProduitLink.Format
+  type: Property
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanierProduitField.cs
+    id: Format
+    path: PanierProduitField.cs
+    startLine: 855
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: public String Format { get; set; }
+    parameters: []
+    return:
+      type: String
+    content.vb: Public Property Format As String
+  overload: Altazion.ECommerce.Controls.PanierProduitLink.Format*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Altazion.ECommerce.Controls.PanierProduitLink.TextePrixZero
+  commentId: P:Altazion.ECommerce.Controls.PanierProduitLink.TextePrixZero
+  id: TextePrixZero
+  parent: Altazion.ECommerce.Controls.PanierProduitLink
+  langs:
+  - csharp
+  - vb
+  name: TextePrixZero
+  nameWithType: PanierProduitLink.TextePrixZero
+  fullName: Altazion.ECommerce.Controls.PanierProduitLink.TextePrixZero
+  type: Property
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanierProduitField.cs
+    id: TextePrixZero
+    path: PanierProduitField.cs
+    startLine: 876
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: public String TextePrixZero { get; set; }
+    parameters: []
+    return:
+      type: String
+    content.vb: Public Property TextePrixZero As String
+  overload: Altazion.ECommerce.Controls.PanierProduitLink.TextePrixZero*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Altazion.ECommerce.Controls.PanierProduitLink.CssClassSiPromo
+  commentId: P:Altazion.ECommerce.Controls.PanierProduitLink.CssClassSiPromo
+  id: CssClassSiPromo
+  parent: Altazion.ECommerce.Controls.PanierProduitLink
+  langs:
+  - csharp
+  - vb
+  name: CssClassSiPromo
+  nameWithType: PanierProduitLink.CssClassSiPromo
+  fullName: Altazion.ECommerce.Controls.PanierProduitLink.CssClassSiPromo
+  type: Property
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanierProduitField.cs
+    id: CssClassSiPromo
+    path: PanierProduitField.cs
+    startLine: 897
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: public String CssClassSiPromo { get; set; }
+    parameters: []
+    return:
+      type: String
+    content.vb: Public Property CssClassSiPromo As String
+  overload: Altazion.ECommerce.Controls.PanierProduitLink.CssClassSiPromo*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Altazion.ECommerce.Controls.PanierProduitLink.Field
+  commentId: P:Altazion.ECommerce.Controls.PanierProduitLink.Field
+  id: Field
+  parent: Altazion.ECommerce.Controls.PanierProduitLink
+  langs:
+  - csharp
+  - vb
+  name: Field
+  nameWithType: PanierProduitLink.Field
+  fullName: Altazion.ECommerce.Controls.PanierProduitLink.Field
+  type: Property
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanierProduitField.cs
+    id: Field
+    path: PanierProduitField.cs
+    startLine: 918
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: public PanierProduitLink.ProduitField Field { get; set; }
+    parameters: []
+    return:
+      type: Altazion.ECommerce.Controls.PanierProduitLink.ProduitField
+    content.vb: Public Property Field As PanierProduitLink.ProduitField
+  overload: Altazion.ECommerce.Controls.PanierProduitLink.Field*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: Altazion.ECommerce.Controls
+  commentId: N:Altazion.ECommerce.Controls
+  name: Altazion.ECommerce.Controls
+  nameWithType: Altazion.ECommerce.Controls
+  fullName: Altazion.ECommerce.Controls
+- uid: System.Object
+  commentId: '!:System.Object'
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: CPointSoftware.ECommerce.Tools.Hyperlink
+  commentId: T:CPointSoftware.ECommerce.Tools.Hyperlink
+  parent: CPointSoftware.ECommerce.Tools
+  name: Hyperlink
+  nameWithType: Hyperlink
+  fullName: CPointSoftware.ECommerce.Tools.Hyperlink
+- uid: CPointSoftware.ECommerce.Tools.Hyperlink.CssClassIfCurrent
+  commentId: P:CPointSoftware.ECommerce.Tools.Hyperlink.CssClassIfCurrent
+  parent: CPointSoftware.ECommerce.Tools.Hyperlink
+  name: CssClassIfCurrent
+  nameWithType: Hyperlink.CssClassIfCurrent
+  fullName: CPointSoftware.ECommerce.Tools.Hyperlink.CssClassIfCurrent
+- uid: CPointSoftware.ECommerce.Tools.Hyperlink.OnPreRender(EventArgs)
+  commentId: M:CPointSoftware.ECommerce.Tools.Hyperlink.OnPreRender(EventArgs)
+  parent: CPointSoftware.ECommerce.Tools.Hyperlink
+  isExternal: true
+  name: OnPreRender(EventArgs)
+  nameWithType: Hyperlink.OnPreRender(EventArgs)
+  fullName: CPointSoftware.ECommerce.Tools.Hyperlink.OnPreRender(EventArgs)
+  spec.csharp:
+  - uid: CPointSoftware.ECommerce.Tools.Hyperlink.OnPreRender(EventArgs)
+    name: OnPreRender
+    nameWithType: Hyperlink.OnPreRender
+    fullName: CPointSoftware.ECommerce.Tools.Hyperlink.OnPreRender
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: EventArgs
+    name: EventArgs
+    nameWithType: EventArgs
+    fullName: EventArgs
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: CPointSoftware.ECommerce.Tools.Hyperlink.OnPreRender(EventArgs)
+    name: OnPreRender
+    nameWithType: Hyperlink.OnPreRender
+    fullName: CPointSoftware.ECommerce.Tools.Hyperlink.OnPreRender
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: EventArgs
+    name: EventArgs
+    nameWithType: EventArgs
+    fullName: EventArgs
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CPointSoftware.ECommerce.Tools
+  commentId: N:CPointSoftware.ECommerce.Tools
+  name: CPointSoftware.ECommerce.Tools
+  nameWithType: CPointSoftware.ECommerce.Tools
+  fullName: CPointSoftware.ECommerce.Tools
+- uid: Altazion.ECommerce.Controls.PanierProduitLink.PourPageAmp*
+  commentId: Overload:Altazion.ECommerce.Controls.PanierProduitLink.PourPageAmp
+  name: PourPageAmp
+  nameWithType: PanierProduitLink.PourPageAmp
+  fullName: Altazion.ECommerce.Controls.PanierProduitLink.PourPageAmp
+- uid: System.Boolean
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Altazion.ECommerce.Controls.PanierProduitLink.Format*
+  commentId: Overload:Altazion.ECommerce.Controls.PanierProduitLink.Format
+  name: Format
+  nameWithType: PanierProduitLink.Format
+  fullName: Altazion.ECommerce.Controls.PanierProduitLink.Format
+- uid: String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: String
+- uid: Altazion.ECommerce.Controls.PanierProduitLink.TextePrixZero*
+  commentId: Overload:Altazion.ECommerce.Controls.PanierProduitLink.TextePrixZero
+  name: TextePrixZero
+  nameWithType: PanierProduitLink.TextePrixZero
+  fullName: Altazion.ECommerce.Controls.PanierProduitLink.TextePrixZero
+- uid: Altazion.ECommerce.Controls.PanierProduitLink.CssClassSiPromo*
+  commentId: Overload:Altazion.ECommerce.Controls.PanierProduitLink.CssClassSiPromo
+  name: CssClassSiPromo
+  nameWithType: PanierProduitLink.CssClassSiPromo
+  fullName: Altazion.ECommerce.Controls.PanierProduitLink.CssClassSiPromo
+- uid: Altazion.ECommerce.Controls.PanierProduitLink.Field*
+  commentId: Overload:Altazion.ECommerce.Controls.PanierProduitLink.Field
+  name: Field
+  nameWithType: PanierProduitLink.Field
+  fullName: Altazion.ECommerce.Controls.PanierProduitLink.Field
+- uid: Altazion.ECommerce.Controls.PanierProduitLink.ProduitField
+  commentId: T:Altazion.ECommerce.Controls.PanierProduitLink.ProduitField
+  parent: Altazion.ECommerce.Controls
+  name: PanierProduitLink.ProduitField
+  nameWithType: PanierProduitLink.ProduitField
+  fullName: Altazion.ECommerce.Controls.PanierProduitLink.ProduitField

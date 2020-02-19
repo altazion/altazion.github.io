@@ -1,0 +1,290 @@
+### YamlMime:ManagedReference
+items:
+- uid: Altazion.ECommerce.Controls.PanierRemisesPanel
+  commentId: T:Altazion.ECommerce.Controls.PanierRemisesPanel
+  id: PanierRemisesPanel
+  parent: Altazion.ECommerce.Controls
+  children:
+  - Altazion.ECommerce.Controls.PanierRemisesPanel.#ctor
+  - Altazion.ECommerce.Controls.PanierRemisesPanel.AssocieMagasin
+  - Altazion.ECommerce.Controls.PanierRemisesPanel.IgnorerFraisDePort
+  - Altazion.ECommerce.Controls.PanierRemisesPanel.OnPreRender(EventArgs)
+  langs:
+  - csharp
+  - vb
+  name: PanierRemisesPanel
+  nameWithType: PanierRemisesPanel
+  fullName: Altazion.ECommerce.Controls.PanierRemisesPanel
+  type: Class
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanierTotalLabel.cs
+    id: PanierRemisesPanel
+    path: PanierTotalLabel.cs
+    startLine: 201
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: 'public class PanierRemisesPanel : Panel'
+    content.vb: >-
+      Public Class PanierRemisesPanel
+          Inherits Panel
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Altazion.ECommerce.Controls.PanierRemisesPanel.#ctor
+  commentId: M:Altazion.ECommerce.Controls.PanierRemisesPanel.#ctor
+  id: '#ctor'
+  parent: Altazion.ECommerce.Controls.PanierRemisesPanel
+  langs:
+  - csharp
+  - vb
+  name: PanierRemisesPanel()
+  nameWithType: PanierRemisesPanel.PanierRemisesPanel()
+  fullName: Altazion.ECommerce.Controls.PanierRemisesPanel.PanierRemisesPanel()
+  type: Constructor
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanierTotalLabel.cs
+    id: .ctor
+    path: PanierTotalLabel.cs
+    startLine: 203
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: public PanierRemisesPanel()
+    content.vb: Public Sub New
+  overload: Altazion.ECommerce.Controls.PanierRemisesPanel.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Altazion.ECommerce.Controls.PanierRemisesPanel.AssocieMagasin
+  commentId: P:Altazion.ECommerce.Controls.PanierRemisesPanel.AssocieMagasin
+  id: AssocieMagasin
+  parent: Altazion.ECommerce.Controls.PanierRemisesPanel
+  langs:
+  - csharp
+  - vb
+  name: AssocieMagasin
+  nameWithType: PanierRemisesPanel.AssocieMagasin
+  fullName: Altazion.ECommerce.Controls.PanierRemisesPanel.AssocieMagasin
+  type: Property
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanierTotalLabel.cs
+    id: AssocieMagasin
+    path: PanierTotalLabel.cs
+    startLine: 208
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: public bool? AssocieMagasin { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{System.Boolean}
+    content.vb: Public Property AssocieMagasin As Boolean?
+  overload: Altazion.ECommerce.Controls.PanierRemisesPanel.AssocieMagasin*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Altazion.ECommerce.Controls.PanierRemisesPanel.IgnorerFraisDePort
+  commentId: P:Altazion.ECommerce.Controls.PanierRemisesPanel.IgnorerFraisDePort
+  id: IgnorerFraisDePort
+  parent: Altazion.ECommerce.Controls.PanierRemisesPanel
+  langs:
+  - csharp
+  - vb
+  name: IgnorerFraisDePort
+  nameWithType: PanierRemisesPanel.IgnorerFraisDePort
+  fullName: Altazion.ECommerce.Controls.PanierRemisesPanel.IgnorerFraisDePort
+  type: Property
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanierTotalLabel.cs
+    id: IgnorerFraisDePort
+    path: PanierTotalLabel.cs
+    startLine: 210
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: public bool IgnorerFraisDePort { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property IgnorerFraisDePort As Boolean
+  overload: Altazion.ECommerce.Controls.PanierRemisesPanel.IgnorerFraisDePort*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Altazion.ECommerce.Controls.PanierRemisesPanel.OnPreRender(EventArgs)
+  commentId: M:Altazion.ECommerce.Controls.PanierRemisesPanel.OnPreRender(EventArgs)
+  id: OnPreRender(EventArgs)
+  parent: Altazion.ECommerce.Controls.PanierRemisesPanel
+  langs:
+  - csharp
+  - vb
+  name: OnPreRender(EventArgs)
+  nameWithType: PanierRemisesPanel.OnPreRender(EventArgs)
+  fullName: Altazion.ECommerce.Controls.PanierRemisesPanel.OnPreRender(EventArgs)
+  type: Method
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanierTotalLabel.cs
+    id: OnPreRender
+    path: PanierTotalLabel.cs
+    startLine: 212
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: protected override void OnPreRender(EventArgs e)
+    parameters:
+    - id: e
+      type: EventArgs
+    content.vb: Protected Overrides Sub OnPreRender(e As EventArgs)
+  overload: Altazion.ECommerce.Controls.PanierRemisesPanel.OnPreRender*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+references:
+- uid: Altazion.ECommerce.Controls
+  commentId: N:Altazion.ECommerce.Controls
+  name: Altazion.ECommerce.Controls
+  nameWithType: Altazion.ECommerce.Controls
+  fullName: Altazion.ECommerce.Controls
+- uid: System.Object
+  commentId: '!:System.Object'
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Altazion.ECommerce.Controls.PanierRemisesPanel.#ctor*
+  commentId: Overload:Altazion.ECommerce.Controls.PanierRemisesPanel.#ctor
+  name: PanierRemisesPanel
+  nameWithType: PanierRemisesPanel.PanierRemisesPanel
+  fullName: Altazion.ECommerce.Controls.PanierRemisesPanel.PanierRemisesPanel
+- uid: Altazion.ECommerce.Controls.PanierRemisesPanel.AssocieMagasin*
+  commentId: Overload:Altazion.ECommerce.Controls.PanierRemisesPanel.AssocieMagasin
+  name: AssocieMagasin
+  nameWithType: PanierRemisesPanel.AssocieMagasin
+  fullName: Altazion.ECommerce.Controls.PanierRemisesPanel.AssocieMagasin
+- uid: System.Nullable{System.Boolean}
+  commentId: '!:System.Nullable{System.Boolean}'
+  definition: System.Nullable`1
+  name: Nullable<Boolean>
+  nameWithType: Nullable<Boolean>
+  fullName: System.Nullable<System.Boolean>
+  nameWithType.vb: Nullable(Of Boolean)
+  fullName.vb: System.Nullable(Of System.Boolean)
+  name.vb: Nullable(Of Boolean)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable`1
+  isExternal: true
+  name: Nullable<>
+  nameWithType: Nullable<>
+  fullName: System.Nullable<>
+  nameWithType.vb: Nullable(Of )
+  fullName.vb: System.Nullable(Of )
+  name.vb: Nullable(Of )
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Altazion.ECommerce.Controls.PanierRemisesPanel.IgnorerFraisDePort*
+  commentId: Overload:Altazion.ECommerce.Controls.PanierRemisesPanel.IgnorerFraisDePort
+  name: IgnorerFraisDePort
+  nameWithType: PanierRemisesPanel.IgnorerFraisDePort
+  fullName: Altazion.ECommerce.Controls.PanierRemisesPanel.IgnorerFraisDePort
+- uid: System.Boolean
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Altazion.ECommerce.Controls.PanierRemisesPanel.OnPreRender*
+  commentId: Overload:Altazion.ECommerce.Controls.PanierRemisesPanel.OnPreRender
+  name: OnPreRender
+  nameWithType: PanierRemisesPanel.OnPreRender
+  fullName: Altazion.ECommerce.Controls.PanierRemisesPanel.OnPreRender
+- uid: EventArgs
+  isExternal: true
+  name: EventArgs
+  nameWithType: EventArgs
+  fullName: EventArgs

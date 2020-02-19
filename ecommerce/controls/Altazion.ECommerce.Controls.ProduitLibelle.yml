@@ -1,0 +1,148 @@
+### YamlMime:ManagedReference
+items:
+- uid: Altazion.ECommerce.Controls.ProduitLibelle
+  commentId: T:Altazion.ECommerce.Controls.ProduitLibelle
+  id: ProduitLibelle
+  parent: Altazion.ECommerce.Controls
+  children:
+  - Altazion.ECommerce.Controls.ProduitLibelle.#ctor
+  - Altazion.ECommerce.Controls.ProduitLibelle.MaxLength
+  langs:
+  - csharp
+  - vb
+  name: ProduitLibelle
+  nameWithType: ProduitLibelle
+  fullName: Altazion.ECommerce.Controls.ProduitLibelle
+  type: Class
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/ProductLabels.cs
+    id: ProduitLibelle
+    path: ProductLabels.cs
+    startLine: 27
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  summary: "\nA utiliser dans un contrôle bindé sur un produit : affiche un span\navec le libellé du produit\n"
+  remarks: "\n<p>Le controle s&apos;affiche sous la forme d&apos;un span: \n<pre><code>&lt;span>[Le libellé du produit]&lt;span></code></pre></p>\n<p>Si vous avez activé RDFa, le span sera modifié\npour ajouter une attribut itemprop=&quot;name&quot;.</p>"
+  example: []
+  syntax:
+    content: 'public class ProduitLibelle : Label, IEquihiraBindable'
+    content.vb: >-
+      Public Class ProduitLibelle
+          Inherits Label
+          Implements IEquihiraBindable
+  inheritance:
+  - System.Object
+  implements:
+  - CPointSoftware.ECommerce.Tools.IEquihiraBindable
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Altazion.ECommerce.Controls.ProduitLibelle.#ctor
+  commentId: M:Altazion.ECommerce.Controls.ProduitLibelle.#ctor
+  id: '#ctor'
+  parent: Altazion.ECommerce.Controls.ProduitLibelle
+  langs:
+  - csharp
+  - vb
+  name: ProduitLibelle()
+  nameWithType: ProduitLibelle.ProduitLibelle()
+  fullName: Altazion.ECommerce.Controls.ProduitLibelle.ProduitLibelle()
+  type: Constructor
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/ProductLabels.cs
+    id: .ctor
+    path: ProductLabels.cs
+    startLine: 34
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  summary: "\nConstruteur du type\n"
+  example: []
+  syntax:
+    content: public ProduitLibelle()
+    content.vb: Public Sub New
+  overload: Altazion.ECommerce.Controls.ProduitLibelle.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Altazion.ECommerce.Controls.ProduitLibelle.MaxLength
+  commentId: P:Altazion.ECommerce.Controls.ProduitLibelle.MaxLength
+  id: MaxLength
+  parent: Altazion.ECommerce.Controls.ProduitLibelle
+  langs:
+  - csharp
+  - vb
+  name: MaxLength
+  nameWithType: ProduitLibelle.MaxLength
+  fullName: Altazion.ECommerce.Controls.ProduitLibelle.MaxLength
+  type: Property
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/ProductLabels.cs
+    id: MaxLength
+    path: ProductLabels.cs
+    startLine: 46
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  summary: "\nTaille maximale (en caractères) affichée\n"
+  remarks: "<p>Si le libellé dépasse cette taille, il sera tronqué et \n    terminé par ....</p>\n<p>Valeur par défaut : pas de limite</p>"
+  example: []
+  syntax:
+    content: public int MaxLength { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property MaxLength As Integer
+  overload: Altazion.ECommerce.Controls.ProduitLibelle.MaxLength*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: Altazion.ECommerce.Controls
+  commentId: N:Altazion.ECommerce.Controls
+  name: Altazion.ECommerce.Controls
+  nameWithType: Altazion.ECommerce.Controls
+  fullName: Altazion.ECommerce.Controls
+- uid: System.Object
+  commentId: '!:System.Object'
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: CPointSoftware.ECommerce.Tools.IEquihiraBindable
+  commentId: T:CPointSoftware.ECommerce.Tools.IEquihiraBindable
+  parent: CPointSoftware.ECommerce.Tools
+  name: IEquihiraBindable
+  nameWithType: IEquihiraBindable
+  fullName: CPointSoftware.ECommerce.Tools.IEquihiraBindable
+- uid: CPointSoftware.ECommerce.Tools
+  commentId: N:CPointSoftware.ECommerce.Tools
+  name: CPointSoftware.ECommerce.Tools
+  nameWithType: CPointSoftware.ECommerce.Tools
+  fullName: CPointSoftware.ECommerce.Tools
+- uid: Altazion.ECommerce.Controls.ProduitLibelle.#ctor*
+  commentId: Overload:Altazion.ECommerce.Controls.ProduitLibelle.#ctor
+  name: ProduitLibelle
+  nameWithType: ProduitLibelle.ProduitLibelle
+  fullName: Altazion.ECommerce.Controls.ProduitLibelle.ProduitLibelle
+- uid: Altazion.ECommerce.Controls.ProduitLibelle.MaxLength*
+  commentId: Overload:Altazion.ECommerce.Controls.ProduitLibelle.MaxLength
+  name: MaxLength
+  nameWithType: ProduitLibelle.MaxLength
+  fullName: Altazion.ECommerce.Controls.ProduitLibelle.MaxLength
+- uid: System.Int32
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

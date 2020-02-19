@@ -1,0 +1,471 @@
+### YamlMime:ManagedReference
+items:
+- uid: Altazion.ECommerce.Controls.ProduitImageLink
+  commentId: T:Altazion.ECommerce.Controls.ProduitImageLink
+  id: ProduitImageLink
+  parent: Altazion.ECommerce.Controls
+  children:
+  - Altazion.ECommerce.Controls.ProduitImageLink.CacherSiAucunZoom
+  - Altazion.ECommerce.Controls.ProduitImageLink.GetResourceUrl(System.String)
+  - Altazion.ECommerce.Controls.ProduitImageLink.ImageType
+  - Altazion.ECommerce.Controls.ProduitImageLink.ImageUrlIfNone
+  - Altazion.ECommerce.Controls.ProduitImageLink.IsZoomable
+  - Altazion.ECommerce.Controls.ProduitImageLink.LinkType
+  - Altazion.ECommerce.Controls.ProduitImageLink.PourPageAmp
+  - Altazion.ECommerce.Controls.ProduitImageLink.RenderAsText
+  langs:
+  - csharp
+  - vb
+  name: ProduitImageLink
+  nameWithType: ProduitImageLink
+  fullName: Altazion.ECommerce.Controls.ProduitImageLink
+  type: Class
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/ProductImage.cs
+    id: ProduitImageLink
+    path: ProductImage.cs
+    startLine: 33
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  summary: "\naffiche un lien (pointant sur la fiche produit par défaut) avec l&apos;image\ndu produit\n"
+  remarks: "\n<p>Pour afficher l&apos;image d&apos;un produit, ce contrôle doit être dans un <xref href=\"CPointSoftware.ECommerce.Tools.ProductPanel\" data-throw-if-not-resolved=\"false\"></xref>. \nIl s&apos;utilise comme ceci :</p>\n<p><pre><code>&lt;ecom:ProductPanel runat=&quot;server&quot;>\n  &lt;ecom:ProduitImageLink runat=&quot;server&quot; \n     LinkType=&quot;Detail&quot; ImageType=&quot;Intermediaire&quot; />\n&lt;/ecom:ProductPanel></code></pre></p>\n"
+  example: []
+  syntax:
+    content: 'public class ProduitImageLink : MouseOverHyperlink, IEquihiraBindable'
+    content.vb: >-
+      Public Class ProduitImageLink
+          Inherits MouseOverHyperlink
+          Implements IEquihiraBindable
+  inheritance:
+  - System.Object
+  - CPointSoftware.ECommerce.Tools.Hyperlink
+  - CPointSoftware.ECommerce.Tools.MouseOverHyperlink
+  implements:
+  - CPointSoftware.ECommerce.Tools.IEquihiraBindable
+  inheritedMembers:
+  - CPointSoftware.ECommerce.Tools.Hyperlink.CssClassIfCurrent
+  - CPointSoftware.ECommerce.Tools.Hyperlink.OnPreRender(EventArgs)
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Altazion.ECommerce.Controls.ProduitImageLink.PourPageAmp
+  commentId: P:Altazion.ECommerce.Controls.ProduitImageLink.PourPageAmp
+  id: PourPageAmp
+  parent: Altazion.ECommerce.Controls.ProduitImageLink
+  langs:
+  - csharp
+  - vb
+  name: PourPageAmp
+  nameWithType: ProduitImageLink.PourPageAmp
+  fullName: Altazion.ECommerce.Controls.ProduitImageLink.PourPageAmp
+  type: Property
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/ProductImage.cs
+    id: PourPageAmp
+    path: ProductImage.cs
+    startLine: 42
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  summary: "\nObtient ou définit un booléen précisant si ce contrôles est destiné à \nêtre sur une de type AMP\n"
+  example: []
+  syntax:
+    content: public bool PourPageAmp { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property PourPageAmp As Boolean
+  overload: Altazion.ECommerce.Controls.ProduitImageLink.PourPageAmp*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Altazion.ECommerce.Controls.ProduitImageLink.RenderAsText
+  commentId: P:Altazion.ECommerce.Controls.ProduitImageLink.RenderAsText
+  id: RenderAsText
+  parent: Altazion.ECommerce.Controls.ProduitImageLink
+  langs:
+  - csharp
+  - vb
+  name: RenderAsText
+  nameWithType: ProduitImageLink.RenderAsText
+  fullName: Altazion.ECommerce.Controls.ProduitImageLink.RenderAsText
+  type: Property
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/ProductImage.cs
+    id: RenderAsText
+    path: ProductImage.cs
+    startLine: 46
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: public bool RenderAsText { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property RenderAsText As Boolean
+  overload: Altazion.ECommerce.Controls.ProduitImageLink.RenderAsText*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Altazion.ECommerce.Controls.ProduitImageLink.CacherSiAucunZoom
+  commentId: P:Altazion.ECommerce.Controls.ProduitImageLink.CacherSiAucunZoom
+  id: CacherSiAucunZoom
+  parent: Altazion.ECommerce.Controls.ProduitImageLink
+  langs:
+  - csharp
+  - vb
+  name: CacherSiAucunZoom
+  nameWithType: ProduitImageLink.CacherSiAucunZoom
+  fullName: Altazion.ECommerce.Controls.ProduitImageLink.CacherSiAucunZoom
+  type: Property
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/ProductImage.cs
+    id: CacherSiAucunZoom
+    path: ProductImage.cs
+    startLine: 52
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: public bool CacherSiAucunZoom { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property CacherSiAucunZoom As Boolean
+  overload: Altazion.ECommerce.Controls.ProduitImageLink.CacherSiAucunZoom*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Altazion.ECommerce.Controls.ProduitImageLink.LinkType
+  commentId: P:Altazion.ECommerce.Controls.ProduitImageLink.LinkType
+  id: LinkType
+  parent: Altazion.ECommerce.Controls.ProduitImageLink
+  langs:
+  - csharp
+  - vb
+  name: LinkType
+  nameWithType: ProduitImageLink.LinkType
+  fullName: Altazion.ECommerce.Controls.ProduitImageLink.LinkType
+  type: Property
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/ProductImage.cs
+    id: LinkType
+    path: ProductImage.cs
+    startLine: 54
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: public TypeLienProduit LinkType { get; set; }
+    parameters: []
+    return:
+      type: CPointSoftware.ECommerce.Tools.TypeLienProduit
+    content.vb: Public Property LinkType As TypeLienProduit
+  overload: Altazion.ECommerce.Controls.ProduitImageLink.LinkType*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Altazion.ECommerce.Controls.ProduitImageLink.ImageType
+  commentId: P:Altazion.ECommerce.Controls.ProduitImageLink.ImageType
+  id: ImageType
+  parent: Altazion.ECommerce.Controls.ProduitImageLink
+  langs:
+  - csharp
+  - vb
+  name: ImageType
+  nameWithType: ProduitImageLink.ImageType
+  fullName: Altazion.ECommerce.Controls.ProduitImageLink.ImageType
+  type: Property
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/ProductImage.cs
+    id: ImageType
+    path: ProductImage.cs
+    startLine: 65
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  summary: "\nObtient ou définit le type d&apos;image à afficher (cf. <xref href=\"CPointSoftware.ECommerce.Tools.TypeProduitImage\" data-throw-if-not-resolved=\"false\"></xref>)\n"
+  example: []
+  syntax:
+    content: public TypeProduitImage ImageType { get; set; }
+    parameters: []
+    return:
+      type: CPointSoftware.ECommerce.Tools.TypeProduitImage
+    content.vb: Public Property ImageType As TypeProduitImage
+  overload: Altazion.ECommerce.Controls.ProduitImageLink.ImageType*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Altazion.ECommerce.Controls.ProduitImageLink.ImageUrlIfNone
+  commentId: P:Altazion.ECommerce.Controls.ProduitImageLink.ImageUrlIfNone
+  id: ImageUrlIfNone
+  parent: Altazion.ECommerce.Controls.ProduitImageLink
+  langs:
+  - csharp
+  - vb
+  name: ImageUrlIfNone
+  nameWithType: ProduitImageLink.ImageUrlIfNone
+  fullName: Altazion.ECommerce.Controls.ProduitImageLink.ImageUrlIfNone
+  type: Property
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/ProductImage.cs
+    id: ImageUrlIfNone
+    path: ProductImage.cs
+    startLine: 75
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  summary: "\nObtient ou définit l&apos;url de l&apos;image &quot;vide&quot;\n(affichée quand il n&apos;y a pas d&apos;image sur le produit)\n"
+  example: []
+  syntax:
+    content: public string ImageUrlIfNone { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ImageUrlIfNone As String
+  overload: Altazion.ECommerce.Controls.ProduitImageLink.ImageUrlIfNone*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Altazion.ECommerce.Controls.ProduitImageLink.GetResourceUrl(System.String)
+  commentId: M:Altazion.ECommerce.Controls.ProduitImageLink.GetResourceUrl(System.String)
+  id: GetResourceUrl(System.String)
+  parent: Altazion.ECommerce.Controls.ProduitImageLink
+  langs:
+  - csharp
+  - vb
+  name: GetResourceUrl(String)
+  nameWithType: ProduitImageLink.GetResourceUrl(String)
+  fullName: Altazion.ECommerce.Controls.ProduitImageLink.GetResourceUrl(System.String)
+  type: Method
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/ProductImage.cs
+    id: GetResourceUrl
+    path: ProductImage.cs
+    startLine: 78
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: protected virtual string GetResourceUrl(string url)
+    parameters:
+    - id: url
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Protected Overridable Function GetResourceUrl(url As String) As String
+  overload: Altazion.ECommerce.Controls.ProduitImageLink.GetResourceUrl*
+  modifiers.csharp:
+  - protected
+  - virtual
+  modifiers.vb:
+  - Protected
+  - Overridable
+- uid: Altazion.ECommerce.Controls.ProduitImageLink.IsZoomable
+  commentId: M:Altazion.ECommerce.Controls.ProduitImageLink.IsZoomable
+  id: IsZoomable
+  parent: Altazion.ECommerce.Controls.ProduitImageLink
+  langs:
+  - csharp
+  - vb
+  name: IsZoomable()
+  nameWithType: ProduitImageLink.IsZoomable()
+  fullName: Altazion.ECommerce.Controls.ProduitImageLink.IsZoomable()
+  type: Method
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/ProductImage.cs
+    id: IsZoomable
+    path: ProductImage.cs
+    startLine: 120
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: protected virtual bool IsZoomable()
+    return:
+      type: System.Boolean
+    content.vb: Protected Overridable Function IsZoomable As Boolean
+  overload: Altazion.ECommerce.Controls.ProduitImageLink.IsZoomable*
+  modifiers.csharp:
+  - protected
+  - virtual
+  modifiers.vb:
+  - Protected
+  - Overridable
+references:
+- uid: CPointSoftware.ECommerce.Tools.ProductPanel
+  commentId: T:CPointSoftware.ECommerce.Tools.ProductPanel
+  isExternal: true
+- uid: Altazion.ECommerce.Controls
+  commentId: N:Altazion.ECommerce.Controls
+  name: Altazion.ECommerce.Controls
+  nameWithType: Altazion.ECommerce.Controls
+  fullName: Altazion.ECommerce.Controls
+- uid: System.Object
+  commentId: '!:System.Object'
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: CPointSoftware.ECommerce.Tools.Hyperlink
+  commentId: T:CPointSoftware.ECommerce.Tools.Hyperlink
+  parent: CPointSoftware.ECommerce.Tools
+  name: Hyperlink
+  nameWithType: Hyperlink
+  fullName: CPointSoftware.ECommerce.Tools.Hyperlink
+- uid: CPointSoftware.ECommerce.Tools.MouseOverHyperlink
+  commentId: T:CPointSoftware.ECommerce.Tools.MouseOverHyperlink
+  parent: CPointSoftware.ECommerce.Tools
+  name: MouseOverHyperlink
+  nameWithType: MouseOverHyperlink
+  fullName: CPointSoftware.ECommerce.Tools.MouseOverHyperlink
+- uid: CPointSoftware.ECommerce.Tools.IEquihiraBindable
+  commentId: T:CPointSoftware.ECommerce.Tools.IEquihiraBindable
+  parent: CPointSoftware.ECommerce.Tools
+  name: IEquihiraBindable
+  nameWithType: IEquihiraBindable
+  fullName: CPointSoftware.ECommerce.Tools.IEquihiraBindable
+- uid: CPointSoftware.ECommerce.Tools.Hyperlink.CssClassIfCurrent
+  commentId: P:CPointSoftware.ECommerce.Tools.Hyperlink.CssClassIfCurrent
+  parent: CPointSoftware.ECommerce.Tools.Hyperlink
+  name: CssClassIfCurrent
+  nameWithType: Hyperlink.CssClassIfCurrent
+  fullName: CPointSoftware.ECommerce.Tools.Hyperlink.CssClassIfCurrent
+- uid: CPointSoftware.ECommerce.Tools.Hyperlink.OnPreRender(EventArgs)
+  commentId: M:CPointSoftware.ECommerce.Tools.Hyperlink.OnPreRender(EventArgs)
+  parent: CPointSoftware.ECommerce.Tools.Hyperlink
+  isExternal: true
+  name: OnPreRender(EventArgs)
+  nameWithType: Hyperlink.OnPreRender(EventArgs)
+  fullName: CPointSoftware.ECommerce.Tools.Hyperlink.OnPreRender(EventArgs)
+  spec.csharp:
+  - uid: CPointSoftware.ECommerce.Tools.Hyperlink.OnPreRender(EventArgs)
+    name: OnPreRender
+    nameWithType: Hyperlink.OnPreRender
+    fullName: CPointSoftware.ECommerce.Tools.Hyperlink.OnPreRender
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: EventArgs
+    name: EventArgs
+    nameWithType: EventArgs
+    fullName: EventArgs
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: CPointSoftware.ECommerce.Tools.Hyperlink.OnPreRender(EventArgs)
+    name: OnPreRender
+    nameWithType: Hyperlink.OnPreRender
+    fullName: CPointSoftware.ECommerce.Tools.Hyperlink.OnPreRender
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: EventArgs
+    name: EventArgs
+    nameWithType: EventArgs
+    fullName: EventArgs
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CPointSoftware.ECommerce.Tools
+  commentId: N:CPointSoftware.ECommerce.Tools
+  name: CPointSoftware.ECommerce.Tools
+  nameWithType: CPointSoftware.ECommerce.Tools
+  fullName: CPointSoftware.ECommerce.Tools
+- uid: Altazion.ECommerce.Controls.ProduitImageLink.PourPageAmp*
+  commentId: Overload:Altazion.ECommerce.Controls.ProduitImageLink.PourPageAmp
+  name: PourPageAmp
+  nameWithType: ProduitImageLink.PourPageAmp
+  fullName: Altazion.ECommerce.Controls.ProduitImageLink.PourPageAmp
+- uid: System.Boolean
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Altazion.ECommerce.Controls.ProduitImageLink.RenderAsText*
+  commentId: Overload:Altazion.ECommerce.Controls.ProduitImageLink.RenderAsText
+  name: RenderAsText
+  nameWithType: ProduitImageLink.RenderAsText
+  fullName: Altazion.ECommerce.Controls.ProduitImageLink.RenderAsText
+- uid: Altazion.ECommerce.Controls.ProduitImageLink.CacherSiAucunZoom*
+  commentId: Overload:Altazion.ECommerce.Controls.ProduitImageLink.CacherSiAucunZoom
+  name: CacherSiAucunZoom
+  nameWithType: ProduitImageLink.CacherSiAucunZoom
+  fullName: Altazion.ECommerce.Controls.ProduitImageLink.CacherSiAucunZoom
+- uid: Altazion.ECommerce.Controls.ProduitImageLink.LinkType*
+  commentId: Overload:Altazion.ECommerce.Controls.ProduitImageLink.LinkType
+  name: LinkType
+  nameWithType: ProduitImageLink.LinkType
+  fullName: Altazion.ECommerce.Controls.ProduitImageLink.LinkType
+- uid: CPointSoftware.ECommerce.Tools.TypeLienProduit
+  commentId: T:CPointSoftware.ECommerce.Tools.TypeLienProduit
+  parent: CPointSoftware.ECommerce.Tools
+  name: TypeLienProduit
+  nameWithType: TypeLienProduit
+  fullName: CPointSoftware.ECommerce.Tools.TypeLienProduit
+- uid: CPointSoftware.ECommerce.Tools.TypeProduitImage
+  commentId: T:CPointSoftware.ECommerce.Tools.TypeProduitImage
+  parent: CPointSoftware.ECommerce.Tools
+  name: TypeProduitImage
+  nameWithType: TypeProduitImage
+  fullName: CPointSoftware.ECommerce.Tools.TypeProduitImage
+- uid: Altazion.ECommerce.Controls.ProduitImageLink.ImageType*
+  commentId: Overload:Altazion.ECommerce.Controls.ProduitImageLink.ImageType
+  name: ImageType
+  nameWithType: ProduitImageLink.ImageType
+  fullName: Altazion.ECommerce.Controls.ProduitImageLink.ImageType
+- uid: Altazion.ECommerce.Controls.ProduitImageLink.ImageUrlIfNone*
+  commentId: Overload:Altazion.ECommerce.Controls.ProduitImageLink.ImageUrlIfNone
+  name: ImageUrlIfNone
+  nameWithType: ProduitImageLink.ImageUrlIfNone
+  fullName: Altazion.ECommerce.Controls.ProduitImageLink.ImageUrlIfNone
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Altazion.ECommerce.Controls.ProduitImageLink.GetResourceUrl*
+  commentId: Overload:Altazion.ECommerce.Controls.ProduitImageLink.GetResourceUrl
+  name: GetResourceUrl
+  nameWithType: ProduitImageLink.GetResourceUrl
+  fullName: Altazion.ECommerce.Controls.ProduitImageLink.GetResourceUrl
+- uid: Altazion.ECommerce.Controls.ProduitImageLink.IsZoomable*
+  commentId: Overload:Altazion.ECommerce.Controls.ProduitImageLink.IsZoomable
+  name: IsZoomable
+  nameWithType: ProduitImageLink.IsZoomable
+  fullName: Altazion.ECommerce.Controls.ProduitImageLink.IsZoomable

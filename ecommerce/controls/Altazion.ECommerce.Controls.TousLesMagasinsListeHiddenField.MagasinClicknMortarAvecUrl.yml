@@ -1,0 +1,1495 @@
+### YamlMime:ManagedReference
+items:
+- uid: Altazion.ECommerce.Controls.TousLesMagasinsListeHiddenField.MagasinClicknMortarAvecUrl
+  commentId: T:Altazion.ECommerce.Controls.TousLesMagasinsListeHiddenField.MagasinClicknMortarAvecUrl
+  id: TousLesMagasinsListeHiddenField.MagasinClicknMortarAvecUrl
+  parent: Altazion.ECommerce.Controls
+  children:
+  - Altazion.ECommerce.Controls.TousLesMagasinsListeHiddenField.MagasinClicknMortarAvecUrl.Url
+  langs:
+  - csharp
+  - vb
+  name: TousLesMagasinsListeHiddenField.MagasinClicknMortarAvecUrl
+  nameWithType: TousLesMagasinsListeHiddenField.MagasinClicknMortarAvecUrl
+  fullName: Altazion.ECommerce.Controls.TousLesMagasinsListeHiddenField.MagasinClicknMortarAvecUrl
+  type: Class
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/MagasinsControls.cs
+    id: MagasinClicknMortarAvecUrl
+    path: MagasinsControls.cs
+    startLine: 40
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: 'public class MagasinClicknMortarAvecUrl : MagasinClicknMortar, INotifyPropertyChanged, IDataErrorInfo'
+    content.vb: >-
+      Public Class MagasinClicknMortarAvecUrl
+          Inherits MagasinClicknMortar
+          Implements INotifyPropertyChanged, IDataErrorInfo
+  inheritance:
+  - System.Object
+  - CPointSoftware.Equihira.Common.NotifyPropertyChangedObject
+  - CPointSoftware.Equihira.Common.DataObjectBase
+  - CPointSoftware.Equihira.Common.MagasinBase
+  - CPointSoftware.Equihira.Common.MagasinClicknMortar
+  implements:
+  - System.ComponentModel.INotifyPropertyChanged
+  - System.ComponentModel.IDataErrorInfo
+  inheritedMembers:
+  - CPointSoftware.Equihira.Common.MagasinClicknMortar.Zone
+  - CPointSoftware.Equihira.Common.MagasinClicknMortar.Username
+  - CPointSoftware.Equihira.Common.MagasinClicknMortar.EstArchive
+  - CPointSoftware.Equihira.Common.MagasinClicknMortar.Latitude
+  - CPointSoftware.Equihira.Common.MagasinClicknMortar.Longitude
+  - CPointSoftware.Equihira.Common.MagasinClicknMortar.UrlSpecifique
+  - CPointSoftware.Equihira.Common.MagasinClicknMortar.TypePagesString
+  - CPointSoftware.Equihira.Common.MagasinClicknMortar.TypePages
+  - CPointSoftware.Equihira.Common.MagasinClicknMortar.FromDataRow(System.Data.DataRow)
+  - CPointSoftware.Equihira.Common.MagasinBase.Guid
+  - CPointSoftware.Equihira.Common.MagasinBase.Libelle
+  - CPointSoftware.Equihira.Common.MagasinBase.Code
+  - CPointSoftware.Equihira.Common.MagasinBase.CodePostal
+  - CPointSoftware.Equihira.Common.MagasinBase.Adresse
+  - CPointSoftware.Equihira.Common.MagasinBase.Ville
+  - CPointSoftware.Equihira.Common.MagasinBase.AdressesIP
+  - CPointSoftware.Equihira.Common.MagasinBase.ComparerAdresseIP(System.String)
+  - CPointSoftware.Equihira.Common.MagasinBase.Telephone
+  - CPointSoftware.Equihira.Common.MagasinBase.Fax
+  - CPointSoftware.Equihira.Common.MagasinBase.Email
+  - CPointSoftware.Equihira.Common.MagasinBase.Pays
+  - CPointSoftware.Equihira.Common.MagasinBase.ActifPourCrossCanal
+  - CPointSoftware.Equihira.Common.MagasinBase.GetKey
+  - CPointSoftware.Equihira.Common.DataObjectBase.GetFieldValue(CPointSoftware.Equihira.Common.DataObjectBase,System.String)
+  - CPointSoftware.Equihira.Common.DataObjectBase.GetFieldValue(CPointSoftware.Equihira.Common.DataObjectBase,CPointSoftware.Equihira.Common.DataObjectField)
+  - CPointSoftware.Equihira.Common.DataObjectBase.GetFields(System.Boolean)
+  - CPointSoftware.Equihira.Common.DataObjectBase.GetDataForClipboard(System.String,System.Boolean,System.String[],CPointSoftware.Equihira.Common.DataObjectBase)
+  - CPointSoftware.Equihira.Common.DataObjectBase.GetDataForClipboard(System.String,System.Boolean,System.String[],System.Collections.IList)
+  - CPointSoftware.Equihira.Common.DataObjectBase.IsSameDataKey(CPointSoftware.Equihira.Common.DataObjectBase)
+  - CPointSoftware.Equihira.Common.DataObjectBase.innerFromDataRow(System.Data.DataRow)
+  - CPointSoftware.Equihira.Common.DataObjectBase.Loaded
+  - CPointSoftware.Equihira.Common.DataObjectBase.FromData``1(System.Data.DataRow)
+  - CPointSoftware.Equihira.Common.DataObjectBase.FromData``1(System.Data.DataTable)
+  - CPointSoftware.Equihira.Common.DataObjectBase.FromData``1(System.Data.DataRow[])
+  - CPointSoftware.Equihira.Common.DataObjectBase.FromDataRow``1(System.Data.DataRow)
+  - CPointSoftware.Equihira.Common.DataObjectBase.GetValue``1(System.Data.DataRow,System.String,{T})
+  - CPointSoftware.Equihira.Common.DataObjectBase.GetNamespace
+  - CPointSoftware.Equihira.Common.DataObjectBase.GetNamespace``1
+  - CPointSoftware.Equihira.Common.NotifyPropertyChangedObject.PropertyChanged
+  - CPointSoftware.Equihira.Common.NotifyPropertyChangedObject.FirePropertyChanged(System.String)
+  - CPointSoftware.Equihira.Common.NotifyPropertyChangedObject.FirePropertyChanged(System.String,System.Boolean)
+  - CPointSoftware.Equihira.Common.NotifyPropertyChangedObject.IsValid
+  - CPointSoftware.Equihira.Common.NotifyPropertyChangedObject.AddError(System.String,System.String)
+  - CPointSoftware.Equihira.Common.NotifyPropertyChangedObject.ClearError(System.String)
+  - CPointSoftware.Equihira.Common.NotifyPropertyChangedObject.GetAllErrors
+  - CPointSoftware.Equihira.Common.NotifyPropertyChangedObject.BeforeNotifyChange(System.String)
+  - CPointSoftware.Equihira.Common.NotifyPropertyChangedObject.ValidateData
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Altazion.ECommerce.Controls.TousLesMagasinsListeHiddenField.MagasinClicknMortarAvecUrl.Url
+  commentId: P:Altazion.ECommerce.Controls.TousLesMagasinsListeHiddenField.MagasinClicknMortarAvecUrl.Url
+  id: Url
+  parent: Altazion.ECommerce.Controls.TousLesMagasinsListeHiddenField.MagasinClicknMortarAvecUrl
+  langs:
+  - csharp
+  - vb
+  name: Url
+  nameWithType: TousLesMagasinsListeHiddenField.MagasinClicknMortarAvecUrl.Url
+  fullName: Altazion.ECommerce.Controls.TousLesMagasinsListeHiddenField.MagasinClicknMortarAvecUrl.Url
+  type: Property
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/MagasinsControls.cs
+    id: Url
+    path: MagasinsControls.cs
+    startLine: 42
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: public string Url { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Url As String
+  overload: Altazion.ECommerce.Controls.TousLesMagasinsListeHiddenField.MagasinClicknMortarAvecUrl.Url*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: Altazion.ECommerce.Controls
+  commentId: N:Altazion.ECommerce.Controls
+  name: Altazion.ECommerce.Controls
+  nameWithType: Altazion.ECommerce.Controls
+  fullName: Altazion.ECommerce.Controls
+- uid: System.Object
+  commentId: '!:System.Object'
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: CPointSoftware.Equihira.Common.NotifyPropertyChangedObject
+  commentId: T:CPointSoftware.Equihira.Common.NotifyPropertyChangedObject
+  parent: CPointSoftware.Equihira.Common
+  name: NotifyPropertyChangedObject
+  nameWithType: NotifyPropertyChangedObject
+  fullName: CPointSoftware.Equihira.Common.NotifyPropertyChangedObject
+- uid: CPointSoftware.Equihira.Common.DataObjectBase
+  commentId: T:CPointSoftware.Equihira.Common.DataObjectBase
+  parent: CPointSoftware.Equihira.Common
+  name: DataObjectBase
+  nameWithType: DataObjectBase
+  fullName: CPointSoftware.Equihira.Common.DataObjectBase
+- uid: CPointSoftware.Equihira.Common.MagasinBase
+  commentId: T:CPointSoftware.Equihira.Common.MagasinBase
+  parent: CPointSoftware.Equihira.Common
+  name: MagasinBase
+  nameWithType: MagasinBase
+  fullName: CPointSoftware.Equihira.Common.MagasinBase
+- uid: CPointSoftware.Equihira.Common.MagasinClicknMortar
+  commentId: T:CPointSoftware.Equihira.Common.MagasinClicknMortar
+  parent: CPointSoftware.Equihira.Common
+  name: MagasinClicknMortar
+  nameWithType: MagasinClicknMortar
+  fullName: CPointSoftware.Equihira.Common.MagasinClicknMortar
+- uid: System.ComponentModel.INotifyPropertyChanged
+  commentId: '!:System.ComponentModel.INotifyPropertyChanged'
+  isExternal: true
+  name: INotifyPropertyChanged
+  nameWithType: INotifyPropertyChanged
+  fullName: System.ComponentModel.INotifyPropertyChanged
+- uid: System.ComponentModel.IDataErrorInfo
+  commentId: '!:System.ComponentModel.IDataErrorInfo'
+  isExternal: true
+  name: IDataErrorInfo
+  nameWithType: IDataErrorInfo
+  fullName: System.ComponentModel.IDataErrorInfo
+- uid: CPointSoftware.Equihira.Common.MagasinClicknMortar.Zone
+  commentId: P:CPointSoftware.Equihira.Common.MagasinClicknMortar.Zone
+  parent: CPointSoftware.Equihira.Common.MagasinClicknMortar
+  name: Zone
+  nameWithType: MagasinClicknMortar.Zone
+  fullName: CPointSoftware.Equihira.Common.MagasinClicknMortar.Zone
+- uid: CPointSoftware.Equihira.Common.MagasinClicknMortar.Username
+  commentId: P:CPointSoftware.Equihira.Common.MagasinClicknMortar.Username
+  parent: CPointSoftware.Equihira.Common.MagasinClicknMortar
+  name: Username
+  nameWithType: MagasinClicknMortar.Username
+  fullName: CPointSoftware.Equihira.Common.MagasinClicknMortar.Username
+- uid: CPointSoftware.Equihira.Common.MagasinClicknMortar.EstArchive
+  commentId: P:CPointSoftware.Equihira.Common.MagasinClicknMortar.EstArchive
+  parent: CPointSoftware.Equihira.Common.MagasinClicknMortar
+  name: EstArchive
+  nameWithType: MagasinClicknMortar.EstArchive
+  fullName: CPointSoftware.Equihira.Common.MagasinClicknMortar.EstArchive
+- uid: CPointSoftware.Equihira.Common.MagasinClicknMortar.Latitude
+  commentId: P:CPointSoftware.Equihira.Common.MagasinClicknMortar.Latitude
+  parent: CPointSoftware.Equihira.Common.MagasinClicknMortar
+  name: Latitude
+  nameWithType: MagasinClicknMortar.Latitude
+  fullName: CPointSoftware.Equihira.Common.MagasinClicknMortar.Latitude
+- uid: CPointSoftware.Equihira.Common.MagasinClicknMortar.Longitude
+  commentId: P:CPointSoftware.Equihira.Common.MagasinClicknMortar.Longitude
+  parent: CPointSoftware.Equihira.Common.MagasinClicknMortar
+  name: Longitude
+  nameWithType: MagasinClicknMortar.Longitude
+  fullName: CPointSoftware.Equihira.Common.MagasinClicknMortar.Longitude
+- uid: CPointSoftware.Equihira.Common.MagasinClicknMortar.UrlSpecifique
+  commentId: P:CPointSoftware.Equihira.Common.MagasinClicknMortar.UrlSpecifique
+  parent: CPointSoftware.Equihira.Common.MagasinClicknMortar
+  name: UrlSpecifique
+  nameWithType: MagasinClicknMortar.UrlSpecifique
+  fullName: CPointSoftware.Equihira.Common.MagasinClicknMortar.UrlSpecifique
+- uid: CPointSoftware.Equihira.Common.MagasinClicknMortar.TypePagesString
+  commentId: P:CPointSoftware.Equihira.Common.MagasinClicknMortar.TypePagesString
+  parent: CPointSoftware.Equihira.Common.MagasinClicknMortar
+  name: TypePagesString
+  nameWithType: MagasinClicknMortar.TypePagesString
+  fullName: CPointSoftware.Equihira.Common.MagasinClicknMortar.TypePagesString
+- uid: CPointSoftware.Equihira.Common.MagasinClicknMortar.TypePages
+  commentId: P:CPointSoftware.Equihira.Common.MagasinClicknMortar.TypePages
+  parent: CPointSoftware.Equihira.Common.MagasinClicknMortar
+  name: TypePages
+  nameWithType: MagasinClicknMortar.TypePages
+  fullName: CPointSoftware.Equihira.Common.MagasinClicknMortar.TypePages
+- uid: CPointSoftware.Equihira.Common.MagasinClicknMortar.FromDataRow(System.Data.DataRow)
+  commentId: M:CPointSoftware.Equihira.Common.MagasinClicknMortar.FromDataRow(System.Data.DataRow)
+  parent: CPointSoftware.Equihira.Common.MagasinClicknMortar
+  isExternal: true
+  name: FromDataRow(DataRow)
+  nameWithType: MagasinClicknMortar.FromDataRow(DataRow)
+  fullName: CPointSoftware.Equihira.Common.MagasinClicknMortar.FromDataRow(System.Data.DataRow)
+  spec.csharp:
+  - uid: CPointSoftware.Equihira.Common.MagasinClicknMortar.FromDataRow(System.Data.DataRow)
+    name: FromDataRow
+    nameWithType: MagasinClicknMortar.FromDataRow
+    fullName: CPointSoftware.Equihira.Common.MagasinClicknMortar.FromDataRow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Data.DataRow
+    name: DataRow
+    nameWithType: DataRow
+    fullName: System.Data.DataRow
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: CPointSoftware.Equihira.Common.MagasinClicknMortar.FromDataRow(System.Data.DataRow)
+    name: FromDataRow
+    nameWithType: MagasinClicknMortar.FromDataRow
+    fullName: CPointSoftware.Equihira.Common.MagasinClicknMortar.FromDataRow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Data.DataRow
+    name: DataRow
+    nameWithType: DataRow
+    fullName: System.Data.DataRow
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CPointSoftware.Equihira.Common.MagasinBase.Guid
+  commentId: P:CPointSoftware.Equihira.Common.MagasinBase.Guid
+  parent: CPointSoftware.Equihira.Common.MagasinBase
+  name: Guid
+  nameWithType: MagasinBase.Guid
+  fullName: CPointSoftware.Equihira.Common.MagasinBase.Guid
+- uid: CPointSoftware.Equihira.Common.MagasinBase.Libelle
+  commentId: P:CPointSoftware.Equihira.Common.MagasinBase.Libelle
+  parent: CPointSoftware.Equihira.Common.MagasinBase
+  name: Libelle
+  nameWithType: MagasinBase.Libelle
+  fullName: CPointSoftware.Equihira.Common.MagasinBase.Libelle
+- uid: CPointSoftware.Equihira.Common.MagasinBase.Code
+  commentId: P:CPointSoftware.Equihira.Common.MagasinBase.Code
+  parent: CPointSoftware.Equihira.Common.MagasinBase
+  name: Code
+  nameWithType: MagasinBase.Code
+  fullName: CPointSoftware.Equihira.Common.MagasinBase.Code
+- uid: CPointSoftware.Equihira.Common.MagasinBase.CodePostal
+  commentId: P:CPointSoftware.Equihira.Common.MagasinBase.CodePostal
+  parent: CPointSoftware.Equihira.Common.MagasinBase
+  name: CodePostal
+  nameWithType: MagasinBase.CodePostal
+  fullName: CPointSoftware.Equihira.Common.MagasinBase.CodePostal
+- uid: CPointSoftware.Equihira.Common.MagasinBase.Adresse
+  commentId: P:CPointSoftware.Equihira.Common.MagasinBase.Adresse
+  parent: CPointSoftware.Equihira.Common.MagasinBase
+  name: Adresse
+  nameWithType: MagasinBase.Adresse
+  fullName: CPointSoftware.Equihira.Common.MagasinBase.Adresse
+- uid: CPointSoftware.Equihira.Common.MagasinBase.Ville
+  commentId: P:CPointSoftware.Equihira.Common.MagasinBase.Ville
+  parent: CPointSoftware.Equihira.Common.MagasinBase
+  name: Ville
+  nameWithType: MagasinBase.Ville
+  fullName: CPointSoftware.Equihira.Common.MagasinBase.Ville
+- uid: CPointSoftware.Equihira.Common.MagasinBase.AdressesIP
+  commentId: P:CPointSoftware.Equihira.Common.MagasinBase.AdressesIP
+  parent: CPointSoftware.Equihira.Common.MagasinBase
+  name: AdressesIP
+  nameWithType: MagasinBase.AdressesIP
+  fullName: CPointSoftware.Equihira.Common.MagasinBase.AdressesIP
+- uid: CPointSoftware.Equihira.Common.MagasinBase.ComparerAdresseIP(System.String)
+  commentId: M:CPointSoftware.Equihira.Common.MagasinBase.ComparerAdresseIP(System.String)
+  parent: CPointSoftware.Equihira.Common.MagasinBase
+  isExternal: true
+  name: ComparerAdresseIP(String)
+  nameWithType: MagasinBase.ComparerAdresseIP(String)
+  fullName: CPointSoftware.Equihira.Common.MagasinBase.ComparerAdresseIP(System.String)
+  spec.csharp:
+  - uid: CPointSoftware.Equihira.Common.MagasinBase.ComparerAdresseIP(System.String)
+    name: ComparerAdresseIP
+    nameWithType: MagasinBase.ComparerAdresseIP
+    fullName: CPointSoftware.Equihira.Common.MagasinBase.ComparerAdresseIP
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: CPointSoftware.Equihira.Common.MagasinBase.ComparerAdresseIP(System.String)
+    name: ComparerAdresseIP
+    nameWithType: MagasinBase.ComparerAdresseIP
+    fullName: CPointSoftware.Equihira.Common.MagasinBase.ComparerAdresseIP
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CPointSoftware.Equihira.Common.MagasinBase.Telephone
+  commentId: P:CPointSoftware.Equihira.Common.MagasinBase.Telephone
+  parent: CPointSoftware.Equihira.Common.MagasinBase
+  name: Telephone
+  nameWithType: MagasinBase.Telephone
+  fullName: CPointSoftware.Equihira.Common.MagasinBase.Telephone
+- uid: CPointSoftware.Equihira.Common.MagasinBase.Fax
+  commentId: P:CPointSoftware.Equihira.Common.MagasinBase.Fax
+  parent: CPointSoftware.Equihira.Common.MagasinBase
+  name: Fax
+  nameWithType: MagasinBase.Fax
+  fullName: CPointSoftware.Equihira.Common.MagasinBase.Fax
+- uid: CPointSoftware.Equihira.Common.MagasinBase.Email
+  commentId: P:CPointSoftware.Equihira.Common.MagasinBase.Email
+  parent: CPointSoftware.Equihira.Common.MagasinBase
+  name: Email
+  nameWithType: MagasinBase.Email
+  fullName: CPointSoftware.Equihira.Common.MagasinBase.Email
+- uid: CPointSoftware.Equihira.Common.MagasinBase.Pays
+  commentId: P:CPointSoftware.Equihira.Common.MagasinBase.Pays
+  parent: CPointSoftware.Equihira.Common.MagasinBase
+  name: Pays
+  nameWithType: MagasinBase.Pays
+  fullName: CPointSoftware.Equihira.Common.MagasinBase.Pays
+- uid: CPointSoftware.Equihira.Common.MagasinBase.ActifPourCrossCanal
+  commentId: P:CPointSoftware.Equihira.Common.MagasinBase.ActifPourCrossCanal
+  parent: CPointSoftware.Equihira.Common.MagasinBase
+  name: ActifPourCrossCanal
+  nameWithType: MagasinBase.ActifPourCrossCanal
+  fullName: CPointSoftware.Equihira.Common.MagasinBase.ActifPourCrossCanal
+- uid: CPointSoftware.Equihira.Common.MagasinBase.GetKey
+  commentId: M:CPointSoftware.Equihira.Common.MagasinBase.GetKey
+  parent: CPointSoftware.Equihira.Common.MagasinBase
+  name: GetKey()
+  nameWithType: MagasinBase.GetKey()
+  fullName: CPointSoftware.Equihira.Common.MagasinBase.GetKey()
+  spec.csharp:
+  - uid: CPointSoftware.Equihira.Common.MagasinBase.GetKey
+    name: GetKey
+    nameWithType: MagasinBase.GetKey
+    fullName: CPointSoftware.Equihira.Common.MagasinBase.GetKey
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: CPointSoftware.Equihira.Common.MagasinBase.GetKey
+    name: GetKey
+    nameWithType: MagasinBase.GetKey
+    fullName: CPointSoftware.Equihira.Common.MagasinBase.GetKey
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CPointSoftware.Equihira.Common.DataObjectBase.GetFieldValue(CPointSoftware.Equihira.Common.DataObjectBase,System.String)
+  commentId: M:CPointSoftware.Equihira.Common.DataObjectBase.GetFieldValue(CPointSoftware.Equihira.Common.DataObjectBase,System.String)
+  parent: CPointSoftware.Equihira.Common.DataObjectBase
+  isExternal: true
+  name: GetFieldValue(DataObjectBase, String)
+  nameWithType: DataObjectBase.GetFieldValue(DataObjectBase, String)
+  fullName: CPointSoftware.Equihira.Common.DataObjectBase.GetFieldValue(CPointSoftware.Equihira.Common.DataObjectBase, System.String)
+  spec.csharp:
+  - uid: CPointSoftware.Equihira.Common.DataObjectBase.GetFieldValue(CPointSoftware.Equihira.Common.DataObjectBase,System.String)
+    name: GetFieldValue
+    nameWithType: DataObjectBase.GetFieldValue
+    fullName: CPointSoftware.Equihira.Common.DataObjectBase.GetFieldValue
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: CPointSoftware.Equihira.Common.DataObjectBase
+    name: DataObjectBase
+    nameWithType: DataObjectBase
+    fullName: CPointSoftware.Equihira.Common.DataObjectBase
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: CPointSoftware.Equihira.Common.DataObjectBase.GetFieldValue(CPointSoftware.Equihira.Common.DataObjectBase,System.String)
+    name: GetFieldValue
+    nameWithType: DataObjectBase.GetFieldValue
+    fullName: CPointSoftware.Equihira.Common.DataObjectBase.GetFieldValue
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: CPointSoftware.Equihira.Common.DataObjectBase
+    name: DataObjectBase
+    nameWithType: DataObjectBase
+    fullName: CPointSoftware.Equihira.Common.DataObjectBase
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CPointSoftware.Equihira.Common.DataObjectBase.GetFieldValue(CPointSoftware.Equihira.Common.DataObjectBase,CPointSoftware.Equihira.Common.DataObjectField)
+  commentId: M:CPointSoftware.Equihira.Common.DataObjectBase.GetFieldValue(CPointSoftware.Equihira.Common.DataObjectBase,CPointSoftware.Equihira.Common.DataObjectField)
+  parent: CPointSoftware.Equihira.Common.DataObjectBase
+  name: GetFieldValue(DataObjectBase, DataObjectField)
+  nameWithType: DataObjectBase.GetFieldValue(DataObjectBase, DataObjectField)
+  fullName: CPointSoftware.Equihira.Common.DataObjectBase.GetFieldValue(CPointSoftware.Equihira.Common.DataObjectBase, CPointSoftware.Equihira.Common.DataObjectField)
+  spec.csharp:
+  - uid: CPointSoftware.Equihira.Common.DataObjectBase.GetFieldValue(CPointSoftware.Equihira.Common.DataObjectBase,CPointSoftware.Equihira.Common.DataObjectField)
+    name: GetFieldValue
+    nameWithType: DataObjectBase.GetFieldValue
+    fullName: CPointSoftware.Equihira.Common.DataObjectBase.GetFieldValue
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: CPointSoftware.Equihira.Common.DataObjectBase
+    name: DataObjectBase
+    nameWithType: DataObjectBase
+    fullName: CPointSoftware.Equihira.Common.DataObjectBase
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: CPointSoftware.Equihira.Common.DataObjectField
+    name: DataObjectField
+    nameWithType: DataObjectField
+    fullName: CPointSoftware.Equihira.Common.DataObjectField
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: CPointSoftware.Equihira.Common.DataObjectBase.GetFieldValue(CPointSoftware.Equihira.Common.DataObjectBase,CPointSoftware.Equihira.Common.DataObjectField)
+    name: GetFieldValue
+    nameWithType: DataObjectBase.GetFieldValue
+    fullName: CPointSoftware.Equihira.Common.DataObjectBase.GetFieldValue
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: CPointSoftware.Equihira.Common.DataObjectBase
+    name: DataObjectBase
+    nameWithType: DataObjectBase
+    fullName: CPointSoftware.Equihira.Common.DataObjectBase
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: CPointSoftware.Equihira.Common.DataObjectField
+    name: DataObjectField
+    nameWithType: DataObjectField
+    fullName: CPointSoftware.Equihira.Common.DataObjectField
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CPointSoftware.Equihira.Common.DataObjectBase.GetFields(System.Boolean)
+  commentId: M:CPointSoftware.Equihira.Common.DataObjectBase.GetFields(System.Boolean)
+  parent: CPointSoftware.Equihira.Common.DataObjectBase
+  isExternal: true
+  name: GetFields(Boolean)
+  nameWithType: DataObjectBase.GetFields(Boolean)
+  fullName: CPointSoftware.Equihira.Common.DataObjectBase.GetFields(System.Boolean)
+  spec.csharp:
+  - uid: CPointSoftware.Equihira.Common.DataObjectBase.GetFields(System.Boolean)
+    name: GetFields
+    nameWithType: DataObjectBase.GetFields
+    fullName: CPointSoftware.Equihira.Common.DataObjectBase.GetFields
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: CPointSoftware.Equihira.Common.DataObjectBase.GetFields(System.Boolean)
+    name: GetFields
+    nameWithType: DataObjectBase.GetFields
+    fullName: CPointSoftware.Equihira.Common.DataObjectBase.GetFields
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CPointSoftware.Equihira.Common.DataObjectBase.GetDataForClipboard(System.String,System.Boolean,System.String[],CPointSoftware.Equihira.Common.DataObjectBase)
+  commentId: M:CPointSoftware.Equihira.Common.DataObjectBase.GetDataForClipboard(System.String,System.Boolean,System.String[],CPointSoftware.Equihira.Common.DataObjectBase)
+  parent: CPointSoftware.Equihira.Common.DataObjectBase
+  isExternal: true
+  name: GetDataForClipboard(String, Boolean, String[], DataObjectBase)
+  nameWithType: DataObjectBase.GetDataForClipboard(String, Boolean, String[], DataObjectBase)
+  fullName: CPointSoftware.Equihira.Common.DataObjectBase.GetDataForClipboard(System.String, System.Boolean, System.String[], CPointSoftware.Equihira.Common.DataObjectBase)
+  nameWithType.vb: DataObjectBase.GetDataForClipboard(String, Boolean, String(), DataObjectBase)
+  fullName.vb: CPointSoftware.Equihira.Common.DataObjectBase.GetDataForClipboard(System.String, System.Boolean, System.String(), CPointSoftware.Equihira.Common.DataObjectBase)
+  name.vb: GetDataForClipboard(String, Boolean, String(), DataObjectBase)
+  spec.csharp:
+  - uid: CPointSoftware.Equihira.Common.DataObjectBase.GetDataForClipboard(System.String,System.Boolean,System.String[],CPointSoftware.Equihira.Common.DataObjectBase)
+    name: GetDataForClipboard
+    nameWithType: DataObjectBase.GetDataForClipboard
+    fullName: CPointSoftware.Equihira.Common.DataObjectBase.GetDataForClipboard
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: CPointSoftware.Equihira.Common.DataObjectBase
+    name: DataObjectBase
+    nameWithType: DataObjectBase
+    fullName: CPointSoftware.Equihira.Common.DataObjectBase
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: CPointSoftware.Equihira.Common.DataObjectBase.GetDataForClipboard(System.String,System.Boolean,System.String[],CPointSoftware.Equihira.Common.DataObjectBase)
+    name: GetDataForClipboard
+    nameWithType: DataObjectBase.GetDataForClipboard
+    fullName: CPointSoftware.Equihira.Common.DataObjectBase.GetDataForClipboard
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: CPointSoftware.Equihira.Common.DataObjectBase
+    name: DataObjectBase
+    nameWithType: DataObjectBase
+    fullName: CPointSoftware.Equihira.Common.DataObjectBase
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CPointSoftware.Equihira.Common.DataObjectBase.GetDataForClipboard(System.String,System.Boolean,System.String[],System.Collections.IList)
+  commentId: M:CPointSoftware.Equihira.Common.DataObjectBase.GetDataForClipboard(System.String,System.Boolean,System.String[],System.Collections.IList)
+  parent: CPointSoftware.Equihira.Common.DataObjectBase
+  isExternal: true
+  name: GetDataForClipboard(String, Boolean, String[], IList)
+  nameWithType: DataObjectBase.GetDataForClipboard(String, Boolean, String[], IList)
+  fullName: CPointSoftware.Equihira.Common.DataObjectBase.GetDataForClipboard(System.String, System.Boolean, System.String[], System.Collections.IList)
+  nameWithType.vb: DataObjectBase.GetDataForClipboard(String, Boolean, String(), IList)
+  fullName.vb: CPointSoftware.Equihira.Common.DataObjectBase.GetDataForClipboard(System.String, System.Boolean, System.String(), System.Collections.IList)
+  name.vb: GetDataForClipboard(String, Boolean, String(), IList)
+  spec.csharp:
+  - uid: CPointSoftware.Equihira.Common.DataObjectBase.GetDataForClipboard(System.String,System.Boolean,System.String[],System.Collections.IList)
+    name: GetDataForClipboard
+    nameWithType: DataObjectBase.GetDataForClipboard
+    fullName: CPointSoftware.Equihira.Common.DataObjectBase.GetDataForClipboard
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Collections.IList
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.IList
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: CPointSoftware.Equihira.Common.DataObjectBase.GetDataForClipboard(System.String,System.Boolean,System.String[],System.Collections.IList)
+    name: GetDataForClipboard
+    nameWithType: DataObjectBase.GetDataForClipboard
+    fullName: CPointSoftware.Equihira.Common.DataObjectBase.GetDataForClipboard
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Collections.IList
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.IList
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CPointSoftware.Equihira.Common.DataObjectBase.IsSameDataKey(CPointSoftware.Equihira.Common.DataObjectBase)
+  commentId: M:CPointSoftware.Equihira.Common.DataObjectBase.IsSameDataKey(CPointSoftware.Equihira.Common.DataObjectBase)
+  parent: CPointSoftware.Equihira.Common.DataObjectBase
+  name: IsSameDataKey(DataObjectBase)
+  nameWithType: DataObjectBase.IsSameDataKey(DataObjectBase)
+  fullName: CPointSoftware.Equihira.Common.DataObjectBase.IsSameDataKey(CPointSoftware.Equihira.Common.DataObjectBase)
+  spec.csharp:
+  - uid: CPointSoftware.Equihira.Common.DataObjectBase.IsSameDataKey(CPointSoftware.Equihira.Common.DataObjectBase)
+    name: IsSameDataKey
+    nameWithType: DataObjectBase.IsSameDataKey
+    fullName: CPointSoftware.Equihira.Common.DataObjectBase.IsSameDataKey
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: CPointSoftware.Equihira.Common.DataObjectBase
+    name: DataObjectBase
+    nameWithType: DataObjectBase
+    fullName: CPointSoftware.Equihira.Common.DataObjectBase
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: CPointSoftware.Equihira.Common.DataObjectBase.IsSameDataKey(CPointSoftware.Equihira.Common.DataObjectBase)
+    name: IsSameDataKey
+    nameWithType: DataObjectBase.IsSameDataKey
+    fullName: CPointSoftware.Equihira.Common.DataObjectBase.IsSameDataKey
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: CPointSoftware.Equihira.Common.DataObjectBase
+    name: DataObjectBase
+    nameWithType: DataObjectBase
+    fullName: CPointSoftware.Equihira.Common.DataObjectBase
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CPointSoftware.Equihira.Common.DataObjectBase.innerFromDataRow(System.Data.DataRow)
+  commentId: M:CPointSoftware.Equihira.Common.DataObjectBase.innerFromDataRow(System.Data.DataRow)
+  parent: CPointSoftware.Equihira.Common.DataObjectBase
+  isExternal: true
+  name: innerFromDataRow(DataRow)
+  nameWithType: DataObjectBase.innerFromDataRow(DataRow)
+  fullName: CPointSoftware.Equihira.Common.DataObjectBase.innerFromDataRow(System.Data.DataRow)
+  spec.csharp:
+  - uid: CPointSoftware.Equihira.Common.DataObjectBase.innerFromDataRow(System.Data.DataRow)
+    name: innerFromDataRow
+    nameWithType: DataObjectBase.innerFromDataRow
+    fullName: CPointSoftware.Equihira.Common.DataObjectBase.innerFromDataRow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Data.DataRow
+    name: DataRow
+    nameWithType: DataRow
+    fullName: System.Data.DataRow
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: CPointSoftware.Equihira.Common.DataObjectBase.innerFromDataRow(System.Data.DataRow)
+    name: innerFromDataRow
+    nameWithType: DataObjectBase.innerFromDataRow
+    fullName: CPointSoftware.Equihira.Common.DataObjectBase.innerFromDataRow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Data.DataRow
+    name: DataRow
+    nameWithType: DataRow
+    fullName: System.Data.DataRow
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CPointSoftware.Equihira.Common.DataObjectBase.Loaded
+  commentId: E:CPointSoftware.Equihira.Common.DataObjectBase.Loaded
+  parent: CPointSoftware.Equihira.Common.DataObjectBase
+  name: Loaded
+  nameWithType: DataObjectBase.Loaded
+  fullName: CPointSoftware.Equihira.Common.DataObjectBase.Loaded
+- uid: CPointSoftware.Equihira.Common.DataObjectBase.FromData``1(System.Data.DataRow)
+  commentId: M:CPointSoftware.Equihira.Common.DataObjectBase.FromData``1(System.Data.DataRow)
+  parent: CPointSoftware.Equihira.Common.DataObjectBase
+  isExternal: true
+  name: FromData<T>(DataRow)
+  nameWithType: DataObjectBase.FromData<T>(DataRow)
+  fullName: CPointSoftware.Equihira.Common.DataObjectBase.FromData<T>(System.Data.DataRow)
+  nameWithType.vb: DataObjectBase.FromData(Of T)(DataRow)
+  fullName.vb: CPointSoftware.Equihira.Common.DataObjectBase.FromData(Of T)(System.Data.DataRow)
+  name.vb: FromData(Of T)(DataRow)
+  spec.csharp:
+  - uid: CPointSoftware.Equihira.Common.DataObjectBase.FromData``1(System.Data.DataRow)
+    name: FromData<T>
+    nameWithType: DataObjectBase.FromData<T>
+    fullName: CPointSoftware.Equihira.Common.DataObjectBase.FromData<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Data.DataRow
+    name: DataRow
+    nameWithType: DataRow
+    fullName: System.Data.DataRow
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: CPointSoftware.Equihira.Common.DataObjectBase.FromData``1(System.Data.DataRow)
+    name: FromData(Of T)
+    nameWithType: DataObjectBase.FromData(Of T)
+    fullName: CPointSoftware.Equihira.Common.DataObjectBase.FromData(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Data.DataRow
+    name: DataRow
+    nameWithType: DataRow
+    fullName: System.Data.DataRow
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CPointSoftware.Equihira.Common.DataObjectBase.FromData``1(System.Data.DataTable)
+  commentId: M:CPointSoftware.Equihira.Common.DataObjectBase.FromData``1(System.Data.DataTable)
+  parent: CPointSoftware.Equihira.Common.DataObjectBase
+  isExternal: true
+  name: FromData<T>(DataTable)
+  nameWithType: DataObjectBase.FromData<T>(DataTable)
+  fullName: CPointSoftware.Equihira.Common.DataObjectBase.FromData<T>(System.Data.DataTable)
+  nameWithType.vb: DataObjectBase.FromData(Of T)(DataTable)
+  fullName.vb: CPointSoftware.Equihira.Common.DataObjectBase.FromData(Of T)(System.Data.DataTable)
+  name.vb: FromData(Of T)(DataTable)
+  spec.csharp:
+  - uid: CPointSoftware.Equihira.Common.DataObjectBase.FromData``1(System.Data.DataTable)
+    name: FromData<T>
+    nameWithType: DataObjectBase.FromData<T>
+    fullName: CPointSoftware.Equihira.Common.DataObjectBase.FromData<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Data.DataTable
+    name: DataTable
+    nameWithType: DataTable
+    fullName: System.Data.DataTable
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: CPointSoftware.Equihira.Common.DataObjectBase.FromData``1(System.Data.DataTable)
+    name: FromData(Of T)
+    nameWithType: DataObjectBase.FromData(Of T)
+    fullName: CPointSoftware.Equihira.Common.DataObjectBase.FromData(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Data.DataTable
+    name: DataTable
+    nameWithType: DataTable
+    fullName: System.Data.DataTable
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CPointSoftware.Equihira.Common.DataObjectBase.FromData``1(System.Data.DataRow[])
+  commentId: M:CPointSoftware.Equihira.Common.DataObjectBase.FromData``1(System.Data.DataRow[])
+  parent: CPointSoftware.Equihira.Common.DataObjectBase
+  isExternal: true
+  name: FromData<T>(DataRow[])
+  nameWithType: DataObjectBase.FromData<T>(DataRow[])
+  fullName: CPointSoftware.Equihira.Common.DataObjectBase.FromData<T>(System.Data.DataRow[])
+  nameWithType.vb: DataObjectBase.FromData(Of T)(DataRow())
+  fullName.vb: CPointSoftware.Equihira.Common.DataObjectBase.FromData(Of T)(System.Data.DataRow())
+  name.vb: FromData(Of T)(DataRow())
+  spec.csharp:
+  - uid: CPointSoftware.Equihira.Common.DataObjectBase.FromData``1(System.Data.DataRow[])
+    name: FromData<T>
+    nameWithType: DataObjectBase.FromData<T>
+    fullName: CPointSoftware.Equihira.Common.DataObjectBase.FromData<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Data.DataRow
+    name: DataRow
+    nameWithType: DataRow
+    fullName: System.Data.DataRow
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: CPointSoftware.Equihira.Common.DataObjectBase.FromData``1(System.Data.DataRow[])
+    name: FromData(Of T)
+    nameWithType: DataObjectBase.FromData(Of T)
+    fullName: CPointSoftware.Equihira.Common.DataObjectBase.FromData(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Data.DataRow
+    name: DataRow
+    nameWithType: DataRow
+    fullName: System.Data.DataRow
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CPointSoftware.Equihira.Common.DataObjectBase.FromDataRow``1(System.Data.DataRow)
+  commentId: M:CPointSoftware.Equihira.Common.DataObjectBase.FromDataRow``1(System.Data.DataRow)
+  parent: CPointSoftware.Equihira.Common.DataObjectBase
+  isExternal: true
+  name: FromDataRow<T>(DataRow)
+  nameWithType: DataObjectBase.FromDataRow<T>(DataRow)
+  fullName: CPointSoftware.Equihira.Common.DataObjectBase.FromDataRow<T>(System.Data.DataRow)
+  nameWithType.vb: DataObjectBase.FromDataRow(Of T)(DataRow)
+  fullName.vb: CPointSoftware.Equihira.Common.DataObjectBase.FromDataRow(Of T)(System.Data.DataRow)
+  name.vb: FromDataRow(Of T)(DataRow)
+  spec.csharp:
+  - uid: CPointSoftware.Equihira.Common.DataObjectBase.FromDataRow``1(System.Data.DataRow)
+    name: FromDataRow<T>
+    nameWithType: DataObjectBase.FromDataRow<T>
+    fullName: CPointSoftware.Equihira.Common.DataObjectBase.FromDataRow<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Data.DataRow
+    name: DataRow
+    nameWithType: DataRow
+    fullName: System.Data.DataRow
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: CPointSoftware.Equihira.Common.DataObjectBase.FromDataRow``1(System.Data.DataRow)
+    name: FromDataRow(Of T)
+    nameWithType: DataObjectBase.FromDataRow(Of T)
+    fullName: CPointSoftware.Equihira.Common.DataObjectBase.FromDataRow(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Data.DataRow
+    name: DataRow
+    nameWithType: DataRow
+    fullName: System.Data.DataRow
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CPointSoftware.Equihira.Common.DataObjectBase.GetValue``1(System.Data.DataRow,System.String,{T})
+  commentId: M:CPointSoftware.Equihira.Common.DataObjectBase.GetValue``1(System.Data.DataRow,System.String,``0)
+  parent: CPointSoftware.Equihira.Common.DataObjectBase
+  definition: CPointSoftware.Equihira.Common.DataObjectBase.GetValue``1(System.Data.DataRow,System.String,``0)
+  name: GetValue<T>(DataRow, String, T)
+  nameWithType: DataObjectBase.GetValue<T>(DataRow, String, T)
+  fullName: CPointSoftware.Equihira.Common.DataObjectBase.GetValue<T>(System.Data.DataRow, System.String, T)
+  nameWithType.vb: DataObjectBase.GetValue(Of T)(DataRow, String, T)
+  fullName.vb: CPointSoftware.Equihira.Common.DataObjectBase.GetValue(Of T)(System.Data.DataRow, System.String, T)
+  name.vb: GetValue(Of T)(DataRow, String, T)
+  spec.csharp:
+  - uid: CPointSoftware.Equihira.Common.DataObjectBase.GetValue``1(System.Data.DataRow,System.String,``0)
+    name: GetValue<T>
+    nameWithType: DataObjectBase.GetValue<T>
+    fullName: CPointSoftware.Equihira.Common.DataObjectBase.GetValue<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Data.DataRow
+    name: DataRow
+    nameWithType: DataRow
+    fullName: System.Data.DataRow
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: CPointSoftware.Equihira.Common.DataObjectBase.GetValue``1(System.Data.DataRow,System.String,``0)
+    name: GetValue(Of T)
+    nameWithType: DataObjectBase.GetValue(Of T)
+    fullName: CPointSoftware.Equihira.Common.DataObjectBase.GetValue(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Data.DataRow
+    name: DataRow
+    nameWithType: DataRow
+    fullName: System.Data.DataRow
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CPointSoftware.Equihira.Common.DataObjectBase.GetNamespace
+  commentId: M:CPointSoftware.Equihira.Common.DataObjectBase.GetNamespace
+  parent: CPointSoftware.Equihira.Common.DataObjectBase
+  name: GetNamespace()
+  nameWithType: DataObjectBase.GetNamespace()
+  fullName: CPointSoftware.Equihira.Common.DataObjectBase.GetNamespace()
+  spec.csharp:
+  - uid: CPointSoftware.Equihira.Common.DataObjectBase.GetNamespace
+    name: GetNamespace
+    nameWithType: DataObjectBase.GetNamespace
+    fullName: CPointSoftware.Equihira.Common.DataObjectBase.GetNamespace
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: CPointSoftware.Equihira.Common.DataObjectBase.GetNamespace
+    name: GetNamespace
+    nameWithType: DataObjectBase.GetNamespace
+    fullName: CPointSoftware.Equihira.Common.DataObjectBase.GetNamespace
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CPointSoftware.Equihira.Common.DataObjectBase.GetNamespace``1
+  commentId: M:CPointSoftware.Equihira.Common.DataObjectBase.GetNamespace``1
+  parent: CPointSoftware.Equihira.Common.DataObjectBase
+  name: GetNamespace<T>()
+  nameWithType: DataObjectBase.GetNamespace<T>()
+  fullName: CPointSoftware.Equihira.Common.DataObjectBase.GetNamespace<T>()
+  nameWithType.vb: DataObjectBase.GetNamespace(Of T)()
+  fullName.vb: CPointSoftware.Equihira.Common.DataObjectBase.GetNamespace(Of T)()
+  name.vb: GetNamespace(Of T)()
+  spec.csharp:
+  - uid: CPointSoftware.Equihira.Common.DataObjectBase.GetNamespace``1
+    name: GetNamespace<T>
+    nameWithType: DataObjectBase.GetNamespace<T>
+    fullName: CPointSoftware.Equihira.Common.DataObjectBase.GetNamespace<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: CPointSoftware.Equihira.Common.DataObjectBase.GetNamespace``1
+    name: GetNamespace(Of T)
+    nameWithType: DataObjectBase.GetNamespace(Of T)
+    fullName: CPointSoftware.Equihira.Common.DataObjectBase.GetNamespace(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CPointSoftware.Equihira.Common.NotifyPropertyChangedObject.PropertyChanged
+  commentId: E:CPointSoftware.Equihira.Common.NotifyPropertyChangedObject.PropertyChanged
+  parent: CPointSoftware.Equihira.Common.NotifyPropertyChangedObject
+  name: PropertyChanged
+  nameWithType: NotifyPropertyChangedObject.PropertyChanged
+  fullName: CPointSoftware.Equihira.Common.NotifyPropertyChangedObject.PropertyChanged
+- uid: CPointSoftware.Equihira.Common.NotifyPropertyChangedObject.FirePropertyChanged(System.String)
+  commentId: M:CPointSoftware.Equihira.Common.NotifyPropertyChangedObject.FirePropertyChanged(System.String)
+  parent: CPointSoftware.Equihira.Common.NotifyPropertyChangedObject
+  isExternal: true
+  name: FirePropertyChanged(String)
+  nameWithType: NotifyPropertyChangedObject.FirePropertyChanged(String)
+  fullName: CPointSoftware.Equihira.Common.NotifyPropertyChangedObject.FirePropertyChanged(System.String)
+  spec.csharp:
+  - uid: CPointSoftware.Equihira.Common.NotifyPropertyChangedObject.FirePropertyChanged(System.String)
+    name: FirePropertyChanged
+    nameWithType: NotifyPropertyChangedObject.FirePropertyChanged
+    fullName: CPointSoftware.Equihira.Common.NotifyPropertyChangedObject.FirePropertyChanged
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: CPointSoftware.Equihira.Common.NotifyPropertyChangedObject.FirePropertyChanged(System.String)
+    name: FirePropertyChanged
+    nameWithType: NotifyPropertyChangedObject.FirePropertyChanged
+    fullName: CPointSoftware.Equihira.Common.NotifyPropertyChangedObject.FirePropertyChanged
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CPointSoftware.Equihira.Common.NotifyPropertyChangedObject.FirePropertyChanged(System.String,System.Boolean)
+  commentId: M:CPointSoftware.Equihira.Common.NotifyPropertyChangedObject.FirePropertyChanged(System.String,System.Boolean)
+  parent: CPointSoftware.Equihira.Common.NotifyPropertyChangedObject
+  isExternal: true
+  name: FirePropertyChanged(String, Boolean)
+  nameWithType: NotifyPropertyChangedObject.FirePropertyChanged(String, Boolean)
+  fullName: CPointSoftware.Equihira.Common.NotifyPropertyChangedObject.FirePropertyChanged(System.String, System.Boolean)
+  spec.csharp:
+  - uid: CPointSoftware.Equihira.Common.NotifyPropertyChangedObject.FirePropertyChanged(System.String,System.Boolean)
+    name: FirePropertyChanged
+    nameWithType: NotifyPropertyChangedObject.FirePropertyChanged
+    fullName: CPointSoftware.Equihira.Common.NotifyPropertyChangedObject.FirePropertyChanged
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: CPointSoftware.Equihira.Common.NotifyPropertyChangedObject.FirePropertyChanged(System.String,System.Boolean)
+    name: FirePropertyChanged
+    nameWithType: NotifyPropertyChangedObject.FirePropertyChanged
+    fullName: CPointSoftware.Equihira.Common.NotifyPropertyChangedObject.FirePropertyChanged
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CPointSoftware.Equihira.Common.NotifyPropertyChangedObject.IsValid
+  commentId: P:CPointSoftware.Equihira.Common.NotifyPropertyChangedObject.IsValid
+  parent: CPointSoftware.Equihira.Common.NotifyPropertyChangedObject
+  name: IsValid
+  nameWithType: NotifyPropertyChangedObject.IsValid
+  fullName: CPointSoftware.Equihira.Common.NotifyPropertyChangedObject.IsValid
+- uid: CPointSoftware.Equihira.Common.NotifyPropertyChangedObject.AddError(System.String,System.String)
+  commentId: M:CPointSoftware.Equihira.Common.NotifyPropertyChangedObject.AddError(System.String,System.String)
+  parent: CPointSoftware.Equihira.Common.NotifyPropertyChangedObject
+  isExternal: true
+  name: AddError(String, String)
+  nameWithType: NotifyPropertyChangedObject.AddError(String, String)
+  fullName: CPointSoftware.Equihira.Common.NotifyPropertyChangedObject.AddError(System.String, System.String)
+  spec.csharp:
+  - uid: CPointSoftware.Equihira.Common.NotifyPropertyChangedObject.AddError(System.String,System.String)
+    name: AddError
+    nameWithType: NotifyPropertyChangedObject.AddError
+    fullName: CPointSoftware.Equihira.Common.NotifyPropertyChangedObject.AddError
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: CPointSoftware.Equihira.Common.NotifyPropertyChangedObject.AddError(System.String,System.String)
+    name: AddError
+    nameWithType: NotifyPropertyChangedObject.AddError
+    fullName: CPointSoftware.Equihira.Common.NotifyPropertyChangedObject.AddError
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CPointSoftware.Equihira.Common.NotifyPropertyChangedObject.ClearError(System.String)
+  commentId: M:CPointSoftware.Equihira.Common.NotifyPropertyChangedObject.ClearError(System.String)
+  parent: CPointSoftware.Equihira.Common.NotifyPropertyChangedObject
+  isExternal: true
+  name: ClearError(String)
+  nameWithType: NotifyPropertyChangedObject.ClearError(String)
+  fullName: CPointSoftware.Equihira.Common.NotifyPropertyChangedObject.ClearError(System.String)
+  spec.csharp:
+  - uid: CPointSoftware.Equihira.Common.NotifyPropertyChangedObject.ClearError(System.String)
+    name: ClearError
+    nameWithType: NotifyPropertyChangedObject.ClearError
+    fullName: CPointSoftware.Equihira.Common.NotifyPropertyChangedObject.ClearError
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: CPointSoftware.Equihira.Common.NotifyPropertyChangedObject.ClearError(System.String)
+    name: ClearError
+    nameWithType: NotifyPropertyChangedObject.ClearError
+    fullName: CPointSoftware.Equihira.Common.NotifyPropertyChangedObject.ClearError
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CPointSoftware.Equihira.Common.NotifyPropertyChangedObject.GetAllErrors
+  commentId: M:CPointSoftware.Equihira.Common.NotifyPropertyChangedObject.GetAllErrors
+  parent: CPointSoftware.Equihira.Common.NotifyPropertyChangedObject
+  name: GetAllErrors()
+  nameWithType: NotifyPropertyChangedObject.GetAllErrors()
+  fullName: CPointSoftware.Equihira.Common.NotifyPropertyChangedObject.GetAllErrors()
+  spec.csharp:
+  - uid: CPointSoftware.Equihira.Common.NotifyPropertyChangedObject.GetAllErrors
+    name: GetAllErrors
+    nameWithType: NotifyPropertyChangedObject.GetAllErrors
+    fullName: CPointSoftware.Equihira.Common.NotifyPropertyChangedObject.GetAllErrors
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: CPointSoftware.Equihira.Common.NotifyPropertyChangedObject.GetAllErrors
+    name: GetAllErrors
+    nameWithType: NotifyPropertyChangedObject.GetAllErrors
+    fullName: CPointSoftware.Equihira.Common.NotifyPropertyChangedObject.GetAllErrors
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CPointSoftware.Equihira.Common.NotifyPropertyChangedObject.BeforeNotifyChange(System.String)
+  commentId: M:CPointSoftware.Equihira.Common.NotifyPropertyChangedObject.BeforeNotifyChange(System.String)
+  parent: CPointSoftware.Equihira.Common.NotifyPropertyChangedObject
+  isExternal: true
+  name: BeforeNotifyChange(String)
+  nameWithType: NotifyPropertyChangedObject.BeforeNotifyChange(String)
+  fullName: CPointSoftware.Equihira.Common.NotifyPropertyChangedObject.BeforeNotifyChange(System.String)
+  spec.csharp:
+  - uid: CPointSoftware.Equihira.Common.NotifyPropertyChangedObject.BeforeNotifyChange(System.String)
+    name: BeforeNotifyChange
+    nameWithType: NotifyPropertyChangedObject.BeforeNotifyChange
+    fullName: CPointSoftware.Equihira.Common.NotifyPropertyChangedObject.BeforeNotifyChange
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: CPointSoftware.Equihira.Common.NotifyPropertyChangedObject.BeforeNotifyChange(System.String)
+    name: BeforeNotifyChange
+    nameWithType: NotifyPropertyChangedObject.BeforeNotifyChange
+    fullName: CPointSoftware.Equihira.Common.NotifyPropertyChangedObject.BeforeNotifyChange
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CPointSoftware.Equihira.Common.NotifyPropertyChangedObject.ValidateData
+  commentId: M:CPointSoftware.Equihira.Common.NotifyPropertyChangedObject.ValidateData
+  parent: CPointSoftware.Equihira.Common.NotifyPropertyChangedObject
+  name: ValidateData()
+  nameWithType: NotifyPropertyChangedObject.ValidateData()
+  fullName: CPointSoftware.Equihira.Common.NotifyPropertyChangedObject.ValidateData()
+  spec.csharp:
+  - uid: CPointSoftware.Equihira.Common.NotifyPropertyChangedObject.ValidateData
+    name: ValidateData
+    nameWithType: NotifyPropertyChangedObject.ValidateData
+    fullName: CPointSoftware.Equihira.Common.NotifyPropertyChangedObject.ValidateData
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: CPointSoftware.Equihira.Common.NotifyPropertyChangedObject.ValidateData
+    name: ValidateData
+    nameWithType: NotifyPropertyChangedObject.ValidateData
+    fullName: CPointSoftware.Equihira.Common.NotifyPropertyChangedObject.ValidateData
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CPointSoftware.Equihira.Common
+  commentId: N:CPointSoftware.Equihira.Common
+  name: CPointSoftware.Equihira.Common
+  nameWithType: CPointSoftware.Equihira.Common
+  fullName: CPointSoftware.Equihira.Common
+- uid: CPointSoftware.Equihira.Common.DataObjectBase.GetValue``1(System.Data.DataRow,System.String,``0)
+  commentId: M:CPointSoftware.Equihira.Common.DataObjectBase.GetValue``1(System.Data.DataRow,System.String,``0)
+  isExternal: true
+  name: GetValue<T>(DataRow, String, T)
+  nameWithType: DataObjectBase.GetValue<T>(DataRow, String, T)
+  fullName: CPointSoftware.Equihira.Common.DataObjectBase.GetValue<T>(System.Data.DataRow, System.String, T)
+  nameWithType.vb: DataObjectBase.GetValue(Of T)(DataRow, String, T)
+  fullName.vb: CPointSoftware.Equihira.Common.DataObjectBase.GetValue(Of T)(System.Data.DataRow, System.String, T)
+  name.vb: GetValue(Of T)(DataRow, String, T)
+  spec.csharp:
+  - uid: CPointSoftware.Equihira.Common.DataObjectBase.GetValue``1(System.Data.DataRow,System.String,``0)
+    name: GetValue<T>
+    nameWithType: DataObjectBase.GetValue<T>
+    fullName: CPointSoftware.Equihira.Common.DataObjectBase.GetValue<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Data.DataRow
+    name: DataRow
+    nameWithType: DataRow
+    fullName: System.Data.DataRow
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: CPointSoftware.Equihira.Common.DataObjectBase.GetValue``1(System.Data.DataRow,System.String,``0)
+    name: GetValue(Of T)
+    nameWithType: DataObjectBase.GetValue(Of T)
+    fullName: CPointSoftware.Equihira.Common.DataObjectBase.GetValue(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Data.DataRow
+    name: DataRow
+    nameWithType: DataRow
+    fullName: System.Data.DataRow
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Altazion.ECommerce.Controls.TousLesMagasinsListeHiddenField.MagasinClicknMortarAvecUrl.Url*
+  commentId: Overload:Altazion.ECommerce.Controls.TousLesMagasinsListeHiddenField.MagasinClicknMortarAvecUrl.Url
+  name: Url
+  nameWithType: TousLesMagasinsListeHiddenField.MagasinClicknMortarAvecUrl.Url
+  fullName: Altazion.ECommerce.Controls.TousLesMagasinsListeHiddenField.MagasinClicknMortarAvecUrl.Url
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

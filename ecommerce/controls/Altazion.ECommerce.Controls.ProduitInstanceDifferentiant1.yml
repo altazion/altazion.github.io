@@ -1,0 +1,145 @@
+### YamlMime:ManagedReference
+items:
+- uid: Altazion.ECommerce.Controls.ProduitInstanceDifferentiant1
+  commentId: T:Altazion.ECommerce.Controls.ProduitInstanceDifferentiant1
+  id: ProduitInstanceDifferentiant1
+  parent: Altazion.ECommerce.Controls
+  children:
+  - Altazion.ECommerce.Controls.ProduitInstanceDifferentiant1.#ctor
+  - Altazion.ECommerce.Controls.ProduitInstanceDifferentiant1.MaxLength
+  langs:
+  - csharp
+  - vb
+  name: ProduitInstanceDifferentiant1
+  nameWithType: ProduitInstanceDifferentiant1
+  fullName: Altazion.ECommerce.Controls.ProduitInstanceDifferentiant1
+  type: Class
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/ProductLabels.cs
+    id: ProduitInstanceDifferentiant1
+    path: ProductLabels.cs
+    startLine: 96
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: 'public class ProduitInstanceDifferentiant1 : Label, IEquihiraBindable'
+    content.vb: >-
+      Public Class ProduitInstanceDifferentiant1
+          Inherits Label
+          Implements IEquihiraBindable
+  inheritance:
+  - System.Object
+  implements:
+  - CPointSoftware.ECommerce.Tools.IEquihiraBindable
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Altazion.ECommerce.Controls.ProduitInstanceDifferentiant1.#ctor
+  commentId: M:Altazion.ECommerce.Controls.ProduitInstanceDifferentiant1.#ctor
+  id: '#ctor'
+  parent: Altazion.ECommerce.Controls.ProduitInstanceDifferentiant1
+  langs:
+  - csharp
+  - vb
+  name: ProduitInstanceDifferentiant1()
+  nameWithType: ProduitInstanceDifferentiant1.ProduitInstanceDifferentiant1()
+  fullName: Altazion.ECommerce.Controls.ProduitInstanceDifferentiant1.ProduitInstanceDifferentiant1()
+  type: Constructor
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/ProductLabels.cs
+    id: .ctor
+    path: ProductLabels.cs
+    startLine: 102
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  summary: "\nConstructeur par défaut\n"
+  example: []
+  syntax:
+    content: public ProduitInstanceDifferentiant1()
+    content.vb: Public Sub New
+  overload: Altazion.ECommerce.Controls.ProduitInstanceDifferentiant1.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Altazion.ECommerce.Controls.ProduitInstanceDifferentiant1.MaxLength
+  commentId: P:Altazion.ECommerce.Controls.ProduitInstanceDifferentiant1.MaxLength
+  id: MaxLength
+  parent: Altazion.ECommerce.Controls.ProduitInstanceDifferentiant1
+  langs:
+  - csharp
+  - vb
+  name: MaxLength
+  nameWithType: ProduitInstanceDifferentiant1.MaxLength
+  fullName: Altazion.ECommerce.Controls.ProduitInstanceDifferentiant1.MaxLength
+  type: Property
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/ProductLabels.cs
+    id: MaxLength
+    path: ProductLabels.cs
+    startLine: 114
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  summary: "\nTaille maximale (en caractères) affichée\n"
+  remarks: "<p>Si le libellé dépasse cette taille, il sera tronqué et \n    terminé par ....</p>\n<p>Valeur par défaut : pas de limite</p>"
+  example: []
+  syntax:
+    content: public int MaxLength { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property MaxLength As Integer
+  overload: Altazion.ECommerce.Controls.ProduitInstanceDifferentiant1.MaxLength*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: Altazion.ECommerce.Controls
+  commentId: N:Altazion.ECommerce.Controls
+  name: Altazion.ECommerce.Controls
+  nameWithType: Altazion.ECommerce.Controls
+  fullName: Altazion.ECommerce.Controls
+- uid: System.Object
+  commentId: '!:System.Object'
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: CPointSoftware.ECommerce.Tools.IEquihiraBindable
+  commentId: T:CPointSoftware.ECommerce.Tools.IEquihiraBindable
+  parent: CPointSoftware.ECommerce.Tools
+  name: IEquihiraBindable
+  nameWithType: IEquihiraBindable
+  fullName: CPointSoftware.ECommerce.Tools.IEquihiraBindable
+- uid: CPointSoftware.ECommerce.Tools
+  commentId: N:CPointSoftware.ECommerce.Tools
+  name: CPointSoftware.ECommerce.Tools
+  nameWithType: CPointSoftware.ECommerce.Tools
+  fullName: CPointSoftware.ECommerce.Tools
+- uid: Altazion.ECommerce.Controls.ProduitInstanceDifferentiant1.#ctor*
+  commentId: Overload:Altazion.ECommerce.Controls.ProduitInstanceDifferentiant1.#ctor
+  name: ProduitInstanceDifferentiant1
+  nameWithType: ProduitInstanceDifferentiant1.ProduitInstanceDifferentiant1
+  fullName: Altazion.ECommerce.Controls.ProduitInstanceDifferentiant1.ProduitInstanceDifferentiant1
+- uid: Altazion.ECommerce.Controls.ProduitInstanceDifferentiant1.MaxLength*
+  commentId: Overload:Altazion.ECommerce.Controls.ProduitInstanceDifferentiant1.MaxLength
+  name: MaxLength
+  nameWithType: ProduitInstanceDifferentiant1.MaxLength
+  fullName: Altazion.ECommerce.Controls.ProduitInstanceDifferentiant1.MaxLength
+- uid: System.Int32
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

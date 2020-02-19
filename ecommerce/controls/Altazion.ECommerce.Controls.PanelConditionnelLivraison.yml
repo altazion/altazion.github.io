@@ -1,0 +1,248 @@
+### YamlMime:ManagedReference
+items:
+- uid: Altazion.ECommerce.Controls.PanelConditionnelLivraison
+  commentId: T:Altazion.ECommerce.Controls.PanelConditionnelLivraison
+  id: PanelConditionnelLivraison
+  parent: Altazion.ECommerce.Controls
+  children:
+  - Altazion.ECommerce.Controls.PanelConditionnelLivraison.#ctor
+  - Altazion.ECommerce.Controls.PanelConditionnelLivraison.AfficherSiNonPointLivraison
+  - Altazion.ECommerce.Controls.PanelConditionnelLivraison.AfficherSiPointLivraison
+  - Altazion.ECommerce.Controls.PanelConditionnelLivraison.AfficherSiSansLivraison
+  - Altazion.ECommerce.Controls.PanelConditionnelLivraison.OnPreRender(EventArgs)
+  langs:
+  - csharp
+  - vb
+  name: PanelConditionnelLivraison
+  nameWithType: PanelConditionnelLivraison
+  fullName: Altazion.ECommerce.Controls.PanelConditionnelLivraison
+  type: Class
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanelConditionnelLivraison.cs
+    id: PanelConditionnelLivraison
+    path: PanelConditionnelLivraison.cs
+    startLine: 10
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: 'public class PanelConditionnelLivraison : Panel'
+    content.vb: >-
+      Public Class PanelConditionnelLivraison
+          Inherits Panel
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Altazion.ECommerce.Controls.PanelConditionnelLivraison.#ctor
+  commentId: M:Altazion.ECommerce.Controls.PanelConditionnelLivraison.#ctor
+  id: '#ctor'
+  parent: Altazion.ECommerce.Controls.PanelConditionnelLivraison
+  langs:
+  - csharp
+  - vb
+  name: PanelConditionnelLivraison()
+  nameWithType: PanelConditionnelLivraison.PanelConditionnelLivraison()
+  fullName: Altazion.ECommerce.Controls.PanelConditionnelLivraison.PanelConditionnelLivraison()
+  type: Constructor
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanelConditionnelLivraison.cs
+    id: .ctor
+    path: PanelConditionnelLivraison.cs
+    startLine: 12
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: public PanelConditionnelLivraison()
+    content.vb: Public Sub New
+  overload: Altazion.ECommerce.Controls.PanelConditionnelLivraison.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Altazion.ECommerce.Controls.PanelConditionnelLivraison.AfficherSiSansLivraison
+  commentId: P:Altazion.ECommerce.Controls.PanelConditionnelLivraison.AfficherSiSansLivraison
+  id: AfficherSiSansLivraison
+  parent: Altazion.ECommerce.Controls.PanelConditionnelLivraison
+  langs:
+  - csharp
+  - vb
+  name: AfficherSiSansLivraison
+  nameWithType: PanelConditionnelLivraison.AfficherSiSansLivraison
+  fullName: Altazion.ECommerce.Controls.PanelConditionnelLivraison.AfficherSiSansLivraison
+  type: Property
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanelConditionnelLivraison.cs
+    id: AfficherSiSansLivraison
+    path: PanelConditionnelLivraison.cs
+    startLine: 18
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: public bool AfficherSiSansLivraison { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property AfficherSiSansLivraison As Boolean
+  overload: Altazion.ECommerce.Controls.PanelConditionnelLivraison.AfficherSiSansLivraison*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Altazion.ECommerce.Controls.PanelConditionnelLivraison.AfficherSiPointLivraison
+  commentId: P:Altazion.ECommerce.Controls.PanelConditionnelLivraison.AfficherSiPointLivraison
+  id: AfficherSiPointLivraison
+  parent: Altazion.ECommerce.Controls.PanelConditionnelLivraison
+  langs:
+  - csharp
+  - vb
+  name: AfficherSiPointLivraison
+  nameWithType: PanelConditionnelLivraison.AfficherSiPointLivraison
+  fullName: Altazion.ECommerce.Controls.PanelConditionnelLivraison.AfficherSiPointLivraison
+  type: Property
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanelConditionnelLivraison.cs
+    id: AfficherSiPointLivraison
+    path: PanelConditionnelLivraison.cs
+    startLine: 19
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: public bool AfficherSiPointLivraison { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property AfficherSiPointLivraison As Boolean
+  overload: Altazion.ECommerce.Controls.PanelConditionnelLivraison.AfficherSiPointLivraison*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Altazion.ECommerce.Controls.PanelConditionnelLivraison.AfficherSiNonPointLivraison
+  commentId: P:Altazion.ECommerce.Controls.PanelConditionnelLivraison.AfficherSiNonPointLivraison
+  id: AfficherSiNonPointLivraison
+  parent: Altazion.ECommerce.Controls.PanelConditionnelLivraison
+  langs:
+  - csharp
+  - vb
+  name: AfficherSiNonPointLivraison
+  nameWithType: PanelConditionnelLivraison.AfficherSiNonPointLivraison
+  fullName: Altazion.ECommerce.Controls.PanelConditionnelLivraison.AfficherSiNonPointLivraison
+  type: Property
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanelConditionnelLivraison.cs
+    id: AfficherSiNonPointLivraison
+    path: PanelConditionnelLivraison.cs
+    startLine: 20
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: public bool AfficherSiNonPointLivraison { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property AfficherSiNonPointLivraison As Boolean
+  overload: Altazion.ECommerce.Controls.PanelConditionnelLivraison.AfficherSiNonPointLivraison*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Altazion.ECommerce.Controls.PanelConditionnelLivraison.OnPreRender(EventArgs)
+  commentId: M:Altazion.ECommerce.Controls.PanelConditionnelLivraison.OnPreRender(EventArgs)
+  id: OnPreRender(EventArgs)
+  parent: Altazion.ECommerce.Controls.PanelConditionnelLivraison
+  langs:
+  - csharp
+  - vb
+  name: OnPreRender(EventArgs)
+  nameWithType: PanelConditionnelLivraison.OnPreRender(EventArgs)
+  fullName: Altazion.ECommerce.Controls.PanelConditionnelLivraison.OnPreRender(EventArgs)
+  type: Method
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanelConditionnelLivraison.cs
+    id: OnPreRender
+    path: PanelConditionnelLivraison.cs
+    startLine: 22
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: protected override void OnPreRender(EventArgs e)
+    parameters:
+    - id: e
+      type: EventArgs
+    content.vb: Protected Overrides Sub OnPreRender(e As EventArgs)
+  overload: Altazion.ECommerce.Controls.PanelConditionnelLivraison.OnPreRender*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+references:
+- uid: Altazion.ECommerce.Controls
+  commentId: N:Altazion.ECommerce.Controls
+  name: Altazion.ECommerce.Controls
+  nameWithType: Altazion.ECommerce.Controls
+  fullName: Altazion.ECommerce.Controls
+- uid: System.Object
+  commentId: '!:System.Object'
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Altazion.ECommerce.Controls.PanelConditionnelLivraison.#ctor*
+  commentId: Overload:Altazion.ECommerce.Controls.PanelConditionnelLivraison.#ctor
+  name: PanelConditionnelLivraison
+  nameWithType: PanelConditionnelLivraison.PanelConditionnelLivraison
+  fullName: Altazion.ECommerce.Controls.PanelConditionnelLivraison.PanelConditionnelLivraison
+- uid: Altazion.ECommerce.Controls.PanelConditionnelLivraison.AfficherSiSansLivraison*
+  commentId: Overload:Altazion.ECommerce.Controls.PanelConditionnelLivraison.AfficherSiSansLivraison
+  name: AfficherSiSansLivraison
+  nameWithType: PanelConditionnelLivraison.AfficherSiSansLivraison
+  fullName: Altazion.ECommerce.Controls.PanelConditionnelLivraison.AfficherSiSansLivraison
+- uid: System.Boolean
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Altazion.ECommerce.Controls.PanelConditionnelLivraison.AfficherSiPointLivraison*
+  commentId: Overload:Altazion.ECommerce.Controls.PanelConditionnelLivraison.AfficherSiPointLivraison
+  name: AfficherSiPointLivraison
+  nameWithType: PanelConditionnelLivraison.AfficherSiPointLivraison
+  fullName: Altazion.ECommerce.Controls.PanelConditionnelLivraison.AfficherSiPointLivraison
+- uid: Altazion.ECommerce.Controls.PanelConditionnelLivraison.AfficherSiNonPointLivraison*
+  commentId: Overload:Altazion.ECommerce.Controls.PanelConditionnelLivraison.AfficherSiNonPointLivraison
+  name: AfficherSiNonPointLivraison
+  nameWithType: PanelConditionnelLivraison.AfficherSiNonPointLivraison
+  fullName: Altazion.ECommerce.Controls.PanelConditionnelLivraison.AfficherSiNonPointLivraison
+- uid: Altazion.ECommerce.Controls.PanelConditionnelLivraison.OnPreRender*
+  commentId: Overload:Altazion.ECommerce.Controls.PanelConditionnelLivraison.OnPreRender
+  name: OnPreRender
+  nameWithType: PanelConditionnelLivraison.OnPreRender
+  fullName: Altazion.ECommerce.Controls.PanelConditionnelLivraison.OnPreRender
+- uid: EventArgs
+  isExternal: true
+  name: EventArgs
+  nameWithType: EventArgs
+  fullName: EventArgs

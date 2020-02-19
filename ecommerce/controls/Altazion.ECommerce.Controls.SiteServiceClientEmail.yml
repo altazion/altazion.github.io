@@ -1,0 +1,103 @@
+### YamlMime:ManagedReference
+items:
+- uid: Altazion.ECommerce.Controls.SiteServiceClientEmail
+  commentId: T:Altazion.ECommerce.Controls.SiteServiceClientEmail
+  id: SiteServiceClientEmail
+  parent: Altazion.ECommerce.Controls
+  children:
+  - Altazion.ECommerce.Controls.SiteServiceClientEmail.OnPreRender(EventArgs)
+  langs:
+  - csharp
+  - vb
+  name: SiteServiceClientEmail
+  nameWithType: SiteServiceClientEmail
+  fullName: Altazion.ECommerce.Controls.SiteServiceClientEmail
+  type: Class
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/SiteControls.cs
+    id: SiteServiceClientEmail
+    path: SiteControls.cs
+    startLine: 55
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  summary: "\nAffiche un span avec l&apos;email du service client\n"
+  example: []
+  syntax:
+    content: 'public class SiteServiceClientEmail : Label'
+    content.vb: >-
+      Public Class SiteServiceClientEmail
+          Inherits Label
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Altazion.ECommerce.Controls.SiteServiceClientEmail.OnPreRender(EventArgs)
+  commentId: M:Altazion.ECommerce.Controls.SiteServiceClientEmail.OnPreRender(EventArgs)
+  id: OnPreRender(EventArgs)
+  parent: Altazion.ECommerce.Controls.SiteServiceClientEmail
+  langs:
+  - csharp
+  - vb
+  name: OnPreRender(EventArgs)
+  nameWithType: SiteServiceClientEmail.OnPreRender(EventArgs)
+  fullName: Altazion.ECommerce.Controls.SiteServiceClientEmail.OnPreRender(EventArgs)
+  type: Method
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/SiteControls.cs
+    id: OnPreRender
+    path: SiteControls.cs
+    startLine: 61
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  summary: "\nDéclenche l&apos;événement <xref href=\"System.Web.UI.Control.PreRender\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  example: []
+  syntax:
+    content: protected override void OnPreRender(EventArgs e)
+    parameters:
+    - id: e
+      type: EventArgs
+      description: Objet <xref href="System.EventArgs" data-throw-if-not-resolved="false"></xref> qui contient les données d&apos;événement.
+    content.vb: Protected Overrides Sub OnPreRender(e As EventArgs)
+  overload: Altazion.ECommerce.Controls.SiteServiceClientEmail.OnPreRender*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+references:
+- uid: Altazion.ECommerce.Controls
+  commentId: N:Altazion.ECommerce.Controls
+  name: Altazion.ECommerce.Controls
+  nameWithType: Altazion.ECommerce.Controls
+  fullName: Altazion.ECommerce.Controls
+- uid: System.Object
+  commentId: '!:System.Object'
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Web.UI.Control.PreRender
+  commentId: E:System.Web.UI.Control.PreRender
+  isExternal: true
+- uid: System.EventArgs
+  commentId: T:System.EventArgs
+  isExternal: true
+- uid: Altazion.ECommerce.Controls.SiteServiceClientEmail.OnPreRender*
+  commentId: Overload:Altazion.ECommerce.Controls.SiteServiceClientEmail.OnPreRender
+  name: OnPreRender
+  nameWithType: SiteServiceClientEmail.OnPreRender
+  fullName: Altazion.ECommerce.Controls.SiteServiceClientEmail.OnPreRender
+- uid: EventArgs
+  isExternal: true
+  name: EventArgs
+  nameWithType: EventArgs
+  fullName: EventArgs

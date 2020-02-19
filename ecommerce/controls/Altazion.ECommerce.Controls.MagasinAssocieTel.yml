@@ -1,0 +1,170 @@
+### YamlMime:ManagedReference
+items:
+- uid: Altazion.ECommerce.Controls.MagasinAssocieTel
+  commentId: T:Altazion.ECommerce.Controls.MagasinAssocieTel
+  id: MagasinAssocieTel
+  parent: Altazion.ECommerce.Controls
+  children:
+  - Altazion.ECommerce.Controls.MagasinAssocieTel.#ctor
+  - Altazion.ECommerce.Controls.MagasinAssocieTel.Format
+  - Altazion.ECommerce.Controls.MagasinAssocieTel.OnPreRender(EventArgs)
+  langs:
+  - csharp
+  - vb
+  name: MagasinAssocieTel
+  nameWithType: MagasinAssocieTel
+  fullName: Altazion.ECommerce.Controls.MagasinAssocieTel
+  type: Class
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanelCrossCanal.cs
+    id: MagasinAssocieTel
+    path: PanelCrossCanal.cs
+    startLine: 532
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: 'public class MagasinAssocieTel : Label'
+    content.vb: >-
+      Public Class MagasinAssocieTel
+          Inherits Label
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Altazion.ECommerce.Controls.MagasinAssocieTel.#ctor
+  commentId: M:Altazion.ECommerce.Controls.MagasinAssocieTel.#ctor
+  id: '#ctor'
+  parent: Altazion.ECommerce.Controls.MagasinAssocieTel
+  langs:
+  - csharp
+  - vb
+  name: MagasinAssocieTel()
+  nameWithType: MagasinAssocieTel.MagasinAssocieTel()
+  fullName: Altazion.ECommerce.Controls.MagasinAssocieTel.MagasinAssocieTel()
+  type: Constructor
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanelCrossCanal.cs
+    id: .ctor
+    path: PanelCrossCanal.cs
+    startLine: 534
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: public MagasinAssocieTel()
+    content.vb: Public Sub New
+  overload: Altazion.ECommerce.Controls.MagasinAssocieTel.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Altazion.ECommerce.Controls.MagasinAssocieTel.Format
+  commentId: P:Altazion.ECommerce.Controls.MagasinAssocieTel.Format
+  id: Format
+  parent: Altazion.ECommerce.Controls.MagasinAssocieTel
+  langs:
+  - csharp
+  - vb
+  name: Format
+  nameWithType: MagasinAssocieTel.Format
+  fullName: Altazion.ECommerce.Controls.MagasinAssocieTel.Format
+  type: Property
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanelCrossCanal.cs
+    id: Format
+    path: PanelCrossCanal.cs
+    startLine: 539
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: public string Format { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Format As String
+  overload: Altazion.ECommerce.Controls.MagasinAssocieTel.Format*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Altazion.ECommerce.Controls.MagasinAssocieTel.OnPreRender(EventArgs)
+  commentId: M:Altazion.ECommerce.Controls.MagasinAssocieTel.OnPreRender(EventArgs)
+  id: OnPreRender(EventArgs)
+  parent: Altazion.ECommerce.Controls.MagasinAssocieTel
+  langs:
+  - csharp
+  - vb
+  name: OnPreRender(EventArgs)
+  nameWithType: MagasinAssocieTel.OnPreRender(EventArgs)
+  fullName: Altazion.ECommerce.Controls.MagasinAssocieTel.OnPreRender(EventArgs)
+  type: Method
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanelCrossCanal.cs
+    id: OnPreRender
+    path: PanelCrossCanal.cs
+    startLine: 541
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: protected override void OnPreRender(EventArgs e)
+    parameters:
+    - id: e
+      type: EventArgs
+    content.vb: Protected Overrides Sub OnPreRender(e As EventArgs)
+  overload: Altazion.ECommerce.Controls.MagasinAssocieTel.OnPreRender*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+references:
+- uid: Altazion.ECommerce.Controls
+  commentId: N:Altazion.ECommerce.Controls
+  name: Altazion.ECommerce.Controls
+  nameWithType: Altazion.ECommerce.Controls
+  fullName: Altazion.ECommerce.Controls
+- uid: System.Object
+  commentId: '!:System.Object'
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Altazion.ECommerce.Controls.MagasinAssocieTel.#ctor*
+  commentId: Overload:Altazion.ECommerce.Controls.MagasinAssocieTel.#ctor
+  name: MagasinAssocieTel
+  nameWithType: MagasinAssocieTel.MagasinAssocieTel
+  fullName: Altazion.ECommerce.Controls.MagasinAssocieTel.MagasinAssocieTel
+- uid: Altazion.ECommerce.Controls.MagasinAssocieTel.Format*
+  commentId: Overload:Altazion.ECommerce.Controls.MagasinAssocieTel.Format
+  name: Format
+  nameWithType: MagasinAssocieTel.Format
+  fullName: Altazion.ECommerce.Controls.MagasinAssocieTel.Format
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Altazion.ECommerce.Controls.MagasinAssocieTel.OnPreRender*
+  commentId: Overload:Altazion.ECommerce.Controls.MagasinAssocieTel.OnPreRender
+  name: OnPreRender
+  nameWithType: MagasinAssocieTel.OnPreRender
+  fullName: Altazion.ECommerce.Controls.MagasinAssocieTel.OnPreRender
+- uid: EventArgs
+  isExternal: true
+  name: EventArgs
+  nameWithType: EventArgs
+  fullName: EventArgs

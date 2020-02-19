@@ -1,0 +1,184 @@
+### YamlMime:ManagedReference
+items:
+- uid: Altazion.ECommerce.Controls.PanierPanelMagasinAssocie
+  commentId: T:Altazion.ECommerce.Controls.PanierPanelMagasinAssocie
+  id: PanierPanelMagasinAssocie
+  parent: Altazion.ECommerce.Controls
+  children:
+  - Altazion.ECommerce.Controls.PanierPanelMagasinAssocie.CacherSiClickNMortar
+  - Altazion.ECommerce.Controls.PanierPanelMagasinAssocie.CacherSiEcommerce
+  - Altazion.ECommerce.Controls.PanierPanelMagasinAssocie.OnPreRender(EventArgs)
+  langs:
+  - csharp
+  - vb
+  name: PanierPanelMagasinAssocie
+  nameWithType: PanierPanelMagasinAssocie
+  fullName: Altazion.ECommerce.Controls.PanierPanelMagasinAssocie
+  type: Class
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanelCrossCanal.cs
+    id: PanierPanelMagasinAssocie
+    path: PanelCrossCanal.cs
+    startLine: 17
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  summary: "\nPanel (div) s&apos;affichant si certain article du panier\nsont des articles à retirer en magasin\n"
+  example: []
+  syntax:
+    content: 'public class PanierPanelMagasinAssocie : Panel'
+    content.vb: >-
+      Public Class PanierPanelMagasinAssocie
+          Inherits Panel
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Altazion.ECommerce.Controls.PanierPanelMagasinAssocie.CacherSiClickNMortar
+  commentId: P:Altazion.ECommerce.Controls.PanierPanelMagasinAssocie.CacherSiClickNMortar
+  id: CacherSiClickNMortar
+  parent: Altazion.ECommerce.Controls.PanierPanelMagasinAssocie
+  langs:
+  - csharp
+  - vb
+  name: CacherSiClickNMortar
+  nameWithType: PanierPanelMagasinAssocie.CacherSiClickNMortar
+  fullName: Altazion.ECommerce.Controls.PanierPanelMagasinAssocie.CacherSiClickNMortar
+  type: Property
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanelCrossCanal.cs
+    id: CacherSiClickNMortar
+    path: PanelCrossCanal.cs
+    startLine: 24
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  summary: "\nObtient ou définit un booléen précisant si il faut\ncacher ce panel lorsque le panier est de type \n&quot;Click&apos;n&apos;mortar&quot; (commande préparée en magasin)\n"
+  example: []
+  syntax:
+    content: public bool CacherSiClickNMortar { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property CacherSiClickNMortar As Boolean
+  overload: Altazion.ECommerce.Controls.PanierPanelMagasinAssocie.CacherSiClickNMortar*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Altazion.ECommerce.Controls.PanierPanelMagasinAssocie.CacherSiEcommerce
+  commentId: P:Altazion.ECommerce.Controls.PanierPanelMagasinAssocie.CacherSiEcommerce
+  id: CacherSiEcommerce
+  parent: Altazion.ECommerce.Controls.PanierPanelMagasinAssocie
+  langs:
+  - csharp
+  - vb
+  name: CacherSiEcommerce
+  nameWithType: PanierPanelMagasinAssocie.CacherSiEcommerce
+  fullName: Altazion.ECommerce.Controls.PanierPanelMagasinAssocie.CacherSiEcommerce
+  type: Property
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanelCrossCanal.cs
+    id: CacherSiEcommerce
+    path: PanelCrossCanal.cs
+    startLine: 31
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  summary: "\nObtient ou définit un booléen précisant si ce panel\ndoit être caché lorsque le panier est de type\n&quot;web&quot; (préparé en centrale)\n"
+  example: []
+  syntax:
+    content: public bool CacherSiEcommerce { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property CacherSiEcommerce As Boolean
+  overload: Altazion.ECommerce.Controls.PanierPanelMagasinAssocie.CacherSiEcommerce*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Altazion.ECommerce.Controls.PanierPanelMagasinAssocie.OnPreRender(EventArgs)
+  commentId: M:Altazion.ECommerce.Controls.PanierPanelMagasinAssocie.OnPreRender(EventArgs)
+  id: OnPreRender(EventArgs)
+  parent: Altazion.ECommerce.Controls.PanierPanelMagasinAssocie
+  langs:
+  - csharp
+  - vb
+  name: OnPreRender(EventArgs)
+  nameWithType: PanierPanelMagasinAssocie.OnPreRender(EventArgs)
+  fullName: Altazion.ECommerce.Controls.PanierPanelMagasinAssocie.OnPreRender(EventArgs)
+  type: Method
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanelCrossCanal.cs
+    id: OnPreRender
+    path: PanelCrossCanal.cs
+    startLine: 37
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  summary: "\nEffectue l&apos;affichage du controle\n"
+  example: []
+  syntax:
+    content: protected override void OnPreRender(EventArgs e)
+    parameters:
+    - id: e
+      type: EventArgs
+      description: ''
+    content.vb: Protected Overrides Sub OnPreRender(e As EventArgs)
+  overload: Altazion.ECommerce.Controls.PanierPanelMagasinAssocie.OnPreRender*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+references:
+- uid: Altazion.ECommerce.Controls
+  commentId: N:Altazion.ECommerce.Controls
+  name: Altazion.ECommerce.Controls
+  nameWithType: Altazion.ECommerce.Controls
+  fullName: Altazion.ECommerce.Controls
+- uid: System.Object
+  commentId: '!:System.Object'
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Altazion.ECommerce.Controls.PanierPanelMagasinAssocie.CacherSiClickNMortar*
+  commentId: Overload:Altazion.ECommerce.Controls.PanierPanelMagasinAssocie.CacherSiClickNMortar
+  name: CacherSiClickNMortar
+  nameWithType: PanierPanelMagasinAssocie.CacherSiClickNMortar
+  fullName: Altazion.ECommerce.Controls.PanierPanelMagasinAssocie.CacherSiClickNMortar
+- uid: System.Boolean
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Altazion.ECommerce.Controls.PanierPanelMagasinAssocie.CacherSiEcommerce*
+  commentId: Overload:Altazion.ECommerce.Controls.PanierPanelMagasinAssocie.CacherSiEcommerce
+  name: CacherSiEcommerce
+  nameWithType: PanierPanelMagasinAssocie.CacherSiEcommerce
+  fullName: Altazion.ECommerce.Controls.PanierPanelMagasinAssocie.CacherSiEcommerce
+- uid: Altazion.ECommerce.Controls.PanierPanelMagasinAssocie.OnPreRender*
+  commentId: Overload:Altazion.ECommerce.Controls.PanierPanelMagasinAssocie.OnPreRender
+  name: OnPreRender
+  nameWithType: PanierPanelMagasinAssocie.OnPreRender
+  fullName: Altazion.ECommerce.Controls.PanierPanelMagasinAssocie.OnPreRender
+- uid: EventArgs
+  isExternal: true
+  name: EventArgs
+  nameWithType: EventArgs
+  fullName: EventArgs

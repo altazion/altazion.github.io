@@ -1,0 +1,96 @@
+### YamlMime:ManagedReference
+items:
+- uid: Altazion.ECommerce.Controls.BonAchatsRecupereLink.BonsAchatsRecuperationEventArgs
+  commentId: T:Altazion.ECommerce.Controls.BonAchatsRecupereLink.BonsAchatsRecuperationEventArgs
+  id: BonAchatsRecupereLink.BonsAchatsRecuperationEventArgs
+  parent: Altazion.ECommerce.Controls
+  children:
+  - Altazion.ECommerce.Controls.BonAchatsRecupereLink.BonsAchatsRecuperationEventArgs.Texte
+  langs:
+  - csharp
+  - vb
+  name: BonAchatsRecupereLink.BonsAchatsRecuperationEventArgs
+  nameWithType: BonAchatsRecupereLink.BonsAchatsRecuperationEventArgs
+  fullName: Altazion.ECommerce.Controls.BonAchatsRecupereLink.BonsAchatsRecuperationEventArgs
+  type: Class
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/BonsAchatsControls.cs
+    id: BonsAchatsRecuperationEventArgs
+    path: BonsAchatsControls.cs
+    startLine: 1243
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  summary: "\nReprésente les détails pour un événement du type <see cref=\"!:Recuperation\"></see>\n"
+  example: []
+  syntax:
+    content: 'public class BonsAchatsRecuperationEventArgs : EventArgs'
+    content.vb: >-
+      Public Class BonsAchatsRecuperationEventArgs
+          Inherits EventArgs
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Altazion.ECommerce.Controls.BonAchatsRecupereLink.BonsAchatsRecuperationEventArgs.Texte
+  commentId: P:Altazion.ECommerce.Controls.BonAchatsRecupereLink.BonsAchatsRecuperationEventArgs.Texte
+  id: Texte
+  parent: Altazion.ECommerce.Controls.BonAchatsRecupereLink.BonsAchatsRecuperationEventArgs
+  langs:
+  - csharp
+  - vb
+  name: Texte
+  nameWithType: BonAchatsRecupereLink.BonsAchatsRecuperationEventArgs.Texte
+  fullName: Altazion.ECommerce.Controls.BonAchatsRecupereLink.BonsAchatsRecuperationEventArgs.Texte
+  type: Property
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/BonsAchatsControls.cs
+    id: Texte
+    path: BonsAchatsControls.cs
+    startLine: 1248
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  summary: "\nObtient ou définit le descriptif de l&apos;erreur\n"
+  example: []
+  syntax:
+    content: public string Texte { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Texte As String
+  overload: Altazion.ECommerce.Controls.BonAchatsRecupereLink.BonsAchatsRecuperationEventArgs.Texte*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: Altazion.ECommerce.Controls
+  commentId: N:Altazion.ECommerce.Controls
+  name: Altazion.ECommerce.Controls
+  nameWithType: Altazion.ECommerce.Controls
+  fullName: Altazion.ECommerce.Controls
+- uid: System.Object
+  commentId: '!:System.Object'
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Altazion.ECommerce.Controls.BonAchatsRecupereLink.BonsAchatsRecuperationEventArgs.Texte*
+  commentId: Overload:Altazion.ECommerce.Controls.BonAchatsRecupereLink.BonsAchatsRecuperationEventArgs.Texte
+  name: Texte
+  nameWithType: BonAchatsRecupereLink.BonsAchatsRecuperationEventArgs.Texte
+  fullName: Altazion.ECommerce.Controls.BonAchatsRecupereLink.BonsAchatsRecuperationEventArgs.Texte
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

@@ -1,0 +1,362 @@
+### YamlMime:TableOfContent
+- uid: Altazion.ECommerce.Controls
+  name: Altazion.ECommerce.Controls
+  items:
+  - uid: Altazion.ECommerce.Controls.AdresseChoisirLink
+    name: AdresseChoisirLink
+  - uid: Altazion.ECommerce.Controls.AdressePanel
+    name: AdressePanel
+  - uid: Altazion.ECommerce.Controls.AdressePanel.TypeAffichageAdresses
+    name: AdressePanel.TypeAffichageAdresses
+  - uid: Altazion.ECommerce.Controls.AlternateLinkInfo
+    name: AlternateLinkInfo
+  - uid: Altazion.ECommerce.Controls.AlternatesLinks
+    name: AlternatesLinks
+  - uid: Altazion.ECommerce.Controls.AmpBoilerplate
+    name: AmpBoilerplate
+  - uid: Altazion.ECommerce.Controls.AmpProductImagesCarousel
+    name: AmpProductImagesCarousel
+  - uid: Altazion.ECommerce.Controls.AmpProduitImage
+    name: AmpProduitImage
+  - uid: Altazion.ECommerce.Controls.AnimationArreterTestLinkButton
+    name: AnimationArreterTestLinkButton
+  - uid: Altazion.ECommerce.Controls.AnimationEnTestPanel
+    name: AnimationEnTestPanel
+  - uid: Altazion.ECommerce.Controls.AvantageLabel
+    name: AvantageLabel
+  - uid: Altazion.ECommerce.Controls.AvisDate
+    name: AvisDate
+  - uid: Altazion.ECommerce.Controls.AvisMessage
+    name: AvisMessage
+  - uid: Altazion.ECommerce.Controls.AvisNom
+    name: AvisNom
+  - uid: Altazion.ECommerce.Controls.AvisNote
+    name: AvisNote
+  - uid: Altazion.ECommerce.Controls.BonAchatsAmountGridColumn
+    name: BonAchatsAmountGridColumn
+  - uid: Altazion.ECommerce.Controls.BonAchatsArticleGridColumn
+    name: BonAchatsArticleGridColumn
+  - uid: Altazion.ECommerce.Controls.BonAchatsConditionsGridColumn
+    name: BonAchatsConditionsGridColumn
+  - uid: Altazion.ECommerce.Controls.BonAchatsDateMaxGridColumn
+    name: BonAchatsDateMaxGridColumn
+  - uid: Altazion.ECommerce.Controls.BonAchatsDateMinGridColumn
+    name: BonAchatsDateMinGridColumn
+  - uid: Altazion.ECommerce.Controls.BonAchatsLabelGridColumn
+    name: BonAchatsLabelGridColumn
+  - uid: Altazion.ECommerce.Controls.BonAchatsOriginalAmountGridColumn
+    name: BonAchatsOriginalAmountGridColumn
+  - uid: Altazion.ECommerce.Controls.BonAchatsRecupereLink
+    name: BonAchatsRecupereLink
+  - uid: Altazion.ECommerce.Controls.BonAchatsRecupereLink.BonsAchatsRecuperationEventArgs
+    name: BonAchatsRecupereLink.BonsAchatsRecuperationEventArgs
+  - uid: Altazion.ECommerce.Controls.BonAchatsUtiliserGridColumn
+    name: BonAchatsUtiliserGridColumn
+  - uid: Altazion.ECommerce.Controls.BonsAchatsAjouterLink
+    name: BonsAchatsAjouterLink
+  - uid: Altazion.ECommerce.Controls.BonsAchatsAjouterLink.BonsAchatsAjoutAjouteEventArgs
+    name: BonsAchatsAjouterLink.BonsAchatsAjoutAjouteEventArgs
+  - uid: Altazion.ECommerce.Controls.BonsAchatsAjouterLink.BonsAchatsAjoutImpossibleEventArgs
+    name: BonsAchatsAjouterLink.BonsAchatsAjoutImpossibleEventArgs
+  - uid: Altazion.ECommerce.Controls.BonsAchatsAjouterLink.BonsAchatsAjoutImpossibleRaison
+    name: BonsAchatsAjouterLink.BonsAchatsAjoutImpossibleRaison
+  - uid: Altazion.ECommerce.Controls.BonsAchatsGridView
+    name: BonsAchatsGridView
+  - uid: Altazion.ECommerce.Controls.BonsAchatsGridView.BonAchatData
+    name: BonsAchatsGridView.BonAchatData
+  - uid: Altazion.ECommerce.Controls.BonsAchatsGridView.BonAchatParsingArgs
+    name: BonsAchatsGridView.BonAchatParsingArgs
+  - uid: Altazion.ECommerce.Controls.BonsAchatsGridView.BonAchatParsingHandler
+    name: BonsAchatsGridView.BonAchatParsingHandler
+  - uid: Altazion.ECommerce.Controls.BonsAchatsUtiliseMontant
+    name: BonsAchatsUtiliseMontant
+  - uid: Altazion.ECommerce.Controls.CanonicalLink
+    name: CanonicalLink
+  - uid: Altazion.ECommerce.Controls.ClearIntentionLinkButton
+    name: ClearIntentionLinkButton
+  - uid: Altazion.ECommerce.Controls.ClickNMortarHomeLink
+    name: ClickNMortarHomeLink
+  - uid: Altazion.ECommerce.Controls.ClientNom
+    name: ClientNom
+  - uid: Altazion.ECommerce.Controls.CommandeNumero
+    name: CommandeNumero
+  - uid: Altazion.ECommerce.Controls.EvenementCrossCanalDescription
+    name: EvenementCrossCanalDescription
+  - uid: Altazion.ECommerce.Controls.EvenementCrossCanalTitle
+    name: EvenementCrossCanalTitle
+  - uid: Altazion.ECommerce.Controls.FacebookLoginLink
+    name: FacebookLoginLink
+  - uid: Altazion.ECommerce.Controls.FilAriane
+    name: FilAriane
+  - uid: Altazion.ECommerce.Controls.IncitationImage
+    name: IncitationImage
+  - uid: Altazion.ECommerce.Controls.IncitationLibelle
+    name: IncitationLibelle
+  - uid: Altazion.ECommerce.Controls.IncitationProduitField
+    name: IncitationProduitField
+  - uid: Altazion.ECommerce.Controls.IncitationProduitField.ProduitField
+    name: IncitationProduitField.ProduitField
+  - uid: Altazion.ECommerce.Controls.IncitationTitre
+    name: IncitationTitre
+  - uid: Altazion.ECommerce.Controls.LivraisonChangerDestinationLink
+    name: LivraisonChangerDestinationLink
+  - uid: Altazion.ECommerce.Controls.LivraisonDelai
+    name: LivraisonDelai
+  - uid: Altazion.ECommerce.Controls.LivraisonDestination
+    name: LivraisonDestination
+  - uid: Altazion.ECommerce.Controls.LivraisonLibelle
+    name: LivraisonLibelle
+  - uid: Altazion.ECommerce.Controls.LivraisonMode
+    name: LivraisonMode
+  - uid: Altazion.ECommerce.Controls.LivraisonMontant
+    name: LivraisonMontant
+  - uid: Altazion.ECommerce.Controls.LoginStatus
+    name: LoginStatus
+  - uid: Altazion.ECommerce.Controls.MagasinAssocieAdresse
+    name: MagasinAssocieAdresse
+  - uid: Altazion.ECommerce.Controls.MagasinAssocieCode
+    name: MagasinAssocieCode
+  - uid: Altazion.ECommerce.Controls.MagasinAssocieCP
+    name: MagasinAssocieCP
+  - uid: Altazion.ECommerce.Controls.MagasinAssocieGoogleMapLink
+    name: MagasinAssocieGoogleMapLink
+  - uid: Altazion.ECommerce.Controls.MagasinAssocieHorairesDuJour
+    name: MagasinAssocieHorairesDuJour
+  - uid: Altazion.ECommerce.Controls.MagasinAssocieLibelle
+    name: MagasinAssocieLibelle
+  - uid: Altazion.ECommerce.Controls.MagasinAssocieLink
+    name: MagasinAssocieLink
+  - uid: Altazion.ECommerce.Controls.MagasinAssociePanel
+    name: MagasinAssociePanel
+  - uid: Altazion.ECommerce.Controls.MagasinAssociePays
+    name: MagasinAssociePays
+  - uid: Altazion.ECommerce.Controls.MagasinAssocieTel
+    name: MagasinAssocieTel
+  - uid: Altazion.ECommerce.Controls.MagasinAssocieVille
+    name: MagasinAssocieVille
+  - uid: Altazion.ECommerce.Controls.MagasinsParticipantsRepeater
+    name: MagasinsParticipantsRepeater
+  - uid: Altazion.ECommerce.Controls.MarqueDescription
+    name: MarqueDescription
+  - uid: Altazion.ECommerce.Controls.MarqueLink
+    name: MarqueLink
+  - uid: Altazion.ECommerce.Controls.MarqueLink.TypeMarqueLink
+    name: MarqueLink.TypeMarqueLink
+  - uid: Altazion.ECommerce.Controls.MarquePanel
+    name: MarquePanel
+  - uid: Altazion.ECommerce.Controls.NoCookiePanel
+    name: NoCookiePanel
+  - uid: Altazion.ECommerce.Controls.PanelCacherSiGuest
+    name: PanelCacherSiGuest
+  - uid: Altazion.ECommerce.Controls.PanelCacherSiNonGuest
+    name: PanelCacherSiNonGuest
+  - uid: Altazion.ECommerce.Controls.PanelConditionnelLivraison
+    name: PanelConditionnelLivraison
+  - uid: Altazion.ECommerce.Controls.PanelConditionnelReglement
+    name: PanelConditionnelReglement
+  - uid: Altazion.ECommerce.Controls.PanelPageSpecifique
+    name: PanelPageSpecifique
+  - uid: Altazion.ECommerce.Controls.PanierAvantagesGrid
+    name: PanierAvantagesGrid
+  - uid: Altazion.ECommerce.Controls.PanierEncartMagasinAssocie
+    name: PanierEncartMagasinAssocie
+  - uid: Altazion.ECommerce.Controls.PanierLabelField
+    name: PanierLabelField
+  - uid: Altazion.ECommerce.Controls.PanierLivraisonCodePostalHidden
+    name: PanierLivraisonCodePostalHidden
+  - uid: Altazion.ECommerce.Controls.PanierMontant
+    name: PanierMontant
+  - uid: Altazion.ECommerce.Controls.PanierMontantNonRegle
+    name: PanierMontantNonRegle
+  - uid: Altazion.ECommerce.Controls.PanierNomLivraison
+    name: PanierNomLivraison
+  - uid: Altazion.ECommerce.Controls.PanierPanelConditionnelAfficherPresta
+    name: PanierPanelConditionnelAfficherPresta
+  - uid: Altazion.ECommerce.Controls.PanierPanelConditionnelCacherPresta
+    name: PanierPanelConditionnelCacherPresta
+  - uid: Altazion.ECommerce.Controls.PanierPanelMagasinAssocie
+    name: PanierPanelMagasinAssocie
+  - uid: Altazion.ECommerce.Controls.PanierPanelSansMagasinAssocie
+    name: PanierPanelSansMagasinAssocie
+  - uid: Altazion.ECommerce.Controls.PanierProduitCommandLink
+    name: PanierProduitCommandLink
+  - uid: Altazion.ECommerce.Controls.PanierProduitCommandLinkButton
+    name: PanierProduitCommandLinkButton
+  - uid: Altazion.ECommerce.Controls.PanierProduitField
+    name: PanierProduitField
+  - uid: Altazion.ECommerce.Controls.PanierProduitField.ProduitField
+    name: PanierProduitField.ProduitField
+  - uid: Altazion.ECommerce.Controls.PanierProduitImage
+    name: PanierProduitImage
+  - uid: Altazion.ECommerce.Controls.PanierProduitImageField
+    name: PanierProduitImageField
+  - uid: Altazion.ECommerce.Controls.PanierProduitImageField.PanierTypeImage
+    name: PanierProduitImageField.PanierTypeImage
+  - uid: Altazion.ECommerce.Controls.PanierProduitLabel
+    name: PanierProduitLabel
+  - uid: Altazion.ECommerce.Controls.PanierProduitLabel.ProduitField
+    name: PanierProduitLabel.ProduitField
+  - uid: Altazion.ECommerce.Controls.PanierProduitLibelleEtRefField
+    name: PanierProduitLibelleEtRefField
+  - uid: Altazion.ECommerce.Controls.PanierProduitLink
+    name: PanierProduitLink
+  - uid: Altazion.ECommerce.Controls.PanierProduitLink.ProduitField
+    name: PanierProduitLink.ProduitField
+  - uid: Altazion.ECommerce.Controls.PanierProduitPanel
+    name: PanierProduitPanel
+  - uid: Altazion.ECommerce.Controls.PanierProduitsDataList
+    name: PanierProduitsDataList
+  - uid: Altazion.ECommerce.Controls.PanierProduitsGrid
+    name: PanierProduitsGrid
+  - uid: Altazion.ECommerce.Controls.PanierQuantiteModifiableField
+    name: PanierQuantiteModifiableField
+  - uid: Altazion.ECommerce.Controls.PanierQuantiteModifiableField.ModeModification
+    name: PanierQuantiteModifiableField.ModeModification
+  - uid: Altazion.ECommerce.Controls.PanierRemisesPanel
+    name: PanierRemisesPanel
+  - uid: Altazion.ECommerce.Controls.PanierTotalHorsRemise
+    name: PanierTotalHorsRemise
+  - uid: Altazion.ECommerce.Controls.PanierTotalLabel
+    name: PanierTotalLabel
+  - uid: Altazion.ECommerce.Controls.PanierTotalRemise
+    name: PanierTotalRemise
+  - uid: Altazion.ECommerce.Controls.PanierTotalTtcLabel
+    name: PanierTotalTtcLabel
+  - uid: Altazion.ECommerce.Controls.ProductDataHiddenField
+    name: ProductDataHiddenField
+  - uid: Altazion.ECommerce.Controls.ProductFilArianeCategories
+    name: ProductFilArianeCategories
+  - uid: Altazion.ECommerce.Controls.ProductFilArianeJsonLd
+    name: ProductFilArianeJsonLd
+  - uid: Altazion.ECommerce.Controls.ProductFilArianeJsonLd.BreadCrumbItemJson
+    name: ProductFilArianeJsonLd.BreadCrumbItemJson
+  - uid: Altazion.ECommerce.Controls.ProductFilArianeJsonLd.Item
+    name: ProductFilArianeJsonLd.Item
+  - uid: Altazion.ECommerce.Controls.ProductJsonLD
+    name: ProductJsonLD
+  - uid: Altazion.ECommerce.Controls.ProductLivraison
+    name: ProductLivraison
+  - uid: Altazion.ECommerce.Controls.ProductLivraison.TypePreference
+    name: ProductLivraison.TypePreference
+  - uid: Altazion.ECommerce.Controls.ProductLivraisonLibelle
+    name: ProductLivraisonLibelle
+  - uid: Altazion.ECommerce.Controls.ProductVideo
+    name: ProductVideo
+  - uid: Altazion.ECommerce.Controls.ProduitAttributBoolPanel
+    name: ProduitAttributBoolPanel
+  - uid: Altazion.ECommerce.Controls.ProduitAttributLink
+    name: ProduitAttributLink
+  - uid: Altazion.ECommerce.Controls.ProduitAttributLiteralValeur
+    name: ProduitAttributLiteralValeur
+  - uid: Altazion.ECommerce.Controls.ProduitAttributPanel
+    name: ProduitAttributPanel
+  - uid: Altazion.ECommerce.Controls.ProduitAttributRepeater
+    name: ProduitAttributRepeater
+  - uid: Altazion.ECommerce.Controls.ProduitAttributRepeaterItemField
+    name: ProduitAttributRepeaterItemField
+  - uid: Altazion.ECommerce.Controls.ProduitAttributRepeaterItemField.ProduitAttributRepeaterItemFieldKind
+    name: ProduitAttributRepeaterItemField.ProduitAttributRepeaterItemFieldKind
+  - uid: Altazion.ECommerce.Controls.ProduitAttributsPanel
+    name: ProduitAttributsPanel
+  - uid: Altazion.ECommerce.Controls.ProduitAttributTemplate
+    name: ProduitAttributTemplate
+  - uid: Altazion.ECommerce.Controls.ProduitAttributValeur
+    name: ProduitAttributValeur
+  - uid: Altazion.ECommerce.Controls.ProduitAttributValeurTexte
+    name: ProduitAttributValeurTexte
+  - uid: Altazion.ECommerce.Controls.ProduitDescriptif
+    name: ProduitDescriptif
+  - uid: Altazion.ECommerce.Controls.ProduitDimensions
+    name: ProduitDimensions
+  - uid: Altazion.ECommerce.Controls.ProduitDimensions.Dimension
+    name: ProduitDimensions.Dimension
+  - uid: Altazion.ECommerce.Controls.ProduitEan13
+    name: ProduitEan13
+  - uid: Altazion.ECommerce.Controls.ProduitImage
+    name: ProduitImage
+  - uid: Altazion.ECommerce.Controls.ProduitImageLink
+    name: ProduitImageLink
+  - uid: Altazion.ECommerce.Controls.ProduitInstanceDifferentiant1
+    name: ProduitInstanceDifferentiant1
+  - uid: Altazion.ECommerce.Controls.ProduitLibelle
+    name: ProduitLibelle
+  - uid: Altazion.ECommerce.Controls.ProduitLibelleLink
+    name: ProduitLibelleLink
+  - uid: Altazion.ECommerce.Controls.ProduitLink
+    name: ProduitLink
+  - uid: Altazion.ECommerce.Controls.ProduitMailToLink
+    name: ProduitMailToLink
+  - uid: Altazion.ECommerce.Controls.ProduitMarque
+    name: ProduitMarque
+  - uid: Altazion.ECommerce.Controls.ProduitMarqueLink
+    name: ProduitMarqueLink
+  - uid: Altazion.ECommerce.Controls.ProduitMultiImages
+    name: ProduitMultiImages
+  - uid: Altazion.ECommerce.Controls.ProduitMultiImagesRepeater
+    name: ProduitMultiImagesRepeater
+  - uid: Altazion.ECommerce.Controls.ProduitPreparationInternePanel
+    name: ProduitPreparationInternePanel
+  - uid: Altazion.ECommerce.Controls.ProduitPreparationLibelle
+    name: ProduitPreparationLibelle
+  - uid: Altazion.ECommerce.Controls.ProduitPreparationSpecifiquePanel
+    name: ProduitPreparationSpecifiquePanel
+  - uid: Altazion.ECommerce.Controls.ProduitPrix
+    name: ProduitPrix
+  - uid: Altazion.ECommerce.Controls.ProduitPrixConseille
+    name: ProduitPrixConseille
+  - uid: Altazion.ECommerce.Controls.ProduitPrixHorsPromo
+    name: ProduitPrixHorsPromo
+  - uid: Altazion.ECommerce.Controls.ProduitPrixPromo
+    name: ProduitPrixPromo
+  - uid: Altazion.ECommerce.Controls.ProduitPrixValeurPromo
+    name: ProduitPrixValeurPromo
+  - uid: Altazion.ECommerce.Controls.ProduitPrixValeurPromo.TypeAffichePromo
+    name: ProduitPrixValeurPromo.TypeAffichePromo
+  - uid: Altazion.ECommerce.Controls.ProduitPrixValeurRemiseSurConseille
+    name: ProduitPrixValeurRemiseSurConseille
+  - uid: Altazion.ECommerce.Controls.ProduitPrixValeurRemiseSurConseille.TypeAffichePromo
+    name: ProduitPrixValeurRemiseSurConseille.TypeAffichePromo
+  - uid: Altazion.ECommerce.Controls.ProduitReference
+    name: ProduitReference
+  - uid: Altazion.ECommerce.Controls.ProduitSegment
+    name: ProduitSegment
+  - uid: Altazion.ECommerce.Controls.ProduitSegmentLink
+    name: ProduitSegmentLink
+  - uid: Altazion.ECommerce.Controls.ProduitTagsEtLabels
+    name: ProduitTagsEtLabels
+  - uid: Altazion.ECommerce.Controls.ProduitTotalTaxes
+    name: ProduitTotalTaxes
+  - uid: Altazion.ECommerce.Controls.ProduitVideoList
+    name: ProduitVideoList
+  - uid: Altazion.ECommerce.Controls.SeoContent
+    name: SeoContent
+  - uid: Altazion.ECommerce.Controls.SeoContentPanel
+    name: SeoContentPanel
+  - uid: Altazion.ECommerce.Controls.SeoContentTitle
+    name: SeoContentTitle
+  - uid: Altazion.ECommerce.Controls.SetCookieLink
+    name: SetCookieLink
+  - uid: Altazion.ECommerce.Controls.SiteHomePageLink
+    name: SiteHomePageLink
+  - uid: Altazion.ECommerce.Controls.SiteHomeUrl
+    name: SiteHomeUrl
+  - uid: Altazion.ECommerce.Controls.SiteNom
+    name: SiteNom
+  - uid: Altazion.ECommerce.Controls.SiteServiceClientEmail
+    name: SiteServiceClientEmail
+  - uid: Altazion.ECommerce.Controls.SiteServiceClientHoraires
+    name: SiteServiceClientHoraires
+  - uid: Altazion.ECommerce.Controls.SiteServiceClientTelephone
+    name: SiteServiceClientTelephone
+  - uid: Altazion.ECommerce.Controls.SiteSlogan
+    name: SiteSlogan
+  - uid: Altazion.ECommerce.Controls.TousLesMagasinsListeHiddenField
+    name: TousLesMagasinsListeHiddenField
+  - uid: Altazion.ECommerce.Controls.TousLesMagasinsListeHiddenField.MagasinClicknMortarAvecUrl
+    name: TousLesMagasinsListeHiddenField.MagasinClicknMortarAvecUrl
+  - uid: Altazion.ECommerce.Controls.TrustPilot
+    name: TrustPilot
+  - uid: Altazion.ECommerce.Controls.TrustPilotBaseControl
+    name: TrustPilotBaseControl
+  - uid: Altazion.ECommerce.Controls.TrustPilotWidget
+    name: TrustPilotWidget

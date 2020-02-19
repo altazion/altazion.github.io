@@ -1,0 +1,145 @@
+### YamlMime:ManagedReference
+items:
+- uid: Altazion.ECommerce.Controls.BonsAchatsAjouterLink.BonsAchatsAjoutImpossibleRaison
+  commentId: T:Altazion.ECommerce.Controls.BonsAchatsAjouterLink.BonsAchatsAjoutImpossibleRaison
+  id: BonsAchatsAjouterLink.BonsAchatsAjoutImpossibleRaison
+  parent: Altazion.ECommerce.Controls
+  children:
+  - Altazion.ECommerce.Controls.BonsAchatsAjouterLink.BonsAchatsAjoutImpossibleRaison.BonAchatDejaUtilise
+  - Altazion.ECommerce.Controls.BonsAchatsAjouterLink.BonsAchatsAjoutImpossibleRaison.BonAchatInconnu
+  - Altazion.ECommerce.Controls.BonsAchatsAjouterLink.BonsAchatsAjoutImpossibleRaison.ErreurTechnique
+  langs:
+  - csharp
+  - vb
+  name: BonsAchatsAjouterLink.BonsAchatsAjoutImpossibleRaison
+  nameWithType: BonsAchatsAjouterLink.BonsAchatsAjoutImpossibleRaison
+  fullName: Altazion.ECommerce.Controls.BonsAchatsAjouterLink.BonsAchatsAjoutImpossibleRaison
+  type: Enum
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/BonsAchatsControls.cs
+    id: BonsAchatsAjoutImpossibleRaison
+    path: BonsAchatsControls.cs
+    startLine: 99
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  summary: "\nRaisons empêchant l&apos;ajout d&apos;un bon d&apos;achat\n"
+  example: []
+  syntax:
+    content: 'public enum BonsAchatsAjoutImpossibleRaison : int'
+    content.vb: Public Enum BonsAchatsAjoutImpossibleRaison As Integer
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Altazion.ECommerce.Controls.BonsAchatsAjouterLink.BonsAchatsAjoutImpossibleRaison.ErreurTechnique
+  commentId: F:Altazion.ECommerce.Controls.BonsAchatsAjouterLink.BonsAchatsAjoutImpossibleRaison.ErreurTechnique
+  id: ErreurTechnique
+  parent: Altazion.ECommerce.Controls.BonsAchatsAjouterLink.BonsAchatsAjoutImpossibleRaison
+  langs:
+  - csharp
+  - vb
+  name: ErreurTechnique
+  nameWithType: BonsAchatsAjouterLink.BonsAchatsAjoutImpossibleRaison.ErreurTechnique
+  fullName: Altazion.ECommerce.Controls.BonsAchatsAjouterLink.BonsAchatsAjoutImpossibleRaison.ErreurTechnique
+  type: Field
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/BonsAchatsControls.cs
+    id: ErreurTechnique
+    path: BonsAchatsControls.cs
+    startLine: 104
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  summary: "\nUne erreur technique est survenue\n"
+  example: []
+  syntax:
+    content: ErreurTechnique = 0
+    return:
+      type: Altazion.ECommerce.Controls.BonsAchatsAjouterLink.BonsAchatsAjoutImpossibleRaison
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Altazion.ECommerce.Controls.BonsAchatsAjouterLink.BonsAchatsAjoutImpossibleRaison.BonAchatInconnu
+  commentId: F:Altazion.ECommerce.Controls.BonsAchatsAjouterLink.BonsAchatsAjoutImpossibleRaison.BonAchatInconnu
+  id: BonAchatInconnu
+  parent: Altazion.ECommerce.Controls.BonsAchatsAjouterLink.BonsAchatsAjoutImpossibleRaison
+  langs:
+  - csharp
+  - vb
+  name: BonAchatInconnu
+  nameWithType: BonsAchatsAjouterLink.BonsAchatsAjoutImpossibleRaison.BonAchatInconnu
+  fullName: Altazion.ECommerce.Controls.BonsAchatsAjouterLink.BonsAchatsAjoutImpossibleRaison.BonAchatInconnu
+  type: Field
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/BonsAchatsControls.cs
+    id: BonAchatInconnu
+    path: BonsAchatsControls.cs
+    startLine: 108
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  summary: "\nLe bon d&apos;achat est inconnu\n"
+  example: []
+  syntax:
+    content: BonAchatInconnu = 1
+    return:
+      type: Altazion.ECommerce.Controls.BonsAchatsAjouterLink.BonsAchatsAjoutImpossibleRaison
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Altazion.ECommerce.Controls.BonsAchatsAjouterLink.BonsAchatsAjoutImpossibleRaison.BonAchatDejaUtilise
+  commentId: F:Altazion.ECommerce.Controls.BonsAchatsAjouterLink.BonsAchatsAjoutImpossibleRaison.BonAchatDejaUtilise
+  id: BonAchatDejaUtilise
+  parent: Altazion.ECommerce.Controls.BonsAchatsAjouterLink.BonsAchatsAjoutImpossibleRaison
+  langs:
+  - csharp
+  - vb
+  name: BonAchatDejaUtilise
+  nameWithType: BonsAchatsAjouterLink.BonsAchatsAjoutImpossibleRaison.BonAchatDejaUtilise
+  fullName: Altazion.ECommerce.Controls.BonsAchatsAjouterLink.BonsAchatsAjoutImpossibleRaison.BonAchatDejaUtilise
+  type: Field
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/BonsAchatsControls.cs
+    id: BonAchatDejaUtilise
+    path: BonsAchatsControls.cs
+    startLine: 112
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  summary: "\nLe bon d&apos;achat a déjà été ajouté par quelqu&apos;un\n"
+  example: []
+  syntax:
+    content: BonAchatDejaUtilise = 2
+    return:
+      type: Altazion.ECommerce.Controls.BonsAchatsAjouterLink.BonsAchatsAjoutImpossibleRaison
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Altazion.ECommerce.Controls
+  commentId: N:Altazion.ECommerce.Controls
+  name: Altazion.ECommerce.Controls
+  nameWithType: Altazion.ECommerce.Controls
+  fullName: Altazion.ECommerce.Controls
+- uid: Altazion.ECommerce.Controls.BonsAchatsAjouterLink.BonsAchatsAjoutImpossibleRaison
+  commentId: T:Altazion.ECommerce.Controls.BonsAchatsAjouterLink.BonsAchatsAjoutImpossibleRaison
+  parent: Altazion.ECommerce.Controls
+  name: BonsAchatsAjouterLink.BonsAchatsAjoutImpossibleRaison
+  nameWithType: BonsAchatsAjouterLink.BonsAchatsAjoutImpossibleRaison
+  fullName: Altazion.ECommerce.Controls.BonsAchatsAjouterLink.BonsAchatsAjoutImpossibleRaison

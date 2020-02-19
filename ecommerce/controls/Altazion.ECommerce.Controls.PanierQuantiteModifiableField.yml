@@ -1,0 +1,312 @@
+### YamlMime:ManagedReference
+items:
+- uid: Altazion.ECommerce.Controls.PanierQuantiteModifiableField
+  commentId: T:Altazion.ECommerce.Controls.PanierQuantiteModifiableField
+  id: PanierQuantiteModifiableField
+  parent: Altazion.ECommerce.Controls
+  children:
+  - Altazion.ECommerce.Controls.PanierQuantiteModifiableField.#ctor
+  - Altazion.ECommerce.Controls.PanierQuantiteModifiableField.CssClass
+  - Altazion.ECommerce.Controls.PanierQuantiteModifiableField.LienCssClass
+  - Altazion.ECommerce.Controls.PanierQuantiteModifiableField.LienText
+  - Altazion.ECommerce.Controls.PanierQuantiteModifiableField.Mode
+  - Altazion.ECommerce.Controls.PanierQuantiteModifiableField.ValidateSupportsCallback
+  langs:
+  - csharp
+  - vb
+  name: PanierQuantiteModifiableField
+  nameWithType: PanierQuantiteModifiableField
+  fullName: Altazion.ECommerce.Controls.PanierQuantiteModifiableField
+  type: Class
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanierProduitField.cs
+    id: PanierQuantiteModifiableField
+    path: PanierProduitField.cs
+    startLine: 1184
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  summary: "\nA utiliser dans un <xref href=\"Altazion.ECommerce.Controls.PanierProduitsGrid\" data-throw-if-not-resolved=\"false\"></xref> pour \nafficher un td avec une zone de saisie permettant la modification\nde la quantité\n"
+  example: []
+  syntax:
+    content: 'public class PanierQuantiteModifiableField : EDataControlField'
+    content.vb: >-
+      Public Class PanierQuantiteModifiableField
+          Inherits EDataControlField
+  inheritance:
+  - System.Object
+  - CPointSoftware.ECommerce.Tools.EDataControlField
+  inheritedMembers:
+  - CPointSoftware.ECommerce.Tools.EDataControlField.ColumnSpan
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Altazion.ECommerce.Controls.PanierQuantiteModifiableField.#ctor
+  commentId: M:Altazion.ECommerce.Controls.PanierQuantiteModifiableField.#ctor
+  id: '#ctor'
+  parent: Altazion.ECommerce.Controls.PanierQuantiteModifiableField
+  langs:
+  - csharp
+  - vb
+  name: PanierQuantiteModifiableField()
+  nameWithType: PanierQuantiteModifiableField.PanierQuantiteModifiableField()
+  fullName: Altazion.ECommerce.Controls.PanierQuantiteModifiableField.PanierQuantiteModifiableField()
+  type: Constructor
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanierProduitField.cs
+    id: .ctor
+    path: PanierProduitField.cs
+    startLine: 1194
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: public PanierQuantiteModifiableField()
+    content.vb: Public Sub New
+  overload: Altazion.ECommerce.Controls.PanierQuantiteModifiableField.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Altazion.ECommerce.Controls.PanierQuantiteModifiableField.Mode
+  commentId: P:Altazion.ECommerce.Controls.PanierQuantiteModifiableField.Mode
+  id: Mode
+  parent: Altazion.ECommerce.Controls.PanierQuantiteModifiableField
+  langs:
+  - csharp
+  - vb
+  name: Mode
+  nameWithType: PanierQuantiteModifiableField.Mode
+  fullName: Altazion.ECommerce.Controls.PanierQuantiteModifiableField.Mode
+  type: Property
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanierProduitField.cs
+    id: Mode
+    path: PanierProduitField.cs
+    startLine: 1199
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: public PanierQuantiteModifiableField.ModeModification Mode { get; set; }
+    parameters: []
+    return:
+      type: Altazion.ECommerce.Controls.PanierQuantiteModifiableField.ModeModification
+    content.vb: Public Property Mode As PanierQuantiteModifiableField.ModeModification
+  overload: Altazion.ECommerce.Controls.PanierQuantiteModifiableField.Mode*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Altazion.ECommerce.Controls.PanierQuantiteModifiableField.ValidateSupportsCallback
+  commentId: M:Altazion.ECommerce.Controls.PanierQuantiteModifiableField.ValidateSupportsCallback
+  id: ValidateSupportsCallback
+  parent: Altazion.ECommerce.Controls.PanierQuantiteModifiableField
+  langs:
+  - csharp
+  - vb
+  name: ValidateSupportsCallback()
+  nameWithType: PanierQuantiteModifiableField.ValidateSupportsCallback()
+  fullName: Altazion.ECommerce.Controls.PanierQuantiteModifiableField.ValidateSupportsCallback()
+  type: Method
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanierProduitField.cs
+    id: ValidateSupportsCallback
+    path: PanierProduitField.cs
+    startLine: 1226
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: public override void ValidateSupportsCallback()
+    content.vb: Public Overrides Sub ValidateSupportsCallback
+  overload: Altazion.ECommerce.Controls.PanierQuantiteModifiableField.ValidateSupportsCallback*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: Altazion.ECommerce.Controls.PanierQuantiteModifiableField.CssClass
+  commentId: P:Altazion.ECommerce.Controls.PanierQuantiteModifiableField.CssClass
+  id: CssClass
+  parent: Altazion.ECommerce.Controls.PanierQuantiteModifiableField
+  langs:
+  - csharp
+  - vb
+  name: CssClass
+  nameWithType: PanierQuantiteModifiableField.CssClass
+  fullName: Altazion.ECommerce.Controls.PanierQuantiteModifiableField.CssClass
+  type: Property
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanierProduitField.cs
+    id: CssClass
+    path: PanierProduitField.cs
+    startLine: 1231
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: public String CssClass { get; set; }
+    parameters: []
+    return:
+      type: String
+    content.vb: Public Property CssClass As String
+  overload: Altazion.ECommerce.Controls.PanierQuantiteModifiableField.CssClass*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Altazion.ECommerce.Controls.PanierQuantiteModifiableField.LienCssClass
+  commentId: P:Altazion.ECommerce.Controls.PanierQuantiteModifiableField.LienCssClass
+  id: LienCssClass
+  parent: Altazion.ECommerce.Controls.PanierQuantiteModifiableField
+  langs:
+  - csharp
+  - vb
+  name: LienCssClass
+  nameWithType: PanierQuantiteModifiableField.LienCssClass
+  fullName: Altazion.ECommerce.Controls.PanierQuantiteModifiableField.LienCssClass
+  type: Property
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanierProduitField.cs
+    id: LienCssClass
+    path: PanierProduitField.cs
+    startLine: 1254
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: public String LienCssClass { get; set; }
+    parameters: []
+    return:
+      type: String
+    content.vb: Public Property LienCssClass As String
+  overload: Altazion.ECommerce.Controls.PanierQuantiteModifiableField.LienCssClass*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Altazion.ECommerce.Controls.PanierQuantiteModifiableField.LienText
+  commentId: P:Altazion.ECommerce.Controls.PanierQuantiteModifiableField.LienText
+  id: LienText
+  parent: Altazion.ECommerce.Controls.PanierQuantiteModifiableField
+  langs:
+  - csharp
+  - vb
+  name: LienText
+  nameWithType: PanierQuantiteModifiableField.LienText
+  fullName: Altazion.ECommerce.Controls.PanierQuantiteModifiableField.LienText
+  type: Property
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanierProduitField.cs
+    id: LienText
+    path: PanierProduitField.cs
+    startLine: 1275
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: public String LienText { get; set; }
+    parameters: []
+    return:
+      type: String
+    content.vb: Public Property LienText As String
+  overload: Altazion.ECommerce.Controls.PanierQuantiteModifiableField.LienText*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: Altazion.ECommerce.Controls.PanierProduitsGrid
+  commentId: T:Altazion.ECommerce.Controls.PanierProduitsGrid
+  name: PanierProduitsGrid
+  nameWithType: PanierProduitsGrid
+  fullName: Altazion.ECommerce.Controls.PanierProduitsGrid
+- uid: Altazion.ECommerce.Controls
+  commentId: N:Altazion.ECommerce.Controls
+  name: Altazion.ECommerce.Controls
+  nameWithType: Altazion.ECommerce.Controls
+  fullName: Altazion.ECommerce.Controls
+- uid: System.Object
+  commentId: '!:System.Object'
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: CPointSoftware.ECommerce.Tools.EDataControlField
+  commentId: T:CPointSoftware.ECommerce.Tools.EDataControlField
+  parent: CPointSoftware.ECommerce.Tools
+  name: EDataControlField
+  nameWithType: EDataControlField
+  fullName: CPointSoftware.ECommerce.Tools.EDataControlField
+- uid: CPointSoftware.ECommerce.Tools.EDataControlField.ColumnSpan
+  commentId: P:CPointSoftware.ECommerce.Tools.EDataControlField.ColumnSpan
+  parent: CPointSoftware.ECommerce.Tools.EDataControlField
+  name: ColumnSpan
+  nameWithType: EDataControlField.ColumnSpan
+  fullName: CPointSoftware.ECommerce.Tools.EDataControlField.ColumnSpan
+- uid: CPointSoftware.ECommerce.Tools
+  commentId: N:CPointSoftware.ECommerce.Tools
+  name: CPointSoftware.ECommerce.Tools
+  nameWithType: CPointSoftware.ECommerce.Tools
+  fullName: CPointSoftware.ECommerce.Tools
+- uid: Altazion.ECommerce.Controls.PanierQuantiteModifiableField.#ctor*
+  commentId: Overload:Altazion.ECommerce.Controls.PanierQuantiteModifiableField.#ctor
+  name: PanierQuantiteModifiableField
+  nameWithType: PanierQuantiteModifiableField.PanierQuantiteModifiableField
+  fullName: Altazion.ECommerce.Controls.PanierQuantiteModifiableField.PanierQuantiteModifiableField
+- uid: Altazion.ECommerce.Controls.PanierQuantiteModifiableField.Mode*
+  commentId: Overload:Altazion.ECommerce.Controls.PanierQuantiteModifiableField.Mode
+  name: Mode
+  nameWithType: PanierQuantiteModifiableField.Mode
+  fullName: Altazion.ECommerce.Controls.PanierQuantiteModifiableField.Mode
+- uid: Altazion.ECommerce.Controls.PanierQuantiteModifiableField.ModeModification
+  commentId: T:Altazion.ECommerce.Controls.PanierQuantiteModifiableField.ModeModification
+  parent: Altazion.ECommerce.Controls
+  name: PanierQuantiteModifiableField.ModeModification
+  nameWithType: PanierQuantiteModifiableField.ModeModification
+  fullName: Altazion.ECommerce.Controls.PanierQuantiteModifiableField.ModeModification
+- uid: Altazion.ECommerce.Controls.PanierQuantiteModifiableField.ValidateSupportsCallback*
+  commentId: Overload:Altazion.ECommerce.Controls.PanierQuantiteModifiableField.ValidateSupportsCallback
+  name: ValidateSupportsCallback
+  nameWithType: PanierQuantiteModifiableField.ValidateSupportsCallback
+  fullName: Altazion.ECommerce.Controls.PanierQuantiteModifiableField.ValidateSupportsCallback
+- uid: Altazion.ECommerce.Controls.PanierQuantiteModifiableField.CssClass*
+  commentId: Overload:Altazion.ECommerce.Controls.PanierQuantiteModifiableField.CssClass
+  name: CssClass
+  nameWithType: PanierQuantiteModifiableField.CssClass
+  fullName: Altazion.ECommerce.Controls.PanierQuantiteModifiableField.CssClass
+- uid: String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: String
+- uid: Altazion.ECommerce.Controls.PanierQuantiteModifiableField.LienCssClass*
+  commentId: Overload:Altazion.ECommerce.Controls.PanierQuantiteModifiableField.LienCssClass
+  name: LienCssClass
+  nameWithType: PanierQuantiteModifiableField.LienCssClass
+  fullName: Altazion.ECommerce.Controls.PanierQuantiteModifiableField.LienCssClass
+- uid: Altazion.ECommerce.Controls.PanierQuantiteModifiableField.LienText*
+  commentId: Overload:Altazion.ECommerce.Controls.PanierQuantiteModifiableField.LienText
+  name: LienText
+  nameWithType: PanierQuantiteModifiableField.LienText
+  fullName: Altazion.ECommerce.Controls.PanierQuantiteModifiableField.LienText

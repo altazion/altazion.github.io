@@ -1,0 +1,126 @@
+### YamlMime:ManagedReference
+items:
+- uid: Altazion.ECommerce.Controls.PanierLivraisonCodePostalHidden
+  commentId: T:Altazion.ECommerce.Controls.PanierLivraisonCodePostalHidden
+  id: PanierLivraisonCodePostalHidden
+  parent: Altazion.ECommerce.Controls
+  children:
+  - Altazion.ECommerce.Controls.PanierLivraisonCodePostalHidden.#ctor
+  - Altazion.ECommerce.Controls.PanierLivraisonCodePostalHidden.OnPreRender(EventArgs)
+  langs:
+  - csharp
+  - vb
+  name: PanierLivraisonCodePostalHidden
+  nameWithType: PanierLivraisonCodePostalHidden
+  fullName: Altazion.ECommerce.Controls.PanierLivraisonCodePostalHidden
+  type: Class
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanierLivraisonCodePostal.cs
+    id: PanierLivraisonCodePostalHidden
+    path: PanierLivraisonCodePostal.cs
+    startLine: 10
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: 'public class PanierLivraisonCodePostalHidden : HiddenField'
+    content.vb: >-
+      Public Class PanierLivraisonCodePostalHidden
+          Inherits HiddenField
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Altazion.ECommerce.Controls.PanierLivraisonCodePostalHidden.#ctor
+  commentId: M:Altazion.ECommerce.Controls.PanierLivraisonCodePostalHidden.#ctor
+  id: '#ctor'
+  parent: Altazion.ECommerce.Controls.PanierLivraisonCodePostalHidden
+  langs:
+  - csharp
+  - vb
+  name: PanierLivraisonCodePostalHidden()
+  nameWithType: PanierLivraisonCodePostalHidden.PanierLivraisonCodePostalHidden()
+  fullName: Altazion.ECommerce.Controls.PanierLivraisonCodePostalHidden.PanierLivraisonCodePostalHidden()
+  type: Constructor
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanierLivraisonCodePostal.cs
+    id: .ctor
+    path: PanierLivraisonCodePostal.cs
+    startLine: 12
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: public PanierLivraisonCodePostalHidden()
+    content.vb: Public Sub New
+  overload: Altazion.ECommerce.Controls.PanierLivraisonCodePostalHidden.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Altazion.ECommerce.Controls.PanierLivraisonCodePostalHidden.OnPreRender(EventArgs)
+  commentId: M:Altazion.ECommerce.Controls.PanierLivraisonCodePostalHidden.OnPreRender(EventArgs)
+  id: OnPreRender(EventArgs)
+  parent: Altazion.ECommerce.Controls.PanierLivraisonCodePostalHidden
+  langs:
+  - csharp
+  - vb
+  name: OnPreRender(EventArgs)
+  nameWithType: PanierLivraisonCodePostalHidden.OnPreRender(EventArgs)
+  fullName: Altazion.ECommerce.Controls.PanierLivraisonCodePostalHidden.OnPreRender(EventArgs)
+  type: Method
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanierLivraisonCodePostal.cs
+    id: OnPreRender
+    path: PanierLivraisonCodePostal.cs
+    startLine: 16
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: protected override void OnPreRender(EventArgs e)
+    parameters:
+    - id: e
+      type: EventArgs
+    content.vb: Protected Overrides Sub OnPreRender(e As EventArgs)
+  overload: Altazion.ECommerce.Controls.PanierLivraisonCodePostalHidden.OnPreRender*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+references:
+- uid: Altazion.ECommerce.Controls
+  commentId: N:Altazion.ECommerce.Controls
+  name: Altazion.ECommerce.Controls
+  nameWithType: Altazion.ECommerce.Controls
+  fullName: Altazion.ECommerce.Controls
+- uid: System.Object
+  commentId: '!:System.Object'
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Altazion.ECommerce.Controls.PanierLivraisonCodePostalHidden.#ctor*
+  commentId: Overload:Altazion.ECommerce.Controls.PanierLivraisonCodePostalHidden.#ctor
+  name: PanierLivraisonCodePostalHidden
+  nameWithType: PanierLivraisonCodePostalHidden.PanierLivraisonCodePostalHidden
+  fullName: Altazion.ECommerce.Controls.PanierLivraisonCodePostalHidden.PanierLivraisonCodePostalHidden
+- uid: Altazion.ECommerce.Controls.PanierLivraisonCodePostalHidden.OnPreRender*
+  commentId: Overload:Altazion.ECommerce.Controls.PanierLivraisonCodePostalHidden.OnPreRender
+  name: OnPreRender
+  nameWithType: PanierLivraisonCodePostalHidden.OnPreRender
+  fullName: Altazion.ECommerce.Controls.PanierLivraisonCodePostalHidden.OnPreRender
+- uid: EventArgs
+  isExternal: true
+  name: EventArgs
+  nameWithType: EventArgs
+  fullName: EventArgs

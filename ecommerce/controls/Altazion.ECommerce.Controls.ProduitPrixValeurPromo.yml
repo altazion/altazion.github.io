@@ -1,0 +1,397 @@
+### YamlMime:ManagedReference
+items:
+- uid: Altazion.ECommerce.Controls.ProduitPrixValeurPromo
+  commentId: T:Altazion.ECommerce.Controls.ProduitPrixValeurPromo
+  id: ProduitPrixValeurPromo
+  parent: Altazion.ECommerce.Controls
+  children:
+  - Altazion.ECommerce.Controls.ProduitPrixValeurPromo.AfficheHT
+  - Altazion.ECommerce.Controls.ProduitPrixValeurPromo.AssocierAuMagasin
+  - Altazion.ECommerce.Controls.ProduitPrixValeurPromo.CacherSiHorsPromo
+  - Altazion.ECommerce.Controls.ProduitPrixValeurPromo.FormatPourcentage
+  - Altazion.ECommerce.Controls.ProduitPrixValeurPromo.FormatPrix
+  - Altazion.ECommerce.Controls.ProduitPrixValeurPromo.FormatSiMultiTarif
+  - Altazion.ECommerce.Controls.ProduitPrixValeurPromo.PrixMaxiPourPourcentage
+  - Altazion.ECommerce.Controls.ProduitPrixValeurPromo.TypeAffichage
+  langs:
+  - csharp
+  - vb
+  name: ProduitPrixValeurPromo
+  nameWithType: ProduitPrixValeurPromo
+  fullName: Altazion.ECommerce.Controls.ProduitPrixValeurPromo
+  type: Class
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/ProductLabels.cs
+    id: ProduitPrixValeurPromo
+    path: ProductLabels.cs
+    startLine: 1366
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  summary: "\nA utiliser dans un contrôle bindé sur un produit : affiche un span\navec le valeur ou le pourcentage de la promo \n"
+  example: []
+  syntax:
+    content: 'public class ProduitPrixValeurPromo : Label, IEquihiraBindable'
+    content.vb: >-
+      Public Class ProduitPrixValeurPromo
+          Inherits Label
+          Implements IEquihiraBindable
+  inheritance:
+  - System.Object
+  implements:
+  - CPointSoftware.ECommerce.Tools.IEquihiraBindable
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Altazion.ECommerce.Controls.ProduitPrixValeurPromo.AssocierAuMagasin
+  commentId: P:Altazion.ECommerce.Controls.ProduitPrixValeurPromo.AssocierAuMagasin
+  id: AssocierAuMagasin
+  parent: Altazion.ECommerce.Controls.ProduitPrixValeurPromo
+  langs:
+  - csharp
+  - vb
+  name: AssocierAuMagasin
+  nameWithType: ProduitPrixValeurPromo.AssocierAuMagasin
+  fullName: Altazion.ECommerce.Controls.ProduitPrixValeurPromo.AssocierAuMagasin
+  type: Property
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/ProductLabels.cs
+    id: AssocierAuMagasin
+    path: ProductLabels.cs
+    startLine: 1369
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: public bool AssocierAuMagasin { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property AssocierAuMagasin As Boolean
+  overload: Altazion.ECommerce.Controls.ProduitPrixValeurPromo.AssocierAuMagasin*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Altazion.ECommerce.Controls.ProduitPrixValeurPromo.FormatPrix
+  commentId: P:Altazion.ECommerce.Controls.ProduitPrixValeurPromo.FormatPrix
+  id: FormatPrix
+  parent: Altazion.ECommerce.Controls.ProduitPrixValeurPromo
+  langs:
+  - csharp
+  - vb
+  name: FormatPrix
+  nameWithType: ProduitPrixValeurPromo.FormatPrix
+  fullName: Altazion.ECommerce.Controls.ProduitPrixValeurPromo.FormatPrix
+  type: Property
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/ProductLabels.cs
+    id: FormatPrix
+    path: ProductLabels.cs
+    startLine: 1379
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: public string FormatPrix { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property FormatPrix As String
+  overload: Altazion.ECommerce.Controls.ProduitPrixValeurPromo.FormatPrix*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Altazion.ECommerce.Controls.ProduitPrixValeurPromo.FormatSiMultiTarif
+  commentId: P:Altazion.ECommerce.Controls.ProduitPrixValeurPromo.FormatSiMultiTarif
+  id: FormatSiMultiTarif
+  parent: Altazion.ECommerce.Controls.ProduitPrixValeurPromo
+  langs:
+  - csharp
+  - vb
+  name: FormatSiMultiTarif
+  nameWithType: ProduitPrixValeurPromo.FormatSiMultiTarif
+  fullName: Altazion.ECommerce.Controls.ProduitPrixValeurPromo.FormatSiMultiTarif
+  type: Property
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/ProductLabels.cs
+    id: FormatSiMultiTarif
+    path: ProductLabels.cs
+    startLine: 1386
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: public string FormatSiMultiTarif { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property FormatSiMultiTarif As String
+  overload: Altazion.ECommerce.Controls.ProduitPrixValeurPromo.FormatSiMultiTarif*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Altazion.ECommerce.Controls.ProduitPrixValeurPromo.FormatPourcentage
+  commentId: P:Altazion.ECommerce.Controls.ProduitPrixValeurPromo.FormatPourcentage
+  id: FormatPourcentage
+  parent: Altazion.ECommerce.Controls.ProduitPrixValeurPromo
+  langs:
+  - csharp
+  - vb
+  name: FormatPourcentage
+  nameWithType: ProduitPrixValeurPromo.FormatPourcentage
+  fullName: Altazion.ECommerce.Controls.ProduitPrixValeurPromo.FormatPourcentage
+  type: Property
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/ProductLabels.cs
+    id: FormatPourcentage
+    path: ProductLabels.cs
+    startLine: 1389
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: public string FormatPourcentage { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property FormatPourcentage As String
+  overload: Altazion.ECommerce.Controls.ProduitPrixValeurPromo.FormatPourcentage*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Altazion.ECommerce.Controls.ProduitPrixValeurPromo.TypeAffichage
+  commentId: P:Altazion.ECommerce.Controls.ProduitPrixValeurPromo.TypeAffichage
+  id: TypeAffichage
+  parent: Altazion.ECommerce.Controls.ProduitPrixValeurPromo
+  langs:
+  - csharp
+  - vb
+  name: TypeAffichage
+  nameWithType: ProduitPrixValeurPromo.TypeAffichage
+  fullName: Altazion.ECommerce.Controls.ProduitPrixValeurPromo.TypeAffichage
+  type: Property
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/ProductLabels.cs
+    id: TypeAffichage
+    path: ProductLabels.cs
+    startLine: 1397
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: public ProduitPrixValeurPromo.TypeAffichePromo TypeAffichage { get; set; }
+    parameters: []
+    return:
+      type: Altazion.ECommerce.Controls.ProduitPrixValeurPromo.TypeAffichePromo
+    content.vb: Public Property TypeAffichage As ProduitPrixValeurPromo.TypeAffichePromo
+  overload: Altazion.ECommerce.Controls.ProduitPrixValeurPromo.TypeAffichage*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Altazion.ECommerce.Controls.ProduitPrixValeurPromo.AfficheHT
+  commentId: P:Altazion.ECommerce.Controls.ProduitPrixValeurPromo.AfficheHT
+  id: AfficheHT
+  parent: Altazion.ECommerce.Controls.ProduitPrixValeurPromo
+  langs:
+  - csharp
+  - vb
+  name: AfficheHT
+  nameWithType: ProduitPrixValeurPromo.AfficheHT
+  fullName: Altazion.ECommerce.Controls.ProduitPrixValeurPromo.AfficheHT
+  type: Property
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/ProductLabels.cs
+    id: AfficheHT
+    path: ProductLabels.cs
+    startLine: 1406
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: public bool AfficheHT { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property AfficheHT As Boolean
+  overload: Altazion.ECommerce.Controls.ProduitPrixValeurPromo.AfficheHT*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Altazion.ECommerce.Controls.ProduitPrixValeurPromo.PrixMaxiPourPourcentage
+  commentId: P:Altazion.ECommerce.Controls.ProduitPrixValeurPromo.PrixMaxiPourPourcentage
+  id: PrixMaxiPourPourcentage
+  parent: Altazion.ECommerce.Controls.ProduitPrixValeurPromo
+  langs:
+  - csharp
+  - vb
+  name: PrixMaxiPourPourcentage
+  nameWithType: ProduitPrixValeurPromo.PrixMaxiPourPourcentage
+  fullName: Altazion.ECommerce.Controls.ProduitPrixValeurPromo.PrixMaxiPourPourcentage
+  type: Property
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/ProductLabels.cs
+    id: PrixMaxiPourPourcentage
+    path: ProductLabels.cs
+    startLine: 1414
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: public decimal PrixMaxiPourPourcentage { get; set; }
+    parameters: []
+    return:
+      type: System.Decimal
+    content.vb: Public Property PrixMaxiPourPourcentage As Decimal
+  overload: Altazion.ECommerce.Controls.ProduitPrixValeurPromo.PrixMaxiPourPourcentage*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Altazion.ECommerce.Controls.ProduitPrixValeurPromo.CacherSiHorsPromo
+  commentId: P:Altazion.ECommerce.Controls.ProduitPrixValeurPromo.CacherSiHorsPromo
+  id: CacherSiHorsPromo
+  parent: Altazion.ECommerce.Controls.ProduitPrixValeurPromo
+  langs:
+  - csharp
+  - vb
+  name: CacherSiHorsPromo
+  nameWithType: ProduitPrixValeurPromo.CacherSiHorsPromo
+  fullName: Altazion.ECommerce.Controls.ProduitPrixValeurPromo.CacherSiHorsPromo
+  type: Property
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/ProductLabels.cs
+    id: CacherSiHorsPromo
+    path: ProductLabels.cs
+    startLine: 1421
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: public bool CacherSiHorsPromo { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property CacherSiHorsPromo As Boolean
+  overload: Altazion.ECommerce.Controls.ProduitPrixValeurPromo.CacherSiHorsPromo*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: Altazion.ECommerce.Controls
+  commentId: N:Altazion.ECommerce.Controls
+  name: Altazion.ECommerce.Controls
+  nameWithType: Altazion.ECommerce.Controls
+  fullName: Altazion.ECommerce.Controls
+- uid: System.Object
+  commentId: '!:System.Object'
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: CPointSoftware.ECommerce.Tools.IEquihiraBindable
+  commentId: T:CPointSoftware.ECommerce.Tools.IEquihiraBindable
+  parent: CPointSoftware.ECommerce.Tools
+  name: IEquihiraBindable
+  nameWithType: IEquihiraBindable
+  fullName: CPointSoftware.ECommerce.Tools.IEquihiraBindable
+- uid: CPointSoftware.ECommerce.Tools
+  commentId: N:CPointSoftware.ECommerce.Tools
+  name: CPointSoftware.ECommerce.Tools
+  nameWithType: CPointSoftware.ECommerce.Tools
+  fullName: CPointSoftware.ECommerce.Tools
+- uid: Altazion.ECommerce.Controls.ProduitPrixValeurPromo.AssocierAuMagasin*
+  commentId: Overload:Altazion.ECommerce.Controls.ProduitPrixValeurPromo.AssocierAuMagasin
+  name: AssocierAuMagasin
+  nameWithType: ProduitPrixValeurPromo.AssocierAuMagasin
+  fullName: Altazion.ECommerce.Controls.ProduitPrixValeurPromo.AssocierAuMagasin
+- uid: System.Boolean
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Altazion.ECommerce.Controls.ProduitPrixValeurPromo.FormatPrix*
+  commentId: Overload:Altazion.ECommerce.Controls.ProduitPrixValeurPromo.FormatPrix
+  name: FormatPrix
+  nameWithType: ProduitPrixValeurPromo.FormatPrix
+  fullName: Altazion.ECommerce.Controls.ProduitPrixValeurPromo.FormatPrix
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Altazion.ECommerce.Controls.ProduitPrixValeurPromo.FormatSiMultiTarif*
+  commentId: Overload:Altazion.ECommerce.Controls.ProduitPrixValeurPromo.FormatSiMultiTarif
+  name: FormatSiMultiTarif
+  nameWithType: ProduitPrixValeurPromo.FormatSiMultiTarif
+  fullName: Altazion.ECommerce.Controls.ProduitPrixValeurPromo.FormatSiMultiTarif
+- uid: Altazion.ECommerce.Controls.ProduitPrixValeurPromo.FormatPourcentage*
+  commentId: Overload:Altazion.ECommerce.Controls.ProduitPrixValeurPromo.FormatPourcentage
+  name: FormatPourcentage
+  nameWithType: ProduitPrixValeurPromo.FormatPourcentage
+  fullName: Altazion.ECommerce.Controls.ProduitPrixValeurPromo.FormatPourcentage
+- uid: Altazion.ECommerce.Controls.ProduitPrixValeurPromo.TypeAffichage*
+  commentId: Overload:Altazion.ECommerce.Controls.ProduitPrixValeurPromo.TypeAffichage
+  name: TypeAffichage
+  nameWithType: ProduitPrixValeurPromo.TypeAffichage
+  fullName: Altazion.ECommerce.Controls.ProduitPrixValeurPromo.TypeAffichage
+- uid: Altazion.ECommerce.Controls.ProduitPrixValeurPromo.TypeAffichePromo
+  commentId: T:Altazion.ECommerce.Controls.ProduitPrixValeurPromo.TypeAffichePromo
+  parent: Altazion.ECommerce.Controls
+  name: ProduitPrixValeurPromo.TypeAffichePromo
+  nameWithType: ProduitPrixValeurPromo.TypeAffichePromo
+  fullName: Altazion.ECommerce.Controls.ProduitPrixValeurPromo.TypeAffichePromo
+- uid: Altazion.ECommerce.Controls.ProduitPrixValeurPromo.AfficheHT*
+  commentId: Overload:Altazion.ECommerce.Controls.ProduitPrixValeurPromo.AfficheHT
+  name: AfficheHT
+  nameWithType: ProduitPrixValeurPromo.AfficheHT
+  fullName: Altazion.ECommerce.Controls.ProduitPrixValeurPromo.AfficheHT
+- uid: Altazion.ECommerce.Controls.ProduitPrixValeurPromo.PrixMaxiPourPourcentage*
+  commentId: Overload:Altazion.ECommerce.Controls.ProduitPrixValeurPromo.PrixMaxiPourPourcentage
+  name: PrixMaxiPourPourcentage
+  nameWithType: ProduitPrixValeurPromo.PrixMaxiPourPourcentage
+  fullName: Altazion.ECommerce.Controls.ProduitPrixValeurPromo.PrixMaxiPourPourcentage
+- uid: System.Decimal
+  isExternal: true
+  name: Decimal
+  nameWithType: Decimal
+  fullName: System.Decimal
+- uid: Altazion.ECommerce.Controls.ProduitPrixValeurPromo.CacherSiHorsPromo*
+  commentId: Overload:Altazion.ECommerce.Controls.ProduitPrixValeurPromo.CacherSiHorsPromo
+  name: CacherSiHorsPromo
+  nameWithType: ProduitPrixValeurPromo.CacherSiHorsPromo
+  fullName: Altazion.ECommerce.Controls.ProduitPrixValeurPromo.CacherSiHorsPromo

@@ -1,0 +1,108 @@
+### YamlMime:ManagedReference
+items:
+- uid: Altazion.ECommerce.Controls.ProduitVideoList
+  commentId: T:Altazion.ECommerce.Controls.ProduitVideoList
+  id: ProduitVideoList
+  parent: Altazion.ECommerce.Controls
+  children:
+  - Altazion.ECommerce.Controls.ProduitVideoList.VideoCssClass
+  langs:
+  - csharp
+  - vb
+  name: ProduitVideoList
+  nameWithType: ProduitVideoList
+  fullName: Altazion.ECommerce.Controls.ProduitVideoList
+  type: Class
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/ProductVideo.cs
+    id: ProduitVideoList
+    path: ProductVideo.cs
+    startLine: 129
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  summary: "\nA utiliser dans un contrôle bindé sur un produit : \naffiche un ul avec liens contenant les imagettes des videos\nassociées au produit\n"
+  example: []
+  syntax:
+    content: 'public class ProduitVideoList : WebControl, IEquihiraBindable'
+    content.vb: >-
+      Public Class ProduitVideoList
+          Inherits WebControl
+          Implements IEquihiraBindable
+  inheritance:
+  - System.Object
+  implements:
+  - CPointSoftware.ECommerce.Tools.IEquihiraBindable
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Altazion.ECommerce.Controls.ProduitVideoList.VideoCssClass
+  commentId: P:Altazion.ECommerce.Controls.ProduitVideoList.VideoCssClass
+  id: VideoCssClass
+  parent: Altazion.ECommerce.Controls.ProduitVideoList
+  langs:
+  - csharp
+  - vb
+  name: VideoCssClass
+  nameWithType: ProduitVideoList.VideoCssClass
+  fullName: Altazion.ECommerce.Controls.ProduitVideoList.VideoCssClass
+  type: Property
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/ProductVideo.cs
+    id: VideoCssClass
+    path: ProductVideo.cs
+    startLine: 131
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: public string VideoCssClass { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property VideoCssClass As String
+  overload: Altazion.ECommerce.Controls.ProduitVideoList.VideoCssClass*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: Altazion.ECommerce.Controls
+  commentId: N:Altazion.ECommerce.Controls
+  name: Altazion.ECommerce.Controls
+  nameWithType: Altazion.ECommerce.Controls
+  fullName: Altazion.ECommerce.Controls
+- uid: System.Object
+  commentId: '!:System.Object'
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: CPointSoftware.ECommerce.Tools.IEquihiraBindable
+  commentId: T:CPointSoftware.ECommerce.Tools.IEquihiraBindable
+  parent: CPointSoftware.ECommerce.Tools
+  name: IEquihiraBindable
+  nameWithType: IEquihiraBindable
+  fullName: CPointSoftware.ECommerce.Tools.IEquihiraBindable
+- uid: CPointSoftware.ECommerce.Tools
+  commentId: N:CPointSoftware.ECommerce.Tools
+  name: CPointSoftware.ECommerce.Tools
+  nameWithType: CPointSoftware.ECommerce.Tools
+  fullName: CPointSoftware.ECommerce.Tools
+- uid: Altazion.ECommerce.Controls.ProduitVideoList.VideoCssClass*
+  commentId: Overload:Altazion.ECommerce.Controls.ProduitVideoList.VideoCssClass
+  name: VideoCssClass
+  nameWithType: ProduitVideoList.VideoCssClass
+  fullName: Altazion.ECommerce.Controls.ProduitVideoList.VideoCssClass
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

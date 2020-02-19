@@ -1,0 +1,99 @@
+### YamlMime:ManagedReference
+items:
+- uid: Altazion.ECommerce.Controls.BonsAchatsAjouterLink.BonsAchatsAjoutAjouteEventArgs
+  commentId: T:Altazion.ECommerce.Controls.BonsAchatsAjouterLink.BonsAchatsAjoutAjouteEventArgs
+  id: BonsAchatsAjouterLink.BonsAchatsAjoutAjouteEventArgs
+  parent: Altazion.ECommerce.Controls
+  children:
+  - Altazion.ECommerce.Controls.BonsAchatsAjouterLink.BonsAchatsAjoutAjouteEventArgs.BonAchatGuid
+  langs:
+  - csharp
+  - vb
+  name: BonsAchatsAjouterLink.BonsAchatsAjoutAjouteEventArgs
+  nameWithType: BonsAchatsAjouterLink.BonsAchatsAjoutAjouteEventArgs
+  fullName: Altazion.ECommerce.Controls.BonsAchatsAjouterLink.BonsAchatsAjoutAjouteEventArgs
+  type: Class
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/BonsAchatsControls.cs
+    id: BonsAchatsAjoutAjouteEventArgs
+    path: BonsAchatsControls.cs
+    startLine: 148
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  summary: "\nReprésente les détails pour un événement du type <xref href=\"Altazion.ECommerce.Controls.BonsAchatsAjouterLink.BonsAchatsAjoute\" data-throw-if-not-resolved=\"false\"></xref>\n"
+  example: []
+  syntax:
+    content: 'public class BonsAchatsAjoutAjouteEventArgs : EventArgs'
+    content.vb: >-
+      Public Class BonsAchatsAjoutAjouteEventArgs
+          Inherits EventArgs
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Altazion.ECommerce.Controls.BonsAchatsAjouterLink.BonsAchatsAjoutAjouteEventArgs.BonAchatGuid
+  commentId: P:Altazion.ECommerce.Controls.BonsAchatsAjouterLink.BonsAchatsAjoutAjouteEventArgs.BonAchatGuid
+  id: BonAchatGuid
+  parent: Altazion.ECommerce.Controls.BonsAchatsAjouterLink.BonsAchatsAjoutAjouteEventArgs
+  langs:
+  - csharp
+  - vb
+  name: BonAchatGuid
+  nameWithType: BonsAchatsAjouterLink.BonsAchatsAjoutAjouteEventArgs.BonAchatGuid
+  fullName: Altazion.ECommerce.Controls.BonsAchatsAjouterLink.BonsAchatsAjoutAjouteEventArgs.BonAchatGuid
+  type: Property
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/BonsAchatsControls.cs
+    id: BonAchatGuid
+    path: BonsAchatsControls.cs
+    startLine: 153
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  summary: "\nObtient ou définit l&apos;identifiant du bon d&apos;achat\n"
+  example: []
+  syntax:
+    content: public Guid BonAchatGuid { get; set; }
+    parameters: []
+    return:
+      type: Guid
+    content.vb: Public Property BonAchatGuid As Guid
+  overload: Altazion.ECommerce.Controls.BonsAchatsAjouterLink.BonsAchatsAjoutAjouteEventArgs.BonAchatGuid*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: Altazion.ECommerce.Controls.BonsAchatsAjouterLink.BonsAchatsAjoute
+  commentId: E:Altazion.ECommerce.Controls.BonsAchatsAjouterLink.BonsAchatsAjoute
+  isExternal: true
+- uid: Altazion.ECommerce.Controls
+  commentId: N:Altazion.ECommerce.Controls
+  name: Altazion.ECommerce.Controls
+  nameWithType: Altazion.ECommerce.Controls
+  fullName: Altazion.ECommerce.Controls
+- uid: System.Object
+  commentId: '!:System.Object'
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Altazion.ECommerce.Controls.BonsAchatsAjouterLink.BonsAchatsAjoutAjouteEventArgs.BonAchatGuid*
+  commentId: Overload:Altazion.ECommerce.Controls.BonsAchatsAjouterLink.BonsAchatsAjoutAjouteEventArgs.BonAchatGuid
+  name: BonAchatGuid
+  nameWithType: BonsAchatsAjouterLink.BonsAchatsAjoutAjouteEventArgs.BonAchatGuid
+  fullName: Altazion.ECommerce.Controls.BonsAchatsAjouterLink.BonsAchatsAjoutAjouteEventArgs.BonAchatGuid
+- uid: Guid
+  isExternal: true
+  name: Guid
+  nameWithType: Guid
+  fullName: Guid

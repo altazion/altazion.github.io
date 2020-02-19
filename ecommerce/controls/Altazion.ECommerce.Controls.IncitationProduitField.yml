@@ -1,0 +1,261 @@
+### YamlMime:ManagedReference
+items:
+- uid: Altazion.ECommerce.Controls.IncitationProduitField
+  commentId: T:Altazion.ECommerce.Controls.IncitationProduitField
+  id: IncitationProduitField
+  parent: Altazion.ECommerce.Controls
+  children:
+  - Altazion.ECommerce.Controls.IncitationProduitField.CssClassSiPromo
+  - Altazion.ECommerce.Controls.IncitationProduitField.Field
+  - Altazion.ECommerce.Controls.IncitationProduitField.Format
+  - Altazion.ECommerce.Controls.IncitationProduitField.OnPreRender(EventArgs)
+  - Altazion.ECommerce.Controls.IncitationProduitField.TextePrixZero
+  langs:
+  - csharp
+  - vb
+  name: IncitationProduitField
+  nameWithType: IncitationProduitField
+  fullName: Altazion.ECommerce.Controls.IncitationProduitField
+  type: Class
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/IncitationControls.cs
+    id: IncitationProduitField
+    path: IncitationControls.cs
+    startLine: 81
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  summary: "\nAffiche un span avec l&apos;une des informations\nproduit pour celui associé à l&apos;incitation\n"
+  example: []
+  syntax:
+    content: 'public class IncitationProduitField : Label'
+    content.vb: >-
+      Public Class IncitationProduitField
+          Inherits Label
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Altazion.ECommerce.Controls.IncitationProduitField.Format
+  commentId: P:Altazion.ECommerce.Controls.IncitationProduitField.Format
+  id: Format
+  parent: Altazion.ECommerce.Controls.IncitationProduitField
+  langs:
+  - csharp
+  - vb
+  name: Format
+  nameWithType: IncitationProduitField.Format
+  fullName: Altazion.ECommerce.Controls.IncitationProduitField.Format
+  type: Property
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/IncitationControls.cs
+    id: Format
+    path: IncitationControls.cs
+    startLine: 94
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: public String Format { get; set; }
+    parameters: []
+    return:
+      type: String
+    content.vb: Public Property Format As String
+  overload: Altazion.ECommerce.Controls.IncitationProduitField.Format*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Altazion.ECommerce.Controls.IncitationProduitField.TextePrixZero
+  commentId: P:Altazion.ECommerce.Controls.IncitationProduitField.TextePrixZero
+  id: TextePrixZero
+  parent: Altazion.ECommerce.Controls.IncitationProduitField
+  langs:
+  - csharp
+  - vb
+  name: TextePrixZero
+  nameWithType: IncitationProduitField.TextePrixZero
+  fullName: Altazion.ECommerce.Controls.IncitationProduitField.TextePrixZero
+  type: Property
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/IncitationControls.cs
+    id: TextePrixZero
+    path: IncitationControls.cs
+    startLine: 115
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: public String TextePrixZero { get; set; }
+    parameters: []
+    return:
+      type: String
+    content.vb: Public Property TextePrixZero As String
+  overload: Altazion.ECommerce.Controls.IncitationProduitField.TextePrixZero*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Altazion.ECommerce.Controls.IncitationProduitField.Field
+  commentId: P:Altazion.ECommerce.Controls.IncitationProduitField.Field
+  id: Field
+  parent: Altazion.ECommerce.Controls.IncitationProduitField
+  langs:
+  - csharp
+  - vb
+  name: Field
+  nameWithType: IncitationProduitField.Field
+  fullName: Altazion.ECommerce.Controls.IncitationProduitField.Field
+  type: Property
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/IncitationControls.cs
+    id: Field
+    path: IncitationControls.cs
+    startLine: 136
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: public IncitationProduitField.ProduitField Field { get; set; }
+    parameters: []
+    return:
+      type: Altazion.ECommerce.Controls.IncitationProduitField.ProduitField
+    content.vb: Public Property Field As IncitationProduitField.ProduitField
+  overload: Altazion.ECommerce.Controls.IncitationProduitField.Field*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Altazion.ECommerce.Controls.IncitationProduitField.CssClassSiPromo
+  commentId: P:Altazion.ECommerce.Controls.IncitationProduitField.CssClassSiPromo
+  id: CssClassSiPromo
+  parent: Altazion.ECommerce.Controls.IncitationProduitField
+  langs:
+  - csharp
+  - vb
+  name: CssClassSiPromo
+  nameWithType: IncitationProduitField.CssClassSiPromo
+  fullName: Altazion.ECommerce.Controls.IncitationProduitField.CssClassSiPromo
+  type: Property
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/IncitationControls.cs
+    id: CssClassSiPromo
+    path: IncitationControls.cs
+    startLine: 155
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: public String CssClassSiPromo { get; set; }
+    parameters: []
+    return:
+      type: String
+    content.vb: Public Property CssClassSiPromo As String
+  overload: Altazion.ECommerce.Controls.IncitationProduitField.CssClassSiPromo*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Altazion.ECommerce.Controls.IncitationProduitField.OnPreRender(EventArgs)
+  commentId: M:Altazion.ECommerce.Controls.IncitationProduitField.OnPreRender(EventArgs)
+  id: OnPreRender(EventArgs)
+  parent: Altazion.ECommerce.Controls.IncitationProduitField
+  langs:
+  - csharp
+  - vb
+  name: OnPreRender(EventArgs)
+  nameWithType: IncitationProduitField.OnPreRender(EventArgs)
+  fullName: Altazion.ECommerce.Controls.IncitationProduitField.OnPreRender(EventArgs)
+  type: Method
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/IncitationControls.cs
+    id: OnPreRender
+    path: IncitationControls.cs
+    startLine: 177
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: protected override void OnPreRender(EventArgs e)
+    parameters:
+    - id: e
+      type: EventArgs
+    content.vb: Protected Overrides Sub OnPreRender(e As EventArgs)
+  overload: Altazion.ECommerce.Controls.IncitationProduitField.OnPreRender*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+references:
+- uid: Altazion.ECommerce.Controls
+  commentId: N:Altazion.ECommerce.Controls
+  name: Altazion.ECommerce.Controls
+  nameWithType: Altazion.ECommerce.Controls
+  fullName: Altazion.ECommerce.Controls
+- uid: System.Object
+  commentId: '!:System.Object'
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Altazion.ECommerce.Controls.IncitationProduitField.Format*
+  commentId: Overload:Altazion.ECommerce.Controls.IncitationProduitField.Format
+  name: Format
+  nameWithType: IncitationProduitField.Format
+  fullName: Altazion.ECommerce.Controls.IncitationProduitField.Format
+- uid: String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: String
+- uid: Altazion.ECommerce.Controls.IncitationProduitField.TextePrixZero*
+  commentId: Overload:Altazion.ECommerce.Controls.IncitationProduitField.TextePrixZero
+  name: TextePrixZero
+  nameWithType: IncitationProduitField.TextePrixZero
+  fullName: Altazion.ECommerce.Controls.IncitationProduitField.TextePrixZero
+- uid: Altazion.ECommerce.Controls.IncitationProduitField.Field*
+  commentId: Overload:Altazion.ECommerce.Controls.IncitationProduitField.Field
+  name: Field
+  nameWithType: IncitationProduitField.Field
+  fullName: Altazion.ECommerce.Controls.IncitationProduitField.Field
+- uid: Altazion.ECommerce.Controls.IncitationProduitField.ProduitField
+  commentId: T:Altazion.ECommerce.Controls.IncitationProduitField.ProduitField
+  parent: Altazion.ECommerce.Controls
+  name: IncitationProduitField.ProduitField
+  nameWithType: IncitationProduitField.ProduitField
+  fullName: Altazion.ECommerce.Controls.IncitationProduitField.ProduitField
+- uid: Altazion.ECommerce.Controls.IncitationProduitField.CssClassSiPromo*
+  commentId: Overload:Altazion.ECommerce.Controls.IncitationProduitField.CssClassSiPromo
+  name: CssClassSiPromo
+  nameWithType: IncitationProduitField.CssClassSiPromo
+  fullName: Altazion.ECommerce.Controls.IncitationProduitField.CssClassSiPromo
+- uid: Altazion.ECommerce.Controls.IncitationProduitField.OnPreRender*
+  commentId: Overload:Altazion.ECommerce.Controls.IncitationProduitField.OnPreRender
+  name: OnPreRender
+  nameWithType: IncitationProduitField.OnPreRender
+  fullName: Altazion.ECommerce.Controls.IncitationProduitField.OnPreRender
+- uid: EventArgs
+  isExternal: true
+  name: EventArgs
+  nameWithType: EventArgs
+  fullName: EventArgs

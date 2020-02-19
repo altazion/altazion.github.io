@@ -1,0 +1,180 @@
+### YamlMime:ManagedReference
+items:
+- uid: Altazion.ECommerce.Controls.SeoContentPanel
+  commentId: T:Altazion.ECommerce.Controls.SeoContentPanel
+  id: SeoContentPanel
+  parent: Altazion.ECommerce.Controls
+  children:
+  - Altazion.ECommerce.Controls.SeoContentPanel.#ctor
+  - Altazion.ECommerce.Controls.SeoContentPanel.CodeEmplacement
+  - Altazion.ECommerce.Controls.SeoContentPanel.OnPreRender(EventArgs)
+  langs:
+  - csharp
+  - vb
+  name: SeoContentPanel
+  nameWithType: SeoContentPanel
+  fullName: Altazion.ECommerce.Controls.SeoContentPanel
+  type: Class
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/SeoContentControls.cs
+    id: SeoContentPanel
+    path: SeoContentControls.cs
+    startLine: 287
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  summary: "\nPanel (div) affiché si un emplacement SEO \na été renseigné dans le back-office.\n"
+  remarks: "<p>Ce contrôle est destiné à être utilisé dans \n    un thème personnalisé pour définir un emplacement dont\n    le contenu sera géré via un éditeur CMS dans le back-office.\n    Pour plus d&apos;information, consultez la documentation sur\n    la personnalisation.</p>\n<p>Ce controle ajoute une div si l&apos;emplacement SEO\na été renseigné dans le back office, la div n&apos;est pas\najoutée dans le cas contraire.</p>\n"
+  example: []
+  syntax:
+    content: 'public class SeoContentPanel : Panel'
+    content.vb: >-
+      Public Class SeoContentPanel
+          Inherits Panel
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Altazion.ECommerce.Controls.SeoContentPanel.#ctor
+  commentId: M:Altazion.ECommerce.Controls.SeoContentPanel.#ctor
+  id: '#ctor'
+  parent: Altazion.ECommerce.Controls.SeoContentPanel
+  langs:
+  - csharp
+  - vb
+  name: SeoContentPanel()
+  nameWithType: SeoContentPanel.SeoContentPanel()
+  fullName: Altazion.ECommerce.Controls.SeoContentPanel.SeoContentPanel()
+  type: Constructor
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/SeoContentControls.cs
+    id: .ctor
+    path: SeoContentControls.cs
+    startLine: 292
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  summary: "\nConstructeur par défaut\n"
+  example: []
+  syntax:
+    content: public SeoContentPanel()
+    content.vb: Public Sub New
+  overload: Altazion.ECommerce.Controls.SeoContentPanel.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Altazion.ECommerce.Controls.SeoContentPanel.CodeEmplacement
+  commentId: P:Altazion.ECommerce.Controls.SeoContentPanel.CodeEmplacement
+  id: CodeEmplacement
+  parent: Altazion.ECommerce.Controls.SeoContentPanel
+  langs:
+  - csharp
+  - vb
+  name: CodeEmplacement
+  nameWithType: SeoContentPanel.CodeEmplacement
+  fullName: Altazion.ECommerce.Controls.SeoContentPanel.CodeEmplacement
+  type: Property
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/SeoContentControls.cs
+    id: CodeEmplacement
+    path: SeoContentControls.cs
+    startLine: 301
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  summary: "\nObtient ou définit un code d&apos;emplacement \npour identifier la zone à afficher\n"
+  example: []
+  syntax:
+    content: public string CodeEmplacement { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property CodeEmplacement As String
+  overload: Altazion.ECommerce.Controls.SeoContentPanel.CodeEmplacement*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Altazion.ECommerce.Controls.SeoContentPanel.OnPreRender(EventArgs)
+  commentId: M:Altazion.ECommerce.Controls.SeoContentPanel.OnPreRender(EventArgs)
+  id: OnPreRender(EventArgs)
+  parent: Altazion.ECommerce.Controls.SeoContentPanel
+  langs:
+  - csharp
+  - vb
+  name: OnPreRender(EventArgs)
+  nameWithType: SeoContentPanel.OnPreRender(EventArgs)
+  fullName: Altazion.ECommerce.Controls.SeoContentPanel.OnPreRender(EventArgs)
+  type: Method
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/SeoContentControls.cs
+    id: OnPreRender
+    path: SeoContentControls.cs
+    startLine: 308
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  summary: "\nEffectue le calcul de pré-rendu du contrôle.\n"
+  example: []
+  syntax:
+    content: protected override void OnPreRender(EventArgs e)
+    parameters:
+    - id: e
+      type: EventArgs
+      description: ''
+    content.vb: Protected Overrides Sub OnPreRender(e As EventArgs)
+  overload: Altazion.ECommerce.Controls.SeoContentPanel.OnPreRender*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+references:
+- uid: Altazion.ECommerce.Controls
+  commentId: N:Altazion.ECommerce.Controls
+  name: Altazion.ECommerce.Controls
+  nameWithType: Altazion.ECommerce.Controls
+  fullName: Altazion.ECommerce.Controls
+- uid: System.Object
+  commentId: '!:System.Object'
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Altazion.ECommerce.Controls.SeoContentPanel.#ctor*
+  commentId: Overload:Altazion.ECommerce.Controls.SeoContentPanel.#ctor
+  name: SeoContentPanel
+  nameWithType: SeoContentPanel.SeoContentPanel
+  fullName: Altazion.ECommerce.Controls.SeoContentPanel.SeoContentPanel
+- uid: Altazion.ECommerce.Controls.SeoContentPanel.CodeEmplacement*
+  commentId: Overload:Altazion.ECommerce.Controls.SeoContentPanel.CodeEmplacement
+  name: CodeEmplacement
+  nameWithType: SeoContentPanel.CodeEmplacement
+  fullName: Altazion.ECommerce.Controls.SeoContentPanel.CodeEmplacement
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Altazion.ECommerce.Controls.SeoContentPanel.OnPreRender*
+  commentId: Overload:Altazion.ECommerce.Controls.SeoContentPanel.OnPreRender
+  name: OnPreRender
+  nameWithType: SeoContentPanel.OnPreRender
+  fullName: Altazion.ECommerce.Controls.SeoContentPanel.OnPreRender
+- uid: EventArgs
+  isExternal: true
+  name: EventArgs
+  nameWithType: EventArgs
+  fullName: EventArgs

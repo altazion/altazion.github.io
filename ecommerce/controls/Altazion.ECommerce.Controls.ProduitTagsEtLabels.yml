@@ -1,0 +1,108 @@
+### YamlMime:ManagedReference
+items:
+- uid: Altazion.ECommerce.Controls.ProduitTagsEtLabels
+  commentId: T:Altazion.ECommerce.Controls.ProduitTagsEtLabels
+  id: ProduitTagsEtLabels
+  parent: Altazion.ECommerce.Controls
+  children:
+  - Altazion.ECommerce.Controls.ProduitTagsEtLabels.TagContainerCssClass
+  langs:
+  - csharp
+  - vb
+  name: ProduitTagsEtLabels
+  nameWithType: ProduitTagsEtLabels
+  fullName: Altazion.ECommerce.Controls.ProduitTagsEtLabels
+  type: Class
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/ProductLabels.cs
+    id: ProduitTagsEtLabels
+    path: ProductLabels.cs
+    startLine: 802
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  summary: "\nA utiliser dans un contrôle bindé sur un produit : affiche un div\navec le rendu d&apos;un tag pour un produit. Si le tag est en html, celui-ci \nest placé dans le div, sinon c&apos;est un span avec le libellé du tag.\n"
+  example: []
+  syntax:
+    content: 'public class ProduitTagsEtLabels : Panel, IEquihiraBindable'
+    content.vb: >-
+      Public Class ProduitTagsEtLabels
+          Inherits Panel
+          Implements IEquihiraBindable
+  inheritance:
+  - System.Object
+  implements:
+  - CPointSoftware.ECommerce.Tools.IEquihiraBindable
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Altazion.ECommerce.Controls.ProduitTagsEtLabels.TagContainerCssClass
+  commentId: P:Altazion.ECommerce.Controls.ProduitTagsEtLabels.TagContainerCssClass
+  id: TagContainerCssClass
+  parent: Altazion.ECommerce.Controls.ProduitTagsEtLabels
+  langs:
+  - csharp
+  - vb
+  name: TagContainerCssClass
+  nameWithType: ProduitTagsEtLabels.TagContainerCssClass
+  fullName: Altazion.ECommerce.Controls.ProduitTagsEtLabels.TagContainerCssClass
+  type: Property
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/ProductLabels.cs
+    id: TagContainerCssClass
+    path: ProductLabels.cs
+    startLine: 804
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: public string TagContainerCssClass { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property TagContainerCssClass As String
+  overload: Altazion.ECommerce.Controls.ProduitTagsEtLabels.TagContainerCssClass*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: Altazion.ECommerce.Controls
+  commentId: N:Altazion.ECommerce.Controls
+  name: Altazion.ECommerce.Controls
+  nameWithType: Altazion.ECommerce.Controls
+  fullName: Altazion.ECommerce.Controls
+- uid: System.Object
+  commentId: '!:System.Object'
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: CPointSoftware.ECommerce.Tools.IEquihiraBindable
+  commentId: T:CPointSoftware.ECommerce.Tools.IEquihiraBindable
+  parent: CPointSoftware.ECommerce.Tools
+  name: IEquihiraBindable
+  nameWithType: IEquihiraBindable
+  fullName: CPointSoftware.ECommerce.Tools.IEquihiraBindable
+- uid: CPointSoftware.ECommerce.Tools
+  commentId: N:CPointSoftware.ECommerce.Tools
+  name: CPointSoftware.ECommerce.Tools
+  nameWithType: CPointSoftware.ECommerce.Tools
+  fullName: CPointSoftware.ECommerce.Tools
+- uid: Altazion.ECommerce.Controls.ProduitTagsEtLabels.TagContainerCssClass*
+  commentId: Overload:Altazion.ECommerce.Controls.ProduitTagsEtLabels.TagContainerCssClass
+  name: TagContainerCssClass
+  nameWithType: ProduitTagsEtLabels.TagContainerCssClass
+  fullName: Altazion.ECommerce.Controls.ProduitTagsEtLabels.TagContainerCssClass
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

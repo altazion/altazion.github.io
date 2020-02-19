@@ -1,0 +1,145 @@
+### YamlMime:ManagedReference
+items:
+- uid: Altazion.ECommerce.Controls.MagasinAssociePanel
+  commentId: T:Altazion.ECommerce.Controls.MagasinAssociePanel
+  id: MagasinAssociePanel
+  parent: Altazion.ECommerce.Controls
+  children:
+  - Altazion.ECommerce.Controls.MagasinAssociePanel.CacherSiAssocieMagasin
+  - Altazion.ECommerce.Controls.MagasinAssociePanel.CacherSiNonAssocieMagasin
+  langs:
+  - csharp
+  - vb
+  name: MagasinAssociePanel
+  nameWithType: MagasinAssociePanel
+  fullName: Altazion.ECommerce.Controls.MagasinAssociePanel
+  type: Class
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanelCrossCanal.cs
+    id: MagasinAssociePanel
+    path: PanelCrossCanal.cs
+    startLine: 144
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: 'public class MagasinAssociePanel : Panel, IEquihiraBindable'
+    content.vb: >-
+      Public Class MagasinAssociePanel
+          Inherits Panel
+          Implements IEquihiraBindable
+  inheritance:
+  - System.Object
+  implements:
+  - CPointSoftware.ECommerce.Tools.IEquihiraBindable
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Altazion.ECommerce.Controls.MagasinAssociePanel.CacherSiAssocieMagasin
+  commentId: P:Altazion.ECommerce.Controls.MagasinAssociePanel.CacherSiAssocieMagasin
+  id: CacherSiAssocieMagasin
+  parent: Altazion.ECommerce.Controls.MagasinAssociePanel
+  langs:
+  - csharp
+  - vb
+  name: CacherSiAssocieMagasin
+  nameWithType: MagasinAssociePanel.CacherSiAssocieMagasin
+  fullName: Altazion.ECommerce.Controls.MagasinAssociePanel.CacherSiAssocieMagasin
+  type: Property
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanelCrossCanal.cs
+    id: CacherSiAssocieMagasin
+    path: PanelCrossCanal.cs
+    startLine: 146
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: public bool CacherSiAssocieMagasin { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property CacherSiAssocieMagasin As Boolean
+  overload: Altazion.ECommerce.Controls.MagasinAssociePanel.CacherSiAssocieMagasin*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Altazion.ECommerce.Controls.MagasinAssociePanel.CacherSiNonAssocieMagasin
+  commentId: P:Altazion.ECommerce.Controls.MagasinAssociePanel.CacherSiNonAssocieMagasin
+  id: CacherSiNonAssocieMagasin
+  parent: Altazion.ECommerce.Controls.MagasinAssociePanel
+  langs:
+  - csharp
+  - vb
+  name: CacherSiNonAssocieMagasin
+  nameWithType: MagasinAssociePanel.CacherSiNonAssocieMagasin
+  fullName: Altazion.ECommerce.Controls.MagasinAssociePanel.CacherSiNonAssocieMagasin
+  type: Property
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanelCrossCanal.cs
+    id: CacherSiNonAssocieMagasin
+    path: PanelCrossCanal.cs
+    startLine: 147
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: public bool CacherSiNonAssocieMagasin { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property CacherSiNonAssocieMagasin As Boolean
+  overload: Altazion.ECommerce.Controls.MagasinAssociePanel.CacherSiNonAssocieMagasin*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: Altazion.ECommerce.Controls
+  commentId: N:Altazion.ECommerce.Controls
+  name: Altazion.ECommerce.Controls
+  nameWithType: Altazion.ECommerce.Controls
+  fullName: Altazion.ECommerce.Controls
+- uid: System.Object
+  commentId: '!:System.Object'
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: CPointSoftware.ECommerce.Tools.IEquihiraBindable
+  commentId: T:CPointSoftware.ECommerce.Tools.IEquihiraBindable
+  parent: CPointSoftware.ECommerce.Tools
+  name: IEquihiraBindable
+  nameWithType: IEquihiraBindable
+  fullName: CPointSoftware.ECommerce.Tools.IEquihiraBindable
+- uid: CPointSoftware.ECommerce.Tools
+  commentId: N:CPointSoftware.ECommerce.Tools
+  name: CPointSoftware.ECommerce.Tools
+  nameWithType: CPointSoftware.ECommerce.Tools
+  fullName: CPointSoftware.ECommerce.Tools
+- uid: Altazion.ECommerce.Controls.MagasinAssociePanel.CacherSiAssocieMagasin*
+  commentId: Overload:Altazion.ECommerce.Controls.MagasinAssociePanel.CacherSiAssocieMagasin
+  name: CacherSiAssocieMagasin
+  nameWithType: MagasinAssociePanel.CacherSiAssocieMagasin
+  fullName: Altazion.ECommerce.Controls.MagasinAssociePanel.CacherSiAssocieMagasin
+- uid: System.Boolean
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Altazion.ECommerce.Controls.MagasinAssociePanel.CacherSiNonAssocieMagasin*
+  commentId: Overload:Altazion.ECommerce.Controls.MagasinAssociePanel.CacherSiNonAssocieMagasin
+  name: CacherSiNonAssocieMagasin
+  nameWithType: MagasinAssociePanel.CacherSiNonAssocieMagasin
+  fullName: Altazion.ECommerce.Controls.MagasinAssociePanel.CacherSiNonAssocieMagasin

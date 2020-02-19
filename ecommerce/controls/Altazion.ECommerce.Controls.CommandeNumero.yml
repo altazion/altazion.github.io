@@ -1,0 +1,94 @@
+### YamlMime:ManagedReference
+items:
+- uid: Altazion.ECommerce.Controls.CommandeNumero
+  commentId: T:Altazion.ECommerce.Controls.CommandeNumero
+  id: CommandeNumero
+  parent: Altazion.ECommerce.Controls
+  children:
+  - Altazion.ECommerce.Controls.CommandeNumero.OnPreRender(EventArgs)
+  langs:
+  - csharp
+  - vb
+  name: CommandeNumero
+  nameWithType: CommandeNumero
+  fullName: Altazion.ECommerce.Controls.CommandeNumero
+  type: Class
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/CommandeLabels.cs
+    id: CommandeNumero
+    path: CommandeLabels.cs
+    startLine: 14
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  summary: "\nAffiche un span avec le numéro de commande\ndu panier actif. (sera vide tant que le panier\nn&apos;a pas été au moins validé une première fois)\n"
+  example: []
+  syntax:
+    content: 'public class CommandeNumero : Label'
+    content.vb: >-
+      Public Class CommandeNumero
+          Inherits Label
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Altazion.ECommerce.Controls.CommandeNumero.OnPreRender(EventArgs)
+  commentId: M:Altazion.ECommerce.Controls.CommandeNumero.OnPreRender(EventArgs)
+  id: OnPreRender(EventArgs)
+  parent: Altazion.ECommerce.Controls.CommandeNumero
+  langs:
+  - csharp
+  - vb
+  name: OnPreRender(EventArgs)
+  nameWithType: CommandeNumero.OnPreRender(EventArgs)
+  fullName: Altazion.ECommerce.Controls.CommandeNumero.OnPreRender(EventArgs)
+  type: Method
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/CommandeLabels.cs
+    id: OnPreRender
+    path: CommandeLabels.cs
+    startLine: 16
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: protected override void OnPreRender(EventArgs e)
+    parameters:
+    - id: e
+      type: EventArgs
+    content.vb: Protected Overrides Sub OnPreRender(e As EventArgs)
+  overload: Altazion.ECommerce.Controls.CommandeNumero.OnPreRender*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+references:
+- uid: Altazion.ECommerce.Controls
+  commentId: N:Altazion.ECommerce.Controls
+  name: Altazion.ECommerce.Controls
+  nameWithType: Altazion.ECommerce.Controls
+  fullName: Altazion.ECommerce.Controls
+- uid: System.Object
+  commentId: '!:System.Object'
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Altazion.ECommerce.Controls.CommandeNumero.OnPreRender*
+  commentId: Overload:Altazion.ECommerce.Controls.CommandeNumero.OnPreRender
+  name: OnPreRender
+  nameWithType: CommandeNumero.OnPreRender
+  fullName: Altazion.ECommerce.Controls.CommandeNumero.OnPreRender
+- uid: EventArgs
+  isExternal: true
+  name: EventArgs
+  nameWithType: EventArgs
+  fullName: EventArgs

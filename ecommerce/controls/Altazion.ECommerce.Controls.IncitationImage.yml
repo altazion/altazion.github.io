@@ -1,0 +1,106 @@
+### YamlMime:ManagedReference
+items:
+- uid: Altazion.ECommerce.Controls.IncitationImage
+  commentId: T:Altazion.ECommerce.Controls.IncitationImage
+  id: IncitationImage
+  parent: Altazion.ECommerce.Controls
+  children:
+  - Altazion.ECommerce.Controls.IncitationImage.OnPreRender(EventArgs)
+  langs:
+  - csharp
+  - vb
+  name: IncitationImage
+  nameWithType: IncitationImage
+  fullName: Altazion.ECommerce.Controls.IncitationImage
+  type: Class
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/IncitationControls.cs
+    id: IncitationImage
+    path: IncitationControls.cs
+    startLine: 32
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  summary: "\nAffiche un img avec l&apos;image associé à l&apos;incitation\n"
+  example: []
+  syntax:
+    content: 'public class IncitationImage : RewrittenImage'
+    content.vb: >-
+      Public Class IncitationImage
+          Inherits RewrittenImage
+  inheritance:
+  - System.Object
+  - CPointSoftware.ECommerce.Tools.RewrittenImage
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Altazion.ECommerce.Controls.IncitationImage.OnPreRender(EventArgs)
+  commentId: M:Altazion.ECommerce.Controls.IncitationImage.OnPreRender(EventArgs)
+  id: OnPreRender(EventArgs)
+  parent: Altazion.ECommerce.Controls.IncitationImage
+  langs:
+  - csharp
+  - vb
+  name: OnPreRender(EventArgs)
+  nameWithType: IncitationImage.OnPreRender(EventArgs)
+  fullName: Altazion.ECommerce.Controls.IncitationImage.OnPreRender(EventArgs)
+  type: Method
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/IncitationControls.cs
+    id: OnPreRender
+    path: IncitationControls.cs
+    startLine: 34
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: protected override void OnPreRender(EventArgs e)
+    parameters:
+    - id: e
+      type: EventArgs
+    content.vb: Protected Overrides Sub OnPreRender(e As EventArgs)
+  overload: Altazion.ECommerce.Controls.IncitationImage.OnPreRender*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+references:
+- uid: Altazion.ECommerce.Controls
+  commentId: N:Altazion.ECommerce.Controls
+  name: Altazion.ECommerce.Controls
+  nameWithType: Altazion.ECommerce.Controls
+  fullName: Altazion.ECommerce.Controls
+- uid: System.Object
+  commentId: '!:System.Object'
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: CPointSoftware.ECommerce.Tools.RewrittenImage
+  commentId: T:CPointSoftware.ECommerce.Tools.RewrittenImage
+  parent: CPointSoftware.ECommerce.Tools
+  name: RewrittenImage
+  nameWithType: RewrittenImage
+  fullName: CPointSoftware.ECommerce.Tools.RewrittenImage
+- uid: CPointSoftware.ECommerce.Tools
+  commentId: N:CPointSoftware.ECommerce.Tools
+  name: CPointSoftware.ECommerce.Tools
+  nameWithType: CPointSoftware.ECommerce.Tools
+  fullName: CPointSoftware.ECommerce.Tools
+- uid: Altazion.ECommerce.Controls.IncitationImage.OnPreRender*
+  commentId: Overload:Altazion.ECommerce.Controls.IncitationImage.OnPreRender
+  name: OnPreRender
+  nameWithType: IncitationImage.OnPreRender
+  fullName: Altazion.ECommerce.Controls.IncitationImage.OnPreRender
+- uid: EventArgs
+  isExternal: true
+  name: EventArgs
+  nameWithType: EventArgs
+  fullName: EventArgs

@@ -1,0 +1,261 @@
+### YamlMime:ManagedReference
+items:
+- uid: Altazion.ECommerce.Controls.PanierProduitLink.ProduitField
+  commentId: T:Altazion.ECommerce.Controls.PanierProduitLink.ProduitField
+  id: PanierProduitLink.ProduitField
+  parent: Altazion.ECommerce.Controls
+  children:
+  - Altazion.ECommerce.Controls.PanierProduitLink.ProduitField.Libelle
+  - Altazion.ECommerce.Controls.PanierProduitLink.ProduitField.MontantHt
+  - Altazion.ECommerce.Controls.PanierProduitLink.ProduitField.MontantTtc
+  - Altazion.ECommerce.Controls.PanierProduitLink.ProduitField.PrixUnitaireHt
+  - Altazion.ECommerce.Controls.PanierProduitLink.ProduitField.PrixUnitaireTtc
+  - Altazion.ECommerce.Controls.PanierProduitLink.ProduitField.Quantite
+  - Altazion.ECommerce.Controls.PanierProduitLink.ProduitField.Reference
+  langs:
+  - csharp
+  - vb
+  name: PanierProduitLink.ProduitField
+  nameWithType: PanierProduitLink.ProduitField
+  fullName: Altazion.ECommerce.Controls.PanierProduitLink.ProduitField
+  type: Enum
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanierProduitField.cs
+    id: ProduitField
+    path: PanierProduitField.cs
+    startLine: 842
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: 'public enum ProduitField : int'
+    content.vb: Public Enum ProduitField As Integer
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Altazion.ECommerce.Controls.PanierProduitLink.ProduitField.Reference
+  commentId: F:Altazion.ECommerce.Controls.PanierProduitLink.ProduitField.Reference
+  id: Reference
+  parent: Altazion.ECommerce.Controls.PanierProduitLink.ProduitField
+  langs:
+  - csharp
+  - vb
+  name: Reference
+  nameWithType: PanierProduitLink.ProduitField.Reference
+  fullName: Altazion.ECommerce.Controls.PanierProduitLink.ProduitField.Reference
+  type: Field
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanierProduitField.cs
+    id: Reference
+    path: PanierProduitField.cs
+    startLine: 844
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: Reference = 0
+    return:
+      type: Altazion.ECommerce.Controls.PanierProduitLink.ProduitField
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Altazion.ECommerce.Controls.PanierProduitLink.ProduitField.Quantite
+  commentId: F:Altazion.ECommerce.Controls.PanierProduitLink.ProduitField.Quantite
+  id: Quantite
+  parent: Altazion.ECommerce.Controls.PanierProduitLink.ProduitField
+  langs:
+  - csharp
+  - vb
+  name: Quantite
+  nameWithType: PanierProduitLink.ProduitField.Quantite
+  fullName: Altazion.ECommerce.Controls.PanierProduitLink.ProduitField.Quantite
+  type: Field
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanierProduitField.cs
+    id: Quantite
+    path: PanierProduitField.cs
+    startLine: 845
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: Quantite = 1
+    return:
+      type: Altazion.ECommerce.Controls.PanierProduitLink.ProduitField
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Altazion.ECommerce.Controls.PanierProduitLink.ProduitField.PrixUnitaireHt
+  commentId: F:Altazion.ECommerce.Controls.PanierProduitLink.ProduitField.PrixUnitaireHt
+  id: PrixUnitaireHt
+  parent: Altazion.ECommerce.Controls.PanierProduitLink.ProduitField
+  langs:
+  - csharp
+  - vb
+  name: PrixUnitaireHt
+  nameWithType: PanierProduitLink.ProduitField.PrixUnitaireHt
+  fullName: Altazion.ECommerce.Controls.PanierProduitLink.ProduitField.PrixUnitaireHt
+  type: Field
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanierProduitField.cs
+    id: PrixUnitaireHt
+    path: PanierProduitField.cs
+    startLine: 846
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: PrixUnitaireHt = 2
+    return:
+      type: Altazion.ECommerce.Controls.PanierProduitLink.ProduitField
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Altazion.ECommerce.Controls.PanierProduitLink.ProduitField.PrixUnitaireTtc
+  commentId: F:Altazion.ECommerce.Controls.PanierProduitLink.ProduitField.PrixUnitaireTtc
+  id: PrixUnitaireTtc
+  parent: Altazion.ECommerce.Controls.PanierProduitLink.ProduitField
+  langs:
+  - csharp
+  - vb
+  name: PrixUnitaireTtc
+  nameWithType: PanierProduitLink.ProduitField.PrixUnitaireTtc
+  fullName: Altazion.ECommerce.Controls.PanierProduitLink.ProduitField.PrixUnitaireTtc
+  type: Field
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanierProduitField.cs
+    id: PrixUnitaireTtc
+    path: PanierProduitField.cs
+    startLine: 847
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: PrixUnitaireTtc = 3
+    return:
+      type: Altazion.ECommerce.Controls.PanierProduitLink.ProduitField
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Altazion.ECommerce.Controls.PanierProduitLink.ProduitField.Libelle
+  commentId: F:Altazion.ECommerce.Controls.PanierProduitLink.ProduitField.Libelle
+  id: Libelle
+  parent: Altazion.ECommerce.Controls.PanierProduitLink.ProduitField
+  langs:
+  - csharp
+  - vb
+  name: Libelle
+  nameWithType: PanierProduitLink.ProduitField.Libelle
+  fullName: Altazion.ECommerce.Controls.PanierProduitLink.ProduitField.Libelle
+  type: Field
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanierProduitField.cs
+    id: Libelle
+    path: PanierProduitField.cs
+    startLine: 848
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: Libelle = 4
+    return:
+      type: Altazion.ECommerce.Controls.PanierProduitLink.ProduitField
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Altazion.ECommerce.Controls.PanierProduitLink.ProduitField.MontantHt
+  commentId: F:Altazion.ECommerce.Controls.PanierProduitLink.ProduitField.MontantHt
+  id: MontantHt
+  parent: Altazion.ECommerce.Controls.PanierProduitLink.ProduitField
+  langs:
+  - csharp
+  - vb
+  name: MontantHt
+  nameWithType: PanierProduitLink.ProduitField.MontantHt
+  fullName: Altazion.ECommerce.Controls.PanierProduitLink.ProduitField.MontantHt
+  type: Field
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanierProduitField.cs
+    id: MontantHt
+    path: PanierProduitField.cs
+    startLine: 849
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: MontantHt = 5
+    return:
+      type: Altazion.ECommerce.Controls.PanierProduitLink.ProduitField
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Altazion.ECommerce.Controls.PanierProduitLink.ProduitField.MontantTtc
+  commentId: F:Altazion.ECommerce.Controls.PanierProduitLink.ProduitField.MontantTtc
+  id: MontantTtc
+  parent: Altazion.ECommerce.Controls.PanierProduitLink.ProduitField
+  langs:
+  - csharp
+  - vb
+  name: MontantTtc
+  nameWithType: PanierProduitLink.ProduitField.MontantTtc
+  fullName: Altazion.ECommerce.Controls.PanierProduitLink.ProduitField.MontantTtc
+  type: Field
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanierProduitField.cs
+    id: MontantTtc
+    path: PanierProduitField.cs
+    startLine: 850
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: MontantTtc = 6
+    return:
+      type: Altazion.ECommerce.Controls.PanierProduitLink.ProduitField
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Altazion.ECommerce.Controls
+  commentId: N:Altazion.ECommerce.Controls
+  name: Altazion.ECommerce.Controls
+  nameWithType: Altazion.ECommerce.Controls
+  fullName: Altazion.ECommerce.Controls
+- uid: Altazion.ECommerce.Controls.PanierProduitLink.ProduitField
+  commentId: T:Altazion.ECommerce.Controls.PanierProduitLink.ProduitField
+  parent: Altazion.ECommerce.Controls
+  name: PanierProduitLink.ProduitField
+  nameWithType: PanierProduitLink.ProduitField
+  fullName: Altazion.ECommerce.Controls.PanierProduitLink.ProduitField

@@ -1,0 +1,106 @@
+### YamlMime:ManagedReference
+items:
+- uid: Altazion.ECommerce.Controls.ProductJsonLD
+  commentId: T:Altazion.ECommerce.Controls.ProductJsonLD
+  id: ProductJsonLD
+  parent: Altazion.ECommerce.Controls
+  children:
+  - Altazion.ECommerce.Controls.ProductJsonLD.OnDataBinding(EventArgs)
+  langs:
+  - csharp
+  - vb
+  name: ProductJsonLD
+  nameWithType: ProductJsonLD
+  fullName: Altazion.ECommerce.Controls.ProductJsonLD
+  type: Class
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/ProductJsonLD.cs
+    id: ProductJsonLD
+    path: ProductJsonLD.cs
+    startLine: 14
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: 'public class ProductJsonLD : WebControl, IEquihiraBindable'
+    content.vb: >-
+      Public Class ProductJsonLD
+          Inherits WebControl
+          Implements IEquihiraBindable
+  inheritance:
+  - System.Object
+  implements:
+  - CPointSoftware.ECommerce.Tools.IEquihiraBindable
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Altazion.ECommerce.Controls.ProductJsonLD.OnDataBinding(EventArgs)
+  commentId: M:Altazion.ECommerce.Controls.ProductJsonLD.OnDataBinding(EventArgs)
+  id: OnDataBinding(EventArgs)
+  parent: Altazion.ECommerce.Controls.ProductJsonLD
+  langs:
+  - csharp
+  - vb
+  name: OnDataBinding(EventArgs)
+  nameWithType: ProductJsonLD.OnDataBinding(EventArgs)
+  fullName: Altazion.ECommerce.Controls.ProductJsonLD.OnDataBinding(EventArgs)
+  type: Method
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/ProductJsonLD.cs
+    id: OnDataBinding
+    path: ProductJsonLD.cs
+    startLine: 16
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: protected override void OnDataBinding(EventArgs e)
+    parameters:
+    - id: e
+      type: EventArgs
+    content.vb: Protected Overrides Sub OnDataBinding(e As EventArgs)
+  overload: Altazion.ECommerce.Controls.ProductJsonLD.OnDataBinding*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+references:
+- uid: Altazion.ECommerce.Controls
+  commentId: N:Altazion.ECommerce.Controls
+  name: Altazion.ECommerce.Controls
+  nameWithType: Altazion.ECommerce.Controls
+  fullName: Altazion.ECommerce.Controls
+- uid: System.Object
+  commentId: '!:System.Object'
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: CPointSoftware.ECommerce.Tools.IEquihiraBindable
+  commentId: T:CPointSoftware.ECommerce.Tools.IEquihiraBindable
+  parent: CPointSoftware.ECommerce.Tools
+  name: IEquihiraBindable
+  nameWithType: IEquihiraBindable
+  fullName: CPointSoftware.ECommerce.Tools.IEquihiraBindable
+- uid: CPointSoftware.ECommerce.Tools
+  commentId: N:CPointSoftware.ECommerce.Tools
+  name: CPointSoftware.ECommerce.Tools
+  nameWithType: CPointSoftware.ECommerce.Tools
+  fullName: CPointSoftware.ECommerce.Tools
+- uid: Altazion.ECommerce.Controls.ProductJsonLD.OnDataBinding*
+  commentId: Overload:Altazion.ECommerce.Controls.ProductJsonLD.OnDataBinding
+  name: OnDataBinding
+  nameWithType: ProductJsonLD.OnDataBinding
+  fullName: Altazion.ECommerce.Controls.ProductJsonLD.OnDataBinding
+- uid: EventArgs
+  isExternal: true
+  name: EventArgs
+  nameWithType: EventArgs
+  fullName: EventArgs

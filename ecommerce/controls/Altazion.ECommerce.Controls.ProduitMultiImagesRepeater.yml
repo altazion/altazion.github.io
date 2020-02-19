@@ -1,0 +1,140 @@
+### YamlMime:ManagedReference
+items:
+- uid: Altazion.ECommerce.Controls.ProduitMultiImagesRepeater
+  commentId: T:Altazion.ECommerce.Controls.ProduitMultiImagesRepeater
+  id: ProduitMultiImagesRepeater
+  parent: Altazion.ECommerce.Controls
+  children:
+  - Altazion.ECommerce.Controls.ProduitMultiImagesRepeater.#ctor
+  - Altazion.ECommerce.Controls.ProduitMultiImagesRepeater.OnDataBinding(EventArgs)
+  langs:
+  - csharp
+  - vb
+  name: ProduitMultiImagesRepeater
+  nameWithType: ProduitMultiImagesRepeater
+  fullName: Altazion.ECommerce.Controls.ProduitMultiImagesRepeater
+  type: Class
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/ProductMultiImage.cs
+    id: ProduitMultiImagesRepeater
+    path: ProductMultiImage.cs
+    startLine: 92
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: 'public class ProduitMultiImagesRepeater : Repeater, IEquihiraBindable'
+    content.vb: >-
+      Public Class ProduitMultiImagesRepeater
+          Inherits Repeater
+          Implements IEquihiraBindable
+  inheritance:
+  - System.Object
+  implements:
+  - CPointSoftware.ECommerce.Tools.IEquihiraBindable
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Altazion.ECommerce.Controls.ProduitMultiImagesRepeater.#ctor
+  commentId: M:Altazion.ECommerce.Controls.ProduitMultiImagesRepeater.#ctor
+  id: '#ctor'
+  parent: Altazion.ECommerce.Controls.ProduitMultiImagesRepeater
+  langs:
+  - csharp
+  - vb
+  name: ProduitMultiImagesRepeater()
+  nameWithType: ProduitMultiImagesRepeater.ProduitMultiImagesRepeater()
+  fullName: Altazion.ECommerce.Controls.ProduitMultiImagesRepeater.ProduitMultiImagesRepeater()
+  type: Constructor
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/ProductMultiImage.cs
+    id: .ctor
+    path: ProductMultiImage.cs
+    startLine: 94
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: public ProduitMultiImagesRepeater()
+    content.vb: Public Sub New
+  overload: Altazion.ECommerce.Controls.ProduitMultiImagesRepeater.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Altazion.ECommerce.Controls.ProduitMultiImagesRepeater.OnDataBinding(EventArgs)
+  commentId: M:Altazion.ECommerce.Controls.ProduitMultiImagesRepeater.OnDataBinding(EventArgs)
+  id: OnDataBinding(EventArgs)
+  parent: Altazion.ECommerce.Controls.ProduitMultiImagesRepeater
+  langs:
+  - csharp
+  - vb
+  name: OnDataBinding(EventArgs)
+  nameWithType: ProduitMultiImagesRepeater.OnDataBinding(EventArgs)
+  fullName: Altazion.ECommerce.Controls.ProduitMultiImagesRepeater.OnDataBinding(EventArgs)
+  type: Method
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/ProductMultiImage.cs
+    id: OnDataBinding
+    path: ProductMultiImage.cs
+    startLine: 116
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: protected override void OnDataBinding(EventArgs e)
+    parameters:
+    - id: e
+      type: EventArgs
+    content.vb: Protected Overrides Sub OnDataBinding(e As EventArgs)
+  overload: Altazion.ECommerce.Controls.ProduitMultiImagesRepeater.OnDataBinding*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+references:
+- uid: Altazion.ECommerce.Controls
+  commentId: N:Altazion.ECommerce.Controls
+  name: Altazion.ECommerce.Controls
+  nameWithType: Altazion.ECommerce.Controls
+  fullName: Altazion.ECommerce.Controls
+- uid: System.Object
+  commentId: '!:System.Object'
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: CPointSoftware.ECommerce.Tools.IEquihiraBindable
+  commentId: T:CPointSoftware.ECommerce.Tools.IEquihiraBindable
+  parent: CPointSoftware.ECommerce.Tools
+  name: IEquihiraBindable
+  nameWithType: IEquihiraBindable
+  fullName: CPointSoftware.ECommerce.Tools.IEquihiraBindable
+- uid: CPointSoftware.ECommerce.Tools
+  commentId: N:CPointSoftware.ECommerce.Tools
+  name: CPointSoftware.ECommerce.Tools
+  nameWithType: CPointSoftware.ECommerce.Tools
+  fullName: CPointSoftware.ECommerce.Tools
+- uid: Altazion.ECommerce.Controls.ProduitMultiImagesRepeater.#ctor*
+  commentId: Overload:Altazion.ECommerce.Controls.ProduitMultiImagesRepeater.#ctor
+  name: ProduitMultiImagesRepeater
+  nameWithType: ProduitMultiImagesRepeater.ProduitMultiImagesRepeater
+  fullName: Altazion.ECommerce.Controls.ProduitMultiImagesRepeater.ProduitMultiImagesRepeater
+- uid: Altazion.ECommerce.Controls.ProduitMultiImagesRepeater.OnDataBinding*
+  commentId: Overload:Altazion.ECommerce.Controls.ProduitMultiImagesRepeater.OnDataBinding
+  name: OnDataBinding
+  nameWithType: ProduitMultiImagesRepeater.OnDataBinding
+  fullName: Altazion.ECommerce.Controls.ProduitMultiImagesRepeater.OnDataBinding
+- uid: EventArgs
+  isExternal: true
+  name: EventArgs
+  nameWithType: EventArgs
+  fullName: EventArgs

@@ -1,0 +1,117 @@
+### YamlMime:ManagedReference
+items:
+- uid: Altazion.ECommerce.Controls.PanierTotalTtcLabel
+  commentId: T:Altazion.ECommerce.Controls.PanierTotalTtcLabel
+  id: PanierTotalTtcLabel
+  parent: Altazion.ECommerce.Controls
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: PanierTotalTtcLabel
+  nameWithType: PanierTotalTtcLabel
+  fullName: Altazion.ECommerce.Controls.PanierTotalTtcLabel
+  type: Class
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanierTotalLabel.cs
+    id: PanierTotalTtcLabel
+    path: PanierTotalLabel.cs
+    startLine: 11
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: 'public class PanierTotalTtcLabel : PanierTotalLabel'
+    content.vb: >-
+      Public Class PanierTotalTtcLabel
+          Inherits PanierTotalLabel
+  inheritance:
+  - System.Object
+  - Altazion.ECommerce.Controls.PanierTotalLabel
+  inheritedMembers:
+  - Altazion.ECommerce.Controls.PanierTotalLabel.Format
+  - Altazion.ECommerce.Controls.PanierTotalLabel.AssocieMagasin
+  - Altazion.ECommerce.Controls.PanierTotalLabel.IgnorerFraisDePort
+  - Altazion.ECommerce.Controls.PanierTotalLabel.OnPreRender(EventArgs)
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+references:
+- uid: Altazion.ECommerce.Controls
+  commentId: N:Altazion.ECommerce.Controls
+  name: Altazion.ECommerce.Controls
+  nameWithType: Altazion.ECommerce.Controls
+  fullName: Altazion.ECommerce.Controls
+- uid: System.Object
+  commentId: '!:System.Object'
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Altazion.ECommerce.Controls.PanierTotalLabel
+  commentId: T:Altazion.ECommerce.Controls.PanierTotalLabel
+  parent: Altazion.ECommerce.Controls
+  name: PanierTotalLabel
+  nameWithType: PanierTotalLabel
+  fullName: Altazion.ECommerce.Controls.PanierTotalLabel
+- uid: Altazion.ECommerce.Controls.PanierTotalLabel.Format
+  commentId: P:Altazion.ECommerce.Controls.PanierTotalLabel.Format
+  parent: Altazion.ECommerce.Controls.PanierTotalLabel
+  name: Format
+  nameWithType: PanierTotalLabel.Format
+  fullName: Altazion.ECommerce.Controls.PanierTotalLabel.Format
+- uid: Altazion.ECommerce.Controls.PanierTotalLabel.AssocieMagasin
+  commentId: P:Altazion.ECommerce.Controls.PanierTotalLabel.AssocieMagasin
+  parent: Altazion.ECommerce.Controls.PanierTotalLabel
+  name: AssocieMagasin
+  nameWithType: PanierTotalLabel.AssocieMagasin
+  fullName: Altazion.ECommerce.Controls.PanierTotalLabel.AssocieMagasin
+- uid: Altazion.ECommerce.Controls.PanierTotalLabel.IgnorerFraisDePort
+  commentId: P:Altazion.ECommerce.Controls.PanierTotalLabel.IgnorerFraisDePort
+  parent: Altazion.ECommerce.Controls.PanierTotalLabel
+  name: IgnorerFraisDePort
+  nameWithType: PanierTotalLabel.IgnorerFraisDePort
+  fullName: Altazion.ECommerce.Controls.PanierTotalLabel.IgnorerFraisDePort
+- uid: Altazion.ECommerce.Controls.PanierTotalLabel.OnPreRender(EventArgs)
+  commentId: M:Altazion.ECommerce.Controls.PanierTotalLabel.OnPreRender(EventArgs)
+  parent: Altazion.ECommerce.Controls.PanierTotalLabel
+  isExternal: true
+  name: OnPreRender(EventArgs)
+  nameWithType: PanierTotalLabel.OnPreRender(EventArgs)
+  fullName: Altazion.ECommerce.Controls.PanierTotalLabel.OnPreRender(EventArgs)
+  spec.csharp:
+  - uid: Altazion.ECommerce.Controls.PanierTotalLabel.OnPreRender(EventArgs)
+    name: OnPreRender
+    nameWithType: PanierTotalLabel.OnPreRender
+    fullName: Altazion.ECommerce.Controls.PanierTotalLabel.OnPreRender
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: EventArgs
+    name: EventArgs
+    nameWithType: EventArgs
+    fullName: EventArgs
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Altazion.ECommerce.Controls.PanierTotalLabel.OnPreRender(EventArgs)
+    name: OnPreRender
+    nameWithType: PanierTotalLabel.OnPreRender
+    fullName: Altazion.ECommerce.Controls.PanierTotalLabel.OnPreRender
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: EventArgs
+    name: EventArgs
+    nameWithType: EventArgs
+    fullName: EventArgs
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )

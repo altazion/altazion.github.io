@@ -1,0 +1,92 @@
+### YamlMime:ManagedReference
+items:
+- uid: Altazion.ECommerce.Controls.PanierPanelSansMagasinAssocie
+  commentId: T:Altazion.ECommerce.Controls.PanierPanelSansMagasinAssocie
+  id: PanierPanelSansMagasinAssocie
+  parent: Altazion.ECommerce.Controls
+  children:
+  - Altazion.ECommerce.Controls.PanierPanelSansMagasinAssocie.OnPreRender(EventArgs)
+  langs:
+  - csharp
+  - vb
+  name: PanierPanelSansMagasinAssocie
+  nameWithType: PanierPanelSansMagasinAssocie
+  fullName: Altazion.ECommerce.Controls.PanierPanelSansMagasinAssocie
+  type: Class
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanelCrossCanal.cs
+    id: PanierPanelSansMagasinAssocie
+    path: PanelCrossCanal.cs
+    startLine: 53
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: 'public class PanierPanelSansMagasinAssocie : Panel'
+    content.vb: >-
+      Public Class PanierPanelSansMagasinAssocie
+          Inherits Panel
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Altazion.ECommerce.Controls.PanierPanelSansMagasinAssocie.OnPreRender(EventArgs)
+  commentId: M:Altazion.ECommerce.Controls.PanierPanelSansMagasinAssocie.OnPreRender(EventArgs)
+  id: OnPreRender(EventArgs)
+  parent: Altazion.ECommerce.Controls.PanierPanelSansMagasinAssocie
+  langs:
+  - csharp
+  - vb
+  name: OnPreRender(EventArgs)
+  nameWithType: PanierPanelSansMagasinAssocie.OnPreRender(EventArgs)
+  fullName: Altazion.ECommerce.Controls.PanierPanelSansMagasinAssocie.OnPreRender(EventArgs)
+  type: Method
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanelCrossCanal.cs
+    id: OnPreRender
+    path: PanelCrossCanal.cs
+    startLine: 56
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: protected override void OnPreRender(EventArgs e)
+    parameters:
+    - id: e
+      type: EventArgs
+    content.vb: Protected Overrides Sub OnPreRender(e As EventArgs)
+  overload: Altazion.ECommerce.Controls.PanierPanelSansMagasinAssocie.OnPreRender*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+references:
+- uid: Altazion.ECommerce.Controls
+  commentId: N:Altazion.ECommerce.Controls
+  name: Altazion.ECommerce.Controls
+  nameWithType: Altazion.ECommerce.Controls
+  fullName: Altazion.ECommerce.Controls
+- uid: System.Object
+  commentId: '!:System.Object'
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Altazion.ECommerce.Controls.PanierPanelSansMagasinAssocie.OnPreRender*
+  commentId: Overload:Altazion.ECommerce.Controls.PanierPanelSansMagasinAssocie.OnPreRender
+  name: OnPreRender
+  nameWithType: PanierPanelSansMagasinAssocie.OnPreRender
+  fullName: Altazion.ECommerce.Controls.PanierPanelSansMagasinAssocie.OnPreRender
+- uid: EventArgs
+  isExternal: true
+  name: EventArgs
+  nameWithType: EventArgs
+  fullName: EventArgs

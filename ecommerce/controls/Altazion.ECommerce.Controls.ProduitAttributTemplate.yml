@@ -1,0 +1,225 @@
+### YamlMime:ManagedReference
+items:
+- uid: Altazion.ECommerce.Controls.ProduitAttributTemplate
+  commentId: T:Altazion.ECommerce.Controls.ProduitAttributTemplate
+  id: ProduitAttributTemplate
+  parent: Altazion.ECommerce.Controls
+  children:
+  - Altazion.ECommerce.Controls.ProduitAttributTemplate.#ctor
+  - Altazion.ECommerce.Controls.ProduitAttributTemplate.AttributeGuid
+  - Altazion.ECommerce.Controls.ProduitAttributTemplate.Template
+  - Altazion.ECommerce.Controls.ProduitAttributTemplate.TemplateSiVide
+  langs:
+  - csharp
+  - vb
+  name: ProduitAttributTemplate
+  nameWithType: ProduitAttributTemplate
+  fullName: Altazion.ECommerce.Controls.ProduitAttributTemplate
+  type: Class
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/ProductLabels.cs
+    id: ProduitAttributTemplate
+    path: ProductLabels.cs
+    startLine: 748
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  summary: "\nA utiliser dans un contrôle bindé sur un produit : affiche un span\navec la valeur d&apos;un attribut personnalisé pour ce produit\n"
+  example: []
+  syntax:
+    content: 'public class ProduitAttributTemplate : WebControl, IEquihiraBindable'
+    content.vb: >-
+      Public Class ProduitAttributTemplate
+          Inherits WebControl
+          Implements IEquihiraBindable
+  inheritance:
+  - System.Object
+  implements:
+  - CPointSoftware.ECommerce.Tools.IEquihiraBindable
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Altazion.ECommerce.Controls.ProduitAttributTemplate.#ctor
+  commentId: M:Altazion.ECommerce.Controls.ProduitAttributTemplate.#ctor
+  id: '#ctor'
+  parent: Altazion.ECommerce.Controls.ProduitAttributTemplate
+  langs:
+  - csharp
+  - vb
+  name: ProduitAttributTemplate()
+  nameWithType: ProduitAttributTemplate.ProduitAttributTemplate()
+  fullName: Altazion.ECommerce.Controls.ProduitAttributTemplate.ProduitAttributTemplate()
+  type: Constructor
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/ProductLabels.cs
+    id: .ctor
+    path: ProductLabels.cs
+    startLine: 752
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: public ProduitAttributTemplate()
+    content.vb: Public Sub New
+  overload: Altazion.ECommerce.Controls.ProduitAttributTemplate.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Altazion.ECommerce.Controls.ProduitAttributTemplate.AttributeGuid
+  commentId: P:Altazion.ECommerce.Controls.ProduitAttributTemplate.AttributeGuid
+  id: AttributeGuid
+  parent: Altazion.ECommerce.Controls.ProduitAttributTemplate
+  langs:
+  - csharp
+  - vb
+  name: AttributeGuid
+  nameWithType: ProduitAttributTemplate.AttributeGuid
+  fullName: Altazion.ECommerce.Controls.ProduitAttributTemplate.AttributeGuid
+  type: Property
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/ProductLabels.cs
+    id: AttributeGuid
+    path: ProductLabels.cs
+    startLine: 757
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: public Guid AttributeGuid { get; set; }
+    parameters: []
+    return:
+      type: Guid
+    content.vb: Public Property AttributeGuid As Guid
+  overload: Altazion.ECommerce.Controls.ProduitAttributTemplate.AttributeGuid*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Altazion.ECommerce.Controls.ProduitAttributTemplate.TemplateSiVide
+  commentId: P:Altazion.ECommerce.Controls.ProduitAttributTemplate.TemplateSiVide
+  id: TemplateSiVide
+  parent: Altazion.ECommerce.Controls.ProduitAttributTemplate
+  langs:
+  - csharp
+  - vb
+  name: TemplateSiVide
+  nameWithType: ProduitAttributTemplate.TemplateSiVide
+  fullName: Altazion.ECommerce.Controls.ProduitAttributTemplate.TemplateSiVide
+  type: Property
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/ProductLabels.cs
+    id: TemplateSiVide
+    path: ProductLabels.cs
+    startLine: 758
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: public string TemplateSiVide { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property TemplateSiVide As String
+  overload: Altazion.ECommerce.Controls.ProduitAttributTemplate.TemplateSiVide*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Altazion.ECommerce.Controls.ProduitAttributTemplate.Template
+  commentId: P:Altazion.ECommerce.Controls.ProduitAttributTemplate.Template
+  id: Template
+  parent: Altazion.ECommerce.Controls.ProduitAttributTemplate
+  langs:
+  - csharp
+  - vb
+  name: Template
+  nameWithType: ProduitAttributTemplate.Template
+  fullName: Altazion.ECommerce.Controls.ProduitAttributTemplate.Template
+  type: Property
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/ProductLabels.cs
+    id: Template
+    path: ProductLabels.cs
+    startLine: 760
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: public string Template { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Template As String
+  overload: Altazion.ECommerce.Controls.ProduitAttributTemplate.Template*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: Altazion.ECommerce.Controls
+  commentId: N:Altazion.ECommerce.Controls
+  name: Altazion.ECommerce.Controls
+  nameWithType: Altazion.ECommerce.Controls
+  fullName: Altazion.ECommerce.Controls
+- uid: System.Object
+  commentId: '!:System.Object'
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: CPointSoftware.ECommerce.Tools.IEquihiraBindable
+  commentId: T:CPointSoftware.ECommerce.Tools.IEquihiraBindable
+  parent: CPointSoftware.ECommerce.Tools
+  name: IEquihiraBindable
+  nameWithType: IEquihiraBindable
+  fullName: CPointSoftware.ECommerce.Tools.IEquihiraBindable
+- uid: CPointSoftware.ECommerce.Tools
+  commentId: N:CPointSoftware.ECommerce.Tools
+  name: CPointSoftware.ECommerce.Tools
+  nameWithType: CPointSoftware.ECommerce.Tools
+  fullName: CPointSoftware.ECommerce.Tools
+- uid: Altazion.ECommerce.Controls.ProduitAttributTemplate.#ctor*
+  commentId: Overload:Altazion.ECommerce.Controls.ProduitAttributTemplate.#ctor
+  name: ProduitAttributTemplate
+  nameWithType: ProduitAttributTemplate.ProduitAttributTemplate
+  fullName: Altazion.ECommerce.Controls.ProduitAttributTemplate.ProduitAttributTemplate
+- uid: Altazion.ECommerce.Controls.ProduitAttributTemplate.AttributeGuid*
+  commentId: Overload:Altazion.ECommerce.Controls.ProduitAttributTemplate.AttributeGuid
+  name: AttributeGuid
+  nameWithType: ProduitAttributTemplate.AttributeGuid
+  fullName: Altazion.ECommerce.Controls.ProduitAttributTemplate.AttributeGuid
+- uid: Guid
+  isExternal: true
+  name: Guid
+  nameWithType: Guid
+  fullName: Guid
+- uid: Altazion.ECommerce.Controls.ProduitAttributTemplate.TemplateSiVide*
+  commentId: Overload:Altazion.ECommerce.Controls.ProduitAttributTemplate.TemplateSiVide
+  name: TemplateSiVide
+  nameWithType: ProduitAttributTemplate.TemplateSiVide
+  fullName: Altazion.ECommerce.Controls.ProduitAttributTemplate.TemplateSiVide
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Altazion.ECommerce.Controls.ProduitAttributTemplate.Template*
+  commentId: Overload:Altazion.ECommerce.Controls.ProduitAttributTemplate.Template
+  name: Template
+  nameWithType: ProduitAttributTemplate.Template
+  fullName: Altazion.ECommerce.Controls.ProduitAttributTemplate.Template

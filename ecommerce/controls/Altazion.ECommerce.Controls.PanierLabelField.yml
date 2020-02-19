@@ -1,0 +1,158 @@
+### YamlMime:ManagedReference
+items:
+- uid: Altazion.ECommerce.Controls.PanierLabelField
+  commentId: T:Altazion.ECommerce.Controls.PanierLabelField
+  id: PanierLabelField
+  parent: Altazion.ECommerce.Controls
+  children:
+  - Altazion.ECommerce.Controls.PanierLabelField.CssClass
+  - Altazion.ECommerce.Controls.PanierLabelField.Text
+  langs:
+  - csharp
+  - vb
+  name: PanierLabelField
+  nameWithType: PanierLabelField
+  fullName: Altazion.ECommerce.Controls.PanierLabelField
+  type: Class
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanierProduitField.cs
+    id: PanierLabelField
+    path: PanierProduitField.cs
+    startLine: 15
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  summary: "\nA utiliser dans un <xref href=\"Altazion.ECommerce.Controls.PanierProduitsGrid\" data-throw-if-not-resolved=\"false\"></xref> pour \nafficher un td avec un libellé fixe\n"
+  example: []
+  syntax:
+    content: 'public class PanierLabelField : EDataControlField'
+    content.vb: >-
+      Public Class PanierLabelField
+          Inherits EDataControlField
+  inheritance:
+  - System.Object
+  - CPointSoftware.ECommerce.Tools.EDataControlField
+  inheritedMembers:
+  - CPointSoftware.ECommerce.Tools.EDataControlField.ColumnSpan
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Altazion.ECommerce.Controls.PanierLabelField.Text
+  commentId: P:Altazion.ECommerce.Controls.PanierLabelField.Text
+  id: Text
+  parent: Altazion.ECommerce.Controls.PanierLabelField
+  langs:
+  - csharp
+  - vb
+  name: Text
+  nameWithType: PanierLabelField.Text
+  fullName: Altazion.ECommerce.Controls.PanierLabelField.Text
+  type: Property
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanierProduitField.cs
+    id: Text
+    path: PanierProduitField.cs
+    startLine: 17
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: public String Text { get; set; }
+    parameters: []
+    return:
+      type: String
+    content.vb: Public Property Text As String
+  overload: Altazion.ECommerce.Controls.PanierLabelField.Text*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Altazion.ECommerce.Controls.PanierLabelField.CssClass
+  commentId: P:Altazion.ECommerce.Controls.PanierLabelField.CssClass
+  id: CssClass
+  parent: Altazion.ECommerce.Controls.PanierLabelField
+  langs:
+  - csharp
+  - vb
+  name: CssClass
+  nameWithType: PanierLabelField.CssClass
+  fullName: Altazion.ECommerce.Controls.PanierLabelField.CssClass
+  type: Property
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanierProduitField.cs
+    id: CssClass
+    path: PanierProduitField.cs
+    startLine: 38
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: public String CssClass { get; set; }
+    parameters: []
+    return:
+      type: String
+    content.vb: Public Property CssClass As String
+  overload: Altazion.ECommerce.Controls.PanierLabelField.CssClass*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: Altazion.ECommerce.Controls.PanierProduitsGrid
+  commentId: T:Altazion.ECommerce.Controls.PanierProduitsGrid
+  name: PanierProduitsGrid
+  nameWithType: PanierProduitsGrid
+  fullName: Altazion.ECommerce.Controls.PanierProduitsGrid
+- uid: Altazion.ECommerce.Controls
+  commentId: N:Altazion.ECommerce.Controls
+  name: Altazion.ECommerce.Controls
+  nameWithType: Altazion.ECommerce.Controls
+  fullName: Altazion.ECommerce.Controls
+- uid: System.Object
+  commentId: '!:System.Object'
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: CPointSoftware.ECommerce.Tools.EDataControlField
+  commentId: T:CPointSoftware.ECommerce.Tools.EDataControlField
+  parent: CPointSoftware.ECommerce.Tools
+  name: EDataControlField
+  nameWithType: EDataControlField
+  fullName: CPointSoftware.ECommerce.Tools.EDataControlField
+- uid: CPointSoftware.ECommerce.Tools.EDataControlField.ColumnSpan
+  commentId: P:CPointSoftware.ECommerce.Tools.EDataControlField.ColumnSpan
+  parent: CPointSoftware.ECommerce.Tools.EDataControlField
+  name: ColumnSpan
+  nameWithType: EDataControlField.ColumnSpan
+  fullName: CPointSoftware.ECommerce.Tools.EDataControlField.ColumnSpan
+- uid: CPointSoftware.ECommerce.Tools
+  commentId: N:CPointSoftware.ECommerce.Tools
+  name: CPointSoftware.ECommerce.Tools
+  nameWithType: CPointSoftware.ECommerce.Tools
+  fullName: CPointSoftware.ECommerce.Tools
+- uid: Altazion.ECommerce.Controls.PanierLabelField.Text*
+  commentId: Overload:Altazion.ECommerce.Controls.PanierLabelField.Text
+  name: Text
+  nameWithType: PanierLabelField.Text
+  fullName: Altazion.ECommerce.Controls.PanierLabelField.Text
+- uid: String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: String
+- uid: Altazion.ECommerce.Controls.PanierLabelField.CssClass*
+  commentId: Overload:Altazion.ECommerce.Controls.PanierLabelField.CssClass
+  name: CssClass
+  nameWithType: PanierLabelField.CssClass
+  fullName: Altazion.ECommerce.Controls.PanierLabelField.CssClass

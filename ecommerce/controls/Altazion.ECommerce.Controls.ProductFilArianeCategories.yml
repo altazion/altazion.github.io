@@ -1,0 +1,426 @@
+### YamlMime:ManagedReference
+items:
+- uid: Altazion.ECommerce.Controls.ProductFilArianeCategories
+  commentId: T:Altazion.ECommerce.Controls.ProductFilArianeCategories
+  id: ProductFilArianeCategories
+  parent: Altazion.ECommerce.Controls
+  children:
+  - Altazion.ECommerce.Controls.ProductFilArianeCategories.#ctor
+  - Altazion.ECommerce.Controls.ProductFilArianeCategories.FirstItemCssClass
+  - Altazion.ECommerce.Controls.ProductFilArianeCategories.Header
+  - Altazion.ECommerce.Controls.ProductFilArianeCategories.HeaderCssClass
+  - Altazion.ECommerce.Controls.ProductFilArianeCategories.ItemCssClass
+  - Altazion.ECommerce.Controls.ProductFilArianeCategories.LastItemCssClass
+  - Altazion.ECommerce.Controls.ProductFilArianeCategories.OnPreRender(EventArgs)
+  - Altazion.ECommerce.Controls.ProductFilArianeCategories.Separator
+  - Altazion.ECommerce.Controls.ProductFilArianeCategories.UsePageTitleIfEmpty
+  langs:
+  - csharp
+  - vb
+  name: ProductFilArianeCategories
+  nameWithType: ProductFilArianeCategories
+  fullName: Altazion.ECommerce.Controls.ProductFilArianeCategories
+  type: Class
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/FilArianeCategories.cs
+    id: ProductFilArianeCategories
+    path: FilArianeCategories.cs
+    startLine: 21
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  summary: "\naffiche un ul représentant le fil des catégories\n"
+  remarks: "\nLa structure du fil d&apos;ariane est la suivante : \n<ul><li></li><li></li><li></li></ul>\n"
+  example: []
+  syntax:
+    content: 'public class ProductFilArianeCategories : WebControl, IEquihiraBindable'
+    content.vb: >-
+      Public Class ProductFilArianeCategories
+          Inherits WebControl
+          Implements IEquihiraBindable
+  inheritance:
+  - System.Object
+  implements:
+  - CPointSoftware.ECommerce.Tools.IEquihiraBindable
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Altazion.ECommerce.Controls.ProductFilArianeCategories.#ctor
+  commentId: M:Altazion.ECommerce.Controls.ProductFilArianeCategories.#ctor
+  id: '#ctor'
+  parent: Altazion.ECommerce.Controls.ProductFilArianeCategories
+  langs:
+  - csharp
+  - vb
+  name: ProductFilArianeCategories()
+  nameWithType: ProductFilArianeCategories.ProductFilArianeCategories()
+  fullName: Altazion.ECommerce.Controls.ProductFilArianeCategories.ProductFilArianeCategories()
+  type: Constructor
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/FilArianeCategories.cs
+    id: .ctor
+    path: FilArianeCategories.cs
+    startLine: 23
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: public ProductFilArianeCategories()
+    content.vb: Public Sub New
+  overload: Altazion.ECommerce.Controls.ProductFilArianeCategories.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Altazion.ECommerce.Controls.ProductFilArianeCategories.Header
+  commentId: P:Altazion.ECommerce.Controls.ProductFilArianeCategories.Header
+  id: Header
+  parent: Altazion.ECommerce.Controls.ProductFilArianeCategories
+  langs:
+  - csharp
+  - vb
+  name: Header
+  nameWithType: ProductFilArianeCategories.Header
+  fullName: Altazion.ECommerce.Controls.ProductFilArianeCategories.Header
+  type: Property
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/FilArianeCategories.cs
+    id: Header
+    path: FilArianeCategories.cs
+    startLine: 28
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: public string Header { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Header As String
+  overload: Altazion.ECommerce.Controls.ProductFilArianeCategories.Header*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Altazion.ECommerce.Controls.ProductFilArianeCategories.HeaderCssClass
+  commentId: P:Altazion.ECommerce.Controls.ProductFilArianeCategories.HeaderCssClass
+  id: HeaderCssClass
+  parent: Altazion.ECommerce.Controls.ProductFilArianeCategories
+  langs:
+  - csharp
+  - vb
+  name: HeaderCssClass
+  nameWithType: ProductFilArianeCategories.HeaderCssClass
+  fullName: Altazion.ECommerce.Controls.ProductFilArianeCategories.HeaderCssClass
+  type: Property
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/FilArianeCategories.cs
+    id: HeaderCssClass
+    path: FilArianeCategories.cs
+    startLine: 29
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: public string HeaderCssClass { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property HeaderCssClass As String
+  overload: Altazion.ECommerce.Controls.ProductFilArianeCategories.HeaderCssClass*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Altazion.ECommerce.Controls.ProductFilArianeCategories.ItemCssClass
+  commentId: P:Altazion.ECommerce.Controls.ProductFilArianeCategories.ItemCssClass
+  id: ItemCssClass
+  parent: Altazion.ECommerce.Controls.ProductFilArianeCategories
+  langs:
+  - csharp
+  - vb
+  name: ItemCssClass
+  nameWithType: ProductFilArianeCategories.ItemCssClass
+  fullName: Altazion.ECommerce.Controls.ProductFilArianeCategories.ItemCssClass
+  type: Property
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/FilArianeCategories.cs
+    id: ItemCssClass
+    path: FilArianeCategories.cs
+    startLine: 31
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: public string ItemCssClass { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ItemCssClass As String
+  overload: Altazion.ECommerce.Controls.ProductFilArianeCategories.ItemCssClass*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Altazion.ECommerce.Controls.ProductFilArianeCategories.FirstItemCssClass
+  commentId: P:Altazion.ECommerce.Controls.ProductFilArianeCategories.FirstItemCssClass
+  id: FirstItemCssClass
+  parent: Altazion.ECommerce.Controls.ProductFilArianeCategories
+  langs:
+  - csharp
+  - vb
+  name: FirstItemCssClass
+  nameWithType: ProductFilArianeCategories.FirstItemCssClass
+  fullName: Altazion.ECommerce.Controls.ProductFilArianeCategories.FirstItemCssClass
+  type: Property
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/FilArianeCategories.cs
+    id: FirstItemCssClass
+    path: FilArianeCategories.cs
+    startLine: 32
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: public string FirstItemCssClass { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property FirstItemCssClass As String
+  overload: Altazion.ECommerce.Controls.ProductFilArianeCategories.FirstItemCssClass*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Altazion.ECommerce.Controls.ProductFilArianeCategories.LastItemCssClass
+  commentId: P:Altazion.ECommerce.Controls.ProductFilArianeCategories.LastItemCssClass
+  id: LastItemCssClass
+  parent: Altazion.ECommerce.Controls.ProductFilArianeCategories
+  langs:
+  - csharp
+  - vb
+  name: LastItemCssClass
+  nameWithType: ProductFilArianeCategories.LastItemCssClass
+  fullName: Altazion.ECommerce.Controls.ProductFilArianeCategories.LastItemCssClass
+  type: Property
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/FilArianeCategories.cs
+    id: LastItemCssClass
+    path: FilArianeCategories.cs
+    startLine: 33
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: public string LastItemCssClass { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property LastItemCssClass As String
+  overload: Altazion.ECommerce.Controls.ProductFilArianeCategories.LastItemCssClass*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Altazion.ECommerce.Controls.ProductFilArianeCategories.Separator
+  commentId: P:Altazion.ECommerce.Controls.ProductFilArianeCategories.Separator
+  id: Separator
+  parent: Altazion.ECommerce.Controls.ProductFilArianeCategories
+  langs:
+  - csharp
+  - vb
+  name: Separator
+  nameWithType: ProductFilArianeCategories.Separator
+  fullName: Altazion.ECommerce.Controls.ProductFilArianeCategories.Separator
+  type: Property
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/FilArianeCategories.cs
+    id: Separator
+    path: FilArianeCategories.cs
+    startLine: 36
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: public string Separator { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Separator As String
+  overload: Altazion.ECommerce.Controls.ProductFilArianeCategories.Separator*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Altazion.ECommerce.Controls.ProductFilArianeCategories.UsePageTitleIfEmpty
+  commentId: P:Altazion.ECommerce.Controls.ProductFilArianeCategories.UsePageTitleIfEmpty
+  id: UsePageTitleIfEmpty
+  parent: Altazion.ECommerce.Controls.ProductFilArianeCategories
+  langs:
+  - csharp
+  - vb
+  name: UsePageTitleIfEmpty
+  nameWithType: ProductFilArianeCategories.UsePageTitleIfEmpty
+  fullName: Altazion.ECommerce.Controls.ProductFilArianeCategories.UsePageTitleIfEmpty
+  type: Property
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/FilArianeCategories.cs
+    id: UsePageTitleIfEmpty
+    path: FilArianeCategories.cs
+    startLine: 39
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: public bool UsePageTitleIfEmpty { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property UsePageTitleIfEmpty As Boolean
+  overload: Altazion.ECommerce.Controls.ProductFilArianeCategories.UsePageTitleIfEmpty*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Altazion.ECommerce.Controls.ProductFilArianeCategories.OnPreRender(EventArgs)
+  commentId: M:Altazion.ECommerce.Controls.ProductFilArianeCategories.OnPreRender(EventArgs)
+  id: OnPreRender(EventArgs)
+  parent: Altazion.ECommerce.Controls.ProductFilArianeCategories
+  langs:
+  - csharp
+  - vb
+  name: OnPreRender(EventArgs)
+  nameWithType: ProductFilArianeCategories.OnPreRender(EventArgs)
+  fullName: Altazion.ECommerce.Controls.ProductFilArianeCategories.OnPreRender(EventArgs)
+  type: Method
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/FilArianeCategories.cs
+    id: OnPreRender
+    path: FilArianeCategories.cs
+    startLine: 43
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: protected override void OnPreRender(EventArgs e)
+    parameters:
+    - id: e
+      type: EventArgs
+    content.vb: Protected Overrides Sub OnPreRender(e As EventArgs)
+  overload: Altazion.ECommerce.Controls.ProductFilArianeCategories.OnPreRender*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+references:
+- uid: Altazion.ECommerce.Controls
+  commentId: N:Altazion.ECommerce.Controls
+  name: Altazion.ECommerce.Controls
+  nameWithType: Altazion.ECommerce.Controls
+  fullName: Altazion.ECommerce.Controls
+- uid: System.Object
+  commentId: '!:System.Object'
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: CPointSoftware.ECommerce.Tools.IEquihiraBindable
+  commentId: T:CPointSoftware.ECommerce.Tools.IEquihiraBindable
+  parent: CPointSoftware.ECommerce.Tools
+  name: IEquihiraBindable
+  nameWithType: IEquihiraBindable
+  fullName: CPointSoftware.ECommerce.Tools.IEquihiraBindable
+- uid: CPointSoftware.ECommerce.Tools
+  commentId: N:CPointSoftware.ECommerce.Tools
+  name: CPointSoftware.ECommerce.Tools
+  nameWithType: CPointSoftware.ECommerce.Tools
+  fullName: CPointSoftware.ECommerce.Tools
+- uid: Altazion.ECommerce.Controls.ProductFilArianeCategories.#ctor*
+  commentId: Overload:Altazion.ECommerce.Controls.ProductFilArianeCategories.#ctor
+  name: ProductFilArianeCategories
+  nameWithType: ProductFilArianeCategories.ProductFilArianeCategories
+  fullName: Altazion.ECommerce.Controls.ProductFilArianeCategories.ProductFilArianeCategories
+- uid: Altazion.ECommerce.Controls.ProductFilArianeCategories.Header*
+  commentId: Overload:Altazion.ECommerce.Controls.ProductFilArianeCategories.Header
+  name: Header
+  nameWithType: ProductFilArianeCategories.Header
+  fullName: Altazion.ECommerce.Controls.ProductFilArianeCategories.Header
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Altazion.ECommerce.Controls.ProductFilArianeCategories.HeaderCssClass*
+  commentId: Overload:Altazion.ECommerce.Controls.ProductFilArianeCategories.HeaderCssClass
+  name: HeaderCssClass
+  nameWithType: ProductFilArianeCategories.HeaderCssClass
+  fullName: Altazion.ECommerce.Controls.ProductFilArianeCategories.HeaderCssClass
+- uid: Altazion.ECommerce.Controls.ProductFilArianeCategories.ItemCssClass*
+  commentId: Overload:Altazion.ECommerce.Controls.ProductFilArianeCategories.ItemCssClass
+  name: ItemCssClass
+  nameWithType: ProductFilArianeCategories.ItemCssClass
+  fullName: Altazion.ECommerce.Controls.ProductFilArianeCategories.ItemCssClass
+- uid: Altazion.ECommerce.Controls.ProductFilArianeCategories.FirstItemCssClass*
+  commentId: Overload:Altazion.ECommerce.Controls.ProductFilArianeCategories.FirstItemCssClass
+  name: FirstItemCssClass
+  nameWithType: ProductFilArianeCategories.FirstItemCssClass
+  fullName: Altazion.ECommerce.Controls.ProductFilArianeCategories.FirstItemCssClass
+- uid: Altazion.ECommerce.Controls.ProductFilArianeCategories.LastItemCssClass*
+  commentId: Overload:Altazion.ECommerce.Controls.ProductFilArianeCategories.LastItemCssClass
+  name: LastItemCssClass
+  nameWithType: ProductFilArianeCategories.LastItemCssClass
+  fullName: Altazion.ECommerce.Controls.ProductFilArianeCategories.LastItemCssClass
+- uid: Altazion.ECommerce.Controls.ProductFilArianeCategories.Separator*
+  commentId: Overload:Altazion.ECommerce.Controls.ProductFilArianeCategories.Separator
+  name: Separator
+  nameWithType: ProductFilArianeCategories.Separator
+  fullName: Altazion.ECommerce.Controls.ProductFilArianeCategories.Separator
+- uid: Altazion.ECommerce.Controls.ProductFilArianeCategories.UsePageTitleIfEmpty*
+  commentId: Overload:Altazion.ECommerce.Controls.ProductFilArianeCategories.UsePageTitleIfEmpty
+  name: UsePageTitleIfEmpty
+  nameWithType: ProductFilArianeCategories.UsePageTitleIfEmpty
+  fullName: Altazion.ECommerce.Controls.ProductFilArianeCategories.UsePageTitleIfEmpty
+- uid: System.Boolean
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Altazion.ECommerce.Controls.ProductFilArianeCategories.OnPreRender*
+  commentId: Overload:Altazion.ECommerce.Controls.ProductFilArianeCategories.OnPreRender
+  name: OnPreRender
+  nameWithType: ProductFilArianeCategories.OnPreRender
+  fullName: Altazion.ECommerce.Controls.ProductFilArianeCategories.OnPreRender
+- uid: EventArgs
+  isExternal: true
+  name: EventArgs
+  nameWithType: EventArgs
+  fullName: EventArgs

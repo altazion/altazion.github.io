@@ -1,0 +1,181 @@
+### YamlMime:ManagedReference
+items:
+- uid: Altazion.ECommerce.Controls.PanierMontantNonRegle
+  commentId: T:Altazion.ECommerce.Controls.PanierMontantNonRegle
+  id: PanierMontantNonRegle
+  parent: Altazion.ECommerce.Controls
+  children:
+  - Altazion.ECommerce.Controls.PanierMontantNonRegle.#ctor
+  - Altazion.ECommerce.Controls.PanierMontantNonRegle.Format
+  - Altazion.ECommerce.Controls.PanierMontantNonRegle.OnPreRender(EventArgs)
+  langs:
+  - csharp
+  - vb
+  name: PanierMontantNonRegle
+  nameWithType: PanierMontantNonRegle
+  fullName: Altazion.ECommerce.Controls.PanierMontantNonRegle
+  type: Class
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanierMontantNonRegle.cs
+    id: PanierMontantNonRegle
+    path: PanierMontantNonRegle.cs
+    startLine: 12
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  summary: "\nAffiche un span avec le montant non réglé du panier\n"
+  example: []
+  syntax:
+    content: 'public class PanierMontantNonRegle : Label'
+    content.vb: >-
+      Public Class PanierMontantNonRegle
+          Inherits Label
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Altazion.ECommerce.Controls.PanierMontantNonRegle.#ctor
+  commentId: M:Altazion.ECommerce.Controls.PanierMontantNonRegle.#ctor
+  id: '#ctor'
+  parent: Altazion.ECommerce.Controls.PanierMontantNonRegle
+  langs:
+  - csharp
+  - vb
+  name: PanierMontantNonRegle()
+  nameWithType: PanierMontantNonRegle.PanierMontantNonRegle()
+  fullName: Altazion.ECommerce.Controls.PanierMontantNonRegle.PanierMontantNonRegle()
+  type: Constructor
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanierMontantNonRegle.cs
+    id: .ctor
+    path: PanierMontantNonRegle.cs
+    startLine: 14
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: public PanierMontantNonRegle()
+    content.vb: Public Sub New
+  overload: Altazion.ECommerce.Controls.PanierMontantNonRegle.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Altazion.ECommerce.Controls.PanierMontantNonRegle.Format
+  commentId: P:Altazion.ECommerce.Controls.PanierMontantNonRegle.Format
+  id: Format
+  parent: Altazion.ECommerce.Controls.PanierMontantNonRegle
+  langs:
+  - csharp
+  - vb
+  name: Format
+  nameWithType: PanierMontantNonRegle.Format
+  fullName: Altazion.ECommerce.Controls.PanierMontantNonRegle.Format
+  type: Property
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanierMontantNonRegle.cs
+    id: Format
+    path: PanierMontantNonRegle.cs
+    startLine: 19
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: public string Format { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Format As String
+  overload: Altazion.ECommerce.Controls.PanierMontantNonRegle.Format*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Altazion.ECommerce.Controls.PanierMontantNonRegle.OnPreRender(EventArgs)
+  commentId: M:Altazion.ECommerce.Controls.PanierMontantNonRegle.OnPreRender(EventArgs)
+  id: OnPreRender(EventArgs)
+  parent: Altazion.ECommerce.Controls.PanierMontantNonRegle
+  langs:
+  - csharp
+  - vb
+  name: OnPreRender(EventArgs)
+  nameWithType: PanierMontantNonRegle.OnPreRender(EventArgs)
+  fullName: Altazion.ECommerce.Controls.PanierMontantNonRegle.OnPreRender(EventArgs)
+  type: Method
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanierMontantNonRegle.cs
+    id: OnPreRender
+    path: PanierMontantNonRegle.cs
+    startLine: 25
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  summary: "\nDéclenche l&apos;événement <xref href=\"System.Web.UI.Control.PreRender\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  example: []
+  syntax:
+    content: protected override void OnPreRender(EventArgs e)
+    parameters:
+    - id: e
+      type: EventArgs
+      description: Objet <xref href="System.EventArgs" data-throw-if-not-resolved="false"></xref> qui contient les données d&apos;événement.
+    content.vb: Protected Overrides Sub OnPreRender(e As EventArgs)
+  overload: Altazion.ECommerce.Controls.PanierMontantNonRegle.OnPreRender*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+references:
+- uid: Altazion.ECommerce.Controls
+  commentId: N:Altazion.ECommerce.Controls
+  name: Altazion.ECommerce.Controls
+  nameWithType: Altazion.ECommerce.Controls
+  fullName: Altazion.ECommerce.Controls
+- uid: System.Object
+  commentId: '!:System.Object'
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Altazion.ECommerce.Controls.PanierMontantNonRegle.#ctor*
+  commentId: Overload:Altazion.ECommerce.Controls.PanierMontantNonRegle.#ctor
+  name: PanierMontantNonRegle
+  nameWithType: PanierMontantNonRegle.PanierMontantNonRegle
+  fullName: Altazion.ECommerce.Controls.PanierMontantNonRegle.PanierMontantNonRegle
+- uid: Altazion.ECommerce.Controls.PanierMontantNonRegle.Format*
+  commentId: Overload:Altazion.ECommerce.Controls.PanierMontantNonRegle.Format
+  name: Format
+  nameWithType: PanierMontantNonRegle.Format
+  fullName: Altazion.ECommerce.Controls.PanierMontantNonRegle.Format
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Web.UI.Control.PreRender
+  commentId: E:System.Web.UI.Control.PreRender
+  isExternal: true
+- uid: System.EventArgs
+  commentId: T:System.EventArgs
+  isExternal: true
+- uid: Altazion.ECommerce.Controls.PanierMontantNonRegle.OnPreRender*
+  commentId: Overload:Altazion.ECommerce.Controls.PanierMontantNonRegle.OnPreRender
+  name: OnPreRender
+  nameWithType: PanierMontantNonRegle.OnPreRender
+  fullName: Altazion.ECommerce.Controls.PanierMontantNonRegle.OnPreRender
+- uid: EventArgs
+  isExternal: true
+  name: EventArgs
+  nameWithType: EventArgs
+  fullName: EventArgs

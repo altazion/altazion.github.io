@@ -1,0 +1,62 @@
+### YamlMime:ManagedReference
+items:
+- uid: Altazion.ECommerce.Controls.BonsAchatsGridView.BonAchatParsingHandler
+  commentId: T:Altazion.ECommerce.Controls.BonsAchatsGridView.BonAchatParsingHandler
+  id: BonsAchatsGridView.BonAchatParsingHandler
+  parent: Altazion.ECommerce.Controls
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: BonsAchatsGridView.BonAchatParsingHandler
+  nameWithType: BonsAchatsGridView.BonAchatParsingHandler
+  fullName: Altazion.ECommerce.Controls.BonsAchatsGridView.BonAchatParsingHandler
+  type: Delegate
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/BonsAchatsControls.cs
+    id: BonAchatParsingHandler
+    path: BonsAchatsControls.cs
+    startLine: 283
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  summary: "\nDélégué pour l&apos;évènement  <xref href=\"Altazion.ECommerce.Controls.BonsAchatsGridView.Parsing\" data-throw-if-not-resolved=\"false\"></xref>\n"
+  example: []
+  syntax:
+    content: public delegate void BonAchatParsingHandler(object sender, BonsAchatsGridView.BonAchatParsingArgs e);
+    parameters:
+    - id: sender
+      type: System.Object
+      description: <code>null</code> dans tous les cas
+    - id: e
+      type: Altazion.ECommerce.Controls.BonsAchatsGridView.BonAchatParsingArgs
+      description: Le détail de l&apos;évènement.
+    content.vb: Public Delegate Sub BonAchatParsingHandler(sender As Object, e As BonsAchatsGridView.BonAchatParsingArgs)
+  modifiers.csharp:
+  - public
+  - delegate
+  modifiers.vb:
+  - Public
+  - Delegate
+references:
+- uid: Altazion.ECommerce.Controls.BonsAchatsGridView.Parsing
+  commentId: E:Altazion.ECommerce.Controls.BonsAchatsGridView.Parsing
+  isExternal: true
+- uid: Altazion.ECommerce.Controls
+  commentId: N:Altazion.ECommerce.Controls
+  name: Altazion.ECommerce.Controls
+  nameWithType: Altazion.ECommerce.Controls
+  fullName: Altazion.ECommerce.Controls
+- uid: System.Object
+  commentId: '!:System.Object'
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Altazion.ECommerce.Controls.BonsAchatsGridView.BonAchatParsingArgs
+  commentId: T:Altazion.ECommerce.Controls.BonsAchatsGridView.BonAchatParsingArgs
+  parent: Altazion.ECommerce.Controls
+  name: BonsAchatsGridView.BonAchatParsingArgs
+  nameWithType: BonsAchatsGridView.BonAchatParsingArgs
+  fullName: Altazion.ECommerce.Controls.BonsAchatsGridView.BonAchatParsingArgs

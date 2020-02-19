@@ -1,0 +1,206 @@
+### YamlMime:ManagedReference
+items:
+- uid: Altazion.ECommerce.Controls.ProductVideo
+  commentId: T:Altazion.ECommerce.Controls.ProductVideo
+  id: ProductVideo
+  parent: Altazion.ECommerce.Controls
+  children:
+  - Altazion.ECommerce.Controls.ProductVideo.#ctor
+  - Altazion.ECommerce.Controls.ProductVideo.MoreParams
+  - Altazion.ECommerce.Controls.ProductVideo.PlayerUrl
+  - Altazion.ECommerce.Controls.ProductVideo.VideoUrl
+  langs:
+  - csharp
+  - vb
+  name: ProductVideo
+  nameWithType: ProductVideo
+  fullName: Altazion.ECommerce.Controls.ProductVideo
+  type: Class
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/ProductVideo.cs
+    id: ProductVideo
+    path: ProductVideo.cs
+    startLine: 21
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  summary: "\nAffiche une video sous la forme d&apos;un flash\n"
+  example: []
+  syntax:
+    content: 'public class ProductVideo : WebControl'
+    content.vb: >-
+      Public Class ProductVideo
+          Inherits WebControl
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Altazion.ECommerce.Controls.ProductVideo.#ctor
+  commentId: M:Altazion.ECommerce.Controls.ProductVideo.#ctor
+  id: '#ctor'
+  parent: Altazion.ECommerce.Controls.ProductVideo
+  langs:
+  - csharp
+  - vb
+  name: ProductVideo()
+  nameWithType: ProductVideo.ProductVideo()
+  fullName: Altazion.ECommerce.Controls.ProductVideo.ProductVideo()
+  type: Constructor
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/ProductVideo.cs
+    id: .ctor
+    path: ProductVideo.cs
+    startLine: 23
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: public ProductVideo()
+    content.vb: Public Sub New
+  overload: Altazion.ECommerce.Controls.ProductVideo.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Altazion.ECommerce.Controls.ProductVideo.PlayerUrl
+  commentId: P:Altazion.ECommerce.Controls.ProductVideo.PlayerUrl
+  id: PlayerUrl
+  parent: Altazion.ECommerce.Controls.ProductVideo
+  langs:
+  - csharp
+  - vb
+  name: PlayerUrl
+  nameWithType: ProductVideo.PlayerUrl
+  fullName: Altazion.ECommerce.Controls.ProductVideo.PlayerUrl
+  type: Property
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/ProductVideo.cs
+    id: PlayerUrl
+    path: ProductVideo.cs
+    startLine: 28
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: public string PlayerUrl { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property PlayerUrl As String
+  overload: Altazion.ECommerce.Controls.ProductVideo.PlayerUrl*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Altazion.ECommerce.Controls.ProductVideo.MoreParams
+  commentId: P:Altazion.ECommerce.Controls.ProductVideo.MoreParams
+  id: MoreParams
+  parent: Altazion.ECommerce.Controls.ProductVideo
+  langs:
+  - csharp
+  - vb
+  name: MoreParams
+  nameWithType: ProductVideo.MoreParams
+  fullName: Altazion.ECommerce.Controls.ProductVideo.MoreParams
+  type: Property
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/ProductVideo.cs
+    id: MoreParams
+    path: ProductVideo.cs
+    startLine: 29
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: public string MoreParams { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property MoreParams As String
+  overload: Altazion.ECommerce.Controls.ProductVideo.MoreParams*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Altazion.ECommerce.Controls.ProductVideo.VideoUrl
+  commentId: P:Altazion.ECommerce.Controls.ProductVideo.VideoUrl
+  id: VideoUrl
+  parent: Altazion.ECommerce.Controls.ProductVideo
+  langs:
+  - csharp
+  - vb
+  name: VideoUrl
+  nameWithType: ProductVideo.VideoUrl
+  fullName: Altazion.ECommerce.Controls.ProductVideo.VideoUrl
+  type: Property
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/ProductVideo.cs
+    id: VideoUrl
+    path: ProductVideo.cs
+    startLine: 30
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: public string VideoUrl { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property VideoUrl As String
+  overload: Altazion.ECommerce.Controls.ProductVideo.VideoUrl*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: Altazion.ECommerce.Controls
+  commentId: N:Altazion.ECommerce.Controls
+  name: Altazion.ECommerce.Controls
+  nameWithType: Altazion.ECommerce.Controls
+  fullName: Altazion.ECommerce.Controls
+- uid: System.Object
+  commentId: '!:System.Object'
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Altazion.ECommerce.Controls.ProductVideo.#ctor*
+  commentId: Overload:Altazion.ECommerce.Controls.ProductVideo.#ctor
+  name: ProductVideo
+  nameWithType: ProductVideo.ProductVideo
+  fullName: Altazion.ECommerce.Controls.ProductVideo.ProductVideo
+- uid: Altazion.ECommerce.Controls.ProductVideo.PlayerUrl*
+  commentId: Overload:Altazion.ECommerce.Controls.ProductVideo.PlayerUrl
+  name: PlayerUrl
+  nameWithType: ProductVideo.PlayerUrl
+  fullName: Altazion.ECommerce.Controls.ProductVideo.PlayerUrl
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Altazion.ECommerce.Controls.ProductVideo.MoreParams*
+  commentId: Overload:Altazion.ECommerce.Controls.ProductVideo.MoreParams
+  name: MoreParams
+  nameWithType: ProductVideo.MoreParams
+  fullName: Altazion.ECommerce.Controls.ProductVideo.MoreParams
+- uid: Altazion.ECommerce.Controls.ProductVideo.VideoUrl*
+  commentId: Overload:Altazion.ECommerce.Controls.ProductVideo.VideoUrl
+  name: VideoUrl
+  nameWithType: ProductVideo.VideoUrl
+  fullName: Altazion.ECommerce.Controls.ProductVideo.VideoUrl

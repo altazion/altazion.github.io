@@ -1,0 +1,92 @@
+### YamlMime:ManagedReference
+items:
+- uid: Altazion.ECommerce.Controls.MagasinAssocieGoogleMapLink
+  commentId: T:Altazion.ECommerce.Controls.MagasinAssocieGoogleMapLink
+  id: MagasinAssocieGoogleMapLink
+  parent: Altazion.ECommerce.Controls
+  children:
+  - Altazion.ECommerce.Controls.MagasinAssocieGoogleMapLink.OnPreRender(EventArgs)
+  langs:
+  - csharp
+  - vb
+  name: MagasinAssocieGoogleMapLink
+  nameWithType: MagasinAssocieGoogleMapLink
+  fullName: Altazion.ECommerce.Controls.MagasinAssocieGoogleMapLink
+  type: Class
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanelCrossCanal.cs
+    id: MagasinAssocieGoogleMapLink
+    path: PanelCrossCanal.cs
+    startLine: 597
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: 'public class MagasinAssocieGoogleMapLink : HyperLink'
+    content.vb: >-
+      Public Class MagasinAssocieGoogleMapLink
+          Inherits HyperLink
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Altazion.ECommerce.Controls.MagasinAssocieGoogleMapLink.OnPreRender(EventArgs)
+  commentId: M:Altazion.ECommerce.Controls.MagasinAssocieGoogleMapLink.OnPreRender(EventArgs)
+  id: OnPreRender(EventArgs)
+  parent: Altazion.ECommerce.Controls.MagasinAssocieGoogleMapLink
+  langs:
+  - csharp
+  - vb
+  name: OnPreRender(EventArgs)
+  nameWithType: MagasinAssocieGoogleMapLink.OnPreRender(EventArgs)
+  fullName: Altazion.ECommerce.Controls.MagasinAssocieGoogleMapLink.OnPreRender(EventArgs)
+  type: Method
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanelCrossCanal.cs
+    id: OnPreRender
+    path: PanelCrossCanal.cs
+    startLine: 599
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: protected override void OnPreRender(EventArgs e)
+    parameters:
+    - id: e
+      type: EventArgs
+    content.vb: Protected Overrides Sub OnPreRender(e As EventArgs)
+  overload: Altazion.ECommerce.Controls.MagasinAssocieGoogleMapLink.OnPreRender*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+references:
+- uid: Altazion.ECommerce.Controls
+  commentId: N:Altazion.ECommerce.Controls
+  name: Altazion.ECommerce.Controls
+  nameWithType: Altazion.ECommerce.Controls
+  fullName: Altazion.ECommerce.Controls
+- uid: System.Object
+  commentId: '!:System.Object'
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Altazion.ECommerce.Controls.MagasinAssocieGoogleMapLink.OnPreRender*
+  commentId: Overload:Altazion.ECommerce.Controls.MagasinAssocieGoogleMapLink.OnPreRender
+  name: OnPreRender
+  nameWithType: MagasinAssocieGoogleMapLink.OnPreRender
+  fullName: Altazion.ECommerce.Controls.MagasinAssocieGoogleMapLink.OnPreRender
+- uid: EventArgs
+  isExternal: true
+  name: EventArgs
+  nameWithType: EventArgs
+  fullName: EventArgs

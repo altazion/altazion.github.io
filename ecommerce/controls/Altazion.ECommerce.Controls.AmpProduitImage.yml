@@ -1,0 +1,357 @@
+### YamlMime:ManagedReference
+items:
+- uid: Altazion.ECommerce.Controls.AmpProduitImage
+  commentId: T:Altazion.ECommerce.Controls.AmpProduitImage
+  id: AmpProduitImage
+  parent: Altazion.ECommerce.Controls
+  children:
+  - Altazion.ECommerce.Controls.AmpProduitImage.Height
+  - Altazion.ECommerce.Controls.AmpProduitImage.ImageType
+  - Altazion.ECommerce.Controls.AmpProduitImage.ImageUrlIfNone
+  - Altazion.ECommerce.Controls.AmpProduitImage.LinkType
+  - Altazion.ECommerce.Controls.AmpProduitImage.Width
+  langs:
+  - csharp
+  - vb
+  name: AmpProduitImage
+  nameWithType: AmpProduitImage
+  fullName: Altazion.ECommerce.Controls.AmpProduitImage
+  type: Class
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/AmpProductControls.cs
+    id: AmpProduitImage
+    path: AmpProductControls.cs
+    startLine: 117
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  summary: "\nAffiche l&apos;image du produit dans une page AMP\n"
+  example: []
+  syntax:
+    content: 'public class AmpProduitImage : WebControl, IEquihiraBindable'
+    content.vb: >-
+      Public Class AmpProduitImage
+          Inherits WebControl
+          Implements IEquihiraBindable
+  inheritance:
+  - System.Object
+  implements:
+  - CPointSoftware.ECommerce.Tools.IEquihiraBindable
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Altazion.ECommerce.Controls.AmpProduitImage.ImageType
+  commentId: P:Altazion.ECommerce.Controls.AmpProduitImage.ImageType
+  id: ImageType
+  parent: Altazion.ECommerce.Controls.AmpProduitImage
+  langs:
+  - csharp
+  - vb
+  name: ImageType
+  nameWithType: AmpProduitImage.ImageType
+  fullName: Altazion.ECommerce.Controls.AmpProduitImage.ImageType
+  type: Property
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/AmpProductControls.cs
+    id: ImageType
+    path: AmpProductControls.cs
+    startLine: 124
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: public TypeProduitImage ImageType { get; set; }
+    parameters: []
+    return:
+      type: CPointSoftware.ECommerce.Tools.TypeProduitImage
+    content.vb: Public Property ImageType As TypeProduitImage
+  overload: Altazion.ECommerce.Controls.AmpProduitImage.ImageType*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Altazion.ECommerce.Controls.AmpProduitImage.LinkType
+  commentId: P:Altazion.ECommerce.Controls.AmpProduitImage.LinkType
+  id: LinkType
+  parent: Altazion.ECommerce.Controls.AmpProduitImage
+  langs:
+  - csharp
+  - vb
+  name: LinkType
+  nameWithType: AmpProduitImage.LinkType
+  fullName: Altazion.ECommerce.Controls.AmpProduitImage.LinkType
+  type: Property
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/AmpProductControls.cs
+    id: LinkType
+    path: AmpProductControls.cs
+    startLine: 130
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: public TypeLienProduit LinkType { get; set; }
+    parameters: []
+    return:
+      type: CPointSoftware.ECommerce.Tools.TypeLienProduit
+    content.vb: Public Property LinkType As TypeLienProduit
+  overload: Altazion.ECommerce.Controls.AmpProduitImage.LinkType*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Altazion.ECommerce.Controls.AmpProduitImage.Width
+  commentId: P:Altazion.ECommerce.Controls.AmpProduitImage.Width
+  id: Width
+  parent: Altazion.ECommerce.Controls.AmpProduitImage
+  langs:
+  - csharp
+  - vb
+  name: Width
+  nameWithType: AmpProduitImage.Width
+  fullName: Altazion.ECommerce.Controls.AmpProduitImage.Width
+  type: Property
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/AmpProductControls.cs
+    id: Width
+    path: AmpProductControls.cs
+    startLine: 136
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: public int? Width { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{System.Int32}
+    content.vb: Public Property Width As Integer?
+  overload: Altazion.ECommerce.Controls.AmpProduitImage.Width*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Altazion.ECommerce.Controls.AmpProduitImage.Height
+  commentId: P:Altazion.ECommerce.Controls.AmpProduitImage.Height
+  id: Height
+  parent: Altazion.ECommerce.Controls.AmpProduitImage
+  langs:
+  - csharp
+  - vb
+  name: Height
+  nameWithType: AmpProduitImage.Height
+  fullName: Altazion.ECommerce.Controls.AmpProduitImage.Height
+  type: Property
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/AmpProductControls.cs
+    id: Height
+    path: AmpProductControls.cs
+    startLine: 137
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: public int? Height { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{System.Int32}
+    content.vb: Public Property Height As Integer?
+  overload: Altazion.ECommerce.Controls.AmpProduitImage.Height*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Altazion.ECommerce.Controls.AmpProduitImage.ImageUrlIfNone
+  commentId: P:Altazion.ECommerce.Controls.AmpProduitImage.ImageUrlIfNone
+  id: ImageUrlIfNone
+  parent: Altazion.ECommerce.Controls.AmpProduitImage
+  langs:
+  - csharp
+  - vb
+  name: ImageUrlIfNone
+  nameWithType: AmpProduitImage.ImageUrlIfNone
+  fullName: Altazion.ECommerce.Controls.AmpProduitImage.ImageUrlIfNone
+  type: Property
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/AmpProductControls.cs
+    id: ImageUrlIfNone
+    path: AmpProductControls.cs
+    startLine: 138
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: public string ImageUrlIfNone { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ImageUrlIfNone As String
+  overload: Altazion.ECommerce.Controls.AmpProduitImage.ImageUrlIfNone*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: Altazion.ECommerce.Controls
+  commentId: N:Altazion.ECommerce.Controls
+  name: Altazion.ECommerce.Controls
+  nameWithType: Altazion.ECommerce.Controls
+  fullName: Altazion.ECommerce.Controls
+- uid: System.Object
+  commentId: '!:System.Object'
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: CPointSoftware.ECommerce.Tools.IEquihiraBindable
+  commentId: T:CPointSoftware.ECommerce.Tools.IEquihiraBindable
+  parent: CPointSoftware.ECommerce.Tools
+  name: IEquihiraBindable
+  nameWithType: IEquihiraBindable
+  fullName: CPointSoftware.ECommerce.Tools.IEquihiraBindable
+- uid: CPointSoftware.ECommerce.Tools
+  commentId: N:CPointSoftware.ECommerce.Tools
+  name: CPointSoftware.ECommerce.Tools
+  nameWithType: CPointSoftware.ECommerce.Tools
+  fullName: CPointSoftware.ECommerce.Tools
+- uid: Altazion.ECommerce.Controls.AmpProduitImage.ImageType*
+  commentId: Overload:Altazion.ECommerce.Controls.AmpProduitImage.ImageType
+  name: ImageType
+  nameWithType: AmpProduitImage.ImageType
+  fullName: Altazion.ECommerce.Controls.AmpProduitImage.ImageType
+- uid: CPointSoftware.ECommerce.Tools.TypeProduitImage
+  commentId: T:CPointSoftware.ECommerce.Tools.TypeProduitImage
+  parent: CPointSoftware.ECommerce.Tools
+  name: TypeProduitImage
+  nameWithType: TypeProduitImage
+  fullName: CPointSoftware.ECommerce.Tools.TypeProduitImage
+- uid: Altazion.ECommerce.Controls.AmpProduitImage.LinkType*
+  commentId: Overload:Altazion.ECommerce.Controls.AmpProduitImage.LinkType
+  name: LinkType
+  nameWithType: AmpProduitImage.LinkType
+  fullName: Altazion.ECommerce.Controls.AmpProduitImage.LinkType
+- uid: CPointSoftware.ECommerce.Tools.TypeLienProduit
+  commentId: T:CPointSoftware.ECommerce.Tools.TypeLienProduit
+  parent: CPointSoftware.ECommerce.Tools
+  name: TypeLienProduit
+  nameWithType: TypeLienProduit
+  fullName: CPointSoftware.ECommerce.Tools.TypeLienProduit
+- uid: Altazion.ECommerce.Controls.AmpProduitImage.Width*
+  commentId: Overload:Altazion.ECommerce.Controls.AmpProduitImage.Width
+  name: Width
+  nameWithType: AmpProduitImage.Width
+  fullName: Altazion.ECommerce.Controls.AmpProduitImage.Width
+- uid: System.Nullable{System.Int32}
+  commentId: '!:System.Nullable{System.Int32}'
+  definition: System.Nullable`1
+  name: Nullable<Int32>
+  nameWithType: Nullable<Int32>
+  fullName: System.Nullable<System.Int32>
+  nameWithType.vb: Nullable(Of Int32)
+  fullName.vb: System.Nullable(Of System.Int32)
+  name.vb: Nullable(Of Int32)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable`1
+  isExternal: true
+  name: Nullable<>
+  nameWithType: Nullable<>
+  fullName: System.Nullable<>
+  nameWithType.vb: Nullable(Of )
+  fullName.vb: System.Nullable(Of )
+  name.vb: Nullable(Of )
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Altazion.ECommerce.Controls.AmpProduitImage.Height*
+  commentId: Overload:Altazion.ECommerce.Controls.AmpProduitImage.Height
+  name: Height
+  nameWithType: AmpProduitImage.Height
+  fullName: Altazion.ECommerce.Controls.AmpProduitImage.Height
+- uid: Altazion.ECommerce.Controls.AmpProduitImage.ImageUrlIfNone*
+  commentId: Overload:Altazion.ECommerce.Controls.AmpProduitImage.ImageUrlIfNone
+  name: ImageUrlIfNone
+  nameWithType: AmpProduitImage.ImageUrlIfNone
+  fullName: Altazion.ECommerce.Controls.AmpProduitImage.ImageUrlIfNone
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

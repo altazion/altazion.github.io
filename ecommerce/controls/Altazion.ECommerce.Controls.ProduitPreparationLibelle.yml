@@ -1,0 +1,152 @@
+### YamlMime:ManagedReference
+items:
+- uid: Altazion.ECommerce.Controls.ProduitPreparationLibelle
+  commentId: T:Altazion.ECommerce.Controls.ProduitPreparationLibelle
+  id: ProduitPreparationLibelle
+  parent: Altazion.ECommerce.Controls
+  children:
+  - Altazion.ECommerce.Controls.ProduitPreparationLibelle.PrefixeCssClass
+  - Altazion.ECommerce.Controls.ProduitPreparationLibelle.UtiliserTypeCommeCssClass
+  langs:
+  - csharp
+  - vb
+  name: ProduitPreparationLibelle
+  nameWithType: ProduitPreparationLibelle
+  fullName: Altazion.ECommerce.Controls.ProduitPreparationLibelle
+  type: Class
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/ProductLabels.cs
+    id: ProduitPreparationLibelle
+    path: ProductLabels.cs
+    startLine: 354
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  summary: "\nA utiliser dans un contrôle bindé sur un produit : affiche un span\navec la référence du produit\n"
+  example: []
+  syntax:
+    content: 'public class ProduitPreparationLibelle : Label, IEquihiraBindable'
+    content.vb: >-
+      Public Class ProduitPreparationLibelle
+          Inherits Label
+          Implements IEquihiraBindable
+  inheritance:
+  - System.Object
+  implements:
+  - CPointSoftware.ECommerce.Tools.IEquihiraBindable
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Altazion.ECommerce.Controls.ProduitPreparationLibelle.UtiliserTypeCommeCssClass
+  commentId: P:Altazion.ECommerce.Controls.ProduitPreparationLibelle.UtiliserTypeCommeCssClass
+  id: UtiliserTypeCommeCssClass
+  parent: Altazion.ECommerce.Controls.ProduitPreparationLibelle
+  langs:
+  - csharp
+  - vb
+  name: UtiliserTypeCommeCssClass
+  nameWithType: ProduitPreparationLibelle.UtiliserTypeCommeCssClass
+  fullName: Altazion.ECommerce.Controls.ProduitPreparationLibelle.UtiliserTypeCommeCssClass
+  type: Property
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/ProductLabels.cs
+    id: UtiliserTypeCommeCssClass
+    path: ProductLabels.cs
+    startLine: 358
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: public bool UtiliserTypeCommeCssClass { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property UtiliserTypeCommeCssClass As Boolean
+  overload: Altazion.ECommerce.Controls.ProduitPreparationLibelle.UtiliserTypeCommeCssClass*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Altazion.ECommerce.Controls.ProduitPreparationLibelle.PrefixeCssClass
+  commentId: P:Altazion.ECommerce.Controls.ProduitPreparationLibelle.PrefixeCssClass
+  id: PrefixeCssClass
+  parent: Altazion.ECommerce.Controls.ProduitPreparationLibelle
+  langs:
+  - csharp
+  - vb
+  name: PrefixeCssClass
+  nameWithType: ProduitPreparationLibelle.PrefixeCssClass
+  fullName: Altazion.ECommerce.Controls.ProduitPreparationLibelle.PrefixeCssClass
+  type: Property
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/ProductLabels.cs
+    id: PrefixeCssClass
+    path: ProductLabels.cs
+    startLine: 359
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: public string PrefixeCssClass { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property PrefixeCssClass As String
+  overload: Altazion.ECommerce.Controls.ProduitPreparationLibelle.PrefixeCssClass*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: Altazion.ECommerce.Controls
+  commentId: N:Altazion.ECommerce.Controls
+  name: Altazion.ECommerce.Controls
+  nameWithType: Altazion.ECommerce.Controls
+  fullName: Altazion.ECommerce.Controls
+- uid: System.Object
+  commentId: '!:System.Object'
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: CPointSoftware.ECommerce.Tools.IEquihiraBindable
+  commentId: T:CPointSoftware.ECommerce.Tools.IEquihiraBindable
+  parent: CPointSoftware.ECommerce.Tools
+  name: IEquihiraBindable
+  nameWithType: IEquihiraBindable
+  fullName: CPointSoftware.ECommerce.Tools.IEquihiraBindable
+- uid: CPointSoftware.ECommerce.Tools
+  commentId: N:CPointSoftware.ECommerce.Tools
+  name: CPointSoftware.ECommerce.Tools
+  nameWithType: CPointSoftware.ECommerce.Tools
+  fullName: CPointSoftware.ECommerce.Tools
+- uid: Altazion.ECommerce.Controls.ProduitPreparationLibelle.UtiliserTypeCommeCssClass*
+  commentId: Overload:Altazion.ECommerce.Controls.ProduitPreparationLibelle.UtiliserTypeCommeCssClass
+  name: UtiliserTypeCommeCssClass
+  nameWithType: ProduitPreparationLibelle.UtiliserTypeCommeCssClass
+  fullName: Altazion.ECommerce.Controls.ProduitPreparationLibelle.UtiliserTypeCommeCssClass
+- uid: System.Boolean
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Altazion.ECommerce.Controls.ProduitPreparationLibelle.PrefixeCssClass*
+  commentId: Overload:Altazion.ECommerce.Controls.ProduitPreparationLibelle.PrefixeCssClass
+  name: PrefixeCssClass
+  nameWithType: ProduitPreparationLibelle.PrefixeCssClass
+  fullName: Altazion.ECommerce.Controls.ProduitPreparationLibelle.PrefixeCssClass
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

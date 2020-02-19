@@ -1,0 +1,230 @@
+### YamlMime:ManagedReference
+items:
+- uid: Altazion.ECommerce.Controls.ProduitPrixHorsPromo
+  commentId: T:Altazion.ECommerce.Controls.ProduitPrixHorsPromo
+  id: ProduitPrixHorsPromo
+  parent: Altazion.ECommerce.Controls
+  children:
+  - Altazion.ECommerce.Controls.ProduitPrixHorsPromo.AfficheHT
+  - Altazion.ECommerce.Controls.ProduitPrixHorsPromo.AssocierAuMagasin
+  - Altazion.ECommerce.Controls.ProduitPrixHorsPromo.FormatPrix
+  - Altazion.ECommerce.Controls.ProduitPrixHorsPromo.FormatSiMultiTarif
+  langs:
+  - csharp
+  - vb
+  name: ProduitPrixHorsPromo
+  nameWithType: ProduitPrixHorsPromo
+  fullName: Altazion.ECommerce.Controls.ProduitPrixHorsPromo
+  type: Class
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/ProductLabels.cs
+    id: ProduitPrixHorsPromo
+    path: ProductLabels.cs
+    startLine: 1288
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  summary: "\nA utiliser dans un contrôle bindé sur un produit : affiche un span\navec le prix hors promo, si il y en a une en cours, du produit ou rien\nsi le produit n&apos;est pas en promo\n"
+  example: []
+  syntax:
+    content: 'public class ProduitPrixHorsPromo : Label, IEquihiraBindable'
+    content.vb: >-
+      Public Class ProduitPrixHorsPromo
+          Inherits Label
+          Implements IEquihiraBindable
+  inheritance:
+  - System.Object
+  implements:
+  - CPointSoftware.ECommerce.Tools.IEquihiraBindable
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Altazion.ECommerce.Controls.ProduitPrixHorsPromo.AssocierAuMagasin
+  commentId: P:Altazion.ECommerce.Controls.ProduitPrixHorsPromo.AssocierAuMagasin
+  id: AssocierAuMagasin
+  parent: Altazion.ECommerce.Controls.ProduitPrixHorsPromo
+  langs:
+  - csharp
+  - vb
+  name: AssocierAuMagasin
+  nameWithType: ProduitPrixHorsPromo.AssocierAuMagasin
+  fullName: Altazion.ECommerce.Controls.ProduitPrixHorsPromo.AssocierAuMagasin
+  type: Property
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/ProductLabels.cs
+    id: AssocierAuMagasin
+    path: ProductLabels.cs
+    startLine: 1291
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: public bool AssocierAuMagasin { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property AssocierAuMagasin As Boolean
+  overload: Altazion.ECommerce.Controls.ProduitPrixHorsPromo.AssocierAuMagasin*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Altazion.ECommerce.Controls.ProduitPrixHorsPromo.FormatPrix
+  commentId: P:Altazion.ECommerce.Controls.ProduitPrixHorsPromo.FormatPrix
+  id: FormatPrix
+  parent: Altazion.ECommerce.Controls.ProduitPrixHorsPromo
+  langs:
+  - csharp
+  - vb
+  name: FormatPrix
+  nameWithType: ProduitPrixHorsPromo.FormatPrix
+  fullName: Altazion.ECommerce.Controls.ProduitPrixHorsPromo.FormatPrix
+  type: Property
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/ProductLabels.cs
+    id: FormatPrix
+    path: ProductLabels.cs
+    startLine: 1293
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: public string FormatPrix { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property FormatPrix As String
+  overload: Altazion.ECommerce.Controls.ProduitPrixHorsPromo.FormatPrix*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Altazion.ECommerce.Controls.ProduitPrixHorsPromo.AfficheHT
+  commentId: P:Altazion.ECommerce.Controls.ProduitPrixHorsPromo.AfficheHT
+  id: AfficheHT
+  parent: Altazion.ECommerce.Controls.ProduitPrixHorsPromo
+  langs:
+  - csharp
+  - vb
+  name: AfficheHT
+  nameWithType: ProduitPrixHorsPromo.AfficheHT
+  fullName: Altazion.ECommerce.Controls.ProduitPrixHorsPromo.AfficheHT
+  type: Property
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/ProductLabels.cs
+    id: AfficheHT
+    path: ProductLabels.cs
+    startLine: 1302
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: public bool AfficheHT { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property AfficheHT As Boolean
+  overload: Altazion.ECommerce.Controls.ProduitPrixHorsPromo.AfficheHT*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Altazion.ECommerce.Controls.ProduitPrixHorsPromo.FormatSiMultiTarif
+  commentId: P:Altazion.ECommerce.Controls.ProduitPrixHorsPromo.FormatSiMultiTarif
+  id: FormatSiMultiTarif
+  parent: Altazion.ECommerce.Controls.ProduitPrixHorsPromo
+  langs:
+  - csharp
+  - vb
+  name: FormatSiMultiTarif
+  nameWithType: ProduitPrixHorsPromo.FormatSiMultiTarif
+  fullName: Altazion.ECommerce.Controls.ProduitPrixHorsPromo.FormatSiMultiTarif
+  type: Property
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/ProductLabels.cs
+    id: FormatSiMultiTarif
+    path: ProductLabels.cs
+    startLine: 1309
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: public string FormatSiMultiTarif { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property FormatSiMultiTarif As String
+  overload: Altazion.ECommerce.Controls.ProduitPrixHorsPromo.FormatSiMultiTarif*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: Altazion.ECommerce.Controls
+  commentId: N:Altazion.ECommerce.Controls
+  name: Altazion.ECommerce.Controls
+  nameWithType: Altazion.ECommerce.Controls
+  fullName: Altazion.ECommerce.Controls
+- uid: System.Object
+  commentId: '!:System.Object'
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: CPointSoftware.ECommerce.Tools.IEquihiraBindable
+  commentId: T:CPointSoftware.ECommerce.Tools.IEquihiraBindable
+  parent: CPointSoftware.ECommerce.Tools
+  name: IEquihiraBindable
+  nameWithType: IEquihiraBindable
+  fullName: CPointSoftware.ECommerce.Tools.IEquihiraBindable
+- uid: CPointSoftware.ECommerce.Tools
+  commentId: N:CPointSoftware.ECommerce.Tools
+  name: CPointSoftware.ECommerce.Tools
+  nameWithType: CPointSoftware.ECommerce.Tools
+  fullName: CPointSoftware.ECommerce.Tools
+- uid: Altazion.ECommerce.Controls.ProduitPrixHorsPromo.AssocierAuMagasin*
+  commentId: Overload:Altazion.ECommerce.Controls.ProduitPrixHorsPromo.AssocierAuMagasin
+  name: AssocierAuMagasin
+  nameWithType: ProduitPrixHorsPromo.AssocierAuMagasin
+  fullName: Altazion.ECommerce.Controls.ProduitPrixHorsPromo.AssocierAuMagasin
+- uid: System.Boolean
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Altazion.ECommerce.Controls.ProduitPrixHorsPromo.FormatPrix*
+  commentId: Overload:Altazion.ECommerce.Controls.ProduitPrixHorsPromo.FormatPrix
+  name: FormatPrix
+  nameWithType: ProduitPrixHorsPromo.FormatPrix
+  fullName: Altazion.ECommerce.Controls.ProduitPrixHorsPromo.FormatPrix
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Altazion.ECommerce.Controls.ProduitPrixHorsPromo.AfficheHT*
+  commentId: Overload:Altazion.ECommerce.Controls.ProduitPrixHorsPromo.AfficheHT
+  name: AfficheHT
+  nameWithType: ProduitPrixHorsPromo.AfficheHT
+  fullName: Altazion.ECommerce.Controls.ProduitPrixHorsPromo.AfficheHT
+- uid: Altazion.ECommerce.Controls.ProduitPrixHorsPromo.FormatSiMultiTarif*
+  commentId: Overload:Altazion.ECommerce.Controls.ProduitPrixHorsPromo.FormatSiMultiTarif
+  name: FormatSiMultiTarif
+  nameWithType: ProduitPrixHorsPromo.FormatSiMultiTarif
+  fullName: Altazion.ECommerce.Controls.ProduitPrixHorsPromo.FormatSiMultiTarif

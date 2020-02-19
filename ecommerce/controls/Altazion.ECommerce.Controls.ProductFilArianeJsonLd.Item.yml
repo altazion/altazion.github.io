@@ -1,0 +1,131 @@
+### YamlMime:ManagedReference
+items:
+- uid: Altazion.ECommerce.Controls.ProductFilArianeJsonLd.Item
+  commentId: T:Altazion.ECommerce.Controls.ProductFilArianeJsonLd.Item
+  id: ProductFilArianeJsonLd.Item
+  parent: Altazion.ECommerce.Controls
+  children:
+  - Altazion.ECommerce.Controls.ProductFilArianeJsonLd.Item.id
+  - Altazion.ECommerce.Controls.ProductFilArianeJsonLd.Item.name
+  langs:
+  - csharp
+  - vb
+  name: ProductFilArianeJsonLd.Item
+  nameWithType: ProductFilArianeJsonLd.Item
+  fullName: Altazion.ECommerce.Controls.ProductFilArianeJsonLd.Item
+  type: Class
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/FilArianeCategories.cs
+    id: Item
+    path: FilArianeCategories.cs
+    startLine: 310
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: 'public class Item : object'
+    content.vb: >-
+      Public Class Item
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Altazion.ECommerce.Controls.ProductFilArianeJsonLd.Item.id
+  commentId: P:Altazion.ECommerce.Controls.ProductFilArianeJsonLd.Item.id
+  id: id
+  parent: Altazion.ECommerce.Controls.ProductFilArianeJsonLd.Item
+  langs:
+  - csharp
+  - vb
+  name: id
+  nameWithType: ProductFilArianeJsonLd.Item.id
+  fullName: Altazion.ECommerce.Controls.ProductFilArianeJsonLd.Item.id
+  type: Property
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/FilArianeCategories.cs
+    id: id
+    path: FilArianeCategories.cs
+    startLine: 312
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: public string id { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property id As String
+  overload: Altazion.ECommerce.Controls.ProductFilArianeJsonLd.Item.id*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Altazion.ECommerce.Controls.ProductFilArianeJsonLd.Item.name
+  commentId: P:Altazion.ECommerce.Controls.ProductFilArianeJsonLd.Item.name
+  id: name
+  parent: Altazion.ECommerce.Controls.ProductFilArianeJsonLd.Item
+  langs:
+  - csharp
+  - vb
+  name: name
+  nameWithType: ProductFilArianeJsonLd.Item.name
+  fullName: Altazion.ECommerce.Controls.ProductFilArianeJsonLd.Item.name
+  type: Property
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/FilArianeCategories.cs
+    id: name
+    path: FilArianeCategories.cs
+    startLine: 314
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: public string name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property name As String
+  overload: Altazion.ECommerce.Controls.ProductFilArianeJsonLd.Item.name*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: Altazion.ECommerce.Controls
+  commentId: N:Altazion.ECommerce.Controls
+  name: Altazion.ECommerce.Controls
+  nameWithType: Altazion.ECommerce.Controls
+  fullName: Altazion.ECommerce.Controls
+- uid: System.Object
+  commentId: '!:System.Object'
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Altazion.ECommerce.Controls.ProductFilArianeJsonLd.Item.id*
+  commentId: Overload:Altazion.ECommerce.Controls.ProductFilArianeJsonLd.Item.id
+  name: id
+  nameWithType: ProductFilArianeJsonLd.Item.id
+  fullName: Altazion.ECommerce.Controls.ProductFilArianeJsonLd.Item.id
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Altazion.ECommerce.Controls.ProductFilArianeJsonLd.Item.name*
+  commentId: Overload:Altazion.ECommerce.Controls.ProductFilArianeJsonLd.Item.name
+  name: name
+  nameWithType: ProductFilArianeJsonLd.Item.name
+  fullName: Altazion.ECommerce.Controls.ProductFilArianeJsonLd.Item.name

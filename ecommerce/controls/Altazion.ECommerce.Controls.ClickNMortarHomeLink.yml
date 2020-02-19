@@ -1,0 +1,148 @@
+### YamlMime:ManagedReference
+items:
+- uid: Altazion.ECommerce.Controls.ClickNMortarHomeLink
+  commentId: T:Altazion.ECommerce.Controls.ClickNMortarHomeLink
+  id: ClickNMortarHomeLink
+  parent: Altazion.ECommerce.Controls
+  children:
+  - Altazion.ECommerce.Controls.ClickNMortarHomeLink.#ctor
+  - Altazion.ECommerce.Controls.ClickNMortarHomeLink.OnPreRender(EventArgs)
+  langs:
+  - csharp
+  - vb
+  name: ClickNMortarHomeLink
+  nameWithType: ClickNMortarHomeLink
+  fullName: Altazion.ECommerce.Controls.ClickNMortarHomeLink
+  type: Class
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/MagasinsControls.cs
+    id: ClickNMortarHomeLink
+    path: MagasinsControls.cs
+    startLine: 16
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  summary: "\nAffiche un lien pointant vers la home des pages\nmagasins si le module est actif\n"
+  example: []
+  syntax:
+    content: 'public class ClickNMortarHomeLink : Hyperlink'
+    content.vb: >-
+      Public Class ClickNMortarHomeLink
+          Inherits Hyperlink
+  inheritance:
+  - System.Object
+  - CPointSoftware.ECommerce.Tools.Hyperlink
+  inheritedMembers:
+  - CPointSoftware.ECommerce.Tools.Hyperlink.CssClassIfCurrent
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Altazion.ECommerce.Controls.ClickNMortarHomeLink.#ctor
+  commentId: M:Altazion.ECommerce.Controls.ClickNMortarHomeLink.#ctor
+  id: '#ctor'
+  parent: Altazion.ECommerce.Controls.ClickNMortarHomeLink
+  langs:
+  - csharp
+  - vb
+  name: ClickNMortarHomeLink()
+  nameWithType: ClickNMortarHomeLink.ClickNMortarHomeLink()
+  fullName: Altazion.ECommerce.Controls.ClickNMortarHomeLink.ClickNMortarHomeLink()
+  type: Constructor
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/MagasinsControls.cs
+    id: .ctor
+    path: MagasinsControls.cs
+    startLine: 18
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: public ClickNMortarHomeLink()
+    content.vb: Public Sub New
+  overload: Altazion.ECommerce.Controls.ClickNMortarHomeLink.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Altazion.ECommerce.Controls.ClickNMortarHomeLink.OnPreRender(EventArgs)
+  commentId: M:Altazion.ECommerce.Controls.ClickNMortarHomeLink.OnPreRender(EventArgs)
+  id: OnPreRender(EventArgs)
+  parent: Altazion.ECommerce.Controls.ClickNMortarHomeLink
+  langs:
+  - csharp
+  - vb
+  name: OnPreRender(EventArgs)
+  nameWithType: ClickNMortarHomeLink.OnPreRender(EventArgs)
+  fullName: Altazion.ECommerce.Controls.ClickNMortarHomeLink.OnPreRender(EventArgs)
+  type: Method
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/MagasinsControls.cs
+    id: OnPreRender
+    path: MagasinsControls.cs
+    startLine: 28
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: protected override void OnPreRender(EventArgs e)
+    parameters:
+    - id: e
+      type: EventArgs
+    content.vb: Protected Overrides Sub OnPreRender(e As EventArgs)
+  overload: Altazion.ECommerce.Controls.ClickNMortarHomeLink.OnPreRender*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+references:
+- uid: Altazion.ECommerce.Controls
+  commentId: N:Altazion.ECommerce.Controls
+  name: Altazion.ECommerce.Controls
+  nameWithType: Altazion.ECommerce.Controls
+  fullName: Altazion.ECommerce.Controls
+- uid: System.Object
+  commentId: '!:System.Object'
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: CPointSoftware.ECommerce.Tools.Hyperlink
+  commentId: T:CPointSoftware.ECommerce.Tools.Hyperlink
+  parent: CPointSoftware.ECommerce.Tools
+  name: Hyperlink
+  nameWithType: Hyperlink
+  fullName: CPointSoftware.ECommerce.Tools.Hyperlink
+- uid: CPointSoftware.ECommerce.Tools.Hyperlink.CssClassIfCurrent
+  commentId: P:CPointSoftware.ECommerce.Tools.Hyperlink.CssClassIfCurrent
+  parent: CPointSoftware.ECommerce.Tools.Hyperlink
+  name: CssClassIfCurrent
+  nameWithType: Hyperlink.CssClassIfCurrent
+  fullName: CPointSoftware.ECommerce.Tools.Hyperlink.CssClassIfCurrent
+- uid: CPointSoftware.ECommerce.Tools
+  commentId: N:CPointSoftware.ECommerce.Tools
+  name: CPointSoftware.ECommerce.Tools
+  nameWithType: CPointSoftware.ECommerce.Tools
+  fullName: CPointSoftware.ECommerce.Tools
+- uid: Altazion.ECommerce.Controls.ClickNMortarHomeLink.#ctor*
+  commentId: Overload:Altazion.ECommerce.Controls.ClickNMortarHomeLink.#ctor
+  name: ClickNMortarHomeLink
+  nameWithType: ClickNMortarHomeLink.ClickNMortarHomeLink
+  fullName: Altazion.ECommerce.Controls.ClickNMortarHomeLink.ClickNMortarHomeLink
+- uid: Altazion.ECommerce.Controls.ClickNMortarHomeLink.OnPreRender*
+  commentId: Overload:Altazion.ECommerce.Controls.ClickNMortarHomeLink.OnPreRender
+  name: OnPreRender
+  nameWithType: ClickNMortarHomeLink.OnPreRender
+  fullName: Altazion.ECommerce.Controls.ClickNMortarHomeLink.OnPreRender
+- uid: EventArgs
+  isExternal: true
+  name: EventArgs
+  nameWithType: EventArgs
+  fullName: EventArgs

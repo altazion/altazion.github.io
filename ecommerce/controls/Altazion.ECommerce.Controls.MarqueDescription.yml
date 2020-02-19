@@ -1,0 +1,144 @@
+### YamlMime:ManagedReference
+items:
+- uid: Altazion.ECommerce.Controls.MarqueDescription
+  commentId: T:Altazion.ECommerce.Controls.MarqueDescription
+  id: MarqueDescription
+  parent: Altazion.ECommerce.Controls
+  children:
+  - Altazion.ECommerce.Controls.MarqueDescription.TextFormat
+  langs:
+  - csharp
+  - vb
+  name: MarqueDescription
+  nameWithType: MarqueDescription
+  fullName: Altazion.ECommerce.Controls.MarqueDescription
+  type: Class
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/ControlesMarques.cs
+    id: MarqueDescription
+    path: ControlesMarques.cs
+    startLine: 184
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  summary: "\nAffiche un span avec la description de la marque\n"
+  remarks: >-
+    Vous pouvez utiliser ce contrôle dans les
+
+    éléments qui affichent une marque :
+
+    <ul><li>Un <xref href="CPointSoftware.ECommerce.Tools.ProductPanel" data-throw-if-not-resolved="false"></xref> :
+
+    dans ce cas, la marque de l&apos;article sera prise en
+
+    compte</li><li>Une descente produit correspondant à
+
+    une marque, pour en faire, par exemple, un entête de page
+
+    </li><li>Un contrôle dont la source de données
+
+    serait un <xref href="CPointSoftware.ECommerce.Tools.MarquesSource" data-throw-if-not-resolved="false"></xref>
+
+    </li><li>ou tout contrôle personnalisé qui effecturait
+
+    un databinding sur la table catalog_marques.
+
+    </li></ul>
+  example: []
+  syntax:
+    content: 'public class MarqueDescription : Web.UI.WebControls.Label, IEquihiraBindable'
+    content.vb: >-
+      Public Class MarqueDescription
+          Inherits Web.UI.WebControls.Label
+          Implements IEquihiraBindable
+  inheritance:
+  - System.Object
+  implements:
+  - CPointSoftware.ECommerce.Tools.IEquihiraBindable
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Altazion.ECommerce.Controls.MarqueDescription.TextFormat
+  commentId: P:Altazion.ECommerce.Controls.MarqueDescription.TextFormat
+  id: TextFormat
+  parent: Altazion.ECommerce.Controls.MarqueDescription
+  langs:
+  - csharp
+  - vb
+  name: TextFormat
+  nameWithType: MarqueDescription.TextFormat
+  fullName: Altazion.ECommerce.Controls.MarqueDescription.TextFormat
+  type: Property
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/ControlesMarques.cs
+    id: TextFormat
+    path: ControlesMarques.cs
+    startLine: 193
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  summary: "\nObtient ou définit le format d&apos;affichage \ndu lien, où {0} représente le nom de la marque\n"
+  remarks: >-
+    Ne pas renseigner ce champ pour
+
+    afficher le contenu de la description sans
+
+    modifications
+  example: []
+  syntax:
+    content: public string TextFormat { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property TextFormat As String
+  overload: Altazion.ECommerce.Controls.MarqueDescription.TextFormat*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: CPointSoftware.ECommerce.Tools.ProductPanel
+  commentId: T:CPointSoftware.ECommerce.Tools.ProductPanel
+  isExternal: true
+- uid: CPointSoftware.ECommerce.Tools.MarquesSource
+  commentId: T:CPointSoftware.ECommerce.Tools.MarquesSource
+  isExternal: true
+- uid: Altazion.ECommerce.Controls
+  commentId: N:Altazion.ECommerce.Controls
+  name: Altazion.ECommerce.Controls
+  nameWithType: Altazion.ECommerce.Controls
+  fullName: Altazion.ECommerce.Controls
+- uid: System.Object
+  commentId: '!:System.Object'
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: CPointSoftware.ECommerce.Tools.IEquihiraBindable
+  commentId: T:CPointSoftware.ECommerce.Tools.IEquihiraBindable
+  parent: CPointSoftware.ECommerce.Tools
+  name: IEquihiraBindable
+  nameWithType: IEquihiraBindable
+  fullName: CPointSoftware.ECommerce.Tools.IEquihiraBindable
+- uid: CPointSoftware.ECommerce.Tools
+  commentId: N:CPointSoftware.ECommerce.Tools
+  name: CPointSoftware.ECommerce.Tools
+  nameWithType: CPointSoftware.ECommerce.Tools
+  fullName: CPointSoftware.ECommerce.Tools
+- uid: Altazion.ECommerce.Controls.MarqueDescription.TextFormat*
+  commentId: Overload:Altazion.ECommerce.Controls.MarqueDescription.TextFormat
+  name: TextFormat
+  nameWithType: MarqueDescription.TextFormat
+  fullName: Altazion.ECommerce.Controls.MarqueDescription.TextFormat
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

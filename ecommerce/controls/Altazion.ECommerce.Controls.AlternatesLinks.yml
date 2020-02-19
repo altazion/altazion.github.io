@@ -1,0 +1,139 @@
+### YamlMime:ManagedReference
+items:
+- uid: Altazion.ECommerce.Controls.AlternatesLinks
+  commentId: T:Altazion.ECommerce.Controls.AlternatesLinks
+  id: AlternatesLinks
+  parent: Altazion.ECommerce.Controls
+  children:
+  - Altazion.ECommerce.Controls.AlternatesLinks.#ctor
+  - Altazion.ECommerce.Controls.AlternatesLinks.Alternates
+  langs:
+  - csharp
+  - vb
+  name: AlternatesLinks
+  nameWithType: AlternatesLinks
+  fullName: Altazion.ECommerce.Controls.AlternatesLinks
+  type: Class
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/AlternatesLinks.cs
+    id: AlternatesLinks
+    path: AlternatesLinks.cs
+    startLine: 56
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  summary: "\nAjoute des &lt;link ... /> pour chaque \nalternative de langue\n"
+  remarks: "\n<p>Les urls pointées par les balises link sont\nconsituées de l&apos;url racine correspondant à \nchaque langue, complétée du path courant.</p>\n<p>Par exemple, pour l&apos;url \nhttps://demo.ecommerce-server.fr/produits/descente-categorie/page1.htm, \nle contrôle suivant :</p>\n<pre><code>&lt;ecom:AlternatesLinks runat=&quot;server&quot;>\n    &lt;Alternates>\n        &lt;ecom:AlternateLinkInfo \n            Langue=&quot;fr-fr&quot; \n            UrlRacine=&quot;https://demo.ecommerce-server.fr/&quot; />\n        &lt;ecom:AlternateLinkInfo \n            Langue=&quot;en-us-ch&quot; \n            UrlRacine=&quot;https://demo-us.ecommerce-server.com/&quot; />\n    &lt;/Alternates>\n&lt;/ecom:AlternatesLinks></code></pre>\n<p>calculera les urls pour la version française et américaine sous la forme :</p>\n<pre><code>&lt;link rel=&apos;alternate&apos; hreflang=&apos;fr-fr&apos; \n   href=&apos;https://demo.ecommerce-server.fr/produits/descente-categorie/page1.htm&apos; />\n&lt;link rel=&apos;alternate&apos; hreflang=&apos;fr-ch&apos; \n   href=&apos;https://demo-us.ecommerce-server.com/produits/descente-categorie/page1.htm&apos; /></code></pre>\n"
+  example: []
+  syntax:
+    content: 'public class AlternatesLinks : WebControl'
+    content.vb: >-
+      Public Class AlternatesLinks
+          Inherits WebControl
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Altazion.ECommerce.Controls.AlternatesLinks.#ctor
+  commentId: M:Altazion.ECommerce.Controls.AlternatesLinks.#ctor
+  id: '#ctor'
+  parent: Altazion.ECommerce.Controls.AlternatesLinks
+  langs:
+  - csharp
+  - vb
+  name: AlternatesLinks()
+  nameWithType: AlternatesLinks.AlternatesLinks()
+  fullName: Altazion.ECommerce.Controls.AlternatesLinks.AlternatesLinks()
+  type: Constructor
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/AlternatesLinks.cs
+    id: .ctor
+    path: AlternatesLinks.cs
+    startLine: 62
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  summary: "\nConstructeur par défaut\n"
+  example: []
+  syntax:
+    content: public AlternatesLinks()
+    content.vb: Public Sub New
+  overload: Altazion.ECommerce.Controls.AlternatesLinks.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Altazion.ECommerce.Controls.AlternatesLinks.Alternates
+  commentId: P:Altazion.ECommerce.Controls.AlternatesLinks.Alternates
+  id: Alternates
+  parent: Altazion.ECommerce.Controls.AlternatesLinks
+  langs:
+  - csharp
+  - vb
+  name: Alternates
+  nameWithType: AlternatesLinks.Alternates
+  fullName: Altazion.ECommerce.Controls.AlternatesLinks.Alternates
+  type: Property
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/AlternatesLinks.cs
+    id: Alternates
+    path: AlternatesLinks.cs
+    startLine: 87
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  summary: "\nObtient ou définit la liste des alternates sous forme d&apos;une liste\nde <xref href=\"Altazion.ECommerce.Controls.AlternateLinkInfo\" data-throw-if-not-resolved=\"false\"></xref>\n"
+  remarks: "\n<p>En asp.net, vous pouvez inclure les différentes valeurs sous\nformes de &quot;sous noeud&quot; du contrôle, par exemple :</p>\n<pre><code>&lt;ecom:AlternatesLinks runat=&quot;server&quot;>\n    &lt;Alternates>\n        &lt;ecom:AlternateLinkInfo \n            Langue=&quot;fr-fr&quot; \n            UrlRacine=&quot;https://demo.ecommerce-server.fr/&quot; />\n        &lt;ecom:AlternateLinkInfo \n            Langue=&quot;en-us-ch&quot; \n            UrlRacine=&quot;https://demo-us.ecommerce-server.com/&quot; />\n    &lt;/Alternates>\n&lt;/ecom:AlternatesLinks></code></pre>\n"
+  example: []
+  syntax:
+    content: public ArrayList Alternates { get; set; }
+    parameters: []
+    return:
+      type: ArrayList
+    content.vb: Public Property Alternates As ArrayList
+  overload: Altazion.ECommerce.Controls.AlternatesLinks.Alternates*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: Altazion.ECommerce.Controls
+  commentId: N:Altazion.ECommerce.Controls
+  name: Altazion.ECommerce.Controls
+  nameWithType: Altazion.ECommerce.Controls
+  fullName: Altazion.ECommerce.Controls
+- uid: System.Object
+  commentId: '!:System.Object'
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Altazion.ECommerce.Controls.AlternatesLinks.#ctor*
+  commentId: Overload:Altazion.ECommerce.Controls.AlternatesLinks.#ctor
+  name: AlternatesLinks
+  nameWithType: AlternatesLinks.AlternatesLinks
+  fullName: Altazion.ECommerce.Controls.AlternatesLinks.AlternatesLinks
+- uid: Altazion.ECommerce.Controls.AlternateLinkInfo
+  commentId: T:Altazion.ECommerce.Controls.AlternateLinkInfo
+  name: AlternateLinkInfo
+  nameWithType: AlternateLinkInfo
+  fullName: Altazion.ECommerce.Controls.AlternateLinkInfo
+- uid: Altazion.ECommerce.Controls.AlternatesLinks.Alternates*
+  commentId: Overload:Altazion.ECommerce.Controls.AlternatesLinks.Alternates
+  name: Alternates
+  nameWithType: AlternatesLinks.Alternates
+  fullName: Altazion.ECommerce.Controls.AlternatesLinks.Alternates
+- uid: ArrayList
+  isExternal: true
+  name: ArrayList
+  nameWithType: ArrayList
+  fullName: ArrayList

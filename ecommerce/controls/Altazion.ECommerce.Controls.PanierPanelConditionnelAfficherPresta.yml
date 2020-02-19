@@ -1,0 +1,136 @@
+### YamlMime:ManagedReference
+items:
+- uid: Altazion.ECommerce.Controls.PanierPanelConditionnelAfficherPresta
+  commentId: T:Altazion.ECommerce.Controls.PanierPanelConditionnelAfficherPresta
+  id: PanierPanelConditionnelAfficherPresta
+  parent: Altazion.ECommerce.Controls
+  children:
+  - Altazion.ECommerce.Controls.PanierPanelConditionnelAfficherPresta.OnPreRender(EventArgs)
+  - Altazion.ECommerce.Controls.PanierPanelConditionnelAfficherPresta.PtpPk
+  langs:
+  - csharp
+  - vb
+  name: PanierPanelConditionnelAfficherPresta
+  nameWithType: PanierPanelConditionnelAfficherPresta
+  fullName: Altazion.ECommerce.Controls.PanierPanelConditionnelAfficherPresta
+  type: Class
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanelCrossCanal.cs
+    id: PanierPanelConditionnelAfficherPresta
+    path: PanelCrossCanal.cs
+    startLine: 92
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: 'public class PanierPanelConditionnelAfficherPresta : Panel'
+    content.vb: >-
+      Public Class PanierPanelConditionnelAfficherPresta
+          Inherits Panel
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Altazion.ECommerce.Controls.PanierPanelConditionnelAfficherPresta.PtpPk
+  commentId: P:Altazion.ECommerce.Controls.PanierPanelConditionnelAfficherPresta.PtpPk
+  id: PtpPk
+  parent: Altazion.ECommerce.Controls.PanierPanelConditionnelAfficherPresta
+  langs:
+  - csharp
+  - vb
+  name: PtpPk
+  nameWithType: PanierPanelConditionnelAfficherPresta.PtpPk
+  fullName: Altazion.ECommerce.Controls.PanierPanelConditionnelAfficherPresta.PtpPk
+  type: Property
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanelCrossCanal.cs
+    id: PtpPk
+    path: PanelCrossCanal.cs
+    startLine: 94
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: public int PtpPk { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property PtpPk As Integer
+  overload: Altazion.ECommerce.Controls.PanierPanelConditionnelAfficherPresta.PtpPk*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Altazion.ECommerce.Controls.PanierPanelConditionnelAfficherPresta.OnPreRender(EventArgs)
+  commentId: M:Altazion.ECommerce.Controls.PanierPanelConditionnelAfficherPresta.OnPreRender(EventArgs)
+  id: OnPreRender(EventArgs)
+  parent: Altazion.ECommerce.Controls.PanierPanelConditionnelAfficherPresta
+  langs:
+  - csharp
+  - vb
+  name: OnPreRender(EventArgs)
+  nameWithType: PanierPanelConditionnelAfficherPresta.OnPreRender(EventArgs)
+  fullName: Altazion.ECommerce.Controls.PanierPanelConditionnelAfficherPresta.OnPreRender(EventArgs)
+  type: Method
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanelCrossCanal.cs
+    id: OnPreRender
+    path: PanelCrossCanal.cs
+    startLine: 96
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: protected override void OnPreRender(EventArgs e)
+    parameters:
+    - id: e
+      type: EventArgs
+    content.vb: Protected Overrides Sub OnPreRender(e As EventArgs)
+  overload: Altazion.ECommerce.Controls.PanierPanelConditionnelAfficherPresta.OnPreRender*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+references:
+- uid: Altazion.ECommerce.Controls
+  commentId: N:Altazion.ECommerce.Controls
+  name: Altazion.ECommerce.Controls
+  nameWithType: Altazion.ECommerce.Controls
+  fullName: Altazion.ECommerce.Controls
+- uid: System.Object
+  commentId: '!:System.Object'
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Altazion.ECommerce.Controls.PanierPanelConditionnelAfficherPresta.PtpPk*
+  commentId: Overload:Altazion.ECommerce.Controls.PanierPanelConditionnelAfficherPresta.PtpPk
+  name: PtpPk
+  nameWithType: PanierPanelConditionnelAfficherPresta.PtpPk
+  fullName: Altazion.ECommerce.Controls.PanierPanelConditionnelAfficherPresta.PtpPk
+- uid: System.Int32
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Altazion.ECommerce.Controls.PanierPanelConditionnelAfficherPresta.OnPreRender*
+  commentId: Overload:Altazion.ECommerce.Controls.PanierPanelConditionnelAfficherPresta.OnPreRender
+  name: OnPreRender
+  nameWithType: PanierPanelConditionnelAfficherPresta.OnPreRender
+  fullName: Altazion.ECommerce.Controls.PanierPanelConditionnelAfficherPresta.OnPreRender
+- uid: EventArgs
+  isExternal: true
+  name: EventArgs
+  nameWithType: EventArgs
+  fullName: EventArgs

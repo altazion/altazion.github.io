@@ -1,0 +1,182 @@
+### YamlMime:ManagedReference
+items:
+- uid: Altazion.ECommerce.Controls.LivraisonMontant
+  commentId: T:Altazion.ECommerce.Controls.LivraisonMontant
+  id: LivraisonMontant
+  parent: Altazion.ECommerce.Controls
+  children:
+  - Altazion.ECommerce.Controls.LivraisonMontant.Format
+  - Altazion.ECommerce.Controls.LivraisonMontant.MessageSiOffert
+  - Altazion.ECommerce.Controls.LivraisonMontant.OnPreRender(EventArgs)
+  langs:
+  - csharp
+  - vb
+  name: LivraisonMontant
+  nameWithType: LivraisonMontant
+  fullName: Altazion.ECommerce.Controls.LivraisonMontant
+  type: Class
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/LivraisonLabel.cs
+    id: LivraisonMontant
+    path: LivraisonLabel.cs
+    startLine: 14
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  summary: "\nAffiche dans un span le montant de la livraison\nactuellement selectionnée dans le panier\n"
+  example: []
+  syntax:
+    content: 'public class LivraisonMontant : Label'
+    content.vb: >-
+      Public Class LivraisonMontant
+          Inherits Label
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Altazion.ECommerce.Controls.LivraisonMontant.MessageSiOffert
+  commentId: P:Altazion.ECommerce.Controls.LivraisonMontant.MessageSiOffert
+  id: MessageSiOffert
+  parent: Altazion.ECommerce.Controls.LivraisonMontant
+  langs:
+  - csharp
+  - vb
+  name: MessageSiOffert
+  nameWithType: LivraisonMontant.MessageSiOffert
+  fullName: Altazion.ECommerce.Controls.LivraisonMontant.MessageSiOffert
+  type: Property
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/LivraisonLabel.cs
+    id: MessageSiOffert
+    path: LivraisonLabel.cs
+    startLine: 17
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: public string MessageSiOffert { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property MessageSiOffert As String
+  overload: Altazion.ECommerce.Controls.LivraisonMontant.MessageSiOffert*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Altazion.ECommerce.Controls.LivraisonMontant.Format
+  commentId: P:Altazion.ECommerce.Controls.LivraisonMontant.Format
+  id: Format
+  parent: Altazion.ECommerce.Controls.LivraisonMontant
+  langs:
+  - csharp
+  - vb
+  name: Format
+  nameWithType: LivraisonMontant.Format
+  fullName: Altazion.ECommerce.Controls.LivraisonMontant.Format
+  type: Property
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/LivraisonLabel.cs
+    id: Format
+    path: LivraisonLabel.cs
+    startLine: 22
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: public String Format { get; set; }
+    parameters: []
+    return:
+      type: String
+    content.vb: Public Property Format As String
+  overload: Altazion.ECommerce.Controls.LivraisonMontant.Format*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Altazion.ECommerce.Controls.LivraisonMontant.OnPreRender(EventArgs)
+  commentId: M:Altazion.ECommerce.Controls.LivraisonMontant.OnPreRender(EventArgs)
+  id: OnPreRender(EventArgs)
+  parent: Altazion.ECommerce.Controls.LivraisonMontant
+  langs:
+  - csharp
+  - vb
+  name: OnPreRender(EventArgs)
+  nameWithType: LivraisonMontant.OnPreRender(EventArgs)
+  fullName: Altazion.ECommerce.Controls.LivraisonMontant.OnPreRender(EventArgs)
+  type: Method
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/LivraisonLabel.cs
+    id: OnPreRender
+    path: LivraisonLabel.cs
+    startLine: 57
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: protected override void OnPreRender(EventArgs e)
+    parameters:
+    - id: e
+      type: EventArgs
+    content.vb: Protected Overrides Sub OnPreRender(e As EventArgs)
+  overload: Altazion.ECommerce.Controls.LivraisonMontant.OnPreRender*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+references:
+- uid: Altazion.ECommerce.Controls
+  commentId: N:Altazion.ECommerce.Controls
+  name: Altazion.ECommerce.Controls
+  nameWithType: Altazion.ECommerce.Controls
+  fullName: Altazion.ECommerce.Controls
+- uid: System.Object
+  commentId: '!:System.Object'
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Altazion.ECommerce.Controls.LivraisonMontant.MessageSiOffert*
+  commentId: Overload:Altazion.ECommerce.Controls.LivraisonMontant.MessageSiOffert
+  name: MessageSiOffert
+  nameWithType: LivraisonMontant.MessageSiOffert
+  fullName: Altazion.ECommerce.Controls.LivraisonMontant.MessageSiOffert
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Altazion.ECommerce.Controls.LivraisonMontant.Format*
+  commentId: Overload:Altazion.ECommerce.Controls.LivraisonMontant.Format
+  name: Format
+  nameWithType: LivraisonMontant.Format
+  fullName: Altazion.ECommerce.Controls.LivraisonMontant.Format
+- uid: String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: String
+- uid: Altazion.ECommerce.Controls.LivraisonMontant.OnPreRender*
+  commentId: Overload:Altazion.ECommerce.Controls.LivraisonMontant.OnPreRender
+  name: OnPreRender
+  nameWithType: LivraisonMontant.OnPreRender
+  fullName: Altazion.ECommerce.Controls.LivraisonMontant.OnPreRender
+- uid: EventArgs
+  isExternal: true
+  name: EventArgs
+  nameWithType: EventArgs
+  fullName: EventArgs

@@ -1,0 +1,221 @@
+### YamlMime:ManagedReference
+items:
+- uid: Altazion.ECommerce.Controls.SeoContent
+  commentId: T:Altazion.ECommerce.Controls.SeoContent
+  id: SeoContent
+  parent: Altazion.ECommerce.Controls
+  children:
+  - Altazion.ECommerce.Controls.SeoContent.#ctor
+  - Altazion.ECommerce.Controls.SeoContent.CodeEmplacement
+  - Altazion.ECommerce.Controls.SeoContent.DefaultContent
+  - Altazion.ECommerce.Controls.SeoContent.OnPreRender(EventArgs)
+  langs:
+  - csharp
+  - vb
+  name: SeoContent
+  nameWithType: SeoContent
+  fullName: Altazion.ECommerce.Controls.SeoContent
+  type: Class
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/SeoContentControls.cs
+    id: SeoContent
+    path: SeoContentControls.cs
+    startLine: 33
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  summary: "\nAffiche un bloc de contenu pour le SEO ou \nla personnalisation du contenu des pages\n"
+  remarks: "<p>Ce contrôle est destiné à être utilisé dans \n    un thème personnalisé pour définir un emplacement dont\n    le contenu sera géré via un éditeur CMS dans le back-office.\n    Pour plus d&apos;information, consultez la documentation sur\n    la personnalisation.</p>\n<p>Le contenu SEO est ajouté au code HTML de la page\ntel quel, sans aucun tag englobant. Par exemple :</p>\n<pre><code>&lt;ecom:SeoContent runat=&quot;server&quot; \n   CodeEmplacement=&quot;Footer&quot; \n   DefaultContent=&quot;&lt;p>Test&lt;/p>&quot; /></code></pre>\n<p>affichera le simple code HTML suivant \n(si aucun contenu n&apos;est définit dans le back office) :</p>\n<pre><code>&lt;p>Test&lt;/p></code></pre>\n"
+  example: []
+  syntax:
+    content: 'public class SeoContent : Literal'
+    content.vb: >-
+      Public Class SeoContent
+          Inherits Literal
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Altazion.ECommerce.Controls.SeoContent.#ctor
+  commentId: M:Altazion.ECommerce.Controls.SeoContent.#ctor
+  id: '#ctor'
+  parent: Altazion.ECommerce.Controls.SeoContent
+  langs:
+  - csharp
+  - vb
+  name: SeoContent()
+  nameWithType: SeoContent.SeoContent()
+  fullName: Altazion.ECommerce.Controls.SeoContent.SeoContent()
+  type: Constructor
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/SeoContentControls.cs
+    id: .ctor
+    path: SeoContentControls.cs
+    startLine: 38
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  summary: "\nConstructeur par défaut\n"
+  example: []
+  syntax:
+    content: public SeoContent()
+    content.vb: Public Sub New
+  overload: Altazion.ECommerce.Controls.SeoContent.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Altazion.ECommerce.Controls.SeoContent.CodeEmplacement
+  commentId: P:Altazion.ECommerce.Controls.SeoContent.CodeEmplacement
+  id: CodeEmplacement
+  parent: Altazion.ECommerce.Controls.SeoContent
+  langs:
+  - csharp
+  - vb
+  name: CodeEmplacement
+  nameWithType: SeoContent.CodeEmplacement
+  fullName: Altazion.ECommerce.Controls.SeoContent.CodeEmplacement
+  type: Property
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/SeoContentControls.cs
+    id: CodeEmplacement
+    path: SeoContentControls.cs
+    startLine: 48
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  summary: "\nObtient ou définit un code d&apos;emplacement \npour identifier la zone à afficher\n"
+  example: []
+  syntax:
+    content: public string CodeEmplacement { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property CodeEmplacement As String
+  overload: Altazion.ECommerce.Controls.SeoContent.CodeEmplacement*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Altazion.ECommerce.Controls.SeoContent.DefaultContent
+  commentId: P:Altazion.ECommerce.Controls.SeoContent.DefaultContent
+  id: DefaultContent
+  parent: Altazion.ECommerce.Controls.SeoContent
+  langs:
+  - csharp
+  - vb
+  name: DefaultContent
+  nameWithType: SeoContent.DefaultContent
+  fullName: Altazion.ECommerce.Controls.SeoContent.DefaultContent
+  type: Property
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/SeoContentControls.cs
+    id: DefaultContent
+    path: SeoContentControls.cs
+    startLine: 55
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  summary: "\nObtient ou définit le contenu par défaut pour\nle cas où il ne serait pas définit dans \nle back-office.\n"
+  example: []
+  syntax:
+    content: public string DefaultContent { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property DefaultContent As String
+  overload: Altazion.ECommerce.Controls.SeoContent.DefaultContent*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Altazion.ECommerce.Controls.SeoContent.OnPreRender(EventArgs)
+  commentId: M:Altazion.ECommerce.Controls.SeoContent.OnPreRender(EventArgs)
+  id: OnPreRender(EventArgs)
+  parent: Altazion.ECommerce.Controls.SeoContent
+  langs:
+  - csharp
+  - vb
+  name: OnPreRender(EventArgs)
+  nameWithType: SeoContent.OnPreRender(EventArgs)
+  fullName: Altazion.ECommerce.Controls.SeoContent.OnPreRender(EventArgs)
+  type: Method
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/SeoContentControls.cs
+    id: OnPreRender
+    path: SeoContentControls.cs
+    startLine: 62
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  summary: "\nEffectue le calcul de pré-rendu du controle\n"
+  example: []
+  syntax:
+    content: protected override void OnPreRender(EventArgs e)
+    parameters:
+    - id: e
+      type: EventArgs
+      description: ''
+    content.vb: Protected Overrides Sub OnPreRender(e As EventArgs)
+  overload: Altazion.ECommerce.Controls.SeoContent.OnPreRender*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+references:
+- uid: Altazion.ECommerce.Controls
+  commentId: N:Altazion.ECommerce.Controls
+  name: Altazion.ECommerce.Controls
+  nameWithType: Altazion.ECommerce.Controls
+  fullName: Altazion.ECommerce.Controls
+- uid: System.Object
+  commentId: '!:System.Object'
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Altazion.ECommerce.Controls.SeoContent.#ctor*
+  commentId: Overload:Altazion.ECommerce.Controls.SeoContent.#ctor
+  name: SeoContent
+  nameWithType: SeoContent.SeoContent
+  fullName: Altazion.ECommerce.Controls.SeoContent.SeoContent
+- uid: Altazion.ECommerce.Controls.SeoContent.CodeEmplacement*
+  commentId: Overload:Altazion.ECommerce.Controls.SeoContent.CodeEmplacement
+  name: CodeEmplacement
+  nameWithType: SeoContent.CodeEmplacement
+  fullName: Altazion.ECommerce.Controls.SeoContent.CodeEmplacement
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Altazion.ECommerce.Controls.SeoContent.DefaultContent*
+  commentId: Overload:Altazion.ECommerce.Controls.SeoContent.DefaultContent
+  name: DefaultContent
+  nameWithType: SeoContent.DefaultContent
+  fullName: Altazion.ECommerce.Controls.SeoContent.DefaultContent
+- uid: Altazion.ECommerce.Controls.SeoContent.OnPreRender*
+  commentId: Overload:Altazion.ECommerce.Controls.SeoContent.OnPreRender
+  name: OnPreRender
+  nameWithType: SeoContent.OnPreRender
+  fullName: Altazion.ECommerce.Controls.SeoContent.OnPreRender
+- uid: EventArgs
+  isExternal: true
+  name: EventArgs
+  nameWithType: EventArgs
+  fullName: EventArgs

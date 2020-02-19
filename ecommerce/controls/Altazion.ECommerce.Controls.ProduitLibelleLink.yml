@@ -1,0 +1,248 @@
+### YamlMime:ManagedReference
+items:
+- uid: Altazion.ECommerce.Controls.ProduitLibelleLink
+  commentId: T:Altazion.ECommerce.Controls.ProduitLibelleLink
+  id: ProduitLibelleLink
+  parent: Altazion.ECommerce.Controls
+  children:
+  - Altazion.ECommerce.Controls.ProduitLibelleLink.#ctor
+  - Altazion.ECommerce.Controls.ProduitLibelleLink.Format
+  - Altazion.ECommerce.Controls.ProduitLibelleLink.MaxLength
+  langs:
+  - csharp
+  - vb
+  name: ProduitLibelleLink
+  nameWithType: ProduitLibelleLink
+  fullName: Altazion.ECommerce.Controls.ProduitLibelleLink
+  type: Class
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/ProductLinks.cs
+    id: ProduitLibelleLink
+    path: ProductLinks.cs
+    startLine: 23
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  summary: "\nA utiliser dans un contrôle bindé sur un produit : affiche un lien\navec le libellé du produit pointant sur la fiche produit\n"
+  example: []
+  syntax:
+    content: 'public class ProduitLibelleLink : ProduitLink, IEquihiraBindable'
+    content.vb: >-
+      Public Class ProduitLibelleLink
+          Inherits ProduitLink
+          Implements IEquihiraBindable
+  inheritance:
+  - System.Object
+  - Altazion.ECommerce.Controls.ProduitLink
+  implements:
+  - CPointSoftware.ECommerce.Tools.IEquihiraBindable
+  inheritedMembers:
+  - Altazion.ECommerce.Controls.ProduitLink.PourPageAmp
+  - Altazion.ECommerce.Controls.ProduitLink.LinkType
+  - Altazion.ECommerce.Controls.ProduitLink.OnPreRender(EventArgs)
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Altazion.ECommerce.Controls.ProduitLibelleLink.#ctor
+  commentId: M:Altazion.ECommerce.Controls.ProduitLibelleLink.#ctor
+  id: '#ctor'
+  parent: Altazion.ECommerce.Controls.ProduitLibelleLink
+  langs:
+  - csharp
+  - vb
+  name: ProduitLibelleLink()
+  nameWithType: ProduitLibelleLink.ProduitLibelleLink()
+  fullName: Altazion.ECommerce.Controls.ProduitLibelleLink.ProduitLibelleLink()
+  type: Constructor
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/ProductLinks.cs
+    id: .ctor
+    path: ProductLinks.cs
+    startLine: 26
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: public ProduitLibelleLink()
+    content.vb: Public Sub New
+  overload: Altazion.ECommerce.Controls.ProduitLibelleLink.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Altazion.ECommerce.Controls.ProduitLibelleLink.Format
+  commentId: P:Altazion.ECommerce.Controls.ProduitLibelleLink.Format
+  id: Format
+  parent: Altazion.ECommerce.Controls.ProduitLibelleLink
+  langs:
+  - csharp
+  - vb
+  name: Format
+  nameWithType: ProduitLibelleLink.Format
+  fullName: Altazion.ECommerce.Controls.ProduitLibelleLink.Format
+  type: Property
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/ProductLinks.cs
+    id: Format
+    path: ProductLinks.cs
+    startLine: 32
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: public string Format { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Format As String
+  overload: Altazion.ECommerce.Controls.ProduitLibelleLink.Format*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Altazion.ECommerce.Controls.ProduitLibelleLink.MaxLength
+  commentId: P:Altazion.ECommerce.Controls.ProduitLibelleLink.MaxLength
+  id: MaxLength
+  parent: Altazion.ECommerce.Controls.ProduitLibelleLink
+  langs:
+  - csharp
+  - vb
+  name: MaxLength
+  nameWithType: ProduitLibelleLink.MaxLength
+  fullName: Altazion.ECommerce.Controls.ProduitLibelleLink.MaxLength
+  type: Property
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/ProductLinks.cs
+    id: MaxLength
+    path: ProductLinks.cs
+    startLine: 34
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: public int MaxLength { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property MaxLength As Integer
+  overload: Altazion.ECommerce.Controls.ProduitLibelleLink.MaxLength*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: Altazion.ECommerce.Controls
+  commentId: N:Altazion.ECommerce.Controls
+  name: Altazion.ECommerce.Controls
+  nameWithType: Altazion.ECommerce.Controls
+  fullName: Altazion.ECommerce.Controls
+- uid: System.Object
+  commentId: '!:System.Object'
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Altazion.ECommerce.Controls.ProduitLink
+  commentId: T:Altazion.ECommerce.Controls.ProduitLink
+  parent: Altazion.ECommerce.Controls
+  name: ProduitLink
+  nameWithType: ProduitLink
+  fullName: Altazion.ECommerce.Controls.ProduitLink
+- uid: CPointSoftware.ECommerce.Tools.IEquihiraBindable
+  commentId: T:CPointSoftware.ECommerce.Tools.IEquihiraBindable
+  parent: CPointSoftware.ECommerce.Tools
+  name: IEquihiraBindable
+  nameWithType: IEquihiraBindable
+  fullName: CPointSoftware.ECommerce.Tools.IEquihiraBindable
+- uid: Altazion.ECommerce.Controls.ProduitLink.PourPageAmp
+  commentId: P:Altazion.ECommerce.Controls.ProduitLink.PourPageAmp
+  parent: Altazion.ECommerce.Controls.ProduitLink
+  name: PourPageAmp
+  nameWithType: ProduitLink.PourPageAmp
+  fullName: Altazion.ECommerce.Controls.ProduitLink.PourPageAmp
+- uid: Altazion.ECommerce.Controls.ProduitLink.LinkType
+  commentId: P:Altazion.ECommerce.Controls.ProduitLink.LinkType
+  parent: Altazion.ECommerce.Controls.ProduitLink
+  name: LinkType
+  nameWithType: ProduitLink.LinkType
+  fullName: Altazion.ECommerce.Controls.ProduitLink.LinkType
+- uid: Altazion.ECommerce.Controls.ProduitLink.OnPreRender(EventArgs)
+  commentId: M:Altazion.ECommerce.Controls.ProduitLink.OnPreRender(EventArgs)
+  parent: Altazion.ECommerce.Controls.ProduitLink
+  isExternal: true
+  name: OnPreRender(EventArgs)
+  nameWithType: ProduitLink.OnPreRender(EventArgs)
+  fullName: Altazion.ECommerce.Controls.ProduitLink.OnPreRender(EventArgs)
+  spec.csharp:
+  - uid: Altazion.ECommerce.Controls.ProduitLink.OnPreRender(EventArgs)
+    name: OnPreRender
+    nameWithType: ProduitLink.OnPreRender
+    fullName: Altazion.ECommerce.Controls.ProduitLink.OnPreRender
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: EventArgs
+    name: EventArgs
+    nameWithType: EventArgs
+    fullName: EventArgs
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Altazion.ECommerce.Controls.ProduitLink.OnPreRender(EventArgs)
+    name: OnPreRender
+    nameWithType: ProduitLink.OnPreRender
+    fullName: Altazion.ECommerce.Controls.ProduitLink.OnPreRender
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: EventArgs
+    name: EventArgs
+    nameWithType: EventArgs
+    fullName: EventArgs
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CPointSoftware.ECommerce.Tools
+  commentId: N:CPointSoftware.ECommerce.Tools
+  name: CPointSoftware.ECommerce.Tools
+  nameWithType: CPointSoftware.ECommerce.Tools
+  fullName: CPointSoftware.ECommerce.Tools
+- uid: Altazion.ECommerce.Controls.ProduitLibelleLink.#ctor*
+  commentId: Overload:Altazion.ECommerce.Controls.ProduitLibelleLink.#ctor
+  name: ProduitLibelleLink
+  nameWithType: ProduitLibelleLink.ProduitLibelleLink
+  fullName: Altazion.ECommerce.Controls.ProduitLibelleLink.ProduitLibelleLink
+- uid: Altazion.ECommerce.Controls.ProduitLibelleLink.Format*
+  commentId: Overload:Altazion.ECommerce.Controls.ProduitLibelleLink.Format
+  name: Format
+  nameWithType: ProduitLibelleLink.Format
+  fullName: Altazion.ECommerce.Controls.ProduitLibelleLink.Format
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Altazion.ECommerce.Controls.ProduitLibelleLink.MaxLength*
+  commentId: Overload:Altazion.ECommerce.Controls.ProduitLibelleLink.MaxLength
+  name: MaxLength
+  nameWithType: ProduitLibelleLink.MaxLength
+  fullName: Altazion.ECommerce.Controls.ProduitLibelleLink.MaxLength
+- uid: System.Int32
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

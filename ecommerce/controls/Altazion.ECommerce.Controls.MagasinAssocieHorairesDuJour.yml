@@ -1,0 +1,209 @@
+### YamlMime:ManagedReference
+items:
+- uid: Altazion.ECommerce.Controls.MagasinAssocieHorairesDuJour
+  commentId: T:Altazion.ECommerce.Controls.MagasinAssocieHorairesDuJour
+  id: MagasinAssocieHorairesDuJour
+  parent: Altazion.ECommerce.Controls
+  children:
+  - Altazion.ECommerce.Controls.MagasinAssocieHorairesDuJour.#ctor
+  - Altazion.ECommerce.Controls.MagasinAssocieHorairesDuJour.AfficherAm
+  - Altazion.ECommerce.Controls.MagasinAssocieHorairesDuJour.AfficherPm
+  - Altazion.ECommerce.Controls.MagasinAssocieHorairesDuJour.OnPreRender(EventArgs)
+  langs:
+  - csharp
+  - vb
+  name: MagasinAssocieHorairesDuJour
+  nameWithType: MagasinAssocieHorairesDuJour
+  fullName: Altazion.ECommerce.Controls.MagasinAssocieHorairesDuJour
+  type: Class
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanelCrossCanal.cs
+    id: MagasinAssocieHorairesDuJour
+    path: PanelCrossCanal.cs
+    startLine: 232
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: 'public class MagasinAssocieHorairesDuJour : Label'
+    content.vb: >-
+      Public Class MagasinAssocieHorairesDuJour
+          Inherits Label
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Altazion.ECommerce.Controls.MagasinAssocieHorairesDuJour.#ctor
+  commentId: M:Altazion.ECommerce.Controls.MagasinAssocieHorairesDuJour.#ctor
+  id: '#ctor'
+  parent: Altazion.ECommerce.Controls.MagasinAssocieHorairesDuJour
+  langs:
+  - csharp
+  - vb
+  name: MagasinAssocieHorairesDuJour()
+  nameWithType: MagasinAssocieHorairesDuJour.MagasinAssocieHorairesDuJour()
+  fullName: Altazion.ECommerce.Controls.MagasinAssocieHorairesDuJour.MagasinAssocieHorairesDuJour()
+  type: Constructor
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanelCrossCanal.cs
+    id: .ctor
+    path: PanelCrossCanal.cs
+    startLine: 234
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: public MagasinAssocieHorairesDuJour()
+    content.vb: Public Sub New
+  overload: Altazion.ECommerce.Controls.MagasinAssocieHorairesDuJour.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Altazion.ECommerce.Controls.MagasinAssocieHorairesDuJour.AfficherAm
+  commentId: P:Altazion.ECommerce.Controls.MagasinAssocieHorairesDuJour.AfficherAm
+  id: AfficherAm
+  parent: Altazion.ECommerce.Controls.MagasinAssocieHorairesDuJour
+  langs:
+  - csharp
+  - vb
+  name: AfficherAm
+  nameWithType: MagasinAssocieHorairesDuJour.AfficherAm
+  fullName: Altazion.ECommerce.Controls.MagasinAssocieHorairesDuJour.AfficherAm
+  type: Property
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanelCrossCanal.cs
+    id: AfficherAm
+    path: PanelCrossCanal.cs
+    startLine: 238
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: public bool AfficherAm { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property AfficherAm As Boolean
+  overload: Altazion.ECommerce.Controls.MagasinAssocieHorairesDuJour.AfficherAm*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Altazion.ECommerce.Controls.MagasinAssocieHorairesDuJour.AfficherPm
+  commentId: P:Altazion.ECommerce.Controls.MagasinAssocieHorairesDuJour.AfficherPm
+  id: AfficherPm
+  parent: Altazion.ECommerce.Controls.MagasinAssocieHorairesDuJour
+  langs:
+  - csharp
+  - vb
+  name: AfficherPm
+  nameWithType: MagasinAssocieHorairesDuJour.AfficherPm
+  fullName: Altazion.ECommerce.Controls.MagasinAssocieHorairesDuJour.AfficherPm
+  type: Property
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanelCrossCanal.cs
+    id: AfficherPm
+    path: PanelCrossCanal.cs
+    startLine: 239
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: public bool AfficherPm { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property AfficherPm As Boolean
+  overload: Altazion.ECommerce.Controls.MagasinAssocieHorairesDuJour.AfficherPm*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Altazion.ECommerce.Controls.MagasinAssocieHorairesDuJour.OnPreRender(EventArgs)
+  commentId: M:Altazion.ECommerce.Controls.MagasinAssocieHorairesDuJour.OnPreRender(EventArgs)
+  id: OnPreRender(EventArgs)
+  parent: Altazion.ECommerce.Controls.MagasinAssocieHorairesDuJour
+  langs:
+  - csharp
+  - vb
+  name: OnPreRender(EventArgs)
+  nameWithType: MagasinAssocieHorairesDuJour.OnPreRender(EventArgs)
+  fullName: Altazion.ECommerce.Controls.MagasinAssocieHorairesDuJour.OnPreRender(EventArgs)
+  type: Method
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanelCrossCanal.cs
+    id: OnPreRender
+    path: PanelCrossCanal.cs
+    startLine: 241
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: protected override void OnPreRender(EventArgs e)
+    parameters:
+    - id: e
+      type: EventArgs
+    content.vb: Protected Overrides Sub OnPreRender(e As EventArgs)
+  overload: Altazion.ECommerce.Controls.MagasinAssocieHorairesDuJour.OnPreRender*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+references:
+- uid: Altazion.ECommerce.Controls
+  commentId: N:Altazion.ECommerce.Controls
+  name: Altazion.ECommerce.Controls
+  nameWithType: Altazion.ECommerce.Controls
+  fullName: Altazion.ECommerce.Controls
+- uid: System.Object
+  commentId: '!:System.Object'
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Altazion.ECommerce.Controls.MagasinAssocieHorairesDuJour.#ctor*
+  commentId: Overload:Altazion.ECommerce.Controls.MagasinAssocieHorairesDuJour.#ctor
+  name: MagasinAssocieHorairesDuJour
+  nameWithType: MagasinAssocieHorairesDuJour.MagasinAssocieHorairesDuJour
+  fullName: Altazion.ECommerce.Controls.MagasinAssocieHorairesDuJour.MagasinAssocieHorairesDuJour
+- uid: Altazion.ECommerce.Controls.MagasinAssocieHorairesDuJour.AfficherAm*
+  commentId: Overload:Altazion.ECommerce.Controls.MagasinAssocieHorairesDuJour.AfficherAm
+  name: AfficherAm
+  nameWithType: MagasinAssocieHorairesDuJour.AfficherAm
+  fullName: Altazion.ECommerce.Controls.MagasinAssocieHorairesDuJour.AfficherAm
+- uid: System.Boolean
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Altazion.ECommerce.Controls.MagasinAssocieHorairesDuJour.AfficherPm*
+  commentId: Overload:Altazion.ECommerce.Controls.MagasinAssocieHorairesDuJour.AfficherPm
+  name: AfficherPm
+  nameWithType: MagasinAssocieHorairesDuJour.AfficherPm
+  fullName: Altazion.ECommerce.Controls.MagasinAssocieHorairesDuJour.AfficherPm
+- uid: Altazion.ECommerce.Controls.MagasinAssocieHorairesDuJour.OnPreRender*
+  commentId: Overload:Altazion.ECommerce.Controls.MagasinAssocieHorairesDuJour.OnPreRender
+  name: OnPreRender
+  nameWithType: MagasinAssocieHorairesDuJour.OnPreRender
+  fullName: Altazion.ECommerce.Controls.MagasinAssocieHorairesDuJour.OnPreRender
+- uid: EventArgs
+  isExternal: true
+  name: EventArgs
+  nameWithType: EventArgs
+  fullName: EventArgs

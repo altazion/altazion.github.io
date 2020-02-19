@@ -1,0 +1,65 @@
+### YamlMime:ManagedReference
+items:
+- uid: Altazion.ECommerce.Controls.ProduitReference
+  commentId: T:Altazion.ECommerce.Controls.ProduitReference
+  id: ProduitReference
+  parent: Altazion.ECommerce.Controls
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: ProduitReference
+  nameWithType: ProduitReference
+  fullName: Altazion.ECommerce.Controls.ProduitReference
+  type: Class
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/ProductLabels.cs
+    id: ProduitReference
+    path: ProductLabels.cs
+    startLine: 230
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  summary: "\nA utiliser dans un contrôle bindé sur un produit : affiche un span\navec la référence du produit\n"
+  remarks: "\n<p>Le controle s&apos;affiche sous la forme d&apos;un span: \n<pre><code>&lt;span>[La ref du produit]&lt;span></code></pre></p>\n<p>Si vous avez activé RDFa, le span sera modifié\npour ajouter une attribut itemprop=&quot;identifier&quot; et un content=&quot;mnp:[La ref}&quot;.</p>"
+  example: []
+  syntax:
+    content: 'public class ProduitReference : Label, IEquihiraBindable'
+    content.vb: >-
+      Public Class ProduitReference
+          Inherits Label
+          Implements IEquihiraBindable
+  inheritance:
+  - System.Object
+  implements:
+  - CPointSoftware.ECommerce.Tools.IEquihiraBindable
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+references:
+- uid: Altazion.ECommerce.Controls
+  commentId: N:Altazion.ECommerce.Controls
+  name: Altazion.ECommerce.Controls
+  nameWithType: Altazion.ECommerce.Controls
+  fullName: Altazion.ECommerce.Controls
+- uid: System.Object
+  commentId: '!:System.Object'
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: CPointSoftware.ECommerce.Tools.IEquihiraBindable
+  commentId: T:CPointSoftware.ECommerce.Tools.IEquihiraBindable
+  parent: CPointSoftware.ECommerce.Tools
+  name: IEquihiraBindable
+  nameWithType: IEquihiraBindable
+  fullName: CPointSoftware.ECommerce.Tools.IEquihiraBindable
+- uid: CPointSoftware.ECommerce.Tools
+  commentId: N:CPointSoftware.ECommerce.Tools
+  name: CPointSoftware.ECommerce.Tools
+  nameWithType: CPointSoftware.ECommerce.Tools
+  fullName: CPointSoftware.ECommerce.Tools

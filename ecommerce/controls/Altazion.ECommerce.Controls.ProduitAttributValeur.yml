@@ -1,0 +1,225 @@
+### YamlMime:ManagedReference
+items:
+- uid: Altazion.ECommerce.Controls.ProduitAttributValeur
+  commentId: T:Altazion.ECommerce.Controls.ProduitAttributValeur
+  id: ProduitAttributValeur
+  parent: Altazion.ECommerce.Controls
+  children:
+  - Altazion.ECommerce.Controls.ProduitAttributValeur.#ctor
+  - Altazion.ECommerce.Controls.ProduitAttributValeur.AttributeGuid
+  - Altazion.ECommerce.Controls.ProduitAttributValeur.Format
+  - Altazion.ECommerce.Controls.ProduitAttributValeur.TexteSiVide
+  langs:
+  - csharp
+  - vb
+  name: ProduitAttributValeur
+  nameWithType: ProduitAttributValeur
+  fullName: Altazion.ECommerce.Controls.ProduitAttributValeur
+  type: Class
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/ProductLabels.cs
+    id: ProduitAttributValeur
+    path: ProductLabels.cs
+    startLine: 662
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  summary: "\nA utiliser dans un contrôle bindé sur un produit : affiche un span\navec la valeur d&apos;un attribut personnalisé pour ce produit\n"
+  example: []
+  syntax:
+    content: 'public class ProduitAttributValeur : Label, IEquihiraBindable'
+    content.vb: >-
+      Public Class ProduitAttributValeur
+          Inherits Label
+          Implements IEquihiraBindable
+  inheritance:
+  - System.Object
+  implements:
+  - CPointSoftware.ECommerce.Tools.IEquihiraBindable
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Altazion.ECommerce.Controls.ProduitAttributValeur.#ctor
+  commentId: M:Altazion.ECommerce.Controls.ProduitAttributValeur.#ctor
+  id: '#ctor'
+  parent: Altazion.ECommerce.Controls.ProduitAttributValeur
+  langs:
+  - csharp
+  - vb
+  name: ProduitAttributValeur()
+  nameWithType: ProduitAttributValeur.ProduitAttributValeur()
+  fullName: Altazion.ECommerce.Controls.ProduitAttributValeur.ProduitAttributValeur()
+  type: Constructor
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/ProductLabels.cs
+    id: .ctor
+    path: ProductLabels.cs
+    startLine: 666
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: public ProduitAttributValeur()
+    content.vb: Public Sub New
+  overload: Altazion.ECommerce.Controls.ProduitAttributValeur.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Altazion.ECommerce.Controls.ProduitAttributValeur.AttributeGuid
+  commentId: P:Altazion.ECommerce.Controls.ProduitAttributValeur.AttributeGuid
+  id: AttributeGuid
+  parent: Altazion.ECommerce.Controls.ProduitAttributValeur
+  langs:
+  - csharp
+  - vb
+  name: AttributeGuid
+  nameWithType: ProduitAttributValeur.AttributeGuid
+  fullName: Altazion.ECommerce.Controls.ProduitAttributValeur.AttributeGuid
+  type: Property
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/ProductLabels.cs
+    id: AttributeGuid
+    path: ProductLabels.cs
+    startLine: 671
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: public Guid AttributeGuid { get; set; }
+    parameters: []
+    return:
+      type: Guid
+    content.vb: Public Property AttributeGuid As Guid
+  overload: Altazion.ECommerce.Controls.ProduitAttributValeur.AttributeGuid*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Altazion.ECommerce.Controls.ProduitAttributValeur.Format
+  commentId: P:Altazion.ECommerce.Controls.ProduitAttributValeur.Format
+  id: Format
+  parent: Altazion.ECommerce.Controls.ProduitAttributValeur
+  langs:
+  - csharp
+  - vb
+  name: Format
+  nameWithType: ProduitAttributValeur.Format
+  fullName: Altazion.ECommerce.Controls.ProduitAttributValeur.Format
+  type: Property
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/ProductLabels.cs
+    id: Format
+    path: ProductLabels.cs
+    startLine: 672
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: public string Format { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Format As String
+  overload: Altazion.ECommerce.Controls.ProduitAttributValeur.Format*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Altazion.ECommerce.Controls.ProduitAttributValeur.TexteSiVide
+  commentId: P:Altazion.ECommerce.Controls.ProduitAttributValeur.TexteSiVide
+  id: TexteSiVide
+  parent: Altazion.ECommerce.Controls.ProduitAttributValeur
+  langs:
+  - csharp
+  - vb
+  name: TexteSiVide
+  nameWithType: ProduitAttributValeur.TexteSiVide
+  fullName: Altazion.ECommerce.Controls.ProduitAttributValeur.TexteSiVide
+  type: Property
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/ProductLabels.cs
+    id: TexteSiVide
+    path: ProductLabels.cs
+    startLine: 673
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: public string TexteSiVide { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property TexteSiVide As String
+  overload: Altazion.ECommerce.Controls.ProduitAttributValeur.TexteSiVide*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: Altazion.ECommerce.Controls
+  commentId: N:Altazion.ECommerce.Controls
+  name: Altazion.ECommerce.Controls
+  nameWithType: Altazion.ECommerce.Controls
+  fullName: Altazion.ECommerce.Controls
+- uid: System.Object
+  commentId: '!:System.Object'
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: CPointSoftware.ECommerce.Tools.IEquihiraBindable
+  commentId: T:CPointSoftware.ECommerce.Tools.IEquihiraBindable
+  parent: CPointSoftware.ECommerce.Tools
+  name: IEquihiraBindable
+  nameWithType: IEquihiraBindable
+  fullName: CPointSoftware.ECommerce.Tools.IEquihiraBindable
+- uid: CPointSoftware.ECommerce.Tools
+  commentId: N:CPointSoftware.ECommerce.Tools
+  name: CPointSoftware.ECommerce.Tools
+  nameWithType: CPointSoftware.ECommerce.Tools
+  fullName: CPointSoftware.ECommerce.Tools
+- uid: Altazion.ECommerce.Controls.ProduitAttributValeur.#ctor*
+  commentId: Overload:Altazion.ECommerce.Controls.ProduitAttributValeur.#ctor
+  name: ProduitAttributValeur
+  nameWithType: ProduitAttributValeur.ProduitAttributValeur
+  fullName: Altazion.ECommerce.Controls.ProduitAttributValeur.ProduitAttributValeur
+- uid: Altazion.ECommerce.Controls.ProduitAttributValeur.AttributeGuid*
+  commentId: Overload:Altazion.ECommerce.Controls.ProduitAttributValeur.AttributeGuid
+  name: AttributeGuid
+  nameWithType: ProduitAttributValeur.AttributeGuid
+  fullName: Altazion.ECommerce.Controls.ProduitAttributValeur.AttributeGuid
+- uid: Guid
+  isExternal: true
+  name: Guid
+  nameWithType: Guid
+  fullName: Guid
+- uid: Altazion.ECommerce.Controls.ProduitAttributValeur.Format*
+  commentId: Overload:Altazion.ECommerce.Controls.ProduitAttributValeur.Format
+  name: Format
+  nameWithType: ProduitAttributValeur.Format
+  fullName: Altazion.ECommerce.Controls.ProduitAttributValeur.Format
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Altazion.ECommerce.Controls.ProduitAttributValeur.TexteSiVide*
+  commentId: Overload:Altazion.ECommerce.Controls.ProduitAttributValeur.TexteSiVide
+  name: TexteSiVide
+  nameWithType: ProduitAttributValeur.TexteSiVide
+  fullName: Altazion.ECommerce.Controls.ProduitAttributValeur.TexteSiVide

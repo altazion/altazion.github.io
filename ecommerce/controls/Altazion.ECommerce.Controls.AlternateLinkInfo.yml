@@ -1,0 +1,143 @@
+### YamlMime:ManagedReference
+items:
+- uid: Altazion.ECommerce.Controls.AlternateLinkInfo
+  commentId: T:Altazion.ECommerce.Controls.AlternateLinkInfo
+  id: AlternateLinkInfo
+  parent: Altazion.ECommerce.Controls
+  children:
+  - Altazion.ECommerce.Controls.AlternateLinkInfo.Langue
+  - Altazion.ECommerce.Controls.AlternateLinkInfo.UrlRacine
+  langs:
+  - csharp
+  - vb
+  name: AlternateLinkInfo
+  nameWithType: AlternateLinkInfo
+  fullName: Altazion.ECommerce.Controls.AlternateLinkInfo
+  type: Class
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/AlternatesLinks.cs
+    id: AlternateLinkInfo
+    path: AlternatesLinks.cs
+    startLine: 12
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  summary: "\nReprésente une alternative locale pour le contrôle\n<xref href=\"Altazion.ECommerce.Controls.AlternatesLinks\" data-throw-if-not-resolved=\"false\"></xref>\n"
+  example: []
+  syntax:
+    content: 'public class AlternateLinkInfo : object'
+    content.vb: >-
+      Public Class AlternateLinkInfo
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Altazion.ECommerce.Controls.AlternateLinkInfo.Langue
+  commentId: P:Altazion.ECommerce.Controls.AlternateLinkInfo.Langue
+  id: Langue
+  parent: Altazion.ECommerce.Controls.AlternateLinkInfo
+  langs:
+  - csharp
+  - vb
+  name: Langue
+  nameWithType: AlternateLinkInfo.Langue
+  fullName: Altazion.ECommerce.Controls.AlternateLinkInfo.Langue
+  type: Property
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/AlternatesLinks.cs
+    id: Langue
+    path: AlternatesLinks.cs
+    startLine: 19
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  summary: "\nLa langue (sous la forme du code de localisation\nxx-XX)\n"
+  remarks: Par exemple, pour la france, utilisez fr-FR
+  example: []
+  syntax:
+    content: public string Langue { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Langue As String
+  overload: Altazion.ECommerce.Controls.AlternateLinkInfo.Langue*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Altazion.ECommerce.Controls.AlternateLinkInfo.UrlRacine
+  commentId: P:Altazion.ECommerce.Controls.AlternateLinkInfo.UrlRacine
+  id: UrlRacine
+  parent: Altazion.ECommerce.Controls.AlternateLinkInfo
+  langs:
+  - csharp
+  - vb
+  name: UrlRacine
+  nameWithType: AlternateLinkInfo.UrlRacine
+  fullName: Altazion.ECommerce.Controls.AlternateLinkInfo.UrlRacine
+  type: Property
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/AlternatesLinks.cs
+    id: UrlRacine
+    path: AlternatesLinks.cs
+    startLine: 24
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  summary: "\nL&apos;url racine du site correspondant\n"
+  example: []
+  syntax:
+    content: public string UrlRacine { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property UrlRacine As String
+  overload: Altazion.ECommerce.Controls.AlternateLinkInfo.UrlRacine*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: Altazion.ECommerce.Controls.AlternatesLinks
+  commentId: T:Altazion.ECommerce.Controls.AlternatesLinks
+  name: AlternatesLinks
+  nameWithType: AlternatesLinks
+  fullName: Altazion.ECommerce.Controls.AlternatesLinks
+- uid: Altazion.ECommerce.Controls
+  commentId: N:Altazion.ECommerce.Controls
+  name: Altazion.ECommerce.Controls
+  nameWithType: Altazion.ECommerce.Controls
+  fullName: Altazion.ECommerce.Controls
+- uid: System.Object
+  commentId: '!:System.Object'
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Altazion.ECommerce.Controls.AlternateLinkInfo.Langue*
+  commentId: Overload:Altazion.ECommerce.Controls.AlternateLinkInfo.Langue
+  name: Langue
+  nameWithType: AlternateLinkInfo.Langue
+  fullName: Altazion.ECommerce.Controls.AlternateLinkInfo.Langue
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Altazion.ECommerce.Controls.AlternateLinkInfo.UrlRacine*
+  commentId: Overload:Altazion.ECommerce.Controls.AlternateLinkInfo.UrlRacine
+  name: UrlRacine
+  nameWithType: AlternateLinkInfo.UrlRacine
+  fullName: Altazion.ECommerce.Controls.AlternateLinkInfo.UrlRacine

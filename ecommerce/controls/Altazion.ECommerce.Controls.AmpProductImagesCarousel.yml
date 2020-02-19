@@ -1,0 +1,309 @@
+### YamlMime:ManagedReference
+items:
+- uid: Altazion.ECommerce.Controls.AmpProductImagesCarousel
+  commentId: T:Altazion.ECommerce.Controls.AmpProductImagesCarousel
+  id: AmpProductImagesCarousel
+  parent: Altazion.ECommerce.Controls
+  children:
+  - Altazion.ECommerce.Controls.AmpProductImagesCarousel.#ctor
+  - Altazion.ECommerce.Controls.AmpProductImagesCarousel.Height
+  - Altazion.ECommerce.Controls.AmpProductImagesCarousel.Interval
+  - Altazion.ECommerce.Controls.AmpProductImagesCarousel.Width
+  langs:
+  - csharp
+  - vb
+  name: AmpProductImagesCarousel
+  nameWithType: AmpProductImagesCarousel
+  fullName: Altazion.ECommerce.Controls.AmpProductImagesCarousel
+  type: Class
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/AmpProductControls.cs
+    id: AmpProductImagesCarousel
+    path: AmpProductControls.cs
+    startLine: 20
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  summary: "\nControle d&apos;affichage AMP des images produits sous\nforme d&apos;un carousel\n"
+  example: []
+  syntax:
+    content: 'public class AmpProductImagesCarousel : WebControl, IEquihiraBindable'
+    content.vb: >-
+      Public Class AmpProductImagesCarousel
+          Inherits WebControl
+          Implements IEquihiraBindable
+  inheritance:
+  - System.Object
+  implements:
+  - CPointSoftware.ECommerce.Tools.IEquihiraBindable
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Altazion.ECommerce.Controls.AmpProductImagesCarousel.#ctor
+  commentId: M:Altazion.ECommerce.Controls.AmpProductImagesCarousel.#ctor
+  id: '#ctor'
+  parent: Altazion.ECommerce.Controls.AmpProductImagesCarousel
+  langs:
+  - csharp
+  - vb
+  name: AmpProductImagesCarousel()
+  nameWithType: AmpProductImagesCarousel.AmpProductImagesCarousel()
+  fullName: Altazion.ECommerce.Controls.AmpProductImagesCarousel.AmpProductImagesCarousel()
+  type: Constructor
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/AmpProductControls.cs
+    id: .ctor
+    path: AmpProductControls.cs
+    startLine: 25
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  summary: "\nInitialise une nouvelle instance de la classe\n"
+  example: []
+  syntax:
+    content: public AmpProductImagesCarousel()
+    content.vb: Public Sub New
+  overload: Altazion.ECommerce.Controls.AmpProductImagesCarousel.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Altazion.ECommerce.Controls.AmpProductImagesCarousel.Interval
+  commentId: P:Altazion.ECommerce.Controls.AmpProductImagesCarousel.Interval
+  id: Interval
+  parent: Altazion.ECommerce.Controls.AmpProductImagesCarousel
+  langs:
+  - csharp
+  - vb
+  name: Interval
+  nameWithType: AmpProductImagesCarousel.Interval
+  fullName: Altazion.ECommerce.Controls.AmpProductImagesCarousel.Interval
+  type: Property
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/AmpProductControls.cs
+    id: Interval
+    path: AmpProductControls.cs
+    startLine: 36
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  summary: "\nObtient ou définit la classe CSS appliquée au carousel\n"
+  example: []
+  syntax:
+    content: public int Interval { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Interval As Integer
+  overload: Altazion.ECommerce.Controls.AmpProductImagesCarousel.Interval*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Altazion.ECommerce.Controls.AmpProductImagesCarousel.Width
+  commentId: P:Altazion.ECommerce.Controls.AmpProductImagesCarousel.Width
+  id: Width
+  parent: Altazion.ECommerce.Controls.AmpProductImagesCarousel
+  langs:
+  - csharp
+  - vb
+  name: Width
+  nameWithType: AmpProductImagesCarousel.Width
+  fullName: Altazion.ECommerce.Controls.AmpProductImagesCarousel.Width
+  type: Property
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/AmpProductControls.cs
+    id: Width
+    path: AmpProductControls.cs
+    startLine: 41
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  summary: "\nObtient ou définit la largeur du carousel\n"
+  example: []
+  syntax:
+    content: public int? Width { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{System.Int32}
+    content.vb: Public Property Width As Integer?
+  overload: Altazion.ECommerce.Controls.AmpProductImagesCarousel.Width*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Altazion.ECommerce.Controls.AmpProductImagesCarousel.Height
+  commentId: P:Altazion.ECommerce.Controls.AmpProductImagesCarousel.Height
+  id: Height
+  parent: Altazion.ECommerce.Controls.AmpProductImagesCarousel
+  langs:
+  - csharp
+  - vb
+  name: Height
+  nameWithType: AmpProductImagesCarousel.Height
+  fullName: Altazion.ECommerce.Controls.AmpProductImagesCarousel.Height
+  type: Property
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/AmpProductControls.cs
+    id: Height
+    path: AmpProductControls.cs
+    startLine: 46
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  summary: "\nObtient ou définit la hauteur du carousel\n"
+  example: []
+  syntax:
+    content: public int? Height { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{System.Int32}
+    content.vb: Public Property Height As Integer?
+  overload: Altazion.ECommerce.Controls.AmpProductImagesCarousel.Height*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: Altazion.ECommerce.Controls
+  commentId: N:Altazion.ECommerce.Controls
+  name: Altazion.ECommerce.Controls
+  nameWithType: Altazion.ECommerce.Controls
+  fullName: Altazion.ECommerce.Controls
+- uid: System.Object
+  commentId: '!:System.Object'
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: CPointSoftware.ECommerce.Tools.IEquihiraBindable
+  commentId: T:CPointSoftware.ECommerce.Tools.IEquihiraBindable
+  parent: CPointSoftware.ECommerce.Tools
+  name: IEquihiraBindable
+  nameWithType: IEquihiraBindable
+  fullName: CPointSoftware.ECommerce.Tools.IEquihiraBindable
+- uid: CPointSoftware.ECommerce.Tools
+  commentId: N:CPointSoftware.ECommerce.Tools
+  name: CPointSoftware.ECommerce.Tools
+  nameWithType: CPointSoftware.ECommerce.Tools
+  fullName: CPointSoftware.ECommerce.Tools
+- uid: Altazion.ECommerce.Controls.AmpProductImagesCarousel.#ctor*
+  commentId: Overload:Altazion.ECommerce.Controls.AmpProductImagesCarousel.#ctor
+  name: AmpProductImagesCarousel
+  nameWithType: AmpProductImagesCarousel.AmpProductImagesCarousel
+  fullName: Altazion.ECommerce.Controls.AmpProductImagesCarousel.AmpProductImagesCarousel
+- uid: Altazion.ECommerce.Controls.AmpProductImagesCarousel.Interval*
+  commentId: Overload:Altazion.ECommerce.Controls.AmpProductImagesCarousel.Interval
+  name: Interval
+  nameWithType: AmpProductImagesCarousel.Interval
+  fullName: Altazion.ECommerce.Controls.AmpProductImagesCarousel.Interval
+- uid: System.Int32
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Altazion.ECommerce.Controls.AmpProductImagesCarousel.Width*
+  commentId: Overload:Altazion.ECommerce.Controls.AmpProductImagesCarousel.Width
+  name: Width
+  nameWithType: AmpProductImagesCarousel.Width
+  fullName: Altazion.ECommerce.Controls.AmpProductImagesCarousel.Width
+- uid: System.Nullable{System.Int32}
+  commentId: '!:System.Nullable{System.Int32}'
+  definition: System.Nullable`1
+  name: Nullable<Int32>
+  nameWithType: Nullable<Int32>
+  fullName: System.Nullable<System.Int32>
+  nameWithType.vb: Nullable(Of Int32)
+  fullName.vb: System.Nullable(Of System.Int32)
+  name.vb: Nullable(Of Int32)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable`1
+  isExternal: true
+  name: Nullable<>
+  nameWithType: Nullable<>
+  fullName: System.Nullable<>
+  nameWithType.vb: Nullable(Of )
+  fullName.vb: System.Nullable(Of )
+  name.vb: Nullable(Of )
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Altazion.ECommerce.Controls.AmpProductImagesCarousel.Height*
+  commentId: Overload:Altazion.ECommerce.Controls.AmpProductImagesCarousel.Height
+  name: Height
+  nameWithType: AmpProductImagesCarousel.Height
+  fullName: Altazion.ECommerce.Controls.AmpProductImagesCarousel.Height

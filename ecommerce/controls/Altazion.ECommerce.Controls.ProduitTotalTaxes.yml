@@ -1,0 +1,230 @@
+### YamlMime:ManagedReference
+items:
+- uid: Altazion.ECommerce.Controls.ProduitTotalTaxes
+  commentId: T:Altazion.ECommerce.Controls.ProduitTotalTaxes
+  id: ProduitTotalTaxes
+  parent: Altazion.ECommerce.Controls
+  children:
+  - Altazion.ECommerce.Controls.ProduitTotalTaxes.AfficheHT
+  - Altazion.ECommerce.Controls.ProduitTotalTaxes.CssClassSiPromo
+  - Altazion.ECommerce.Controls.ProduitTotalTaxes.FormatGammePrix
+  - Altazion.ECommerce.Controls.ProduitTotalTaxes.FormatPrix
+  langs:
+  - csharp
+  - vb
+  name: ProduitTotalTaxes
+  nameWithType: ProduitTotalTaxes
+  fullName: Altazion.ECommerce.Controls.ProduitTotalTaxes
+  type: Class
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/ProductLabels.cs
+    id: ProduitTotalTaxes
+    path: ProductLabels.cs
+    startLine: 1832
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  summary: "\nA utiliser dans un contrôle bindé sur un produit : affiche un span\navec le montant total de toutes les taxes (sauf TVA) du produit\n"
+  example: []
+  syntax:
+    content: 'public class ProduitTotalTaxes : Label, IEquihiraBindable'
+    content.vb: >-
+      Public Class ProduitTotalTaxes
+          Inherits Label
+          Implements IEquihiraBindable
+  inheritance:
+  - System.Object
+  implements:
+  - CPointSoftware.ECommerce.Tools.IEquihiraBindable
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Altazion.ECommerce.Controls.ProduitTotalTaxes.FormatPrix
+  commentId: P:Altazion.ECommerce.Controls.ProduitTotalTaxes.FormatPrix
+  id: FormatPrix
+  parent: Altazion.ECommerce.Controls.ProduitTotalTaxes
+  langs:
+  - csharp
+  - vb
+  name: FormatPrix
+  nameWithType: ProduitTotalTaxes.FormatPrix
+  fullName: Altazion.ECommerce.Controls.ProduitTotalTaxes.FormatPrix
+  type: Property
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/ProductLabels.cs
+    id: FormatPrix
+    path: ProductLabels.cs
+    startLine: 1836
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: public string FormatPrix { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property FormatPrix As String
+  overload: Altazion.ECommerce.Controls.ProduitTotalTaxes.FormatPrix*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Altazion.ECommerce.Controls.ProduitTotalTaxes.AfficheHT
+  commentId: P:Altazion.ECommerce.Controls.ProduitTotalTaxes.AfficheHT
+  id: AfficheHT
+  parent: Altazion.ECommerce.Controls.ProduitTotalTaxes
+  langs:
+  - csharp
+  - vb
+  name: AfficheHT
+  nameWithType: ProduitTotalTaxes.AfficheHT
+  fullName: Altazion.ECommerce.Controls.ProduitTotalTaxes.AfficheHT
+  type: Property
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/ProductLabels.cs
+    id: AfficheHT
+    path: ProductLabels.cs
+    startLine: 1845
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: public bool AfficheHT { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property AfficheHT As Boolean
+  overload: Altazion.ECommerce.Controls.ProduitTotalTaxes.AfficheHT*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Altazion.ECommerce.Controls.ProduitTotalTaxes.FormatGammePrix
+  commentId: P:Altazion.ECommerce.Controls.ProduitTotalTaxes.FormatGammePrix
+  id: FormatGammePrix
+  parent: Altazion.ECommerce.Controls.ProduitTotalTaxes
+  langs:
+  - csharp
+  - vb
+  name: FormatGammePrix
+  nameWithType: ProduitTotalTaxes.FormatGammePrix
+  fullName: Altazion.ECommerce.Controls.ProduitTotalTaxes.FormatGammePrix
+  type: Property
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/ProductLabels.cs
+    id: FormatGammePrix
+    path: ProductLabels.cs
+    startLine: 1853
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: public string FormatGammePrix { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property FormatGammePrix As String
+  overload: Altazion.ECommerce.Controls.ProduitTotalTaxes.FormatGammePrix*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Altazion.ECommerce.Controls.ProduitTotalTaxes.CssClassSiPromo
+  commentId: P:Altazion.ECommerce.Controls.ProduitTotalTaxes.CssClassSiPromo
+  id: CssClassSiPromo
+  parent: Altazion.ECommerce.Controls.ProduitTotalTaxes
+  langs:
+  - csharp
+  - vb
+  name: CssClassSiPromo
+  nameWithType: ProduitTotalTaxes.CssClassSiPromo
+  fullName: Altazion.ECommerce.Controls.ProduitTotalTaxes.CssClassSiPromo
+  type: Property
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/ProductLabels.cs
+    id: CssClassSiPromo
+    path: ProductLabels.cs
+    startLine: 1860
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: public string CssClassSiPromo { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property CssClassSiPromo As String
+  overload: Altazion.ECommerce.Controls.ProduitTotalTaxes.CssClassSiPromo*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: Altazion.ECommerce.Controls
+  commentId: N:Altazion.ECommerce.Controls
+  name: Altazion.ECommerce.Controls
+  nameWithType: Altazion.ECommerce.Controls
+  fullName: Altazion.ECommerce.Controls
+- uid: System.Object
+  commentId: '!:System.Object'
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: CPointSoftware.ECommerce.Tools.IEquihiraBindable
+  commentId: T:CPointSoftware.ECommerce.Tools.IEquihiraBindable
+  parent: CPointSoftware.ECommerce.Tools
+  name: IEquihiraBindable
+  nameWithType: IEquihiraBindable
+  fullName: CPointSoftware.ECommerce.Tools.IEquihiraBindable
+- uid: CPointSoftware.ECommerce.Tools
+  commentId: N:CPointSoftware.ECommerce.Tools
+  name: CPointSoftware.ECommerce.Tools
+  nameWithType: CPointSoftware.ECommerce.Tools
+  fullName: CPointSoftware.ECommerce.Tools
+- uid: Altazion.ECommerce.Controls.ProduitTotalTaxes.FormatPrix*
+  commentId: Overload:Altazion.ECommerce.Controls.ProduitTotalTaxes.FormatPrix
+  name: FormatPrix
+  nameWithType: ProduitTotalTaxes.FormatPrix
+  fullName: Altazion.ECommerce.Controls.ProduitTotalTaxes.FormatPrix
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Altazion.ECommerce.Controls.ProduitTotalTaxes.AfficheHT*
+  commentId: Overload:Altazion.ECommerce.Controls.ProduitTotalTaxes.AfficheHT
+  name: AfficheHT
+  nameWithType: ProduitTotalTaxes.AfficheHT
+  fullName: Altazion.ECommerce.Controls.ProduitTotalTaxes.AfficheHT
+- uid: System.Boolean
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Altazion.ECommerce.Controls.ProduitTotalTaxes.FormatGammePrix*
+  commentId: Overload:Altazion.ECommerce.Controls.ProduitTotalTaxes.FormatGammePrix
+  name: FormatGammePrix
+  nameWithType: ProduitTotalTaxes.FormatGammePrix
+  fullName: Altazion.ECommerce.Controls.ProduitTotalTaxes.FormatGammePrix
+- uid: Altazion.ECommerce.Controls.ProduitTotalTaxes.CssClassSiPromo*
+  commentId: Overload:Altazion.ECommerce.Controls.ProduitTotalTaxes.CssClassSiPromo
+  name: CssClassSiPromo
+  nameWithType: ProduitTotalTaxes.CssClassSiPromo
+  fullName: Altazion.ECommerce.Controls.ProduitTotalTaxes.CssClassSiPromo

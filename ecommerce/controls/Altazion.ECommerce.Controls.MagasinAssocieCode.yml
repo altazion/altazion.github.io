@@ -1,0 +1,194 @@
+### YamlMime:ManagedReference
+items:
+- uid: Altazion.ECommerce.Controls.MagasinAssocieCode
+  commentId: T:Altazion.ECommerce.Controls.MagasinAssocieCode
+  id: MagasinAssocieCode
+  parent: Altazion.ECommerce.Controls
+  children:
+  - Altazion.ECommerce.Controls.MagasinAssocieCode.#ctor
+  - Altazion.ECommerce.Controls.MagasinAssocieCode.Format
+  - Altazion.ECommerce.Controls.MagasinAssocieCode.OnPreRender(EventArgs)
+  langs:
+  - csharp
+  - vb
+  name: MagasinAssocieCode
+  nameWithType: MagasinAssocieCode
+  fullName: Altazion.ECommerce.Controls.MagasinAssocieCode
+  type: Class
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanelCrossCanal.cs
+    id: MagasinAssocieCode
+    path: PanelCrossCanal.cs
+    startLine: 426
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  summary: "\nAffiche un span avec le code du magasin associé\nà la session utilisateur\n"
+  remarks: >-
+    <p>Exemple d&apos;utilisation :</p>
+
+    <pre><code>&lt;ecom:MagasinAssocieCode runat=&quot;server&quot; /></code></pre>
+
+    <p>Ce qui produira l&apos;html suivant :</p>
+
+    <pre><code>&lt;span>[le code du magasin]&lt;/span></code></pre>
+
+    <p>Si la session actuelle n&apos;est pas associée
+
+    à un magasin, le contrôle ne sera pas ajouté à l&apos;html
+
+    de la page</p>
+  example: []
+  syntax:
+    content: 'public class MagasinAssocieCode : Label'
+    content.vb: >-
+      Public Class MagasinAssocieCode
+          Inherits Label
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Altazion.ECommerce.Controls.MagasinAssocieCode.#ctor
+  commentId: M:Altazion.ECommerce.Controls.MagasinAssocieCode.#ctor
+  id: '#ctor'
+  parent: Altazion.ECommerce.Controls.MagasinAssocieCode
+  langs:
+  - csharp
+  - vb
+  name: MagasinAssocieCode()
+  nameWithType: MagasinAssocieCode.MagasinAssocieCode()
+  fullName: Altazion.ECommerce.Controls.MagasinAssocieCode.MagasinAssocieCode()
+  type: Constructor
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanelCrossCanal.cs
+    id: .ctor
+    path: PanelCrossCanal.cs
+    startLine: 431
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  summary: "\nConstructeur par défaut\n"
+  example: []
+  syntax:
+    content: public MagasinAssocieCode()
+    content.vb: Public Sub New
+  overload: Altazion.ECommerce.Controls.MagasinAssocieCode.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Altazion.ECommerce.Controls.MagasinAssocieCode.Format
+  commentId: P:Altazion.ECommerce.Controls.MagasinAssocieCode.Format
+  id: Format
+  parent: Altazion.ECommerce.Controls.MagasinAssocieCode
+  langs:
+  - csharp
+  - vb
+  name: Format
+  nameWithType: MagasinAssocieCode.Format
+  fullName: Altazion.ECommerce.Controls.MagasinAssocieCode.Format
+  type: Property
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanelCrossCanal.cs
+    id: Format
+    path: PanelCrossCanal.cs
+    startLine: 441
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  summary: "\nFormat d&apos;affichage du code magasin, sous la forme {0}\n"
+  remarks: La valeur par défaut est {0}
+  example: []
+  syntax:
+    content: public string Format { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Format As String
+  overload: Altazion.ECommerce.Controls.MagasinAssocieCode.Format*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Altazion.ECommerce.Controls.MagasinAssocieCode.OnPreRender(EventArgs)
+  commentId: M:Altazion.ECommerce.Controls.MagasinAssocieCode.OnPreRender(EventArgs)
+  id: OnPreRender(EventArgs)
+  parent: Altazion.ECommerce.Controls.MagasinAssocieCode
+  langs:
+  - csharp
+  - vb
+  name: OnPreRender(EventArgs)
+  nameWithType: MagasinAssocieCode.OnPreRender(EventArgs)
+  fullName: Altazion.ECommerce.Controls.MagasinAssocieCode.OnPreRender(EventArgs)
+  type: Method
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanelCrossCanal.cs
+    id: OnPreRender
+    path: PanelCrossCanal.cs
+    startLine: 448
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  summary: "\nPrépare l&apos;affichage\n"
+  example: []
+  syntax:
+    content: protected override void OnPreRender(EventArgs e)
+    parameters:
+    - id: e
+      type: EventArgs
+      description: ''
+    content.vb: Protected Overrides Sub OnPreRender(e As EventArgs)
+  overload: Altazion.ECommerce.Controls.MagasinAssocieCode.OnPreRender*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+references:
+- uid: Altazion.ECommerce.Controls
+  commentId: N:Altazion.ECommerce.Controls
+  name: Altazion.ECommerce.Controls
+  nameWithType: Altazion.ECommerce.Controls
+  fullName: Altazion.ECommerce.Controls
+- uid: System.Object
+  commentId: '!:System.Object'
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Altazion.ECommerce.Controls.MagasinAssocieCode.#ctor*
+  commentId: Overload:Altazion.ECommerce.Controls.MagasinAssocieCode.#ctor
+  name: MagasinAssocieCode
+  nameWithType: MagasinAssocieCode.MagasinAssocieCode
+  fullName: Altazion.ECommerce.Controls.MagasinAssocieCode.MagasinAssocieCode
+- uid: Altazion.ECommerce.Controls.MagasinAssocieCode.Format*
+  commentId: Overload:Altazion.ECommerce.Controls.MagasinAssocieCode.Format
+  name: Format
+  nameWithType: MagasinAssocieCode.Format
+  fullName: Altazion.ECommerce.Controls.MagasinAssocieCode.Format
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Altazion.ECommerce.Controls.MagasinAssocieCode.OnPreRender*
+  commentId: Overload:Altazion.ECommerce.Controls.MagasinAssocieCode.OnPreRender
+  name: OnPreRender
+  nameWithType: MagasinAssocieCode.OnPreRender
+  fullName: Altazion.ECommerce.Controls.MagasinAssocieCode.OnPreRender
+- uid: EventArgs
+  isExternal: true
+  name: EventArgs
+  nameWithType: EventArgs
+  fullName: EventArgs

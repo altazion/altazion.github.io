@@ -1,0 +1,111 @@
+### YamlMime:ManagedReference
+items:
+- uid: Altazion.ECommerce.Controls.MagasinAssociePays
+  commentId: T:Altazion.ECommerce.Controls.MagasinAssociePays
+  id: MagasinAssociePays
+  parent: Altazion.ECommerce.Controls
+  children:
+  - Altazion.ECommerce.Controls.MagasinAssociePays.OnPreRender(EventArgs)
+  langs:
+  - csharp
+  - vb
+  name: MagasinAssociePays
+  nameWithType: MagasinAssociePays
+  fullName: Altazion.ECommerce.Controls.MagasinAssociePays
+  type: Class
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanelCrossCanal.cs
+    id: MagasinAssociePays
+    path: PanelCrossCanal.cs
+    startLine: 371
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  summary: "\nAffiche un span avec le pays du magasin associé\nà la session utilisateur\n"
+  remarks: >-
+    <p>Exemple d&apos;utilisation :</p>
+
+    <pre><code>&lt;ecom:MagasinAssociePays runat=&quot;server&quot; /></code></pre>
+
+    <p>Ce qui produira l&apos;html suivant :</p>
+
+    <pre><code>&lt;span>[le pays du magasin]&lt;/span></code></pre>
+
+    <p>Si la session actuelle n&apos;est pas associée
+
+    à un magasin, le contrôle ne sera pas ajouté à l&apos;html
+
+    de la page</p>
+  example: []
+  syntax:
+    content: 'public class MagasinAssociePays : Label'
+    content.vb: >-
+      Public Class MagasinAssociePays
+          Inherits Label
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Altazion.ECommerce.Controls.MagasinAssociePays.OnPreRender(EventArgs)
+  commentId: M:Altazion.ECommerce.Controls.MagasinAssociePays.OnPreRender(EventArgs)
+  id: OnPreRender(EventArgs)
+  parent: Altazion.ECommerce.Controls.MagasinAssociePays
+  langs:
+  - csharp
+  - vb
+  name: OnPreRender(EventArgs)
+  nameWithType: MagasinAssociePays.OnPreRender(EventArgs)
+  fullName: Altazion.ECommerce.Controls.MagasinAssociePays.OnPreRender(EventArgs)
+  type: Method
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanelCrossCanal.cs
+    id: OnPreRender
+    path: PanelCrossCanal.cs
+    startLine: 377
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  summary: "\nPrépare l&apos;affichage du controle\n"
+  example: []
+  syntax:
+    content: protected override void OnPreRender(EventArgs e)
+    parameters:
+    - id: e
+      type: EventArgs
+      description: ''
+    content.vb: Protected Overrides Sub OnPreRender(e As EventArgs)
+  overload: Altazion.ECommerce.Controls.MagasinAssociePays.OnPreRender*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+references:
+- uid: Altazion.ECommerce.Controls
+  commentId: N:Altazion.ECommerce.Controls
+  name: Altazion.ECommerce.Controls
+  nameWithType: Altazion.ECommerce.Controls
+  fullName: Altazion.ECommerce.Controls
+- uid: System.Object
+  commentId: '!:System.Object'
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Altazion.ECommerce.Controls.MagasinAssociePays.OnPreRender*
+  commentId: Overload:Altazion.ECommerce.Controls.MagasinAssociePays.OnPreRender
+  name: OnPreRender
+  nameWithType: MagasinAssociePays.OnPreRender
+  fullName: Altazion.ECommerce.Controls.MagasinAssociePays.OnPreRender
+- uid: EventArgs
+  isExternal: true
+  name: EventArgs
+  nameWithType: EventArgs
+  fullName: EventArgs

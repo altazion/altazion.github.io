@@ -1,0 +1,194 @@
+### YamlMime:ManagedReference
+items:
+- uid: Altazion.ECommerce.Controls.BonsAchatsUtiliseMontant
+  commentId: T:Altazion.ECommerce.Controls.BonsAchatsUtiliseMontant
+  id: BonsAchatsUtiliseMontant
+  parent: Altazion.ECommerce.Controls
+  children:
+  - Altazion.ECommerce.Controls.BonsAchatsUtiliseMontant.#ctor
+  - Altazion.ECommerce.Controls.BonsAchatsUtiliseMontant.Format
+  - Altazion.ECommerce.Controls.BonsAchatsUtiliseMontant.OnPreRender(EventArgs)
+  langs:
+  - csharp
+  - vb
+  name: BonsAchatsUtiliseMontant
+  nameWithType: BonsAchatsUtiliseMontant
+  fullName: Altazion.ECommerce.Controls.BonsAchatsUtiliseMontant
+  type: Class
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/BonsAchatsControls.cs
+    id: BonsAchatsUtiliseMontant
+    path: BonsAchatsControls.cs
+    startLine: 20
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  summary: "\nAffiche dans un span le montant de bons d&apos;achats utilisé\ndans le règlement du panier actif.\n"
+  remarks: >-
+    Ce contrôle ne peut être utilisé que dans le cadre du contrôle
+
+    personnalisé <pre><code>BonsAchatsSelectionnables.ascx</code></pre>
+  example: []
+  syntax:
+    content: 'public class BonsAchatsUtiliseMontant : Label'
+    content.vb: >-
+      Public Class BonsAchatsUtiliseMontant
+          Inherits Label
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Altazion.ECommerce.Controls.BonsAchatsUtiliseMontant.#ctor
+  commentId: M:Altazion.ECommerce.Controls.BonsAchatsUtiliseMontant.#ctor
+  id: '#ctor'
+  parent: Altazion.ECommerce.Controls.BonsAchatsUtiliseMontant
+  langs:
+  - csharp
+  - vb
+  name: BonsAchatsUtiliseMontant()
+  nameWithType: BonsAchatsUtiliseMontant.BonsAchatsUtiliseMontant()
+  fullName: Altazion.ECommerce.Controls.BonsAchatsUtiliseMontant.BonsAchatsUtiliseMontant()
+  type: Constructor
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/BonsAchatsControls.cs
+    id: .ctor
+    path: BonsAchatsControls.cs
+    startLine: 25
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  summary: "\nInitialise une instance de <xref href=\"Altazion.ECommerce.Controls.BonsAchatsUtiliseMontant\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  example: []
+  syntax:
+    content: public BonsAchatsUtiliseMontant()
+    content.vb: Public Sub New
+  overload: Altazion.ECommerce.Controls.BonsAchatsUtiliseMontant.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Altazion.ECommerce.Controls.BonsAchatsUtiliseMontant.Format
+  commentId: P:Altazion.ECommerce.Controls.BonsAchatsUtiliseMontant.Format
+  id: Format
+  parent: Altazion.ECommerce.Controls.BonsAchatsUtiliseMontant
+  langs:
+  - csharp
+  - vb
+  name: Format
+  nameWithType: BonsAchatsUtiliseMontant.Format
+  fullName: Altazion.ECommerce.Controls.BonsAchatsUtiliseMontant.Format
+  type: Property
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/BonsAchatsControls.cs
+    id: Format
+    path: BonsAchatsControls.cs
+    startLine: 35
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  summary: "\nObtient ou définit le format à utiliser pour\nafficher le montant sous la forme {0:0.00} (valeur par défaut)\n"
+  example: []
+  syntax:
+    content: public string Format { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Format As String
+  overload: Altazion.ECommerce.Controls.BonsAchatsUtiliseMontant.Format*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Altazion.ECommerce.Controls.BonsAchatsUtiliseMontant.OnPreRender(EventArgs)
+  commentId: M:Altazion.ECommerce.Controls.BonsAchatsUtiliseMontant.OnPreRender(EventArgs)
+  id: OnPreRender(EventArgs)
+  parent: Altazion.ECommerce.Controls.BonsAchatsUtiliseMontant
+  langs:
+  - csharp
+  - vb
+  name: OnPreRender(EventArgs)
+  nameWithType: BonsAchatsUtiliseMontant.OnPreRender(EventArgs)
+  fullName: Altazion.ECommerce.Controls.BonsAchatsUtiliseMontant.OnPreRender(EventArgs)
+  type: Method
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/BonsAchatsControls.cs
+    id: OnPreRender
+    path: BonsAchatsControls.cs
+    startLine: 45
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  summary: "\nDéclenche l&apos;événement <xref href=\"System.Web.UI.Control.PreRender\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  example: []
+  syntax:
+    content: protected override void OnPreRender(EventArgs e)
+    parameters:
+    - id: e
+      type: EventArgs
+      description: Objet <xref href="System.EventArgs" data-throw-if-not-resolved="false"></xref> qui contient les données d&apos;événement.
+    content.vb: Protected Overrides Sub OnPreRender(e As EventArgs)
+  overload: Altazion.ECommerce.Controls.BonsAchatsUtiliseMontant.OnPreRender*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+references:
+- uid: Altazion.ECommerce.Controls
+  commentId: N:Altazion.ECommerce.Controls
+  name: Altazion.ECommerce.Controls
+  nameWithType: Altazion.ECommerce.Controls
+  fullName: Altazion.ECommerce.Controls
+- uid: System.Object
+  commentId: '!:System.Object'
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Altazion.ECommerce.Controls.BonsAchatsUtiliseMontant
+  commentId: T:Altazion.ECommerce.Controls.BonsAchatsUtiliseMontant
+  name: BonsAchatsUtiliseMontant
+  nameWithType: BonsAchatsUtiliseMontant
+  fullName: Altazion.ECommerce.Controls.BonsAchatsUtiliseMontant
+- uid: Altazion.ECommerce.Controls.BonsAchatsUtiliseMontant.#ctor*
+  commentId: Overload:Altazion.ECommerce.Controls.BonsAchatsUtiliseMontant.#ctor
+  name: BonsAchatsUtiliseMontant
+  nameWithType: BonsAchatsUtiliseMontant.BonsAchatsUtiliseMontant
+  fullName: Altazion.ECommerce.Controls.BonsAchatsUtiliseMontant.BonsAchatsUtiliseMontant
+- uid: Altazion.ECommerce.Controls.BonsAchatsUtiliseMontant.Format*
+  commentId: Overload:Altazion.ECommerce.Controls.BonsAchatsUtiliseMontant.Format
+  name: Format
+  nameWithType: BonsAchatsUtiliseMontant.Format
+  fullName: Altazion.ECommerce.Controls.BonsAchatsUtiliseMontant.Format
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Web.UI.Control.PreRender
+  commentId: E:System.Web.UI.Control.PreRender
+  isExternal: true
+- uid: System.EventArgs
+  commentId: T:System.EventArgs
+  isExternal: true
+- uid: Altazion.ECommerce.Controls.BonsAchatsUtiliseMontant.OnPreRender*
+  commentId: Overload:Altazion.ECommerce.Controls.BonsAchatsUtiliseMontant.OnPreRender
+  name: OnPreRender
+  nameWithType: BonsAchatsUtiliseMontant.OnPreRender
+  fullName: Altazion.ECommerce.Controls.BonsAchatsUtiliseMontant.OnPreRender
+- uid: EventArgs
+  isExternal: true
+  name: EventArgs
+  nameWithType: EventArgs
+  fullName: EventArgs

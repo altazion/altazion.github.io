@@ -1,0 +1,64 @@
+### YamlMime:ManagedReference
+items:
+- uid: Altazion.ECommerce.Controls.ProduitMarqueLink
+  commentId: T:Altazion.ECommerce.Controls.ProduitMarqueLink
+  id: ProduitMarqueLink
+  parent: Altazion.ECommerce.Controls
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: ProduitMarqueLink
+  nameWithType: ProduitMarqueLink
+  fullName: Altazion.ECommerce.Controls.ProduitMarqueLink
+  type: Class
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/ProductLinks.cs
+    id: ProduitMarqueLink
+    path: ProductLinks.cs
+    startLine: 244
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  summary: "\nA utiliser dans un contrôle bindé sur un produit : affiche un lien\navec la marque du produit pointant sur la page de recherche correspondant\nà cette marque\n"
+  example: []
+  syntax:
+    content: 'public class ProduitMarqueLink : HyperLink, IEquihiraBindable'
+    content.vb: >-
+      Public Class ProduitMarqueLink
+          Inherits HyperLink
+          Implements IEquihiraBindable
+  inheritance:
+  - System.Object
+  implements:
+  - CPointSoftware.ECommerce.Tools.IEquihiraBindable
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+references:
+- uid: Altazion.ECommerce.Controls
+  commentId: N:Altazion.ECommerce.Controls
+  name: Altazion.ECommerce.Controls
+  nameWithType: Altazion.ECommerce.Controls
+  fullName: Altazion.ECommerce.Controls
+- uid: System.Object
+  commentId: '!:System.Object'
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: CPointSoftware.ECommerce.Tools.IEquihiraBindable
+  commentId: T:CPointSoftware.ECommerce.Tools.IEquihiraBindable
+  parent: CPointSoftware.ECommerce.Tools
+  name: IEquihiraBindable
+  nameWithType: IEquihiraBindable
+  fullName: CPointSoftware.ECommerce.Tools.IEquihiraBindable
+- uid: CPointSoftware.ECommerce.Tools
+  commentId: N:CPointSoftware.ECommerce.Tools
+  name: CPointSoftware.ECommerce.Tools
+  nameWithType: CPointSoftware.ECommerce.Tools
+  fullName: CPointSoftware.ECommerce.Tools

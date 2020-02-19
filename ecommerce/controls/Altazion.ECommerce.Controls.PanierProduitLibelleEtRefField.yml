@@ -1,0 +1,280 @@
+### YamlMime:ManagedReference
+items:
+- uid: Altazion.ECommerce.Controls.PanierProduitLibelleEtRefField
+  commentId: T:Altazion.ECommerce.Controls.PanierProduitLibelleEtRefField
+  id: PanierProduitLibelleEtRefField
+  parent: Altazion.ECommerce.Controls
+  children:
+  - Altazion.ECommerce.Controls.PanierProduitLibelleEtRefField.CssClass
+  - Altazion.ECommerce.Controls.PanierProduitLibelleEtRefField.CssClassLibelle
+  - Altazion.ECommerce.Controls.PanierProduitLibelleEtRefField.CssClassReference
+  - Altazion.ECommerce.Controls.PanierProduitLibelleEtRefField.DoNotLink
+  - Altazion.ECommerce.Controls.PanierProduitLibelleEtRefField.Separateur
+  langs:
+  - csharp
+  - vb
+  name: PanierProduitLibelleEtRefField
+  nameWithType: PanierProduitLibelleEtRefField
+  fullName: Altazion.ECommerce.Controls.PanierProduitLibelleEtRefField
+  type: Class
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanierProduitField.cs
+    id: PanierProduitLibelleEtRefField
+    path: PanierProduitField.cs
+    startLine: 1451
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  summary: "\nA utiliser dans un <xref href=\"Altazion.ECommerce.Controls.PanierProduitsGrid\" data-throw-if-not-resolved=\"false\"></xref> pour \nafficher un td avec le libelle et la référence du produit\n"
+  example: []
+  syntax:
+    content: 'public class PanierProduitLibelleEtRefField : EDataControlField'
+    content.vb: >-
+      Public Class PanierProduitLibelleEtRefField
+          Inherits EDataControlField
+  inheritance:
+  - System.Object
+  - CPointSoftware.ECommerce.Tools.EDataControlField
+  inheritedMembers:
+  - CPointSoftware.ECommerce.Tools.EDataControlField.ColumnSpan
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Altazion.ECommerce.Controls.PanierProduitLibelleEtRefField.CssClass
+  commentId: P:Altazion.ECommerce.Controls.PanierProduitLibelleEtRefField.CssClass
+  id: CssClass
+  parent: Altazion.ECommerce.Controls.PanierProduitLibelleEtRefField
+  langs:
+  - csharp
+  - vb
+  name: CssClass
+  nameWithType: PanierProduitLibelleEtRefField.CssClass
+  fullName: Altazion.ECommerce.Controls.PanierProduitLibelleEtRefField.CssClass
+  type: Property
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanierProduitField.cs
+    id: CssClass
+    path: PanierProduitField.cs
+    startLine: 1458
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: public String CssClass { get; set; }
+    parameters: []
+    return:
+      type: String
+    content.vb: Public Property CssClass As String
+  overload: Altazion.ECommerce.Controls.PanierProduitLibelleEtRefField.CssClass*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Altazion.ECommerce.Controls.PanierProduitLibelleEtRefField.CssClassLibelle
+  commentId: P:Altazion.ECommerce.Controls.PanierProduitLibelleEtRefField.CssClassLibelle
+  id: CssClassLibelle
+  parent: Altazion.ECommerce.Controls.PanierProduitLibelleEtRefField
+  langs:
+  - csharp
+  - vb
+  name: CssClassLibelle
+  nameWithType: PanierProduitLibelleEtRefField.CssClassLibelle
+  fullName: Altazion.ECommerce.Controls.PanierProduitLibelleEtRefField.CssClassLibelle
+  type: Property
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanierProduitField.cs
+    id: CssClassLibelle
+    path: PanierProduitField.cs
+    startLine: 1479
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: public String CssClassLibelle { get; set; }
+    parameters: []
+    return:
+      type: String
+    content.vb: Public Property CssClassLibelle As String
+  overload: Altazion.ECommerce.Controls.PanierProduitLibelleEtRefField.CssClassLibelle*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Altazion.ECommerce.Controls.PanierProduitLibelleEtRefField.CssClassReference
+  commentId: P:Altazion.ECommerce.Controls.PanierProduitLibelleEtRefField.CssClassReference
+  id: CssClassReference
+  parent: Altazion.ECommerce.Controls.PanierProduitLibelleEtRefField
+  langs:
+  - csharp
+  - vb
+  name: CssClassReference
+  nameWithType: PanierProduitLibelleEtRefField.CssClassReference
+  fullName: Altazion.ECommerce.Controls.PanierProduitLibelleEtRefField.CssClassReference
+  type: Property
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanierProduitField.cs
+    id: CssClassReference
+    path: PanierProduitField.cs
+    startLine: 1500
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: public String CssClassReference { get; set; }
+    parameters: []
+    return:
+      type: String
+    content.vb: Public Property CssClassReference As String
+  overload: Altazion.ECommerce.Controls.PanierProduitLibelleEtRefField.CssClassReference*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Altazion.ECommerce.Controls.PanierProduitLibelleEtRefField.Separateur
+  commentId: P:Altazion.ECommerce.Controls.PanierProduitLibelleEtRefField.Separateur
+  id: Separateur
+  parent: Altazion.ECommerce.Controls.PanierProduitLibelleEtRefField
+  langs:
+  - csharp
+  - vb
+  name: Separateur
+  nameWithType: PanierProduitLibelleEtRefField.Separateur
+  fullName: Altazion.ECommerce.Controls.PanierProduitLibelleEtRefField.Separateur
+  type: Property
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanierProduitField.cs
+    id: Separateur
+    path: PanierProduitField.cs
+    startLine: 1520
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: public String Separateur { get; set; }
+    parameters: []
+    return:
+      type: String
+    content.vb: Public Property Separateur As String
+  overload: Altazion.ECommerce.Controls.PanierProduitLibelleEtRefField.Separateur*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Altazion.ECommerce.Controls.PanierProduitLibelleEtRefField.DoNotLink
+  commentId: P:Altazion.ECommerce.Controls.PanierProduitLibelleEtRefField.DoNotLink
+  id: DoNotLink
+  parent: Altazion.ECommerce.Controls.PanierProduitLibelleEtRefField
+  langs:
+  - csharp
+  - vb
+  name: DoNotLink
+  nameWithType: PanierProduitLibelleEtRefField.DoNotLink
+  fullName: Altazion.ECommerce.Controls.PanierProduitLibelleEtRefField.DoNotLink
+  type: Property
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanierProduitField.cs
+    id: DoNotLink
+    path: PanierProduitField.cs
+    startLine: 1541
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: public bool DoNotLink { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property DoNotLink As Boolean
+  overload: Altazion.ECommerce.Controls.PanierProduitLibelleEtRefField.DoNotLink*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: Altazion.ECommerce.Controls.PanierProduitsGrid
+  commentId: T:Altazion.ECommerce.Controls.PanierProduitsGrid
+  name: PanierProduitsGrid
+  nameWithType: PanierProduitsGrid
+  fullName: Altazion.ECommerce.Controls.PanierProduitsGrid
+- uid: Altazion.ECommerce.Controls
+  commentId: N:Altazion.ECommerce.Controls
+  name: Altazion.ECommerce.Controls
+  nameWithType: Altazion.ECommerce.Controls
+  fullName: Altazion.ECommerce.Controls
+- uid: System.Object
+  commentId: '!:System.Object'
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: CPointSoftware.ECommerce.Tools.EDataControlField
+  commentId: T:CPointSoftware.ECommerce.Tools.EDataControlField
+  parent: CPointSoftware.ECommerce.Tools
+  name: EDataControlField
+  nameWithType: EDataControlField
+  fullName: CPointSoftware.ECommerce.Tools.EDataControlField
+- uid: CPointSoftware.ECommerce.Tools.EDataControlField.ColumnSpan
+  commentId: P:CPointSoftware.ECommerce.Tools.EDataControlField.ColumnSpan
+  parent: CPointSoftware.ECommerce.Tools.EDataControlField
+  name: ColumnSpan
+  nameWithType: EDataControlField.ColumnSpan
+  fullName: CPointSoftware.ECommerce.Tools.EDataControlField.ColumnSpan
+- uid: CPointSoftware.ECommerce.Tools
+  commentId: N:CPointSoftware.ECommerce.Tools
+  name: CPointSoftware.ECommerce.Tools
+  nameWithType: CPointSoftware.ECommerce.Tools
+  fullName: CPointSoftware.ECommerce.Tools
+- uid: Altazion.ECommerce.Controls.PanierProduitLibelleEtRefField.CssClass*
+  commentId: Overload:Altazion.ECommerce.Controls.PanierProduitLibelleEtRefField.CssClass
+  name: CssClass
+  nameWithType: PanierProduitLibelleEtRefField.CssClass
+  fullName: Altazion.ECommerce.Controls.PanierProduitLibelleEtRefField.CssClass
+- uid: String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: String
+- uid: Altazion.ECommerce.Controls.PanierProduitLibelleEtRefField.CssClassLibelle*
+  commentId: Overload:Altazion.ECommerce.Controls.PanierProduitLibelleEtRefField.CssClassLibelle
+  name: CssClassLibelle
+  nameWithType: PanierProduitLibelleEtRefField.CssClassLibelle
+  fullName: Altazion.ECommerce.Controls.PanierProduitLibelleEtRefField.CssClassLibelle
+- uid: Altazion.ECommerce.Controls.PanierProduitLibelleEtRefField.CssClassReference*
+  commentId: Overload:Altazion.ECommerce.Controls.PanierProduitLibelleEtRefField.CssClassReference
+  name: CssClassReference
+  nameWithType: PanierProduitLibelleEtRefField.CssClassReference
+  fullName: Altazion.ECommerce.Controls.PanierProduitLibelleEtRefField.CssClassReference
+- uid: Altazion.ECommerce.Controls.PanierProduitLibelleEtRefField.Separateur*
+  commentId: Overload:Altazion.ECommerce.Controls.PanierProduitLibelleEtRefField.Separateur
+  name: Separateur
+  nameWithType: PanierProduitLibelleEtRefField.Separateur
+  fullName: Altazion.ECommerce.Controls.PanierProduitLibelleEtRefField.Separateur
+- uid: Altazion.ECommerce.Controls.PanierProduitLibelleEtRefField.DoNotLink*
+  commentId: Overload:Altazion.ECommerce.Controls.PanierProduitLibelleEtRefField.DoNotLink
+  name: DoNotLink
+  nameWithType: PanierProduitLibelleEtRefField.DoNotLink
+  fullName: Altazion.ECommerce.Controls.PanierProduitLibelleEtRefField.DoNotLink
+- uid: System.Boolean
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

@@ -1,0 +1,106 @@
+### YamlMime:ManagedReference
+items:
+- uid: Altazion.ECommerce.Controls.ProductLivraison.TypePreference
+  commentId: T:Altazion.ECommerce.Controls.ProductLivraison.TypePreference
+  id: ProductLivraison.TypePreference
+  parent: Altazion.ECommerce.Controls
+  children:
+  - Altazion.ECommerce.Controls.ProductLivraison.TypePreference.DateMin
+  - Altazion.ECommerce.Controls.ProductLivraison.TypePreference.PrixMin
+  langs:
+  - csharp
+  - vb
+  name: ProductLivraison.TypePreference
+  nameWithType: ProductLivraison.TypePreference
+  fullName: Altazion.ECommerce.Controls.ProductLivraison.TypePreference
+  type: Enum
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/ProductDelaiLivraison.cs
+    id: TypePreference
+    path: ProductDelaiLivraison.cs
+    startLine: 42
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: 'public enum TypePreference : int'
+    content.vb: Public Enum TypePreference As Integer
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Altazion.ECommerce.Controls.ProductLivraison.TypePreference.DateMin
+  commentId: F:Altazion.ECommerce.Controls.ProductLivraison.TypePreference.DateMin
+  id: DateMin
+  parent: Altazion.ECommerce.Controls.ProductLivraison.TypePreference
+  langs:
+  - csharp
+  - vb
+  name: DateMin
+  nameWithType: ProductLivraison.TypePreference.DateMin
+  fullName: Altazion.ECommerce.Controls.ProductLivraison.TypePreference.DateMin
+  type: Field
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/ProductDelaiLivraison.cs
+    id: DateMin
+    path: ProductDelaiLivraison.cs
+    startLine: 44
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: DateMin = 0
+    return:
+      type: Altazion.ECommerce.Controls.ProductLivraison.TypePreference
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Altazion.ECommerce.Controls.ProductLivraison.TypePreference.PrixMin
+  commentId: F:Altazion.ECommerce.Controls.ProductLivraison.TypePreference.PrixMin
+  id: PrixMin
+  parent: Altazion.ECommerce.Controls.ProductLivraison.TypePreference
+  langs:
+  - csharp
+  - vb
+  name: PrixMin
+  nameWithType: ProductLivraison.TypePreference.PrixMin
+  fullName: Altazion.ECommerce.Controls.ProductLivraison.TypePreference.PrixMin
+  type: Field
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/ProductDelaiLivraison.cs
+    id: PrixMin
+    path: ProductDelaiLivraison.cs
+    startLine: 45
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: PrixMin = 1
+    return:
+      type: Altazion.ECommerce.Controls.ProductLivraison.TypePreference
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Altazion.ECommerce.Controls
+  commentId: N:Altazion.ECommerce.Controls
+  name: Altazion.ECommerce.Controls
+  nameWithType: Altazion.ECommerce.Controls
+  fullName: Altazion.ECommerce.Controls
+- uid: Altazion.ECommerce.Controls.ProductLivraison.TypePreference
+  commentId: T:Altazion.ECommerce.Controls.ProductLivraison.TypePreference
+  parent: Altazion.ECommerce.Controls
+  name: ProductLivraison.TypePreference
+  nameWithType: ProductLivraison.TypePreference
+  fullName: Altazion.ECommerce.Controls.ProductLivraison.TypePreference

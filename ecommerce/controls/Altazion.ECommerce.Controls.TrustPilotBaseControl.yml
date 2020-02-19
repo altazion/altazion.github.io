@@ -1,0 +1,243 @@
+### YamlMime:ManagedReference
+items:
+- uid: Altazion.ECommerce.Controls.TrustPilotBaseControl
+  commentId: T:Altazion.ECommerce.Controls.TrustPilotBaseControl
+  id: TrustPilotBaseControl
+  parent: Altazion.ECommerce.Controls
+  children:
+  - Altazion.ECommerce.Controls.TrustPilotBaseControl.ArticleGuid
+  - Altazion.ECommerce.Controls.TrustPilotBaseControl.ArticleLibelle
+  - Altazion.ECommerce.Controls.TrustPilotBaseControl.ArticleReference
+  - Altazion.ECommerce.Controls.TrustPilotBaseControl.BusinessUnitId
+  langs:
+  - csharp
+  - vb
+  name: TrustPilotBaseControl
+  nameWithType: TrustPilotBaseControl
+  fullName: Altazion.ECommerce.Controls.TrustPilotBaseControl
+  type: Class
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/TrustPilotControls.cs
+    id: TrustPilotBaseControl
+    path: TrustPilotControls.cs
+    startLine: 19
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  summary: "\nClasse de base des controles d&apos;affichage TrustPilot\n"
+  example: []
+  syntax:
+    content: 'public abstract class TrustPilotBaseControl : WebControl, IEquihiraBindable'
+    content.vb: >-
+      Public MustInherit Class TrustPilotBaseControl
+          Inherits WebControl
+          Implements IEquihiraBindable
+  inheritance:
+  - System.Object
+  derivedClasses:
+  - Altazion.ECommerce.Controls.TrustPilot
+  - Altazion.ECommerce.Controls.TrustPilotWidget
+  implements:
+  - CPointSoftware.ECommerce.Tools.IEquihiraBindable
+  modifiers.csharp:
+  - public
+  - abstract
+  - class
+  modifiers.vb:
+  - Public
+  - MustInherit
+  - Class
+- uid: Altazion.ECommerce.Controls.TrustPilotBaseControl.ArticleReference
+  commentId: P:Altazion.ECommerce.Controls.TrustPilotBaseControl.ArticleReference
+  id: ArticleReference
+  parent: Altazion.ECommerce.Controls.TrustPilotBaseControl
+  langs:
+  - csharp
+  - vb
+  name: ArticleReference
+  nameWithType: TrustPilotBaseControl.ArticleReference
+  fullName: Altazion.ECommerce.Controls.TrustPilotBaseControl.ArticleReference
+  type: Property
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/TrustPilotControls.cs
+    id: ArticleReference
+    path: TrustPilotControls.cs
+    startLine: 26
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  summary: "\nObtient ou définit la référence de l&apos;article data-bindé\n"
+  example: []
+  syntax:
+    content: protected string ArticleReference { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Protected Property ArticleReference As String
+  overload: Altazion.ECommerce.Controls.TrustPilotBaseControl.ArticleReference*
+  modifiers.csharp:
+  - protected
+  - get
+  - set
+  modifiers.vb:
+  - Protected
+- uid: Altazion.ECommerce.Controls.TrustPilotBaseControl.ArticleLibelle
+  commentId: P:Altazion.ECommerce.Controls.TrustPilotBaseControl.ArticleLibelle
+  id: ArticleLibelle
+  parent: Altazion.ECommerce.Controls.TrustPilotBaseControl
+  langs:
+  - csharp
+  - vb
+  name: ArticleLibelle
+  nameWithType: TrustPilotBaseControl.ArticleLibelle
+  fullName: Altazion.ECommerce.Controls.TrustPilotBaseControl.ArticleLibelle
+  type: Property
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/TrustPilotControls.cs
+    id: ArticleLibelle
+    path: TrustPilotControls.cs
+    startLine: 31
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  summary: "\nObtient ou définit le libellé de l&apos;article data-bindé\n"
+  example: []
+  syntax:
+    content: protected string ArticleLibelle { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Protected Property ArticleLibelle As String
+  overload: Altazion.ECommerce.Controls.TrustPilotBaseControl.ArticleLibelle*
+  modifiers.csharp:
+  - protected
+  - get
+  - set
+  modifiers.vb:
+  - Protected
+- uid: Altazion.ECommerce.Controls.TrustPilotBaseControl.ArticleGuid
+  commentId: P:Altazion.ECommerce.Controls.TrustPilotBaseControl.ArticleGuid
+  id: ArticleGuid
+  parent: Altazion.ECommerce.Controls.TrustPilotBaseControl
+  langs:
+  - csharp
+  - vb
+  name: ArticleGuid
+  nameWithType: TrustPilotBaseControl.ArticleGuid
+  fullName: Altazion.ECommerce.Controls.TrustPilotBaseControl.ArticleGuid
+  type: Property
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/TrustPilotControls.cs
+    id: ArticleGuid
+    path: TrustPilotControls.cs
+    startLine: 36
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  summary: "\nObtien ou définit l&apos;identifiant de l&apos;article data-bindé\n"
+  example: []
+  syntax:
+    content: protected Guid ArticleGuid { get; set; }
+    parameters: []
+    return:
+      type: Guid
+    content.vb: Protected Property ArticleGuid As Guid
+  overload: Altazion.ECommerce.Controls.TrustPilotBaseControl.ArticleGuid*
+  modifiers.csharp:
+  - protected
+  - get
+  - set
+  modifiers.vb:
+  - Protected
+- uid: Altazion.ECommerce.Controls.TrustPilotBaseControl.BusinessUnitId
+  commentId: P:Altazion.ECommerce.Controls.TrustPilotBaseControl.BusinessUnitId
+  id: BusinessUnitId
+  parent: Altazion.ECommerce.Controls.TrustPilotBaseControl
+  langs:
+  - csharp
+  - vb
+  name: BusinessUnitId
+  nameWithType: TrustPilotBaseControl.BusinessUnitId
+  fullName: Altazion.ECommerce.Controls.TrustPilotBaseControl.BusinessUnitId
+  type: Property
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/TrustPilotControls.cs
+    id: BusinessUnitId
+    path: TrustPilotControls.cs
+    startLine: 41
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  summary: "\nObtient ou définit l&apos;identifiant du compte chez TrustPilot\n"
+  example: []
+  syntax:
+    content: public string BusinessUnitId { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property BusinessUnitId As String
+  overload: Altazion.ECommerce.Controls.TrustPilotBaseControl.BusinessUnitId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: Altazion.ECommerce.Controls
+  commentId: N:Altazion.ECommerce.Controls
+  name: Altazion.ECommerce.Controls
+  nameWithType: Altazion.ECommerce.Controls
+  fullName: Altazion.ECommerce.Controls
+- uid: System.Object
+  commentId: '!:System.Object'
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: CPointSoftware.ECommerce.Tools.IEquihiraBindable
+  commentId: T:CPointSoftware.ECommerce.Tools.IEquihiraBindable
+  parent: CPointSoftware.ECommerce.Tools
+  name: IEquihiraBindable
+  nameWithType: IEquihiraBindable
+  fullName: CPointSoftware.ECommerce.Tools.IEquihiraBindable
+- uid: CPointSoftware.ECommerce.Tools
+  commentId: N:CPointSoftware.ECommerce.Tools
+  name: CPointSoftware.ECommerce.Tools
+  nameWithType: CPointSoftware.ECommerce.Tools
+  fullName: CPointSoftware.ECommerce.Tools
+- uid: Altazion.ECommerce.Controls.TrustPilotBaseControl.ArticleReference*
+  commentId: Overload:Altazion.ECommerce.Controls.TrustPilotBaseControl.ArticleReference
+  name: ArticleReference
+  nameWithType: TrustPilotBaseControl.ArticleReference
+  fullName: Altazion.ECommerce.Controls.TrustPilotBaseControl.ArticleReference
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Altazion.ECommerce.Controls.TrustPilotBaseControl.ArticleLibelle*
+  commentId: Overload:Altazion.ECommerce.Controls.TrustPilotBaseControl.ArticleLibelle
+  name: ArticleLibelle
+  nameWithType: TrustPilotBaseControl.ArticleLibelle
+  fullName: Altazion.ECommerce.Controls.TrustPilotBaseControl.ArticleLibelle
+- uid: Altazion.ECommerce.Controls.TrustPilotBaseControl.ArticleGuid*
+  commentId: Overload:Altazion.ECommerce.Controls.TrustPilotBaseControl.ArticleGuid
+  name: ArticleGuid
+  nameWithType: TrustPilotBaseControl.ArticleGuid
+  fullName: Altazion.ECommerce.Controls.TrustPilotBaseControl.ArticleGuid
+- uid: Guid
+  isExternal: true
+  name: Guid
+  nameWithType: Guid
+  fullName: Guid
+- uid: Altazion.ECommerce.Controls.TrustPilotBaseControl.BusinessUnitId*
+  commentId: Overload:Altazion.ECommerce.Controls.TrustPilotBaseControl.BusinessUnitId
+  name: BusinessUnitId
+  nameWithType: TrustPilotBaseControl.BusinessUnitId
+  fullName: Altazion.ECommerce.Controls.TrustPilotBaseControl.BusinessUnitId

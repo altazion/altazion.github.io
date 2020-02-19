@@ -1,0 +1,180 @@
+### YamlMime:ManagedReference
+items:
+- uid: Altazion.ECommerce.Controls.ProductLivraisonLibelle
+  commentId: T:Altazion.ECommerce.Controls.ProductLivraisonLibelle
+  id: ProductLivraisonLibelle
+  parent: Altazion.ECommerce.Controls
+  children:
+  - Altazion.ECommerce.Controls.ProductLivraisonLibelle.Disabled
+  - Altazion.ECommerce.Controls.ProductLivraisonLibelle.Libelle
+  - Altazion.ECommerce.Controls.ProductLivraisonLibelle.ModeGuid
+  langs:
+  - csharp
+  - vb
+  name: ProductLivraisonLibelle
+  nameWithType: ProductLivraisonLibelle
+  fullName: Altazion.ECommerce.Controls.ProductLivraisonLibelle
+  type: Class
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/ProductDelaiLivraison.cs
+    id: ProductLivraisonLibelle
+    path: ProductDelaiLivraison.cs
+    startLine: 18
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: 'public class ProductLivraisonLibelle : object'
+    content.vb: >-
+      Public Class ProductLivraisonLibelle
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Altazion.ECommerce.Controls.ProductLivraisonLibelle.Libelle
+  commentId: P:Altazion.ECommerce.Controls.ProductLivraisonLibelle.Libelle
+  id: Libelle
+  parent: Altazion.ECommerce.Controls.ProductLivraisonLibelle
+  langs:
+  - csharp
+  - vb
+  name: Libelle
+  nameWithType: ProductLivraisonLibelle.Libelle
+  fullName: Altazion.ECommerce.Controls.ProductLivraisonLibelle.Libelle
+  type: Property
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/ProductDelaiLivraison.cs
+    id: Libelle
+    path: ProductDelaiLivraison.cs
+    startLine: 20
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: public string Libelle { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Libelle As String
+  overload: Altazion.ECommerce.Controls.ProductLivraisonLibelle.Libelle*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Altazion.ECommerce.Controls.ProductLivraisonLibelle.ModeGuid
+  commentId: P:Altazion.ECommerce.Controls.ProductLivraisonLibelle.ModeGuid
+  id: ModeGuid
+  parent: Altazion.ECommerce.Controls.ProductLivraisonLibelle
+  langs:
+  - csharp
+  - vb
+  name: ModeGuid
+  nameWithType: ProductLivraisonLibelle.ModeGuid
+  fullName: Altazion.ECommerce.Controls.ProductLivraisonLibelle.ModeGuid
+  type: Property
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/ProductDelaiLivraison.cs
+    id: ModeGuid
+    path: ProductDelaiLivraison.cs
+    startLine: 21
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: public Guid ModeGuid { get; set; }
+    parameters: []
+    return:
+      type: Guid
+    content.vb: Public Property ModeGuid As Guid
+  overload: Altazion.ECommerce.Controls.ProductLivraisonLibelle.ModeGuid*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Altazion.ECommerce.Controls.ProductLivraisonLibelle.Disabled
+  commentId: P:Altazion.ECommerce.Controls.ProductLivraisonLibelle.Disabled
+  id: Disabled
+  parent: Altazion.ECommerce.Controls.ProductLivraisonLibelle
+  langs:
+  - csharp
+  - vb
+  name: Disabled
+  nameWithType: ProductLivraisonLibelle.Disabled
+  fullName: Altazion.ECommerce.Controls.ProductLivraisonLibelle.Disabled
+  type: Property
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/ProductDelaiLivraison.cs
+    id: Disabled
+    path: ProductDelaiLivraison.cs
+    startLine: 22
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: public bool Disabled { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property Disabled As Boolean
+  overload: Altazion.ECommerce.Controls.ProductLivraisonLibelle.Disabled*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: Altazion.ECommerce.Controls
+  commentId: N:Altazion.ECommerce.Controls
+  name: Altazion.ECommerce.Controls
+  nameWithType: Altazion.ECommerce.Controls
+  fullName: Altazion.ECommerce.Controls
+- uid: System.Object
+  commentId: '!:System.Object'
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Altazion.ECommerce.Controls.ProductLivraisonLibelle.Libelle*
+  commentId: Overload:Altazion.ECommerce.Controls.ProductLivraisonLibelle.Libelle
+  name: Libelle
+  nameWithType: ProductLivraisonLibelle.Libelle
+  fullName: Altazion.ECommerce.Controls.ProductLivraisonLibelle.Libelle
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Altazion.ECommerce.Controls.ProductLivraisonLibelle.ModeGuid*
+  commentId: Overload:Altazion.ECommerce.Controls.ProductLivraisonLibelle.ModeGuid
+  name: ModeGuid
+  nameWithType: ProductLivraisonLibelle.ModeGuid
+  fullName: Altazion.ECommerce.Controls.ProductLivraisonLibelle.ModeGuid
+- uid: Guid
+  isExternal: true
+  name: Guid
+  nameWithType: Guid
+  fullName: Guid
+- uid: Altazion.ECommerce.Controls.ProductLivraisonLibelle.Disabled*
+  commentId: Overload:Altazion.ECommerce.Controls.ProductLivraisonLibelle.Disabled
+  name: Disabled
+  nameWithType: ProductLivraisonLibelle.Disabled
+  fullName: Altazion.ECommerce.Controls.ProductLivraisonLibelle.Disabled
+- uid: System.Boolean
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

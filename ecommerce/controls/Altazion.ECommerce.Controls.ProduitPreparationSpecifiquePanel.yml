@@ -1,0 +1,48 @@
+### YamlMime:ManagedReference
+items:
+- uid: Altazion.ECommerce.Controls.ProduitPreparationSpecifiquePanel
+  commentId: T:Altazion.ECommerce.Controls.ProduitPreparationSpecifiquePanel
+  id: ProduitPreparationSpecifiquePanel
+  parent: Altazion.ECommerce.Controls
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: ProduitPreparationSpecifiquePanel
+  nameWithType: ProduitPreparationSpecifiquePanel
+  fullName: Altazion.ECommerce.Controls.ProduitPreparationSpecifiquePanel
+  type: Class
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/ProductLabels.cs
+    id: ProduitPreparationSpecifiquePanel
+    path: ProductLabels.cs
+    startLine: 271
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: 'public class ProduitPreparationSpecifiquePanel : Panel'
+    content.vb: >-
+      Public Class ProduitPreparationSpecifiquePanel
+          Inherits Panel
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+references:
+- uid: Altazion.ECommerce.Controls
+  commentId: N:Altazion.ECommerce.Controls
+  name: Altazion.ECommerce.Controls
+  nameWithType: Altazion.ECommerce.Controls
+  fullName: Altazion.ECommerce.Controls
+- uid: System.Object
+  commentId: '!:System.Object'
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object

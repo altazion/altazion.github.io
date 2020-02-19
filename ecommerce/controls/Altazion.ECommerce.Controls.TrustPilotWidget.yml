@@ -1,0 +1,223 @@
+### YamlMime:ManagedReference
+items:
+- uid: Altazion.ECommerce.Controls.TrustPilotWidget
+  commentId: T:Altazion.ECommerce.Controls.TrustPilotWidget
+  id: TrustPilotWidget
+  parent: Altazion.ECommerce.Controls
+  children:
+  - Altazion.ECommerce.Controls.TrustPilotWidget.#ctor
+  - Altazion.ECommerce.Controls.TrustPilotWidget.TemplateId
+  - Altazion.ECommerce.Controls.TrustPilotWidget.Theme
+  langs:
+  - csharp
+  - vb
+  name: TrustPilotWidget
+  nameWithType: TrustPilotWidget
+  fullName: Altazion.ECommerce.Controls.TrustPilotWidget
+  type: Class
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/TrustPilotControls.cs
+    id: TrustPilotWidget
+    path: TrustPilotControls.cs
+    startLine: 110
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  summary: "\nControle affichant un widget standard TrustPilot\n"
+  example: []
+  syntax:
+    content: 'public class TrustPilotWidget : TrustPilotBaseControl, IEquihiraBindable'
+    content.vb: >-
+      Public Class TrustPilotWidget
+          Inherits TrustPilotBaseControl
+          Implements IEquihiraBindable
+  inheritance:
+  - System.Object
+  - Altazion.ECommerce.Controls.TrustPilotBaseControl
+  implements:
+  - CPointSoftware.ECommerce.Tools.IEquihiraBindable
+  inheritedMembers:
+  - Altazion.ECommerce.Controls.TrustPilotBaseControl.ArticleReference
+  - Altazion.ECommerce.Controls.TrustPilotBaseControl.ArticleLibelle
+  - Altazion.ECommerce.Controls.TrustPilotBaseControl.ArticleGuid
+  - Altazion.ECommerce.Controls.TrustPilotBaseControl.BusinessUnitId
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Altazion.ECommerce.Controls.TrustPilotWidget.#ctor
+  commentId: M:Altazion.ECommerce.Controls.TrustPilotWidget.#ctor
+  id: '#ctor'
+  parent: Altazion.ECommerce.Controls.TrustPilotWidget
+  langs:
+  - csharp
+  - vb
+  name: TrustPilotWidget()
+  nameWithType: TrustPilotWidget.TrustPilotWidget()
+  fullName: Altazion.ECommerce.Controls.TrustPilotWidget.TrustPilotWidget()
+  type: Constructor
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/TrustPilotControls.cs
+    id: .ctor
+    path: TrustPilotControls.cs
+    startLine: 117
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  summary: "\nInitialise une nouvelle instance, en utilisant\nle widget standard d&apos;id &quot;57177697fdb1180308e3815f&quot;\net le thème &quot;light&quot;\n"
+  example: []
+  syntax:
+    content: public TrustPilotWidget()
+    content.vb: Public Sub New
+  overload: Altazion.ECommerce.Controls.TrustPilotWidget.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Altazion.ECommerce.Controls.TrustPilotWidget.TemplateId
+  commentId: P:Altazion.ECommerce.Controls.TrustPilotWidget.TemplateId
+  id: TemplateId
+  parent: Altazion.ECommerce.Controls.TrustPilotWidget
+  langs:
+  - csharp
+  - vb
+  name: TemplateId
+  nameWithType: TrustPilotWidget.TemplateId
+  fullName: Altazion.ECommerce.Controls.TrustPilotWidget.TemplateId
+  type: Property
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/TrustPilotControls.cs
+    id: TemplateId
+    path: TrustPilotControls.cs
+    startLine: 126
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  summary: "\nObtient ou définit le template standard à afficher\n"
+  example: []
+  syntax:
+    content: public string TemplateId { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property TemplateId As String
+  overload: Altazion.ECommerce.Controls.TrustPilotWidget.TemplateId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Altazion.ECommerce.Controls.TrustPilotWidget.Theme
+  commentId: P:Altazion.ECommerce.Controls.TrustPilotWidget.Theme
+  id: Theme
+  parent: Altazion.ECommerce.Controls.TrustPilotWidget
+  langs:
+  - csharp
+  - vb
+  name: Theme
+  nameWithType: TrustPilotWidget.Theme
+  fullName: Altazion.ECommerce.Controls.TrustPilotWidget.Theme
+  type: Property
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/TrustPilotControls.cs
+    id: Theme
+    path: TrustPilotControls.cs
+    startLine: 131
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  summary: "\nObtient ou définit le thème d&apos;affichage\n"
+  example: []
+  syntax:
+    content: public string Theme { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Theme As String
+  overload: Altazion.ECommerce.Controls.TrustPilotWidget.Theme*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: Altazion.ECommerce.Controls
+  commentId: N:Altazion.ECommerce.Controls
+  name: Altazion.ECommerce.Controls
+  nameWithType: Altazion.ECommerce.Controls
+  fullName: Altazion.ECommerce.Controls
+- uid: System.Object
+  commentId: '!:System.Object'
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Altazion.ECommerce.Controls.TrustPilotBaseControl
+  commentId: T:Altazion.ECommerce.Controls.TrustPilotBaseControl
+  parent: Altazion.ECommerce.Controls
+  name: TrustPilotBaseControl
+  nameWithType: TrustPilotBaseControl
+  fullName: Altazion.ECommerce.Controls.TrustPilotBaseControl
+- uid: CPointSoftware.ECommerce.Tools.IEquihiraBindable
+  commentId: T:CPointSoftware.ECommerce.Tools.IEquihiraBindable
+  parent: CPointSoftware.ECommerce.Tools
+  name: IEquihiraBindable
+  nameWithType: IEquihiraBindable
+  fullName: CPointSoftware.ECommerce.Tools.IEquihiraBindable
+- uid: Altazion.ECommerce.Controls.TrustPilotBaseControl.ArticleReference
+  commentId: P:Altazion.ECommerce.Controls.TrustPilotBaseControl.ArticleReference
+  parent: Altazion.ECommerce.Controls.TrustPilotBaseControl
+  name: ArticleReference
+  nameWithType: TrustPilotBaseControl.ArticleReference
+  fullName: Altazion.ECommerce.Controls.TrustPilotBaseControl.ArticleReference
+- uid: Altazion.ECommerce.Controls.TrustPilotBaseControl.ArticleLibelle
+  commentId: P:Altazion.ECommerce.Controls.TrustPilotBaseControl.ArticleLibelle
+  parent: Altazion.ECommerce.Controls.TrustPilotBaseControl
+  name: ArticleLibelle
+  nameWithType: TrustPilotBaseControl.ArticleLibelle
+  fullName: Altazion.ECommerce.Controls.TrustPilotBaseControl.ArticleLibelle
+- uid: Altazion.ECommerce.Controls.TrustPilotBaseControl.ArticleGuid
+  commentId: P:Altazion.ECommerce.Controls.TrustPilotBaseControl.ArticleGuid
+  parent: Altazion.ECommerce.Controls.TrustPilotBaseControl
+  name: ArticleGuid
+  nameWithType: TrustPilotBaseControl.ArticleGuid
+  fullName: Altazion.ECommerce.Controls.TrustPilotBaseControl.ArticleGuid
+- uid: Altazion.ECommerce.Controls.TrustPilotBaseControl.BusinessUnitId
+  commentId: P:Altazion.ECommerce.Controls.TrustPilotBaseControl.BusinessUnitId
+  parent: Altazion.ECommerce.Controls.TrustPilotBaseControl
+  name: BusinessUnitId
+  nameWithType: TrustPilotBaseControl.BusinessUnitId
+  fullName: Altazion.ECommerce.Controls.TrustPilotBaseControl.BusinessUnitId
+- uid: CPointSoftware.ECommerce.Tools
+  commentId: N:CPointSoftware.ECommerce.Tools
+  name: CPointSoftware.ECommerce.Tools
+  nameWithType: CPointSoftware.ECommerce.Tools
+  fullName: CPointSoftware.ECommerce.Tools
+- uid: Altazion.ECommerce.Controls.TrustPilotWidget.#ctor*
+  commentId: Overload:Altazion.ECommerce.Controls.TrustPilotWidget.#ctor
+  name: TrustPilotWidget
+  nameWithType: TrustPilotWidget.TrustPilotWidget
+  fullName: Altazion.ECommerce.Controls.TrustPilotWidget.TrustPilotWidget
+- uid: Altazion.ECommerce.Controls.TrustPilotWidget.TemplateId*
+  commentId: Overload:Altazion.ECommerce.Controls.TrustPilotWidget.TemplateId
+  name: TemplateId
+  nameWithType: TrustPilotWidget.TemplateId
+  fullName: Altazion.ECommerce.Controls.TrustPilotWidget.TemplateId
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Altazion.ECommerce.Controls.TrustPilotWidget.Theme*
+  commentId: Overload:Altazion.ECommerce.Controls.TrustPilotWidget.Theme
+  name: Theme
+  nameWithType: TrustPilotWidget.Theme
+  fullName: Altazion.ECommerce.Controls.TrustPilotWidget.Theme

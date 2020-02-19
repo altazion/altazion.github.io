@@ -1,0 +1,181 @@
+### YamlMime:ManagedReference
+items:
+- uid: Altazion.ECommerce.Controls.ProduitMailToLink
+  commentId: T:Altazion.ECommerce.Controls.ProduitMailToLink
+  id: ProduitMailToLink
+  parent: Altazion.ECommerce.Controls
+  children:
+  - Altazion.ECommerce.Controls.ProduitMailToLink.#ctor
+  - Altazion.ECommerce.Controls.ProduitMailToLink.Content
+  - Altazion.ECommerce.Controls.ProduitMailToLink.Subject
+  langs:
+  - csharp
+  - vb
+  name: ProduitMailToLink
+  nameWithType: ProduitMailToLink
+  fullName: Altazion.ECommerce.Controls.ProduitMailToLink
+  type: Class
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/ProductLinks.cs
+    id: ProduitMailToLink
+    path: ProductLinks.cs
+    startLine: 166
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  summary: "\nA utiliser dans un contrôle bindé sur un produit : affiche un lien\nmailto avec l&apos;url du produit\n"
+  example: []
+  syntax:
+    content: 'public class ProduitMailToLink : HyperLink, IEquihiraBindable'
+    content.vb: >-
+      Public Class ProduitMailToLink
+          Inherits HyperLink
+          Implements IEquihiraBindable
+  inheritance:
+  - System.Object
+  implements:
+  - CPointSoftware.ECommerce.Tools.IEquihiraBindable
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Altazion.ECommerce.Controls.ProduitMailToLink.Content
+  commentId: P:Altazion.ECommerce.Controls.ProduitMailToLink.Content
+  id: Content
+  parent: Altazion.ECommerce.Controls.ProduitMailToLink
+  langs:
+  - csharp
+  - vb
+  name: Content
+  nameWithType: ProduitMailToLink.Content
+  fullName: Altazion.ECommerce.Controls.ProduitMailToLink.Content
+  type: Property
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/ProductLinks.cs
+    id: Content
+    path: ProductLinks.cs
+    startLine: 179
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: public string Content { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Content As String
+  overload: Altazion.ECommerce.Controls.ProduitMailToLink.Content*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Altazion.ECommerce.Controls.ProduitMailToLink.Subject
+  commentId: P:Altazion.ECommerce.Controls.ProduitMailToLink.Subject
+  id: Subject
+  parent: Altazion.ECommerce.Controls.ProduitMailToLink
+  langs:
+  - csharp
+  - vb
+  name: Subject
+  nameWithType: ProduitMailToLink.Subject
+  fullName: Altazion.ECommerce.Controls.ProduitMailToLink.Subject
+  type: Property
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/ProductLinks.cs
+    id: Subject
+    path: ProductLinks.cs
+    startLine: 180
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: public string Subject { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Subject As String
+  overload: Altazion.ECommerce.Controls.ProduitMailToLink.Subject*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Altazion.ECommerce.Controls.ProduitMailToLink.#ctor
+  commentId: M:Altazion.ECommerce.Controls.ProduitMailToLink.#ctor
+  id: '#ctor'
+  parent: Altazion.ECommerce.Controls.ProduitMailToLink
+  langs:
+  - csharp
+  - vb
+  name: ProduitMailToLink()
+  nameWithType: ProduitMailToLink.ProduitMailToLink()
+  fullName: Altazion.ECommerce.Controls.ProduitMailToLink.ProduitMailToLink()
+  type: Constructor
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/ProductLinks.cs
+    id: .ctor
+    path: ProductLinks.cs
+    startLine: 182
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: public ProduitMailToLink()
+    content.vb: Public Sub New
+  overload: Altazion.ECommerce.Controls.ProduitMailToLink.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Altazion.ECommerce.Controls
+  commentId: N:Altazion.ECommerce.Controls
+  name: Altazion.ECommerce.Controls
+  nameWithType: Altazion.ECommerce.Controls
+  fullName: Altazion.ECommerce.Controls
+- uid: System.Object
+  commentId: '!:System.Object'
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: CPointSoftware.ECommerce.Tools.IEquihiraBindable
+  commentId: T:CPointSoftware.ECommerce.Tools.IEquihiraBindable
+  parent: CPointSoftware.ECommerce.Tools
+  name: IEquihiraBindable
+  nameWithType: IEquihiraBindable
+  fullName: CPointSoftware.ECommerce.Tools.IEquihiraBindable
+- uid: CPointSoftware.ECommerce.Tools
+  commentId: N:CPointSoftware.ECommerce.Tools
+  name: CPointSoftware.ECommerce.Tools
+  nameWithType: CPointSoftware.ECommerce.Tools
+  fullName: CPointSoftware.ECommerce.Tools
+- uid: Altazion.ECommerce.Controls.ProduitMailToLink.Content*
+  commentId: Overload:Altazion.ECommerce.Controls.ProduitMailToLink.Content
+  name: Content
+  nameWithType: ProduitMailToLink.Content
+  fullName: Altazion.ECommerce.Controls.ProduitMailToLink.Content
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Altazion.ECommerce.Controls.ProduitMailToLink.Subject*
+  commentId: Overload:Altazion.ECommerce.Controls.ProduitMailToLink.Subject
+  name: Subject
+  nameWithType: ProduitMailToLink.Subject
+  fullName: Altazion.ECommerce.Controls.ProduitMailToLink.Subject
+- uid: Altazion.ECommerce.Controls.ProduitMailToLink.#ctor*
+  commentId: Overload:Altazion.ECommerce.Controls.ProduitMailToLink.#ctor
+  name: ProduitMailToLink
+  nameWithType: ProduitMailToLink.ProduitMailToLink
+  fullName: Altazion.ECommerce.Controls.ProduitMailToLink.ProduitMailToLink

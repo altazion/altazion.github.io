@@ -1,0 +1,147 @@
+### YamlMime:ManagedReference
+items:
+- uid: Altazion.ECommerce.Controls.ProduitEan13
+  commentId: T:Altazion.ECommerce.Controls.ProduitEan13
+  id: ProduitEan13
+  parent: Altazion.ECommerce.Controls
+  children:
+  - Altazion.ECommerce.Controls.ProduitEan13.#ctor
+  - Altazion.ECommerce.Controls.ProduitEan13.Format
+  langs:
+  - csharp
+  - vb
+  name: ProduitEan13
+  nameWithType: ProduitEan13
+  fullName: Altazion.ECommerce.Controls.ProduitEan13
+  type: Class
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/ProductLabels.cs
+    id: ProduitEan13
+    path: ProductLabels.cs
+    startLine: 169
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  summary: "\nA utiliser dans un contrôle bindé sur un produit : affiche un span\navec le code EAN13 principal du produit\n"
+  remarks: "\n<p>Le controle s&apos;affiche sous la forme d&apos;un span: \n<pre><code>&lt;span>[La référence EAN13]&lt;span></code></pre></p>\n<p>Si vous avez activé RDFa, le span sera modifié\npour ajouter une attribut itemprop=&quot;gtin13&quot;.</p>"
+  example: []
+  syntax:
+    content: 'public class ProduitEan13 : Label, IEquihiraBindable'
+    content.vb: >-
+      Public Class ProduitEan13
+          Inherits Label
+          Implements IEquihiraBindable
+  inheritance:
+  - System.Object
+  implements:
+  - CPointSoftware.ECommerce.Tools.IEquihiraBindable
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Altazion.ECommerce.Controls.ProduitEan13.#ctor
+  commentId: M:Altazion.ECommerce.Controls.ProduitEan13.#ctor
+  id: '#ctor'
+  parent: Altazion.ECommerce.Controls.ProduitEan13
+  langs:
+  - csharp
+  - vb
+  name: ProduitEan13()
+  nameWithType: ProduitEan13.ProduitEan13()
+  fullName: Altazion.ECommerce.Controls.ProduitEan13.ProduitEan13()
+  type: Constructor
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/ProductLabels.cs
+    id: .ctor
+    path: ProductLabels.cs
+    startLine: 177
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  summary: "\nConstructeur par défaut\n"
+  example: []
+  syntax:
+    content: public ProduitEan13()
+    content.vb: Public Sub New
+  overload: Altazion.ECommerce.Controls.ProduitEan13.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Altazion.ECommerce.Controls.ProduitEan13.Format
+  commentId: P:Altazion.ECommerce.Controls.ProduitEan13.Format
+  id: Format
+  parent: Altazion.ECommerce.Controls.ProduitEan13
+  langs:
+  - csharp
+  - vb
+  name: Format
+  nameWithType: ProduitEan13.Format
+  fullName: Altazion.ECommerce.Controls.ProduitEan13.Format
+  type: Property
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/ProductLabels.cs
+    id: Format
+    path: ProductLabels.cs
+    startLine: 185
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  summary: "\nFormat d&apos;affichage de l&apos;EAN, sous la forme {0}\n"
+  example: []
+  syntax:
+    content: public string Format { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Format As String
+  overload: Altazion.ECommerce.Controls.ProduitEan13.Format*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: Altazion.ECommerce.Controls
+  commentId: N:Altazion.ECommerce.Controls
+  name: Altazion.ECommerce.Controls
+  nameWithType: Altazion.ECommerce.Controls
+  fullName: Altazion.ECommerce.Controls
+- uid: System.Object
+  commentId: '!:System.Object'
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: CPointSoftware.ECommerce.Tools.IEquihiraBindable
+  commentId: T:CPointSoftware.ECommerce.Tools.IEquihiraBindable
+  parent: CPointSoftware.ECommerce.Tools
+  name: IEquihiraBindable
+  nameWithType: IEquihiraBindable
+  fullName: CPointSoftware.ECommerce.Tools.IEquihiraBindable
+- uid: CPointSoftware.ECommerce.Tools
+  commentId: N:CPointSoftware.ECommerce.Tools
+  name: CPointSoftware.ECommerce.Tools
+  nameWithType: CPointSoftware.ECommerce.Tools
+  fullName: CPointSoftware.ECommerce.Tools
+- uid: Altazion.ECommerce.Controls.ProduitEan13.#ctor*
+  commentId: Overload:Altazion.ECommerce.Controls.ProduitEan13.#ctor
+  name: ProduitEan13
+  nameWithType: ProduitEan13.ProduitEan13
+  fullName: Altazion.ECommerce.Controls.ProduitEan13.ProduitEan13
+- uid: Altazion.ECommerce.Controls.ProduitEan13.Format*
+  commentId: Overload:Altazion.ECommerce.Controls.ProduitEan13.Format
+  name: Format
+  nameWithType: ProduitEan13.Format
+  fullName: Altazion.ECommerce.Controls.ProduitEan13.Format
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

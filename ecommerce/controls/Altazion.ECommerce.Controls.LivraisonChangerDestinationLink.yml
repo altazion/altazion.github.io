@@ -1,0 +1,128 @@
+### YamlMime:ManagedReference
+items:
+- uid: Altazion.ECommerce.Controls.LivraisonChangerDestinationLink
+  commentId: T:Altazion.ECommerce.Controls.LivraisonChangerDestinationLink
+  id: LivraisonChangerDestinationLink
+  parent: Altazion.ECommerce.Controls
+  children:
+  - Altazion.ECommerce.Controls.LivraisonChangerDestinationLink.#ctor
+  - Altazion.ECommerce.Controls.LivraisonChangerDestinationLink.Text
+  langs:
+  - csharp
+  - vb
+  name: LivraisonChangerDestinationLink
+  nameWithType: LivraisonChangerDestinationLink
+  fullName: Altazion.ECommerce.Controls.LivraisonChangerDestinationLink
+  type: Class
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/LivraisonDestination.cs
+    id: LivraisonChangerDestinationLink
+    path: LivraisonDestination.cs
+    startLine: 59
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  summary: "\n[obsolete]\n"
+  example: []
+  syntax:
+    content: 'public class LivraisonChangerDestinationLink : WebControl'
+    content.vb: >-
+      Public Class LivraisonChangerDestinationLink
+          Inherits WebControl
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Altazion.ECommerce.Controls.LivraisonChangerDestinationLink.#ctor
+  commentId: M:Altazion.ECommerce.Controls.LivraisonChangerDestinationLink.#ctor
+  id: '#ctor'
+  parent: Altazion.ECommerce.Controls.LivraisonChangerDestinationLink
+  langs:
+  - csharp
+  - vb
+  name: LivraisonChangerDestinationLink()
+  nameWithType: LivraisonChangerDestinationLink.LivraisonChangerDestinationLink()
+  fullName: Altazion.ECommerce.Controls.LivraisonChangerDestinationLink.LivraisonChangerDestinationLink()
+  type: Constructor
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/LivraisonDestination.cs
+    id: .ctor
+    path: LivraisonDestination.cs
+    startLine: 61
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: public LivraisonChangerDestinationLink()
+    content.vb: Public Sub New
+  overload: Altazion.ECommerce.Controls.LivraisonChangerDestinationLink.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Altazion.ECommerce.Controls.LivraisonChangerDestinationLink.Text
+  commentId: P:Altazion.ECommerce.Controls.LivraisonChangerDestinationLink.Text
+  id: Text
+  parent: Altazion.ECommerce.Controls.LivraisonChangerDestinationLink
+  langs:
+  - csharp
+  - vb
+  name: Text
+  nameWithType: LivraisonChangerDestinationLink.Text
+  fullName: Altazion.ECommerce.Controls.LivraisonChangerDestinationLink.Text
+  type: Property
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/LivraisonDestination.cs
+    id: Text
+    path: LivraisonDestination.cs
+    startLine: 67
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: public string Text { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Text As String
+  overload: Altazion.ECommerce.Controls.LivraisonChangerDestinationLink.Text*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: Altazion.ECommerce.Controls
+  commentId: N:Altazion.ECommerce.Controls
+  name: Altazion.ECommerce.Controls
+  nameWithType: Altazion.ECommerce.Controls
+  fullName: Altazion.ECommerce.Controls
+- uid: System.Object
+  commentId: '!:System.Object'
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Altazion.ECommerce.Controls.LivraisonChangerDestinationLink.#ctor*
+  commentId: Overload:Altazion.ECommerce.Controls.LivraisonChangerDestinationLink.#ctor
+  name: LivraisonChangerDestinationLink
+  nameWithType: LivraisonChangerDestinationLink.LivraisonChangerDestinationLink
+  fullName: Altazion.ECommerce.Controls.LivraisonChangerDestinationLink.LivraisonChangerDestinationLink
+- uid: Altazion.ECommerce.Controls.LivraisonChangerDestinationLink.Text*
+  commentId: Overload:Altazion.ECommerce.Controls.LivraisonChangerDestinationLink.Text
+  name: Text
+  nameWithType: LivraisonChangerDestinationLink.Text
+  fullName: Altazion.ECommerce.Controls.LivraisonChangerDestinationLink.Text
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

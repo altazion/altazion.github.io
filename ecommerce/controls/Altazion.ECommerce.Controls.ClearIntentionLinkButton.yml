@@ -1,0 +1,97 @@
+### YamlMime:ManagedReference
+items:
+- uid: Altazion.ECommerce.Controls.ClearIntentionLinkButton
+  commentId: T:Altazion.ECommerce.Controls.ClearIntentionLinkButton
+  id: ClearIntentionLinkButton
+  parent: Altazion.ECommerce.Controls
+  children:
+  - Altazion.ECommerce.Controls.ClearIntentionLinkButton.RedirectTo
+  langs:
+  - csharp
+  - vb
+  name: ClearIntentionLinkButton
+  nameWithType: ClearIntentionLinkButton
+  fullName: Altazion.ECommerce.Controls.ClearIntentionLinkButton
+  type: Class
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/ClearIntentionLinkButton.cs
+    id: ClearIntentionLinkButton
+    path: ClearIntentionLinkButton.cs
+    startLine: 25
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  summary: "\nContrôle de type &quot;lien&quot; permettant de retirer toutes\nles intentions de règlements associés au panier\n"
+  remarks: "\n<p>Destiné à permettre de réactiver un panier qui aurait été bloqué\nlors de la création d&apos;un règlement (par exemple lors de l&apos;envoi\nvers une plateforme de paiement externe)\n</p>\n<p>Utilisation : </p>\n<p><pre><code>    &lt;ecom:ClearIntentionLinkButton runat=&quot;server&quot; \n        CssClass=&quot;btn retour&quot; \n        RedirectTo=&quot;~/exec/panier.aspx&quot;> Retour au panier &lt;/ecom:ClearIntentionLinkButton></code></pre></p>\n<p>Ce contrôle est affiché sous la forme d&apos;un lien \n<pre><code>&lt;a href=&apos;javascript....&apos;>[votre contenu]&lt;/a></code></pre></p>\n"
+  example: []
+  syntax:
+    content: 'public class ClearIntentionLinkButton : LinkButton'
+    content.vb: >-
+      Public Class ClearIntentionLinkButton
+          Inherits LinkButton
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Altazion.ECommerce.Controls.ClearIntentionLinkButton.RedirectTo
+  commentId: P:Altazion.ECommerce.Controls.ClearIntentionLinkButton.RedirectTo
+  id: RedirectTo
+  parent: Altazion.ECommerce.Controls.ClearIntentionLinkButton
+  langs:
+  - csharp
+  - vb
+  name: RedirectTo
+  nameWithType: ClearIntentionLinkButton.RedirectTo
+  fullName: Altazion.ECommerce.Controls.ClearIntentionLinkButton.RedirectTo
+  type: Property
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/ClearIntentionLinkButton.cs
+    id: RedirectTo
+    path: ClearIntentionLinkButton.cs
+    startLine: 31
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  summary: "\nObtient ou définit l&apos;url vers laquelle rediriger\nl&apos;utlisateur après retrait des intentions de règlement\n"
+  example: []
+  syntax:
+    content: public string RedirectTo { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property RedirectTo As String
+  overload: Altazion.ECommerce.Controls.ClearIntentionLinkButton.RedirectTo*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: Altazion.ECommerce.Controls
+  commentId: N:Altazion.ECommerce.Controls
+  name: Altazion.ECommerce.Controls
+  nameWithType: Altazion.ECommerce.Controls
+  fullName: Altazion.ECommerce.Controls
+- uid: System.Object
+  commentId: '!:System.Object'
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Altazion.ECommerce.Controls.ClearIntentionLinkButton.RedirectTo*
+  commentId: Overload:Altazion.ECommerce.Controls.ClearIntentionLinkButton.RedirectTo
+  name: RedirectTo
+  nameWithType: ClearIntentionLinkButton.RedirectTo
+  fullName: Altazion.ECommerce.Controls.ClearIntentionLinkButton.RedirectTo
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

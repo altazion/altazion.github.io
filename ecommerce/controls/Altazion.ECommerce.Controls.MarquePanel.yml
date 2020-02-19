@@ -1,0 +1,88 @@
+### YamlMime:ManagedReference
+items:
+- uid: Altazion.ECommerce.Controls.MarquePanel
+  commentId: T:Altazion.ECommerce.Controls.MarquePanel
+  id: MarquePanel
+  parent: Altazion.ECommerce.Controls
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: MarquePanel
+  nameWithType: MarquePanel
+  fullName: Altazion.ECommerce.Controls.MarquePanel
+  type: Class
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/ControlesMarques.cs
+    id: MarquePanel
+    path: ControlesMarques.cs
+    startLine: 273
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  summary: "\nAffiche un div si le conteneur englobant ce controle\naffiche une marque, un produit ayant une marque ou un résultat\nde recherche spécifique à une marque.\n"
+  remarks: >-
+    Vous pouvez utiliser ce contrôle dans les
+
+    éléments qui affichent une marque :
+
+    <ul><li>Un <xref href="CPointSoftware.ECommerce.Tools.ProductPanel" data-throw-if-not-resolved="false"></xref> :
+
+    dans ce cas, la marque de l&apos;article sera prise en
+
+    compte</li><li>Une descente produit correspondant à
+
+    une marque, pour en faire, par exemple, un entête de page
+
+    </li><li>Un contrôle dont la source de données
+
+    serait un <xref href="CPointSoftware.ECommerce.Tools.MarquesSource" data-throw-if-not-resolved="false"></xref>
+
+    </li></ul>
+  example: []
+  syntax:
+    content: 'public class MarquePanel : Panel, IEquihiraBindable'
+    content.vb: >-
+      Public Class MarquePanel
+          Inherits Panel
+          Implements IEquihiraBindable
+  inheritance:
+  - System.Object
+  implements:
+  - CPointSoftware.ECommerce.Tools.IEquihiraBindable
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+references:
+- uid: CPointSoftware.ECommerce.Tools.ProductPanel
+  commentId: T:CPointSoftware.ECommerce.Tools.ProductPanel
+  isExternal: true
+- uid: CPointSoftware.ECommerce.Tools.MarquesSource
+  commentId: T:CPointSoftware.ECommerce.Tools.MarquesSource
+  isExternal: true
+- uid: Altazion.ECommerce.Controls
+  commentId: N:Altazion.ECommerce.Controls
+  name: Altazion.ECommerce.Controls
+  nameWithType: Altazion.ECommerce.Controls
+  fullName: Altazion.ECommerce.Controls
+- uid: System.Object
+  commentId: '!:System.Object'
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: CPointSoftware.ECommerce.Tools.IEquihiraBindable
+  commentId: T:CPointSoftware.ECommerce.Tools.IEquihiraBindable
+  parent: CPointSoftware.ECommerce.Tools
+  name: IEquihiraBindable
+  nameWithType: IEquihiraBindable
+  fullName: CPointSoftware.ECommerce.Tools.IEquihiraBindable
+- uid: CPointSoftware.ECommerce.Tools
+  commentId: N:CPointSoftware.ECommerce.Tools
+  name: CPointSoftware.ECommerce.Tools
+  nameWithType: CPointSoftware.ECommerce.Tools
+  fullName: CPointSoftware.ECommerce.Tools

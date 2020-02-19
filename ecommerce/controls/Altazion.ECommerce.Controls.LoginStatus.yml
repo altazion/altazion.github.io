@@ -1,0 +1,97 @@
+### YamlMime:ManagedReference
+items:
+- uid: Altazion.ECommerce.Controls.LoginStatus
+  commentId: T:Altazion.ECommerce.Controls.LoginStatus
+  id: LoginStatus
+  parent: Altazion.ECommerce.Controls
+  children:
+  - Altazion.ECommerce.Controls.LoginStatus.OnLoggedOut(EventArgs)
+  langs:
+  - csharp
+  - vb
+  name: LoginStatus
+  nameWithType: LoginStatus
+  fullName: Altazion.ECommerce.Controls.LoginStatus
+  type: Class
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/LoginStatus.cs
+    id: LoginStatus
+    path: LoginStatus.cs
+    startLine: 13
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  summary: "\nClasse de gestion du login à utiliser en lieu et place\nde celui d&apos;asp.net\n"
+  example: []
+  syntax:
+    content: 'public class LoginStatus : Web.UI.WebControls.LoginStatus'
+    content.vb: >-
+      Public Class LoginStatus
+          Inherits Web.UI.WebControls.LoginStatus
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Altazion.ECommerce.Controls.LoginStatus.OnLoggedOut(EventArgs)
+  commentId: M:Altazion.ECommerce.Controls.LoginStatus.OnLoggedOut(EventArgs)
+  id: OnLoggedOut(EventArgs)
+  parent: Altazion.ECommerce.Controls.LoginStatus
+  langs:
+  - csharp
+  - vb
+  name: OnLoggedOut(EventArgs)
+  nameWithType: LoginStatus.OnLoggedOut(EventArgs)
+  fullName: Altazion.ECommerce.Controls.LoginStatus.OnLoggedOut(EventArgs)
+  type: Method
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/LoginStatus.cs
+    id: OnLoggedOut
+    path: LoginStatus.cs
+    startLine: 20
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  summary: "\nEffectue le traitement spécifique de déconnexion\nde l&apos;utilisateur\n"
+  example: []
+  syntax:
+    content: protected override void OnLoggedOut(EventArgs e)
+    parameters:
+    - id: e
+      type: EventArgs
+      description: ''
+    content.vb: Protected Overrides Sub OnLoggedOut(e As EventArgs)
+  overload: Altazion.ECommerce.Controls.LoginStatus.OnLoggedOut*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+references:
+- uid: Altazion.ECommerce.Controls
+  commentId: N:Altazion.ECommerce.Controls
+  name: Altazion.ECommerce.Controls
+  nameWithType: Altazion.ECommerce.Controls
+  fullName: Altazion.ECommerce.Controls
+- uid: System.Object
+  commentId: '!:System.Object'
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Altazion.ECommerce.Controls.LoginStatus.OnLoggedOut*
+  commentId: Overload:Altazion.ECommerce.Controls.LoginStatus.OnLoggedOut
+  name: OnLoggedOut
+  nameWithType: LoginStatus.OnLoggedOut
+  fullName: Altazion.ECommerce.Controls.LoginStatus.OnLoggedOut
+- uid: EventArgs
+  isExternal: true
+  name: EventArgs
+  nameWithType: EventArgs
+  fullName: EventArgs

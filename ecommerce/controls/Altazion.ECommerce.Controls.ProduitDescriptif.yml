@@ -1,0 +1,196 @@
+### YamlMime:ManagedReference
+items:
+- uid: Altazion.ECommerce.Controls.ProduitDescriptif
+  commentId: T:Altazion.ECommerce.Controls.ProduitDescriptif
+  id: ProduitDescriptif
+  parent: Altazion.ECommerce.Controls
+  children:
+  - Altazion.ECommerce.Controls.ProduitDescriptif.Data
+  - Altazion.ECommerce.Controls.ProduitDescriptif.ForcerText
+  - Altazion.ECommerce.Controls.ProduitDescriptif.MaxLength
+  langs:
+  - csharp
+  - vb
+  name: ProduitDescriptif
+  nameWithType: ProduitDescriptif
+  fullName: Altazion.ECommerce.Controls.ProduitDescriptif
+  type: Class
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/ProductLabels.cs
+    id: ProduitDescriptif
+    path: ProductLabels.cs
+    startLine: 1716
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  summary: "\nA utiliser dans un contrôle bindé sur un produit : affiche \nle descriptif du produit tel quel\n"
+  example: []
+  syntax:
+    content: 'public class ProduitDescriptif : WebControl, IEquihiraBindable'
+    content.vb: >-
+      Public Class ProduitDescriptif
+          Inherits WebControl
+          Implements IEquihiraBindable
+  inheritance:
+  - System.Object
+  implements:
+  - CPointSoftware.ECommerce.Tools.IEquihiraBindable
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Altazion.ECommerce.Controls.ProduitDescriptif.Data
+  commentId: P:Altazion.ECommerce.Controls.ProduitDescriptif.Data
+  id: Data
+  parent: Altazion.ECommerce.Controls.ProduitDescriptif
+  langs:
+  - csharp
+  - vb
+  name: Data
+  nameWithType: ProduitDescriptif.Data
+  fullName: Altazion.ECommerce.Controls.ProduitDescriptif.Data
+  type: Property
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/ProductLabels.cs
+    id: Data
+    path: ProductLabels.cs
+    startLine: 1719
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: public String Data { get; set; }
+    parameters: []
+    return:
+      type: String
+    content.vb: Public Property Data As String
+  overload: Altazion.ECommerce.Controls.ProduitDescriptif.Data*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Altazion.ECommerce.Controls.ProduitDescriptif.ForcerText
+  commentId: P:Altazion.ECommerce.Controls.ProduitDescriptif.ForcerText
+  id: ForcerText
+  parent: Altazion.ECommerce.Controls.ProduitDescriptif
+  langs:
+  - csharp
+  - vb
+  name: ForcerText
+  nameWithType: ProduitDescriptif.ForcerText
+  fullName: Altazion.ECommerce.Controls.ProduitDescriptif.ForcerText
+  type: Property
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/ProductLabels.cs
+    id: ForcerText
+    path: ProductLabels.cs
+    startLine: 1739
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: public bool ForcerText { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property ForcerText As Boolean
+  overload: Altazion.ECommerce.Controls.ProduitDescriptif.ForcerText*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Altazion.ECommerce.Controls.ProduitDescriptif.MaxLength
+  commentId: P:Altazion.ECommerce.Controls.ProduitDescriptif.MaxLength
+  id: MaxLength
+  parent: Altazion.ECommerce.Controls.ProduitDescriptif
+  langs:
+  - csharp
+  - vb
+  name: MaxLength
+  nameWithType: ProduitDescriptif.MaxLength
+  fullName: Altazion.ECommerce.Controls.ProduitDescriptif.MaxLength
+  type: Property
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/ProductLabels.cs
+    id: MaxLength
+    path: ProductLabels.cs
+    startLine: 1744
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: public int MaxLength { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property MaxLength As Integer
+  overload: Altazion.ECommerce.Controls.ProduitDescriptif.MaxLength*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: Altazion.ECommerce.Controls
+  commentId: N:Altazion.ECommerce.Controls
+  name: Altazion.ECommerce.Controls
+  nameWithType: Altazion.ECommerce.Controls
+  fullName: Altazion.ECommerce.Controls
+- uid: System.Object
+  commentId: '!:System.Object'
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: CPointSoftware.ECommerce.Tools.IEquihiraBindable
+  commentId: T:CPointSoftware.ECommerce.Tools.IEquihiraBindable
+  parent: CPointSoftware.ECommerce.Tools
+  name: IEquihiraBindable
+  nameWithType: IEquihiraBindable
+  fullName: CPointSoftware.ECommerce.Tools.IEquihiraBindable
+- uid: CPointSoftware.ECommerce.Tools
+  commentId: N:CPointSoftware.ECommerce.Tools
+  name: CPointSoftware.ECommerce.Tools
+  nameWithType: CPointSoftware.ECommerce.Tools
+  fullName: CPointSoftware.ECommerce.Tools
+- uid: Altazion.ECommerce.Controls.ProduitDescriptif.Data*
+  commentId: Overload:Altazion.ECommerce.Controls.ProduitDescriptif.Data
+  name: Data
+  nameWithType: ProduitDescriptif.Data
+  fullName: Altazion.ECommerce.Controls.ProduitDescriptif.Data
+- uid: String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: String
+- uid: Altazion.ECommerce.Controls.ProduitDescriptif.ForcerText*
+  commentId: Overload:Altazion.ECommerce.Controls.ProduitDescriptif.ForcerText
+  name: ForcerText
+  nameWithType: ProduitDescriptif.ForcerText
+  fullName: Altazion.ECommerce.Controls.ProduitDescriptif.ForcerText
+- uid: System.Boolean
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Altazion.ECommerce.Controls.ProduitDescriptif.MaxLength*
+  commentId: Overload:Altazion.ECommerce.Controls.ProduitDescriptif.MaxLength
+  name: MaxLength
+  nameWithType: ProduitDescriptif.MaxLength
+  fullName: Altazion.ECommerce.Controls.ProduitDescriptif.MaxLength
+- uid: System.Int32
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

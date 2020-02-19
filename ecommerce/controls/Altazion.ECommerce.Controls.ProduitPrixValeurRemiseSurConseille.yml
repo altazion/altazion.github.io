@@ -1,0 +1,298 @@
+### YamlMime:ManagedReference
+items:
+- uid: Altazion.ECommerce.Controls.ProduitPrixValeurRemiseSurConseille
+  commentId: T:Altazion.ECommerce.Controls.ProduitPrixValeurRemiseSurConseille
+  id: ProduitPrixValeurRemiseSurConseille
+  parent: Altazion.ECommerce.Controls
+  children:
+  - Altazion.ECommerce.Controls.ProduitPrixValeurRemiseSurConseille.AfficheHT
+  - Altazion.ECommerce.Controls.ProduitPrixValeurRemiseSurConseille.FormatPourcentage
+  - Altazion.ECommerce.Controls.ProduitPrixValeurRemiseSurConseille.FormatPrix
+  - Altazion.ECommerce.Controls.ProduitPrixValeurRemiseSurConseille.PrixMaxiPourPourcentage
+  - Altazion.ECommerce.Controls.ProduitPrixValeurRemiseSurConseille.TypeAffichage
+  langs:
+  - csharp
+  - vb
+  name: ProduitPrixValeurRemiseSurConseille
+  nameWithType: ProduitPrixValeurRemiseSurConseille
+  fullName: Altazion.ECommerce.Controls.ProduitPrixValeurRemiseSurConseille
+  type: Class
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/ProductLabels.cs
+    id: ProduitPrixValeurRemiseSurConseille
+    path: ProductLabels.cs
+    startLine: 1560
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  summary: "\nA utiliser dans un contrôle bindé sur un produit : affiche un span\navec la différence entre le prix de vente et le prix conseillé\n"
+  example: []
+  syntax:
+    content: 'public class ProduitPrixValeurRemiseSurConseille : Label, IEquihiraBindable'
+    content.vb: >-
+      Public Class ProduitPrixValeurRemiseSurConseille
+          Inherits Label
+          Implements IEquihiraBindable
+  inheritance:
+  - System.Object
+  implements:
+  - CPointSoftware.ECommerce.Tools.IEquihiraBindable
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Altazion.ECommerce.Controls.ProduitPrixValeurRemiseSurConseille.FormatPrix
+  commentId: P:Altazion.ECommerce.Controls.ProduitPrixValeurRemiseSurConseille.FormatPrix
+  id: FormatPrix
+  parent: Altazion.ECommerce.Controls.ProduitPrixValeurRemiseSurConseille
+  langs:
+  - csharp
+  - vb
+  name: FormatPrix
+  nameWithType: ProduitPrixValeurRemiseSurConseille.FormatPrix
+  fullName: Altazion.ECommerce.Controls.ProduitPrixValeurRemiseSurConseille.FormatPrix
+  type: Property
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/ProductLabels.cs
+    id: FormatPrix
+    path: ProductLabels.cs
+    startLine: 1588
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  summary: "\nObtient ou définit le format d&apos;affichage du montant, sous la forme {0:0.00}\n"
+  remarks: 'Valeur par défaut : {0} € de réduction'
+  example: []
+  syntax:
+    content: public string FormatPrix { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property FormatPrix As String
+  overload: Altazion.ECommerce.Controls.ProduitPrixValeurRemiseSurConseille.FormatPrix*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Altazion.ECommerce.Controls.ProduitPrixValeurRemiseSurConseille.FormatPourcentage
+  commentId: P:Altazion.ECommerce.Controls.ProduitPrixValeurRemiseSurConseille.FormatPourcentage
+  id: FormatPourcentage
+  parent: Altazion.ECommerce.Controls.ProduitPrixValeurRemiseSurConseille
+  langs:
+  - csharp
+  - vb
+  name: FormatPourcentage
+  nameWithType: ProduitPrixValeurRemiseSurConseille.FormatPourcentage
+  fullName: Altazion.ECommerce.Controls.ProduitPrixValeurRemiseSurConseille.FormatPourcentage
+  type: Property
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/ProductLabels.cs
+    id: FormatPourcentage
+    path: ProductLabels.cs
+    startLine: 1601
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  summary: "\nObtient ou définit le format d&apos;affichage du pourcentage, sous la forme {0:0}\n"
+  remarks: 'Valeur par défaut : {0}% de réduction'
+  example: []
+  syntax:
+    content: public string FormatPourcentage { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property FormatPourcentage As String
+  overload: Altazion.ECommerce.Controls.ProduitPrixValeurRemiseSurConseille.FormatPourcentage*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Altazion.ECommerce.Controls.ProduitPrixValeurRemiseSurConseille.TypeAffichage
+  commentId: P:Altazion.ECommerce.Controls.ProduitPrixValeurRemiseSurConseille.TypeAffichage
+  id: TypeAffichage
+  parent: Altazion.ECommerce.Controls.ProduitPrixValeurRemiseSurConseille
+  langs:
+  - csharp
+  - vb
+  name: TypeAffichage
+  nameWithType: ProduitPrixValeurRemiseSurConseille.TypeAffichage
+  fullName: Altazion.ECommerce.Controls.ProduitPrixValeurRemiseSurConseille.TypeAffichage
+  type: Property
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/ProductLabels.cs
+    id: TypeAffichage
+    path: ProductLabels.cs
+    startLine: 1612
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  summary: "\nObtient ou définit le format d&apos;affichage de la promotion\n"
+  example: []
+  syntax:
+    content: public ProduitPrixValeurRemiseSurConseille.TypeAffichePromo TypeAffichage { get; set; }
+    parameters: []
+    return:
+      type: Altazion.ECommerce.Controls.ProduitPrixValeurRemiseSurConseille.TypeAffichePromo
+    content.vb: Public Property TypeAffichage As ProduitPrixValeurRemiseSurConseille.TypeAffichePromo
+  overload: Altazion.ECommerce.Controls.ProduitPrixValeurRemiseSurConseille.TypeAffichage*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Altazion.ECommerce.Controls.ProduitPrixValeurRemiseSurConseille.AfficheHT
+  commentId: P:Altazion.ECommerce.Controls.ProduitPrixValeurRemiseSurConseille.AfficheHT
+  id: AfficheHT
+  parent: Altazion.ECommerce.Controls.ProduitPrixValeurRemiseSurConseille
+  langs:
+  - csharp
+  - vb
+  name: AfficheHT
+  nameWithType: ProduitPrixValeurRemiseSurConseille.AfficheHT
+  fullName: Altazion.ECommerce.Controls.ProduitPrixValeurRemiseSurConseille.AfficheHT
+  type: Property
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/ProductLabels.cs
+    id: AfficheHT
+    path: ProductLabels.cs
+    startLine: 1624
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  summary: "\nObtient ou définit un booléen précisant si le montant affichés est HT\n"
+  example: []
+  syntax:
+    content: public bool AfficheHT { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property AfficheHT As Boolean
+  overload: Altazion.ECommerce.Controls.ProduitPrixValeurRemiseSurConseille.AfficheHT*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Altazion.ECommerce.Controls.ProduitPrixValeurRemiseSurConseille.PrixMaxiPourPourcentage
+  commentId: P:Altazion.ECommerce.Controls.ProduitPrixValeurRemiseSurConseille.PrixMaxiPourPourcentage
+  id: PrixMaxiPourPourcentage
+  parent: Altazion.ECommerce.Controls.ProduitPrixValeurRemiseSurConseille
+  langs:
+  - csharp
+  - vb
+  name: PrixMaxiPourPourcentage
+  nameWithType: ProduitPrixValeurRemiseSurConseille.PrixMaxiPourPourcentage
+  fullName: Altazion.ECommerce.Controls.ProduitPrixValeurRemiseSurConseille.PrixMaxiPourPourcentage
+  type: Property
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/ProductLabels.cs
+    id: PrixMaxiPourPourcentage
+    path: ProductLabels.cs
+    startLine: 1636
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  summary: "\nObtient ou définit le prix maximal pour un affichage en pourcentage\nlorsque <xref href=\"Altazion.ECommerce.Controls.ProduitPrixValeurRemiseSurConseille.TypeAffichage\" data-throw-if-not-resolved=\"false\"></xref> = <xref href=\"Altazion.ECommerce.Controls.ProduitPrixValeurRemiseSurConseille.TypeAffichePromo.EnPourcentageSiInferieurA\" data-throw-if-not-resolved=\"false\"></xref>\n"
+  example: []
+  syntax:
+    content: public decimal PrixMaxiPourPourcentage { get; set; }
+    parameters: []
+    return:
+      type: System.Decimal
+    content.vb: Public Property PrixMaxiPourPourcentage As Decimal
+  overload: Altazion.ECommerce.Controls.ProduitPrixValeurRemiseSurConseille.PrixMaxiPourPourcentage*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: Altazion.ECommerce.Controls
+  commentId: N:Altazion.ECommerce.Controls
+  name: Altazion.ECommerce.Controls
+  nameWithType: Altazion.ECommerce.Controls
+  fullName: Altazion.ECommerce.Controls
+- uid: System.Object
+  commentId: '!:System.Object'
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: CPointSoftware.ECommerce.Tools.IEquihiraBindable
+  commentId: T:CPointSoftware.ECommerce.Tools.IEquihiraBindable
+  parent: CPointSoftware.ECommerce.Tools
+  name: IEquihiraBindable
+  nameWithType: IEquihiraBindable
+  fullName: CPointSoftware.ECommerce.Tools.IEquihiraBindable
+- uid: CPointSoftware.ECommerce.Tools
+  commentId: N:CPointSoftware.ECommerce.Tools
+  name: CPointSoftware.ECommerce.Tools
+  nameWithType: CPointSoftware.ECommerce.Tools
+  fullName: CPointSoftware.ECommerce.Tools
+- uid: Altazion.ECommerce.Controls.ProduitPrixValeurRemiseSurConseille.FormatPrix*
+  commentId: Overload:Altazion.ECommerce.Controls.ProduitPrixValeurRemiseSurConseille.FormatPrix
+  name: FormatPrix
+  nameWithType: ProduitPrixValeurRemiseSurConseille.FormatPrix
+  fullName: Altazion.ECommerce.Controls.ProduitPrixValeurRemiseSurConseille.FormatPrix
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Altazion.ECommerce.Controls.ProduitPrixValeurRemiseSurConseille.FormatPourcentage*
+  commentId: Overload:Altazion.ECommerce.Controls.ProduitPrixValeurRemiseSurConseille.FormatPourcentage
+  name: FormatPourcentage
+  nameWithType: ProduitPrixValeurRemiseSurConseille.FormatPourcentage
+  fullName: Altazion.ECommerce.Controls.ProduitPrixValeurRemiseSurConseille.FormatPourcentage
+- uid: Altazion.ECommerce.Controls.ProduitPrixValeurRemiseSurConseille.TypeAffichage*
+  commentId: Overload:Altazion.ECommerce.Controls.ProduitPrixValeurRemiseSurConseille.TypeAffichage
+  name: TypeAffichage
+  nameWithType: ProduitPrixValeurRemiseSurConseille.TypeAffichage
+  fullName: Altazion.ECommerce.Controls.ProduitPrixValeurRemiseSurConseille.TypeAffichage
+- uid: Altazion.ECommerce.Controls.ProduitPrixValeurRemiseSurConseille.TypeAffichePromo
+  commentId: T:Altazion.ECommerce.Controls.ProduitPrixValeurRemiseSurConseille.TypeAffichePromo
+  parent: Altazion.ECommerce.Controls
+  name: ProduitPrixValeurRemiseSurConseille.TypeAffichePromo
+  nameWithType: ProduitPrixValeurRemiseSurConseille.TypeAffichePromo
+  fullName: Altazion.ECommerce.Controls.ProduitPrixValeurRemiseSurConseille.TypeAffichePromo
+- uid: Altazion.ECommerce.Controls.ProduitPrixValeurRemiseSurConseille.AfficheHT*
+  commentId: Overload:Altazion.ECommerce.Controls.ProduitPrixValeurRemiseSurConseille.AfficheHT
+  name: AfficheHT
+  nameWithType: ProduitPrixValeurRemiseSurConseille.AfficheHT
+  fullName: Altazion.ECommerce.Controls.ProduitPrixValeurRemiseSurConseille.AfficheHT
+- uid: System.Boolean
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Altazion.ECommerce.Controls.ProduitPrixValeurRemiseSurConseille.TypeAffichage
+  commentId: P:Altazion.ECommerce.Controls.ProduitPrixValeurRemiseSurConseille.TypeAffichage
+  isExternal: true
+- uid: Altazion.ECommerce.Controls.ProduitPrixValeurRemiseSurConseille.TypeAffichePromo.EnPourcentageSiInferieurA
+  commentId: F:Altazion.ECommerce.Controls.ProduitPrixValeurRemiseSurConseille.TypeAffichePromo.EnPourcentageSiInferieurA
+  isExternal: true
+- uid: Altazion.ECommerce.Controls.ProduitPrixValeurRemiseSurConseille.PrixMaxiPourPourcentage*
+  commentId: Overload:Altazion.ECommerce.Controls.ProduitPrixValeurRemiseSurConseille.PrixMaxiPourPourcentage
+  name: PrixMaxiPourPourcentage
+  nameWithType: ProduitPrixValeurRemiseSurConseille.PrixMaxiPourPourcentage
+  fullName: Altazion.ECommerce.Controls.ProduitPrixValeurRemiseSurConseille.PrixMaxiPourPourcentage
+- uid: System.Decimal
+  isExternal: true
+  name: Decimal
+  nameWithType: Decimal
+  fullName: System.Decimal

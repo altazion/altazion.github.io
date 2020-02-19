@@ -1,0 +1,101 @@
+### YamlMime:ManagedReference
+items:
+- uid: Altazion.ECommerce.Controls.PanierEncartMagasinAssocie
+  commentId: T:Altazion.ECommerce.Controls.PanierEncartMagasinAssocie
+  id: PanierEncartMagasinAssocie
+  parent: Altazion.ECommerce.Controls
+  children:
+  - Altazion.ECommerce.Controls.PanierEncartMagasinAssocie.OnPreRender(EventArgs)
+  langs:
+  - csharp
+  - vb
+  name: PanierEncartMagasinAssocie
+  nameWithType: PanierEncartMagasinAssocie
+  fullName: Altazion.ECommerce.Controls.PanierEncartMagasinAssocie
+  type: Class
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanelCrossCanal.cs
+    id: PanierEncartMagasinAssocie
+    path: PanelCrossCanal.cs
+    startLine: 120
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: 'public class PanierEncartMagasinAssocie : WebControl'
+    content.vb: >-
+      Public Class PanierEncartMagasinAssocie
+          Inherits WebControl
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Altazion.ECommerce.Controls.PanierEncartMagasinAssocie.OnPreRender(EventArgs)
+  commentId: M:Altazion.ECommerce.Controls.PanierEncartMagasinAssocie.OnPreRender(EventArgs)
+  id: OnPreRender(EventArgs)
+  parent: Altazion.ECommerce.Controls.PanierEncartMagasinAssocie
+  langs:
+  - csharp
+  - vb
+  name: OnPreRender(EventArgs)
+  nameWithType: PanierEncartMagasinAssocie.OnPreRender(EventArgs)
+  fullName: Altazion.ECommerce.Controls.PanierEncartMagasinAssocie.OnPreRender(EventArgs)
+  type: Method
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanelCrossCanal.cs
+    id: OnPreRender
+    path: PanelCrossCanal.cs
+    startLine: 126
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  summary: "\nDéclenche l&apos;événement <xref href=\"System.Web.UI.Control.PreRender\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  example: []
+  syntax:
+    content: protected override void OnPreRender(EventArgs e)
+    parameters:
+    - id: e
+      type: EventArgs
+      description: Objet <xref href="System.EventArgs" data-throw-if-not-resolved="false"></xref> qui contient les données d&apos;événement.
+    content.vb: Protected Overrides Sub OnPreRender(e As EventArgs)
+  overload: Altazion.ECommerce.Controls.PanierEncartMagasinAssocie.OnPreRender*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+references:
+- uid: Altazion.ECommerce.Controls
+  commentId: N:Altazion.ECommerce.Controls
+  name: Altazion.ECommerce.Controls
+  nameWithType: Altazion.ECommerce.Controls
+  fullName: Altazion.ECommerce.Controls
+- uid: System.Object
+  commentId: '!:System.Object'
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Web.UI.Control.PreRender
+  commentId: E:System.Web.UI.Control.PreRender
+  isExternal: true
+- uid: System.EventArgs
+  commentId: T:System.EventArgs
+  isExternal: true
+- uid: Altazion.ECommerce.Controls.PanierEncartMagasinAssocie.OnPreRender*
+  commentId: Overload:Altazion.ECommerce.Controls.PanierEncartMagasinAssocie.OnPreRender
+  name: OnPreRender
+  nameWithType: PanierEncartMagasinAssocie.OnPreRender
+  fullName: Altazion.ECommerce.Controls.PanierEncartMagasinAssocie.OnPreRender
+- uid: EventArgs
+  isExternal: true
+  name: EventArgs
+  nameWithType: EventArgs
+  fullName: EventArgs

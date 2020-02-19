@@ -1,0 +1,103 @@
+### YamlMime:ManagedReference
+items:
+- uid: Altazion.ECommerce.Controls.LivraisonMode
+  commentId: T:Altazion.ECommerce.Controls.LivraisonMode
+  id: LivraisonMode
+  parent: Altazion.ECommerce.Controls
+  children:
+  - Altazion.ECommerce.Controls.LivraisonMode.OnPreRender(EventArgs)
+  langs:
+  - csharp
+  - vb
+  name: LivraisonMode
+  nameWithType: LivraisonMode
+  fullName: Altazion.ECommerce.Controls.LivraisonMode
+  type: Class
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/LivraisonDelai.cs
+    id: LivraisonMode
+    path: LivraisonDelai.cs
+    startLine: 56
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  summary: "\n[obsolete]\n"
+  example: []
+  syntax:
+    content: 'public class LivraisonMode : Label'
+    content.vb: >-
+      Public Class LivraisonMode
+          Inherits Label
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Altazion.ECommerce.Controls.LivraisonMode.OnPreRender(EventArgs)
+  commentId: M:Altazion.ECommerce.Controls.LivraisonMode.OnPreRender(EventArgs)
+  id: OnPreRender(EventArgs)
+  parent: Altazion.ECommerce.Controls.LivraisonMode
+  langs:
+  - csharp
+  - vb
+  name: OnPreRender(EventArgs)
+  nameWithType: LivraisonMode.OnPreRender(EventArgs)
+  fullName: Altazion.ECommerce.Controls.LivraisonMode.OnPreRender(EventArgs)
+  type: Method
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/LivraisonDelai.cs
+    id: OnPreRender
+    path: LivraisonDelai.cs
+    startLine: 62
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  summary: "\nDéclenche l&apos;événement <xref href=\"System.Web.UI.Control.PreRender\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  example: []
+  syntax:
+    content: protected override void OnPreRender(EventArgs e)
+    parameters:
+    - id: e
+      type: EventArgs
+      description: Objet <xref href="System.EventArgs" data-throw-if-not-resolved="false"></xref> qui contient les données d&apos;événement.
+    content.vb: Protected Overrides Sub OnPreRender(e As EventArgs)
+  overload: Altazion.ECommerce.Controls.LivraisonMode.OnPreRender*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+references:
+- uid: Altazion.ECommerce.Controls
+  commentId: N:Altazion.ECommerce.Controls
+  name: Altazion.ECommerce.Controls
+  nameWithType: Altazion.ECommerce.Controls
+  fullName: Altazion.ECommerce.Controls
+- uid: System.Object
+  commentId: '!:System.Object'
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Web.UI.Control.PreRender
+  commentId: E:System.Web.UI.Control.PreRender
+  isExternal: true
+- uid: System.EventArgs
+  commentId: T:System.EventArgs
+  isExternal: true
+- uid: Altazion.ECommerce.Controls.LivraisonMode.OnPreRender*
+  commentId: Overload:Altazion.ECommerce.Controls.LivraisonMode.OnPreRender
+  name: OnPreRender
+  nameWithType: LivraisonMode.OnPreRender
+  fullName: Altazion.ECommerce.Controls.LivraisonMode.OnPreRender
+- uid: EventArgs
+  isExternal: true
+  name: EventArgs
+  nameWithType: EventArgs
+  fullName: EventArgs

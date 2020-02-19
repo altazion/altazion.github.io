@@ -1,0 +1,50 @@
+### YamlMime:ManagedReference
+items:
+- uid: Altazion.ECommerce.Controls.CanonicalLink
+  commentId: T:Altazion.ECommerce.Controls.CanonicalLink
+  id: CanonicalLink
+  parent: Altazion.ECommerce.Controls
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: CanonicalLink
+  nameWithType: CanonicalLink
+  fullName: Altazion.ECommerce.Controls.CanonicalLink
+  type: Class
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/CanonicalLink.cs
+    id: CanonicalLink
+    path: CanonicalLink.cs
+    startLine: 16
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  summary: "\nAffiche un link pointant vers la version\ncanonique de l&apos;url de la page si elle existe\nA utiliser dans le head, bien entendu.\n"
+  example: []
+  syntax:
+    content: 'public class CanonicalLink : WebControl'
+    content.vb: >-
+      Public Class CanonicalLink
+          Inherits WebControl
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+references:
+- uid: Altazion.ECommerce.Controls
+  commentId: N:Altazion.ECommerce.Controls
+  name: Altazion.ECommerce.Controls
+  nameWithType: Altazion.ECommerce.Controls
+  fullName: Altazion.ECommerce.Controls
+- uid: System.Object
+  commentId: '!:System.Object'
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object

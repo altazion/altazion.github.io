@@ -1,0 +1,112 @@
+### YamlMime:ManagedReference
+items:
+- uid: Altazion.ECommerce.Controls.MarqueLink.TypeMarqueLink
+  commentId: T:Altazion.ECommerce.Controls.MarqueLink.TypeMarqueLink
+  id: MarqueLink.TypeMarqueLink
+  parent: Altazion.ECommerce.Controls
+  children:
+  - Altazion.ECommerce.Controls.MarqueLink.TypeMarqueLink.MoteurDeRecherche
+  - Altazion.ECommerce.Controls.MarqueLink.TypeMarqueLink.SiteWeb
+  langs:
+  - csharp
+  - vb
+  name: MarqueLink.TypeMarqueLink
+  nameWithType: MarqueLink.TypeMarqueLink
+  fullName: Altazion.ECommerce.Controls.MarqueLink.TypeMarqueLink
+  type: Enum
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/ControlesMarques.cs
+    id: TypeMarqueLink
+    path: ControlesMarques.cs
+    startLine: 44
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  summary: "\nRepresente le type de lien\n"
+  example: []
+  syntax:
+    content: 'public enum TypeMarqueLink : int'
+    content.vb: Public Enum TypeMarqueLink As Integer
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Altazion.ECommerce.Controls.MarqueLink.TypeMarqueLink.MoteurDeRecherche
+  commentId: F:Altazion.ECommerce.Controls.MarqueLink.TypeMarqueLink.MoteurDeRecherche
+  id: MoteurDeRecherche
+  parent: Altazion.ECommerce.Controls.MarqueLink.TypeMarqueLink
+  langs:
+  - csharp
+  - vb
+  name: MoteurDeRecherche
+  nameWithType: MarqueLink.TypeMarqueLink.MoteurDeRecherche
+  fullName: Altazion.ECommerce.Controls.MarqueLink.TypeMarqueLink.MoteurDeRecherche
+  type: Field
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/ControlesMarques.cs
+    id: MoteurDeRecherche
+    path: ControlesMarques.cs
+    startLine: 50
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  summary: "\nUn lien vers la descente produit\ncorrespondant à la marque\n"
+  example: []
+  syntax:
+    content: MoteurDeRecherche = 0
+    return:
+      type: Altazion.ECommerce.Controls.MarqueLink.TypeMarqueLink
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Altazion.ECommerce.Controls.MarqueLink.TypeMarqueLink.SiteWeb
+  commentId: F:Altazion.ECommerce.Controls.MarqueLink.TypeMarqueLink.SiteWeb
+  id: SiteWeb
+  parent: Altazion.ECommerce.Controls.MarqueLink.TypeMarqueLink
+  langs:
+  - csharp
+  - vb
+  name: SiteWeb
+  nameWithType: MarqueLink.TypeMarqueLink.SiteWeb
+  fullName: Altazion.ECommerce.Controls.MarqueLink.TypeMarqueLink.SiteWeb
+  type: Field
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/ControlesMarques.cs
+    id: SiteWeb
+    path: ControlesMarques.cs
+    startLine: 55
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  summary: "\nUn lien vers le site externe \nde la marque\n"
+  example: []
+  syntax:
+    content: SiteWeb = 1
+    return:
+      type: Altazion.ECommerce.Controls.MarqueLink.TypeMarqueLink
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Altazion.ECommerce.Controls
+  commentId: N:Altazion.ECommerce.Controls
+  name: Altazion.ECommerce.Controls
+  nameWithType: Altazion.ECommerce.Controls
+  fullName: Altazion.ECommerce.Controls
+- uid: Altazion.ECommerce.Controls.MarqueLink.TypeMarqueLink
+  commentId: T:Altazion.ECommerce.Controls.MarqueLink.TypeMarqueLink
+  parent: Altazion.ECommerce.Controls
+  name: MarqueLink.TypeMarqueLink
+  nameWithType: MarqueLink.TypeMarqueLink
+  fullName: Altazion.ECommerce.Controls.MarqueLink.TypeMarqueLink

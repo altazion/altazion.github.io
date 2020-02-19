@@ -1,0 +1,199 @@
+### YamlMime:ManagedReference
+items:
+- uid: Altazion.ECommerce.Controls.ProduitLink
+  commentId: T:Altazion.ECommerce.Controls.ProduitLink
+  id: ProduitLink
+  parent: Altazion.ECommerce.Controls
+  children:
+  - Altazion.ECommerce.Controls.ProduitLink.LinkType
+  - Altazion.ECommerce.Controls.ProduitLink.OnPreRender(EventArgs)
+  - Altazion.ECommerce.Controls.ProduitLink.PourPageAmp
+  langs:
+  - csharp
+  - vb
+  name: ProduitLink
+  nameWithType: ProduitLink
+  fullName: Altazion.ECommerce.Controls.ProduitLink
+  type: Class
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/ProductLinks.cs
+    id: ProduitLink
+    path: ProductLinks.cs
+    startLine: 94
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  summary: "\nA utiliser dans un contrôle bindé sur un produit : affiche un lien\npointant sur la fiche produit\n"
+  example: []
+  syntax:
+    content: 'public class ProduitLink : HyperLink, IEquihiraBindable'
+    content.vb: >-
+      Public Class ProduitLink
+          Inherits HyperLink
+          Implements IEquihiraBindable
+  inheritance:
+  - System.Object
+  derivedClasses:
+  - Altazion.ECommerce.Controls.ProduitLibelleLink
+  implements:
+  - CPointSoftware.ECommerce.Tools.IEquihiraBindable
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Altazion.ECommerce.Controls.ProduitLink.PourPageAmp
+  commentId: P:Altazion.ECommerce.Controls.ProduitLink.PourPageAmp
+  id: PourPageAmp
+  parent: Altazion.ECommerce.Controls.ProduitLink
+  langs:
+  - csharp
+  - vb
+  name: PourPageAmp
+  nameWithType: ProduitLink.PourPageAmp
+  fullName: Altazion.ECommerce.Controls.ProduitLink.PourPageAmp
+  type: Property
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/ProductLinks.cs
+    id: PourPageAmp
+    path: ProductLinks.cs
+    startLine: 97
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: public bool PourPageAmp { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property PourPageAmp As Boolean
+  overload: Altazion.ECommerce.Controls.ProduitLink.PourPageAmp*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Altazion.ECommerce.Controls.ProduitLink.LinkType
+  commentId: P:Altazion.ECommerce.Controls.ProduitLink.LinkType
+  id: LinkType
+  parent: Altazion.ECommerce.Controls.ProduitLink
+  langs:
+  - csharp
+  - vb
+  name: LinkType
+  nameWithType: ProduitLink.LinkType
+  fullName: Altazion.ECommerce.Controls.ProduitLink.LinkType
+  type: Property
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/ProductLinks.cs
+    id: LinkType
+    path: ProductLinks.cs
+    startLine: 101
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: public TypeLienProduit LinkType { get; set; }
+    parameters: []
+    return:
+      type: CPointSoftware.ECommerce.Tools.TypeLienProduit
+    content.vb: Public Property LinkType As TypeLienProduit
+  overload: Altazion.ECommerce.Controls.ProduitLink.LinkType*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Altazion.ECommerce.Controls.ProduitLink.OnPreRender(EventArgs)
+  commentId: M:Altazion.ECommerce.Controls.ProduitLink.OnPreRender(EventArgs)
+  id: OnPreRender(EventArgs)
+  parent: Altazion.ECommerce.Controls.ProduitLink
+  langs:
+  - csharp
+  - vb
+  name: OnPreRender(EventArgs)
+  nameWithType: ProduitLink.OnPreRender(EventArgs)
+  fullName: Altazion.ECommerce.Controls.ProduitLink.OnPreRender(EventArgs)
+  type: Method
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/ProductLinks.cs
+    id: OnPreRender
+    path: ProductLinks.cs
+    startLine: 107
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: protected override void OnPreRender(EventArgs e)
+    parameters:
+    - id: e
+      type: EventArgs
+    content.vb: Protected Overrides Sub OnPreRender(e As EventArgs)
+  overload: Altazion.ECommerce.Controls.ProduitLink.OnPreRender*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+references:
+- uid: Altazion.ECommerce.Controls
+  commentId: N:Altazion.ECommerce.Controls
+  name: Altazion.ECommerce.Controls
+  nameWithType: Altazion.ECommerce.Controls
+  fullName: Altazion.ECommerce.Controls
+- uid: System.Object
+  commentId: '!:System.Object'
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: CPointSoftware.ECommerce.Tools.IEquihiraBindable
+  commentId: T:CPointSoftware.ECommerce.Tools.IEquihiraBindable
+  parent: CPointSoftware.ECommerce.Tools
+  name: IEquihiraBindable
+  nameWithType: IEquihiraBindable
+  fullName: CPointSoftware.ECommerce.Tools.IEquihiraBindable
+- uid: CPointSoftware.ECommerce.Tools
+  commentId: N:CPointSoftware.ECommerce.Tools
+  name: CPointSoftware.ECommerce.Tools
+  nameWithType: CPointSoftware.ECommerce.Tools
+  fullName: CPointSoftware.ECommerce.Tools
+- uid: Altazion.ECommerce.Controls.ProduitLink.PourPageAmp*
+  commentId: Overload:Altazion.ECommerce.Controls.ProduitLink.PourPageAmp
+  name: PourPageAmp
+  nameWithType: ProduitLink.PourPageAmp
+  fullName: Altazion.ECommerce.Controls.ProduitLink.PourPageAmp
+- uid: System.Boolean
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Altazion.ECommerce.Controls.ProduitLink.LinkType*
+  commentId: Overload:Altazion.ECommerce.Controls.ProduitLink.LinkType
+  name: LinkType
+  nameWithType: ProduitLink.LinkType
+  fullName: Altazion.ECommerce.Controls.ProduitLink.LinkType
+- uid: CPointSoftware.ECommerce.Tools.TypeLienProduit
+  commentId: T:CPointSoftware.ECommerce.Tools.TypeLienProduit
+  parent: CPointSoftware.ECommerce.Tools
+  name: TypeLienProduit
+  nameWithType: TypeLienProduit
+  fullName: CPointSoftware.ECommerce.Tools.TypeLienProduit
+- uid: Altazion.ECommerce.Controls.ProduitLink.OnPreRender*
+  commentId: Overload:Altazion.ECommerce.Controls.ProduitLink.OnPreRender
+  name: OnPreRender
+  nameWithType: ProduitLink.OnPreRender
+  fullName: Altazion.ECommerce.Controls.ProduitLink.OnPreRender
+- uid: EventArgs
+  isExternal: true
+  name: EventArgs
+  nameWithType: EventArgs
+  fullName: EventArgs

@@ -1,0 +1,48 @@
+### YamlMime:ManagedReference
+items:
+- uid: Altazion.ECommerce.Controls.MagasinsParticipantsRepeater
+  commentId: T:Altazion.ECommerce.Controls.MagasinsParticipantsRepeater
+  id: MagasinsParticipantsRepeater
+  parent: Altazion.ECommerce.Controls
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: MagasinsParticipantsRepeater
+  nameWithType: MagasinsParticipantsRepeater
+  fullName: Altazion.ECommerce.Controls.MagasinsParticipantsRepeater
+  type: Class
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/MagasinsParticipantsRepeater.cs
+    id: MagasinsParticipantsRepeater
+    path: MagasinsParticipantsRepeater.cs
+    startLine: 11
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: 'public class MagasinsParticipantsRepeater : Repeater'
+    content.vb: >-
+      Public Class MagasinsParticipantsRepeater
+          Inherits Repeater
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+references:
+- uid: Altazion.ECommerce.Controls
+  commentId: N:Altazion.ECommerce.Controls
+  name: Altazion.ECommerce.Controls
+  nameWithType: Altazion.ECommerce.Controls
+  fullName: Altazion.ECommerce.Controls
+- uid: System.Object
+  commentId: '!:System.Object'
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object

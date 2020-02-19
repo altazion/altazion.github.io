@@ -1,0 +1,137 @@
+### YamlMime:ManagedReference
+items:
+- uid: Altazion.ECommerce.Controls.ProduitAttributRepeaterItemField
+  commentId: T:Altazion.ECommerce.Controls.ProduitAttributRepeaterItemField
+  id: ProduitAttributRepeaterItemField
+  parent: Altazion.ECommerce.Controls
+  children:
+  - Altazion.ECommerce.Controls.ProduitAttributRepeaterItemField.DataKind
+  - Altazion.ECommerce.Controls.ProduitAttributRepeaterItemField.OnDataBinding(EventArgs)
+  langs:
+  - csharp
+  - vb
+  name: ProduitAttributRepeaterItemField
+  nameWithType: ProduitAttributRepeaterItemField
+  fullName: Altazion.ECommerce.Controls.ProduitAttributRepeaterItemField
+  type: Class
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/ProductLabels.cs
+    id: ProduitAttributRepeaterItemField
+    path: ProductLabels.cs
+    startLine: 586
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: 'public class ProduitAttributRepeaterItemField : Label'
+    content.vb: >-
+      Public Class ProduitAttributRepeaterItemField
+          Inherits Label
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Altazion.ECommerce.Controls.ProduitAttributRepeaterItemField.DataKind
+  commentId: P:Altazion.ECommerce.Controls.ProduitAttributRepeaterItemField.DataKind
+  id: DataKind
+  parent: Altazion.ECommerce.Controls.ProduitAttributRepeaterItemField
+  langs:
+  - csharp
+  - vb
+  name: DataKind
+  nameWithType: ProduitAttributRepeaterItemField.DataKind
+  fullName: Altazion.ECommerce.Controls.ProduitAttributRepeaterItemField.DataKind
+  type: Property
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/ProductLabels.cs
+    id: DataKind
+    path: ProductLabels.cs
+    startLine: 593
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: public ProduitAttributRepeaterItemField.ProduitAttributRepeaterItemFieldKind DataKind { get; set; }
+    parameters: []
+    return:
+      type: Altazion.ECommerce.Controls.ProduitAttributRepeaterItemField.ProduitAttributRepeaterItemFieldKind
+    content.vb: Public Property DataKind As ProduitAttributRepeaterItemField.ProduitAttributRepeaterItemFieldKind
+  overload: Altazion.ECommerce.Controls.ProduitAttributRepeaterItemField.DataKind*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Altazion.ECommerce.Controls.ProduitAttributRepeaterItemField.OnDataBinding(EventArgs)
+  commentId: M:Altazion.ECommerce.Controls.ProduitAttributRepeaterItemField.OnDataBinding(EventArgs)
+  id: OnDataBinding(EventArgs)
+  parent: Altazion.ECommerce.Controls.ProduitAttributRepeaterItemField
+  langs:
+  - csharp
+  - vb
+  name: OnDataBinding(EventArgs)
+  nameWithType: ProduitAttributRepeaterItemField.OnDataBinding(EventArgs)
+  fullName: Altazion.ECommerce.Controls.ProduitAttributRepeaterItemField.OnDataBinding(EventArgs)
+  type: Method
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/ProductLabels.cs
+    id: OnDataBinding
+    path: ProductLabels.cs
+    startLine: 595
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: protected override void OnDataBinding(EventArgs e)
+    parameters:
+    - id: e
+      type: EventArgs
+    content.vb: Protected Overrides Sub OnDataBinding(e As EventArgs)
+  overload: Altazion.ECommerce.Controls.ProduitAttributRepeaterItemField.OnDataBinding*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+references:
+- uid: Altazion.ECommerce.Controls
+  commentId: N:Altazion.ECommerce.Controls
+  name: Altazion.ECommerce.Controls
+  nameWithType: Altazion.ECommerce.Controls
+  fullName: Altazion.ECommerce.Controls
+- uid: System.Object
+  commentId: '!:System.Object'
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Altazion.ECommerce.Controls.ProduitAttributRepeaterItemField.DataKind*
+  commentId: Overload:Altazion.ECommerce.Controls.ProduitAttributRepeaterItemField.DataKind
+  name: DataKind
+  nameWithType: ProduitAttributRepeaterItemField.DataKind
+  fullName: Altazion.ECommerce.Controls.ProduitAttributRepeaterItemField.DataKind
+- uid: Altazion.ECommerce.Controls.ProduitAttributRepeaterItemField.ProduitAttributRepeaterItemFieldKind
+  commentId: T:Altazion.ECommerce.Controls.ProduitAttributRepeaterItemField.ProduitAttributRepeaterItemFieldKind
+  parent: Altazion.ECommerce.Controls
+  name: ProduitAttributRepeaterItemField.ProduitAttributRepeaterItemFieldKind
+  nameWithType: ProduitAttributRepeaterItemField.ProduitAttributRepeaterItemFieldKind
+  fullName: Altazion.ECommerce.Controls.ProduitAttributRepeaterItemField.ProduitAttributRepeaterItemFieldKind
+- uid: Altazion.ECommerce.Controls.ProduitAttributRepeaterItemField.OnDataBinding*
+  commentId: Overload:Altazion.ECommerce.Controls.ProduitAttributRepeaterItemField.OnDataBinding
+  name: OnDataBinding
+  nameWithType: ProduitAttributRepeaterItemField.OnDataBinding
+  fullName: Altazion.ECommerce.Controls.ProduitAttributRepeaterItemField.OnDataBinding
+- uid: EventArgs
+  isExternal: true
+  name: EventArgs
+  nameWithType: EventArgs
+  fullName: EventArgs

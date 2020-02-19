@@ -1,0 +1,139 @@
+### YamlMime:ManagedReference
+items:
+- uid: Altazion.ECommerce.Controls.PanierProduitsGrid
+  commentId: T:Altazion.ECommerce.Controls.PanierProduitsGrid
+  id: PanierProduitsGrid
+  parent: Altazion.ECommerce.Controls
+  children:
+  - Altazion.ECommerce.Controls.PanierProduitsGrid.DataUpdated
+  - Altazion.ECommerce.Controls.PanierProduitsGrid.RenderWithNoTableTag
+  langs:
+  - csharp
+  - vb
+  name: PanierProduitsGrid
+  nameWithType: PanierProduitsGrid
+  fullName: Altazion.ECommerce.Controls.PanierProduitsGrid
+  type: Class
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanierProduitGrid.cs
+    id: PanierProduitsGrid
+    path: PanierProduitGrid.cs
+    startLine: 20
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  summary: "\nGriVview pouvant être bindé sur un <xref href=\"CPointSoftware.ECommerce.Tools.PanierSourceControl\" data-throw-if-not-resolved=\"false\"></xref>\n"
+  example: []
+  syntax:
+    content: 'public class PanierProduitsGrid : GridView'
+    content.vb: >-
+      Public Class PanierProduitsGrid
+          Inherits GridView
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Altazion.ECommerce.Controls.PanierProduitsGrid.DataUpdated
+  commentId: E:Altazion.ECommerce.Controls.PanierProduitsGrid.DataUpdated
+  id: DataUpdated
+  parent: Altazion.ECommerce.Controls.PanierProduitsGrid
+  langs:
+  - csharp
+  - vb
+  name: DataUpdated
+  nameWithType: PanierProduitsGrid.DataUpdated
+  fullName: Altazion.ECommerce.Controls.PanierProduitsGrid.DataUpdated
+  type: Event
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanierProduitGrid.cs
+    id: DataUpdated
+    path: PanierProduitGrid.cs
+    startLine: 30
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  summary: "\nLevé lorsque les données ont été modifiées\n"
+  remarks: "Cet événement n&apos;est lancé que sur le thread\nqui a procédé à la modification. Il ne peut donc servir\nà vérifier que le panier est modifié de façon certaine : \npar exemple, si votre site utilise plusieurs worker process, les modifications\napportés dans l&apos;un de ceux-ci ne seront pas signalé dans l&apos;autre."
+  example: []
+  syntax:
+    content: public event EventHandler DataUpdated
+    return:
+      type: EventHandler
+    content.vb: Public Event DataUpdated As EventHandler
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Altazion.ECommerce.Controls.PanierProduitsGrid.RenderWithNoTableTag
+  commentId: P:Altazion.ECommerce.Controls.PanierProduitsGrid.RenderWithNoTableTag
+  id: RenderWithNoTableTag
+  parent: Altazion.ECommerce.Controls.PanierProduitsGrid
+  langs:
+  - csharp
+  - vb
+  name: RenderWithNoTableTag
+  nameWithType: PanierProduitsGrid.RenderWithNoTableTag
+  fullName: Altazion.ECommerce.Controls.PanierProduitsGrid.RenderWithNoTableTag
+  type: Property
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanierProduitGrid.cs
+    id: RenderWithNoTableTag
+    path: PanierProduitGrid.cs
+    startLine: 49
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  summary: "\nObtient ou définit une valeur indicant si on doit omettre le table &lt;table>\n"
+  example: []
+  syntax:
+    content: public bool RenderWithNoTableTag { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+      description: "\nSi <code>true</code> le tag table ne sera pas créé par cette gridview.\n"
+    content.vb: Public Property RenderWithNoTableTag As Boolean
+  overload: Altazion.ECommerce.Controls.PanierProduitsGrid.RenderWithNoTableTag*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: CPointSoftware.ECommerce.Tools.PanierSourceControl
+  commentId: T:CPointSoftware.ECommerce.Tools.PanierSourceControl
+  isExternal: true
+- uid: Altazion.ECommerce.Controls
+  commentId: N:Altazion.ECommerce.Controls
+  name: Altazion.ECommerce.Controls
+  nameWithType: Altazion.ECommerce.Controls
+  fullName: Altazion.ECommerce.Controls
+- uid: System.Object
+  commentId: '!:System.Object'
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: EventHandler
+  commentId: '!:EventHandler'
+  isExternal: true
+  name: EventHandler
+  nameWithType: EventHandler
+  fullName: EventHandler
+- uid: Altazion.ECommerce.Controls.PanierProduitsGrid.RenderWithNoTableTag*
+  commentId: Overload:Altazion.ECommerce.Controls.PanierProduitsGrid.RenderWithNoTableTag
+  name: RenderWithNoTableTag
+  nameWithType: PanierProduitsGrid.RenderWithNoTableTag
+  fullName: Altazion.ECommerce.Controls.PanierProduitsGrid.RenderWithNoTableTag
+- uid: System.Boolean
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

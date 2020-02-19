@@ -1,0 +1,53 @@
+### YamlMime:ManagedReference
+items:
+- uid: Altazion.ECommerce.Controls.PanierProduitsDataList
+  commentId: T:Altazion.ECommerce.Controls.PanierProduitsDataList
+  id: PanierProduitsDataList
+  parent: Altazion.ECommerce.Controls
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: PanierProduitsDataList
+  nameWithType: PanierProduitsDataList
+  fullName: Altazion.ECommerce.Controls.PanierProduitsDataList
+  type: Class
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanierProduitGrid.cs
+    id: PanierProduitsDataList
+    path: PanierProduitGrid.cs
+    startLine: 12
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  summary: "\nDatalist pouvant être bindé sur un <xref href=\"CPointSoftware.ECommerce.Tools.PanierSourceControl\" data-throw-if-not-resolved=\"false\"></xref>\n"
+  example: []
+  syntax:
+    content: 'public class PanierProduitsDataList : DataList'
+    content.vb: >-
+      Public Class PanierProduitsDataList
+          Inherits DataList
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+references:
+- uid: CPointSoftware.ECommerce.Tools.PanierSourceControl
+  commentId: T:CPointSoftware.ECommerce.Tools.PanierSourceControl
+  isExternal: true
+- uid: Altazion.ECommerce.Controls
+  commentId: N:Altazion.ECommerce.Controls
+  name: Altazion.ECommerce.Controls
+  nameWithType: Altazion.ECommerce.Controls
+  fullName: Altazion.ECommerce.Controls
+- uid: System.Object
+  commentId: '!:System.Object'
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object

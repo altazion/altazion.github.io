@@ -1,0 +1,270 @@
+### YamlMime:ManagedReference
+items:
+- uid: Altazion.ECommerce.Controls.AvisNote
+  commentId: T:Altazion.ECommerce.Controls.AvisNote
+  id: AvisNote
+  parent: Altazion.ECommerce.Controls
+  children:
+  - Altazion.ECommerce.Controls.AvisNote.OnDataBinding(EventArgs)
+  langs:
+  - csharp
+  - vb
+  name: AvisNote
+  nameWithType: AvisNote
+  fullName: Altazion.ECommerce.Controls.AvisNote
+  type: Class
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/AvisLabels.cs
+    id: AvisNote
+    path: AvisLabels.cs
+    startLine: 92
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  summary: "\nAffiche la note associé à l&apos;avis.\n"
+  remarks: "Ce contrôle devrait être placé dans un conteneur bindé sur \nla table <code>ecommerce_avis</code> tel que <xref href=\"CPointSoftware.ECommerce.Tools.ProduitAvisPanel\" data-throw-if-not-resolved=\"false\"></xref> \nou le contrôle personnalisé <pre><code>AvisAffichage.ascx</code></pre>"
+  example: []
+  syntax:
+    content: 'public class AvisNote : ProduitAvis, IEquihiraBindable'
+    content.vb: >-
+      Public Class AvisNote
+          Inherits ProduitAvis
+          Implements IEquihiraBindable
+  inheritance:
+  - System.Object
+  - CPointSoftware.ECommerce.Tools.ProduitAvis
+  implements:
+  - CPointSoftware.ECommerce.Tools.IEquihiraBindable
+  inheritedMembers:
+  - CPointSoftware.ECommerce.Tools.ProduitAvis.AjouterTagsRDFaZone(HtmlTextWriter)
+  - CPointSoftware.ECommerce.Tools.ProduitAvis.AjouterTagsRDFaElement(HtmlTextWriter)
+  - CPointSoftware.ECommerce.Tools.ProduitAvis.TextFormat
+  - CPointSoftware.ECommerce.Tools.ProduitAvis.EtoileComplete
+  - CPointSoftware.ECommerce.Tools.ProduitAvis.EtoileDemi
+  - CPointSoftware.ECommerce.Tools.ProduitAvis.EtoileVide
+  - CPointSoftware.ECommerce.Tools.ProduitAvis.TypeAffichage
+  - CPointSoftware.ECommerce.Tools.ProduitAvis.NombreMaximalEtoile
+  - CPointSoftware.ECommerce.Tools.ProduitAvis.NavigateUrlSiAucun
+  - CPointSoftware.ECommerce.Tools.ProduitAvis.MessageSiAucun
+  - CPointSoftware.ECommerce.Tools.ProduitAvis.Note
+  - CPointSoftware.ECommerce.Tools.ProduitAvis.ItemName
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Altazion.ECommerce.Controls.AvisNote.OnDataBinding(EventArgs)
+  commentId: M:Altazion.ECommerce.Controls.AvisNote.OnDataBinding(EventArgs)
+  id: OnDataBinding(EventArgs)
+  parent: Altazion.ECommerce.Controls.AvisNote
+  langs:
+  - csharp
+  - vb
+  name: OnDataBinding(EventArgs)
+  nameWithType: AvisNote.OnDataBinding(EventArgs)
+  fullName: Altazion.ECommerce.Controls.AvisNote.OnDataBinding(EventArgs)
+  type: Method
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/AvisLabels.cs
+    id: OnDataBinding
+    path: AvisLabels.cs
+    startLine: 107
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: protected override void OnDataBinding(EventArgs e)
+    parameters:
+    - id: e
+      type: EventArgs
+    content.vb: Protected Overrides Sub OnDataBinding(e As EventArgs)
+  overload: Altazion.ECommerce.Controls.AvisNote.OnDataBinding*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+references:
+- uid: CPointSoftware.ECommerce.Tools.ProduitAvisPanel
+  commentId: T:CPointSoftware.ECommerce.Tools.ProduitAvisPanel
+  isExternal: true
+- uid: Altazion.ECommerce.Controls
+  commentId: N:Altazion.ECommerce.Controls
+  name: Altazion.ECommerce.Controls
+  nameWithType: Altazion.ECommerce.Controls
+  fullName: Altazion.ECommerce.Controls
+- uid: System.Object
+  commentId: '!:System.Object'
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: CPointSoftware.ECommerce.Tools.ProduitAvis
+  commentId: T:CPointSoftware.ECommerce.Tools.ProduitAvis
+  parent: CPointSoftware.ECommerce.Tools
+  name: ProduitAvis
+  nameWithType: ProduitAvis
+  fullName: CPointSoftware.ECommerce.Tools.ProduitAvis
+- uid: CPointSoftware.ECommerce.Tools.IEquihiraBindable
+  commentId: T:CPointSoftware.ECommerce.Tools.IEquihiraBindable
+  parent: CPointSoftware.ECommerce.Tools
+  name: IEquihiraBindable
+  nameWithType: IEquihiraBindable
+  fullName: CPointSoftware.ECommerce.Tools.IEquihiraBindable
+- uid: CPointSoftware.ECommerce.Tools.ProduitAvis.AjouterTagsRDFaZone(HtmlTextWriter)
+  commentId: M:CPointSoftware.ECommerce.Tools.ProduitAvis.AjouterTagsRDFaZone(HtmlTextWriter)
+  parent: CPointSoftware.ECommerce.Tools.ProduitAvis
+  isExternal: true
+  name: AjouterTagsRDFaZone(HtmlTextWriter)
+  nameWithType: ProduitAvis.AjouterTagsRDFaZone(HtmlTextWriter)
+  fullName: CPointSoftware.ECommerce.Tools.ProduitAvis.AjouterTagsRDFaZone(HtmlTextWriter)
+  spec.csharp:
+  - uid: CPointSoftware.ECommerce.Tools.ProduitAvis.AjouterTagsRDFaZone(HtmlTextWriter)
+    name: AjouterTagsRDFaZone
+    nameWithType: ProduitAvis.AjouterTagsRDFaZone
+    fullName: CPointSoftware.ECommerce.Tools.ProduitAvis.AjouterTagsRDFaZone
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: HtmlTextWriter
+    name: HtmlTextWriter
+    nameWithType: HtmlTextWriter
+    fullName: HtmlTextWriter
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: CPointSoftware.ECommerce.Tools.ProduitAvis.AjouterTagsRDFaZone(HtmlTextWriter)
+    name: AjouterTagsRDFaZone
+    nameWithType: ProduitAvis.AjouterTagsRDFaZone
+    fullName: CPointSoftware.ECommerce.Tools.ProduitAvis.AjouterTagsRDFaZone
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: HtmlTextWriter
+    name: HtmlTextWriter
+    nameWithType: HtmlTextWriter
+    fullName: HtmlTextWriter
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CPointSoftware.ECommerce.Tools.ProduitAvis.AjouterTagsRDFaElement(HtmlTextWriter)
+  commentId: M:CPointSoftware.ECommerce.Tools.ProduitAvis.AjouterTagsRDFaElement(HtmlTextWriter)
+  parent: CPointSoftware.ECommerce.Tools.ProduitAvis
+  isExternal: true
+  name: AjouterTagsRDFaElement(HtmlTextWriter)
+  nameWithType: ProduitAvis.AjouterTagsRDFaElement(HtmlTextWriter)
+  fullName: CPointSoftware.ECommerce.Tools.ProduitAvis.AjouterTagsRDFaElement(HtmlTextWriter)
+  spec.csharp:
+  - uid: CPointSoftware.ECommerce.Tools.ProduitAvis.AjouterTagsRDFaElement(HtmlTextWriter)
+    name: AjouterTagsRDFaElement
+    nameWithType: ProduitAvis.AjouterTagsRDFaElement
+    fullName: CPointSoftware.ECommerce.Tools.ProduitAvis.AjouterTagsRDFaElement
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: HtmlTextWriter
+    name: HtmlTextWriter
+    nameWithType: HtmlTextWriter
+    fullName: HtmlTextWriter
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: CPointSoftware.ECommerce.Tools.ProduitAvis.AjouterTagsRDFaElement(HtmlTextWriter)
+    name: AjouterTagsRDFaElement
+    nameWithType: ProduitAvis.AjouterTagsRDFaElement
+    fullName: CPointSoftware.ECommerce.Tools.ProduitAvis.AjouterTagsRDFaElement
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: HtmlTextWriter
+    name: HtmlTextWriter
+    nameWithType: HtmlTextWriter
+    fullName: HtmlTextWriter
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CPointSoftware.ECommerce.Tools.ProduitAvis.TextFormat
+  commentId: P:CPointSoftware.ECommerce.Tools.ProduitAvis.TextFormat
+  parent: CPointSoftware.ECommerce.Tools.ProduitAvis
+  name: TextFormat
+  nameWithType: ProduitAvis.TextFormat
+  fullName: CPointSoftware.ECommerce.Tools.ProduitAvis.TextFormat
+- uid: CPointSoftware.ECommerce.Tools.ProduitAvis.EtoileComplete
+  commentId: P:CPointSoftware.ECommerce.Tools.ProduitAvis.EtoileComplete
+  parent: CPointSoftware.ECommerce.Tools.ProduitAvis
+  name: EtoileComplete
+  nameWithType: ProduitAvis.EtoileComplete
+  fullName: CPointSoftware.ECommerce.Tools.ProduitAvis.EtoileComplete
+- uid: CPointSoftware.ECommerce.Tools.ProduitAvis.EtoileDemi
+  commentId: P:CPointSoftware.ECommerce.Tools.ProduitAvis.EtoileDemi
+  parent: CPointSoftware.ECommerce.Tools.ProduitAvis
+  name: EtoileDemi
+  nameWithType: ProduitAvis.EtoileDemi
+  fullName: CPointSoftware.ECommerce.Tools.ProduitAvis.EtoileDemi
+- uid: CPointSoftware.ECommerce.Tools.ProduitAvis.EtoileVide
+  commentId: P:CPointSoftware.ECommerce.Tools.ProduitAvis.EtoileVide
+  parent: CPointSoftware.ECommerce.Tools.ProduitAvis
+  name: EtoileVide
+  nameWithType: ProduitAvis.EtoileVide
+  fullName: CPointSoftware.ECommerce.Tools.ProduitAvis.EtoileVide
+- uid: CPointSoftware.ECommerce.Tools.ProduitAvis.TypeAffichage
+  commentId: P:CPointSoftware.ECommerce.Tools.ProduitAvis.TypeAffichage
+  parent: CPointSoftware.ECommerce.Tools.ProduitAvis
+  name: TypeAffichage
+  nameWithType: ProduitAvis.TypeAffichage
+  fullName: CPointSoftware.ECommerce.Tools.ProduitAvis.TypeAffichage
+- uid: CPointSoftware.ECommerce.Tools.ProduitAvis.NombreMaximalEtoile
+  commentId: P:CPointSoftware.ECommerce.Tools.ProduitAvis.NombreMaximalEtoile
+  parent: CPointSoftware.ECommerce.Tools.ProduitAvis
+  name: NombreMaximalEtoile
+  nameWithType: ProduitAvis.NombreMaximalEtoile
+  fullName: CPointSoftware.ECommerce.Tools.ProduitAvis.NombreMaximalEtoile
+- uid: CPointSoftware.ECommerce.Tools.ProduitAvis.NavigateUrlSiAucun
+  commentId: P:CPointSoftware.ECommerce.Tools.ProduitAvis.NavigateUrlSiAucun
+  parent: CPointSoftware.ECommerce.Tools.ProduitAvis
+  name: NavigateUrlSiAucun
+  nameWithType: ProduitAvis.NavigateUrlSiAucun
+  fullName: CPointSoftware.ECommerce.Tools.ProduitAvis.NavigateUrlSiAucun
+- uid: CPointSoftware.ECommerce.Tools.ProduitAvis.MessageSiAucun
+  commentId: P:CPointSoftware.ECommerce.Tools.ProduitAvis.MessageSiAucun
+  parent: CPointSoftware.ECommerce.Tools.ProduitAvis
+  name: MessageSiAucun
+  nameWithType: ProduitAvis.MessageSiAucun
+  fullName: CPointSoftware.ECommerce.Tools.ProduitAvis.MessageSiAucun
+- uid: CPointSoftware.ECommerce.Tools.ProduitAvis.Note
+  commentId: P:CPointSoftware.ECommerce.Tools.ProduitAvis.Note
+  parent: CPointSoftware.ECommerce.Tools.ProduitAvis
+  name: Note
+  nameWithType: ProduitAvis.Note
+  fullName: CPointSoftware.ECommerce.Tools.ProduitAvis.Note
+- uid: CPointSoftware.ECommerce.Tools.ProduitAvis.ItemName
+  commentId: P:CPointSoftware.ECommerce.Tools.ProduitAvis.ItemName
+  parent: CPointSoftware.ECommerce.Tools.ProduitAvis
+  name: ItemName
+  nameWithType: ProduitAvis.ItemName
+  fullName: CPointSoftware.ECommerce.Tools.ProduitAvis.ItemName
+- uid: CPointSoftware.ECommerce.Tools
+  commentId: N:CPointSoftware.ECommerce.Tools
+  name: CPointSoftware.ECommerce.Tools
+  nameWithType: CPointSoftware.ECommerce.Tools
+  fullName: CPointSoftware.ECommerce.Tools
+- uid: Altazion.ECommerce.Controls.AvisNote.OnDataBinding*
+  commentId: Overload:Altazion.ECommerce.Controls.AvisNote.OnDataBinding
+  name: OnDataBinding
+  nameWithType: AvisNote.OnDataBinding
+  fullName: Altazion.ECommerce.Controls.AvisNote.OnDataBinding
+- uid: EventArgs
+  isExternal: true
+  name: EventArgs
+  nameWithType: EventArgs
+  fullName: EventArgs

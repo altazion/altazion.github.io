@@ -1,0 +1,125 @@
+### YamlMime:ManagedReference
+items:
+- uid: Altazion.ECommerce.Controls.BonAchatsUtiliserGridColumn
+  commentId: T:Altazion.ECommerce.Controls.BonAchatsUtiliserGridColumn
+  id: BonAchatsUtiliserGridColumn
+  parent: Altazion.ECommerce.Controls
+  children:
+  - Altazion.ECommerce.Controls.BonAchatsUtiliserGridColumn.Text
+  langs:
+  - csharp
+  - vb
+  name: BonAchatsUtiliserGridColumn
+  nameWithType: BonAchatsUtiliserGridColumn
+  fullName: Altazion.ECommerce.Controls.BonAchatsUtiliserGridColumn
+  type: Class
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/BonsAchatsControls.cs
+    id: BonAchatsUtiliserGridColumn
+    path: BonsAchatsControls.cs
+    startLine: 1013
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  summary: "\nReprésente une colonne dans une <xref href=\"Altazion.ECommerce.Controls.BonsAchatsGridView\" data-throw-if-not-resolved=\"false\"></xref>\naffichant un td avec un lien permettant d&apos;utiliser le\nbon d&apos;achat\n"
+  remarks: >-
+    Ce contrôle ne peut être utilisé que dans le cadre du contrôle
+
+    <xref href="Altazion.ECommerce.Controls.BonsAchatsGridView" data-throw-if-not-resolved="false"></xref>
+  example: []
+  syntax:
+    content: 'public class BonAchatsUtiliserGridColumn : EDataControlField'
+    content.vb: >-
+      Public Class BonAchatsUtiliserGridColumn
+          Inherits EDataControlField
+  inheritance:
+  - System.Object
+  - CPointSoftware.ECommerce.Tools.EDataControlField
+  inheritedMembers:
+  - CPointSoftware.ECommerce.Tools.EDataControlField.ColumnSpan
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Altazion.ECommerce.Controls.BonAchatsUtiliserGridColumn.Text
+  commentId: P:Altazion.ECommerce.Controls.BonAchatsUtiliserGridColumn.Text
+  id: Text
+  parent: Altazion.ECommerce.Controls.BonAchatsUtiliserGridColumn
+  langs:
+  - csharp
+  - vb
+  name: Text
+  nameWithType: BonAchatsUtiliserGridColumn.Text
+  fullName: Altazion.ECommerce.Controls.BonAchatsUtiliserGridColumn.Text
+  type: Property
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/BonsAchatsControls.cs
+    id: Text
+    path: BonsAchatsControls.cs
+    startLine: 1018
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  summary: "\nObtient ou définit le texte du lien\n"
+  example: []
+  syntax:
+    content: public string Text { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Text As String
+  overload: Altazion.ECommerce.Controls.BonAchatsUtiliserGridColumn.Text*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: Altazion.ECommerce.Controls.BonsAchatsGridView
+  commentId: T:Altazion.ECommerce.Controls.BonsAchatsGridView
+  name: BonsAchatsGridView
+  nameWithType: BonsAchatsGridView
+  fullName: Altazion.ECommerce.Controls.BonsAchatsGridView
+- uid: Altazion.ECommerce.Controls
+  commentId: N:Altazion.ECommerce.Controls
+  name: Altazion.ECommerce.Controls
+  nameWithType: Altazion.ECommerce.Controls
+  fullName: Altazion.ECommerce.Controls
+- uid: System.Object
+  commentId: '!:System.Object'
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: CPointSoftware.ECommerce.Tools.EDataControlField
+  commentId: T:CPointSoftware.ECommerce.Tools.EDataControlField
+  parent: CPointSoftware.ECommerce.Tools
+  name: EDataControlField
+  nameWithType: EDataControlField
+  fullName: CPointSoftware.ECommerce.Tools.EDataControlField
+- uid: CPointSoftware.ECommerce.Tools.EDataControlField.ColumnSpan
+  commentId: P:CPointSoftware.ECommerce.Tools.EDataControlField.ColumnSpan
+  parent: CPointSoftware.ECommerce.Tools.EDataControlField
+  name: ColumnSpan
+  nameWithType: EDataControlField.ColumnSpan
+  fullName: CPointSoftware.ECommerce.Tools.EDataControlField.ColumnSpan
+- uid: CPointSoftware.ECommerce.Tools
+  commentId: N:CPointSoftware.ECommerce.Tools
+  name: CPointSoftware.ECommerce.Tools
+  nameWithType: CPointSoftware.ECommerce.Tools
+  fullName: CPointSoftware.ECommerce.Tools
+- uid: Altazion.ECommerce.Controls.BonAchatsUtiliserGridColumn.Text*
+  commentId: Overload:Altazion.ECommerce.Controls.BonAchatsUtiliserGridColumn.Text
+  name: Text
+  nameWithType: BonAchatsUtiliserGridColumn.Text
+  fullName: Altazion.ECommerce.Controls.BonAchatsUtiliserGridColumn.Text
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

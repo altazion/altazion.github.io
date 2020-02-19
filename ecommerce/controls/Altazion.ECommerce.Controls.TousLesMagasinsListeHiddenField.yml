@@ -1,0 +1,92 @@
+### YamlMime:ManagedReference
+items:
+- uid: Altazion.ECommerce.Controls.TousLesMagasinsListeHiddenField
+  commentId: T:Altazion.ECommerce.Controls.TousLesMagasinsListeHiddenField
+  id: TousLesMagasinsListeHiddenField
+  parent: Altazion.ECommerce.Controls
+  children:
+  - Altazion.ECommerce.Controls.TousLesMagasinsListeHiddenField.OnPreRender(EventArgs)
+  langs:
+  - csharp
+  - vb
+  name: TousLesMagasinsListeHiddenField
+  nameWithType: TousLesMagasinsListeHiddenField
+  fullName: Altazion.ECommerce.Controls.TousLesMagasinsListeHiddenField
+  type: Class
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/MagasinsControls.cs
+    id: TousLesMagasinsListeHiddenField
+    path: MagasinsControls.cs
+    startLine: 38
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: 'public class TousLesMagasinsListeHiddenField : HiddenField'
+    content.vb: >-
+      Public Class TousLesMagasinsListeHiddenField
+          Inherits HiddenField
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Altazion.ECommerce.Controls.TousLesMagasinsListeHiddenField.OnPreRender(EventArgs)
+  commentId: M:Altazion.ECommerce.Controls.TousLesMagasinsListeHiddenField.OnPreRender(EventArgs)
+  id: OnPreRender(EventArgs)
+  parent: Altazion.ECommerce.Controls.TousLesMagasinsListeHiddenField
+  langs:
+  - csharp
+  - vb
+  name: OnPreRender(EventArgs)
+  nameWithType: TousLesMagasinsListeHiddenField.OnPreRender(EventArgs)
+  fullName: Altazion.ECommerce.Controls.TousLesMagasinsListeHiddenField.OnPreRender(EventArgs)
+  type: Method
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/MagasinsControls.cs
+    id: OnPreRender
+    path: MagasinsControls.cs
+    startLine: 45
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: protected override void OnPreRender(EventArgs e)
+    parameters:
+    - id: e
+      type: EventArgs
+    content.vb: Protected Overrides Sub OnPreRender(e As EventArgs)
+  overload: Altazion.ECommerce.Controls.TousLesMagasinsListeHiddenField.OnPreRender*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+references:
+- uid: Altazion.ECommerce.Controls
+  commentId: N:Altazion.ECommerce.Controls
+  name: Altazion.ECommerce.Controls
+  nameWithType: Altazion.ECommerce.Controls
+  fullName: Altazion.ECommerce.Controls
+- uid: System.Object
+  commentId: '!:System.Object'
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Altazion.ECommerce.Controls.TousLesMagasinsListeHiddenField.OnPreRender*
+  commentId: Overload:Altazion.ECommerce.Controls.TousLesMagasinsListeHiddenField.OnPreRender
+  name: OnPreRender
+  nameWithType: TousLesMagasinsListeHiddenField.OnPreRender
+  fullName: Altazion.ECommerce.Controls.TousLesMagasinsListeHiddenField.OnPreRender
+- uid: EventArgs
+  isExternal: true
+  name: EventArgs
+  nameWithType: EventArgs
+  fullName: EventArgs

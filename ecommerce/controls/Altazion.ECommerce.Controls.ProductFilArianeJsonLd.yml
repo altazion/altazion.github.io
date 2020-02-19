@@ -1,0 +1,140 @@
+### YamlMime:ManagedReference
+items:
+- uid: Altazion.ECommerce.Controls.ProductFilArianeJsonLd
+  commentId: T:Altazion.ECommerce.Controls.ProductFilArianeJsonLd
+  id: ProductFilArianeJsonLd
+  parent: Altazion.ECommerce.Controls
+  children:
+  - Altazion.ECommerce.Controls.ProductFilArianeJsonLd.#ctor
+  - Altazion.ECommerce.Controls.ProductFilArianeJsonLd.OnPreRender(EventArgs)
+  langs:
+  - csharp
+  - vb
+  name: ProductFilArianeJsonLd
+  nameWithType: ProductFilArianeJsonLd
+  fullName: Altazion.ECommerce.Controls.ProductFilArianeJsonLd
+  type: Class
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/FilArianeCategories.cs
+    id: ProductFilArianeJsonLd
+    path: FilArianeCategories.cs
+    startLine: 230
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: 'public class ProductFilArianeJsonLd : WebControl, IEquihiraBindable'
+    content.vb: >-
+      Public Class ProductFilArianeJsonLd
+          Inherits WebControl
+          Implements IEquihiraBindable
+  inheritance:
+  - System.Object
+  implements:
+  - CPointSoftware.ECommerce.Tools.IEquihiraBindable
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Altazion.ECommerce.Controls.ProductFilArianeJsonLd.#ctor
+  commentId: M:Altazion.ECommerce.Controls.ProductFilArianeJsonLd.#ctor
+  id: '#ctor'
+  parent: Altazion.ECommerce.Controls.ProductFilArianeJsonLd
+  langs:
+  - csharp
+  - vb
+  name: ProductFilArianeJsonLd()
+  nameWithType: ProductFilArianeJsonLd.ProductFilArianeJsonLd()
+  fullName: Altazion.ECommerce.Controls.ProductFilArianeJsonLd.ProductFilArianeJsonLd()
+  type: Constructor
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/FilArianeCategories.cs
+    id: .ctor
+    path: FilArianeCategories.cs
+    startLine: 232
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: public ProductFilArianeJsonLd()
+    content.vb: Public Sub New
+  overload: Altazion.ECommerce.Controls.ProductFilArianeJsonLd.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Altazion.ECommerce.Controls.ProductFilArianeJsonLd.OnPreRender(EventArgs)
+  commentId: M:Altazion.ECommerce.Controls.ProductFilArianeJsonLd.OnPreRender(EventArgs)
+  id: OnPreRender(EventArgs)
+  parent: Altazion.ECommerce.Controls.ProductFilArianeJsonLd
+  langs:
+  - csharp
+  - vb
+  name: OnPreRender(EventArgs)
+  nameWithType: ProductFilArianeJsonLd.OnPreRender(EventArgs)
+  fullName: Altazion.ECommerce.Controls.ProductFilArianeJsonLd.OnPreRender(EventArgs)
+  type: Method
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/FilArianeCategories.cs
+    id: OnPreRender
+    path: FilArianeCategories.cs
+    startLine: 236
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: protected override void OnPreRender(EventArgs e)
+    parameters:
+    - id: e
+      type: EventArgs
+    content.vb: Protected Overrides Sub OnPreRender(e As EventArgs)
+  overload: Altazion.ECommerce.Controls.ProductFilArianeJsonLd.OnPreRender*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+references:
+- uid: Altazion.ECommerce.Controls
+  commentId: N:Altazion.ECommerce.Controls
+  name: Altazion.ECommerce.Controls
+  nameWithType: Altazion.ECommerce.Controls
+  fullName: Altazion.ECommerce.Controls
+- uid: System.Object
+  commentId: '!:System.Object'
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: CPointSoftware.ECommerce.Tools.IEquihiraBindable
+  commentId: T:CPointSoftware.ECommerce.Tools.IEquihiraBindable
+  parent: CPointSoftware.ECommerce.Tools
+  name: IEquihiraBindable
+  nameWithType: IEquihiraBindable
+  fullName: CPointSoftware.ECommerce.Tools.IEquihiraBindable
+- uid: CPointSoftware.ECommerce.Tools
+  commentId: N:CPointSoftware.ECommerce.Tools
+  name: CPointSoftware.ECommerce.Tools
+  nameWithType: CPointSoftware.ECommerce.Tools
+  fullName: CPointSoftware.ECommerce.Tools
+- uid: Altazion.ECommerce.Controls.ProductFilArianeJsonLd.#ctor*
+  commentId: Overload:Altazion.ECommerce.Controls.ProductFilArianeJsonLd.#ctor
+  name: ProductFilArianeJsonLd
+  nameWithType: ProductFilArianeJsonLd.ProductFilArianeJsonLd
+  fullName: Altazion.ECommerce.Controls.ProductFilArianeJsonLd.ProductFilArianeJsonLd
+- uid: Altazion.ECommerce.Controls.ProductFilArianeJsonLd.OnPreRender*
+  commentId: Overload:Altazion.ECommerce.Controls.ProductFilArianeJsonLd.OnPreRender
+  name: OnPreRender
+  nameWithType: ProductFilArianeJsonLd.OnPreRender
+  fullName: Altazion.ECommerce.Controls.ProductFilArianeJsonLd.OnPreRender
+- uid: EventArgs
+  isExternal: true
+  name: EventArgs
+  nameWithType: EventArgs
+  fullName: EventArgs

@@ -1,0 +1,146 @@
+### YamlMime:ManagedReference
+items:
+- uid: Altazion.ECommerce.Controls.BonsAchatsGridView.BonAchatParsingArgs
+  commentId: T:Altazion.ECommerce.Controls.BonsAchatsGridView.BonAchatParsingArgs
+  id: BonsAchatsGridView.BonAchatParsingArgs
+  parent: Altazion.ECommerce.Controls
+  children:
+  - Altazion.ECommerce.Controls.BonsAchatsGridView.BonAchatParsingArgs.#ctor(Altazion.ECommerce.Controls.BonsAchatsGridView.BonAchatData)
+  - Altazion.ECommerce.Controls.BonsAchatsGridView.BonAchatParsingArgs.BonAchat
+  langs:
+  - csharp
+  - vb
+  name: BonsAchatsGridView.BonAchatParsingArgs
+  nameWithType: BonsAchatsGridView.BonAchatParsingArgs
+  fullName: Altazion.ECommerce.Controls.BonsAchatsGridView.BonAchatParsingArgs
+  type: Class
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/BonsAchatsControls.cs
+    id: BonAchatParsingArgs
+    path: BonsAchatsControls.cs
+    startLine: 260
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  summary: "\nReprésente les données associées à un évènement <xref href=\"Altazion.ECommerce.Controls.BonsAchatsGridView.Parsing\" data-throw-if-not-resolved=\"false\"></xref>\n"
+  example: []
+  syntax:
+    content: 'public class BonAchatParsingArgs : EventArgs'
+    content.vb: >-
+      Public Class BonAchatParsingArgs
+          Inherits EventArgs
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Altazion.ECommerce.Controls.BonsAchatsGridView.BonAchatParsingArgs.#ctor(Altazion.ECommerce.Controls.BonsAchatsGridView.BonAchatData)
+  commentId: M:Altazion.ECommerce.Controls.BonsAchatsGridView.BonAchatParsingArgs.#ctor(Altazion.ECommerce.Controls.BonsAchatsGridView.BonAchatData)
+  id: '#ctor(Altazion.ECommerce.Controls.BonsAchatsGridView.BonAchatData)'
+  parent: Altazion.ECommerce.Controls.BonsAchatsGridView.BonAchatParsingArgs
+  langs:
+  - csharp
+  - vb
+  name: BonAchatParsingArgs(BonsAchatsGridView.BonAchatData)
+  nameWithType: BonsAchatsGridView.BonAchatParsingArgs.BonAchatParsingArgs(BonsAchatsGridView.BonAchatData)
+  fullName: Altazion.ECommerce.Controls.BonsAchatsGridView.BonAchatParsingArgs.BonAchatParsingArgs(Altazion.ECommerce.Controls.BonsAchatsGridView.BonAchatData)
+  type: Constructor
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/BonsAchatsControls.cs
+    id: .ctor
+    path: BonsAchatsControls.cs
+    startLine: 267
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  summary: "\nInitialise une instance de <xref href=\"Altazion.ECommerce.Controls.BonsAchatsGridView.BonAchatParsingArgs\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  example: []
+  syntax:
+    content: public BonAchatParsingArgs(BonsAchatsGridView.BonAchatData bon)
+    parameters:
+    - id: bon
+      type: Altazion.ECommerce.Controls.BonsAchatsGridView.BonAchatData
+      description: Le bon d&apos;achat.
+    content.vb: Public Sub New(bon As BonsAchatsGridView.BonAchatData)
+  overload: Altazion.ECommerce.Controls.BonsAchatsGridView.BonAchatParsingArgs.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Altazion.ECommerce.Controls.BonsAchatsGridView.BonAchatParsingArgs.BonAchat
+  commentId: P:Altazion.ECommerce.Controls.BonsAchatsGridView.BonAchatParsingArgs.BonAchat
+  id: BonAchat
+  parent: Altazion.ECommerce.Controls.BonsAchatsGridView.BonAchatParsingArgs
+  langs:
+  - csharp
+  - vb
+  name: BonAchat
+  nameWithType: BonsAchatsGridView.BonAchatParsingArgs.BonAchat
+  fullName: Altazion.ECommerce.Controls.BonsAchatsGridView.BonAchatParsingArgs.BonAchat
+  type: Property
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/BonsAchatsControls.cs
+    id: BonAchat
+    path: BonsAchatsControls.cs
+    startLine: 275
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  summary: "\nObtient le bon d&apos;achats\n"
+  example: []
+  syntax:
+    content: public BonsAchatsGridView.BonAchatData BonAchat { get; }
+    parameters: []
+    return:
+      type: Altazion.ECommerce.Controls.BonsAchatsGridView.BonAchatData
+    content.vb: Public ReadOnly Property BonAchat As BonsAchatsGridView.BonAchatData
+  overload: Altazion.ECommerce.Controls.BonsAchatsGridView.BonAchatParsingArgs.BonAchat*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+references:
+- uid: Altazion.ECommerce.Controls.BonsAchatsGridView.Parsing
+  commentId: E:Altazion.ECommerce.Controls.BonsAchatsGridView.Parsing
+  isExternal: true
+- uid: Altazion.ECommerce.Controls
+  commentId: N:Altazion.ECommerce.Controls
+  name: Altazion.ECommerce.Controls
+  nameWithType: Altazion.ECommerce.Controls
+  fullName: Altazion.ECommerce.Controls
+- uid: System.Object
+  commentId: '!:System.Object'
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Altazion.ECommerce.Controls.BonsAchatsGridView.BonAchatParsingArgs
+  commentId: T:Altazion.ECommerce.Controls.BonsAchatsGridView.BonAchatParsingArgs
+  parent: Altazion.ECommerce.Controls
+  name: BonsAchatsGridView.BonAchatParsingArgs
+  nameWithType: BonsAchatsGridView.BonAchatParsingArgs
+  fullName: Altazion.ECommerce.Controls.BonsAchatsGridView.BonAchatParsingArgs
+- uid: Altazion.ECommerce.Controls.BonsAchatsGridView.BonAchatParsingArgs.#ctor*
+  commentId: Overload:Altazion.ECommerce.Controls.BonsAchatsGridView.BonAchatParsingArgs.#ctor
+  name: BonAchatParsingArgs
+  nameWithType: BonsAchatsGridView.BonAchatParsingArgs.BonAchatParsingArgs
+  fullName: Altazion.ECommerce.Controls.BonsAchatsGridView.BonAchatParsingArgs.BonAchatParsingArgs
+- uid: Altazion.ECommerce.Controls.BonsAchatsGridView.BonAchatData
+  commentId: T:Altazion.ECommerce.Controls.BonsAchatsGridView.BonAchatData
+  parent: Altazion.ECommerce.Controls
+  name: BonsAchatsGridView.BonAchatData
+  nameWithType: BonsAchatsGridView.BonAchatData
+  fullName: Altazion.ECommerce.Controls.BonsAchatsGridView.BonAchatData
+- uid: Altazion.ECommerce.Controls.BonsAchatsGridView.BonAchatParsingArgs.BonAchat*
+  commentId: Overload:Altazion.ECommerce.Controls.BonsAchatsGridView.BonAchatParsingArgs.BonAchat
+  name: BonAchat
+  nameWithType: BonsAchatsGridView.BonAchatParsingArgs.BonAchat
+  fullName: Altazion.ECommerce.Controls.BonsAchatsGridView.BonAchatParsingArgs.BonAchat

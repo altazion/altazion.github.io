@@ -1,0 +1,695 @@
+### YamlMime:ManagedReference
+items:
+- uid: Altazion.ECommerce.Controls.PanierProduitLabel.ProduitField
+  commentId: T:Altazion.ECommerce.Controls.PanierProduitLabel.ProduitField
+  id: PanierProduitLabel.ProduitField
+  parent: Altazion.ECommerce.Controls
+  children:
+  - Altazion.ECommerce.Controls.PanierProduitLabel.ProduitField.Differentiant1
+  - Altazion.ECommerce.Controls.PanierProduitLabel.ProduitField.Differentiant2
+  - Altazion.ECommerce.Controls.PanierProduitLabel.ProduitField.Libelle
+  - Altazion.ECommerce.Controls.PanierProduitLabel.ProduitField.Montant
+  - Altazion.ECommerce.Controls.PanierProduitLabel.ProduitField.MontantHt
+  - Altazion.ECommerce.Controls.PanierProduitLabel.ProduitField.MontantTtc
+  - Altazion.ECommerce.Controls.PanierProduitLabel.ProduitField.PctPromo
+  - Altazion.ECommerce.Controls.PanierProduitLabel.ProduitField.PrixUnitaire
+  - Altazion.ECommerce.Controls.PanierProduitLabel.ProduitField.PrixUnitaireEtHorsPromo
+  - Altazion.ECommerce.Controls.PanierProduitLabel.ProduitField.PrixUnitaireHorsPromo
+  - Altazion.ECommerce.Controls.PanierProduitLabel.ProduitField.PrixUnitaireHorsRemise
+  - Altazion.ECommerce.Controls.PanierProduitLabel.ProduitField.PrixUnitaireHt
+  - Altazion.ECommerce.Controls.PanierProduitLabel.ProduitField.PrixUnitaireHtEtHtHorsPromo
+  - Altazion.ECommerce.Controls.PanierProduitLabel.ProduitField.PrixUnitaireHtHorsPromo
+  - Altazion.ECommerce.Controls.PanierProduitLabel.ProduitField.PrixUnitaireHtHorsRemise
+  - Altazion.ECommerce.Controls.PanierProduitLabel.ProduitField.PrixUnitaireTtc
+  - Altazion.ECommerce.Controls.PanierProduitLabel.ProduitField.PrixUnitaireTtcEtTtcHorsPromo
+  - Altazion.ECommerce.Controls.PanierProduitLabel.ProduitField.PrixUnitaireTtcHorsPromo
+  - Altazion.ECommerce.Controls.PanierProduitLabel.ProduitField.PrixUnitaireTtcHorsRemise
+  - Altazion.ECommerce.Controls.PanierProduitLabel.ProduitField.Quantite
+  - Altazion.ECommerce.Controls.PanierProduitLabel.ProduitField.Reference
+  langs:
+  - csharp
+  - vb
+  name: PanierProduitLabel.ProduitField
+  nameWithType: PanierProduitLabel.ProduitField
+  fullName: Altazion.ECommerce.Controls.PanierProduitLabel.ProduitField
+  type: Enum
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanierProduitField.cs
+    id: ProduitField
+    path: PanierProduitField.cs
+    startLine: 495
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: 'public enum ProduitField : int'
+    content.vb: Public Enum ProduitField As Integer
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Altazion.ECommerce.Controls.PanierProduitLabel.ProduitField.Reference
+  commentId: F:Altazion.ECommerce.Controls.PanierProduitLabel.ProduitField.Reference
+  id: Reference
+  parent: Altazion.ECommerce.Controls.PanierProduitLabel.ProduitField
+  langs:
+  - csharp
+  - vb
+  name: Reference
+  nameWithType: PanierProduitLabel.ProduitField.Reference
+  fullName: Altazion.ECommerce.Controls.PanierProduitLabel.ProduitField.Reference
+  type: Field
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanierProduitField.cs
+    id: Reference
+    path: PanierProduitField.cs
+    startLine: 497
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: Reference = 0
+    return:
+      type: Altazion.ECommerce.Controls.PanierProduitLabel.ProduitField
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Altazion.ECommerce.Controls.PanierProduitLabel.ProduitField.Quantite
+  commentId: F:Altazion.ECommerce.Controls.PanierProduitLabel.ProduitField.Quantite
+  id: Quantite
+  parent: Altazion.ECommerce.Controls.PanierProduitLabel.ProduitField
+  langs:
+  - csharp
+  - vb
+  name: Quantite
+  nameWithType: PanierProduitLabel.ProduitField.Quantite
+  fullName: Altazion.ECommerce.Controls.PanierProduitLabel.ProduitField.Quantite
+  type: Field
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanierProduitField.cs
+    id: Quantite
+    path: PanierProduitField.cs
+    startLine: 498
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: Quantite = 1
+    return:
+      type: Altazion.ECommerce.Controls.PanierProduitLabel.ProduitField
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Altazion.ECommerce.Controls.PanierProduitLabel.ProduitField.PrixUnitaire
+  commentId: F:Altazion.ECommerce.Controls.PanierProduitLabel.ProduitField.PrixUnitaire
+  id: PrixUnitaire
+  parent: Altazion.ECommerce.Controls.PanierProduitLabel.ProduitField
+  langs:
+  - csharp
+  - vb
+  name: PrixUnitaire
+  nameWithType: PanierProduitLabel.ProduitField.PrixUnitaire
+  fullName: Altazion.ECommerce.Controls.PanierProduitLabel.ProduitField.PrixUnitaire
+  type: Field
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanierProduitField.cs
+    id: PrixUnitaire
+    path: PanierProduitField.cs
+    startLine: 499
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: PrixUnitaire = 2
+    return:
+      type: Altazion.ECommerce.Controls.PanierProduitLabel.ProduitField
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Altazion.ECommerce.Controls.PanierProduitLabel.ProduitField.PrixUnitaireHt
+  commentId: F:Altazion.ECommerce.Controls.PanierProduitLabel.ProduitField.PrixUnitaireHt
+  id: PrixUnitaireHt
+  parent: Altazion.ECommerce.Controls.PanierProduitLabel.ProduitField
+  langs:
+  - csharp
+  - vb
+  name: PrixUnitaireHt
+  nameWithType: PanierProduitLabel.ProduitField.PrixUnitaireHt
+  fullName: Altazion.ECommerce.Controls.PanierProduitLabel.ProduitField.PrixUnitaireHt
+  type: Field
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanierProduitField.cs
+    id: PrixUnitaireHt
+    path: PanierProduitField.cs
+    startLine: 500
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: PrixUnitaireHt = 3
+    return:
+      type: Altazion.ECommerce.Controls.PanierProduitLabel.ProduitField
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Altazion.ECommerce.Controls.PanierProduitLabel.ProduitField.PrixUnitaireTtc
+  commentId: F:Altazion.ECommerce.Controls.PanierProduitLabel.ProduitField.PrixUnitaireTtc
+  id: PrixUnitaireTtc
+  parent: Altazion.ECommerce.Controls.PanierProduitLabel.ProduitField
+  langs:
+  - csharp
+  - vb
+  name: PrixUnitaireTtc
+  nameWithType: PanierProduitLabel.ProduitField.PrixUnitaireTtc
+  fullName: Altazion.ECommerce.Controls.PanierProduitLabel.ProduitField.PrixUnitaireTtc
+  type: Field
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanierProduitField.cs
+    id: PrixUnitaireTtc
+    path: PanierProduitField.cs
+    startLine: 501
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: PrixUnitaireTtc = 4
+    return:
+      type: Altazion.ECommerce.Controls.PanierProduitLabel.ProduitField
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Altazion.ECommerce.Controls.PanierProduitLabel.ProduitField.Libelle
+  commentId: F:Altazion.ECommerce.Controls.PanierProduitLabel.ProduitField.Libelle
+  id: Libelle
+  parent: Altazion.ECommerce.Controls.PanierProduitLabel.ProduitField
+  langs:
+  - csharp
+  - vb
+  name: Libelle
+  nameWithType: PanierProduitLabel.ProduitField.Libelle
+  fullName: Altazion.ECommerce.Controls.PanierProduitLabel.ProduitField.Libelle
+  type: Field
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanierProduitField.cs
+    id: Libelle
+    path: PanierProduitField.cs
+    startLine: 502
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: Libelle = 5
+    return:
+      type: Altazion.ECommerce.Controls.PanierProduitLabel.ProduitField
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Altazion.ECommerce.Controls.PanierProduitLabel.ProduitField.MontantHt
+  commentId: F:Altazion.ECommerce.Controls.PanierProduitLabel.ProduitField.MontantHt
+  id: MontantHt
+  parent: Altazion.ECommerce.Controls.PanierProduitLabel.ProduitField
+  langs:
+  - csharp
+  - vb
+  name: MontantHt
+  nameWithType: PanierProduitLabel.ProduitField.MontantHt
+  fullName: Altazion.ECommerce.Controls.PanierProduitLabel.ProduitField.MontantHt
+  type: Field
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanierProduitField.cs
+    id: MontantHt
+    path: PanierProduitField.cs
+    startLine: 503
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: MontantHt = 6
+    return:
+      type: Altazion.ECommerce.Controls.PanierProduitLabel.ProduitField
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Altazion.ECommerce.Controls.PanierProduitLabel.ProduitField.MontantTtc
+  commentId: F:Altazion.ECommerce.Controls.PanierProduitLabel.ProduitField.MontantTtc
+  id: MontantTtc
+  parent: Altazion.ECommerce.Controls.PanierProduitLabel.ProduitField
+  langs:
+  - csharp
+  - vb
+  name: MontantTtc
+  nameWithType: PanierProduitLabel.ProduitField.MontantTtc
+  fullName: Altazion.ECommerce.Controls.PanierProduitLabel.ProduitField.MontantTtc
+  type: Field
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanierProduitField.cs
+    id: MontantTtc
+    path: PanierProduitField.cs
+    startLine: 504
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: MontantTtc = 7
+    return:
+      type: Altazion.ECommerce.Controls.PanierProduitLabel.ProduitField
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Altazion.ECommerce.Controls.PanierProduitLabel.ProduitField.PrixUnitaireHtHorsPromo
+  commentId: F:Altazion.ECommerce.Controls.PanierProduitLabel.ProduitField.PrixUnitaireHtHorsPromo
+  id: PrixUnitaireHtHorsPromo
+  parent: Altazion.ECommerce.Controls.PanierProduitLabel.ProduitField
+  langs:
+  - csharp
+  - vb
+  name: PrixUnitaireHtHorsPromo
+  nameWithType: PanierProduitLabel.ProduitField.PrixUnitaireHtHorsPromo
+  fullName: Altazion.ECommerce.Controls.PanierProduitLabel.ProduitField.PrixUnitaireHtHorsPromo
+  type: Field
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanierProduitField.cs
+    id: PrixUnitaireHtHorsPromo
+    path: PanierProduitField.cs
+    startLine: 505
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: PrixUnitaireHtHorsPromo = 8
+    return:
+      type: Altazion.ECommerce.Controls.PanierProduitLabel.ProduitField
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Altazion.ECommerce.Controls.PanierProduitLabel.ProduitField.PrixUnitaireTtcHorsPromo
+  commentId: F:Altazion.ECommerce.Controls.PanierProduitLabel.ProduitField.PrixUnitaireTtcHorsPromo
+  id: PrixUnitaireTtcHorsPromo
+  parent: Altazion.ECommerce.Controls.PanierProduitLabel.ProduitField
+  langs:
+  - csharp
+  - vb
+  name: PrixUnitaireTtcHorsPromo
+  nameWithType: PanierProduitLabel.ProduitField.PrixUnitaireTtcHorsPromo
+  fullName: Altazion.ECommerce.Controls.PanierProduitLabel.ProduitField.PrixUnitaireTtcHorsPromo
+  type: Field
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanierProduitField.cs
+    id: PrixUnitaireTtcHorsPromo
+    path: PanierProduitField.cs
+    startLine: 506
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: PrixUnitaireTtcHorsPromo = 9
+    return:
+      type: Altazion.ECommerce.Controls.PanierProduitLabel.ProduitField
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Altazion.ECommerce.Controls.PanierProduitLabel.ProduitField.PrixUnitaireTtcHorsRemise
+  commentId: F:Altazion.ECommerce.Controls.PanierProduitLabel.ProduitField.PrixUnitaireTtcHorsRemise
+  id: PrixUnitaireTtcHorsRemise
+  parent: Altazion.ECommerce.Controls.PanierProduitLabel.ProduitField
+  langs:
+  - csharp
+  - vb
+  name: PrixUnitaireTtcHorsRemise
+  nameWithType: PanierProduitLabel.ProduitField.PrixUnitaireTtcHorsRemise
+  fullName: Altazion.ECommerce.Controls.PanierProduitLabel.ProduitField.PrixUnitaireTtcHorsRemise
+  type: Field
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanierProduitField.cs
+    id: PrixUnitaireTtcHorsRemise
+    path: PanierProduitField.cs
+    startLine: 507
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: PrixUnitaireTtcHorsRemise = 10
+    return:
+      type: Altazion.ECommerce.Controls.PanierProduitLabel.ProduitField
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Altazion.ECommerce.Controls.PanierProduitLabel.ProduitField.PrixUnitaireHtHorsRemise
+  commentId: F:Altazion.ECommerce.Controls.PanierProduitLabel.ProduitField.PrixUnitaireHtHorsRemise
+  id: PrixUnitaireHtHorsRemise
+  parent: Altazion.ECommerce.Controls.PanierProduitLabel.ProduitField
+  langs:
+  - csharp
+  - vb
+  name: PrixUnitaireHtHorsRemise
+  nameWithType: PanierProduitLabel.ProduitField.PrixUnitaireHtHorsRemise
+  fullName: Altazion.ECommerce.Controls.PanierProduitLabel.ProduitField.PrixUnitaireHtHorsRemise
+  type: Field
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanierProduitField.cs
+    id: PrixUnitaireHtHorsRemise
+    path: PanierProduitField.cs
+    startLine: 508
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: PrixUnitaireHtHorsRemise = 11
+    return:
+      type: Altazion.ECommerce.Controls.PanierProduitLabel.ProduitField
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Altazion.ECommerce.Controls.PanierProduitLabel.ProduitField.PrixUnitaireTtcEtTtcHorsPromo
+  commentId: F:Altazion.ECommerce.Controls.PanierProduitLabel.ProduitField.PrixUnitaireTtcEtTtcHorsPromo
+  id: PrixUnitaireTtcEtTtcHorsPromo
+  parent: Altazion.ECommerce.Controls.PanierProduitLabel.ProduitField
+  langs:
+  - csharp
+  - vb
+  name: PrixUnitaireTtcEtTtcHorsPromo
+  nameWithType: PanierProduitLabel.ProduitField.PrixUnitaireTtcEtTtcHorsPromo
+  fullName: Altazion.ECommerce.Controls.PanierProduitLabel.ProduitField.PrixUnitaireTtcEtTtcHorsPromo
+  type: Field
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanierProduitField.cs
+    id: PrixUnitaireTtcEtTtcHorsPromo
+    path: PanierProduitField.cs
+    startLine: 509
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: PrixUnitaireTtcEtTtcHorsPromo = 12
+    return:
+      type: Altazion.ECommerce.Controls.PanierProduitLabel.ProduitField
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Altazion.ECommerce.Controls.PanierProduitLabel.ProduitField.PrixUnitaireHtEtHtHorsPromo
+  commentId: F:Altazion.ECommerce.Controls.PanierProduitLabel.ProduitField.PrixUnitaireHtEtHtHorsPromo
+  id: PrixUnitaireHtEtHtHorsPromo
+  parent: Altazion.ECommerce.Controls.PanierProduitLabel.ProduitField
+  langs:
+  - csharp
+  - vb
+  name: PrixUnitaireHtEtHtHorsPromo
+  nameWithType: PanierProduitLabel.ProduitField.PrixUnitaireHtEtHtHorsPromo
+  fullName: Altazion.ECommerce.Controls.PanierProduitLabel.ProduitField.PrixUnitaireHtEtHtHorsPromo
+  type: Field
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanierProduitField.cs
+    id: PrixUnitaireHtEtHtHorsPromo
+    path: PanierProduitField.cs
+    startLine: 510
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: PrixUnitaireHtEtHtHorsPromo = 13
+    return:
+      type: Altazion.ECommerce.Controls.PanierProduitLabel.ProduitField
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Altazion.ECommerce.Controls.PanierProduitLabel.ProduitField.PctPromo
+  commentId: F:Altazion.ECommerce.Controls.PanierProduitLabel.ProduitField.PctPromo
+  id: PctPromo
+  parent: Altazion.ECommerce.Controls.PanierProduitLabel.ProduitField
+  langs:
+  - csharp
+  - vb
+  name: PctPromo
+  nameWithType: PanierProduitLabel.ProduitField.PctPromo
+  fullName: Altazion.ECommerce.Controls.PanierProduitLabel.ProduitField.PctPromo
+  type: Field
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanierProduitField.cs
+    id: PctPromo
+    path: PanierProduitField.cs
+    startLine: 511
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: PctPromo = 14
+    return:
+      type: Altazion.ECommerce.Controls.PanierProduitLabel.ProduitField
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Altazion.ECommerce.Controls.PanierProduitLabel.ProduitField.Montant
+  commentId: F:Altazion.ECommerce.Controls.PanierProduitLabel.ProduitField.Montant
+  id: Montant
+  parent: Altazion.ECommerce.Controls.PanierProduitLabel.ProduitField
+  langs:
+  - csharp
+  - vb
+  name: Montant
+  nameWithType: PanierProduitLabel.ProduitField.Montant
+  fullName: Altazion.ECommerce.Controls.PanierProduitLabel.ProduitField.Montant
+  type: Field
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanierProduitField.cs
+    id: Montant
+    path: PanierProduitField.cs
+    startLine: 512
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: Montant = 15
+    return:
+      type: Altazion.ECommerce.Controls.PanierProduitLabel.ProduitField
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Altazion.ECommerce.Controls.PanierProduitLabel.ProduitField.PrixUnitaireHorsPromo
+  commentId: F:Altazion.ECommerce.Controls.PanierProduitLabel.ProduitField.PrixUnitaireHorsPromo
+  id: PrixUnitaireHorsPromo
+  parent: Altazion.ECommerce.Controls.PanierProduitLabel.ProduitField
+  langs:
+  - csharp
+  - vb
+  name: PrixUnitaireHorsPromo
+  nameWithType: PanierProduitLabel.ProduitField.PrixUnitaireHorsPromo
+  fullName: Altazion.ECommerce.Controls.PanierProduitLabel.ProduitField.PrixUnitaireHorsPromo
+  type: Field
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanierProduitField.cs
+    id: PrixUnitaireHorsPromo
+    path: PanierProduitField.cs
+    startLine: 513
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: PrixUnitaireHorsPromo = 16
+    return:
+      type: Altazion.ECommerce.Controls.PanierProduitLabel.ProduitField
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Altazion.ECommerce.Controls.PanierProduitLabel.ProduitField.PrixUnitaireHorsRemise
+  commentId: F:Altazion.ECommerce.Controls.PanierProduitLabel.ProduitField.PrixUnitaireHorsRemise
+  id: PrixUnitaireHorsRemise
+  parent: Altazion.ECommerce.Controls.PanierProduitLabel.ProduitField
+  langs:
+  - csharp
+  - vb
+  name: PrixUnitaireHorsRemise
+  nameWithType: PanierProduitLabel.ProduitField.PrixUnitaireHorsRemise
+  fullName: Altazion.ECommerce.Controls.PanierProduitLabel.ProduitField.PrixUnitaireHorsRemise
+  type: Field
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanierProduitField.cs
+    id: PrixUnitaireHorsRemise
+    path: PanierProduitField.cs
+    startLine: 514
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: PrixUnitaireHorsRemise = 17
+    return:
+      type: Altazion.ECommerce.Controls.PanierProduitLabel.ProduitField
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Altazion.ECommerce.Controls.PanierProduitLabel.ProduitField.PrixUnitaireEtHorsPromo
+  commentId: F:Altazion.ECommerce.Controls.PanierProduitLabel.ProduitField.PrixUnitaireEtHorsPromo
+  id: PrixUnitaireEtHorsPromo
+  parent: Altazion.ECommerce.Controls.PanierProduitLabel.ProduitField
+  langs:
+  - csharp
+  - vb
+  name: PrixUnitaireEtHorsPromo
+  nameWithType: PanierProduitLabel.ProduitField.PrixUnitaireEtHorsPromo
+  fullName: Altazion.ECommerce.Controls.PanierProduitLabel.ProduitField.PrixUnitaireEtHorsPromo
+  type: Field
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanierProduitField.cs
+    id: PrixUnitaireEtHorsPromo
+    path: PanierProduitField.cs
+    startLine: 515
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: PrixUnitaireEtHorsPromo = 18
+    return:
+      type: Altazion.ECommerce.Controls.PanierProduitLabel.ProduitField
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Altazion.ECommerce.Controls.PanierProduitLabel.ProduitField.Differentiant1
+  commentId: F:Altazion.ECommerce.Controls.PanierProduitLabel.ProduitField.Differentiant1
+  id: Differentiant1
+  parent: Altazion.ECommerce.Controls.PanierProduitLabel.ProduitField
+  langs:
+  - csharp
+  - vb
+  name: Differentiant1
+  nameWithType: PanierProduitLabel.ProduitField.Differentiant1
+  fullName: Altazion.ECommerce.Controls.PanierProduitLabel.ProduitField.Differentiant1
+  type: Field
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanierProduitField.cs
+    id: Differentiant1
+    path: PanierProduitField.cs
+    startLine: 516
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: Differentiant1 = 19
+    return:
+      type: Altazion.ECommerce.Controls.PanierProduitLabel.ProduitField
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Altazion.ECommerce.Controls.PanierProduitLabel.ProduitField.Differentiant2
+  commentId: F:Altazion.ECommerce.Controls.PanierProduitLabel.ProduitField.Differentiant2
+  id: Differentiant2
+  parent: Altazion.ECommerce.Controls.PanierProduitLabel.ProduitField
+  langs:
+  - csharp
+  - vb
+  name: Differentiant2
+  nameWithType: PanierProduitLabel.ProduitField.Differentiant2
+  fullName: Altazion.ECommerce.Controls.PanierProduitLabel.ProduitField.Differentiant2
+  type: Field
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanierProduitField.cs
+    id: Differentiant2
+    path: PanierProduitField.cs
+    startLine: 517
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: Differentiant2 = 20
+    return:
+      type: Altazion.ECommerce.Controls.PanierProduitLabel.ProduitField
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Altazion.ECommerce.Controls
+  commentId: N:Altazion.ECommerce.Controls
+  name: Altazion.ECommerce.Controls
+  nameWithType: Altazion.ECommerce.Controls
+  fullName: Altazion.ECommerce.Controls
+- uid: Altazion.ECommerce.Controls.PanierProduitLabel.ProduitField
+  commentId: T:Altazion.ECommerce.Controls.PanierProduitLabel.ProduitField
+  parent: Altazion.ECommerce.Controls
+  name: PanierProduitLabel.ProduitField
+  nameWithType: PanierProduitLabel.ProduitField
+  fullName: Altazion.ECommerce.Controls.PanierProduitLabel.ProduitField

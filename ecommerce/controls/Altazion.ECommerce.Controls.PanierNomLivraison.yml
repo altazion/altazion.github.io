@@ -1,0 +1,92 @@
+### YamlMime:ManagedReference
+items:
+- uid: Altazion.ECommerce.Controls.PanierNomLivraison
+  commentId: T:Altazion.ECommerce.Controls.PanierNomLivraison
+  id: PanierNomLivraison
+  parent: Altazion.ECommerce.Controls
+  children:
+  - Altazion.ECommerce.Controls.PanierNomLivraison.OnPreRender(EventArgs)
+  langs:
+  - csharp
+  - vb
+  name: PanierNomLivraison
+  nameWithType: PanierNomLivraison
+  fullName: Altazion.ECommerce.Controls.PanierNomLivraison
+  type: Class
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanierNomLivraison.cs
+    id: PanierNomLivraison
+    path: PanierNomLivraison.cs
+    startLine: 10
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: 'public class PanierNomLivraison : Label'
+    content.vb: >-
+      Public Class PanierNomLivraison
+          Inherits Label
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Altazion.ECommerce.Controls.PanierNomLivraison.OnPreRender(EventArgs)
+  commentId: M:Altazion.ECommerce.Controls.PanierNomLivraison.OnPreRender(EventArgs)
+  id: OnPreRender(EventArgs)
+  parent: Altazion.ECommerce.Controls.PanierNomLivraison
+  langs:
+  - csharp
+  - vb
+  name: OnPreRender(EventArgs)
+  nameWithType: PanierNomLivraison.OnPreRender(EventArgs)
+  fullName: Altazion.ECommerce.Controls.PanierNomLivraison.OnPreRender(EventArgs)
+  type: Method
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanierNomLivraison.cs
+    id: OnPreRender
+    path: PanierNomLivraison.cs
+    startLine: 12
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: protected override void OnPreRender(EventArgs e)
+    parameters:
+    - id: e
+      type: EventArgs
+    content.vb: Protected Overrides Sub OnPreRender(e As EventArgs)
+  overload: Altazion.ECommerce.Controls.PanierNomLivraison.OnPreRender*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+references:
+- uid: Altazion.ECommerce.Controls
+  commentId: N:Altazion.ECommerce.Controls
+  name: Altazion.ECommerce.Controls
+  nameWithType: Altazion.ECommerce.Controls
+  fullName: Altazion.ECommerce.Controls
+- uid: System.Object
+  commentId: '!:System.Object'
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Altazion.ECommerce.Controls.PanierNomLivraison.OnPreRender*
+  commentId: Overload:Altazion.ECommerce.Controls.PanierNomLivraison.OnPreRender
+  name: OnPreRender
+  nameWithType: PanierNomLivraison.OnPreRender
+  fullName: Altazion.ECommerce.Controls.PanierNomLivraison.OnPreRender
+- uid: EventArgs
+  isExternal: true
+  name: EventArgs
+  nameWithType: EventArgs
+  fullName: EventArgs

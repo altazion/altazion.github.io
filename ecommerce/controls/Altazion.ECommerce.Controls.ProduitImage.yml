@@ -1,0 +1,196 @@
+### YamlMime:ManagedReference
+items:
+- uid: Altazion.ECommerce.Controls.ProduitImage
+  commentId: T:Altazion.ECommerce.Controls.ProduitImage
+  id: ProduitImage
+  parent: Altazion.ECommerce.Controls
+  children:
+  - Altazion.ECommerce.Controls.ProduitImage.ImageType
+  - Altazion.ECommerce.Controls.ProduitImage.ImageUrlIfNone
+  - Altazion.ECommerce.Controls.ProduitImage.IsZoomable
+  langs:
+  - csharp
+  - vb
+  name: ProduitImage
+  nameWithType: ProduitImage
+  fullName: Altazion.ECommerce.Controls.ProduitImage
+  type: Class
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/ProductImage.cs
+    id: ProduitImage
+    path: ProductImage.cs
+    startLine: 251
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  summary: "\naffiche l&apos;image du produit\n"
+  example: []
+  syntax:
+    content: 'public class ProduitImage : Image, IEquihiraBindable'
+    content.vb: >-
+      Public Class ProduitImage
+          Inherits Image
+          Implements IEquihiraBindable
+  inheritance:
+  - System.Object
+  implements:
+  - CPointSoftware.ECommerce.Tools.IEquihiraBindable
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Altazion.ECommerce.Controls.ProduitImage.ImageType
+  commentId: P:Altazion.ECommerce.Controls.ProduitImage.ImageType
+  id: ImageType
+  parent: Altazion.ECommerce.Controls.ProduitImage
+  langs:
+  - csharp
+  - vb
+  name: ImageType
+  nameWithType: ProduitImage.ImageType
+  fullName: Altazion.ECommerce.Controls.ProduitImage.ImageType
+  type: Property
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/ProductImage.cs
+    id: ImageType
+    path: ProductImage.cs
+    startLine: 257
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: public TypeProduitImage ImageType { get; set; }
+    parameters: []
+    return:
+      type: CPointSoftware.ECommerce.Tools.TypeProduitImage
+    content.vb: Public Property ImageType As TypeProduitImage
+  overload: Altazion.ECommerce.Controls.ProduitImage.ImageType*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Altazion.ECommerce.Controls.ProduitImage.ImageUrlIfNone
+  commentId: P:Altazion.ECommerce.Controls.ProduitImage.ImageUrlIfNone
+  id: ImageUrlIfNone
+  parent: Altazion.ECommerce.Controls.ProduitImage
+  langs:
+  - csharp
+  - vb
+  name: ImageUrlIfNone
+  nameWithType: ProduitImage.ImageUrlIfNone
+  fullName: Altazion.ECommerce.Controls.ProduitImage.ImageUrlIfNone
+  type: Property
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/ProductImage.cs
+    id: ImageUrlIfNone
+    path: ProductImage.cs
+    startLine: 263
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: public string ImageUrlIfNone { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ImageUrlIfNone As String
+  overload: Altazion.ECommerce.Controls.ProduitImage.ImageUrlIfNone*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Altazion.ECommerce.Controls.ProduitImage.IsZoomable
+  commentId: M:Altazion.ECommerce.Controls.ProduitImage.IsZoomable
+  id: IsZoomable
+  parent: Altazion.ECommerce.Controls.ProduitImage
+  langs:
+  - csharp
+  - vb
+  name: IsZoomable()
+  nameWithType: ProduitImage.IsZoomable()
+  fullName: Altazion.ECommerce.Controls.ProduitImage.IsZoomable()
+  type: Method
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/ProductImage.cs
+    id: IsZoomable
+    path: ProductImage.cs
+    startLine: 282
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: protected virtual bool IsZoomable()
+    return:
+      type: System.Boolean
+    content.vb: Protected Overridable Function IsZoomable As Boolean
+  overload: Altazion.ECommerce.Controls.ProduitImage.IsZoomable*
+  modifiers.csharp:
+  - protected
+  - virtual
+  modifiers.vb:
+  - Protected
+  - Overridable
+references:
+- uid: Altazion.ECommerce.Controls
+  commentId: N:Altazion.ECommerce.Controls
+  name: Altazion.ECommerce.Controls
+  nameWithType: Altazion.ECommerce.Controls
+  fullName: Altazion.ECommerce.Controls
+- uid: System.Object
+  commentId: '!:System.Object'
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: CPointSoftware.ECommerce.Tools.IEquihiraBindable
+  commentId: T:CPointSoftware.ECommerce.Tools.IEquihiraBindable
+  parent: CPointSoftware.ECommerce.Tools
+  name: IEquihiraBindable
+  nameWithType: IEquihiraBindable
+  fullName: CPointSoftware.ECommerce.Tools.IEquihiraBindable
+- uid: CPointSoftware.ECommerce.Tools
+  commentId: N:CPointSoftware.ECommerce.Tools
+  name: CPointSoftware.ECommerce.Tools
+  nameWithType: CPointSoftware.ECommerce.Tools
+  fullName: CPointSoftware.ECommerce.Tools
+- uid: Altazion.ECommerce.Controls.ProduitImage.ImageType*
+  commentId: Overload:Altazion.ECommerce.Controls.ProduitImage.ImageType
+  name: ImageType
+  nameWithType: ProduitImage.ImageType
+  fullName: Altazion.ECommerce.Controls.ProduitImage.ImageType
+- uid: CPointSoftware.ECommerce.Tools.TypeProduitImage
+  commentId: T:CPointSoftware.ECommerce.Tools.TypeProduitImage
+  parent: CPointSoftware.ECommerce.Tools
+  name: TypeProduitImage
+  nameWithType: TypeProduitImage
+  fullName: CPointSoftware.ECommerce.Tools.TypeProduitImage
+- uid: Altazion.ECommerce.Controls.ProduitImage.ImageUrlIfNone*
+  commentId: Overload:Altazion.ECommerce.Controls.ProduitImage.ImageUrlIfNone
+  name: ImageUrlIfNone
+  nameWithType: ProduitImage.ImageUrlIfNone
+  fullName: Altazion.ECommerce.Controls.ProduitImage.ImageUrlIfNone
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Altazion.ECommerce.Controls.ProduitImage.IsZoomable*
+  commentId: Overload:Altazion.ECommerce.Controls.ProduitImage.IsZoomable
+  name: IsZoomable
+  nameWithType: ProduitImage.IsZoomable
+  fullName: Altazion.ECommerce.Controls.ProduitImage.IsZoomable
+- uid: System.Boolean
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

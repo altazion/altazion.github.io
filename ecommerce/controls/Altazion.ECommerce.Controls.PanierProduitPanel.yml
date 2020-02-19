@@ -1,0 +1,92 @@
+### YamlMime:ManagedReference
+items:
+- uid: Altazion.ECommerce.Controls.PanierProduitPanel
+  commentId: T:Altazion.ECommerce.Controls.PanierProduitPanel
+  id: PanierProduitPanel
+  parent: Altazion.ECommerce.Controls
+  children:
+  - Altazion.ECommerce.Controls.PanierProduitPanel.OnDataBinding(EventArgs)
+  langs:
+  - csharp
+  - vb
+  name: PanierProduitPanel
+  nameWithType: PanierProduitPanel
+  fullName: Altazion.ECommerce.Controls.PanierProduitPanel
+  type: Class
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanierProduitField.cs
+    id: PanierProduitPanel
+    path: PanierProduitField.cs
+    startLine: 71
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: 'public class PanierProduitPanel : Panel'
+    content.vb: >-
+      Public Class PanierProduitPanel
+          Inherits Panel
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Altazion.ECommerce.Controls.PanierProduitPanel.OnDataBinding(EventArgs)
+  commentId: M:Altazion.ECommerce.Controls.PanierProduitPanel.OnDataBinding(EventArgs)
+  id: OnDataBinding(EventArgs)
+  parent: Altazion.ECommerce.Controls.PanierProduitPanel
+  langs:
+  - csharp
+  - vb
+  name: OnDataBinding(EventArgs)
+  nameWithType: PanierProduitPanel.OnDataBinding(EventArgs)
+  fullName: Altazion.ECommerce.Controls.PanierProduitPanel.OnDataBinding(EventArgs)
+  type: Method
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanierProduitField.cs
+    id: OnDataBinding
+    path: PanierProduitField.cs
+    startLine: 73
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: protected override void OnDataBinding(EventArgs e)
+    parameters:
+    - id: e
+      type: EventArgs
+    content.vb: Protected Overrides Sub OnDataBinding(e As EventArgs)
+  overload: Altazion.ECommerce.Controls.PanierProduitPanel.OnDataBinding*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+references:
+- uid: Altazion.ECommerce.Controls
+  commentId: N:Altazion.ECommerce.Controls
+  name: Altazion.ECommerce.Controls
+  nameWithType: Altazion.ECommerce.Controls
+  fullName: Altazion.ECommerce.Controls
+- uid: System.Object
+  commentId: '!:System.Object'
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Altazion.ECommerce.Controls.PanierProduitPanel.OnDataBinding*
+  commentId: Overload:Altazion.ECommerce.Controls.PanierProduitPanel.OnDataBinding
+  name: OnDataBinding
+  nameWithType: PanierProduitPanel.OnDataBinding
+  fullName: Altazion.ECommerce.Controls.PanierProduitPanel.OnDataBinding
+- uid: EventArgs
+  isExternal: true
+  name: EventArgs
+  nameWithType: EventArgs
+  fullName: EventArgs

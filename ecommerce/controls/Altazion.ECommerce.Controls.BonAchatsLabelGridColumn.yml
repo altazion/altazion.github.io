@@ -1,0 +1,79 @@
+### YamlMime:ManagedReference
+items:
+- uid: Altazion.ECommerce.Controls.BonAchatsLabelGridColumn
+  commentId: T:Altazion.ECommerce.Controls.BonAchatsLabelGridColumn
+  id: BonAchatsLabelGridColumn
+  parent: Altazion.ECommerce.Controls
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: BonAchatsLabelGridColumn
+  nameWithType: BonAchatsLabelGridColumn
+  fullName: Altazion.ECommerce.Controls.BonAchatsLabelGridColumn
+  type: Class
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/BonsAchatsControls.cs
+    id: BonAchatsLabelGridColumn
+    path: BonsAchatsControls.cs
+    startLine: 580
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  summary: "\nReprésente une colonne dans une <xref href=\"Altazion.ECommerce.Controls.BonsAchatsGridView\" data-throw-if-not-resolved=\"false\"></xref>\naffichant un td avec le libellé du bon d&apos;achat\n"
+  remarks: >-
+    Ce contrôle ne peut être utilisé que dans le cadre du contrôle
+
+    <xref href="Altazion.ECommerce.Controls.BonsAchatsGridView" data-throw-if-not-resolved="false"></xref>
+  example: []
+  syntax:
+    content: 'public class BonAchatsLabelGridColumn : EDataControlField'
+    content.vb: >-
+      Public Class BonAchatsLabelGridColumn
+          Inherits EDataControlField
+  inheritance:
+  - System.Object
+  - CPointSoftware.ECommerce.Tools.EDataControlField
+  inheritedMembers:
+  - CPointSoftware.ECommerce.Tools.EDataControlField.ColumnSpan
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+references:
+- uid: Altazion.ECommerce.Controls.BonsAchatsGridView
+  commentId: T:Altazion.ECommerce.Controls.BonsAchatsGridView
+  name: BonsAchatsGridView
+  nameWithType: BonsAchatsGridView
+  fullName: Altazion.ECommerce.Controls.BonsAchatsGridView
+- uid: Altazion.ECommerce.Controls
+  commentId: N:Altazion.ECommerce.Controls
+  name: Altazion.ECommerce.Controls
+  nameWithType: Altazion.ECommerce.Controls
+  fullName: Altazion.ECommerce.Controls
+- uid: System.Object
+  commentId: '!:System.Object'
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: CPointSoftware.ECommerce.Tools.EDataControlField
+  commentId: T:CPointSoftware.ECommerce.Tools.EDataControlField
+  parent: CPointSoftware.ECommerce.Tools
+  name: EDataControlField
+  nameWithType: EDataControlField
+  fullName: CPointSoftware.ECommerce.Tools.EDataControlField
+- uid: CPointSoftware.ECommerce.Tools.EDataControlField.ColumnSpan
+  commentId: P:CPointSoftware.ECommerce.Tools.EDataControlField.ColumnSpan
+  parent: CPointSoftware.ECommerce.Tools.EDataControlField
+  name: ColumnSpan
+  nameWithType: EDataControlField.ColumnSpan
+  fullName: CPointSoftware.ECommerce.Tools.EDataControlField.ColumnSpan
+- uid: CPointSoftware.ECommerce.Tools
+  commentId: N:CPointSoftware.ECommerce.Tools
+  name: CPointSoftware.ECommerce.Tools
+  nameWithType: CPointSoftware.ECommerce.Tools
+  fullName: CPointSoftware.ECommerce.Tools

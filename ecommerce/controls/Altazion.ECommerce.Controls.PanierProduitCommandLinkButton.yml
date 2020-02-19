@@ -1,0 +1,99 @@
+### YamlMime:ManagedReference
+items:
+- uid: Altazion.ECommerce.Controls.PanierProduitCommandLinkButton
+  commentId: T:Altazion.ECommerce.Controls.PanierProduitCommandLinkButton
+  id: PanierProduitCommandLinkButton
+  parent: Altazion.ECommerce.Controls
+  children:
+  - Altazion.ECommerce.Controls.PanierProduitCommandLinkButton.OnDataBinding(EventArgs)
+  langs:
+  - csharp
+  - vb
+  name: PanierProduitCommandLinkButton
+  nameWithType: PanierProduitCommandLinkButton
+  fullName: Altazion.ECommerce.Controls.PanierProduitCommandLinkButton
+  type: Class
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanierProduitField.cs
+    id: PanierProduitCommandLinkButton
+    path: PanierProduitField.cs
+    startLine: 1824
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  summary: "\nA utiliser dans un <xref href=\"Altazion.ECommerce.Controls.PanierProduitsDataList\" data-throw-if-not-resolved=\"false\"></xref> pour \nafficher un lien d&apos;action\n"
+  example: []
+  syntax:
+    content: 'public class PanierProduitCommandLinkButton : LinkButton'
+    content.vb: >-
+      Public Class PanierProduitCommandLinkButton
+          Inherits LinkButton
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Altazion.ECommerce.Controls.PanierProduitCommandLinkButton.OnDataBinding(EventArgs)
+  commentId: M:Altazion.ECommerce.Controls.PanierProduitCommandLinkButton.OnDataBinding(EventArgs)
+  id: OnDataBinding(EventArgs)
+  parent: Altazion.ECommerce.Controls.PanierProduitCommandLinkButton
+  langs:
+  - csharp
+  - vb
+  name: OnDataBinding(EventArgs)
+  nameWithType: PanierProduitCommandLinkButton.OnDataBinding(EventArgs)
+  fullName: Altazion.ECommerce.Controls.PanierProduitCommandLinkButton.OnDataBinding(EventArgs)
+  type: Method
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanierProduitField.cs
+    id: OnDataBinding
+    path: PanierProduitField.cs
+    startLine: 1826
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: protected override void OnDataBinding(EventArgs e)
+    parameters:
+    - id: e
+      type: EventArgs
+    content.vb: Protected Overrides Sub OnDataBinding(e As EventArgs)
+  overload: Altazion.ECommerce.Controls.PanierProduitCommandLinkButton.OnDataBinding*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+references:
+- uid: Altazion.ECommerce.Controls.PanierProduitsDataList
+  commentId: T:Altazion.ECommerce.Controls.PanierProduitsDataList
+  name: PanierProduitsDataList
+  nameWithType: PanierProduitsDataList
+  fullName: Altazion.ECommerce.Controls.PanierProduitsDataList
+- uid: Altazion.ECommerce.Controls
+  commentId: N:Altazion.ECommerce.Controls
+  name: Altazion.ECommerce.Controls
+  nameWithType: Altazion.ECommerce.Controls
+  fullName: Altazion.ECommerce.Controls
+- uid: System.Object
+  commentId: '!:System.Object'
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Altazion.ECommerce.Controls.PanierProduitCommandLinkButton.OnDataBinding*
+  commentId: Overload:Altazion.ECommerce.Controls.PanierProduitCommandLinkButton.OnDataBinding
+  name: OnDataBinding
+  nameWithType: PanierProduitCommandLinkButton.OnDataBinding
+  fullName: Altazion.ECommerce.Controls.PanierProduitCommandLinkButton.OnDataBinding
+- uid: EventArgs
+  isExternal: true
+  name: EventArgs
+  nameWithType: EventArgs
+  fullName: EventArgs

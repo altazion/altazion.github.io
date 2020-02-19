@@ -1,0 +1,199 @@
+### YamlMime:ManagedReference
+items:
+- uid: Altazion.ECommerce.Controls.ProduitDimensions.Dimension
+  commentId: T:Altazion.ECommerce.Controls.ProduitDimensions.Dimension
+  id: ProduitDimensions.Dimension
+  parent: Altazion.ECommerce.Controls
+  children:
+  - Altazion.ECommerce.Controls.ProduitDimensions.Dimension.Hauteur
+  - Altazion.ECommerce.Controls.ProduitDimensions.Dimension.Largeur
+  - Altazion.ECommerce.Controls.ProduitDimensions.Dimension.PoidsEnG
+  - Altazion.ECommerce.Controls.ProduitDimensions.Dimension.PoidsEnKg
+  - Altazion.ECommerce.Controls.ProduitDimensions.Dimension.Profondeur
+  langs:
+  - csharp
+  - vb
+  name: ProduitDimensions.Dimension
+  nameWithType: ProduitDimensions.Dimension
+  fullName: Altazion.ECommerce.Controls.ProduitDimensions.Dimension
+  type: Enum
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/ProductLabels.cs
+    id: Dimension
+    path: ProductLabels.cs
+    startLine: 1902
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: 'public enum Dimension : int'
+    content.vb: Public Enum Dimension As Integer
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Altazion.ECommerce.Controls.ProduitDimensions.Dimension.Largeur
+  commentId: F:Altazion.ECommerce.Controls.ProduitDimensions.Dimension.Largeur
+  id: Largeur
+  parent: Altazion.ECommerce.Controls.ProduitDimensions.Dimension
+  langs:
+  - csharp
+  - vb
+  name: Largeur
+  nameWithType: ProduitDimensions.Dimension.Largeur
+  fullName: Altazion.ECommerce.Controls.ProduitDimensions.Dimension.Largeur
+  type: Field
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/ProductLabels.cs
+    id: Largeur
+    path: ProductLabels.cs
+    startLine: 1904
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: Largeur = 0
+    return:
+      type: Altazion.ECommerce.Controls.ProduitDimensions.Dimension
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Altazion.ECommerce.Controls.ProduitDimensions.Dimension.Hauteur
+  commentId: F:Altazion.ECommerce.Controls.ProduitDimensions.Dimension.Hauteur
+  id: Hauteur
+  parent: Altazion.ECommerce.Controls.ProduitDimensions.Dimension
+  langs:
+  - csharp
+  - vb
+  name: Hauteur
+  nameWithType: ProduitDimensions.Dimension.Hauteur
+  fullName: Altazion.ECommerce.Controls.ProduitDimensions.Dimension.Hauteur
+  type: Field
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/ProductLabels.cs
+    id: Hauteur
+    path: ProductLabels.cs
+    startLine: 1905
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: Hauteur = 1
+    return:
+      type: Altazion.ECommerce.Controls.ProduitDimensions.Dimension
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Altazion.ECommerce.Controls.ProduitDimensions.Dimension.Profondeur
+  commentId: F:Altazion.ECommerce.Controls.ProduitDimensions.Dimension.Profondeur
+  id: Profondeur
+  parent: Altazion.ECommerce.Controls.ProduitDimensions.Dimension
+  langs:
+  - csharp
+  - vb
+  name: Profondeur
+  nameWithType: ProduitDimensions.Dimension.Profondeur
+  fullName: Altazion.ECommerce.Controls.ProduitDimensions.Dimension.Profondeur
+  type: Field
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/ProductLabels.cs
+    id: Profondeur
+    path: ProductLabels.cs
+    startLine: 1906
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: Profondeur = 2
+    return:
+      type: Altazion.ECommerce.Controls.ProduitDimensions.Dimension
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Altazion.ECommerce.Controls.ProduitDimensions.Dimension.PoidsEnKg
+  commentId: F:Altazion.ECommerce.Controls.ProduitDimensions.Dimension.PoidsEnKg
+  id: PoidsEnKg
+  parent: Altazion.ECommerce.Controls.ProduitDimensions.Dimension
+  langs:
+  - csharp
+  - vb
+  name: PoidsEnKg
+  nameWithType: ProduitDimensions.Dimension.PoidsEnKg
+  fullName: Altazion.ECommerce.Controls.ProduitDimensions.Dimension.PoidsEnKg
+  type: Field
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/ProductLabels.cs
+    id: PoidsEnKg
+    path: ProductLabels.cs
+    startLine: 1907
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: PoidsEnKg = 3
+    return:
+      type: Altazion.ECommerce.Controls.ProduitDimensions.Dimension
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Altazion.ECommerce.Controls.ProduitDimensions.Dimension.PoidsEnG
+  commentId: F:Altazion.ECommerce.Controls.ProduitDimensions.Dimension.PoidsEnG
+  id: PoidsEnG
+  parent: Altazion.ECommerce.Controls.ProduitDimensions.Dimension
+  langs:
+  - csharp
+  - vb
+  name: PoidsEnG
+  nameWithType: ProduitDimensions.Dimension.PoidsEnG
+  fullName: Altazion.ECommerce.Controls.ProduitDimensions.Dimension.PoidsEnG
+  type: Field
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/ProductLabels.cs
+    id: PoidsEnG
+    path: ProductLabels.cs
+    startLine: 1908
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: PoidsEnG = 4
+    return:
+      type: Altazion.ECommerce.Controls.ProduitDimensions.Dimension
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Altazion.ECommerce.Controls
+  commentId: N:Altazion.ECommerce.Controls
+  name: Altazion.ECommerce.Controls
+  nameWithType: Altazion.ECommerce.Controls
+  fullName: Altazion.ECommerce.Controls
+- uid: Altazion.ECommerce.Controls.ProduitDimensions.Dimension
+  commentId: T:Altazion.ECommerce.Controls.ProduitDimensions.Dimension
+  parent: Altazion.ECommerce.Controls
+  name: ProduitDimensions.Dimension
+  nameWithType: ProduitDimensions.Dimension
+  fullName: Altazion.ECommerce.Controls.ProduitDimensions.Dimension

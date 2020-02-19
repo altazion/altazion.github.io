@@ -1,0 +1,262 @@
+### YamlMime:ManagedReference
+items:
+- uid: Altazion.ECommerce.Controls.PanelPageSpecifique
+  commentId: T:Altazion.ECommerce.Controls.PanelPageSpecifique
+  id: PanelPageSpecifique
+  parent: Altazion.ECommerce.Controls
+  children:
+  - Altazion.ECommerce.Controls.PanelPageSpecifique.#ctor
+  - Altazion.ECommerce.Controls.PanelPageSpecifique.InlineContent
+  - Altazion.ECommerce.Controls.PanelPageSpecifique.OnPreRender(EventArgs)
+  - Altazion.ECommerce.Controls.PanelPageSpecifique.SaufPour
+  - Altazion.ECommerce.Controls.PanelPageSpecifique.VisibiliteParDefaut
+  langs:
+  - csharp
+  - vb
+  name: PanelPageSpecifique
+  nameWithType: PanelPageSpecifique
+  fullName: Altazion.ECommerce.Controls.PanelPageSpecifique
+  type: Class
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanelPageSpecifique.cs
+    id: PanelPageSpecifique
+    path: PanelPageSpecifique.cs
+    startLine: 22
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  summary: "\nAffiche une div uniquement pour certaines pages\n"
+  remarks: "\nCe controle est destiné à être placé dans une partie normalement commune à toutes les pages. Son utilisation est la suivante:\n<ul><li></li><li></li></ul>\nPour afficher une div que sur la home, par exemple : VisibiliteParDefaut=&apos;false&apos;, SaufPour=&apos;HomePage&apos;\n"
+  example: []
+  syntax:
+    content: 'public class PanelPageSpecifique : Panel'
+    content.vb: >-
+      Public Class PanelPageSpecifique
+          Inherits Panel
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Altazion.ECommerce.Controls.PanelPageSpecifique.#ctor
+  commentId: M:Altazion.ECommerce.Controls.PanelPageSpecifique.#ctor
+  id: '#ctor'
+  parent: Altazion.ECommerce.Controls.PanelPageSpecifique
+  langs:
+  - csharp
+  - vb
+  name: PanelPageSpecifique()
+  nameWithType: PanelPageSpecifique.PanelPageSpecifique()
+  fullName: Altazion.ECommerce.Controls.PanelPageSpecifique.PanelPageSpecifique()
+  type: Constructor
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanelPageSpecifique.cs
+    id: .ctor
+    path: PanelPageSpecifique.cs
+    startLine: 24
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: public PanelPageSpecifique()
+    content.vb: Public Sub New
+  overload: Altazion.ECommerce.Controls.PanelPageSpecifique.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Altazion.ECommerce.Controls.PanelPageSpecifique.InlineContent
+  commentId: P:Altazion.ECommerce.Controls.PanelPageSpecifique.InlineContent
+  id: InlineContent
+  parent: Altazion.ECommerce.Controls.PanelPageSpecifique
+  langs:
+  - csharp
+  - vb
+  name: InlineContent
+  nameWithType: PanelPageSpecifique.InlineContent
+  fullName: Altazion.ECommerce.Controls.PanelPageSpecifique.InlineContent
+  type: Property
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanelPageSpecifique.cs
+    id: InlineContent
+    path: PanelPageSpecifique.cs
+    startLine: 29
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: public bool InlineContent { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property InlineContent As Boolean
+  overload: Altazion.ECommerce.Controls.PanelPageSpecifique.InlineContent*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Altazion.ECommerce.Controls.PanelPageSpecifique.VisibiliteParDefaut
+  commentId: P:Altazion.ECommerce.Controls.PanelPageSpecifique.VisibiliteParDefaut
+  id: VisibiliteParDefaut
+  parent: Altazion.ECommerce.Controls.PanelPageSpecifique
+  langs:
+  - csharp
+  - vb
+  name: VisibiliteParDefaut
+  nameWithType: PanelPageSpecifique.VisibiliteParDefaut
+  fullName: Altazion.ECommerce.Controls.PanelPageSpecifique.VisibiliteParDefaut
+  type: Property
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanelPageSpecifique.cs
+    id: VisibiliteParDefaut
+    path: PanelPageSpecifique.cs
+    startLine: 30
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: public bool VisibiliteParDefaut { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property VisibiliteParDefaut As Boolean
+  overload: Altazion.ECommerce.Controls.PanelPageSpecifique.VisibiliteParDefaut*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Altazion.ECommerce.Controls.PanelPageSpecifique.SaufPour
+  commentId: P:Altazion.ECommerce.Controls.PanelPageSpecifique.SaufPour
+  id: SaufPour
+  parent: Altazion.ECommerce.Controls.PanelPageSpecifique
+  langs:
+  - csharp
+  - vb
+  name: SaufPour
+  nameWithType: PanelPageSpecifique.SaufPour
+  fullName: Altazion.ECommerce.Controls.PanelPageSpecifique.SaufPour
+  type: Property
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanelPageSpecifique.cs
+    id: SaufPour
+    path: PanelPageSpecifique.cs
+    startLine: 31
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: public ECommercePageType SaufPour { get; set; }
+    parameters: []
+    return:
+      type: CPointSoftware.ECommerce.Tools.ECommercePageType
+    content.vb: Public Property SaufPour As ECommercePageType
+  overload: Altazion.ECommerce.Controls.PanelPageSpecifique.SaufPour*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Altazion.ECommerce.Controls.PanelPageSpecifique.OnPreRender(EventArgs)
+  commentId: M:Altazion.ECommerce.Controls.PanelPageSpecifique.OnPreRender(EventArgs)
+  id: OnPreRender(EventArgs)
+  parent: Altazion.ECommerce.Controls.PanelPageSpecifique
+  langs:
+  - csharp
+  - vb
+  name: OnPreRender(EventArgs)
+  nameWithType: PanelPageSpecifique.OnPreRender(EventArgs)
+  fullName: Altazion.ECommerce.Controls.PanelPageSpecifique.OnPreRender(EventArgs)
+  type: Method
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanelPageSpecifique.cs
+    id: OnPreRender
+    path: PanelPageSpecifique.cs
+    startLine: 33
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: protected override void OnPreRender(EventArgs e)
+    parameters:
+    - id: e
+      type: EventArgs
+    content.vb: Protected Overrides Sub OnPreRender(e As EventArgs)
+  overload: Altazion.ECommerce.Controls.PanelPageSpecifique.OnPreRender*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+references:
+- uid: Altazion.ECommerce.Controls
+  commentId: N:Altazion.ECommerce.Controls
+  name: Altazion.ECommerce.Controls
+  nameWithType: Altazion.ECommerce.Controls
+  fullName: Altazion.ECommerce.Controls
+- uid: System.Object
+  commentId: '!:System.Object'
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Altazion.ECommerce.Controls.PanelPageSpecifique.#ctor*
+  commentId: Overload:Altazion.ECommerce.Controls.PanelPageSpecifique.#ctor
+  name: PanelPageSpecifique
+  nameWithType: PanelPageSpecifique.PanelPageSpecifique
+  fullName: Altazion.ECommerce.Controls.PanelPageSpecifique.PanelPageSpecifique
+- uid: Altazion.ECommerce.Controls.PanelPageSpecifique.InlineContent*
+  commentId: Overload:Altazion.ECommerce.Controls.PanelPageSpecifique.InlineContent
+  name: InlineContent
+  nameWithType: PanelPageSpecifique.InlineContent
+  fullName: Altazion.ECommerce.Controls.PanelPageSpecifique.InlineContent
+- uid: System.Boolean
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Altazion.ECommerce.Controls.PanelPageSpecifique.VisibiliteParDefaut*
+  commentId: Overload:Altazion.ECommerce.Controls.PanelPageSpecifique.VisibiliteParDefaut
+  name: VisibiliteParDefaut
+  nameWithType: PanelPageSpecifique.VisibiliteParDefaut
+  fullName: Altazion.ECommerce.Controls.PanelPageSpecifique.VisibiliteParDefaut
+- uid: Altazion.ECommerce.Controls.PanelPageSpecifique.SaufPour*
+  commentId: Overload:Altazion.ECommerce.Controls.PanelPageSpecifique.SaufPour
+  name: SaufPour
+  nameWithType: PanelPageSpecifique.SaufPour
+  fullName: Altazion.ECommerce.Controls.PanelPageSpecifique.SaufPour
+- uid: CPointSoftware.ECommerce.Tools.ECommercePageType
+  commentId: T:CPointSoftware.ECommerce.Tools.ECommercePageType
+  parent: CPointSoftware.ECommerce.Tools
+  name: ECommercePageType
+  nameWithType: ECommercePageType
+  fullName: CPointSoftware.ECommerce.Tools.ECommercePageType
+- uid: CPointSoftware.ECommerce.Tools
+  commentId: N:CPointSoftware.ECommerce.Tools
+  name: CPointSoftware.ECommerce.Tools
+  nameWithType: CPointSoftware.ECommerce.Tools
+  fullName: CPointSoftware.ECommerce.Tools
+- uid: Altazion.ECommerce.Controls.PanelPageSpecifique.OnPreRender*
+  commentId: Overload:Altazion.ECommerce.Controls.PanelPageSpecifique.OnPreRender
+  name: OnPreRender
+  nameWithType: PanelPageSpecifique.OnPreRender
+  fullName: Altazion.ECommerce.Controls.PanelPageSpecifique.OnPreRender
+- uid: EventArgs
+  isExternal: true
+  name: EventArgs
+  nameWithType: EventArgs
+  fullName: EventArgs

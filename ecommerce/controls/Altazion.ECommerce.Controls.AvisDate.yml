@@ -1,0 +1,199 @@
+### YamlMime:ManagedReference
+items:
+- uid: Altazion.ECommerce.Controls.AvisDate
+  commentId: T:Altazion.ECommerce.Controls.AvisDate
+  id: AvisDate
+  parent: Altazion.ECommerce.Controls
+  children:
+  - Altazion.ECommerce.Controls.AvisDate.#ctor
+  - Altazion.ECommerce.Controls.AvisDate.Format
+  - Altazion.ECommerce.Controls.AvisDate.OnDataBinding(EventArgs)
+  langs:
+  - csharp
+  - vb
+  name: AvisDate
+  nameWithType: AvisDate
+  fullName: Altazion.ECommerce.Controls.AvisDate
+  type: Class
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/AvisLabels.cs
+    id: AvisDate
+    path: AvisLabels.cs
+    startLine: 47
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  summary: "\nAffiche la date (de validation) de l&apos;avis.\n"
+  remarks: "Ce contrôle devrait être placé dans un conteneur bindé sur \nla table <code>ecommerce_avis</code> tel que <xref href=\"CPointSoftware.ECommerce.Tools.ProduitAvisPanel\" data-throw-if-not-resolved=\"false\"></xref> \nou le contrôle personnalisé <pre><code>AvisAffichage.ascx</code></pre>"
+  example: []
+  syntax:
+    content: 'public class AvisDate : Label, IEquihiraBindable'
+    content.vb: >-
+      Public Class AvisDate
+          Inherits Label
+          Implements IEquihiraBindable
+  inheritance:
+  - System.Object
+  implements:
+  - CPointSoftware.ECommerce.Tools.IEquihiraBindable
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Altazion.ECommerce.Controls.AvisDate.#ctor
+  commentId: M:Altazion.ECommerce.Controls.AvisDate.#ctor
+  id: '#ctor'
+  parent: Altazion.ECommerce.Controls.AvisDate
+  langs:
+  - csharp
+  - vb
+  name: AvisDate()
+  nameWithType: AvisDate.AvisDate()
+  fullName: Altazion.ECommerce.Controls.AvisDate.AvisDate()
+  type: Constructor
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/AvisLabels.cs
+    id: .ctor
+    path: AvisLabels.cs
+    startLine: 52
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  summary: "\nInitialise une nouvelle instancce de <xref href=\"Altazion.ECommerce.Controls.AvisDate\" data-throw-if-not-resolved=\"false\"></xref>\n"
+  example: []
+  syntax:
+    content: public AvisDate()
+    content.vb: Public Sub New
+  overload: Altazion.ECommerce.Controls.AvisDate.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Altazion.ECommerce.Controls.AvisDate.Format
+  commentId: P:Altazion.ECommerce.Controls.AvisDate.Format
+  id: Format
+  parent: Altazion.ECommerce.Controls.AvisDate
+  langs:
+  - csharp
+  - vb
+  name: Format
+  nameWithType: AvisDate.Format
+  fullName: Altazion.ECommerce.Controls.AvisDate.Format
+  type: Property
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/AvisLabels.cs
+    id: Format
+    path: AvisLabels.cs
+    startLine: 61
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  summary: "\nObtient ou définit le format de la date sous la forme\n{0:dd/MM/yyyy} (valeur par défaut)\n"
+  example: []
+  syntax:
+    content: public string Format { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Format As String
+  overload: Altazion.ECommerce.Controls.AvisDate.Format*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Altazion.ECommerce.Controls.AvisDate.OnDataBinding(EventArgs)
+  commentId: M:Altazion.ECommerce.Controls.AvisDate.OnDataBinding(EventArgs)
+  id: OnDataBinding(EventArgs)
+  parent: Altazion.ECommerce.Controls.AvisDate
+  langs:
+  - csharp
+  - vb
+  name: OnDataBinding(EventArgs)
+  nameWithType: AvisDate.OnDataBinding(EventArgs)
+  fullName: Altazion.ECommerce.Controls.AvisDate.OnDataBinding(EventArgs)
+  type: Method
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/AvisLabels.cs
+    id: OnDataBinding
+    path: AvisLabels.cs
+    startLine: 77
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: protected override void OnDataBinding(EventArgs e)
+    parameters:
+    - id: e
+      type: EventArgs
+    content.vb: Protected Overrides Sub OnDataBinding(e As EventArgs)
+  overload: Altazion.ECommerce.Controls.AvisDate.OnDataBinding*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+references:
+- uid: CPointSoftware.ECommerce.Tools.ProduitAvisPanel
+  commentId: T:CPointSoftware.ECommerce.Tools.ProduitAvisPanel
+  isExternal: true
+- uid: Altazion.ECommerce.Controls
+  commentId: N:Altazion.ECommerce.Controls
+  name: Altazion.ECommerce.Controls
+  nameWithType: Altazion.ECommerce.Controls
+  fullName: Altazion.ECommerce.Controls
+- uid: System.Object
+  commentId: '!:System.Object'
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: CPointSoftware.ECommerce.Tools.IEquihiraBindable
+  commentId: T:CPointSoftware.ECommerce.Tools.IEquihiraBindable
+  parent: CPointSoftware.ECommerce.Tools
+  name: IEquihiraBindable
+  nameWithType: IEquihiraBindable
+  fullName: CPointSoftware.ECommerce.Tools.IEquihiraBindable
+- uid: CPointSoftware.ECommerce.Tools
+  commentId: N:CPointSoftware.ECommerce.Tools
+  name: CPointSoftware.ECommerce.Tools
+  nameWithType: CPointSoftware.ECommerce.Tools
+  fullName: CPointSoftware.ECommerce.Tools
+- uid: Altazion.ECommerce.Controls.AvisDate
+  commentId: T:Altazion.ECommerce.Controls.AvisDate
+  name: AvisDate
+  nameWithType: AvisDate
+  fullName: Altazion.ECommerce.Controls.AvisDate
+- uid: Altazion.ECommerce.Controls.AvisDate.#ctor*
+  commentId: Overload:Altazion.ECommerce.Controls.AvisDate.#ctor
+  name: AvisDate
+  nameWithType: AvisDate.AvisDate
+  fullName: Altazion.ECommerce.Controls.AvisDate.AvisDate
+- uid: Altazion.ECommerce.Controls.AvisDate.Format*
+  commentId: Overload:Altazion.ECommerce.Controls.AvisDate.Format
+  name: Format
+  nameWithType: AvisDate.Format
+  fullName: Altazion.ECommerce.Controls.AvisDate.Format
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Altazion.ECommerce.Controls.AvisDate.OnDataBinding*
+  commentId: Overload:Altazion.ECommerce.Controls.AvisDate.OnDataBinding
+  name: OnDataBinding
+  nameWithType: AvisDate.OnDataBinding
+  fullName: Altazion.ECommerce.Controls.AvisDate.OnDataBinding
+- uid: EventArgs
+  isExternal: true
+  name: EventArgs
+  nameWithType: EventArgs
+  fullName: EventArgs

@@ -1,0 +1,265 @@
+### YamlMime:ManagedReference
+items:
+- uid: Altazion.ECommerce.Controls.MarqueLink
+  commentId: T:Altazion.ECommerce.Controls.MarqueLink
+  id: MarqueLink
+  parent: Altazion.ECommerce.Controls
+  children:
+  - Altazion.ECommerce.Controls.MarqueLink.#ctor
+  - Altazion.ECommerce.Controls.MarqueLink.TextFormat
+  - Altazion.ECommerce.Controls.MarqueLink.TypeLien
+  langs:
+  - csharp
+  - vb
+  name: MarqueLink
+  nameWithType: MarqueLink
+  fullName: Altazion.ECommerce.Controls.MarqueLink
+  type: Class
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/ControlesMarques.cs
+    id: MarqueLink
+    path: ControlesMarques.cs
+    startLine: 38
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  summary: "\nAffiche un lien vers la page de recherche\npour une marque donnée ou vers le site de la marque\n"
+  remarks: "Vous pouvez utiliser ce contrôle dans les\néléments qui affichent une marque :\n<ul><li>Un <xref href=\"CPointSoftware.ECommerce.Tools.ProductPanel\" data-throw-if-not-resolved=\"false\"></xref> :\ndans ce cas, la marque de l&apos;article sera prise en\ncompte</li><li>Une descente produit correspondant à\nune marque, pour en faire, par exemple, un entête de page\n</li><li>Un <xref href=\"CPointSoftware.ECommerce.Tools.RechercheCritereLabel\" data-throw-if-not-resolved=\"false\"></xref> ou\ndans le contrôle RechercheCritereMarque.ascx : \npour afficher la marque d&apos;un critère (d&apos;un facet) de recherche\n</li><li>Un contrôle dont la source de données\nserait un <xref href=\"CPointSoftware.ECommerce.Tools.MarquesSource\" data-throw-if-not-resolved=\"false\"></xref>\n</li><li>ou tout contrôle personnalisé qui effecturait\nun databinding sur la table catalog_marques.\n</li></ul>"
+  example: []
+  syntax:
+    content: 'public class MarqueLink : Hyperlink, IEquihiraBindable'
+    content.vb: >-
+      Public Class MarqueLink
+          Inherits Hyperlink
+          Implements IEquihiraBindable
+  inheritance:
+  - System.Object
+  - CPointSoftware.ECommerce.Tools.Hyperlink
+  implements:
+  - CPointSoftware.ECommerce.Tools.IEquihiraBindable
+  inheritedMembers:
+  - CPointSoftware.ECommerce.Tools.Hyperlink.CssClassIfCurrent
+  - CPointSoftware.ECommerce.Tools.Hyperlink.OnPreRender(EventArgs)
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Altazion.ECommerce.Controls.MarqueLink.TextFormat
+  commentId: P:Altazion.ECommerce.Controls.MarqueLink.TextFormat
+  id: TextFormat
+  parent: Altazion.ECommerce.Controls.MarqueLink
+  langs:
+  - csharp
+  - vb
+  name: TextFormat
+  nameWithType: MarqueLink.TextFormat
+  fullName: Altazion.ECommerce.Controls.MarqueLink.TextFormat
+  type: Property
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/ControlesMarques.cs
+    id: TextFormat
+    path: ControlesMarques.cs
+    startLine: 62
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  summary: "\nObtient ou définit le format d&apos;affichage \ndu lien, où {0} représente le nom de la marque\n"
+  example: []
+  syntax:
+    content: public string TextFormat { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property TextFormat As String
+  overload: Altazion.ECommerce.Controls.MarqueLink.TextFormat*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Altazion.ECommerce.Controls.MarqueLink.TypeLien
+  commentId: P:Altazion.ECommerce.Controls.MarqueLink.TypeLien
+  id: TypeLien
+  parent: Altazion.ECommerce.Controls.MarqueLink
+  langs:
+  - csharp
+  - vb
+  name: TypeLien
+  nameWithType: MarqueLink.TypeLien
+  fullName: Altazion.ECommerce.Controls.MarqueLink.TypeLien
+  type: Property
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/ControlesMarques.cs
+    id: TypeLien
+    path: ControlesMarques.cs
+    startLine: 74
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  summary: "\nObtient ou définit le type de lien à \nétablir\n"
+  remarks: "\nUtilisez <xref href=\"Altazion.ECommerce.Controls.MarqueLink.TypeMarqueLink.MoteurDeRecherche\" data-throw-if-not-resolved=\"false\"></xref>\npour un lien vers une page de descente produit interne ou\n<xref href=\"Altazion.ECommerce.Controls.MarqueLink.TypeMarqueLink.SiteWeb\" data-throw-if-not-resolved=\"false\"></xref> pour pointer vers\nle site de la marque si il est renseigné"
+  example: []
+  syntax:
+    content: public MarqueLink.TypeMarqueLink TypeLien { get; set; }
+    parameters: []
+    return:
+      type: Altazion.ECommerce.Controls.MarqueLink.TypeMarqueLink
+    content.vb: Public Property TypeLien As MarqueLink.TypeMarqueLink
+  overload: Altazion.ECommerce.Controls.MarqueLink.TypeLien*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Altazion.ECommerce.Controls.MarqueLink.#ctor
+  commentId: M:Altazion.ECommerce.Controls.MarqueLink.#ctor
+  id: '#ctor'
+  parent: Altazion.ECommerce.Controls.MarqueLink
+  langs:
+  - csharp
+  - vb
+  name: MarqueLink()
+  nameWithType: MarqueLink.MarqueLink()
+  fullName: Altazion.ECommerce.Controls.MarqueLink.MarqueLink()
+  type: Constructor
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/ControlesMarques.cs
+    id: .ctor
+    path: ControlesMarques.cs
+    startLine: 79
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  summary: "\nConstructeur par défaut\n"
+  example: []
+  syntax:
+    content: public MarqueLink()
+    content.vb: Public Sub New
+  overload: Altazion.ECommerce.Controls.MarqueLink.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: CPointSoftware.ECommerce.Tools.ProductPanel
+  commentId: T:CPointSoftware.ECommerce.Tools.ProductPanel
+  isExternal: true
+- uid: CPointSoftware.ECommerce.Tools.RechercheCritereLabel
+  commentId: T:CPointSoftware.ECommerce.Tools.RechercheCritereLabel
+  isExternal: true
+- uid: CPointSoftware.ECommerce.Tools.MarquesSource
+  commentId: T:CPointSoftware.ECommerce.Tools.MarquesSource
+  isExternal: true
+- uid: Altazion.ECommerce.Controls
+  commentId: N:Altazion.ECommerce.Controls
+  name: Altazion.ECommerce.Controls
+  nameWithType: Altazion.ECommerce.Controls
+  fullName: Altazion.ECommerce.Controls
+- uid: System.Object
+  commentId: '!:System.Object'
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: CPointSoftware.ECommerce.Tools.Hyperlink
+  commentId: T:CPointSoftware.ECommerce.Tools.Hyperlink
+  parent: CPointSoftware.ECommerce.Tools
+  name: Hyperlink
+  nameWithType: Hyperlink
+  fullName: CPointSoftware.ECommerce.Tools.Hyperlink
+- uid: CPointSoftware.ECommerce.Tools.IEquihiraBindable
+  commentId: T:CPointSoftware.ECommerce.Tools.IEquihiraBindable
+  parent: CPointSoftware.ECommerce.Tools
+  name: IEquihiraBindable
+  nameWithType: IEquihiraBindable
+  fullName: CPointSoftware.ECommerce.Tools.IEquihiraBindable
+- uid: CPointSoftware.ECommerce.Tools.Hyperlink.CssClassIfCurrent
+  commentId: P:CPointSoftware.ECommerce.Tools.Hyperlink.CssClassIfCurrent
+  parent: CPointSoftware.ECommerce.Tools.Hyperlink
+  name: CssClassIfCurrent
+  nameWithType: Hyperlink.CssClassIfCurrent
+  fullName: CPointSoftware.ECommerce.Tools.Hyperlink.CssClassIfCurrent
+- uid: CPointSoftware.ECommerce.Tools.Hyperlink.OnPreRender(EventArgs)
+  commentId: M:CPointSoftware.ECommerce.Tools.Hyperlink.OnPreRender(EventArgs)
+  parent: CPointSoftware.ECommerce.Tools.Hyperlink
+  isExternal: true
+  name: OnPreRender(EventArgs)
+  nameWithType: Hyperlink.OnPreRender(EventArgs)
+  fullName: CPointSoftware.ECommerce.Tools.Hyperlink.OnPreRender(EventArgs)
+  spec.csharp:
+  - uid: CPointSoftware.ECommerce.Tools.Hyperlink.OnPreRender(EventArgs)
+    name: OnPreRender
+    nameWithType: Hyperlink.OnPreRender
+    fullName: CPointSoftware.ECommerce.Tools.Hyperlink.OnPreRender
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: EventArgs
+    name: EventArgs
+    nameWithType: EventArgs
+    fullName: EventArgs
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: CPointSoftware.ECommerce.Tools.Hyperlink.OnPreRender(EventArgs)
+    name: OnPreRender
+    nameWithType: Hyperlink.OnPreRender
+    fullName: CPointSoftware.ECommerce.Tools.Hyperlink.OnPreRender
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: EventArgs
+    name: EventArgs
+    nameWithType: EventArgs
+    fullName: EventArgs
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CPointSoftware.ECommerce.Tools
+  commentId: N:CPointSoftware.ECommerce.Tools
+  name: CPointSoftware.ECommerce.Tools
+  nameWithType: CPointSoftware.ECommerce.Tools
+  fullName: CPointSoftware.ECommerce.Tools
+- uid: Altazion.ECommerce.Controls.MarqueLink.TextFormat*
+  commentId: Overload:Altazion.ECommerce.Controls.MarqueLink.TextFormat
+  name: TextFormat
+  nameWithType: MarqueLink.TextFormat
+  fullName: Altazion.ECommerce.Controls.MarqueLink.TextFormat
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Altazion.ECommerce.Controls.MarqueLink.TypeMarqueLink.MoteurDeRecherche
+  commentId: F:Altazion.ECommerce.Controls.MarqueLink.TypeMarqueLink.MoteurDeRecherche
+  isExternal: true
+- uid: Altazion.ECommerce.Controls.MarqueLink.TypeMarqueLink.SiteWeb
+  commentId: F:Altazion.ECommerce.Controls.MarqueLink.TypeMarqueLink.SiteWeb
+  isExternal: true
+- uid: Altazion.ECommerce.Controls.MarqueLink.TypeLien*
+  commentId: Overload:Altazion.ECommerce.Controls.MarqueLink.TypeLien
+  name: TypeLien
+  nameWithType: MarqueLink.TypeLien
+  fullName: Altazion.ECommerce.Controls.MarqueLink.TypeLien
+- uid: Altazion.ECommerce.Controls.MarqueLink.TypeMarqueLink
+  commentId: T:Altazion.ECommerce.Controls.MarqueLink.TypeMarqueLink
+  parent: Altazion.ECommerce.Controls
+  name: MarqueLink.TypeMarqueLink
+  nameWithType: MarqueLink.TypeMarqueLink
+  fullName: Altazion.ECommerce.Controls.MarqueLink.TypeMarqueLink
+- uid: Altazion.ECommerce.Controls.MarqueLink.#ctor*
+  commentId: Overload:Altazion.ECommerce.Controls.MarqueLink.#ctor
+  name: MarqueLink
+  nameWithType: MarqueLink.MarqueLink
+  fullName: Altazion.ECommerce.Controls.MarqueLink.MarqueLink

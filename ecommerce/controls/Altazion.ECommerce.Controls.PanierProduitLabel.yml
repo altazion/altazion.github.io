@@ -1,0 +1,269 @@
+### YamlMime:ManagedReference
+items:
+- uid: Altazion.ECommerce.Controls.PanierProduitLabel
+  commentId: T:Altazion.ECommerce.Controls.PanierProduitLabel
+  id: PanierProduitLabel
+  parent: Altazion.ECommerce.Controls
+  children:
+  - Altazion.ECommerce.Controls.PanierProduitLabel.CacherSiVide
+  - Altazion.ECommerce.Controls.PanierProduitLabel.CssClassSiPromo
+  - Altazion.ECommerce.Controls.PanierProduitLabel.Field
+  - Altazion.ECommerce.Controls.PanierProduitLabel.Format
+  - Altazion.ECommerce.Controls.PanierProduitLabel.TextePrixZero
+  langs:
+  - csharp
+  - vb
+  name: PanierProduitLabel
+  nameWithType: PanierProduitLabel
+  fullName: Altazion.ECommerce.Controls.PanierProduitLabel
+  type: Class
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanierProduitField.cs
+    id: PanierProduitLabel
+    path: PanierProduitField.cs
+    startLine: 493
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  summary: "\nA utiliser dans un <xref href=\"Altazion.ECommerce.Controls.PanierProduitsDataList\" data-throw-if-not-resolved=\"false\"></xref> pour \nafficher un span avec un champ de la ligne, défini par <xref href=\"Altazion.ECommerce.Controls.PanierProduitLabel.Field\" data-throw-if-not-resolved=\"false\"></xref>\n"
+  example: []
+  syntax:
+    content: 'public class PanierProduitLabel : Label'
+    content.vb: >-
+      Public Class PanierProduitLabel
+          Inherits Label
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Altazion.ECommerce.Controls.PanierProduitLabel.Format
+  commentId: P:Altazion.ECommerce.Controls.PanierProduitLabel.Format
+  id: Format
+  parent: Altazion.ECommerce.Controls.PanierProduitLabel
+  langs:
+  - csharp
+  - vb
+  name: Format
+  nameWithType: PanierProduitLabel.Format
+  fullName: Altazion.ECommerce.Controls.PanierProduitLabel.Format
+  type: Property
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanierProduitField.cs
+    id: Format
+    path: PanierProduitField.cs
+    startLine: 520
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: public String Format { get; set; }
+    parameters: []
+    return:
+      type: String
+    content.vb: Public Property Format As String
+  overload: Altazion.ECommerce.Controls.PanierProduitLabel.Format*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Altazion.ECommerce.Controls.PanierProduitLabel.TextePrixZero
+  commentId: P:Altazion.ECommerce.Controls.PanierProduitLabel.TextePrixZero
+  id: TextePrixZero
+  parent: Altazion.ECommerce.Controls.PanierProduitLabel
+  langs:
+  - csharp
+  - vb
+  name: TextePrixZero
+  nameWithType: PanierProduitLabel.TextePrixZero
+  fullName: Altazion.ECommerce.Controls.PanierProduitLabel.TextePrixZero
+  type: Property
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanierProduitField.cs
+    id: TextePrixZero
+    path: PanierProduitField.cs
+    startLine: 541
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: public String TextePrixZero { get; set; }
+    parameters: []
+    return:
+      type: String
+    content.vb: Public Property TextePrixZero As String
+  overload: Altazion.ECommerce.Controls.PanierProduitLabel.TextePrixZero*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Altazion.ECommerce.Controls.PanierProduitLabel.CssClassSiPromo
+  commentId: P:Altazion.ECommerce.Controls.PanierProduitLabel.CssClassSiPromo
+  id: CssClassSiPromo
+  parent: Altazion.ECommerce.Controls.PanierProduitLabel
+  langs:
+  - csharp
+  - vb
+  name: CssClassSiPromo
+  nameWithType: PanierProduitLabel.CssClassSiPromo
+  fullName: Altazion.ECommerce.Controls.PanierProduitLabel.CssClassSiPromo
+  type: Property
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanierProduitField.cs
+    id: CssClassSiPromo
+    path: PanierProduitField.cs
+    startLine: 562
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: public String CssClassSiPromo { get; set; }
+    parameters: []
+    return:
+      type: String
+    content.vb: Public Property CssClassSiPromo As String
+  overload: Altazion.ECommerce.Controls.PanierProduitLabel.CssClassSiPromo*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Altazion.ECommerce.Controls.PanierProduitLabel.Field
+  commentId: P:Altazion.ECommerce.Controls.PanierProduitLabel.Field
+  id: Field
+  parent: Altazion.ECommerce.Controls.PanierProduitLabel
+  langs:
+  - csharp
+  - vb
+  name: Field
+  nameWithType: PanierProduitLabel.Field
+  fullName: Altazion.ECommerce.Controls.PanierProduitLabel.Field
+  type: Property
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanierProduitField.cs
+    id: Field
+    path: PanierProduitField.cs
+    startLine: 583
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: public PanierProduitLabel.ProduitField Field { get; set; }
+    parameters: []
+    return:
+      type: Altazion.ECommerce.Controls.PanierProduitLabel.ProduitField
+    content.vb: Public Property Field As PanierProduitLabel.ProduitField
+  overload: Altazion.ECommerce.Controls.PanierProduitLabel.Field*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Altazion.ECommerce.Controls.PanierProduitLabel.CacherSiVide
+  commentId: P:Altazion.ECommerce.Controls.PanierProduitLabel.CacherSiVide
+  id: CacherSiVide
+  parent: Altazion.ECommerce.Controls.PanierProduitLabel
+  langs:
+  - csharp
+  - vb
+  name: CacherSiVide
+  nameWithType: PanierProduitLabel.CacherSiVide
+  fullName: Altazion.ECommerce.Controls.PanierProduitLabel.CacherSiVide
+  type: Property
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanierProduitField.cs
+    id: CacherSiVide
+    path: PanierProduitField.cs
+    startLine: 602
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: public bool CacherSiVide { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property CacherSiVide As Boolean
+  overload: Altazion.ECommerce.Controls.PanierProduitLabel.CacherSiVide*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: Altazion.ECommerce.Controls.PanierProduitsDataList
+  commentId: T:Altazion.ECommerce.Controls.PanierProduitsDataList
+  name: PanierProduitsDataList
+  nameWithType: PanierProduitsDataList
+  fullName: Altazion.ECommerce.Controls.PanierProduitsDataList
+- uid: Altazion.ECommerce.Controls.PanierProduitLabel.Field
+  commentId: P:Altazion.ECommerce.Controls.PanierProduitLabel.Field
+  isExternal: true
+- uid: Altazion.ECommerce.Controls
+  commentId: N:Altazion.ECommerce.Controls
+  name: Altazion.ECommerce.Controls
+  nameWithType: Altazion.ECommerce.Controls
+  fullName: Altazion.ECommerce.Controls
+- uid: System.Object
+  commentId: '!:System.Object'
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Altazion.ECommerce.Controls.PanierProduitLabel.Format*
+  commentId: Overload:Altazion.ECommerce.Controls.PanierProduitLabel.Format
+  name: Format
+  nameWithType: PanierProduitLabel.Format
+  fullName: Altazion.ECommerce.Controls.PanierProduitLabel.Format
+- uid: String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: String
+- uid: Altazion.ECommerce.Controls.PanierProduitLabel.TextePrixZero*
+  commentId: Overload:Altazion.ECommerce.Controls.PanierProduitLabel.TextePrixZero
+  name: TextePrixZero
+  nameWithType: PanierProduitLabel.TextePrixZero
+  fullName: Altazion.ECommerce.Controls.PanierProduitLabel.TextePrixZero
+- uid: Altazion.ECommerce.Controls.PanierProduitLabel.CssClassSiPromo*
+  commentId: Overload:Altazion.ECommerce.Controls.PanierProduitLabel.CssClassSiPromo
+  name: CssClassSiPromo
+  nameWithType: PanierProduitLabel.CssClassSiPromo
+  fullName: Altazion.ECommerce.Controls.PanierProduitLabel.CssClassSiPromo
+- uid: Altazion.ECommerce.Controls.PanierProduitLabel.Field*
+  commentId: Overload:Altazion.ECommerce.Controls.PanierProduitLabel.Field
+  name: Field
+  nameWithType: PanierProduitLabel.Field
+  fullName: Altazion.ECommerce.Controls.PanierProduitLabel.Field
+- uid: Altazion.ECommerce.Controls.PanierProduitLabel.ProduitField
+  commentId: T:Altazion.ECommerce.Controls.PanierProduitLabel.ProduitField
+  parent: Altazion.ECommerce.Controls
+  name: PanierProduitLabel.ProduitField
+  nameWithType: PanierProduitLabel.ProduitField
+  fullName: Altazion.ECommerce.Controls.PanierProduitLabel.ProduitField
+- uid: Altazion.ECommerce.Controls.PanierProduitLabel.CacherSiVide*
+  commentId: Overload:Altazion.ECommerce.Controls.PanierProduitLabel.CacherSiVide
+  name: CacherSiVide
+  nameWithType: PanierProduitLabel.CacherSiVide
+  fullName: Altazion.ECommerce.Controls.PanierProduitLabel.CacherSiVide
+- uid: System.Boolean
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

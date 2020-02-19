@@ -1,0 +1,190 @@
+### YamlMime:ManagedReference
+items:
+- uid: Altazion.ECommerce.Controls.LivraisonDelai
+  commentId: T:Altazion.ECommerce.Controls.LivraisonDelai
+  id: LivraisonDelai
+  parent: Altazion.ECommerce.Controls
+  children:
+  - Altazion.ECommerce.Controls.LivraisonDelai.#ctor
+  - Altazion.ECommerce.Controls.LivraisonDelai.Format
+  - Altazion.ECommerce.Controls.LivraisonDelai.OnPreRender(EventArgs)
+  langs:
+  - csharp
+  - vb
+  name: LivraisonDelai
+  nameWithType: LivraisonDelai
+  fullName: Altazion.ECommerce.Controls.LivraisonDelai
+  type: Class
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/LivraisonDelai.cs
+    id: LivraisonDelai
+    path: LivraisonDelai.cs
+    startLine: 13
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  summary: "\nAffiche dans un span la date de livraison prévue pour le mode\nde transport selectionné dans le panier\n"
+  example: []
+  syntax:
+    content: 'public class LivraisonDelai : Label'
+    content.vb: >-
+      Public Class LivraisonDelai
+          Inherits Label
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Altazion.ECommerce.Controls.LivraisonDelai.#ctor
+  commentId: M:Altazion.ECommerce.Controls.LivraisonDelai.#ctor
+  id: '#ctor'
+  parent: Altazion.ECommerce.Controls.LivraisonDelai
+  langs:
+  - csharp
+  - vb
+  name: LivraisonDelai()
+  nameWithType: LivraisonDelai.LivraisonDelai()
+  fullName: Altazion.ECommerce.Controls.LivraisonDelai.LivraisonDelai()
+  type: Constructor
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/LivraisonDelai.cs
+    id: .ctor
+    path: LivraisonDelai.cs
+    startLine: 18
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  summary: "\nInitialise une instance de <xref href=\"Altazion.ECommerce.Controls.LivraisonDelai\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  example: []
+  syntax:
+    content: public LivraisonDelai()
+    content.vb: Public Sub New
+  overload: Altazion.ECommerce.Controls.LivraisonDelai.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Altazion.ECommerce.Controls.LivraisonDelai.Format
+  commentId: P:Altazion.ECommerce.Controls.LivraisonDelai.Format
+  id: Format
+  parent: Altazion.ECommerce.Controls.LivraisonDelai
+  langs:
+  - csharp
+  - vb
+  name: Format
+  nameWithType: LivraisonDelai.Format
+  fullName: Altazion.ECommerce.Controls.LivraisonDelai.Format
+  type: Property
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/LivraisonDelai.cs
+    id: Format
+    path: LivraisonDelai.cs
+    startLine: 26
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  summary: "\nFormat d&apos;affichage de la date\n"
+  example: []
+  syntax:
+    content: public string Format { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Format As String
+  overload: Altazion.ECommerce.Controls.LivraisonDelai.Format*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Altazion.ECommerce.Controls.LivraisonDelai.OnPreRender(EventArgs)
+  commentId: M:Altazion.ECommerce.Controls.LivraisonDelai.OnPreRender(EventArgs)
+  id: OnPreRender(EventArgs)
+  parent: Altazion.ECommerce.Controls.LivraisonDelai
+  langs:
+  - csharp
+  - vb
+  name: OnPreRender(EventArgs)
+  nameWithType: LivraisonDelai.OnPreRender(EventArgs)
+  fullName: Altazion.ECommerce.Controls.LivraisonDelai.OnPreRender(EventArgs)
+  type: Method
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/LivraisonDelai.cs
+    id: OnPreRender
+    path: LivraisonDelai.cs
+    startLine: 32
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  summary: "\nDéclenche l&apos;événement <xref href=\"System.Web.UI.Control.PreRender\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  example: []
+  syntax:
+    content: protected override void OnPreRender(EventArgs e)
+    parameters:
+    - id: e
+      type: EventArgs
+      description: Objet <xref href="System.EventArgs" data-throw-if-not-resolved="false"></xref> qui contient les données d&apos;événement.
+    content.vb: Protected Overrides Sub OnPreRender(e As EventArgs)
+  overload: Altazion.ECommerce.Controls.LivraisonDelai.OnPreRender*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+references:
+- uid: Altazion.ECommerce.Controls
+  commentId: N:Altazion.ECommerce.Controls
+  name: Altazion.ECommerce.Controls
+  nameWithType: Altazion.ECommerce.Controls
+  fullName: Altazion.ECommerce.Controls
+- uid: System.Object
+  commentId: '!:System.Object'
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Altazion.ECommerce.Controls.LivraisonDelai
+  commentId: T:Altazion.ECommerce.Controls.LivraisonDelai
+  name: LivraisonDelai
+  nameWithType: LivraisonDelai
+  fullName: Altazion.ECommerce.Controls.LivraisonDelai
+- uid: Altazion.ECommerce.Controls.LivraisonDelai.#ctor*
+  commentId: Overload:Altazion.ECommerce.Controls.LivraisonDelai.#ctor
+  name: LivraisonDelai
+  nameWithType: LivraisonDelai.LivraisonDelai
+  fullName: Altazion.ECommerce.Controls.LivraisonDelai.LivraisonDelai
+- uid: Altazion.ECommerce.Controls.LivraisonDelai.Format*
+  commentId: Overload:Altazion.ECommerce.Controls.LivraisonDelai.Format
+  name: Format
+  nameWithType: LivraisonDelai.Format
+  fullName: Altazion.ECommerce.Controls.LivraisonDelai.Format
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Web.UI.Control.PreRender
+  commentId: E:System.Web.UI.Control.PreRender
+  isExternal: true
+- uid: System.EventArgs
+  commentId: T:System.EventArgs
+  isExternal: true
+- uid: Altazion.ECommerce.Controls.LivraisonDelai.OnPreRender*
+  commentId: Overload:Altazion.ECommerce.Controls.LivraisonDelai.OnPreRender
+  name: OnPreRender
+  nameWithType: LivraisonDelai.OnPreRender
+  fullName: Altazion.ECommerce.Controls.LivraisonDelai.OnPreRender
+- uid: EventArgs
+  isExternal: true
+  name: EventArgs
+  nameWithType: EventArgs
+  fullName: EventArgs

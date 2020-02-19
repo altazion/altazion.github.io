@@ -1,0 +1,94 @@
+### YamlMime:ManagedReference
+items:
+- uid: Altazion.ECommerce.Controls.IncitationLibelle
+  commentId: T:Altazion.ECommerce.Controls.IncitationLibelle
+  id: IncitationLibelle
+  parent: Altazion.ECommerce.Controls
+  children:
+  - Altazion.ECommerce.Controls.IncitationLibelle.OnPreRender(EventArgs)
+  langs:
+  - csharp
+  - vb
+  name: IncitationLibelle
+  nameWithType: IncitationLibelle
+  fullName: Altazion.ECommerce.Controls.IncitationLibelle
+  type: Class
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/IncitationControls.cs
+    id: IncitationLibelle
+    path: IncitationControls.cs
+    startLine: 59
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  summary: "\nAffiche le libellé de l&apos;article associé à l&apos;incitation\n"
+  example: []
+  syntax:
+    content: 'public class IncitationLibelle : Label'
+    content.vb: >-
+      Public Class IncitationLibelle
+          Inherits Label
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Altazion.ECommerce.Controls.IncitationLibelle.OnPreRender(EventArgs)
+  commentId: M:Altazion.ECommerce.Controls.IncitationLibelle.OnPreRender(EventArgs)
+  id: OnPreRender(EventArgs)
+  parent: Altazion.ECommerce.Controls.IncitationLibelle
+  langs:
+  - csharp
+  - vb
+  name: OnPreRender(EventArgs)
+  nameWithType: IncitationLibelle.OnPreRender(EventArgs)
+  fullName: Altazion.ECommerce.Controls.IncitationLibelle.OnPreRender(EventArgs)
+  type: Method
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/IncitationControls.cs
+    id: OnPreRender
+    path: IncitationControls.cs
+    startLine: 61
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: protected override void OnPreRender(EventArgs e)
+    parameters:
+    - id: e
+      type: EventArgs
+    content.vb: Protected Overrides Sub OnPreRender(e As EventArgs)
+  overload: Altazion.ECommerce.Controls.IncitationLibelle.OnPreRender*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+references:
+- uid: Altazion.ECommerce.Controls
+  commentId: N:Altazion.ECommerce.Controls
+  name: Altazion.ECommerce.Controls
+  nameWithType: Altazion.ECommerce.Controls
+  fullName: Altazion.ECommerce.Controls
+- uid: System.Object
+  commentId: '!:System.Object'
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Altazion.ECommerce.Controls.IncitationLibelle.OnPreRender*
+  commentId: Overload:Altazion.ECommerce.Controls.IncitationLibelle.OnPreRender
+  name: OnPreRender
+  nameWithType: IncitationLibelle.OnPreRender
+  fullName: Altazion.ECommerce.Controls.IncitationLibelle.OnPreRender
+- uid: EventArgs
+  isExternal: true
+  name: EventArgs
+  nameWithType: EventArgs
+  fullName: EventArgs

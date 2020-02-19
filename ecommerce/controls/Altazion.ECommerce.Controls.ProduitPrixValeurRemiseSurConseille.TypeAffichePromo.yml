@@ -1,0 +1,148 @@
+### YamlMime:ManagedReference
+items:
+- uid: Altazion.ECommerce.Controls.ProduitPrixValeurRemiseSurConseille.TypeAffichePromo
+  commentId: T:Altazion.ECommerce.Controls.ProduitPrixValeurRemiseSurConseille.TypeAffichePromo
+  id: ProduitPrixValeurRemiseSurConseille.TypeAffichePromo
+  parent: Altazion.ECommerce.Controls
+  children:
+  - Altazion.ECommerce.Controls.ProduitPrixValeurRemiseSurConseille.TypeAffichePromo.EnPourcentage
+  - Altazion.ECommerce.Controls.ProduitPrixValeurRemiseSurConseille.TypeAffichePromo.EnPourcentageSiInferieurA
+  - Altazion.ECommerce.Controls.ProduitPrixValeurRemiseSurConseille.TypeAffichePromo.EnValeur
+  langs:
+  - csharp
+  - vb
+  name: ProduitPrixValeurRemiseSurConseille.TypeAffichePromo
+  nameWithType: ProduitPrixValeurRemiseSurConseille.TypeAffichePromo
+  fullName: Altazion.ECommerce.Controls.ProduitPrixValeurRemiseSurConseille.TypeAffichePromo
+  type: Enum
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/ProductLabels.cs
+    id: TypeAffichePromo
+    path: ProductLabels.cs
+    startLine: 1565
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  summary: "\nType d&apos;affichage des promotions\n"
+  example: []
+  syntax:
+    content: 'public enum TypeAffichePromo : int'
+    content.vb: Public Enum TypeAffichePromo As Integer
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Altazion.ECommerce.Controls.ProduitPrixValeurRemiseSurConseille.TypeAffichePromo.EnValeur
+  commentId: F:Altazion.ECommerce.Controls.ProduitPrixValeurRemiseSurConseille.TypeAffichePromo.EnValeur
+  id: EnValeur
+  parent: Altazion.ECommerce.Controls.ProduitPrixValeurRemiseSurConseille.TypeAffichePromo
+  langs:
+  - csharp
+  - vb
+  name: EnValeur
+  nameWithType: ProduitPrixValeurRemiseSurConseille.TypeAffichePromo.EnValeur
+  fullName: Altazion.ECommerce.Controls.ProduitPrixValeurRemiseSurConseille.TypeAffichePromo.EnValeur
+  type: Field
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/ProductLabels.cs
+    id: EnValeur
+    path: ProductLabels.cs
+    startLine: 1570
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  summary: "\nToujours affiché en valeur (ex : - 17.50€)\n"
+  example: []
+  syntax:
+    content: EnValeur = 0
+    return:
+      type: Altazion.ECommerce.Controls.ProduitPrixValeurRemiseSurConseille.TypeAffichePromo
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Altazion.ECommerce.Controls.ProduitPrixValeurRemiseSurConseille.TypeAffichePromo.EnPourcentage
+  commentId: F:Altazion.ECommerce.Controls.ProduitPrixValeurRemiseSurConseille.TypeAffichePromo.EnPourcentage
+  id: EnPourcentage
+  parent: Altazion.ECommerce.Controls.ProduitPrixValeurRemiseSurConseille.TypeAffichePromo
+  langs:
+  - csharp
+  - vb
+  name: EnPourcentage
+  nameWithType: ProduitPrixValeurRemiseSurConseille.TypeAffichePromo.EnPourcentage
+  fullName: Altazion.ECommerce.Controls.ProduitPrixValeurRemiseSurConseille.TypeAffichePromo.EnPourcentage
+  type: Field
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/ProductLabels.cs
+    id: EnPourcentage
+    path: ProductLabels.cs
+    startLine: 1574
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  summary: "\nToujours affiché en pourcentage (ex : -20%)\n"
+  example: []
+  syntax:
+    content: EnPourcentage = 1
+    return:
+      type: Altazion.ECommerce.Controls.ProduitPrixValeurRemiseSurConseille.TypeAffichePromo
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Altazion.ECommerce.Controls.ProduitPrixValeurRemiseSurConseille.TypeAffichePromo.EnPourcentageSiInferieurA
+  commentId: F:Altazion.ECommerce.Controls.ProduitPrixValeurRemiseSurConseille.TypeAffichePromo.EnPourcentageSiInferieurA
+  id: EnPourcentageSiInferieurA
+  parent: Altazion.ECommerce.Controls.ProduitPrixValeurRemiseSurConseille.TypeAffichePromo
+  langs:
+  - csharp
+  - vb
+  name: EnPourcentageSiInferieurA
+  nameWithType: ProduitPrixValeurRemiseSurConseille.TypeAffichePromo.EnPourcentageSiInferieurA
+  fullName: Altazion.ECommerce.Controls.ProduitPrixValeurRemiseSurConseille.TypeAffichePromo.EnPourcentageSiInferieurA
+  type: Field
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/ProductLabels.cs
+    id: EnPourcentageSiInferieurA
+    path: ProductLabels.cs
+    startLine: 1579
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  summary: "\nAfficher en pourcentage si le montant\neffectif est inférieur à <xref href=\"Altazion.ECommerce.Controls.ProduitPrixValeurRemiseSurConseille.PrixMaxiPourPourcentage\" data-throw-if-not-resolved=\"false\"></xref>\n"
+  example: []
+  syntax:
+    content: EnPourcentageSiInferieurA = 2
+    return:
+      type: Altazion.ECommerce.Controls.ProduitPrixValeurRemiseSurConseille.TypeAffichePromo
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Altazion.ECommerce.Controls
+  commentId: N:Altazion.ECommerce.Controls
+  name: Altazion.ECommerce.Controls
+  nameWithType: Altazion.ECommerce.Controls
+  fullName: Altazion.ECommerce.Controls
+- uid: Altazion.ECommerce.Controls.ProduitPrixValeurRemiseSurConseille.TypeAffichePromo
+  commentId: T:Altazion.ECommerce.Controls.ProduitPrixValeurRemiseSurConseille.TypeAffichePromo
+  parent: Altazion.ECommerce.Controls
+  name: ProduitPrixValeurRemiseSurConseille.TypeAffichePromo
+  nameWithType: ProduitPrixValeurRemiseSurConseille.TypeAffichePromo
+  fullName: Altazion.ECommerce.Controls.ProduitPrixValeurRemiseSurConseille.TypeAffichePromo
+- uid: Altazion.ECommerce.Controls.ProduitPrixValeurRemiseSurConseille.PrixMaxiPourPourcentage
+  commentId: P:Altazion.ECommerce.Controls.ProduitPrixValeurRemiseSurConseille.PrixMaxiPourPourcentage
+  isExternal: true

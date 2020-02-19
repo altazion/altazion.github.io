@@ -1,0 +1,571 @@
+### YamlMime:ManagedReference
+items:
+- uid: Altazion.ECommerce.Controls.BonsAchatsGridView.BonAchatData
+  commentId: T:Altazion.ECommerce.Controls.BonsAchatsGridView.BonAchatData
+  id: BonsAchatsGridView.BonAchatData
+  parent: Altazion.ECommerce.Controls
+  children:
+  - Altazion.ECommerce.Controls.BonsAchatsGridView.BonAchatData.Conditions
+  - Altazion.ECommerce.Controls.BonsAchatsGridView.BonAchatData.DateMaxUtilisation
+  - Altazion.ECommerce.Controls.BonsAchatsGridView.BonAchatData.DateMinUtilisation
+  - Altazion.ECommerce.Controls.BonsAchatsGridView.BonAchatData.EstLimiteArticle
+  - Altazion.ECommerce.Controls.BonsAchatsGridView.BonAchatData.EstUtilisable
+  - Altazion.ECommerce.Controls.BonsAchatsGridView.BonAchatData.EstUtilise
+  - Altazion.ECommerce.Controls.BonsAchatsGridView.BonAchatData.Groupe
+  - Altazion.ECommerce.Controls.BonsAchatsGridView.BonAchatData.Guid
+  - Altazion.ECommerce.Controls.BonsAchatsGridView.BonAchatData.Libelle
+  - Altazion.ECommerce.Controls.BonsAchatsGridView.BonAchatData.LimitesArticles
+  - Altazion.ECommerce.Controls.BonsAchatsGridView.BonAchatData.Montant
+  - Altazion.ECommerce.Controls.BonsAchatsGridView.BonAchatData.MontantOriginal
+  langs:
+  - csharp
+  - vb
+  name: BonsAchatsGridView.BonAchatData
+  nameWithType: BonsAchatsGridView.BonAchatData
+  fullName: Altazion.ECommerce.Controls.BonsAchatsGridView.BonAchatData
+  type: Class
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/BonsAchatsControls.cs
+    id: BonAchatData
+    path: BonsAchatsControls.cs
+    startLine: 327
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  summary: "\nReprésente un bon d&apos;achat pour affichage dans\nle contrôle de règlement par bon d&apos;achat\n"
+  example: []
+  syntax:
+    content: 'public class BonAchatData : IComparable'
+    content.vb: >-
+      Public Class BonAchatData
+          Inherits IComparable
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Altazion.ECommerce.Controls.BonsAchatsGridView.BonAchatData.Guid
+  commentId: P:Altazion.ECommerce.Controls.BonsAchatsGridView.BonAchatData.Guid
+  id: Guid
+  parent: Altazion.ECommerce.Controls.BonsAchatsGridView.BonAchatData
+  langs:
+  - csharp
+  - vb
+  name: Guid
+  nameWithType: BonsAchatsGridView.BonAchatData.Guid
+  fullName: Altazion.ECommerce.Controls.BonsAchatsGridView.BonAchatData.Guid
+  type: Property
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/BonsAchatsControls.cs
+    id: Guid
+    path: BonsAchatsControls.cs
+    startLine: 334
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  summary: "\nObtient ou définit l&apos;identifiant du bon d&apos;achats\n"
+  example: []
+  syntax:
+    content: public Guid Guid { get; set; }
+    parameters: []
+    return:
+      type: Guid
+    content.vb: Public Property Guid As Guid
+  overload: Altazion.ECommerce.Controls.BonsAchatsGridView.BonAchatData.Guid*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Altazion.ECommerce.Controls.BonsAchatsGridView.BonAchatData.EstUtilisable
+  commentId: P:Altazion.ECommerce.Controls.BonsAchatsGridView.BonAchatData.EstUtilisable
+  id: EstUtilisable
+  parent: Altazion.ECommerce.Controls.BonsAchatsGridView.BonAchatData
+  langs:
+  - csharp
+  - vb
+  name: EstUtilisable
+  nameWithType: BonsAchatsGridView.BonAchatData.EstUtilisable
+  fullName: Altazion.ECommerce.Controls.BonsAchatsGridView.BonAchatData.EstUtilisable
+  type: Property
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/BonsAchatsControls.cs
+    id: EstUtilisable
+    path: BonsAchatsControls.cs
+    startLine: 340
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  summary: "\nObtient ou définit une valeur précisant si le bon\nd&apos;achat est utilisable\n"
+  example: []
+  syntax:
+    content: public bool EstUtilisable { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property EstUtilisable As Boolean
+  overload: Altazion.ECommerce.Controls.BonsAchatsGridView.BonAchatData.EstUtilisable*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Altazion.ECommerce.Controls.BonsAchatsGridView.BonAchatData.Libelle
+  commentId: P:Altazion.ECommerce.Controls.BonsAchatsGridView.BonAchatData.Libelle
+  id: Libelle
+  parent: Altazion.ECommerce.Controls.BonsAchatsGridView.BonAchatData
+  langs:
+  - csharp
+  - vb
+  name: Libelle
+  nameWithType: BonsAchatsGridView.BonAchatData.Libelle
+  fullName: Altazion.ECommerce.Controls.BonsAchatsGridView.BonAchatData.Libelle
+  type: Property
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/BonsAchatsControls.cs
+    id: Libelle
+    path: BonsAchatsControls.cs
+    startLine: 345
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  summary: "\nObtient ou définit le libellé du bon\n"
+  example: []
+  syntax:
+    content: public string Libelle { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Libelle As String
+  overload: Altazion.ECommerce.Controls.BonsAchatsGridView.BonAchatData.Libelle*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Altazion.ECommerce.Controls.BonsAchatsGridView.BonAchatData.Conditions
+  commentId: P:Altazion.ECommerce.Controls.BonsAchatsGridView.BonAchatData.Conditions
+  id: Conditions
+  parent: Altazion.ECommerce.Controls.BonsAchatsGridView.BonAchatData
+  langs:
+  - csharp
+  - vb
+  name: Conditions
+  nameWithType: BonsAchatsGridView.BonAchatData.Conditions
+  fullName: Altazion.ECommerce.Controls.BonsAchatsGridView.BonAchatData.Conditions
+  type: Property
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/BonsAchatsControls.cs
+    id: Conditions
+    path: BonsAchatsControls.cs
+    startLine: 350
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  summary: "\nObtient ou définit une descriptif des conditions d&apos;utilisation\n"
+  example: []
+  syntax:
+    content: public string Conditions { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Conditions As String
+  overload: Altazion.ECommerce.Controls.BonsAchatsGridView.BonAchatData.Conditions*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Altazion.ECommerce.Controls.BonsAchatsGridView.BonAchatData.LimitesArticles
+  commentId: P:Altazion.ECommerce.Controls.BonsAchatsGridView.BonAchatData.LimitesArticles
+  id: LimitesArticles
+  parent: Altazion.ECommerce.Controls.BonsAchatsGridView.BonAchatData
+  langs:
+  - csharp
+  - vb
+  name: LimitesArticles
+  nameWithType: BonsAchatsGridView.BonAchatData.LimitesArticles
+  fullName: Altazion.ECommerce.Controls.BonsAchatsGridView.BonAchatData.LimitesArticles
+  type: Property
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/BonsAchatsControls.cs
+    id: LimitesArticles
+    path: BonsAchatsControls.cs
+    startLine: 355
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  summary: "\nObtient ou définit les limitations &quot;articles&quot; pour les conditions\n"
+  example: []
+  syntax:
+    content: public string LimitesArticles { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property LimitesArticles As String
+  overload: Altazion.ECommerce.Controls.BonsAchatsGridView.BonAchatData.LimitesArticles*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Altazion.ECommerce.Controls.BonsAchatsGridView.BonAchatData.Groupe
+  commentId: P:Altazion.ECommerce.Controls.BonsAchatsGridView.BonAchatData.Groupe
+  id: Groupe
+  parent: Altazion.ECommerce.Controls.BonsAchatsGridView.BonAchatData
+  langs:
+  - csharp
+  - vb
+  name: Groupe
+  nameWithType: BonsAchatsGridView.BonAchatData.Groupe
+  fullName: Altazion.ECommerce.Controls.BonsAchatsGridView.BonAchatData.Groupe
+  type: Property
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/BonsAchatsControls.cs
+    id: Groupe
+    path: BonsAchatsControls.cs
+    startLine: 362
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  summary: "\nObtient ou définit le groupe du bon d&apos;achat\n"
+  remarks: >-
+    Un seul bon de chaque groupe peut
+
+    être utilisé pour une commande
+  example: []
+  syntax:
+    content: public string Groupe { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Groupe As String
+  overload: Altazion.ECommerce.Controls.BonsAchatsGridView.BonAchatData.Groupe*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Altazion.ECommerce.Controls.BonsAchatsGridView.BonAchatData.EstUtilise
+  commentId: P:Altazion.ECommerce.Controls.BonsAchatsGridView.BonAchatData.EstUtilise
+  id: EstUtilise
+  parent: Altazion.ECommerce.Controls.BonsAchatsGridView.BonAchatData
+  langs:
+  - csharp
+  - vb
+  name: EstUtilise
+  nameWithType: BonsAchatsGridView.BonAchatData.EstUtilise
+  fullName: Altazion.ECommerce.Controls.BonsAchatsGridView.BonAchatData.EstUtilise
+  type: Property
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/BonsAchatsControls.cs
+    id: EstUtilise
+    path: BonsAchatsControls.cs
+    startLine: 368
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  summary: "\nObtient ou définit une valeur précisant si le bon\nd&apos;achat a déjà été utilisé\n"
+  example: []
+  syntax:
+    content: public bool EstUtilise { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property EstUtilise As Boolean
+  overload: Altazion.ECommerce.Controls.BonsAchatsGridView.BonAchatData.EstUtilise*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Altazion.ECommerce.Controls.BonsAchatsGridView.BonAchatData.Montant
+  commentId: P:Altazion.ECommerce.Controls.BonsAchatsGridView.BonAchatData.Montant
+  id: Montant
+  parent: Altazion.ECommerce.Controls.BonsAchatsGridView.BonAchatData
+  langs:
+  - csharp
+  - vb
+  name: Montant
+  nameWithType: BonsAchatsGridView.BonAchatData.Montant
+  fullName: Altazion.ECommerce.Controls.BonsAchatsGridView.BonAchatData.Montant
+  type: Property
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/BonsAchatsControls.cs
+    id: Montant
+    path: BonsAchatsControls.cs
+    startLine: 373
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  summary: "\nObtient ou définit le montant actuel du bon d&apos;achats\n"
+  example: []
+  syntax:
+    content: public decimal Montant { get; set; }
+    parameters: []
+    return:
+      type: System.Decimal
+    content.vb: Public Property Montant As Decimal
+  overload: Altazion.ECommerce.Controls.BonsAchatsGridView.BonAchatData.Montant*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Altazion.ECommerce.Controls.BonsAchatsGridView.BonAchatData.MontantOriginal
+  commentId: P:Altazion.ECommerce.Controls.BonsAchatsGridView.BonAchatData.MontantOriginal
+  id: MontantOriginal
+  parent: Altazion.ECommerce.Controls.BonsAchatsGridView.BonAchatData
+  langs:
+  - csharp
+  - vb
+  name: MontantOriginal
+  nameWithType: BonsAchatsGridView.BonAchatData.MontantOriginal
+  fullName: Altazion.ECommerce.Controls.BonsAchatsGridView.BonAchatData.MontantOriginal
+  type: Property
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/BonsAchatsControls.cs
+    id: MontantOriginal
+    path: BonsAchatsControls.cs
+    startLine: 378
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  summary: "\nObtient ou définit le montant originel du bon d&apos;achats\n"
+  example: []
+  syntax:
+    content: public decimal MontantOriginal { get; set; }
+    parameters: []
+    return:
+      type: System.Decimal
+    content.vb: Public Property MontantOriginal As Decimal
+  overload: Altazion.ECommerce.Controls.BonsAchatsGridView.BonAchatData.MontantOriginal*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Altazion.ECommerce.Controls.BonsAchatsGridView.BonAchatData.EstLimiteArticle
+  commentId: P:Altazion.ECommerce.Controls.BonsAchatsGridView.BonAchatData.EstLimiteArticle
+  id: EstLimiteArticle
+  parent: Altazion.ECommerce.Controls.BonsAchatsGridView.BonAchatData
+  langs:
+  - csharp
+  - vb
+  name: EstLimiteArticle
+  nameWithType: BonsAchatsGridView.BonAchatData.EstLimiteArticle
+  fullName: Altazion.ECommerce.Controls.BonsAchatsGridView.BonAchatData.EstLimiteArticle
+  type: Property
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/BonsAchatsControls.cs
+    id: EstLimiteArticle
+    path: BonsAchatsControls.cs
+    startLine: 385
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  summary: "\nObtient ou définit une valeur précisant si le bon\nd&apos;achats est limité au paiement d&apos;un panier avec\nun article particulier\n"
+  example: []
+  syntax:
+    content: public bool EstLimiteArticle { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property EstLimiteArticle As Boolean
+  overload: Altazion.ECommerce.Controls.BonsAchatsGridView.BonAchatData.EstLimiteArticle*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Altazion.ECommerce.Controls.BonsAchatsGridView.BonAchatData.DateMaxUtilisation
+  commentId: P:Altazion.ECommerce.Controls.BonsAchatsGridView.BonAchatData.DateMaxUtilisation
+  id: DateMaxUtilisation
+  parent: Altazion.ECommerce.Controls.BonsAchatsGridView.BonAchatData
+  langs:
+  - csharp
+  - vb
+  name: DateMaxUtilisation
+  nameWithType: BonsAchatsGridView.BonAchatData.DateMaxUtilisation
+  fullName: Altazion.ECommerce.Controls.BonsAchatsGridView.BonAchatData.DateMaxUtilisation
+  type: Property
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/BonsAchatsControls.cs
+    id: DateMaxUtilisation
+    path: BonsAchatsControls.cs
+    startLine: 391
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  summary: "\nObtient ou définit la date maximale d&apos;utilisation\ndu bon d&apos;achats\n"
+  example: []
+  syntax:
+    content: public DateTime DateMaxUtilisation { get; set; }
+    parameters: []
+    return:
+      type: DateTime
+    content.vb: Public Property DateMaxUtilisation As DateTime
+  overload: Altazion.ECommerce.Controls.BonsAchatsGridView.BonAchatData.DateMaxUtilisation*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Altazion.ECommerce.Controls.BonsAchatsGridView.BonAchatData.DateMinUtilisation
+  commentId: P:Altazion.ECommerce.Controls.BonsAchatsGridView.BonAchatData.DateMinUtilisation
+  id: DateMinUtilisation
+  parent: Altazion.ECommerce.Controls.BonsAchatsGridView.BonAchatData
+  langs:
+  - csharp
+  - vb
+  name: DateMinUtilisation
+  nameWithType: BonsAchatsGridView.BonAchatData.DateMinUtilisation
+  fullName: Altazion.ECommerce.Controls.BonsAchatsGridView.BonAchatData.DateMinUtilisation
+  type: Property
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/BonsAchatsControls.cs
+    id: DateMinUtilisation
+    path: BonsAchatsControls.cs
+    startLine: 397
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  summary: "\nObtient ou définit la date maximale d&apos;utilisation\ndu bon d&apos;achats\n"
+  example: []
+  syntax:
+    content: public DateTime DateMinUtilisation { get; set; }
+    parameters: []
+    return:
+      type: DateTime
+    content.vb: Public Property DateMinUtilisation As DateTime
+  overload: Altazion.ECommerce.Controls.BonsAchatsGridView.BonAchatData.DateMinUtilisation*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: Altazion.ECommerce.Controls
+  commentId: N:Altazion.ECommerce.Controls
+  name: Altazion.ECommerce.Controls
+  nameWithType: Altazion.ECommerce.Controls
+  fullName: Altazion.ECommerce.Controls
+- uid: System.Object
+  commentId: '!:System.Object'
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Altazion.ECommerce.Controls.BonsAchatsGridView.BonAchatData.Guid*
+  commentId: Overload:Altazion.ECommerce.Controls.BonsAchatsGridView.BonAchatData.Guid
+  name: Guid
+  nameWithType: BonsAchatsGridView.BonAchatData.Guid
+  fullName: Altazion.ECommerce.Controls.BonsAchatsGridView.BonAchatData.Guid
+- uid: Guid
+  isExternal: true
+  name: Guid
+  nameWithType: Guid
+  fullName: Guid
+- uid: Altazion.ECommerce.Controls.BonsAchatsGridView.BonAchatData.EstUtilisable*
+  commentId: Overload:Altazion.ECommerce.Controls.BonsAchatsGridView.BonAchatData.EstUtilisable
+  name: EstUtilisable
+  nameWithType: BonsAchatsGridView.BonAchatData.EstUtilisable
+  fullName: Altazion.ECommerce.Controls.BonsAchatsGridView.BonAchatData.EstUtilisable
+- uid: System.Boolean
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Altazion.ECommerce.Controls.BonsAchatsGridView.BonAchatData.Libelle*
+  commentId: Overload:Altazion.ECommerce.Controls.BonsAchatsGridView.BonAchatData.Libelle
+  name: Libelle
+  nameWithType: BonsAchatsGridView.BonAchatData.Libelle
+  fullName: Altazion.ECommerce.Controls.BonsAchatsGridView.BonAchatData.Libelle
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Altazion.ECommerce.Controls.BonsAchatsGridView.BonAchatData.Conditions*
+  commentId: Overload:Altazion.ECommerce.Controls.BonsAchatsGridView.BonAchatData.Conditions
+  name: Conditions
+  nameWithType: BonsAchatsGridView.BonAchatData.Conditions
+  fullName: Altazion.ECommerce.Controls.BonsAchatsGridView.BonAchatData.Conditions
+- uid: Altazion.ECommerce.Controls.BonsAchatsGridView.BonAchatData.LimitesArticles*
+  commentId: Overload:Altazion.ECommerce.Controls.BonsAchatsGridView.BonAchatData.LimitesArticles
+  name: LimitesArticles
+  nameWithType: BonsAchatsGridView.BonAchatData.LimitesArticles
+  fullName: Altazion.ECommerce.Controls.BonsAchatsGridView.BonAchatData.LimitesArticles
+- uid: Altazion.ECommerce.Controls.BonsAchatsGridView.BonAchatData.Groupe*
+  commentId: Overload:Altazion.ECommerce.Controls.BonsAchatsGridView.BonAchatData.Groupe
+  name: Groupe
+  nameWithType: BonsAchatsGridView.BonAchatData.Groupe
+  fullName: Altazion.ECommerce.Controls.BonsAchatsGridView.BonAchatData.Groupe
+- uid: Altazion.ECommerce.Controls.BonsAchatsGridView.BonAchatData.EstUtilise*
+  commentId: Overload:Altazion.ECommerce.Controls.BonsAchatsGridView.BonAchatData.EstUtilise
+  name: EstUtilise
+  nameWithType: BonsAchatsGridView.BonAchatData.EstUtilise
+  fullName: Altazion.ECommerce.Controls.BonsAchatsGridView.BonAchatData.EstUtilise
+- uid: Altazion.ECommerce.Controls.BonsAchatsGridView.BonAchatData.Montant*
+  commentId: Overload:Altazion.ECommerce.Controls.BonsAchatsGridView.BonAchatData.Montant
+  name: Montant
+  nameWithType: BonsAchatsGridView.BonAchatData.Montant
+  fullName: Altazion.ECommerce.Controls.BonsAchatsGridView.BonAchatData.Montant
+- uid: System.Decimal
+  isExternal: true
+  name: Decimal
+  nameWithType: Decimal
+  fullName: System.Decimal
+- uid: Altazion.ECommerce.Controls.BonsAchatsGridView.BonAchatData.MontantOriginal*
+  commentId: Overload:Altazion.ECommerce.Controls.BonsAchatsGridView.BonAchatData.MontantOriginal
+  name: MontantOriginal
+  nameWithType: BonsAchatsGridView.BonAchatData.MontantOriginal
+  fullName: Altazion.ECommerce.Controls.BonsAchatsGridView.BonAchatData.MontantOriginal
+- uid: Altazion.ECommerce.Controls.BonsAchatsGridView.BonAchatData.EstLimiteArticle*
+  commentId: Overload:Altazion.ECommerce.Controls.BonsAchatsGridView.BonAchatData.EstLimiteArticle
+  name: EstLimiteArticle
+  nameWithType: BonsAchatsGridView.BonAchatData.EstLimiteArticle
+  fullName: Altazion.ECommerce.Controls.BonsAchatsGridView.BonAchatData.EstLimiteArticle
+- uid: Altazion.ECommerce.Controls.BonsAchatsGridView.BonAchatData.DateMaxUtilisation*
+  commentId: Overload:Altazion.ECommerce.Controls.BonsAchatsGridView.BonAchatData.DateMaxUtilisation
+  name: DateMaxUtilisation
+  nameWithType: BonsAchatsGridView.BonAchatData.DateMaxUtilisation
+  fullName: Altazion.ECommerce.Controls.BonsAchatsGridView.BonAchatData.DateMaxUtilisation
+- uid: DateTime
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: DateTime
+- uid: Altazion.ECommerce.Controls.BonsAchatsGridView.BonAchatData.DateMinUtilisation*
+  commentId: Overload:Altazion.ECommerce.Controls.BonsAchatsGridView.BonAchatData.DateMinUtilisation
+  name: DateMinUtilisation
+  nameWithType: BonsAchatsGridView.BonAchatData.DateMinUtilisation
+  fullName: Altazion.ECommerce.Controls.BonsAchatsGridView.BonAchatData.DateMinUtilisation

@@ -1,0 +1,106 @@
+### YamlMime:ManagedReference
+items:
+- uid: Altazion.ECommerce.Controls.ProductDataHiddenField
+  commentId: T:Altazion.ECommerce.Controls.ProductDataHiddenField
+  id: ProductDataHiddenField
+  parent: Altazion.ECommerce.Controls
+  children:
+  - Altazion.ECommerce.Controls.ProductDataHiddenField.OnDataBinding(EventArgs)
+  langs:
+  - csharp
+  - vb
+  name: ProductDataHiddenField
+  nameWithType: ProductDataHiddenField
+  fullName: Altazion.ECommerce.Controls.ProductDataHiddenField
+  type: Class
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/ProductDataHiddenField.cs
+    id: ProductDataHiddenField
+    path: ProductDataHiddenField.cs
+    startLine: 16
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: 'public class ProductDataHiddenField : HiddenField, IEquihiraBindable'
+    content.vb: >-
+      Public Class ProductDataHiddenField
+          Inherits HiddenField
+          Implements IEquihiraBindable
+  inheritance:
+  - System.Object
+  implements:
+  - CPointSoftware.ECommerce.Tools.IEquihiraBindable
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Altazion.ECommerce.Controls.ProductDataHiddenField.OnDataBinding(EventArgs)
+  commentId: M:Altazion.ECommerce.Controls.ProductDataHiddenField.OnDataBinding(EventArgs)
+  id: OnDataBinding(EventArgs)
+  parent: Altazion.ECommerce.Controls.ProductDataHiddenField
+  langs:
+  - csharp
+  - vb
+  name: OnDataBinding(EventArgs)
+  nameWithType: ProductDataHiddenField.OnDataBinding(EventArgs)
+  fullName: Altazion.ECommerce.Controls.ProductDataHiddenField.OnDataBinding(EventArgs)
+  type: Method
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/ProductDataHiddenField.cs
+    id: OnDataBinding
+    path: ProductDataHiddenField.cs
+    startLine: 70
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: protected override void OnDataBinding(EventArgs e)
+    parameters:
+    - id: e
+      type: EventArgs
+    content.vb: Protected Overrides Sub OnDataBinding(e As EventArgs)
+  overload: Altazion.ECommerce.Controls.ProductDataHiddenField.OnDataBinding*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+references:
+- uid: Altazion.ECommerce.Controls
+  commentId: N:Altazion.ECommerce.Controls
+  name: Altazion.ECommerce.Controls
+  nameWithType: Altazion.ECommerce.Controls
+  fullName: Altazion.ECommerce.Controls
+- uid: System.Object
+  commentId: '!:System.Object'
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: CPointSoftware.ECommerce.Tools.IEquihiraBindable
+  commentId: T:CPointSoftware.ECommerce.Tools.IEquihiraBindable
+  parent: CPointSoftware.ECommerce.Tools
+  name: IEquihiraBindable
+  nameWithType: IEquihiraBindable
+  fullName: CPointSoftware.ECommerce.Tools.IEquihiraBindable
+- uid: CPointSoftware.ECommerce.Tools
+  commentId: N:CPointSoftware.ECommerce.Tools
+  name: CPointSoftware.ECommerce.Tools
+  nameWithType: CPointSoftware.ECommerce.Tools
+  fullName: CPointSoftware.ECommerce.Tools
+- uid: Altazion.ECommerce.Controls.ProductDataHiddenField.OnDataBinding*
+  commentId: Overload:Altazion.ECommerce.Controls.ProductDataHiddenField.OnDataBinding
+  name: OnDataBinding
+  nameWithType: ProductDataHiddenField.OnDataBinding
+  fullName: Altazion.ECommerce.Controls.ProductDataHiddenField.OnDataBinding
+- uid: EventArgs
+  isExternal: true
+  name: EventArgs
+  nameWithType: EventArgs
+  fullName: EventArgs

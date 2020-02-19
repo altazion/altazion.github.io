@@ -1,0 +1,311 @@
+### YamlMime:ManagedReference
+items:
+- uid: Altazion.ECommerce.Controls.PanierProduitCommandLink
+  commentId: T:Altazion.ECommerce.Controls.PanierProduitCommandLink
+  id: PanierProduitCommandLink
+  parent: Altazion.ECommerce.Controls
+  children:
+  - Altazion.ECommerce.Controls.PanierProduitCommandLink.Command
+  - Altazion.ECommerce.Controls.PanierProduitCommandLink.CssClass
+  - Altazion.ECommerce.Controls.PanierProduitCommandLink.ImageUrl
+  - Altazion.ECommerce.Controls.PanierProduitCommandLink.MouseOverImageUrl
+  - Altazion.ECommerce.Controls.PanierProduitCommandLink.Text
+  - Altazion.ECommerce.Controls.PanierProduitCommandLink.ValidateSupportsCallback
+  langs:
+  - csharp
+  - vb
+  name: PanierProduitCommandLink
+  nameWithType: PanierProduitCommandLink
+  fullName: Altazion.ECommerce.Controls.PanierProduitCommandLink
+  type: Class
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanierProduitField.cs
+    id: PanierProduitCommandLink
+    path: PanierProduitField.cs
+    startLine: 1622
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  summary: "\nA utiliser dans un <xref href=\"Altazion.ECommerce.Controls.PanierProduitsGrid\" data-throw-if-not-resolved=\"false\"></xref> pour \nafficher un td avec lien d&apos;action\n"
+  example: []
+  syntax:
+    content: 'public class PanierProduitCommandLink : EDataControlField'
+    content.vb: >-
+      Public Class PanierProduitCommandLink
+          Inherits EDataControlField
+  inheritance:
+  - System.Object
+  - CPointSoftware.ECommerce.Tools.EDataControlField
+  inheritedMembers:
+  - CPointSoftware.ECommerce.Tools.EDataControlField.ColumnSpan
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Altazion.ECommerce.Controls.PanierProduitCommandLink.ValidateSupportsCallback
+  commentId: M:Altazion.ECommerce.Controls.PanierProduitCommandLink.ValidateSupportsCallback
+  id: ValidateSupportsCallback
+  parent: Altazion.ECommerce.Controls.PanierProduitCommandLink
+  langs:
+  - csharp
+  - vb
+  name: ValidateSupportsCallback()
+  nameWithType: PanierProduitCommandLink.ValidateSupportsCallback()
+  fullName: Altazion.ECommerce.Controls.PanierProduitCommandLink.ValidateSupportsCallback()
+  type: Method
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanierProduitField.cs
+    id: ValidateSupportsCallback
+    path: PanierProduitField.cs
+    startLine: 1629
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: public override void ValidateSupportsCallback()
+    content.vb: Public Overrides Sub ValidateSupportsCallback
+  overload: Altazion.ECommerce.Controls.PanierProduitCommandLink.ValidateSupportsCallback*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: Altazion.ECommerce.Controls.PanierProduitCommandLink.MouseOverImageUrl
+  commentId: P:Altazion.ECommerce.Controls.PanierProduitCommandLink.MouseOverImageUrl
+  id: MouseOverImageUrl
+  parent: Altazion.ECommerce.Controls.PanierProduitCommandLink
+  langs:
+  - csharp
+  - vb
+  name: MouseOverImageUrl
+  nameWithType: PanierProduitCommandLink.MouseOverImageUrl
+  fullName: Altazion.ECommerce.Controls.PanierProduitCommandLink.MouseOverImageUrl
+  type: Property
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanierProduitField.cs
+    id: MouseOverImageUrl
+    path: PanierProduitField.cs
+    startLine: 1634
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: public String MouseOverImageUrl { get; set; }
+    parameters: []
+    return:
+      type: String
+    content.vb: Public Property MouseOverImageUrl As String
+  overload: Altazion.ECommerce.Controls.PanierProduitCommandLink.MouseOverImageUrl*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Altazion.ECommerce.Controls.PanierProduitCommandLink.ImageUrl
+  commentId: P:Altazion.ECommerce.Controls.PanierProduitCommandLink.ImageUrl
+  id: ImageUrl
+  parent: Altazion.ECommerce.Controls.PanierProduitCommandLink
+  langs:
+  - csharp
+  - vb
+  name: ImageUrl
+  nameWithType: PanierProduitCommandLink.ImageUrl
+  fullName: Altazion.ECommerce.Controls.PanierProduitCommandLink.ImageUrl
+  type: Property
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanierProduitField.cs
+    id: ImageUrl
+    path: PanierProduitField.cs
+    startLine: 1656
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: public String ImageUrl { get; set; }
+    parameters: []
+    return:
+      type: String
+    content.vb: Public Property ImageUrl As String
+  overload: Altazion.ECommerce.Controls.PanierProduitCommandLink.ImageUrl*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Altazion.ECommerce.Controls.PanierProduitCommandLink.Text
+  commentId: P:Altazion.ECommerce.Controls.PanierProduitCommandLink.Text
+  id: Text
+  parent: Altazion.ECommerce.Controls.PanierProduitCommandLink
+  langs:
+  - csharp
+  - vb
+  name: Text
+  nameWithType: PanierProduitCommandLink.Text
+  fullName: Altazion.ECommerce.Controls.PanierProduitCommandLink.Text
+  type: Property
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanierProduitField.cs
+    id: Text
+    path: PanierProduitField.cs
+    startLine: 1678
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: public String Text { get; set; }
+    parameters: []
+    return:
+      type: String
+    content.vb: Public Property Text As String
+  overload: Altazion.ECommerce.Controls.PanierProduitCommandLink.Text*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Altazion.ECommerce.Controls.PanierProduitCommandLink.Command
+  commentId: P:Altazion.ECommerce.Controls.PanierProduitCommandLink.Command
+  id: Command
+  parent: Altazion.ECommerce.Controls.PanierProduitCommandLink
+  langs:
+  - csharp
+  - vb
+  name: Command
+  nameWithType: PanierProduitCommandLink.Command
+  fullName: Altazion.ECommerce.Controls.PanierProduitCommandLink.Command
+  type: Property
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanierProduitField.cs
+    id: Command
+    path: PanierProduitField.cs
+    startLine: 1698
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: public String Command { get; set; }
+    parameters: []
+    return:
+      type: String
+    content.vb: Public Property Command As String
+  overload: Altazion.ECommerce.Controls.PanierProduitCommandLink.Command*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Altazion.ECommerce.Controls.PanierProduitCommandLink.CssClass
+  commentId: P:Altazion.ECommerce.Controls.PanierProduitCommandLink.CssClass
+  id: CssClass
+  parent: Altazion.ECommerce.Controls.PanierProduitCommandLink
+  langs:
+  - csharp
+  - vb
+  name: CssClass
+  nameWithType: PanierProduitCommandLink.CssClass
+  fullName: Altazion.ECommerce.Controls.PanierProduitCommandLink.CssClass
+  type: Property
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanierProduitField.cs
+    id: CssClass
+    path: PanierProduitField.cs
+    startLine: 1717
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: public String CssClass { get; set; }
+    parameters: []
+    return:
+      type: String
+    content.vb: Public Property CssClass As String
+  overload: Altazion.ECommerce.Controls.PanierProduitCommandLink.CssClass*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: Altazion.ECommerce.Controls.PanierProduitsGrid
+  commentId: T:Altazion.ECommerce.Controls.PanierProduitsGrid
+  name: PanierProduitsGrid
+  nameWithType: PanierProduitsGrid
+  fullName: Altazion.ECommerce.Controls.PanierProduitsGrid
+- uid: Altazion.ECommerce.Controls
+  commentId: N:Altazion.ECommerce.Controls
+  name: Altazion.ECommerce.Controls
+  nameWithType: Altazion.ECommerce.Controls
+  fullName: Altazion.ECommerce.Controls
+- uid: System.Object
+  commentId: '!:System.Object'
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: CPointSoftware.ECommerce.Tools.EDataControlField
+  commentId: T:CPointSoftware.ECommerce.Tools.EDataControlField
+  parent: CPointSoftware.ECommerce.Tools
+  name: EDataControlField
+  nameWithType: EDataControlField
+  fullName: CPointSoftware.ECommerce.Tools.EDataControlField
+- uid: CPointSoftware.ECommerce.Tools.EDataControlField.ColumnSpan
+  commentId: P:CPointSoftware.ECommerce.Tools.EDataControlField.ColumnSpan
+  parent: CPointSoftware.ECommerce.Tools.EDataControlField
+  name: ColumnSpan
+  nameWithType: EDataControlField.ColumnSpan
+  fullName: CPointSoftware.ECommerce.Tools.EDataControlField.ColumnSpan
+- uid: CPointSoftware.ECommerce.Tools
+  commentId: N:CPointSoftware.ECommerce.Tools
+  name: CPointSoftware.ECommerce.Tools
+  nameWithType: CPointSoftware.ECommerce.Tools
+  fullName: CPointSoftware.ECommerce.Tools
+- uid: Altazion.ECommerce.Controls.PanierProduitCommandLink.ValidateSupportsCallback*
+  commentId: Overload:Altazion.ECommerce.Controls.PanierProduitCommandLink.ValidateSupportsCallback
+  name: ValidateSupportsCallback
+  nameWithType: PanierProduitCommandLink.ValidateSupportsCallback
+  fullName: Altazion.ECommerce.Controls.PanierProduitCommandLink.ValidateSupportsCallback
+- uid: Altazion.ECommerce.Controls.PanierProduitCommandLink.MouseOverImageUrl*
+  commentId: Overload:Altazion.ECommerce.Controls.PanierProduitCommandLink.MouseOverImageUrl
+  name: MouseOverImageUrl
+  nameWithType: PanierProduitCommandLink.MouseOverImageUrl
+  fullName: Altazion.ECommerce.Controls.PanierProduitCommandLink.MouseOverImageUrl
+- uid: String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: String
+- uid: Altazion.ECommerce.Controls.PanierProduitCommandLink.ImageUrl*
+  commentId: Overload:Altazion.ECommerce.Controls.PanierProduitCommandLink.ImageUrl
+  name: ImageUrl
+  nameWithType: PanierProduitCommandLink.ImageUrl
+  fullName: Altazion.ECommerce.Controls.PanierProduitCommandLink.ImageUrl
+- uid: Altazion.ECommerce.Controls.PanierProduitCommandLink.Text*
+  commentId: Overload:Altazion.ECommerce.Controls.PanierProduitCommandLink.Text
+  name: Text
+  nameWithType: PanierProduitCommandLink.Text
+  fullName: Altazion.ECommerce.Controls.PanierProduitCommandLink.Text
+- uid: Altazion.ECommerce.Controls.PanierProduitCommandLink.Command*
+  commentId: Overload:Altazion.ECommerce.Controls.PanierProduitCommandLink.Command
+  name: Command
+  nameWithType: PanierProduitCommandLink.Command
+  fullName: Altazion.ECommerce.Controls.PanierProduitCommandLink.Command
+- uid: Altazion.ECommerce.Controls.PanierProduitCommandLink.CssClass*
+  commentId: Overload:Altazion.ECommerce.Controls.PanierProduitCommandLink.CssClass
+  name: CssClass
+  nameWithType: PanierProduitCommandLink.CssClass
+  fullName: Altazion.ECommerce.Controls.PanierProduitCommandLink.CssClass

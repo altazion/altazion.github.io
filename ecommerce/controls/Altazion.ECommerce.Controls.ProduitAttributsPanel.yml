@@ -1,0 +1,210 @@
+### YamlMime:ManagedReference
+items:
+- uid: Altazion.ECommerce.Controls.ProduitAttributsPanel
+  commentId: T:Altazion.ECommerce.Controls.ProduitAttributsPanel
+  id: ProduitAttributsPanel
+  parent: Altazion.ECommerce.Controls
+  children:
+  - Altazion.ECommerce.Controls.ProduitAttributsPanel.#ctor
+  - Altazion.ECommerce.Controls.ProduitAttributsPanel.AttributeGuid
+  - Altazion.ECommerce.Controls.ProduitAttributsPanel.VisibleSiVide
+  langs:
+  - csharp
+  - vb
+  name: ProduitAttributsPanel
+  nameWithType: ProduitAttributsPanel
+  fullName: Altazion.ECommerce.Controls.ProduitAttributsPanel
+  type: Class
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/ProductLabels.cs
+    id: ProduitAttributsPanel
+    path: ProductLabels.cs
+    startLine: 962
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  summary: "\nAffiche un div si l&apos;attribut personnalisé d&apos;un \nproduit est non null (utilisez <xref href=\"Altazion.ECommerce.Controls.ProduitAttributsPanel.VisibleSiVide\" data-throw-if-not-resolved=\"false\"></xref> pour inverser le comportement)\n"
+  example: []
+  syntax:
+    content: 'public class ProduitAttributsPanel : Panel, IEquihiraBindable'
+    content.vb: >-
+      Public Class ProduitAttributsPanel
+          Inherits Panel
+          Implements IEquihiraBindable
+  inheritance:
+  - System.Object
+  implements:
+  - CPointSoftware.ECommerce.Tools.IEquihiraBindable
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Altazion.ECommerce.Controls.ProduitAttributsPanel.#ctor
+  commentId: M:Altazion.ECommerce.Controls.ProduitAttributsPanel.#ctor
+  id: '#ctor'
+  parent: Altazion.ECommerce.Controls.ProduitAttributsPanel
+  langs:
+  - csharp
+  - vb
+  name: ProduitAttributsPanel()
+  nameWithType: ProduitAttributsPanel.ProduitAttributsPanel()
+  fullName: Altazion.ECommerce.Controls.ProduitAttributsPanel.ProduitAttributsPanel()
+  type: Constructor
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/ProductLabels.cs
+    id: .ctor
+    path: ProductLabels.cs
+    startLine: 964
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: public ProduitAttributsPanel()
+    content.vb: Public Sub New
+  overload: Altazion.ECommerce.Controls.ProduitAttributsPanel.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Altazion.ECommerce.Controls.ProduitAttributsPanel.AttributeGuid
+  commentId: P:Altazion.ECommerce.Controls.ProduitAttributsPanel.AttributeGuid
+  id: AttributeGuid
+  parent: Altazion.ECommerce.Controls.ProduitAttributsPanel
+  langs:
+  - csharp
+  - vb
+  name: AttributeGuid
+  nameWithType: ProduitAttributsPanel.AttributeGuid
+  fullName: Altazion.ECommerce.Controls.ProduitAttributsPanel.AttributeGuid
+  type: Property
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/ProductLabels.cs
+    id: AttributeGuid
+    path: ProductLabels.cs
+    startLine: 969
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: public Guid[] AttributeGuid { get; set; }
+    parameters: []
+    return:
+      type: Guid[]
+    content.vb: Public Property AttributeGuid As Guid()
+  overload: Altazion.ECommerce.Controls.ProduitAttributsPanel.AttributeGuid*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Altazion.ECommerce.Controls.ProduitAttributsPanel.VisibleSiVide
+  commentId: P:Altazion.ECommerce.Controls.ProduitAttributsPanel.VisibleSiVide
+  id: VisibleSiVide
+  parent: Altazion.ECommerce.Controls.ProduitAttributsPanel
+  langs:
+  - csharp
+  - vb
+  name: VisibleSiVide
+  nameWithType: ProduitAttributsPanel.VisibleSiVide
+  fullName: Altazion.ECommerce.Controls.ProduitAttributsPanel.VisibleSiVide
+  type: Property
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/ProductLabels.cs
+    id: VisibleSiVide
+    path: ProductLabels.cs
+    startLine: 971
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: public bool VisibleSiVide { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property VisibleSiVide As Boolean
+  overload: Altazion.ECommerce.Controls.ProduitAttributsPanel.VisibleSiVide*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: Altazion.ECommerce.Controls.ProduitAttributsPanel.VisibleSiVide
+  commentId: P:Altazion.ECommerce.Controls.ProduitAttributsPanel.VisibleSiVide
+  isExternal: true
+- uid: Altazion.ECommerce.Controls
+  commentId: N:Altazion.ECommerce.Controls
+  name: Altazion.ECommerce.Controls
+  nameWithType: Altazion.ECommerce.Controls
+  fullName: Altazion.ECommerce.Controls
+- uid: System.Object
+  commentId: '!:System.Object'
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: CPointSoftware.ECommerce.Tools.IEquihiraBindable
+  commentId: T:CPointSoftware.ECommerce.Tools.IEquihiraBindable
+  parent: CPointSoftware.ECommerce.Tools
+  name: IEquihiraBindable
+  nameWithType: IEquihiraBindable
+  fullName: CPointSoftware.ECommerce.Tools.IEquihiraBindable
+- uid: CPointSoftware.ECommerce.Tools
+  commentId: N:CPointSoftware.ECommerce.Tools
+  name: CPointSoftware.ECommerce.Tools
+  nameWithType: CPointSoftware.ECommerce.Tools
+  fullName: CPointSoftware.ECommerce.Tools
+- uid: Altazion.ECommerce.Controls.ProduitAttributsPanel.#ctor*
+  commentId: Overload:Altazion.ECommerce.Controls.ProduitAttributsPanel.#ctor
+  name: ProduitAttributsPanel
+  nameWithType: ProduitAttributsPanel.ProduitAttributsPanel
+  fullName: Altazion.ECommerce.Controls.ProduitAttributsPanel.ProduitAttributsPanel
+- uid: Altazion.ECommerce.Controls.ProduitAttributsPanel.AttributeGuid*
+  commentId: Overload:Altazion.ECommerce.Controls.ProduitAttributsPanel.AttributeGuid
+  name: AttributeGuid
+  nameWithType: ProduitAttributsPanel.AttributeGuid
+  fullName: Altazion.ECommerce.Controls.ProduitAttributsPanel.AttributeGuid
+- uid: Guid[]
+  isExternal: true
+  name: Guid[]
+  nameWithType: Guid[]
+  fullName: Guid[]
+  nameWithType.vb: Guid()
+  fullName.vb: Guid()
+  name.vb: Guid()
+  spec.csharp:
+  - uid: Guid
+    name: Guid
+    nameWithType: Guid
+    fullName: Guid
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: Guid
+    name: Guid
+    nameWithType: Guid
+    fullName: Guid
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: Altazion.ECommerce.Controls.ProduitAttributsPanel.VisibleSiVide*
+  commentId: Overload:Altazion.ECommerce.Controls.ProduitAttributsPanel.VisibleSiVide
+  name: VisibleSiVide
+  nameWithType: ProduitAttributsPanel.VisibleSiVide
+  fullName: Altazion.ECommerce.Controls.ProduitAttributsPanel.VisibleSiVide
+- uid: System.Boolean
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

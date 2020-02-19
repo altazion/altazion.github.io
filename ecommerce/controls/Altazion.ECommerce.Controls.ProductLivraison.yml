@@ -1,0 +1,309 @@
+### YamlMime:ManagedReference
+items:
+- uid: Altazion.ECommerce.Controls.ProductLivraison
+  commentId: T:Altazion.ECommerce.Controls.ProductLivraison
+  id: ProductLivraison
+  parent: Altazion.ECommerce.Controls
+  children:
+  - Altazion.ECommerce.Controls.ProductLivraison.#ctor
+  - Altazion.ECommerce.Controls.ProductLivraison.Format
+  - Altazion.ECommerce.Controls.ProductLivraison.Libelles
+  - Altazion.ECommerce.Controls.ProductLivraison.MessageImmateriel
+  - Altazion.ECommerce.Controls.ProductLivraison.MessageNonLivrable
+  - Altazion.ECommerce.Controls.ProductLivraison.Preference
+  langs:
+  - csharp
+  - vb
+  name: ProductLivraison
+  nameWithType: ProductLivraison
+  fullName: Altazion.ECommerce.Controls.ProductLivraison
+  type: Class
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/ProductDelaiLivraison.cs
+    id: ProductLivraison
+    path: ProductDelaiLivraison.cs
+    startLine: 29
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  summary: "\naffiche un span avec la date de livraison prévue pour\nun produit.\n"
+  example: []
+  syntax:
+    content: 'public class ProductLivraison : Label, IEquihiraBindable'
+    content.vb: >-
+      Public Class ProductLivraison
+          Inherits Label
+          Implements IEquihiraBindable
+  inheritance:
+  - System.Object
+  implements:
+  - CPointSoftware.ECommerce.Tools.IEquihiraBindable
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Altazion.ECommerce.Controls.ProductLivraison.Format
+  commentId: P:Altazion.ECommerce.Controls.ProductLivraison.Format
+  id: Format
+  parent: Altazion.ECommerce.Controls.ProductLivraison
+  langs:
+  - csharp
+  - vb
+  name: Format
+  nameWithType: ProductLivraison.Format
+  fullName: Altazion.ECommerce.Controls.ProductLivraison.Format
+  type: Property
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/ProductDelaiLivraison.cs
+    id: Format
+    path: ProductDelaiLivraison.cs
+    startLine: 34
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: public string Format { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Format As String
+  overload: Altazion.ECommerce.Controls.ProductLivraison.Format*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Altazion.ECommerce.Controls.ProductLivraison.MessageNonLivrable
+  commentId: P:Altazion.ECommerce.Controls.ProductLivraison.MessageNonLivrable
+  id: MessageNonLivrable
+  parent: Altazion.ECommerce.Controls.ProductLivraison
+  langs:
+  - csharp
+  - vb
+  name: MessageNonLivrable
+  nameWithType: ProductLivraison.MessageNonLivrable
+  fullName: Altazion.ECommerce.Controls.ProductLivraison.MessageNonLivrable
+  type: Property
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/ProductDelaiLivraison.cs
+    id: MessageNonLivrable
+    path: ProductDelaiLivraison.cs
+    startLine: 35
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: public string MessageNonLivrable { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property MessageNonLivrable As String
+  overload: Altazion.ECommerce.Controls.ProductLivraison.MessageNonLivrable*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Altazion.ECommerce.Controls.ProductLivraison.MessageImmateriel
+  commentId: P:Altazion.ECommerce.Controls.ProductLivraison.MessageImmateriel
+  id: MessageImmateriel
+  parent: Altazion.ECommerce.Controls.ProductLivraison
+  langs:
+  - csharp
+  - vb
+  name: MessageImmateriel
+  nameWithType: ProductLivraison.MessageImmateriel
+  fullName: Altazion.ECommerce.Controls.ProductLivraison.MessageImmateriel
+  type: Property
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/ProductDelaiLivraison.cs
+    id: MessageImmateriel
+    path: ProductDelaiLivraison.cs
+    startLine: 36
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: public string MessageImmateriel { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property MessageImmateriel As String
+  overload: Altazion.ECommerce.Controls.ProductLivraison.MessageImmateriel*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Altazion.ECommerce.Controls.ProductLivraison.Preference
+  commentId: P:Altazion.ECommerce.Controls.ProductLivraison.Preference
+  id: Preference
+  parent: Altazion.ECommerce.Controls.ProductLivraison
+  langs:
+  - csharp
+  - vb
+  name: Preference
+  nameWithType: ProductLivraison.Preference
+  fullName: Altazion.ECommerce.Controls.ProductLivraison.Preference
+  type: Property
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/ProductDelaiLivraison.cs
+    id: Preference
+    path: ProductDelaiLivraison.cs
+    startLine: 37
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: public ProductLivraison.TypePreference Preference { get; set; }
+    parameters: []
+    return:
+      type: Altazion.ECommerce.Controls.ProductLivraison.TypePreference
+    content.vb: Public Property Preference As ProductLivraison.TypePreference
+  overload: Altazion.ECommerce.Controls.ProductLivraison.Preference*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Altazion.ECommerce.Controls.ProductLivraison.Libelles
+  commentId: P:Altazion.ECommerce.Controls.ProductLivraison.Libelles
+  id: Libelles
+  parent: Altazion.ECommerce.Controls.ProductLivraison
+  langs:
+  - csharp
+  - vb
+  name: Libelles
+  nameWithType: ProductLivraison.Libelles
+  fullName: Altazion.ECommerce.Controls.ProductLivraison.Libelles
+  type: Property
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/ProductDelaiLivraison.cs
+    id: Libelles
+    path: ProductDelaiLivraison.cs
+    startLine: 39
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: public ArrayList Libelles { get; }
+    parameters: []
+    return:
+      type: ArrayList
+    content.vb: Public ReadOnly Property Libelles As ArrayList
+  overload: Altazion.ECommerce.Controls.ProductLivraison.Libelles*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Altazion.ECommerce.Controls.ProductLivraison.#ctor
+  commentId: M:Altazion.ECommerce.Controls.ProductLivraison.#ctor
+  id: '#ctor'
+  parent: Altazion.ECommerce.Controls.ProductLivraison
+  langs:
+  - csharp
+  - vb
+  name: ProductLivraison()
+  nameWithType: ProductLivraison.ProductLivraison()
+  fullName: Altazion.ECommerce.Controls.ProductLivraison.ProductLivraison()
+  type: Constructor
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/ProductDelaiLivraison.cs
+    id: .ctor
+    path: ProductDelaiLivraison.cs
+    startLine: 48
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: public ProductLivraison()
+    content.vb: Public Sub New
+  overload: Altazion.ECommerce.Controls.ProductLivraison.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Altazion.ECommerce.Controls
+  commentId: N:Altazion.ECommerce.Controls
+  name: Altazion.ECommerce.Controls
+  nameWithType: Altazion.ECommerce.Controls
+  fullName: Altazion.ECommerce.Controls
+- uid: System.Object
+  commentId: '!:System.Object'
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: CPointSoftware.ECommerce.Tools.IEquihiraBindable
+  commentId: T:CPointSoftware.ECommerce.Tools.IEquihiraBindable
+  parent: CPointSoftware.ECommerce.Tools
+  name: IEquihiraBindable
+  nameWithType: IEquihiraBindable
+  fullName: CPointSoftware.ECommerce.Tools.IEquihiraBindable
+- uid: CPointSoftware.ECommerce.Tools
+  commentId: N:CPointSoftware.ECommerce.Tools
+  name: CPointSoftware.ECommerce.Tools
+  nameWithType: CPointSoftware.ECommerce.Tools
+  fullName: CPointSoftware.ECommerce.Tools
+- uid: Altazion.ECommerce.Controls.ProductLivraison.Format*
+  commentId: Overload:Altazion.ECommerce.Controls.ProductLivraison.Format
+  name: Format
+  nameWithType: ProductLivraison.Format
+  fullName: Altazion.ECommerce.Controls.ProductLivraison.Format
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Altazion.ECommerce.Controls.ProductLivraison.MessageNonLivrable*
+  commentId: Overload:Altazion.ECommerce.Controls.ProductLivraison.MessageNonLivrable
+  name: MessageNonLivrable
+  nameWithType: ProductLivraison.MessageNonLivrable
+  fullName: Altazion.ECommerce.Controls.ProductLivraison.MessageNonLivrable
+- uid: Altazion.ECommerce.Controls.ProductLivraison.MessageImmateriel*
+  commentId: Overload:Altazion.ECommerce.Controls.ProductLivraison.MessageImmateriel
+  name: MessageImmateriel
+  nameWithType: ProductLivraison.MessageImmateriel
+  fullName: Altazion.ECommerce.Controls.ProductLivraison.MessageImmateriel
+- uid: Altazion.ECommerce.Controls.ProductLivraison.Preference*
+  commentId: Overload:Altazion.ECommerce.Controls.ProductLivraison.Preference
+  name: Preference
+  nameWithType: ProductLivraison.Preference
+  fullName: Altazion.ECommerce.Controls.ProductLivraison.Preference
+- uid: Altazion.ECommerce.Controls.ProductLivraison.TypePreference
+  commentId: T:Altazion.ECommerce.Controls.ProductLivraison.TypePreference
+  parent: Altazion.ECommerce.Controls
+  name: ProductLivraison.TypePreference
+  nameWithType: ProductLivraison.TypePreference
+  fullName: Altazion.ECommerce.Controls.ProductLivraison.TypePreference
+- uid: Altazion.ECommerce.Controls.ProductLivraison.Libelles*
+  commentId: Overload:Altazion.ECommerce.Controls.ProductLivraison.Libelles
+  name: Libelles
+  nameWithType: ProductLivraison.Libelles
+  fullName: Altazion.ECommerce.Controls.ProductLivraison.Libelles
+- uid: ArrayList
+  isExternal: true
+  name: ArrayList
+  nameWithType: ArrayList
+  fullName: ArrayList
+- uid: Altazion.ECommerce.Controls.ProductLivraison.#ctor*
+  commentId: Overload:Altazion.ECommerce.Controls.ProductLivraison.#ctor
+  name: ProductLivraison
+  nameWithType: ProductLivraison.ProductLivraison
+  fullName: Altazion.ECommerce.Controls.ProductLivraison.ProductLivraison

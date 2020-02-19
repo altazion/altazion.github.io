@@ -1,0 +1,120 @@
+### YamlMime:ManagedReference
+items:
+- uid: Altazion.ECommerce.Controls.SiteHomePageLink
+  commentId: T:Altazion.ECommerce.Controls.SiteHomePageLink
+  id: SiteHomePageLink
+  parent: Altazion.ECommerce.Controls
+  children:
+  - Altazion.ECommerce.Controls.SiteHomePageLink.OnPreRender(EventArgs)
+  langs:
+  - csharp
+  - vb
+  name: SiteHomePageLink
+  nameWithType: SiteHomePageLink
+  fullName: Altazion.ECommerce.Controls.SiteHomePageLink
+  type: Class
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/SiteControls.cs
+    id: SiteHomePageLink
+    path: SiteControls.cs
+    startLine: 142
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  summary: "\nAffiche un lien avec pointant vers la home du site.\n"
+  example: []
+  syntax:
+    content: 'public class SiteHomePageLink : Hyperlink'
+    content.vb: >-
+      Public Class SiteHomePageLink
+          Inherits Hyperlink
+  inheritance:
+  - System.Object
+  - CPointSoftware.ECommerce.Tools.Hyperlink
+  inheritedMembers:
+  - CPointSoftware.ECommerce.Tools.Hyperlink.CssClassIfCurrent
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Altazion.ECommerce.Controls.SiteHomePageLink.OnPreRender(EventArgs)
+  commentId: M:Altazion.ECommerce.Controls.SiteHomePageLink.OnPreRender(EventArgs)
+  id: OnPreRender(EventArgs)
+  parent: Altazion.ECommerce.Controls.SiteHomePageLink
+  langs:
+  - csharp
+  - vb
+  name: OnPreRender(EventArgs)
+  nameWithType: SiteHomePageLink.OnPreRender(EventArgs)
+  fullName: Altazion.ECommerce.Controls.SiteHomePageLink.OnPreRender(EventArgs)
+  type: Method
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/SiteControls.cs
+    id: OnPreRender
+    path: SiteControls.cs
+    startLine: 148
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  summary: "\nRaises the <xref href=\"PreRender\" data-throw-if-not-resolved=\"false\"></xref> event.\n"
+  example: []
+  syntax:
+    content: protected override void OnPreRender(EventArgs e)
+    parameters:
+    - id: e
+      type: EventArgs
+      description: The <see cref="!:EventArgs"></see> instance containing the event data.
+    content.vb: Protected Overrides Sub OnPreRender(e As EventArgs)
+  overload: Altazion.ECommerce.Controls.SiteHomePageLink.OnPreRender*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+references:
+- uid: Altazion.ECommerce.Controls
+  commentId: N:Altazion.ECommerce.Controls
+  name: Altazion.ECommerce.Controls
+  nameWithType: Altazion.ECommerce.Controls
+  fullName: Altazion.ECommerce.Controls
+- uid: System.Object
+  commentId: '!:System.Object'
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: CPointSoftware.ECommerce.Tools.Hyperlink
+  commentId: T:CPointSoftware.ECommerce.Tools.Hyperlink
+  parent: CPointSoftware.ECommerce.Tools
+  name: Hyperlink
+  nameWithType: Hyperlink
+  fullName: CPointSoftware.ECommerce.Tools.Hyperlink
+- uid: CPointSoftware.ECommerce.Tools.Hyperlink.CssClassIfCurrent
+  commentId: P:CPointSoftware.ECommerce.Tools.Hyperlink.CssClassIfCurrent
+  parent: CPointSoftware.ECommerce.Tools.Hyperlink
+  name: CssClassIfCurrent
+  nameWithType: Hyperlink.CssClassIfCurrent
+  fullName: CPointSoftware.ECommerce.Tools.Hyperlink.CssClassIfCurrent
+- uid: CPointSoftware.ECommerce.Tools
+  commentId: N:CPointSoftware.ECommerce.Tools
+  name: CPointSoftware.ECommerce.Tools
+  nameWithType: CPointSoftware.ECommerce.Tools
+  fullName: CPointSoftware.ECommerce.Tools
+- uid: PreRender
+  commentId: E:PreRender
+  isExternal: true
+- uid: Altazion.ECommerce.Controls.SiteHomePageLink.OnPreRender*
+  commentId: Overload:Altazion.ECommerce.Controls.SiteHomePageLink.OnPreRender
+  name: OnPreRender
+  nameWithType: SiteHomePageLink.OnPreRender
+  fullName: Altazion.ECommerce.Controls.SiteHomePageLink.OnPreRender
+- uid: EventArgs
+  isExternal: true
+  name: EventArgs
+  nameWithType: EventArgs
+  fullName: EventArgs

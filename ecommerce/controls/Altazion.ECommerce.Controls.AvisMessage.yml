@@ -1,0 +1,112 @@
+### YamlMime:ManagedReference
+items:
+- uid: Altazion.ECommerce.Controls.AvisMessage
+  commentId: T:Altazion.ECommerce.Controls.AvisMessage
+  id: AvisMessage
+  parent: Altazion.ECommerce.Controls
+  children:
+  - Altazion.ECommerce.Controls.AvisMessage.OnDataBinding(EventArgs)
+  langs:
+  - csharp
+  - vb
+  name: AvisMessage
+  nameWithType: AvisMessage
+  fullName: Altazion.ECommerce.Controls.AvisMessage
+  type: Class
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/AvisLabels.cs
+    id: AvisMessage
+    path: AvisLabels.cs
+    startLine: 121
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  summary: "\nAffiche le contenu de l&apos;avis.\n"
+  remarks: "Ce contrôle devrait être placé dans un conteneur bindé sur \nla table <code>ecommerce_avis</code> tel que <xref href=\"CPointSoftware.ECommerce.Tools.ProduitAvisPanel\" data-throw-if-not-resolved=\"false\"></xref> \nou le contrôle personnalisé <pre><code>AvisAffichage.ascx</code></pre>"
+  example: []
+  syntax:
+    content: 'public class AvisMessage : Label, IEquihiraBindable'
+    content.vb: >-
+      Public Class AvisMessage
+          Inherits Label
+          Implements IEquihiraBindable
+  inheritance:
+  - System.Object
+  implements:
+  - CPointSoftware.ECommerce.Tools.IEquihiraBindable
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Altazion.ECommerce.Controls.AvisMessage.OnDataBinding(EventArgs)
+  commentId: M:Altazion.ECommerce.Controls.AvisMessage.OnDataBinding(EventArgs)
+  id: OnDataBinding(EventArgs)
+  parent: Altazion.ECommerce.Controls.AvisMessage
+  langs:
+  - csharp
+  - vb
+  name: OnDataBinding(EventArgs)
+  nameWithType: AvisMessage.OnDataBinding(EventArgs)
+  fullName: Altazion.ECommerce.Controls.AvisMessage.OnDataBinding(EventArgs)
+  type: Method
+  source:
+    remote:
+      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/AvisLabels.cs
+    id: OnDataBinding
+    path: AvisLabels.cs
+    startLine: 136
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  syntax:
+    content: protected override void OnDataBinding(EventArgs e)
+    parameters:
+    - id: e
+      type: EventArgs
+    content.vb: Protected Overrides Sub OnDataBinding(e As EventArgs)
+  overload: Altazion.ECommerce.Controls.AvisMessage.OnDataBinding*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+references:
+- uid: CPointSoftware.ECommerce.Tools.ProduitAvisPanel
+  commentId: T:CPointSoftware.ECommerce.Tools.ProduitAvisPanel
+  isExternal: true
+- uid: Altazion.ECommerce.Controls
+  commentId: N:Altazion.ECommerce.Controls
+  name: Altazion.ECommerce.Controls
+  nameWithType: Altazion.ECommerce.Controls
+  fullName: Altazion.ECommerce.Controls
+- uid: System.Object
+  commentId: '!:System.Object'
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: CPointSoftware.ECommerce.Tools.IEquihiraBindable
+  commentId: T:CPointSoftware.ECommerce.Tools.IEquihiraBindable
+  parent: CPointSoftware.ECommerce.Tools
+  name: IEquihiraBindable
+  nameWithType: IEquihiraBindable
+  fullName: CPointSoftware.ECommerce.Tools.IEquihiraBindable
+- uid: CPointSoftware.ECommerce.Tools
+  commentId: N:CPointSoftware.ECommerce.Tools
+  name: CPointSoftware.ECommerce.Tools
+  nameWithType: CPointSoftware.ECommerce.Tools
+  fullName: CPointSoftware.ECommerce.Tools
+- uid: Altazion.ECommerce.Controls.AvisMessage.OnDataBinding*
+  commentId: Overload:Altazion.ECommerce.Controls.AvisMessage.OnDataBinding
+  name: OnDataBinding
+  nameWithType: AvisMessage.OnDataBinding
+  fullName: Altazion.ECommerce.Controls.AvisMessage.OnDataBinding
+- uid: EventArgs
+  isExternal: true
+  name: EventArgs
+  nameWithType: EventArgs
+  fullName: EventArgs
