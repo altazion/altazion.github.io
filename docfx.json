@@ -12,7 +12,8 @@
     "resource": [
       {
         "files": [
-          "index.html"
+          "CNAME."
+          ,"index.html"
           ,"**/images/**"
           ,"**.jpg"
           ,"**.jpeg"
