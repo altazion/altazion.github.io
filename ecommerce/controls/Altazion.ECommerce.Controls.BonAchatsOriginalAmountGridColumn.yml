@@ -16,7 +16,7 @@ items:
   type: Class
   source:
     remote:
-      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/BonsAchatsControls.cs
+      path: C:/agent/_work/2/s/EquihiraRelease/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/BonsAchatsControls.cs
     id: BonAchatsOriginalAmountGridColumn
     path: BonsAchatsControls.cs
     startLine: 923
@@ -30,12 +30,14 @@ items:
     <xref href="Altazion.ECommerce.Controls.BonsAchatsGridView" data-throw-if-not-resolved="false"></xref>
   example: []
   syntax:
-    content: 'public class BonAchatsOriginalAmountGridColumn : EDataControlField'
+    content: 'public class BonAchatsOriginalAmountGridColumn : EDataControlField, IStateManager, IDataSourceViewSchemaAccessor'
     content.vb: >-
       Public Class BonAchatsOriginalAmountGridColumn
           Inherits EDataControlField
+          Implements IStateManager, IDataSourceViewSchemaAccessor
   inheritance:
   - System.Object
+  - System.Web.UI.WebControls.DataControlField
   - CPointSoftware.ECommerce.Tools.EDataControlField
   inheritedMembers:
   - CPointSoftware.ECommerce.Tools.EDataControlField.ColumnSpan
@@ -58,7 +60,7 @@ items:
   type: Constructor
   source:
     remote:
-      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/BonsAchatsControls.cs
+      path: C:/agent/_work/2/s/EquihiraRelease/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/BonsAchatsControls.cs
     id: .ctor
     path: BonsAchatsControls.cs
     startLine: 928
@@ -88,7 +90,7 @@ items:
   type: Property
   source:
     remote:
-      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/BonsAchatsControls.cs
+      path: C:/agent/_work/2/s/EquihiraRelease/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/BonsAchatsControls.cs
     id: Format
     path: BonsAchatsControls.cs
     startLine: 937
@@ -122,11 +124,19 @@ references:
   nameWithType: Altazion.ECommerce.Controls
   fullName: Altazion.ECommerce.Controls
 - uid: System.Object
-  commentId: '!:System.Object'
+  commentId: T:System.Object
+  parent: System
   isExternal: true
   name: Object
   nameWithType: Object
   fullName: System.Object
+- uid: System.Web.UI.WebControls.DataControlField
+  commentId: T:System.Web.UI.WebControls.DataControlField
+  parent: System.Web.UI.WebControls
+  isExternal: true
+  name: DataControlField
+  nameWithType: DataControlField
+  fullName: System.Web.UI.WebControls.DataControlField
 - uid: CPointSoftware.ECommerce.Tools.EDataControlField
   commentId: T:CPointSoftware.ECommerce.Tools.EDataControlField
   parent: CPointSoftware.ECommerce.Tools
@@ -139,6 +149,18 @@ references:
   name: ColumnSpan
   nameWithType: EDataControlField.ColumnSpan
   fullName: CPointSoftware.ECommerce.Tools.EDataControlField.ColumnSpan
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Web.UI.WebControls
+  commentId: N:System.Web.UI.WebControls
+  isExternal: true
+  name: System.Web.UI.WebControls
+  nameWithType: System.Web.UI.WebControls
+  fullName: System.Web.UI.WebControls
 - uid: CPointSoftware.ECommerce.Tools
   commentId: N:CPointSoftware.ECommerce.Tools
   name: CPointSoftware.ECommerce.Tools
@@ -160,6 +182,8 @@ references:
   nameWithType: BonAchatsOriginalAmountGridColumn.Format
   fullName: Altazion.ECommerce.Controls.BonAchatsOriginalAmountGridColumn.Format
 - uid: System.String
+  commentId: T:System.String
+  parent: System
   isExternal: true
   name: String
   nameWithType: String

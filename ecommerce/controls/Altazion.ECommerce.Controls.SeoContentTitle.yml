@@ -8,7 +8,6 @@ items:
   - Altazion.ECommerce.Controls.SeoContentTitle.#ctor
   - Altazion.ECommerce.Controls.SeoContentTitle.CodeEmplacement
   - Altazion.ECommerce.Controls.SeoContentTitle.DefaultContent
-  - Altazion.ECommerce.Controls.SeoContentTitle.OnPreRender(EventArgs)
   langs:
   - csharp
   - vb
@@ -18,7 +17,7 @@ items:
   type: Class
   source:
     remote:
-      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/SeoContentControls.cs
+      path: C:/agent/_work/2/s/EquihiraRelease/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/SeoContentControls.cs
     id: SeoContentTitle
     path: SeoContentControls.cs
     startLine: 166
@@ -29,12 +28,17 @@ items:
   remarks: "<p>Ce contrôle est destiné à être utilisé dans \n    un thème personnalisé pour définir un emplacement dont\n    le contenu sera géré via un éditeur CMS dans le back-office.\n    Pour plus d&apos;information, consultez la documentation sur\n    la personnalisation.</p>\n<p>Le contenu du titre est affiché &quot;tel quel&quot; \nsans tag englobant</p>\n"
   example: []
   syntax:
-    content: 'public class SeoContentTitle : Literal'
+    content: 'public class SeoContentTitle : Literal, IComponent, IDisposable, IParserAccessor, IUrlResolutionService, IDataBindingsAccessor, IControlBuilderAccessor, IControlDesignerAccessor, IExpressionsAccessor, ITextControl'
     content.vb: >-
       Public Class SeoContentTitle
           Inherits Literal
+          Implements IComponent, IDisposable, IParserAccessor, IUrlResolutionService, IDataBindingsAccessor, IControlBuilderAccessor, IControlDesignerAccessor, IExpressionsAccessor, ITextControl
   inheritance:
   - System.Object
+  - System.Web.UI.Control
+  - System.Web.UI.WebControls.Literal
+  implements:
+  - System.IDisposable
   modifiers.csharp:
   - public
   - class
@@ -54,7 +58,7 @@ items:
   type: Constructor
   source:
     remote:
-      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/SeoContentControls.cs
+      path: C:/agent/_work/2/s/EquihiraRelease/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/SeoContentControls.cs
     id: .ctor
     path: SeoContentControls.cs
     startLine: 171
@@ -84,7 +88,7 @@ items:
   type: Property
   source:
     remote:
-      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/SeoContentControls.cs
+      path: C:/agent/_work/2/s/EquihiraRelease/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/SeoContentControls.cs
     id: CodeEmplacement
     path: SeoContentControls.cs
     startLine: 181
@@ -119,7 +123,7 @@ items:
   type: Property
   source:
     remote:
-      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/SeoContentControls.cs
+      path: C:/agent/_work/2/s/EquihiraRelease/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/SeoContentControls.cs
     id: DefaultContent
     path: SeoContentControls.cs
     startLine: 188
@@ -141,42 +145,6 @@ items:
   - set
   modifiers.vb:
   - Public
-- uid: Altazion.ECommerce.Controls.SeoContentTitle.OnPreRender(EventArgs)
-  commentId: M:Altazion.ECommerce.Controls.SeoContentTitle.OnPreRender(EventArgs)
-  id: OnPreRender(EventArgs)
-  parent: Altazion.ECommerce.Controls.SeoContentTitle
-  langs:
-  - csharp
-  - vb
-  name: OnPreRender(EventArgs)
-  nameWithType: SeoContentTitle.OnPreRender(EventArgs)
-  fullName: Altazion.ECommerce.Controls.SeoContentTitle.OnPreRender(EventArgs)
-  type: Method
-  source:
-    remote:
-      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/SeoContentControls.cs
-    id: OnPreRender
-    path: SeoContentControls.cs
-    startLine: 194
-  assemblies:
-  - Altazion.ECommerce.Controls
-  namespace: Altazion.ECommerce.Controls
-  summary: "\nEffectue le calcul de pré-rendu du controle\n"
-  example: []
-  syntax:
-    content: protected override void OnPreRender(EventArgs e)
-    parameters:
-    - id: e
-      type: EventArgs
-      description: ''
-    content.vb: Protected Overrides Sub OnPreRender(e As EventArgs)
-  overload: Altazion.ECommerce.Controls.SeoContentTitle.OnPreRender*
-  modifiers.csharp:
-  - protected
-  - override
-  modifiers.vb:
-  - Protected
-  - Overrides
 references:
 - uid: Altazion.ECommerce.Controls
   commentId: N:Altazion.ECommerce.Controls
@@ -184,11 +152,51 @@ references:
   nameWithType: Altazion.ECommerce.Controls
   fullName: Altazion.ECommerce.Controls
 - uid: System.Object
-  commentId: '!:System.Object'
+  commentId: T:System.Object
+  parent: System
   isExternal: true
   name: Object
   nameWithType: Object
   fullName: System.Object
+- uid: System.Web.UI.Control
+  commentId: T:System.Web.UI.Control
+  parent: System.Web.UI
+  isExternal: true
+  name: Control
+  nameWithType: Control
+  fullName: System.Web.UI.Control
+- uid: System.Web.UI.WebControls.Literal
+  commentId: T:System.Web.UI.WebControls.Literal
+  parent: System.Web.UI.WebControls
+  isExternal: true
+  name: Literal
+  nameWithType: Literal
+  fullName: System.Web.UI.WebControls.Literal
+- uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
+  isExternal: true
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Web.UI
+  commentId: N:System.Web.UI
+  isExternal: true
+  name: System.Web.UI
+  nameWithType: System.Web.UI
+  fullName: System.Web.UI
+- uid: System.Web.UI.WebControls
+  commentId: N:System.Web.UI.WebControls
+  isExternal: true
+  name: System.Web.UI.WebControls
+  nameWithType: System.Web.UI.WebControls
+  fullName: System.Web.UI.WebControls
 - uid: Altazion.ECommerce.Controls.SeoContentTitle.#ctor*
   commentId: Overload:Altazion.ECommerce.Controls.SeoContentTitle.#ctor
   name: SeoContentTitle
@@ -200,6 +208,8 @@ references:
   nameWithType: SeoContentTitle.CodeEmplacement
   fullName: Altazion.ECommerce.Controls.SeoContentTitle.CodeEmplacement
 - uid: System.String
+  commentId: T:System.String
+  parent: System
   isExternal: true
   name: String
   nameWithType: String
@@ -209,13 +219,3 @@ references:
   name: DefaultContent
   nameWithType: SeoContentTitle.DefaultContent
   fullName: Altazion.ECommerce.Controls.SeoContentTitle.DefaultContent
-- uid: Altazion.ECommerce.Controls.SeoContentTitle.OnPreRender*
-  commentId: Overload:Altazion.ECommerce.Controls.SeoContentTitle.OnPreRender
-  name: OnPreRender
-  nameWithType: SeoContentTitle.OnPreRender
-  fullName: Altazion.ECommerce.Controls.SeoContentTitle.OnPreRender
-- uid: EventArgs
-  isExternal: true
-  name: EventArgs
-  nameWithType: EventArgs
-  fullName: EventArgs

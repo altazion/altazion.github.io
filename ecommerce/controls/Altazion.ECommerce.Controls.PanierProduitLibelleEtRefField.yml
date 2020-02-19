@@ -19,7 +19,7 @@ items:
   type: Class
   source:
     remote:
-      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanierProduitField.cs
+      path: C:/agent/_work/2/s/EquihiraRelease/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanierProduitField.cs
     id: PanierProduitLibelleEtRefField
     path: PanierProduitField.cs
     startLine: 1451
@@ -29,12 +29,14 @@ items:
   summary: "\nA utiliser dans un <xref href=\"Altazion.ECommerce.Controls.PanierProduitsGrid\" data-throw-if-not-resolved=\"false\"></xref> pour \nafficher un td avec le libelle et la référence du produit\n"
   example: []
   syntax:
-    content: 'public class PanierProduitLibelleEtRefField : EDataControlField'
+    content: 'public class PanierProduitLibelleEtRefField : EDataControlField, IStateManager, IDataSourceViewSchemaAccessor'
     content.vb: >-
       Public Class PanierProduitLibelleEtRefField
           Inherits EDataControlField
+          Implements IStateManager, IDataSourceViewSchemaAccessor
   inheritance:
   - System.Object
+  - System.Web.UI.WebControls.DataControlField
   - CPointSoftware.ECommerce.Tools.EDataControlField
   inheritedMembers:
   - CPointSoftware.ECommerce.Tools.EDataControlField.ColumnSpan
@@ -57,7 +59,7 @@ items:
   type: Property
   source:
     remote:
-      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanierProduitField.cs
+      path: C:/agent/_work/2/s/EquihiraRelease/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanierProduitField.cs
     id: CssClass
     path: PanierProduitField.cs
     startLine: 1458
@@ -65,12 +67,24 @@ items:
   - Altazion.ECommerce.Controls
   namespace: Altazion.ECommerce.Controls
   syntax:
-    content: public String CssClass { get; set; }
+    content: >-
+      [Bindable(true)]
+
+      public string CssClass { get; set; }
     parameters: []
     return:
-      type: String
-    content.vb: Public Property CssClass As String
+      type: System.String
+    content.vb: >-
+      <Bindable(True)>
+
+      Public Property CssClass As String
   overload: Altazion.ECommerce.Controls.PanierProduitLibelleEtRefField.CssClass*
+  attributes:
+  - type: System.ComponentModel.BindableAttribute
+    ctor: System.ComponentModel.BindableAttribute.#ctor(System.Boolean)
+    arguments:
+    - type: System.Boolean
+      value: true
   modifiers.csharp:
   - public
   - get
@@ -90,7 +104,7 @@ items:
   type: Property
   source:
     remote:
-      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanierProduitField.cs
+      path: C:/agent/_work/2/s/EquihiraRelease/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanierProduitField.cs
     id: CssClassLibelle
     path: PanierProduitField.cs
     startLine: 1479
@@ -98,12 +112,24 @@ items:
   - Altazion.ECommerce.Controls
   namespace: Altazion.ECommerce.Controls
   syntax:
-    content: public String CssClassLibelle { get; set; }
+    content: >-
+      [Bindable(true)]
+
+      public string CssClassLibelle { get; set; }
     parameters: []
     return:
-      type: String
-    content.vb: Public Property CssClassLibelle As String
+      type: System.String
+    content.vb: >-
+      <Bindable(True)>
+
+      Public Property CssClassLibelle As String
   overload: Altazion.ECommerce.Controls.PanierProduitLibelleEtRefField.CssClassLibelle*
+  attributes:
+  - type: System.ComponentModel.BindableAttribute
+    ctor: System.ComponentModel.BindableAttribute.#ctor(System.Boolean)
+    arguments:
+    - type: System.Boolean
+      value: true
   modifiers.csharp:
   - public
   - get
@@ -123,7 +149,7 @@ items:
   type: Property
   source:
     remote:
-      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanierProduitField.cs
+      path: C:/agent/_work/2/s/EquihiraRelease/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanierProduitField.cs
     id: CssClassReference
     path: PanierProduitField.cs
     startLine: 1500
@@ -131,12 +157,24 @@ items:
   - Altazion.ECommerce.Controls
   namespace: Altazion.ECommerce.Controls
   syntax:
-    content: public String CssClassReference { get; set; }
+    content: >-
+      [Bindable(true)]
+
+      public string CssClassReference { get; set; }
     parameters: []
     return:
-      type: String
-    content.vb: Public Property CssClassReference As String
+      type: System.String
+    content.vb: >-
+      <Bindable(True)>
+
+      Public Property CssClassReference As String
   overload: Altazion.ECommerce.Controls.PanierProduitLibelleEtRefField.CssClassReference*
+  attributes:
+  - type: System.ComponentModel.BindableAttribute
+    ctor: System.ComponentModel.BindableAttribute.#ctor(System.Boolean)
+    arguments:
+    - type: System.Boolean
+      value: true
   modifiers.csharp:
   - public
   - get
@@ -156,7 +194,7 @@ items:
   type: Property
   source:
     remote:
-      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanierProduitField.cs
+      path: C:/agent/_work/2/s/EquihiraRelease/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanierProduitField.cs
     id: Separateur
     path: PanierProduitField.cs
     startLine: 1520
@@ -164,12 +202,24 @@ items:
   - Altazion.ECommerce.Controls
   namespace: Altazion.ECommerce.Controls
   syntax:
-    content: public String Separateur { get; set; }
+    content: >-
+      [Bindable(true)]
+
+      public string Separateur { get; set; }
     parameters: []
     return:
-      type: String
-    content.vb: Public Property Separateur As String
+      type: System.String
+    content.vb: >-
+      <Bindable(True)>
+
+      Public Property Separateur As String
   overload: Altazion.ECommerce.Controls.PanierProduitLibelleEtRefField.Separateur*
+  attributes:
+  - type: System.ComponentModel.BindableAttribute
+    ctor: System.ComponentModel.BindableAttribute.#ctor(System.Boolean)
+    arguments:
+    - type: System.Boolean
+      value: true
   modifiers.csharp:
   - public
   - get
@@ -189,7 +239,7 @@ items:
   type: Property
   source:
     remote:
-      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanierProduitField.cs
+      path: C:/agent/_work/2/s/EquihiraRelease/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanierProduitField.cs
     id: DoNotLink
     path: PanierProduitField.cs
     startLine: 1541
@@ -221,11 +271,19 @@ references:
   nameWithType: Altazion.ECommerce.Controls
   fullName: Altazion.ECommerce.Controls
 - uid: System.Object
-  commentId: '!:System.Object'
+  commentId: T:System.Object
+  parent: System
   isExternal: true
   name: Object
   nameWithType: Object
   fullName: System.Object
+- uid: System.Web.UI.WebControls.DataControlField
+  commentId: T:System.Web.UI.WebControls.DataControlField
+  parent: System.Web.UI.WebControls
+  isExternal: true
+  name: DataControlField
+  nameWithType: DataControlField
+  fullName: System.Web.UI.WebControls.DataControlField
 - uid: CPointSoftware.ECommerce.Tools.EDataControlField
   commentId: T:CPointSoftware.ECommerce.Tools.EDataControlField
   parent: CPointSoftware.ECommerce.Tools
@@ -238,6 +296,18 @@ references:
   name: ColumnSpan
   nameWithType: EDataControlField.ColumnSpan
   fullName: CPointSoftware.ECommerce.Tools.EDataControlField.ColumnSpan
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Web.UI.WebControls
+  commentId: N:System.Web.UI.WebControls
+  isExternal: true
+  name: System.Web.UI.WebControls
+  nameWithType: System.Web.UI.WebControls
+  fullName: System.Web.UI.WebControls
 - uid: CPointSoftware.ECommerce.Tools
   commentId: N:CPointSoftware.ECommerce.Tools
   name: CPointSoftware.ECommerce.Tools
@@ -248,11 +318,13 @@ references:
   name: CssClass
   nameWithType: PanierProduitLibelleEtRefField.CssClass
   fullName: Altazion.ECommerce.Controls.PanierProduitLibelleEtRefField.CssClass
-- uid: String
+- uid: System.String
+  commentId: T:System.String
+  parent: System
   isExternal: true
   name: String
   nameWithType: String
-  fullName: String
+  fullName: System.String
 - uid: Altazion.ECommerce.Controls.PanierProduitLibelleEtRefField.CssClassLibelle*
   commentId: Overload:Altazion.ECommerce.Controls.PanierProduitLibelleEtRefField.CssClassLibelle
   name: CssClassLibelle
@@ -274,6 +346,8 @@ references:
   nameWithType: PanierProduitLibelleEtRefField.DoNotLink
   fullName: Altazion.ECommerce.Controls.PanierProduitLibelleEtRefField.DoNotLink
 - uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
   isExternal: true
   name: Boolean
   nameWithType: Boolean

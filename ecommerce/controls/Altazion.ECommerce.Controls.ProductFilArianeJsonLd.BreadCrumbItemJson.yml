@@ -17,18 +17,16 @@ items:
   type: Class
   source:
     remote:
-      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/FilArianeCategories.cs
+      path: C:/agent/_work/2/s/EquihiraRelease/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/FilArianeCategories.cs
     id: BreadCrumbItemJson
     path: FilArianeCategories.cs
-    startLine: 302
+    startLine: 342
   assemblies:
   - Altazion.ECommerce.Controls
   namespace: Altazion.ECommerce.Controls
   syntax:
-    content: 'public class BreadCrumbItemJson : object'
-    content.vb: >-
-      Public Class BreadCrumbItemJson
-          Inherits Object
+    content: public class BreadCrumbItemJson
+    content.vb: Public Class BreadCrumbItemJson
   inheritance:
   - System.Object
   modifiers.csharp:
@@ -50,20 +48,32 @@ items:
   type: Property
   source:
     remote:
-      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/FilArianeCategories.cs
+      path: C:/agent/_work/2/s/EquihiraRelease/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/FilArianeCategories.cs
     id: type
     path: FilArianeCategories.cs
-    startLine: 304
+    startLine: 344
   assemblies:
   - Altazion.ECommerce.Controls
   namespace: Altazion.ECommerce.Controls
   syntax:
-    content: public string type { get; set; }
+    content: >-
+      [JsonProperty("@type")]
+
+      public string type { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: Public Property type As String
+    content.vb: >-
+      <JsonProperty("@type")>
+
+      Public Property type As String
   overload: Altazion.ECommerce.Controls.ProductFilArianeJsonLd.BreadCrumbItemJson.type*
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: '@type'
   modifiers.csharp:
   - public
   - get
@@ -83,10 +93,10 @@ items:
   type: Property
   source:
     remote:
-      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/FilArianeCategories.cs
+      path: C:/agent/_work/2/s/EquihiraRelease/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/FilArianeCategories.cs
     id: position
     path: FilArianeCategories.cs
-    startLine: 306
+    startLine: 346
   assemblies:
   - Altazion.ECommerce.Controls
   namespace: Altazion.ECommerce.Controls
@@ -116,10 +126,10 @@ items:
   type: Property
   source:
     remote:
-      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/FilArianeCategories.cs
+      path: C:/agent/_work/2/s/EquihiraRelease/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/FilArianeCategories.cs
     id: item
     path: FilArianeCategories.cs
-    startLine: 307
+    startLine: 347
   assemblies:
   - Altazion.ECommerce.Controls
   namespace: Altazion.ECommerce.Controls
@@ -143,17 +153,26 @@ references:
   nameWithType: Altazion.ECommerce.Controls
   fullName: Altazion.ECommerce.Controls
 - uid: System.Object
-  commentId: '!:System.Object'
+  commentId: T:System.Object
+  parent: System
   isExternal: true
   name: Object
   nameWithType: Object
   fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: Altazion.ECommerce.Controls.ProductFilArianeJsonLd.BreadCrumbItemJson.type*
   commentId: Overload:Altazion.ECommerce.Controls.ProductFilArianeJsonLd.BreadCrumbItemJson.type
   name: type
   nameWithType: ProductFilArianeJsonLd.BreadCrumbItemJson.type
   fullName: Altazion.ECommerce.Controls.ProductFilArianeJsonLd.BreadCrumbItemJson.type
 - uid: System.String
+  commentId: T:System.String
+  parent: System
   isExternal: true
   name: String
   nameWithType: String
@@ -164,6 +183,8 @@ references:
   nameWithType: ProductFilArianeJsonLd.BreadCrumbItemJson.position
   fullName: Altazion.ECommerce.Controls.ProductFilArianeJsonLd.BreadCrumbItemJson.position
 - uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
   isExternal: true
   name: Int32
   nameWithType: Int32

@@ -18,7 +18,7 @@ items:
   type: Class
   source:
     remote:
-      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/TrustPilotControls.cs
+      path: C:/agent/_work/2/s/EquihiraRelease/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/TrustPilotControls.cs
     id: TrustPilotBaseControl
     path: TrustPilotControls.cs
     startLine: 19
@@ -28,17 +28,20 @@ items:
   summary: "\nClasse de base des controles d&apos;affichage TrustPilot\n"
   example: []
   syntax:
-    content: 'public abstract class TrustPilotBaseControl : WebControl, IEquihiraBindable'
+    content: 'public abstract class TrustPilotBaseControl : WebControl, IComponent, IDisposable, IParserAccessor, IUrlResolutionService, IDataBindingsAccessor, IControlBuilderAccessor, IControlDesignerAccessor, IExpressionsAccessor, IAttributeAccessor, IEquihiraBindable'
     content.vb: >-
       Public MustInherit Class TrustPilotBaseControl
           Inherits WebControl
-          Implements IEquihiraBindable
+          Implements IComponent, IDisposable, IParserAccessor, IUrlResolutionService, IDataBindingsAccessor, IControlBuilderAccessor, IControlDesignerAccessor, IExpressionsAccessor, IAttributeAccessor, IEquihiraBindable
   inheritance:
   - System.Object
+  - System.Web.UI.Control
+  - System.Web.UI.WebControls.WebControl
   derivedClasses:
   - Altazion.ECommerce.Controls.TrustPilot
   - Altazion.ECommerce.Controls.TrustPilotWidget
   implements:
+  - System.IDisposable
   - CPointSoftware.ECommerce.Tools.IEquihiraBindable
   modifiers.csharp:
   - public
@@ -61,7 +64,7 @@ items:
   type: Property
   source:
     remote:
-      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/TrustPilotControls.cs
+      path: C:/agent/_work/2/s/EquihiraRelease/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/TrustPilotControls.cs
     id: ArticleReference
     path: TrustPilotControls.cs
     startLine: 26
@@ -96,7 +99,7 @@ items:
   type: Property
   source:
     remote:
-      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/TrustPilotControls.cs
+      path: C:/agent/_work/2/s/EquihiraRelease/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/TrustPilotControls.cs
     id: ArticleLibelle
     path: TrustPilotControls.cs
     startLine: 31
@@ -131,7 +134,7 @@ items:
   type: Property
   source:
     remote:
-      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/TrustPilotControls.cs
+      path: C:/agent/_work/2/s/EquihiraRelease/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/TrustPilotControls.cs
     id: ArticleGuid
     path: TrustPilotControls.cs
     startLine: 36
@@ -144,7 +147,7 @@ items:
     content: protected Guid ArticleGuid { get; set; }
     parameters: []
     return:
-      type: Guid
+      type: System.Guid
     content.vb: Protected Property ArticleGuid As Guid
   overload: Altazion.ECommerce.Controls.TrustPilotBaseControl.ArticleGuid*
   modifiers.csharp:
@@ -166,7 +169,7 @@ items:
   type: Property
   source:
     remote:
-      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/TrustPilotControls.cs
+      path: C:/agent/_work/2/s/EquihiraRelease/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/TrustPilotControls.cs
     id: BusinessUnitId
     path: TrustPilotControls.cs
     startLine: 41
@@ -195,17 +198,57 @@ references:
   nameWithType: Altazion.ECommerce.Controls
   fullName: Altazion.ECommerce.Controls
 - uid: System.Object
-  commentId: '!:System.Object'
+  commentId: T:System.Object
+  parent: System
   isExternal: true
   name: Object
   nameWithType: Object
   fullName: System.Object
+- uid: System.Web.UI.Control
+  commentId: T:System.Web.UI.Control
+  parent: System.Web.UI
+  isExternal: true
+  name: Control
+  nameWithType: Control
+  fullName: System.Web.UI.Control
+- uid: System.Web.UI.WebControls.WebControl
+  commentId: T:System.Web.UI.WebControls.WebControl
+  parent: System.Web.UI.WebControls
+  isExternal: true
+  name: WebControl
+  nameWithType: WebControl
+  fullName: System.Web.UI.WebControls.WebControl
+- uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
+  isExternal: true
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
 - uid: CPointSoftware.ECommerce.Tools.IEquihiraBindable
   commentId: T:CPointSoftware.ECommerce.Tools.IEquihiraBindable
   parent: CPointSoftware.ECommerce.Tools
   name: IEquihiraBindable
   nameWithType: IEquihiraBindable
   fullName: CPointSoftware.ECommerce.Tools.IEquihiraBindable
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Web.UI
+  commentId: N:System.Web.UI
+  isExternal: true
+  name: System.Web.UI
+  nameWithType: System.Web.UI
+  fullName: System.Web.UI
+- uid: System.Web.UI.WebControls
+  commentId: N:System.Web.UI.WebControls
+  isExternal: true
+  name: System.Web.UI.WebControls
+  nameWithType: System.Web.UI.WebControls
+  fullName: System.Web.UI.WebControls
 - uid: CPointSoftware.ECommerce.Tools
   commentId: N:CPointSoftware.ECommerce.Tools
   name: CPointSoftware.ECommerce.Tools
@@ -217,6 +260,8 @@ references:
   nameWithType: TrustPilotBaseControl.ArticleReference
   fullName: Altazion.ECommerce.Controls.TrustPilotBaseControl.ArticleReference
 - uid: System.String
+  commentId: T:System.String
+  parent: System
   isExternal: true
   name: String
   nameWithType: String
@@ -231,11 +276,13 @@ references:
   name: ArticleGuid
   nameWithType: TrustPilotBaseControl.ArticleGuid
   fullName: Altazion.ECommerce.Controls.TrustPilotBaseControl.ArticleGuid
-- uid: Guid
+- uid: System.Guid
+  commentId: T:System.Guid
+  parent: System
   isExternal: true
   name: Guid
   nameWithType: Guid
-  fullName: Guid
+  fullName: System.Guid
 - uid: Altazion.ECommerce.Controls.TrustPilotBaseControl.BusinessUnitId*
   commentId: Overload:Altazion.ECommerce.Controls.TrustPilotBaseControl.BusinessUnitId
   name: BusinessUnitId

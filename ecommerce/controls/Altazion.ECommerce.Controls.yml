@@ -175,6 +175,7 @@ items:
   - Altazion.ECommerce.Controls.SiteHomeUrl
   - Altazion.ECommerce.Controls.SiteNom
   - Altazion.ECommerce.Controls.SiteServiceClientEmail
+  - Altazion.ECommerce.Controls.SiteServiceClientEmailLink
   - Altazion.ECommerce.Controls.SiteServiceClientHoraires
   - Altazion.ECommerce.Controls.SiteServiceClientTelephone
   - Altazion.ECommerce.Controls.SiteSlogan
@@ -1073,6 +1074,11 @@ references:
   name: SiteServiceClientEmail
   nameWithType: SiteServiceClientEmail
   fullName: Altazion.ECommerce.Controls.SiteServiceClientEmail
+- uid: Altazion.ECommerce.Controls.SiteServiceClientEmailLink
+  commentId: T:Altazion.ECommerce.Controls.SiteServiceClientEmailLink
+  name: SiteServiceClientEmailLink
+  nameWithType: SiteServiceClientEmailLink
+  fullName: Altazion.ECommerce.Controls.SiteServiceClientEmailLink
 - uid: Altazion.ECommerce.Controls.SiteServiceClientHoraires
   commentId: T:Altazion.ECommerce.Controls.SiteServiceClientHoraires
   name: SiteServiceClientHoraires

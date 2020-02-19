@@ -15,10 +15,10 @@ items:
   type: Class
   source:
     remote:
-      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/ClearIntentionLinkButton.cs
+      path: C:/agent/_work/2/s/EquihiraRelease/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/ClearIntentionLinkButton.cs
     id: ClearIntentionLinkButton
     path: ClearIntentionLinkButton.cs
-    startLine: 25
+    startLine: 24
   assemblies:
   - Altazion.ECommerce.Controls
   namespace: Altazion.ECommerce.Controls
@@ -26,12 +26,18 @@ items:
   remarks: "\n<p>Destiné à permettre de réactiver un panier qui aurait été bloqué\nlors de la création d&apos;un règlement (par exemple lors de l&apos;envoi\nvers une plateforme de paiement externe)\n</p>\n<p>Utilisation : </p>\n<p><pre><code>    &lt;ecom:ClearIntentionLinkButton runat=&quot;server&quot; \n        CssClass=&quot;btn retour&quot; \n        RedirectTo=&quot;~/exec/panier.aspx&quot;> Retour au panier &lt;/ecom:ClearIntentionLinkButton></code></pre></p>\n<p>Ce contrôle est affiché sous la forme d&apos;un lien \n<pre><code>&lt;a href=&apos;javascript....&apos;>[votre contenu]&lt;/a></code></pre></p>\n"
   example: []
   syntax:
-    content: 'public class ClearIntentionLinkButton : LinkButton'
+    content: 'public class ClearIntentionLinkButton : LinkButton, IComponent, IDisposable, IParserAccessor, IUrlResolutionService, IDataBindingsAccessor, IControlBuilderAccessor, IControlDesignerAccessor, IExpressionsAccessor, IAttributeAccessor, IButtonControl, IPostBackEventHandler'
     content.vb: >-
       Public Class ClearIntentionLinkButton
           Inherits LinkButton
+          Implements IComponent, IDisposable, IParserAccessor, IUrlResolutionService, IDataBindingsAccessor, IControlBuilderAccessor, IControlDesignerAccessor, IExpressionsAccessor, IAttributeAccessor, IButtonControl, IPostBackEventHandler
   inheritance:
   - System.Object
+  - System.Web.UI.Control
+  - System.Web.UI.WebControls.WebControl
+  - System.Web.UI.WebControls.LinkButton
+  implements:
+  - System.IDisposable
   modifiers.csharp:
   - public
   - class
@@ -51,10 +57,10 @@ items:
   type: Property
   source:
     remote:
-      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/ClearIntentionLinkButton.cs
+      path: C:/agent/_work/2/s/EquihiraRelease/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/ClearIntentionLinkButton.cs
     id: RedirectTo
     path: ClearIntentionLinkButton.cs
-    startLine: 31
+    startLine: 30
   assemblies:
   - Altazion.ECommerce.Controls
   namespace: Altazion.ECommerce.Controls
@@ -80,17 +86,66 @@ references:
   nameWithType: Altazion.ECommerce.Controls
   fullName: Altazion.ECommerce.Controls
 - uid: System.Object
-  commentId: '!:System.Object'
+  commentId: T:System.Object
+  parent: System
   isExternal: true
   name: Object
   nameWithType: Object
   fullName: System.Object
+- uid: System.Web.UI.Control
+  commentId: T:System.Web.UI.Control
+  parent: System.Web.UI
+  isExternal: true
+  name: Control
+  nameWithType: Control
+  fullName: System.Web.UI.Control
+- uid: System.Web.UI.WebControls.WebControl
+  commentId: T:System.Web.UI.WebControls.WebControl
+  parent: System.Web.UI.WebControls
+  isExternal: true
+  name: WebControl
+  nameWithType: WebControl
+  fullName: System.Web.UI.WebControls.WebControl
+- uid: System.Web.UI.WebControls.LinkButton
+  commentId: T:System.Web.UI.WebControls.LinkButton
+  parent: System.Web.UI.WebControls
+  isExternal: true
+  name: LinkButton
+  nameWithType: LinkButton
+  fullName: System.Web.UI.WebControls.LinkButton
+- uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
+  isExternal: true
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Web.UI
+  commentId: N:System.Web.UI
+  isExternal: true
+  name: System.Web.UI
+  nameWithType: System.Web.UI
+  fullName: System.Web.UI
+- uid: System.Web.UI.WebControls
+  commentId: N:System.Web.UI.WebControls
+  isExternal: true
+  name: System.Web.UI.WebControls
+  nameWithType: System.Web.UI.WebControls
+  fullName: System.Web.UI.WebControls
 - uid: Altazion.ECommerce.Controls.ClearIntentionLinkButton.RedirectTo*
   commentId: Overload:Altazion.ECommerce.Controls.ClearIntentionLinkButton.RedirectTo
   name: RedirectTo
   nameWithType: ClearIntentionLinkButton.RedirectTo
   fullName: Altazion.ECommerce.Controls.ClearIntentionLinkButton.RedirectTo
 - uid: System.String
+  commentId: T:System.String
+  parent: System
   isExternal: true
   name: String
   nameWithType: String

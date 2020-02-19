@@ -14,7 +14,7 @@ items:
   type: Class
   source:
     remote:
-      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanierTotalLabel.cs
+      path: C:/agent/_work/2/s/EquihiraRelease/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanierTotalLabel.cs
     id: PanierTotalTtcLabel
     path: PanierTotalLabel.cs
     startLine: 11
@@ -22,18 +22,36 @@ items:
   - Altazion.ECommerce.Controls
   namespace: Altazion.ECommerce.Controls
   syntax:
-    content: 'public class PanierTotalTtcLabel : PanierTotalLabel'
+    content: >-
+      [Obsolete("Veuillez utiliser PanierTotalLabel", true)]
+
+      public class PanierTotalTtcLabel : PanierTotalLabel, IComponent, IDisposable, IParserAccessor, IUrlResolutionService, IDataBindingsAccessor, IControlBuilderAccessor, IControlDesignerAccessor, IExpressionsAccessor, IAttributeAccessor, ITextControl
     content.vb: >-
+      <Obsolete("Veuillez utiliser PanierTotalLabel", True)>
+
       Public Class PanierTotalTtcLabel
           Inherits PanierTotalLabel
+          Implements IComponent, IDisposable, IParserAccessor, IUrlResolutionService, IDataBindingsAccessor, IControlBuilderAccessor, IControlDesignerAccessor, IExpressionsAccessor, IAttributeAccessor, ITextControl
   inheritance:
   - System.Object
+  - System.Web.UI.Control
+  - System.Web.UI.WebControls.WebControl
+  - System.Web.UI.WebControls.Label
   - Altazion.ECommerce.Controls.PanierTotalLabel
+  implements:
+  - System.IDisposable
   inheritedMembers:
   - Altazion.ECommerce.Controls.PanierTotalLabel.Format
   - Altazion.ECommerce.Controls.PanierTotalLabel.AssocieMagasin
   - Altazion.ECommerce.Controls.PanierTotalLabel.IgnorerFraisDePort
-  - Altazion.ECommerce.Controls.PanierTotalLabel.OnPreRender(EventArgs)
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor(System.String,System.Boolean)
+    arguments:
+    - type: System.String
+      value: Veuillez utiliser PanierTotalLabel
+    - type: System.Boolean
+      value: true
   modifiers.csharp:
   - public
   - class
@@ -47,17 +65,46 @@ references:
   nameWithType: Altazion.ECommerce.Controls
   fullName: Altazion.ECommerce.Controls
 - uid: System.Object
-  commentId: '!:System.Object'
+  commentId: T:System.Object
+  parent: System
   isExternal: true
   name: Object
   nameWithType: Object
   fullName: System.Object
+- uid: System.Web.UI.Control
+  commentId: T:System.Web.UI.Control
+  parent: System.Web.UI
+  isExternal: true
+  name: Control
+  nameWithType: Control
+  fullName: System.Web.UI.Control
+- uid: System.Web.UI.WebControls.WebControl
+  commentId: T:System.Web.UI.WebControls.WebControl
+  parent: System.Web.UI.WebControls
+  isExternal: true
+  name: WebControl
+  nameWithType: WebControl
+  fullName: System.Web.UI.WebControls.WebControl
+- uid: System.Web.UI.WebControls.Label
+  commentId: T:System.Web.UI.WebControls.Label
+  parent: System.Web.UI.WebControls
+  isExternal: true
+  name: Label
+  nameWithType: Label
+  fullName: System.Web.UI.WebControls.Label
 - uid: Altazion.ECommerce.Controls.PanierTotalLabel
   commentId: T:Altazion.ECommerce.Controls.PanierTotalLabel
   parent: Altazion.ECommerce.Controls
   name: PanierTotalLabel
   nameWithType: PanierTotalLabel
   fullName: Altazion.ECommerce.Controls.PanierTotalLabel
+- uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
+  isExternal: true
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
 - uid: Altazion.ECommerce.Controls.PanierTotalLabel.Format
   commentId: P:Altazion.ECommerce.Controls.PanierTotalLabel.Format
   parent: Altazion.ECommerce.Controls.PanierTotalLabel
@@ -76,42 +123,21 @@ references:
   name: IgnorerFraisDePort
   nameWithType: PanierTotalLabel.IgnorerFraisDePort
   fullName: Altazion.ECommerce.Controls.PanierTotalLabel.IgnorerFraisDePort
-- uid: Altazion.ECommerce.Controls.PanierTotalLabel.OnPreRender(EventArgs)
-  commentId: M:Altazion.ECommerce.Controls.PanierTotalLabel.OnPreRender(EventArgs)
-  parent: Altazion.ECommerce.Controls.PanierTotalLabel
+- uid: System
+  commentId: N:System
   isExternal: true
-  name: OnPreRender(EventArgs)
-  nameWithType: PanierTotalLabel.OnPreRender(EventArgs)
-  fullName: Altazion.ECommerce.Controls.PanierTotalLabel.OnPreRender(EventArgs)
-  spec.csharp:
-  - uid: Altazion.ECommerce.Controls.PanierTotalLabel.OnPreRender(EventArgs)
-    name: OnPreRender
-    nameWithType: PanierTotalLabel.OnPreRender
-    fullName: Altazion.ECommerce.Controls.PanierTotalLabel.OnPreRender
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: EventArgs
-    name: EventArgs
-    nameWithType: EventArgs
-    fullName: EventArgs
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: Altazion.ECommerce.Controls.PanierTotalLabel.OnPreRender(EventArgs)
-    name: OnPreRender
-    nameWithType: PanierTotalLabel.OnPreRender
-    fullName: Altazion.ECommerce.Controls.PanierTotalLabel.OnPreRender
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: EventArgs
-    name: EventArgs
-    nameWithType: EventArgs
-    fullName: EventArgs
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Web.UI
+  commentId: N:System.Web.UI
+  isExternal: true
+  name: System.Web.UI
+  nameWithType: System.Web.UI
+  fullName: System.Web.UI
+- uid: System.Web.UI.WebControls
+  commentId: N:System.Web.UI.WebControls
+  isExternal: true
+  name: System.Web.UI.WebControls
+  nameWithType: System.Web.UI.WebControls
+  fullName: System.Web.UI.WebControls

@@ -6,7 +6,6 @@ items:
   parent: Altazion.ECommerce.Controls
   children:
   - Altazion.ECommerce.Controls.ProductFilArianeJsonLd.#ctor
-  - Altazion.ECommerce.Controls.ProductFilArianeJsonLd.OnPreRender(EventArgs)
   langs:
   - csharp
   - vb
@@ -16,22 +15,25 @@ items:
   type: Class
   source:
     remote:
-      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/FilArianeCategories.cs
+      path: C:/agent/_work/2/s/EquihiraRelease/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/FilArianeCategories.cs
     id: ProductFilArianeJsonLd
     path: FilArianeCategories.cs
-    startLine: 230
+    startLine: 270
   assemblies:
   - Altazion.ECommerce.Controls
   namespace: Altazion.ECommerce.Controls
   syntax:
-    content: 'public class ProductFilArianeJsonLd : WebControl, IEquihiraBindable'
+    content: 'public class ProductFilArianeJsonLd : WebControl, IComponent, IDisposable, IParserAccessor, IUrlResolutionService, IDataBindingsAccessor, IControlBuilderAccessor, IControlDesignerAccessor, IExpressionsAccessor, IAttributeAccessor, IEquihiraBindable'
     content.vb: >-
       Public Class ProductFilArianeJsonLd
           Inherits WebControl
-          Implements IEquihiraBindable
+          Implements IComponent, IDisposable, IParserAccessor, IUrlResolutionService, IDataBindingsAccessor, IControlBuilderAccessor, IControlDesignerAccessor, IExpressionsAccessor, IAttributeAccessor, IEquihiraBindable
   inheritance:
   - System.Object
+  - System.Web.UI.Control
+  - System.Web.UI.WebControls.WebControl
   implements:
+  - System.IDisposable
   - CPointSoftware.ECommerce.Tools.IEquihiraBindable
   modifiers.csharp:
   - public
@@ -52,10 +54,10 @@ items:
   type: Constructor
   source:
     remote:
-      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/FilArianeCategories.cs
+      path: C:/agent/_work/2/s/EquihiraRelease/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/FilArianeCategories.cs
     id: .ctor
     path: FilArianeCategories.cs
-    startLine: 232
+    startLine: 272
   assemblies:
   - Altazion.ECommerce.Controls
   namespace: Altazion.ECommerce.Controls
@@ -67,39 +69,6 @@ items:
   - public
   modifiers.vb:
   - Public
-- uid: Altazion.ECommerce.Controls.ProductFilArianeJsonLd.OnPreRender(EventArgs)
-  commentId: M:Altazion.ECommerce.Controls.ProductFilArianeJsonLd.OnPreRender(EventArgs)
-  id: OnPreRender(EventArgs)
-  parent: Altazion.ECommerce.Controls.ProductFilArianeJsonLd
-  langs:
-  - csharp
-  - vb
-  name: OnPreRender(EventArgs)
-  nameWithType: ProductFilArianeJsonLd.OnPreRender(EventArgs)
-  fullName: Altazion.ECommerce.Controls.ProductFilArianeJsonLd.OnPreRender(EventArgs)
-  type: Method
-  source:
-    remote:
-      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/FilArianeCategories.cs
-    id: OnPreRender
-    path: FilArianeCategories.cs
-    startLine: 236
-  assemblies:
-  - Altazion.ECommerce.Controls
-  namespace: Altazion.ECommerce.Controls
-  syntax:
-    content: protected override void OnPreRender(EventArgs e)
-    parameters:
-    - id: e
-      type: EventArgs
-    content.vb: Protected Overrides Sub OnPreRender(e As EventArgs)
-  overload: Altazion.ECommerce.Controls.ProductFilArianeJsonLd.OnPreRender*
-  modifiers.csharp:
-  - protected
-  - override
-  modifiers.vb:
-  - Protected
-  - Overrides
 references:
 - uid: Altazion.ECommerce.Controls
   commentId: N:Altazion.ECommerce.Controls
@@ -107,17 +76,57 @@ references:
   nameWithType: Altazion.ECommerce.Controls
   fullName: Altazion.ECommerce.Controls
 - uid: System.Object
-  commentId: '!:System.Object'
+  commentId: T:System.Object
+  parent: System
   isExternal: true
   name: Object
   nameWithType: Object
   fullName: System.Object
+- uid: System.Web.UI.Control
+  commentId: T:System.Web.UI.Control
+  parent: System.Web.UI
+  isExternal: true
+  name: Control
+  nameWithType: Control
+  fullName: System.Web.UI.Control
+- uid: System.Web.UI.WebControls.WebControl
+  commentId: T:System.Web.UI.WebControls.WebControl
+  parent: System.Web.UI.WebControls
+  isExternal: true
+  name: WebControl
+  nameWithType: WebControl
+  fullName: System.Web.UI.WebControls.WebControl
+- uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
+  isExternal: true
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
 - uid: CPointSoftware.ECommerce.Tools.IEquihiraBindable
   commentId: T:CPointSoftware.ECommerce.Tools.IEquihiraBindable
   parent: CPointSoftware.ECommerce.Tools
   name: IEquihiraBindable
   nameWithType: IEquihiraBindable
   fullName: CPointSoftware.ECommerce.Tools.IEquihiraBindable
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Web.UI
+  commentId: N:System.Web.UI
+  isExternal: true
+  name: System.Web.UI
+  nameWithType: System.Web.UI
+  fullName: System.Web.UI
+- uid: System.Web.UI.WebControls
+  commentId: N:System.Web.UI.WebControls
+  isExternal: true
+  name: System.Web.UI.WebControls
+  nameWithType: System.Web.UI.WebControls
+  fullName: System.Web.UI.WebControls
 - uid: CPointSoftware.ECommerce.Tools
   commentId: N:CPointSoftware.ECommerce.Tools
   name: CPointSoftware.ECommerce.Tools
@@ -128,13 +137,3 @@ references:
   name: ProductFilArianeJsonLd
   nameWithType: ProductFilArianeJsonLd.ProductFilArianeJsonLd
   fullName: Altazion.ECommerce.Controls.ProductFilArianeJsonLd.ProductFilArianeJsonLd
-- uid: Altazion.ECommerce.Controls.ProductFilArianeJsonLd.OnPreRender*
-  commentId: Overload:Altazion.ECommerce.Controls.ProductFilArianeJsonLd.OnPreRender
-  name: OnPreRender
-  nameWithType: ProductFilArianeJsonLd.OnPreRender
-  fullName: Altazion.ECommerce.Controls.ProductFilArianeJsonLd.OnPreRender
-- uid: EventArgs
-  isExternal: true
-  name: EventArgs
-  nameWithType: EventArgs
-  fullName: EventArgs

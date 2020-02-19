@@ -16,7 +16,7 @@ items:
   type: Enum
   source:
     remote:
-      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/ProductDelaiLivraison.cs
+      path: C:/agent/_work/2/s/EquihiraRelease/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/ProductDelaiLivraison.cs
     id: TypePreference
     path: ProductDelaiLivraison.cs
     startLine: 42
@@ -24,8 +24,8 @@ items:
   - Altazion.ECommerce.Controls
   namespace: Altazion.ECommerce.Controls
   syntax:
-    content: 'public enum TypePreference : int'
-    content.vb: Public Enum TypePreference As Integer
+    content: public enum TypePreference
+    content.vb: Public Enum TypePreference
   modifiers.csharp:
   - public
   - enum
@@ -45,7 +45,7 @@ items:
   type: Field
   source:
     remote:
-      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/ProductDelaiLivraison.cs
+      path: C:/agent/_work/2/s/EquihiraRelease/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/ProductDelaiLivraison.cs
     id: DateMin
     path: ProductDelaiLivraison.cs
     startLine: 44
@@ -75,7 +75,7 @@ items:
   type: Field
   source:
     remote:
-      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/ProductDelaiLivraison.cs
+      path: C:/agent/_work/2/s/EquihiraRelease/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/ProductDelaiLivraison.cs
     id: PrixMin
     path: ProductDelaiLivraison.cs
     startLine: 45

@@ -16,7 +16,7 @@ items:
   type: Class
   source:
     remote:
-      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/AlternatesLinks.cs
+      path: C:/agent/_work/2/s/EquihiraRelease/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/AlternatesLinks.cs
     id: AlternateLinkInfo
     path: AlternatesLinks.cs
     startLine: 12
@@ -26,10 +26,8 @@ items:
   summary: "\nReprésente une alternative locale pour le contrôle\n<xref href=\"Altazion.ECommerce.Controls.AlternatesLinks\" data-throw-if-not-resolved=\"false\"></xref>\n"
   example: []
   syntax:
-    content: 'public class AlternateLinkInfo : object'
-    content.vb: >-
-      Public Class AlternateLinkInfo
-          Inherits Object
+    content: public class AlternateLinkInfo
+    content.vb: Public Class AlternateLinkInfo
   inheritance:
   - System.Object
   modifiers.csharp:
@@ -51,7 +49,7 @@ items:
   type: Property
   source:
     remote:
-      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/AlternatesLinks.cs
+      path: C:/agent/_work/2/s/EquihiraRelease/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/AlternatesLinks.cs
     id: Langue
     path: AlternatesLinks.cs
     startLine: 19
@@ -87,7 +85,7 @@ items:
   type: Property
   source:
     remote:
-      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/AlternatesLinks.cs
+      path: C:/agent/_work/2/s/EquihiraRelease/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/AlternatesLinks.cs
     id: UrlRacine
     path: AlternatesLinks.cs
     startLine: 24
@@ -121,17 +119,26 @@ references:
   nameWithType: Altazion.ECommerce.Controls
   fullName: Altazion.ECommerce.Controls
 - uid: System.Object
-  commentId: '!:System.Object'
+  commentId: T:System.Object
+  parent: System
   isExternal: true
   name: Object
   nameWithType: Object
   fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: Altazion.ECommerce.Controls.AlternateLinkInfo.Langue*
   commentId: Overload:Altazion.ECommerce.Controls.AlternateLinkInfo.Langue
   name: Langue
   nameWithType: AlternateLinkInfo.Langue
   fullName: Altazion.ECommerce.Controls.AlternateLinkInfo.Langue
 - uid: System.String
+  commentId: T:System.String
+  parent: System
   isExternal: true
   name: String
   nameWithType: String

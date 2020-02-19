@@ -16,7 +16,7 @@ items:
   type: Class
   source:
     remote:
-      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/AdresseChoisirLink.cs
+      path: C:/agent/_work/2/s/EquihiraRelease/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/AdresseChoisirLink.cs
     id: AdresseChoisirLink
     path: AdresseChoisirLink.cs
     startLine: 17
@@ -27,12 +27,18 @@ items:
   remarks: "\nVous devez préciser le <xref href=\"Altazion.ECommerce.Controls.AdresseChoisirLink.TypeAdresse\" data-throw-if-not-resolved=\"false\"></xref> et le <xref href=\"Altazion.ECommerce.Controls.AdresseChoisirLink.AdresseGuid\" data-throw-if-not-resolved=\"false\"></xref>.\n"
   example: []
   syntax:
-    content: 'public class AdresseChoisirLink : LinkButton'
+    content: 'public class AdresseChoisirLink : LinkButton, IComponent, IDisposable, IParserAccessor, IUrlResolutionService, IDataBindingsAccessor, IControlBuilderAccessor, IControlDesignerAccessor, IExpressionsAccessor, IAttributeAccessor, IButtonControl, IPostBackEventHandler'
     content.vb: >-
       Public Class AdresseChoisirLink
           Inherits LinkButton
+          Implements IComponent, IDisposable, IParserAccessor, IUrlResolutionService, IDataBindingsAccessor, IControlBuilderAccessor, IControlDesignerAccessor, IExpressionsAccessor, IAttributeAccessor, IButtonControl, IPostBackEventHandler
   inheritance:
   - System.Object
+  - System.Web.UI.Control
+  - System.Web.UI.WebControls.WebControl
+  - System.Web.UI.WebControls.LinkButton
+  implements:
+  - System.IDisposable
   modifiers.csharp:
   - public
   - class
@@ -52,7 +58,7 @@ items:
   type: Property
   source:
     remote:
-      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/AdresseChoisirLink.cs
+      path: C:/agent/_work/2/s/EquihiraRelease/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/AdresseChoisirLink.cs
     id: TypeAdresse
     path: AdresseChoisirLink.cs
     startLine: 26
@@ -88,7 +94,7 @@ items:
   type: Property
   source:
     remote:
-      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/AdresseChoisirLink.cs
+      path: C:/agent/_work/2/s/EquihiraRelease/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/AdresseChoisirLink.cs
     id: AdresseGuid
     path: AdresseChoisirLink.cs
     startLine: 31
@@ -101,7 +107,7 @@ items:
     content: public Guid AdresseGuid { get; set; }
     parameters: []
     return:
-      type: Guid
+      type: System.Guid
     content.vb: Public Property AdresseGuid As Guid
   overload: Altazion.ECommerce.Controls.AdresseChoisirLink.AdresseGuid*
   modifiers.csharp:
@@ -123,11 +129,58 @@ references:
   nameWithType: Altazion.ECommerce.Controls
   fullName: Altazion.ECommerce.Controls
 - uid: System.Object
-  commentId: '!:System.Object'
+  commentId: T:System.Object
+  parent: System
   isExternal: true
   name: Object
   nameWithType: Object
   fullName: System.Object
+- uid: System.Web.UI.Control
+  commentId: T:System.Web.UI.Control
+  parent: System.Web.UI
+  isExternal: true
+  name: Control
+  nameWithType: Control
+  fullName: System.Web.UI.Control
+- uid: System.Web.UI.WebControls.WebControl
+  commentId: T:System.Web.UI.WebControls.WebControl
+  parent: System.Web.UI.WebControls
+  isExternal: true
+  name: WebControl
+  nameWithType: WebControl
+  fullName: System.Web.UI.WebControls.WebControl
+- uid: System.Web.UI.WebControls.LinkButton
+  commentId: T:System.Web.UI.WebControls.LinkButton
+  parent: System.Web.UI.WebControls
+  isExternal: true
+  name: LinkButton
+  nameWithType: LinkButton
+  fullName: System.Web.UI.WebControls.LinkButton
+- uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
+  isExternal: true
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Web.UI
+  commentId: N:System.Web.UI
+  isExternal: true
+  name: System.Web.UI
+  nameWithType: System.Web.UI
+  fullName: System.Web.UI
+- uid: System.Web.UI.WebControls
+  commentId: N:System.Web.UI.WebControls
+  isExternal: true
+  name: System.Web.UI.WebControls
+  nameWithType: System.Web.UI.WebControls
+  fullName: System.Web.UI.WebControls
 - uid: Altazion.ECommerce.Controls.AdresseChoisirLink.TypeAdresse*
   commentId: Overload:Altazion.ECommerce.Controls.AdresseChoisirLink.TypeAdresse
   name: TypeAdresse
@@ -149,8 +202,10 @@ references:
   name: AdresseGuid
   nameWithType: AdresseChoisirLink.AdresseGuid
   fullName: Altazion.ECommerce.Controls.AdresseChoisirLink.AdresseGuid
-- uid: Guid
+- uid: System.Guid
+  commentId: T:System.Guid
+  parent: System
   isExternal: true
   name: Guid
   nameWithType: Guid
-  fullName: Guid
+  fullName: System.Guid

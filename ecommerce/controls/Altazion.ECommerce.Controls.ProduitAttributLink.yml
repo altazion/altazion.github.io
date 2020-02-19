@@ -16,7 +16,7 @@ items:
   type: Class
   source:
     remote:
-      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/ProductLinks.cs
+      path: C:/agent/_work/2/s/EquihiraRelease/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/ProductLinks.cs
     id: ProduitAttributLink
     path: ProductLinks.cs
     startLine: 387
@@ -26,19 +26,22 @@ items:
   summary: "\nA utiliser dans un contrôle bindé sur un produit : affiche un lien\navec la valeur d&apos;un attribut personnalisé du produit pointant sur \nla page de recherche correspondante\n"
   example: []
   syntax:
-    content: 'public class ProduitAttributLink : Hyperlink, IEquihiraBindable'
+    content: 'public class ProduitAttributLink : Hyperlink, IComponent, IDisposable, IParserAccessor, IUrlResolutionService, IDataBindingsAccessor, IControlBuilderAccessor, IControlDesignerAccessor, IExpressionsAccessor, IAttributeAccessor, IEquihiraBindable'
     content.vb: >-
       Public Class ProduitAttributLink
           Inherits Hyperlink
-          Implements IEquihiraBindable
+          Implements IComponent, IDisposable, IParserAccessor, IUrlResolutionService, IDataBindingsAccessor, IControlBuilderAccessor, IControlDesignerAccessor, IExpressionsAccessor, IAttributeAccessor, IEquihiraBindable
   inheritance:
   - System.Object
+  - System.Web.UI.Control
+  - System.Web.UI.WebControls.WebControl
+  - System.Web.UI.WebControls.HyperLink
   - CPointSoftware.ECommerce.Tools.Hyperlink
   implements:
+  - System.IDisposable
   - CPointSoftware.ECommerce.Tools.IEquihiraBindable
   inheritedMembers:
   - CPointSoftware.ECommerce.Tools.Hyperlink.CssClassIfCurrent
-  - CPointSoftware.ECommerce.Tools.Hyperlink.OnPreRender(EventArgs)
   modifiers.csharp:
   - public
   - class
@@ -58,7 +61,7 @@ items:
   type: Property
   source:
     remote:
-      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/ProductLinks.cs
+      path: C:/agent/_work/2/s/EquihiraRelease/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/ProductLinks.cs
     id: AttributeGuid
     path: ProductLinks.cs
     startLine: 401
@@ -69,7 +72,7 @@ items:
     content: public Guid AttributeGuid { get; set; }
     parameters: []
     return:
-      type: Guid
+      type: System.Guid
     content.vb: Public Property AttributeGuid As Guid
   overload: Altazion.ECommerce.Controls.ProduitAttributLink.AttributeGuid*
   modifiers.csharp:
@@ -91,7 +94,7 @@ items:
   type: Property
   source:
     remote:
-      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/ProductLinks.cs
+      path: C:/agent/_work/2/s/EquihiraRelease/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/ProductLinks.cs
     id: Format
     path: ProductLinks.cs
     startLine: 402
@@ -118,17 +121,46 @@ references:
   nameWithType: Altazion.ECommerce.Controls
   fullName: Altazion.ECommerce.Controls
 - uid: System.Object
-  commentId: '!:System.Object'
+  commentId: T:System.Object
+  parent: System
   isExternal: true
   name: Object
   nameWithType: Object
   fullName: System.Object
+- uid: System.Web.UI.Control
+  commentId: T:System.Web.UI.Control
+  parent: System.Web.UI
+  isExternal: true
+  name: Control
+  nameWithType: Control
+  fullName: System.Web.UI.Control
+- uid: System.Web.UI.WebControls.WebControl
+  commentId: T:System.Web.UI.WebControls.WebControl
+  parent: System.Web.UI.WebControls
+  isExternal: true
+  name: WebControl
+  nameWithType: WebControl
+  fullName: System.Web.UI.WebControls.WebControl
+- uid: System.Web.UI.WebControls.HyperLink
+  commentId: T:System.Web.UI.WebControls.HyperLink
+  parent: System.Web.UI.WebControls
+  isExternal: true
+  name: HyperLink
+  nameWithType: HyperLink
+  fullName: System.Web.UI.WebControls.HyperLink
 - uid: CPointSoftware.ECommerce.Tools.Hyperlink
   commentId: T:CPointSoftware.ECommerce.Tools.Hyperlink
   parent: CPointSoftware.ECommerce.Tools
   name: Hyperlink
   nameWithType: Hyperlink
   fullName: CPointSoftware.ECommerce.Tools.Hyperlink
+- uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
+  isExternal: true
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
 - uid: CPointSoftware.ECommerce.Tools.IEquihiraBindable
   commentId: T:CPointSoftware.ECommerce.Tools.IEquihiraBindable
   parent: CPointSoftware.ECommerce.Tools
@@ -141,45 +173,24 @@ references:
   name: CssClassIfCurrent
   nameWithType: Hyperlink.CssClassIfCurrent
   fullName: CPointSoftware.ECommerce.Tools.Hyperlink.CssClassIfCurrent
-- uid: CPointSoftware.ECommerce.Tools.Hyperlink.OnPreRender(EventArgs)
-  commentId: M:CPointSoftware.ECommerce.Tools.Hyperlink.OnPreRender(EventArgs)
-  parent: CPointSoftware.ECommerce.Tools.Hyperlink
+- uid: System
+  commentId: N:System
   isExternal: true
-  name: OnPreRender(EventArgs)
-  nameWithType: Hyperlink.OnPreRender(EventArgs)
-  fullName: CPointSoftware.ECommerce.Tools.Hyperlink.OnPreRender(EventArgs)
-  spec.csharp:
-  - uid: CPointSoftware.ECommerce.Tools.Hyperlink.OnPreRender(EventArgs)
-    name: OnPreRender
-    nameWithType: Hyperlink.OnPreRender
-    fullName: CPointSoftware.ECommerce.Tools.Hyperlink.OnPreRender
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: EventArgs
-    name: EventArgs
-    nameWithType: EventArgs
-    fullName: EventArgs
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: CPointSoftware.ECommerce.Tools.Hyperlink.OnPreRender(EventArgs)
-    name: OnPreRender
-    nameWithType: Hyperlink.OnPreRender
-    fullName: CPointSoftware.ECommerce.Tools.Hyperlink.OnPreRender
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: EventArgs
-    name: EventArgs
-    nameWithType: EventArgs
-    fullName: EventArgs
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Web.UI
+  commentId: N:System.Web.UI
+  isExternal: true
+  name: System.Web.UI
+  nameWithType: System.Web.UI
+  fullName: System.Web.UI
+- uid: System.Web.UI.WebControls
+  commentId: N:System.Web.UI.WebControls
+  isExternal: true
+  name: System.Web.UI.WebControls
+  nameWithType: System.Web.UI.WebControls
+  fullName: System.Web.UI.WebControls
 - uid: CPointSoftware.ECommerce.Tools
   commentId: N:CPointSoftware.ECommerce.Tools
   name: CPointSoftware.ECommerce.Tools
@@ -190,17 +201,21 @@ references:
   name: AttributeGuid
   nameWithType: ProduitAttributLink.AttributeGuid
   fullName: Altazion.ECommerce.Controls.ProduitAttributLink.AttributeGuid
-- uid: Guid
+- uid: System.Guid
+  commentId: T:System.Guid
+  parent: System
   isExternal: true
   name: Guid
   nameWithType: Guid
-  fullName: Guid
+  fullName: System.Guid
 - uid: Altazion.ECommerce.Controls.ProduitAttributLink.Format*
   commentId: Overload:Altazion.ECommerce.Controls.ProduitAttributLink.Format
   name: Format
   nameWithType: ProduitAttributLink.Format
   fullName: Altazion.ECommerce.Controls.ProduitAttributLink.Format
 - uid: System.String
+  commentId: T:System.String
+  parent: System
   isExternal: true
   name: String
   nameWithType: String

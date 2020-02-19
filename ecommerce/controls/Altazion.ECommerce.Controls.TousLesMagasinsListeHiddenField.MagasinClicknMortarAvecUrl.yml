@@ -15,7 +15,7 @@ items:
   type: Class
   source:
     remote:
-      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/MagasinsControls.cs
+      path: C:/agent/_work/2/s/EquihiraRelease/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/MagasinsControls.cs
     id: MagasinClicknMortarAvecUrl
     path: MagasinsControls.cs
     startLine: 40
@@ -79,6 +79,8 @@ items:
   - CPointSoftware.Equihira.Common.NotifyPropertyChangedObject.PropertyChanged
   - CPointSoftware.Equihira.Common.NotifyPropertyChangedObject.FirePropertyChanged(System.String)
   - CPointSoftware.Equihira.Common.NotifyPropertyChangedObject.FirePropertyChanged(System.String,System.Boolean)
+  - CPointSoftware.Equihira.Common.NotifyPropertyChangedObject.System#ComponentModel#IDataErrorInfo#Error
+  - CPointSoftware.Equihira.Common.NotifyPropertyChangedObject.System#ComponentModel#IDataErrorInfo#Item(System.String)
   - CPointSoftware.Equihira.Common.NotifyPropertyChangedObject.IsValid
   - CPointSoftware.Equihira.Common.NotifyPropertyChangedObject.AddError(System.String,System.String)
   - CPointSoftware.Equihira.Common.NotifyPropertyChangedObject.ClearError(System.String)
@@ -104,7 +106,7 @@ items:
   type: Property
   source:
     remote:
-      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/MagasinsControls.cs
+      path: C:/agent/_work/2/s/EquihiraRelease/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/MagasinsControls.cs
     id: Url
     path: MagasinsControls.cs
     startLine: 42
@@ -131,7 +133,8 @@ references:
   nameWithType: Altazion.ECommerce.Controls
   fullName: Altazion.ECommerce.Controls
 - uid: System.Object
-  commentId: '!:System.Object'
+  commentId: T:System.Object
+  parent: System
   isExternal: true
   name: Object
   nameWithType: Object
@@ -161,13 +164,15 @@ references:
   nameWithType: MagasinClicknMortar
   fullName: CPointSoftware.Equihira.Common.MagasinClicknMortar
 - uid: System.ComponentModel.INotifyPropertyChanged
-  commentId: '!:System.ComponentModel.INotifyPropertyChanged'
+  commentId: T:System.ComponentModel.INotifyPropertyChanged
+  parent: System.ComponentModel
   isExternal: true
   name: INotifyPropertyChanged
   nameWithType: INotifyPropertyChanged
   fullName: System.ComponentModel.INotifyPropertyChanged
 - uid: System.ComponentModel.IDataErrorInfo
-  commentId: '!:System.ComponentModel.IDataErrorInfo'
+  commentId: T:System.ComponentModel.IDataErrorInfo
+  parent: System.ComponentModel
   isExternal: true
   name: IDataErrorInfo
   nameWithType: IDataErrorInfo
@@ -1214,6 +1219,56 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: CPointSoftware.Equihira.Common.NotifyPropertyChangedObject.System#ComponentModel#IDataErrorInfo#Error
+  commentId: P:CPointSoftware.Equihira.Common.NotifyPropertyChangedObject.System#ComponentModel#IDataErrorInfo#Error
+  parent: CPointSoftware.Equihira.Common.NotifyPropertyChangedObject
+  name: IDataErrorInfo.Error
+  nameWithType: NotifyPropertyChangedObject.IDataErrorInfo.Error
+  fullName: CPointSoftware.Equihira.Common.NotifyPropertyChangedObject.System.ComponentModel.IDataErrorInfo.Error
+  nameWithType.vb: NotifyPropertyChangedObject.System.ComponentModel.IDataErrorInfo.Error
+  name.vb: System.ComponentModel.IDataErrorInfo.Error
+- uid: CPointSoftware.Equihira.Common.NotifyPropertyChangedObject.System#ComponentModel#IDataErrorInfo#Item(System.String)
+  commentId: P:CPointSoftware.Equihira.Common.NotifyPropertyChangedObject.System#ComponentModel#IDataErrorInfo#Item(System.String)
+  parent: CPointSoftware.Equihira.Common.NotifyPropertyChangedObject
+  isExternal: true
+  name: IDataErrorInfo.Item[String]
+  nameWithType: NotifyPropertyChangedObject.IDataErrorInfo.Item[String]
+  fullName: CPointSoftware.Equihira.Common.NotifyPropertyChangedObject.System.ComponentModel.IDataErrorInfo.Item[System.String]
+  nameWithType.vb: NotifyPropertyChangedObject.System.ComponentModel.IDataErrorInfo.Item(String)
+  fullName.vb: CPointSoftware.Equihira.Common.NotifyPropertyChangedObject.System.ComponentModel.IDataErrorInfo.Item(System.String)
+  name.vb: System.ComponentModel.IDataErrorInfo.Item(String)
+  spec.csharp:
+  - uid: CPointSoftware.Equihira.Common.NotifyPropertyChangedObject.System#ComponentModel#IDataErrorInfo#Item(System.String)
+    name: IDataErrorInfo.Item
+    nameWithType: NotifyPropertyChangedObject.IDataErrorInfo.Item
+    fullName: CPointSoftware.Equihira.Common.NotifyPropertyChangedObject.System.ComponentModel.IDataErrorInfo.Item
+  - name: '['
+    nameWithType: '['
+    fullName: '['
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ']'
+    nameWithType: ']'
+    fullName: ']'
+  spec.vb:
+  - uid: CPointSoftware.Equihira.Common.NotifyPropertyChangedObject.System#ComponentModel#IDataErrorInfo#Item(System.String)
+    name: System.ComponentModel.IDataErrorInfo.Item
+    nameWithType: NotifyPropertyChangedObject.System.ComponentModel.IDataErrorInfo.Item
+    fullName: CPointSoftware.Equihira.Common.NotifyPropertyChangedObject.System.ComponentModel.IDataErrorInfo.Item
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: CPointSoftware.Equihira.Common.NotifyPropertyChangedObject.IsValid
   commentId: P:CPointSoftware.Equihira.Common.NotifyPropertyChangedObject.IsValid
   parent: CPointSoftware.Equihira.Common.NotifyPropertyChangedObject
@@ -1409,11 +1464,23 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: CPointSoftware.Equihira.Common
   commentId: N:CPointSoftware.Equihira.Common
   name: CPointSoftware.Equihira.Common
   nameWithType: CPointSoftware.Equihira.Common
   fullName: CPointSoftware.Equihira.Common
+- uid: System.ComponentModel
+  commentId: N:System.ComponentModel
+  isExternal: true
+  name: System.ComponentModel
+  nameWithType: System.ComponentModel
+  fullName: System.ComponentModel
 - uid: CPointSoftware.Equihira.Common.DataObjectBase.GetValue``1(System.Data.DataRow,System.String,``0)
   commentId: M:CPointSoftware.Equihira.Common.DataObjectBase.GetValue``1(System.Data.DataRow,System.String,``0)
   isExternal: true
@@ -1489,6 +1556,8 @@ references:
   nameWithType: TousLesMagasinsListeHiddenField.MagasinClicknMortarAvecUrl.Url
   fullName: Altazion.ECommerce.Controls.TousLesMagasinsListeHiddenField.MagasinClicknMortarAvecUrl.Url
 - uid: System.String
+  commentId: T:System.String
+  parent: System
   isExternal: true
   name: String
   nameWithType: String

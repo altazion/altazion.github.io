@@ -7,7 +7,6 @@ items:
   children:
   - Altazion.ECommerce.Controls.NoCookiePanel.#ctor
   - Altazion.ECommerce.Controls.NoCookiePanel.CookieName
-  - Altazion.ECommerce.Controls.NoCookiePanel.OnPreRender(EventArgs)
   langs:
   - csharp
   - vb
@@ -17,20 +16,28 @@ items:
   type: Class
   source:
     remote:
-      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/CookiePanel.cs
+      path: C:/agent/_work/2/s/EquihiraRelease/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/CookiePanel.cs
     id: NoCookiePanel
     path: CookiePanel.cs
-    startLine: 11
+    startLine: 16
   assemblies:
   - Altazion.ECommerce.Controls
   namespace: Altazion.ECommerce.Controls
+  summary: "\nPanel (div) s&apos;affichant jusqu&apos;à ce qu&apos;un cookie spécifique\nsoit placé. Permet par exemple d&apos;afficher les messages \nlégaux de gestion des infos personelles\n"
+  example: []
   syntax:
-    content: 'public class NoCookiePanel : Panel'
+    content: 'public class NoCookiePanel : Panel, IComponent, IDisposable, IParserAccessor, IUrlResolutionService, IDataBindingsAccessor, IControlBuilderAccessor, IControlDesignerAccessor, IExpressionsAccessor, IAttributeAccessor'
     content.vb: >-
       Public Class NoCookiePanel
           Inherits Panel
+          Implements IComponent, IDisposable, IParserAccessor, IUrlResolutionService, IDataBindingsAccessor, IControlBuilderAccessor, IControlDesignerAccessor, IExpressionsAccessor, IAttributeAccessor
   inheritance:
   - System.Object
+  - System.Web.UI.Control
+  - System.Web.UI.WebControls.WebControl
+  - System.Web.UI.WebControls.Panel
+  implements:
+  - System.IDisposable
   modifiers.csharp:
   - public
   - class
@@ -50,13 +57,15 @@ items:
   type: Constructor
   source:
     remote:
-      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/CookiePanel.cs
+      path: C:/agent/_work/2/s/EquihiraRelease/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/CookiePanel.cs
     id: .ctor
     path: CookiePanel.cs
-    startLine: 13
+    startLine: 21
   assemblies:
   - Altazion.ECommerce.Controls
   namespace: Altazion.ECommerce.Controls
+  summary: "\nInitialise une nouvelle instance de <xref href=\"Altazion.ECommerce.Controls.NoCookiePanel\" data-throw-if-not-resolved=\"false\"></xref>\n"
+  example: []
   syntax:
     content: public NoCookiePanel()
     content.vb: Public Sub New
@@ -78,13 +87,15 @@ items:
   type: Property
   source:
     remote:
-      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/CookiePanel.cs
+      path: C:/agent/_work/2/s/EquihiraRelease/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/CookiePanel.cs
     id: CookieName
     path: CookiePanel.cs
-    startLine: 18
+    startLine: 29
   assemblies:
   - Altazion.ECommerce.Controls
   namespace: Altazion.ECommerce.Controls
+  summary: "\nObtient ou définit le nom du cookie à vérifier\n"
+  example: []
   syntax:
     content: public string CookieName { get; set; }
     parameters: []
@@ -98,39 +109,6 @@ items:
   - set
   modifiers.vb:
   - Public
-- uid: Altazion.ECommerce.Controls.NoCookiePanel.OnPreRender(EventArgs)
-  commentId: M:Altazion.ECommerce.Controls.NoCookiePanel.OnPreRender(EventArgs)
-  id: OnPreRender(EventArgs)
-  parent: Altazion.ECommerce.Controls.NoCookiePanel
-  langs:
-  - csharp
-  - vb
-  name: OnPreRender(EventArgs)
-  nameWithType: NoCookiePanel.OnPreRender(EventArgs)
-  fullName: Altazion.ECommerce.Controls.NoCookiePanel.OnPreRender(EventArgs)
-  type: Method
-  source:
-    remote:
-      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/CookiePanel.cs
-    id: OnPreRender
-    path: CookiePanel.cs
-    startLine: 20
-  assemblies:
-  - Altazion.ECommerce.Controls
-  namespace: Altazion.ECommerce.Controls
-  syntax:
-    content: protected override void OnPreRender(EventArgs e)
-    parameters:
-    - id: e
-      type: EventArgs
-    content.vb: Protected Overrides Sub OnPreRender(e As EventArgs)
-  overload: Altazion.ECommerce.Controls.NoCookiePanel.OnPreRender*
-  modifiers.csharp:
-  - protected
-  - override
-  modifiers.vb:
-  - Protected
-  - Overrides
 references:
 - uid: Altazion.ECommerce.Controls
   commentId: N:Altazion.ECommerce.Controls
@@ -138,11 +116,63 @@ references:
   nameWithType: Altazion.ECommerce.Controls
   fullName: Altazion.ECommerce.Controls
 - uid: System.Object
-  commentId: '!:System.Object'
+  commentId: T:System.Object
+  parent: System
   isExternal: true
   name: Object
   nameWithType: Object
   fullName: System.Object
+- uid: System.Web.UI.Control
+  commentId: T:System.Web.UI.Control
+  parent: System.Web.UI
+  isExternal: true
+  name: Control
+  nameWithType: Control
+  fullName: System.Web.UI.Control
+- uid: System.Web.UI.WebControls.WebControl
+  commentId: T:System.Web.UI.WebControls.WebControl
+  parent: System.Web.UI.WebControls
+  isExternal: true
+  name: WebControl
+  nameWithType: WebControl
+  fullName: System.Web.UI.WebControls.WebControl
+- uid: System.Web.UI.WebControls.Panel
+  commentId: T:System.Web.UI.WebControls.Panel
+  parent: System.Web.UI.WebControls
+  isExternal: true
+  name: Panel
+  nameWithType: Panel
+  fullName: System.Web.UI.WebControls.Panel
+- uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
+  isExternal: true
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Web.UI
+  commentId: N:System.Web.UI
+  isExternal: true
+  name: System.Web.UI
+  nameWithType: System.Web.UI
+  fullName: System.Web.UI
+- uid: System.Web.UI.WebControls
+  commentId: N:System.Web.UI.WebControls
+  isExternal: true
+  name: System.Web.UI.WebControls
+  nameWithType: System.Web.UI.WebControls
+  fullName: System.Web.UI.WebControls
+- uid: Altazion.ECommerce.Controls.NoCookiePanel
+  commentId: T:Altazion.ECommerce.Controls.NoCookiePanel
+  name: NoCookiePanel
+  nameWithType: NoCookiePanel
+  fullName: Altazion.ECommerce.Controls.NoCookiePanel
 - uid: Altazion.ECommerce.Controls.NoCookiePanel.#ctor*
   commentId: Overload:Altazion.ECommerce.Controls.NoCookiePanel.#ctor
   name: NoCookiePanel
@@ -154,17 +184,9 @@ references:
   nameWithType: NoCookiePanel.CookieName
   fullName: Altazion.ECommerce.Controls.NoCookiePanel.CookieName
 - uid: System.String
+  commentId: T:System.String
+  parent: System
   isExternal: true
   name: String
   nameWithType: String
   fullName: System.String
-- uid: Altazion.ECommerce.Controls.NoCookiePanel.OnPreRender*
-  commentId: Overload:Altazion.ECommerce.Controls.NoCookiePanel.OnPreRender
-  name: OnPreRender
-  nameWithType: NoCookiePanel.OnPreRender
-  fullName: Altazion.ECommerce.Controls.NoCookiePanel.OnPreRender
-- uid: EventArgs
-  isExternal: true
-  name: EventArgs
-  nameWithType: EventArgs
-  fullName: EventArgs

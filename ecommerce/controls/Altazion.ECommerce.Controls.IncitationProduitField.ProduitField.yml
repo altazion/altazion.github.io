@@ -21,7 +21,7 @@ items:
   type: Enum
   source:
     remote:
-      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/IncitationControls.cs
+      path: C:/agent/_work/2/s/EquihiraRelease/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/IncitationControls.cs
     id: ProduitField
     path: IncitationControls.cs
     startLine: 83
@@ -29,8 +29,8 @@ items:
   - Altazion.ECommerce.Controls
   namespace: Altazion.ECommerce.Controls
   syntax:
-    content: 'public enum ProduitField : int'
-    content.vb: Public Enum ProduitField As Integer
+    content: public enum ProduitField
+    content.vb: Public Enum ProduitField
   modifiers.csharp:
   - public
   - enum
@@ -50,7 +50,7 @@ items:
   type: Field
   source:
     remote:
-      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/IncitationControls.cs
+      path: C:/agent/_work/2/s/EquihiraRelease/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/IncitationControls.cs
     id: Reference
     path: IncitationControls.cs
     startLine: 85
@@ -80,7 +80,7 @@ items:
   type: Field
   source:
     remote:
-      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/IncitationControls.cs
+      path: C:/agent/_work/2/s/EquihiraRelease/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/IncitationControls.cs
     id: Quantite
     path: IncitationControls.cs
     startLine: 86
@@ -110,7 +110,7 @@ items:
   type: Field
   source:
     remote:
-      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/IncitationControls.cs
+      path: C:/agent/_work/2/s/EquihiraRelease/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/IncitationControls.cs
     id: PrixUnitaireHt
     path: IncitationControls.cs
     startLine: 87
@@ -140,7 +140,7 @@ items:
   type: Field
   source:
     remote:
-      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/IncitationControls.cs
+      path: C:/agent/_work/2/s/EquihiraRelease/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/IncitationControls.cs
     id: PrixUnitaireTtc
     path: IncitationControls.cs
     startLine: 88
@@ -170,7 +170,7 @@ items:
   type: Field
   source:
     remote:
-      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/IncitationControls.cs
+      path: C:/agent/_work/2/s/EquihiraRelease/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/IncitationControls.cs
     id: Libelle
     path: IncitationControls.cs
     startLine: 89
@@ -200,7 +200,7 @@ items:
   type: Field
   source:
     remote:
-      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/IncitationControls.cs
+      path: C:/agent/_work/2/s/EquihiraRelease/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/IncitationControls.cs
     id: MontantHt
     path: IncitationControls.cs
     startLine: 90
@@ -230,7 +230,7 @@ items:
   type: Field
   source:
     remote:
-      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/IncitationControls.cs
+      path: C:/agent/_work/2/s/EquihiraRelease/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/IncitationControls.cs
     id: MontantTtc
     path: IncitationControls.cs
     startLine: 91

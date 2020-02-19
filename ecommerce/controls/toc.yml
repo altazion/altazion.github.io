@@ -344,6 +344,8 @@
     name: SiteNom
   - uid: Altazion.ECommerce.Controls.SiteServiceClientEmail
     name: SiteServiceClientEmail
+  - uid: Altazion.ECommerce.Controls.SiteServiceClientEmailLink
+    name: SiteServiceClientEmailLink
   - uid: Altazion.ECommerce.Controls.SiteServiceClientHoraires
     name: SiteServiceClientHoraires
   - uid: Altazion.ECommerce.Controls.SiteServiceClientTelephone

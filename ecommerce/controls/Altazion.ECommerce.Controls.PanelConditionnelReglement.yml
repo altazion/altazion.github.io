@@ -7,7 +7,6 @@ items:
   children:
   - Altazion.ECommerce.Controls.PanelConditionnelReglement.GuidModeReglement
   - Altazion.ECommerce.Controls.PanelConditionnelReglement.GuidModeReglementsAEviter
-  - Altazion.ECommerce.Controls.PanelConditionnelReglement.OnPreRender(EventArgs)
   langs:
   - csharp
   - vb
@@ -17,7 +16,7 @@ items:
   type: Class
   source:
     remote:
-      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanelConditionnelReglement.cs
+      path: C:/agent/_work/2/s/EquihiraRelease/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanelConditionnelReglement.cs
     id: PanelConditionnelReglement
     path: PanelConditionnelReglement.cs
     startLine: 14
@@ -27,12 +26,18 @@ items:
   summary: "\nAffiche un div si le mode de règlement <xref href=\"Altazion.ECommerce.Controls.PanelConditionnelReglement.GuidModeReglement\" data-throw-if-not-resolved=\"false\"></xref>\nest utilisé dans le paiement de la commande active\n"
   example: []
   syntax:
-    content: 'public class PanelConditionnelReglement : Panel'
+    content: 'public class PanelConditionnelReglement : Panel, IComponent, IDisposable, IParserAccessor, IUrlResolutionService, IDataBindingsAccessor, IControlBuilderAccessor, IControlDesignerAccessor, IExpressionsAccessor, IAttributeAccessor'
     content.vb: >-
       Public Class PanelConditionnelReglement
           Inherits Panel
+          Implements IComponent, IDisposable, IParserAccessor, IUrlResolutionService, IDataBindingsAccessor, IControlBuilderAccessor, IControlDesignerAccessor, IExpressionsAccessor, IAttributeAccessor
   inheritance:
   - System.Object
+  - System.Web.UI.Control
+  - System.Web.UI.WebControls.WebControl
+  - System.Web.UI.WebControls.Panel
+  implements:
+  - System.IDisposable
   modifiers.csharp:
   - public
   - class
@@ -52,7 +57,7 @@ items:
   type: Property
   source:
     remote:
-      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanelConditionnelReglement.cs
+      path: C:/agent/_work/2/s/EquihiraRelease/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanelConditionnelReglement.cs
     id: GuidModeReglement
     path: PanelConditionnelReglement.cs
     startLine: 16
@@ -63,7 +68,7 @@ items:
     content: public Guid GuidModeReglement { get; set; }
     parameters: []
     return:
-      type: Guid
+      type: System.Guid
     content.vb: Public Property GuidModeReglement As Guid
   overload: Altazion.ECommerce.Controls.PanelConditionnelReglement.GuidModeReglement*
   modifiers.csharp:
@@ -85,7 +90,7 @@ items:
   type: Property
   source:
     remote:
-      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanelConditionnelReglement.cs
+      path: C:/agent/_work/2/s/EquihiraRelease/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanelConditionnelReglement.cs
     id: GuidModeReglementsAEviter
     path: PanelConditionnelReglement.cs
     startLine: 17
@@ -93,51 +98,30 @@ items:
   - Altazion.ECommerce.Controls
   namespace: Altazion.ECommerce.Controls
   syntax:
-    content: public Guid[] GuidModeReglementsAEviter { get; set; }
+    content: >-
+      [TypeConverter(typeof(GuidArrayConverter))]
+
+      public Guid[] GuidModeReglementsAEviter { get; set; }
     parameters: []
     return:
-      type: Guid[]
-    content.vb: Public Property GuidModeReglementsAEviter As Guid()
+      type: System.Guid[]
+    content.vb: >-
+      <TypeConverter(GetType(GuidArrayConverter))>
+
+      Public Property GuidModeReglementsAEviter As Guid()
   overload: Altazion.ECommerce.Controls.PanelConditionnelReglement.GuidModeReglementsAEviter*
+  attributes:
+  - type: System.ComponentModel.TypeConverterAttribute
+    ctor: System.ComponentModel.TypeConverterAttribute.#ctor(System.Type)
+    arguments:
+    - type: System.Type
+      value: CPointSoftware.ECommerce.Tools.GuidArrayConverter
   modifiers.csharp:
   - public
   - get
   - set
   modifiers.vb:
   - Public
-- uid: Altazion.ECommerce.Controls.PanelConditionnelReglement.OnPreRender(EventArgs)
-  commentId: M:Altazion.ECommerce.Controls.PanelConditionnelReglement.OnPreRender(EventArgs)
-  id: OnPreRender(EventArgs)
-  parent: Altazion.ECommerce.Controls.PanelConditionnelReglement
-  langs:
-  - csharp
-  - vb
-  name: OnPreRender(EventArgs)
-  nameWithType: PanelConditionnelReglement.OnPreRender(EventArgs)
-  fullName: Altazion.ECommerce.Controls.PanelConditionnelReglement.OnPreRender(EventArgs)
-  type: Method
-  source:
-    remote:
-      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanelConditionnelReglement.cs
-    id: OnPreRender
-    path: PanelConditionnelReglement.cs
-    startLine: 21
-  assemblies:
-  - Altazion.ECommerce.Controls
-  namespace: Altazion.ECommerce.Controls
-  syntax:
-    content: protected override void OnPreRender(EventArgs e)
-    parameters:
-    - id: e
-      type: EventArgs
-    content.vb: Protected Overrides Sub OnPreRender(e As EventArgs)
-  overload: Altazion.ECommerce.Controls.PanelConditionnelReglement.OnPreRender*
-  modifiers.csharp:
-  - protected
-  - override
-  modifiers.vb:
-  - Protected
-  - Overrides
 references:
 - uid: Altazion.ECommerce.Controls.PanelConditionnelReglement.GuidModeReglement
   commentId: P:Altazion.ECommerce.Controls.PanelConditionnelReglement.GuidModeReglement
@@ -148,59 +132,98 @@ references:
   nameWithType: Altazion.ECommerce.Controls
   fullName: Altazion.ECommerce.Controls
 - uid: System.Object
-  commentId: '!:System.Object'
+  commentId: T:System.Object
+  parent: System
   isExternal: true
   name: Object
   nameWithType: Object
   fullName: System.Object
+- uid: System.Web.UI.Control
+  commentId: T:System.Web.UI.Control
+  parent: System.Web.UI
+  isExternal: true
+  name: Control
+  nameWithType: Control
+  fullName: System.Web.UI.Control
+- uid: System.Web.UI.WebControls.WebControl
+  commentId: T:System.Web.UI.WebControls.WebControl
+  parent: System.Web.UI.WebControls
+  isExternal: true
+  name: WebControl
+  nameWithType: WebControl
+  fullName: System.Web.UI.WebControls.WebControl
+- uid: System.Web.UI.WebControls.Panel
+  commentId: T:System.Web.UI.WebControls.Panel
+  parent: System.Web.UI.WebControls
+  isExternal: true
+  name: Panel
+  nameWithType: Panel
+  fullName: System.Web.UI.WebControls.Panel
+- uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
+  isExternal: true
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Web.UI
+  commentId: N:System.Web.UI
+  isExternal: true
+  name: System.Web.UI
+  nameWithType: System.Web.UI
+  fullName: System.Web.UI
+- uid: System.Web.UI.WebControls
+  commentId: N:System.Web.UI.WebControls
+  isExternal: true
+  name: System.Web.UI.WebControls
+  nameWithType: System.Web.UI.WebControls
+  fullName: System.Web.UI.WebControls
 - uid: Altazion.ECommerce.Controls.PanelConditionnelReglement.GuidModeReglement*
   commentId: Overload:Altazion.ECommerce.Controls.PanelConditionnelReglement.GuidModeReglement
   name: GuidModeReglement
   nameWithType: PanelConditionnelReglement.GuidModeReglement
   fullName: Altazion.ECommerce.Controls.PanelConditionnelReglement.GuidModeReglement
-- uid: Guid
+- uid: System.Guid
+  commentId: T:System.Guid
+  parent: System
   isExternal: true
   name: Guid
   nameWithType: Guid
-  fullName: Guid
+  fullName: System.Guid
 - uid: Altazion.ECommerce.Controls.PanelConditionnelReglement.GuidModeReglementsAEviter*
   commentId: Overload:Altazion.ECommerce.Controls.PanelConditionnelReglement.GuidModeReglementsAEviter
   name: GuidModeReglementsAEviter
   nameWithType: PanelConditionnelReglement.GuidModeReglementsAEviter
   fullName: Altazion.ECommerce.Controls.PanelConditionnelReglement.GuidModeReglementsAEviter
-- uid: Guid[]
+- uid: System.Guid[]
   isExternal: true
   name: Guid[]
   nameWithType: Guid[]
-  fullName: Guid[]
+  fullName: System.Guid[]
   nameWithType.vb: Guid()
-  fullName.vb: Guid()
+  fullName.vb: System.Guid()
   name.vb: Guid()
   spec.csharp:
-  - uid: Guid
+  - uid: System.Guid
     name: Guid
     nameWithType: Guid
-    fullName: Guid
+    fullName: System.Guid
     isExternal: true
   - name: '[]'
     nameWithType: '[]'
     fullName: '[]'
   spec.vb:
-  - uid: Guid
+  - uid: System.Guid
     name: Guid
     nameWithType: Guid
-    fullName: Guid
+    fullName: System.Guid
     isExternal: true
   - name: ()
     nameWithType: ()
     fullName: ()
-- uid: Altazion.ECommerce.Controls.PanelConditionnelReglement.OnPreRender*
-  commentId: Overload:Altazion.ECommerce.Controls.PanelConditionnelReglement.OnPreRender
-  name: OnPreRender
-  nameWithType: PanelConditionnelReglement.OnPreRender
-  fullName: Altazion.ECommerce.Controls.PanelConditionnelReglement.OnPreRender
-- uid: EventArgs
-  isExternal: true
-  name: EventArgs
-  nameWithType: EventArgs
-  fullName: EventArgs

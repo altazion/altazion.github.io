@@ -4,8 +4,7 @@ items:
   commentId: T:Altazion.ECommerce.Controls.MagasinAssociePays
   id: MagasinAssociePays
   parent: Altazion.ECommerce.Controls
-  children:
-  - Altazion.ECommerce.Controls.MagasinAssociePays.OnPreRender(EventArgs)
+  children: []
   langs:
   - csharp
   - vb
@@ -15,7 +14,7 @@ items:
   type: Class
   source:
     remote:
-      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanelCrossCanal.cs
+      path: C:/agent/_work/2/s/EquihiraRelease/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanelCrossCanal.cs
     id: MagasinAssociePays
     path: PanelCrossCanal.cs
     startLine: 371
@@ -39,54 +38,24 @@ items:
     de la page</p>
   example: []
   syntax:
-    content: 'public class MagasinAssociePays : Label'
+    content: 'public class MagasinAssociePays : Label, IComponent, IDisposable, IParserAccessor, IUrlResolutionService, IDataBindingsAccessor, IControlBuilderAccessor, IControlDesignerAccessor, IExpressionsAccessor, IAttributeAccessor, ITextControl'
     content.vb: >-
       Public Class MagasinAssociePays
           Inherits Label
+          Implements IComponent, IDisposable, IParserAccessor, IUrlResolutionService, IDataBindingsAccessor, IControlBuilderAccessor, IControlDesignerAccessor, IExpressionsAccessor, IAttributeAccessor, ITextControl
   inheritance:
   - System.Object
+  - System.Web.UI.Control
+  - System.Web.UI.WebControls.WebControl
+  - System.Web.UI.WebControls.Label
+  implements:
+  - System.IDisposable
   modifiers.csharp:
   - public
   - class
   modifiers.vb:
   - Public
   - Class
-- uid: Altazion.ECommerce.Controls.MagasinAssociePays.OnPreRender(EventArgs)
-  commentId: M:Altazion.ECommerce.Controls.MagasinAssociePays.OnPreRender(EventArgs)
-  id: OnPreRender(EventArgs)
-  parent: Altazion.ECommerce.Controls.MagasinAssociePays
-  langs:
-  - csharp
-  - vb
-  name: OnPreRender(EventArgs)
-  nameWithType: MagasinAssociePays.OnPreRender(EventArgs)
-  fullName: Altazion.ECommerce.Controls.MagasinAssociePays.OnPreRender(EventArgs)
-  type: Method
-  source:
-    remote:
-      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanelCrossCanal.cs
-    id: OnPreRender
-    path: PanelCrossCanal.cs
-    startLine: 377
-  assemblies:
-  - Altazion.ECommerce.Controls
-  namespace: Altazion.ECommerce.Controls
-  summary: "\nPrépare l&apos;affichage du controle\n"
-  example: []
-  syntax:
-    content: protected override void OnPreRender(EventArgs e)
-    parameters:
-    - id: e
-      type: EventArgs
-      description: ''
-    content.vb: Protected Overrides Sub OnPreRender(e As EventArgs)
-  overload: Altazion.ECommerce.Controls.MagasinAssociePays.OnPreRender*
-  modifiers.csharp:
-  - protected
-  - override
-  modifiers.vb:
-  - Protected
-  - Overrides
 references:
 - uid: Altazion.ECommerce.Controls
   commentId: N:Altazion.ECommerce.Controls
@@ -94,18 +63,55 @@ references:
   nameWithType: Altazion.ECommerce.Controls
   fullName: Altazion.ECommerce.Controls
 - uid: System.Object
-  commentId: '!:System.Object'
+  commentId: T:System.Object
+  parent: System
   isExternal: true
   name: Object
   nameWithType: Object
   fullName: System.Object
-- uid: Altazion.ECommerce.Controls.MagasinAssociePays.OnPreRender*
-  commentId: Overload:Altazion.ECommerce.Controls.MagasinAssociePays.OnPreRender
-  name: OnPreRender
-  nameWithType: MagasinAssociePays.OnPreRender
-  fullName: Altazion.ECommerce.Controls.MagasinAssociePays.OnPreRender
-- uid: EventArgs
+- uid: System.Web.UI.Control
+  commentId: T:System.Web.UI.Control
+  parent: System.Web.UI
   isExternal: true
-  name: EventArgs
-  nameWithType: EventArgs
-  fullName: EventArgs
+  name: Control
+  nameWithType: Control
+  fullName: System.Web.UI.Control
+- uid: System.Web.UI.WebControls.WebControl
+  commentId: T:System.Web.UI.WebControls.WebControl
+  parent: System.Web.UI.WebControls
+  isExternal: true
+  name: WebControl
+  nameWithType: WebControl
+  fullName: System.Web.UI.WebControls.WebControl
+- uid: System.Web.UI.WebControls.Label
+  commentId: T:System.Web.UI.WebControls.Label
+  parent: System.Web.UI.WebControls
+  isExternal: true
+  name: Label
+  nameWithType: Label
+  fullName: System.Web.UI.WebControls.Label
+- uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
+  isExternal: true
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Web.UI
+  commentId: N:System.Web.UI
+  isExternal: true
+  name: System.Web.UI
+  nameWithType: System.Web.UI
+  fullName: System.Web.UI
+- uid: System.Web.UI.WebControls
+  commentId: N:System.Web.UI.WebControls
+  isExternal: true
+  name: System.Web.UI.WebControls
+  nameWithType: System.Web.UI.WebControls
+  fullName: System.Web.UI.WebControls

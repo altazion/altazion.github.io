@@ -19,7 +19,7 @@ items:
   type: Class
   source:
     remote:
-      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanierProduitField.cs
+      path: C:/agent/_work/2/s/EquihiraRelease/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanierProduitField.cs
     id: PanierProduitLabel
     path: PanierProduitField.cs
     startLine: 493
@@ -29,12 +29,18 @@ items:
   summary: "\nA utiliser dans un <xref href=\"Altazion.ECommerce.Controls.PanierProduitsDataList\" data-throw-if-not-resolved=\"false\"></xref> pour \nafficher un span avec un champ de la ligne, défini par <xref href=\"Altazion.ECommerce.Controls.PanierProduitLabel.Field\" data-throw-if-not-resolved=\"false\"></xref>\n"
   example: []
   syntax:
-    content: 'public class PanierProduitLabel : Label'
+    content: 'public class PanierProduitLabel : Label, IComponent, IDisposable, IParserAccessor, IUrlResolutionService, IDataBindingsAccessor, IControlBuilderAccessor, IControlDesignerAccessor, IExpressionsAccessor, IAttributeAccessor, ITextControl'
     content.vb: >-
       Public Class PanierProduitLabel
           Inherits Label
+          Implements IComponent, IDisposable, IParserAccessor, IUrlResolutionService, IDataBindingsAccessor, IControlBuilderAccessor, IControlDesignerAccessor, IExpressionsAccessor, IAttributeAccessor, ITextControl
   inheritance:
   - System.Object
+  - System.Web.UI.Control
+  - System.Web.UI.WebControls.WebControl
+  - System.Web.UI.WebControls.Label
+  implements:
+  - System.IDisposable
   modifiers.csharp:
   - public
   - class
@@ -54,7 +60,7 @@ items:
   type: Property
   source:
     remote:
-      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanierProduitField.cs
+      path: C:/agent/_work/2/s/EquihiraRelease/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanierProduitField.cs
     id: Format
     path: PanierProduitField.cs
     startLine: 520
@@ -62,12 +68,24 @@ items:
   - Altazion.ECommerce.Controls
   namespace: Altazion.ECommerce.Controls
   syntax:
-    content: public String Format { get; set; }
+    content: >-
+      [Bindable(true)]
+
+      public string Format { get; set; }
     parameters: []
     return:
-      type: String
-    content.vb: Public Property Format As String
+      type: System.String
+    content.vb: >-
+      <Bindable(True)>
+
+      Public Property Format As String
   overload: Altazion.ECommerce.Controls.PanierProduitLabel.Format*
+  attributes:
+  - type: System.ComponentModel.BindableAttribute
+    ctor: System.ComponentModel.BindableAttribute.#ctor(System.Boolean)
+    arguments:
+    - type: System.Boolean
+      value: true
   modifiers.csharp:
   - public
   - get
@@ -87,7 +105,7 @@ items:
   type: Property
   source:
     remote:
-      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanierProduitField.cs
+      path: C:/agent/_work/2/s/EquihiraRelease/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanierProduitField.cs
     id: TextePrixZero
     path: PanierProduitField.cs
     startLine: 541
@@ -95,12 +113,24 @@ items:
   - Altazion.ECommerce.Controls
   namespace: Altazion.ECommerce.Controls
   syntax:
-    content: public String TextePrixZero { get; set; }
+    content: >-
+      [Bindable(true)]
+
+      public string TextePrixZero { get; set; }
     parameters: []
     return:
-      type: String
-    content.vb: Public Property TextePrixZero As String
+      type: System.String
+    content.vb: >-
+      <Bindable(True)>
+
+      Public Property TextePrixZero As String
   overload: Altazion.ECommerce.Controls.PanierProduitLabel.TextePrixZero*
+  attributes:
+  - type: System.ComponentModel.BindableAttribute
+    ctor: System.ComponentModel.BindableAttribute.#ctor(System.Boolean)
+    arguments:
+    - type: System.Boolean
+      value: true
   modifiers.csharp:
   - public
   - get
@@ -120,7 +150,7 @@ items:
   type: Property
   source:
     remote:
-      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanierProduitField.cs
+      path: C:/agent/_work/2/s/EquihiraRelease/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanierProduitField.cs
     id: CssClassSiPromo
     path: PanierProduitField.cs
     startLine: 562
@@ -128,12 +158,24 @@ items:
   - Altazion.ECommerce.Controls
   namespace: Altazion.ECommerce.Controls
   syntax:
-    content: public String CssClassSiPromo { get; set; }
+    content: >-
+      [Bindable(true)]
+
+      public string CssClassSiPromo { get; set; }
     parameters: []
     return:
-      type: String
-    content.vb: Public Property CssClassSiPromo As String
+      type: System.String
+    content.vb: >-
+      <Bindable(True)>
+
+      Public Property CssClassSiPromo As String
   overload: Altazion.ECommerce.Controls.PanierProduitLabel.CssClassSiPromo*
+  attributes:
+  - type: System.ComponentModel.BindableAttribute
+    ctor: System.ComponentModel.BindableAttribute.#ctor(System.Boolean)
+    arguments:
+    - type: System.Boolean
+      value: true
   modifiers.csharp:
   - public
   - get
@@ -153,7 +195,7 @@ items:
   type: Property
   source:
     remote:
-      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanierProduitField.cs
+      path: C:/agent/_work/2/s/EquihiraRelease/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanierProduitField.cs
     id: Field
     path: PanierProduitField.cs
     startLine: 583
@@ -186,7 +228,7 @@ items:
   type: Property
   source:
     remote:
-      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanierProduitField.cs
+      path: C:/agent/_work/2/s/EquihiraRelease/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanierProduitField.cs
     id: CacherSiVide
     path: PanierProduitField.cs
     startLine: 602
@@ -221,21 +263,70 @@ references:
   nameWithType: Altazion.ECommerce.Controls
   fullName: Altazion.ECommerce.Controls
 - uid: System.Object
-  commentId: '!:System.Object'
+  commentId: T:System.Object
+  parent: System
   isExternal: true
   name: Object
   nameWithType: Object
   fullName: System.Object
+- uid: System.Web.UI.Control
+  commentId: T:System.Web.UI.Control
+  parent: System.Web.UI
+  isExternal: true
+  name: Control
+  nameWithType: Control
+  fullName: System.Web.UI.Control
+- uid: System.Web.UI.WebControls.WebControl
+  commentId: T:System.Web.UI.WebControls.WebControl
+  parent: System.Web.UI.WebControls
+  isExternal: true
+  name: WebControl
+  nameWithType: WebControl
+  fullName: System.Web.UI.WebControls.WebControl
+- uid: System.Web.UI.WebControls.Label
+  commentId: T:System.Web.UI.WebControls.Label
+  parent: System.Web.UI.WebControls
+  isExternal: true
+  name: Label
+  nameWithType: Label
+  fullName: System.Web.UI.WebControls.Label
+- uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
+  isExternal: true
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Web.UI
+  commentId: N:System.Web.UI
+  isExternal: true
+  name: System.Web.UI
+  nameWithType: System.Web.UI
+  fullName: System.Web.UI
+- uid: System.Web.UI.WebControls
+  commentId: N:System.Web.UI.WebControls
+  isExternal: true
+  name: System.Web.UI.WebControls
+  nameWithType: System.Web.UI.WebControls
+  fullName: System.Web.UI.WebControls
 - uid: Altazion.ECommerce.Controls.PanierProduitLabel.Format*
   commentId: Overload:Altazion.ECommerce.Controls.PanierProduitLabel.Format
   name: Format
   nameWithType: PanierProduitLabel.Format
   fullName: Altazion.ECommerce.Controls.PanierProduitLabel.Format
-- uid: String
+- uid: System.String
+  commentId: T:System.String
+  parent: System
   isExternal: true
   name: String
   nameWithType: String
-  fullName: String
+  fullName: System.String
 - uid: Altazion.ECommerce.Controls.PanierProduitLabel.TextePrixZero*
   commentId: Overload:Altazion.ECommerce.Controls.PanierProduitLabel.TextePrixZero
   name: TextePrixZero
@@ -263,6 +354,8 @@ references:
   nameWithType: PanierProduitLabel.CacherSiVide
   fullName: Altazion.ECommerce.Controls.PanierProduitLabel.CacherSiVide
 - uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
   isExternal: true
   name: Boolean
   nameWithType: Boolean

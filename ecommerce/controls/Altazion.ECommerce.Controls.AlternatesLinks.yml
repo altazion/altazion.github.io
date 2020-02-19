@@ -16,7 +16,7 @@ items:
   type: Class
   source:
     remote:
-      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/AlternatesLinks.cs
+      path: C:/agent/_work/2/s/EquihiraRelease/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/AlternatesLinks.cs
     id: AlternatesLinks
     path: AlternatesLinks.cs
     startLine: 56
@@ -27,12 +27,17 @@ items:
   remarks: "\n<p>Les urls pointées par les balises link sont\nconsituées de l&apos;url racine correspondant à \nchaque langue, complétée du path courant.</p>\n<p>Par exemple, pour l&apos;url \nhttps://demo.ecommerce-server.fr/produits/descente-categorie/page1.htm, \nle contrôle suivant :</p>\n<pre><code>&lt;ecom:AlternatesLinks runat=&quot;server&quot;>\n    &lt;Alternates>\n        &lt;ecom:AlternateLinkInfo \n            Langue=&quot;fr-fr&quot; \n            UrlRacine=&quot;https://demo.ecommerce-server.fr/&quot; />\n        &lt;ecom:AlternateLinkInfo \n            Langue=&quot;en-us-ch&quot; \n            UrlRacine=&quot;https://demo-us.ecommerce-server.com/&quot; />\n    &lt;/Alternates>\n&lt;/ecom:AlternatesLinks></code></pre>\n<p>calculera les urls pour la version française et américaine sous la forme :</p>\n<pre><code>&lt;link rel=&apos;alternate&apos; hreflang=&apos;fr-fr&apos; \n   href=&apos;https://demo.ecommerce-server.fr/produits/descente-categorie/page1.htm&apos; />\n&lt;link rel=&apos;alternate&apos; hreflang=&apos;fr-ch&apos; \n   href=&apos;https://demo-us.ecommerce-server.com/produits/descente-categorie/page1.htm&apos; /></code></pre>\n"
   example: []
   syntax:
-    content: 'public class AlternatesLinks : WebControl'
+    content: 'public class AlternatesLinks : WebControl, IComponent, IDisposable, IParserAccessor, IUrlResolutionService, IDataBindingsAccessor, IControlBuilderAccessor, IControlDesignerAccessor, IExpressionsAccessor, IAttributeAccessor'
     content.vb: >-
       Public Class AlternatesLinks
           Inherits WebControl
+          Implements IComponent, IDisposable, IParserAccessor, IUrlResolutionService, IDataBindingsAccessor, IControlBuilderAccessor, IControlDesignerAccessor, IExpressionsAccessor, IAttributeAccessor
   inheritance:
   - System.Object
+  - System.Web.UI.Control
+  - System.Web.UI.WebControls.WebControl
+  implements:
+  - System.IDisposable
   modifiers.csharp:
   - public
   - class
@@ -52,7 +57,7 @@ items:
   type: Constructor
   source:
     remote:
-      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/AlternatesLinks.cs
+      path: C:/agent/_work/2/s/EquihiraRelease/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/AlternatesLinks.cs
     id: .ctor
     path: AlternatesLinks.cs
     startLine: 62
@@ -82,7 +87,7 @@ items:
   type: Property
   source:
     remote:
-      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/AlternatesLinks.cs
+      path: C:/agent/_work/2/s/EquihiraRelease/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/AlternatesLinks.cs
     id: Alternates
     path: AlternatesLinks.cs
     startLine: 87
@@ -93,12 +98,24 @@ items:
   remarks: "\n<p>En asp.net, vous pouvez inclure les différentes valeurs sous\nformes de &quot;sous noeud&quot; du contrôle, par exemple :</p>\n<pre><code>&lt;ecom:AlternatesLinks runat=&quot;server&quot;>\n    &lt;Alternates>\n        &lt;ecom:AlternateLinkInfo \n            Langue=&quot;fr-fr&quot; \n            UrlRacine=&quot;https://demo.ecommerce-server.fr/&quot; />\n        &lt;ecom:AlternateLinkInfo \n            Langue=&quot;en-us-ch&quot; \n            UrlRacine=&quot;https://demo-us.ecommerce-server.com/&quot; />\n    &lt;/Alternates>\n&lt;/ecom:AlternatesLinks></code></pre>\n"
   example: []
   syntax:
-    content: public ArrayList Alternates { get; set; }
+    content: >-
+      [PersistenceMode(PersistenceMode.InnerDefaultProperty)]
+
+      public ArrayList Alternates { get; set; }
     parameters: []
     return:
-      type: ArrayList
-    content.vb: Public Property Alternates As ArrayList
+      type: System.Collections.ArrayList
+    content.vb: >-
+      <PersistenceMode(PersistenceMode.InnerDefaultProperty)>
+
+      Public Property Alternates As ArrayList
   overload: Altazion.ECommerce.Controls.AlternatesLinks.Alternates*
+  attributes:
+  - type: System.Web.UI.PersistenceModeAttribute
+    ctor: System.Web.UI.PersistenceModeAttribute.#ctor(System.Web.UI.PersistenceMode)
+    arguments:
+    - type: System.Web.UI.PersistenceMode
+      value: 2
   modifiers.csharp:
   - public
   - get
@@ -112,11 +129,51 @@ references:
   nameWithType: Altazion.ECommerce.Controls
   fullName: Altazion.ECommerce.Controls
 - uid: System.Object
-  commentId: '!:System.Object'
+  commentId: T:System.Object
+  parent: System
   isExternal: true
   name: Object
   nameWithType: Object
   fullName: System.Object
+- uid: System.Web.UI.Control
+  commentId: T:System.Web.UI.Control
+  parent: System.Web.UI
+  isExternal: true
+  name: Control
+  nameWithType: Control
+  fullName: System.Web.UI.Control
+- uid: System.Web.UI.WebControls.WebControl
+  commentId: T:System.Web.UI.WebControls.WebControl
+  parent: System.Web.UI.WebControls
+  isExternal: true
+  name: WebControl
+  nameWithType: WebControl
+  fullName: System.Web.UI.WebControls.WebControl
+- uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
+  isExternal: true
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Web.UI
+  commentId: N:System.Web.UI
+  isExternal: true
+  name: System.Web.UI
+  nameWithType: System.Web.UI
+  fullName: System.Web.UI
+- uid: System.Web.UI.WebControls
+  commentId: N:System.Web.UI.WebControls
+  isExternal: true
+  name: System.Web.UI.WebControls
+  nameWithType: System.Web.UI.WebControls
+  fullName: System.Web.UI.WebControls
 - uid: Altazion.ECommerce.Controls.AlternatesLinks.#ctor*
   commentId: Overload:Altazion.ECommerce.Controls.AlternatesLinks.#ctor
   name: AlternatesLinks
@@ -132,8 +189,16 @@ references:
   name: Alternates
   nameWithType: AlternatesLinks.Alternates
   fullName: Altazion.ECommerce.Controls.AlternatesLinks.Alternates
-- uid: ArrayList
+- uid: System.Collections.ArrayList
+  commentId: T:System.Collections.ArrayList
+  parent: System.Collections
   isExternal: true
   name: ArrayList
   nameWithType: ArrayList
-  fullName: ArrayList
+  fullName: System.Collections.ArrayList
+- uid: System.Collections
+  commentId: N:System.Collections
+  isExternal: true
+  name: System.Collections
+  nameWithType: System.Collections
+  fullName: System.Collections

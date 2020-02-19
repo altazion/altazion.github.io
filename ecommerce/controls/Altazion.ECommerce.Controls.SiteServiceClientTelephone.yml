@@ -4,8 +4,7 @@ items:
   commentId: T:Altazion.ECommerce.Controls.SiteServiceClientTelephone
   id: SiteServiceClientTelephone
   parent: Altazion.ECommerce.Controls
-  children:
-  - Altazion.ECommerce.Controls.SiteServiceClientTelephone.OnPreRender(EventArgs)
+  children: []
   langs:
   - csharp
   - vb
@@ -15,64 +14,46 @@ items:
   type: Class
   source:
     remote:
-      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/SiteControls.cs
+      path: C:/agent/_work/2/s/EquihiraRelease/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/SiteControls.cs
     id: SiteServiceClientTelephone
     path: SiteControls.cs
-    startLine: 33
+    startLine: 42
   assemblies:
   - Altazion.ECommerce.Controls
   namespace: Altazion.ECommerce.Controls
-  summary: "\nAffiche un span avec le n° de tel du service client\n"
+  summary: "\nAffiche le n° de tel du service client\n"
+  remarks: >
+    <p>Ce controle permet d&apos;afficher le numéro de téléphone
+        du service client depuis les informations paramétrées dans les options
+        du site.</p>
+    <p>Il n&apos;y a aucun formatage ou tag html entourant ce numéro et
+
+    aucune vérification n&apos;est faite sur sa validité : le contenu saisi
+
+    dans le back-office est affiché sans aucun traitement</p>
+
+    <p>Exemple d&apos;utilisation : </p>
+
+    <pre><code>&lt;ecom:SiteServiceClientTelephone runat=&quot;server&quot; /></code></pre>
   example: []
   syntax:
-    content: 'public class SiteServiceClientTelephone : Label'
+    content: 'public class SiteServiceClientTelephone : Literal, IComponent, IDisposable, IParserAccessor, IUrlResolutionService, IDataBindingsAccessor, IControlBuilderAccessor, IControlDesignerAccessor, IExpressionsAccessor, ITextControl'
     content.vb: >-
       Public Class SiteServiceClientTelephone
-          Inherits Label
+          Inherits Literal
+          Implements IComponent, IDisposable, IParserAccessor, IUrlResolutionService, IDataBindingsAccessor, IControlBuilderAccessor, IControlDesignerAccessor, IExpressionsAccessor, ITextControl
   inheritance:
   - System.Object
+  - System.Web.UI.Control
+  - System.Web.UI.WebControls.Literal
+  implements:
+  - System.IDisposable
   modifiers.csharp:
   - public
   - class
   modifiers.vb:
   - Public
   - Class
-- uid: Altazion.ECommerce.Controls.SiteServiceClientTelephone.OnPreRender(EventArgs)
-  commentId: M:Altazion.ECommerce.Controls.SiteServiceClientTelephone.OnPreRender(EventArgs)
-  id: OnPreRender(EventArgs)
-  parent: Altazion.ECommerce.Controls.SiteServiceClientTelephone
-  langs:
-  - csharp
-  - vb
-  name: OnPreRender(EventArgs)
-  nameWithType: SiteServiceClientTelephone.OnPreRender(EventArgs)
-  fullName: Altazion.ECommerce.Controls.SiteServiceClientTelephone.OnPreRender(EventArgs)
-  type: Method
-  source:
-    remote:
-      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/SiteControls.cs
-    id: OnPreRender
-    path: SiteControls.cs
-    startLine: 39
-  assemblies:
-  - Altazion.ECommerce.Controls
-  namespace: Altazion.ECommerce.Controls
-  summary: "\nDéclenche l&apos;événement <xref href=\"System.Web.UI.Control.PreRender\" data-throw-if-not-resolved=\"false\"></xref>.\n"
-  example: []
-  syntax:
-    content: protected override void OnPreRender(EventArgs e)
-    parameters:
-    - id: e
-      type: EventArgs
-      description: Objet <xref href="System.EventArgs" data-throw-if-not-resolved="false"></xref> qui contient les données d&apos;événement.
-    content.vb: Protected Overrides Sub OnPreRender(e As EventArgs)
-  overload: Altazion.ECommerce.Controls.SiteServiceClientTelephone.OnPreRender*
-  modifiers.csharp:
-  - protected
-  - override
-  modifiers.vb:
-  - Protected
-  - Overrides
 references:
 - uid: Altazion.ECommerce.Controls
   commentId: N:Altazion.ECommerce.Controls
@@ -80,24 +61,48 @@ references:
   nameWithType: Altazion.ECommerce.Controls
   fullName: Altazion.ECommerce.Controls
 - uid: System.Object
-  commentId: '!:System.Object'
+  commentId: T:System.Object
+  parent: System
   isExternal: true
   name: Object
   nameWithType: Object
   fullName: System.Object
-- uid: System.Web.UI.Control.PreRender
-  commentId: E:System.Web.UI.Control.PreRender
+- uid: System.Web.UI.Control
+  commentId: T:System.Web.UI.Control
+  parent: System.Web.UI
   isExternal: true
-- uid: System.EventArgs
-  commentId: T:System.EventArgs
+  name: Control
+  nameWithType: Control
+  fullName: System.Web.UI.Control
+- uid: System.Web.UI.WebControls.Literal
+  commentId: T:System.Web.UI.WebControls.Literal
+  parent: System.Web.UI.WebControls
   isExternal: true
-- uid: Altazion.ECommerce.Controls.SiteServiceClientTelephone.OnPreRender*
-  commentId: Overload:Altazion.ECommerce.Controls.SiteServiceClientTelephone.OnPreRender
-  name: OnPreRender
-  nameWithType: SiteServiceClientTelephone.OnPreRender
-  fullName: Altazion.ECommerce.Controls.SiteServiceClientTelephone.OnPreRender
-- uid: EventArgs
+  name: Literal
+  nameWithType: Literal
+  fullName: System.Web.UI.WebControls.Literal
+- uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
   isExternal: true
-  name: EventArgs
-  nameWithType: EventArgs
-  fullName: EventArgs
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Web.UI
+  commentId: N:System.Web.UI
+  isExternal: true
+  name: System.Web.UI
+  nameWithType: System.Web.UI
+  fullName: System.Web.UI
+- uid: System.Web.UI.WebControls
+  commentId: N:System.Web.UI.WebControls
+  isExternal: true
+  name: System.Web.UI.WebControls
+  nameWithType: System.Web.UI.WebControls
+  fullName: System.Web.UI.WebControls

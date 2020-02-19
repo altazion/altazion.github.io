@@ -16,7 +16,7 @@ items:
   type: Enum
   source:
     remote:
-      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/ProductLabels.cs
+      path: C:/agent/_work/2/s/EquihiraRelease/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/ProductLabels.cs
     id: ProduitAttributRepeaterItemFieldKind
     path: ProductLabels.cs
     startLine: 588
@@ -24,8 +24,8 @@ items:
   - Altazion.ECommerce.Controls
   namespace: Altazion.ECommerce.Controls
   syntax:
-    content: 'public enum ProduitAttributRepeaterItemFieldKind : int'
-    content.vb: Public Enum ProduitAttributRepeaterItemFieldKind As Integer
+    content: public enum ProduitAttributRepeaterItemFieldKind
+    content.vb: Public Enum ProduitAttributRepeaterItemFieldKind
   modifiers.csharp:
   - public
   - enum
@@ -45,7 +45,7 @@ items:
   type: Field
   source:
     remote:
-      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/ProductLabels.cs
+      path: C:/agent/_work/2/s/EquihiraRelease/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/ProductLabels.cs
     id: Nom
     path: ProductLabels.cs
     startLine: 590
@@ -75,7 +75,7 @@ items:
   type: Field
   source:
     remote:
-      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/ProductLabels.cs
+      path: C:/agent/_work/2/s/EquihiraRelease/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/ProductLabels.cs
     id: Valeur
     path: ProductLabels.cs
     startLine: 590

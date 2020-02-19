@@ -22,7 +22,7 @@ items:
   type: Class
   source:
     remote:
-      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/FilAriane.cs
+      path: C:/agent/_work/2/s/EquihiraRelease/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/FilAriane.cs
     id: FilAriane
     path: FilAriane.cs
     startLine: 22
@@ -33,12 +33,17 @@ items:
   remarks: "\nLa structure du fil d&apos;ariane est la suivante : \n<ul><li>un UL contient tout le fil d&apos;ariane</li><li>le noeud &apos;acceuil&apos; est dans un a dans un li</li><li>toutes les pages permettant de &quot;remonter&quot; sont dans a, dans des li avec un marquage rdfa</li><li>la page courante est dans un li simple</li></ul>\n"
   example: []
   syntax:
-    content: 'public class FilAriane : WebControl'
+    content: 'public class FilAriane : WebControl, IComponent, IDisposable, IParserAccessor, IUrlResolutionService, IDataBindingsAccessor, IControlBuilderAccessor, IControlDesignerAccessor, IExpressionsAccessor, IAttributeAccessor'
     content.vb: >-
       Public Class FilAriane
           Inherits WebControl
+          Implements IComponent, IDisposable, IParserAccessor, IUrlResolutionService, IDataBindingsAccessor, IControlBuilderAccessor, IControlDesignerAccessor, IExpressionsAccessor, IAttributeAccessor
   inheritance:
   - System.Object
+  - System.Web.UI.Control
+  - System.Web.UI.WebControls.WebControl
+  implements:
+  - System.IDisposable
   modifiers.csharp:
   - public
   - class
@@ -58,7 +63,7 @@ items:
   type: Constructor
   source:
     remote:
-      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/FilAriane.cs
+      path: C:/agent/_work/2/s/EquihiraRelease/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/FilAriane.cs
     id: .ctor
     path: FilAriane.cs
     startLine: 27
@@ -88,7 +93,7 @@ items:
   type: Property
   source:
     remote:
-      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/FilAriane.cs
+      path: C:/agent/_work/2/s/EquihiraRelease/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/FilAriane.cs
     id: Header
     path: FilAriane.cs
     startLine: 35
@@ -123,7 +128,7 @@ items:
   type: Property
   source:
     remote:
-      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/FilAriane.cs
+      path: C:/agent/_work/2/s/EquihiraRelease/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/FilAriane.cs
     id: HeaderCssClass
     path: FilAriane.cs
     startLine: 39
@@ -158,7 +163,7 @@ items:
   type: Property
   source:
     remote:
-      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/FilAriane.cs
+      path: C:/agent/_work/2/s/EquihiraRelease/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/FilAriane.cs
     id: ItemCssClass
     path: FilAriane.cs
     startLine: 44
@@ -193,7 +198,7 @@ items:
   type: Property
   source:
     remote:
-      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/FilAriane.cs
+      path: C:/agent/_work/2/s/EquihiraRelease/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/FilAriane.cs
     id: FirstItemCssClass
     path: FilAriane.cs
     startLine: 51
@@ -229,7 +234,7 @@ items:
   type: Property
   source:
     remote:
-      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/FilAriane.cs
+      path: C:/agent/_work/2/s/EquihiraRelease/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/FilAriane.cs
     id: LastItemCssClass
     path: FilAriane.cs
     startLine: 58
@@ -265,7 +270,7 @@ items:
   type: Property
   source:
     remote:
-      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/FilAriane.cs
+      path: C:/agent/_work/2/s/EquihiraRelease/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/FilAriane.cs
     id: Separator
     path: FilAriane.cs
     startLine: 65
@@ -301,7 +306,7 @@ items:
   type: Property
   source:
     remote:
-      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/FilAriane.cs
+      path: C:/agent/_work/2/s/EquihiraRelease/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/FilAriane.cs
     id: UsePageTitleIfEmpty
     path: FilAriane.cs
     startLine: 73
@@ -330,11 +335,51 @@ references:
   nameWithType: Altazion.ECommerce.Controls
   fullName: Altazion.ECommerce.Controls
 - uid: System.Object
-  commentId: '!:System.Object'
+  commentId: T:System.Object
+  parent: System
   isExternal: true
   name: Object
   nameWithType: Object
   fullName: System.Object
+- uid: System.Web.UI.Control
+  commentId: T:System.Web.UI.Control
+  parent: System.Web.UI
+  isExternal: true
+  name: Control
+  nameWithType: Control
+  fullName: System.Web.UI.Control
+- uid: System.Web.UI.WebControls.WebControl
+  commentId: T:System.Web.UI.WebControls.WebControl
+  parent: System.Web.UI.WebControls
+  isExternal: true
+  name: WebControl
+  nameWithType: WebControl
+  fullName: System.Web.UI.WebControls.WebControl
+- uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
+  isExternal: true
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Web.UI
+  commentId: N:System.Web.UI
+  isExternal: true
+  name: System.Web.UI
+  nameWithType: System.Web.UI
+  fullName: System.Web.UI
+- uid: System.Web.UI.WebControls
+  commentId: N:System.Web.UI.WebControls
+  isExternal: true
+  name: System.Web.UI.WebControls
+  nameWithType: System.Web.UI.WebControls
+  fullName: System.Web.UI.WebControls
 - uid: Altazion.ECommerce.Controls.FilAriane.#ctor*
   commentId: Overload:Altazion.ECommerce.Controls.FilAriane.#ctor
   name: FilAriane
@@ -346,6 +391,8 @@ references:
   nameWithType: FilAriane.Header
   fullName: Altazion.ECommerce.Controls.FilAriane.Header
 - uid: System.String
+  commentId: T:System.String
+  parent: System
   isExternal: true
   name: String
   nameWithType: String
@@ -384,6 +431,8 @@ references:
   nameWithType: FilAriane.UsePageTitleIfEmpty
   fullName: Altazion.ECommerce.Controls.FilAriane.UsePageTitleIfEmpty
 - uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
   isExternal: true
   name: Boolean
   nameWithType: Boolean

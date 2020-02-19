@@ -16,7 +16,7 @@ items:
   type: Enum
   source:
     remote:
-      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanierProduitField.cs
+      path: C:/agent/_work/2/s/EquihiraRelease/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanierProduitField.cs
     id: PanierTypeImage
     path: PanierProduitField.cs
     startLine: 1029
@@ -24,8 +24,8 @@ items:
   - Altazion.ECommerce.Controls
   namespace: Altazion.ECommerce.Controls
   syntax:
-    content: 'public enum PanierTypeImage : int'
-    content.vb: Public Enum PanierTypeImage As Integer
+    content: public enum PanierTypeImage
+    content.vb: Public Enum PanierTypeImage
   modifiers.csharp:
   - public
   - enum
@@ -45,7 +45,7 @@ items:
   type: Field
   source:
     remote:
-      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanierProduitField.cs
+      path: C:/agent/_work/2/s/EquihiraRelease/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanierProduitField.cs
     id: Tiny
     path: PanierProduitField.cs
     startLine: 1031
@@ -75,7 +75,7 @@ items:
   type: Field
   source:
     remote:
-      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanierProduitField.cs
+      path: C:/agent/_work/2/s/EquihiraRelease/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanierProduitField.cs
     id: Intermediate
     path: PanierProduitField.cs
     startLine: 1032

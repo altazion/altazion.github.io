@@ -1,30 +1,51 @@
 ### YamlMime:ManagedReference
 items:
-- uid: Altazion.ECommerce.Controls.MagasinAssocieLink
-  commentId: T:Altazion.ECommerce.Controls.MagasinAssocieLink
-  id: MagasinAssocieLink
+- uid: Altazion.ECommerce.Controls.SiteServiceClientEmailLink
+  commentId: T:Altazion.ECommerce.Controls.SiteServiceClientEmailLink
+  id: SiteServiceClientEmailLink
   parent: Altazion.ECommerce.Controls
   children: []
   langs:
   - csharp
   - vb
-  name: MagasinAssocieLink
-  nameWithType: MagasinAssocieLink
-  fullName: Altazion.ECommerce.Controls.MagasinAssocieLink
+  name: SiteServiceClientEmailLink
+  nameWithType: SiteServiceClientEmailLink
+  fullName: Altazion.ECommerce.Controls.SiteServiceClientEmailLink
   type: Class
   source:
     remote:
-      path: C:/agent/_work/2/s/EquihiraRelease/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/PanelCrossCanal.cs
-    id: MagasinAssocieLink
-    path: PanelCrossCanal.cs
-    startLine: 568
+      path: C:/agent/_work/2/s/EquihiraRelease/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/SiteControls.cs
+    id: SiteServiceClientEmailLink
+    path: SiteControls.cs
+    startLine: 108
   assemblies:
   - Altazion.ECommerce.Controls
   namespace: Altazion.ECommerce.Controls
+  summary: "\nAffiche l&apos;email du service client sous forme d&apos;un lien mailto:\n"
+  remarks: >
+    <p>Ce controle permet d&apos;afficher l&apos;e-mail
+         du service client depuis les informations paramétrées dans les options
+         du site.</p>
+    <p>L&apos;e-mail est placé dans une balise &lt;a>. Par contre,
+
+    aucune vérification n&apos;est faite sur sa validité : le contenu saisi
+
+    dans le back-office est affiché sans aucun traitement</p>
+
+    <p>Exemple d&apos;utilisation : </p>
+
+    <pre><code>&lt;ecom:SiteServiceClientEmailLink CssClass=&quot;tel-service-client&quot; runat=&quot;server&quot; /></code></pre>
+
+    <p>produira le code html suivant : </p>
+
+    <pre><code>&lt;a class=&quot;tel-service-client&quot; href=&quot;mailto:serviceclient@altazion-demo.com&quot;>
+
+    serviceclient@altazion-demo.com&lt;/a></code></pre>
+  example: []
   syntax:
-    content: 'public class MagasinAssocieLink : Hyperlink, IComponent, IDisposable, IParserAccessor, IUrlResolutionService, IDataBindingsAccessor, IControlBuilderAccessor, IControlDesignerAccessor, IExpressionsAccessor, IAttributeAccessor'
+    content: 'public class SiteServiceClientEmailLink : Hyperlink, IComponent, IDisposable, IParserAccessor, IUrlResolutionService, IDataBindingsAccessor, IControlBuilderAccessor, IControlDesignerAccessor, IExpressionsAccessor, IAttributeAccessor'
     content.vb: >-
-      Public Class MagasinAssocieLink
+      Public Class SiteServiceClientEmailLink
           Inherits Hyperlink
           Implements IComponent, IDisposable, IParserAccessor, IUrlResolutionService, IDataBindingsAccessor, IControlBuilderAccessor, IControlDesignerAccessor, IExpressionsAccessor, IAttributeAccessor
   inheritance:

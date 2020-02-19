@@ -17,7 +17,7 @@ items:
   type: Enum
   source:
     remote:
-      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/ProductLabels.cs
+      path: C:/agent/_work/2/s/EquihiraRelease/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/ProductLabels.cs
     id: TypeAffichePromo
     path: ProductLabels.cs
     startLine: 1371
@@ -25,8 +25,8 @@ items:
   - Altazion.ECommerce.Controls
   namespace: Altazion.ECommerce.Controls
   syntax:
-    content: 'public enum TypeAffichePromo : int'
-    content.vb: Public Enum TypeAffichePromo As Integer
+    content: public enum TypeAffichePromo
+    content.vb: Public Enum TypeAffichePromo
   modifiers.csharp:
   - public
   - enum
@@ -46,7 +46,7 @@ items:
   type: Field
   source:
     remote:
-      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/ProductLabels.cs
+      path: C:/agent/_work/2/s/EquihiraRelease/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/ProductLabels.cs
     id: EnValeur
     path: ProductLabels.cs
     startLine: 1373
@@ -76,7 +76,7 @@ items:
   type: Field
   source:
     remote:
-      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/ProductLabels.cs
+      path: C:/agent/_work/2/s/EquihiraRelease/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/ProductLabels.cs
     id: EnPourcentage
     path: ProductLabels.cs
     startLine: 1374
@@ -106,7 +106,7 @@ items:
   type: Field
   source:
     remote:
-      path: C:/dev/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/ProductLabels.cs
+      path: C:/agent/_work/2/s/EquihiraRelease/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/ProductLabels.cs
     id: EnPourcentageSiInferieurA
     path: ProductLabels.cs
     startLine: 1375
