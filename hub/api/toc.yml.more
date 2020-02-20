@@ -3,4 +3,6 @@
   items:
     - name: Codes d'erreurs
       href: codeerreurs.md
+- name: APIs Altazion Hub
+  href: hub-api.md
 {{Content}}
