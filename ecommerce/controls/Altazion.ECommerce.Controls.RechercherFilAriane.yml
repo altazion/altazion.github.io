@@ -1,0 +1,520 @@
+### YamlMime:ManagedReference
+items:
+- uid: Altazion.ECommerce.Controls.RechercherFilAriane
+  commentId: T:Altazion.ECommerce.Controls.RechercherFilAriane
+  id: RechercherFilAriane
+  parent: Altazion.ECommerce.Controls
+  children:
+  - Altazion.ECommerce.Controls.RechercherFilAriane.#ctor
+  - Altazion.ECommerce.Controls.RechercherFilAriane.AlwaysShowHome
+  - Altazion.ECommerce.Controls.RechercherFilAriane.FirstItemCssClass
+  - Altazion.ECommerce.Controls.RechercherFilAriane.Header
+  - Altazion.ECommerce.Controls.RechercherFilAriane.HeaderCssClass
+  - Altazion.ECommerce.Controls.RechercherFilAriane.ItemCssClass
+  - Altazion.ECommerce.Controls.RechercherFilAriane.LastIsClickable
+  - Altazion.ECommerce.Controls.RechercherFilAriane.LastItemCssClass
+  - Altazion.ECommerce.Controls.RechercherFilAriane.Separator
+  - Altazion.ECommerce.Controls.RechercherFilAriane.UsePageTitleIfEmpty
+  langs:
+  - csharp
+  - vb
+  name: RechercherFilAriane
+  nameWithType: RechercherFilAriane
+  fullName: Altazion.ECommerce.Controls.RechercherFilAriane
+  type: Class
+  source:
+    remote:
+      path: C:/agent/_work/2/s/EquihiraRelease/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/RechercherFilArianne.cs
+    id: RechercherFilAriane
+    path: RechercherFilArianne.cs
+    startLine: 20
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  summary: "\nVersion du fil d&apos;ariane spécialisée pour les\npages de recherche\n"
+  remarks: "\n<p>La structure du fil d&apos;ariane est la suivante : </p>\n<ul><li></li><li></li><li></li></ul>\n"
+  example: []
+  syntax:
+    content: 'public class RechercherFilAriane : WebControl, IComponent, IDisposable, IParserAccessor, IUrlResolutionService, IDataBindingsAccessor, IControlBuilderAccessor, IControlDesignerAccessor, IExpressionsAccessor, IAttributeAccessor'
+    content.vb: >-
+      Public Class RechercherFilAriane
+          Inherits WebControl
+          Implements IComponent, IDisposable, IParserAccessor, IUrlResolutionService, IDataBindingsAccessor, IControlBuilderAccessor, IControlDesignerAccessor, IExpressionsAccessor, IAttributeAccessor
+  inheritance:
+  - System.Object
+  - System.Web.UI.Control
+  - System.Web.UI.WebControls.WebControl
+  implements:
+  - System.IDisposable
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Altazion.ECommerce.Controls.RechercherFilAriane.#ctor
+  commentId: M:Altazion.ECommerce.Controls.RechercherFilAriane.#ctor
+  id: '#ctor'
+  parent: Altazion.ECommerce.Controls.RechercherFilAriane
+  langs:
+  - csharp
+  - vb
+  name: RechercherFilAriane()
+  nameWithType: RechercherFilAriane.RechercherFilAriane()
+  fullName: Altazion.ECommerce.Controls.RechercherFilAriane.RechercherFilAriane()
+  type: Constructor
+  source:
+    remote:
+      path: C:/agent/_work/2/s/EquihiraRelease/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/RechercherFilArianne.cs
+    id: .ctor
+    path: RechercherFilArianne.cs
+    startLine: 25
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  summary: "\nInitialise une nouvelle instance de <xref href=\"Altazion.ECommerce.Controls.RechercherFilAriane\" data-throw-if-not-resolved=\"false\"></xref>\n"
+  example: []
+  syntax:
+    content: public RechercherFilAriane()
+    content.vb: Public Sub New
+  overload: Altazion.ECommerce.Controls.RechercherFilAriane.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Altazion.ECommerce.Controls.RechercherFilAriane.Header
+  commentId: P:Altazion.ECommerce.Controls.RechercherFilAriane.Header
+  id: Header
+  parent: Altazion.ECommerce.Controls.RechercherFilAriane
+  langs:
+  - csharp
+  - vb
+  name: Header
+  nameWithType: RechercherFilAriane.Header
+  fullName: Altazion.ECommerce.Controls.RechercherFilAriane.Header
+  type: Property
+  source:
+    remote:
+      path: C:/agent/_work/2/s/EquihiraRelease/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/RechercherFilArianne.cs
+    id: Header
+    path: RechercherFilArianne.cs
+    startLine: 33
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  summary: "\nObtient ou définit le header du fil d&apos;ariane\n"
+  example: []
+  syntax:
+    content: public string Header { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Header As String
+  overload: Altazion.ECommerce.Controls.RechercherFilAriane.Header*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Altazion.ECommerce.Controls.RechercherFilAriane.HeaderCssClass
+  commentId: P:Altazion.ECommerce.Controls.RechercherFilAriane.HeaderCssClass
+  id: HeaderCssClass
+  parent: Altazion.ECommerce.Controls.RechercherFilAriane
+  langs:
+  - csharp
+  - vb
+  name: HeaderCssClass
+  nameWithType: RechercherFilAriane.HeaderCssClass
+  fullName: Altazion.ECommerce.Controls.RechercherFilAriane.HeaderCssClass
+  type: Property
+  source:
+    remote:
+      path: C:/agent/_work/2/s/EquihiraRelease/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/RechercherFilArianne.cs
+    id: HeaderCssClass
+    path: RechercherFilArianne.cs
+    startLine: 38
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  summary: "\nObtient ou définit la classe CSS du header\n"
+  example: []
+  syntax:
+    content: public string HeaderCssClass { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property HeaderCssClass As String
+  overload: Altazion.ECommerce.Controls.RechercherFilAriane.HeaderCssClass*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Altazion.ECommerce.Controls.RechercherFilAriane.ItemCssClass
+  commentId: P:Altazion.ECommerce.Controls.RechercherFilAriane.ItemCssClass
+  id: ItemCssClass
+  parent: Altazion.ECommerce.Controls.RechercherFilAriane
+  langs:
+  - csharp
+  - vb
+  name: ItemCssClass
+  nameWithType: RechercherFilAriane.ItemCssClass
+  fullName: Altazion.ECommerce.Controls.RechercherFilAriane.ItemCssClass
+  type: Property
+  source:
+    remote:
+      path: C:/agent/_work/2/s/EquihiraRelease/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/RechercherFilArianne.cs
+    id: ItemCssClass
+    path: RechercherFilArianne.cs
+    startLine: 43
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  summary: "\nObtient ou définit la classe CSS à utiliser pour chaque item\n"
+  example: []
+  syntax:
+    content: public string ItemCssClass { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ItemCssClass As String
+  overload: Altazion.ECommerce.Controls.RechercherFilAriane.ItemCssClass*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Altazion.ECommerce.Controls.RechercherFilAriane.FirstItemCssClass
+  commentId: P:Altazion.ECommerce.Controls.RechercherFilAriane.FirstItemCssClass
+  id: FirstItemCssClass
+  parent: Altazion.ECommerce.Controls.RechercherFilAriane
+  langs:
+  - csharp
+  - vb
+  name: FirstItemCssClass
+  nameWithType: RechercherFilAriane.FirstItemCssClass
+  fullName: Altazion.ECommerce.Controls.RechercherFilAriane.FirstItemCssClass
+  type: Property
+  source:
+    remote:
+      path: C:/agent/_work/2/s/EquihiraRelease/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/RechercherFilArianne.cs
+    id: FirstItemCssClass
+    path: RechercherFilArianne.cs
+    startLine: 48
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  summary: "\nObtient ou définit la classe CSS à utiliser pour le premier item\n"
+  example: []
+  syntax:
+    content: public string FirstItemCssClass { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property FirstItemCssClass As String
+  overload: Altazion.ECommerce.Controls.RechercherFilAriane.FirstItemCssClass*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Altazion.ECommerce.Controls.RechercherFilAriane.LastItemCssClass
+  commentId: P:Altazion.ECommerce.Controls.RechercherFilAriane.LastItemCssClass
+  id: LastItemCssClass
+  parent: Altazion.ECommerce.Controls.RechercherFilAriane
+  langs:
+  - csharp
+  - vb
+  name: LastItemCssClass
+  nameWithType: RechercherFilAriane.LastItemCssClass
+  fullName: Altazion.ECommerce.Controls.RechercherFilAriane.LastItemCssClass
+  type: Property
+  source:
+    remote:
+      path: C:/agent/_work/2/s/EquihiraRelease/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/RechercherFilArianne.cs
+    id: LastItemCssClass
+    path: RechercherFilArianne.cs
+    startLine: 53
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  summary: "\nObtient ou définit la classe CSS à utiliser pour le dernier item\n"
+  example: []
+  syntax:
+    content: public string LastItemCssClass { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property LastItemCssClass As String
+  overload: Altazion.ECommerce.Controls.RechercherFilAriane.LastItemCssClass*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Altazion.ECommerce.Controls.RechercherFilAriane.AlwaysShowHome
+  commentId: P:Altazion.ECommerce.Controls.RechercherFilAriane.AlwaysShowHome
+  id: AlwaysShowHome
+  parent: Altazion.ECommerce.Controls.RechercherFilAriane
+  langs:
+  - csharp
+  - vb
+  name: AlwaysShowHome
+  nameWithType: RechercherFilAriane.AlwaysShowHome
+  fullName: Altazion.ECommerce.Controls.RechercherFilAriane.AlwaysShowHome
+  type: Property
+  source:
+    remote:
+      path: C:/agent/_work/2/s/EquihiraRelease/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/RechercherFilArianne.cs
+    id: AlwaysShowHome
+    path: RechercherFilArianne.cs
+    startLine: 59
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  summary: "\nObtient ou définit un booléen spécifiant si la home\ndoit toujours faire partie du breadcrumb\n"
+  example: []
+  syntax:
+    content: public bool AlwaysShowHome { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property AlwaysShowHome As Boolean
+  overload: Altazion.ECommerce.Controls.RechercherFilAriane.AlwaysShowHome*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Altazion.ECommerce.Controls.RechercherFilAriane.LastIsClickable
+  commentId: P:Altazion.ECommerce.Controls.RechercherFilAriane.LastIsClickable
+  id: LastIsClickable
+  parent: Altazion.ECommerce.Controls.RechercherFilAriane
+  langs:
+  - csharp
+  - vb
+  name: LastIsClickable
+  nameWithType: RechercherFilAriane.LastIsClickable
+  fullName: Altazion.ECommerce.Controls.RechercherFilAriane.LastIsClickable
+  type: Property
+  source:
+    remote:
+      path: C:/agent/_work/2/s/EquihiraRelease/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/RechercherFilArianne.cs
+    id: LastIsClickable
+    path: RechercherFilArianne.cs
+    startLine: 65
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  summary: "\nObtient ou définit un booléen spécifiant si le dernier élément\ndoit être cliquable\n"
+  example: []
+  syntax:
+    content: public bool LastIsClickable { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property LastIsClickable As Boolean
+  overload: Altazion.ECommerce.Controls.RechercherFilAriane.LastIsClickable*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Altazion.ECommerce.Controls.RechercherFilAriane.Separator
+  commentId: P:Altazion.ECommerce.Controls.RechercherFilAriane.Separator
+  id: Separator
+  parent: Altazion.ECommerce.Controls.RechercherFilAriane
+  langs:
+  - csharp
+  - vb
+  name: Separator
+  nameWithType: RechercherFilAriane.Separator
+  fullName: Altazion.ECommerce.Controls.RechercherFilAriane.Separator
+  type: Property
+  source:
+    remote:
+      path: C:/agent/_work/2/s/EquihiraRelease/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/RechercherFilArianne.cs
+    id: Separator
+    path: RechercherFilArianne.cs
+    startLine: 70
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  summary: "\nObtient ou définit le séparateur entre les items\n"
+  example: []
+  syntax:
+    content: public string Separator { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Separator As String
+  overload: Altazion.ECommerce.Controls.RechercherFilAriane.Separator*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Altazion.ECommerce.Controls.RechercherFilAriane.UsePageTitleIfEmpty
+  commentId: P:Altazion.ECommerce.Controls.RechercherFilAriane.UsePageTitleIfEmpty
+  id: UsePageTitleIfEmpty
+  parent: Altazion.ECommerce.Controls.RechercherFilAriane
+  langs:
+  - csharp
+  - vb
+  name: UsePageTitleIfEmpty
+  nameWithType: RechercherFilAriane.UsePageTitleIfEmpty
+  fullName: Altazion.ECommerce.Controls.RechercherFilAriane.UsePageTitleIfEmpty
+  type: Property
+  source:
+    remote:
+      path: C:/agent/_work/2/s/EquihiraRelease/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/RechercherFilArianne.cs
+    id: UsePageTitleIfEmpty
+    path: RechercherFilArianne.cs
+    startLine: 77
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  summary: "\nObtient ou définit un booléen spécifiant si le &lt;title> de\nla page doit être utilisé si \n"
+  example: []
+  syntax:
+    content: public bool UsePageTitleIfEmpty { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property UsePageTitleIfEmpty As Boolean
+  overload: Altazion.ECommerce.Controls.RechercherFilAriane.UsePageTitleIfEmpty*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: Altazion.ECommerce.Controls
+  commentId: N:Altazion.ECommerce.Controls
+  name: Altazion.ECommerce.Controls
+  nameWithType: Altazion.ECommerce.Controls
+  fullName: Altazion.ECommerce.Controls
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Web.UI.Control
+  commentId: T:System.Web.UI.Control
+  parent: System.Web.UI
+  isExternal: true
+  name: Control
+  nameWithType: Control
+  fullName: System.Web.UI.Control
+- uid: System.Web.UI.WebControls.WebControl
+  commentId: T:System.Web.UI.WebControls.WebControl
+  parent: System.Web.UI.WebControls
+  isExternal: true
+  name: WebControl
+  nameWithType: WebControl
+  fullName: System.Web.UI.WebControls.WebControl
+- uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
+  isExternal: true
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Web.UI
+  commentId: N:System.Web.UI
+  isExternal: true
+  name: System.Web.UI
+  nameWithType: System.Web.UI
+  fullName: System.Web.UI
+- uid: System.Web.UI.WebControls
+  commentId: N:System.Web.UI.WebControls
+  isExternal: true
+  name: System.Web.UI.WebControls
+  nameWithType: System.Web.UI.WebControls
+  fullName: System.Web.UI.WebControls
+- uid: Altazion.ECommerce.Controls.RechercherFilAriane
+  commentId: T:Altazion.ECommerce.Controls.RechercherFilAriane
+  name: RechercherFilAriane
+  nameWithType: RechercherFilAriane
+  fullName: Altazion.ECommerce.Controls.RechercherFilAriane
+- uid: Altazion.ECommerce.Controls.RechercherFilAriane.#ctor*
+  commentId: Overload:Altazion.ECommerce.Controls.RechercherFilAriane.#ctor
+  name: RechercherFilAriane
+  nameWithType: RechercherFilAriane.RechercherFilAriane
+  fullName: Altazion.ECommerce.Controls.RechercherFilAriane.RechercherFilAriane
+- uid: Altazion.ECommerce.Controls.RechercherFilAriane.Header*
+  commentId: Overload:Altazion.ECommerce.Controls.RechercherFilAriane.Header
+  name: Header
+  nameWithType: RechercherFilAriane.Header
+  fullName: Altazion.ECommerce.Controls.RechercherFilAriane.Header
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Altazion.ECommerce.Controls.RechercherFilAriane.HeaderCssClass*
+  commentId: Overload:Altazion.ECommerce.Controls.RechercherFilAriane.HeaderCssClass
+  name: HeaderCssClass
+  nameWithType: RechercherFilAriane.HeaderCssClass
+  fullName: Altazion.ECommerce.Controls.RechercherFilAriane.HeaderCssClass
+- uid: Altazion.ECommerce.Controls.RechercherFilAriane.ItemCssClass*
+  commentId: Overload:Altazion.ECommerce.Controls.RechercherFilAriane.ItemCssClass
+  name: ItemCssClass
+  nameWithType: RechercherFilAriane.ItemCssClass
+  fullName: Altazion.ECommerce.Controls.RechercherFilAriane.ItemCssClass
+- uid: Altazion.ECommerce.Controls.RechercherFilAriane.FirstItemCssClass*
+  commentId: Overload:Altazion.ECommerce.Controls.RechercherFilAriane.FirstItemCssClass
+  name: FirstItemCssClass
+  nameWithType: RechercherFilAriane.FirstItemCssClass
+  fullName: Altazion.ECommerce.Controls.RechercherFilAriane.FirstItemCssClass
+- uid: Altazion.ECommerce.Controls.RechercherFilAriane.LastItemCssClass*
+  commentId: Overload:Altazion.ECommerce.Controls.RechercherFilAriane.LastItemCssClass
+  name: LastItemCssClass
+  nameWithType: RechercherFilAriane.LastItemCssClass
+  fullName: Altazion.ECommerce.Controls.RechercherFilAriane.LastItemCssClass
+- uid: Altazion.ECommerce.Controls.RechercherFilAriane.AlwaysShowHome*
+  commentId: Overload:Altazion.ECommerce.Controls.RechercherFilAriane.AlwaysShowHome
+  name: AlwaysShowHome
+  nameWithType: RechercherFilAriane.AlwaysShowHome
+  fullName: Altazion.ECommerce.Controls.RechercherFilAriane.AlwaysShowHome
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Altazion.ECommerce.Controls.RechercherFilAriane.LastIsClickable*
+  commentId: Overload:Altazion.ECommerce.Controls.RechercherFilAriane.LastIsClickable
+  name: LastIsClickable
+  nameWithType: RechercherFilAriane.LastIsClickable
+  fullName: Altazion.ECommerce.Controls.RechercherFilAriane.LastIsClickable
+- uid: Altazion.ECommerce.Controls.RechercherFilAriane.Separator*
+  commentId: Overload:Altazion.ECommerce.Controls.RechercherFilAriane.Separator
+  name: Separator
+  nameWithType: RechercherFilAriane.Separator
+  fullName: Altazion.ECommerce.Controls.RechercherFilAriane.Separator
+- uid: Altazion.ECommerce.Controls.RechercherFilAriane.UsePageTitleIfEmpty*
+  commentId: Overload:Altazion.ECommerce.Controls.RechercherFilAriane.UsePageTitleIfEmpty
+  name: UsePageTitleIfEmpty
+  nameWithType: RechercherFilAriane.UsePageTitleIfEmpty
+  fullName: Altazion.ECommerce.Controls.RechercherFilAriane.UsePageTitleIfEmpty

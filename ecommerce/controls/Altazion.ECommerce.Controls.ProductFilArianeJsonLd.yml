@@ -18,10 +18,13 @@ items:
       path: C:/agent/_work/2/s/EquihiraRelease/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/FilArianeCategories.cs
     id: ProductFilArianeJsonLd
     path: FilArianeCategories.cs
-    startLine: 270
+    startLine: 284
   assemblies:
   - Altazion.ECommerce.Controls
   namespace: Altazion.ECommerce.Controls
+  summary: "\nAjoute un snippet JSON/LD de breadcrumb pour une\nfiche produit, sous la forme du fil des catégories\n"
+  remarks: "\n<p>A utiliser lorsque le breadcrumb &quot;de navigation&quot; n&apos;est\npas souhaitable et doit être remplacé par un breadcrumb\nprésentant le positionnement d&apos;un article dans sa catégorie \nprincipale</p>\n"
+  example: []
   syntax:
     content: 'public class ProductFilArianeJsonLd : WebControl, IComponent, IDisposable, IParserAccessor, IUrlResolutionService, IDataBindingsAccessor, IControlBuilderAccessor, IControlDesignerAccessor, IExpressionsAccessor, IAttributeAccessor, IEquihiraBindable'
     content.vb: >-
@@ -57,10 +60,12 @@ items:
       path: C:/agent/_work/2/s/EquihiraRelease/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/FilArianeCategories.cs
     id: .ctor
     path: FilArianeCategories.cs
-    startLine: 272
+    startLine: 289
   assemblies:
   - Altazion.ECommerce.Controls
   namespace: Altazion.ECommerce.Controls
+  summary: "\nInitialise une nouvelle instance de <xref href=\"Altazion.ECommerce.Controls.ProductFilArianeJsonLd\" data-throw-if-not-resolved=\"false\"></xref>\n"
+  example: []
   syntax:
     content: public ProductFilArianeJsonLd()
     content.vb: Public Sub New
@@ -132,6 +137,11 @@ references:
   name: CPointSoftware.ECommerce.Tools
   nameWithType: CPointSoftware.ECommerce.Tools
   fullName: CPointSoftware.ECommerce.Tools
+- uid: Altazion.ECommerce.Controls.ProductFilArianeJsonLd
+  commentId: T:Altazion.ECommerce.Controls.ProductFilArianeJsonLd
+  name: ProductFilArianeJsonLd
+  nameWithType: ProductFilArianeJsonLd
+  fullName: Altazion.ECommerce.Controls.ProductFilArianeJsonLd
 - uid: Altazion.ECommerce.Controls.ProductFilArianeJsonLd.#ctor*
   commentId: Overload:Altazion.ECommerce.Controls.ProductFilArianeJsonLd.#ctor
   name: ProductFilArianeJsonLd

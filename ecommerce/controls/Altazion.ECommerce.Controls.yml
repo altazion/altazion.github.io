@@ -117,8 +117,6 @@ items:
   - Altazion.ECommerce.Controls.ProductDataHiddenField
   - Altazion.ECommerce.Controls.ProductFilArianeCategories
   - Altazion.ECommerce.Controls.ProductFilArianeJsonLd
-  - Altazion.ECommerce.Controls.ProductFilArianeJsonLd.BreadCrumbItemJson
-  - Altazion.ECommerce.Controls.ProductFilArianeJsonLd.Item
   - Altazion.ECommerce.Controls.ProductJsonLD
   - Altazion.ECommerce.Controls.ProductLivraison
   - Altazion.ECommerce.Controls.ProductLivraison.TypePreference
@@ -167,6 +165,8 @@ items:
   - Altazion.ECommerce.Controls.ProduitTagsEtLabels
   - Altazion.ECommerce.Controls.ProduitTotalTaxes
   - Altazion.ECommerce.Controls.ProduitVideoList
+  - Altazion.ECommerce.Controls.RechercherFilAriane
+  - Altazion.ECommerce.Controls.RechercherFilArianeJsonLd
   - Altazion.ECommerce.Controls.SeoContent
   - Altazion.ECommerce.Controls.SeoContentPanel
   - Altazion.ECommerce.Controls.SeoContentTitle
@@ -450,17 +450,6 @@ references:
   name: ProductFilArianeJsonLd
   nameWithType: ProductFilArianeJsonLd
   fullName: Altazion.ECommerce.Controls.ProductFilArianeJsonLd
-- uid: Altazion.ECommerce.Controls.ProductFilArianeJsonLd.BreadCrumbItemJson
-  commentId: T:Altazion.ECommerce.Controls.ProductFilArianeJsonLd.BreadCrumbItemJson
-  name: ProductFilArianeJsonLd.BreadCrumbItemJson
-  nameWithType: ProductFilArianeJsonLd.BreadCrumbItemJson
-  fullName: Altazion.ECommerce.Controls.ProductFilArianeJsonLd.BreadCrumbItemJson
-- uid: Altazion.ECommerce.Controls.ProductFilArianeJsonLd.Item
-  commentId: T:Altazion.ECommerce.Controls.ProductFilArianeJsonLd.Item
-  parent: Altazion.ECommerce.Controls
-  name: ProductFilArianeJsonLd.Item
-  nameWithType: ProductFilArianeJsonLd.Item
-  fullName: Altazion.ECommerce.Controls.ProductFilArianeJsonLd.Item
 - uid: Altazion.ECommerce.Controls.IncitationTitre
   commentId: T:Altazion.ECommerce.Controls.IncitationTitre
   name: IncitationTitre
@@ -1044,6 +1033,16 @@ references:
   name: ProduitVideoList
   nameWithType: ProduitVideoList
   fullName: Altazion.ECommerce.Controls.ProduitVideoList
+- uid: Altazion.ECommerce.Controls.RechercherFilAriane
+  commentId: T:Altazion.ECommerce.Controls.RechercherFilAriane
+  name: RechercherFilAriane
+  nameWithType: RechercherFilAriane
+  fullName: Altazion.ECommerce.Controls.RechercherFilAriane
+- uid: Altazion.ECommerce.Controls.RechercherFilArianeJsonLd
+  commentId: T:Altazion.ECommerce.Controls.RechercherFilArianeJsonLd
+  name: RechercherFilArianeJsonLd
+  nameWithType: RechercherFilArianeJsonLd
+  fullName: Altazion.ECommerce.Controls.RechercherFilArianeJsonLd
 - uid: Altazion.ECommerce.Controls.SeoContent
   commentId: T:Altazion.ECommerce.Controls.SeoContent
   name: SeoContent

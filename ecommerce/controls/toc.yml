@@ -228,10 +228,6 @@
     name: ProductFilArianeCategories
   - uid: Altazion.ECommerce.Controls.ProductFilArianeJsonLd
     name: ProductFilArianeJsonLd
-  - uid: Altazion.ECommerce.Controls.ProductFilArianeJsonLd.BreadCrumbItemJson
-    name: ProductFilArianeJsonLd.BreadCrumbItemJson
-  - uid: Altazion.ECommerce.Controls.ProductFilArianeJsonLd.Item
-    name: ProductFilArianeJsonLd.Item
   - uid: Altazion.ECommerce.Controls.ProductJsonLD
     name: ProductJsonLD
   - uid: Altazion.ECommerce.Controls.ProductLivraison
@@ -328,6 +324,10 @@
     name: ProduitTotalTaxes
   - uid: Altazion.ECommerce.Controls.ProduitVideoList
     name: ProduitVideoList
+  - uid: Altazion.ECommerce.Controls.RechercherFilAriane
+    name: RechercherFilAriane
+  - uid: Altazion.ECommerce.Controls.RechercherFilArianeJsonLd
+    name: RechercherFilArianeJsonLd
   - uid: Altazion.ECommerce.Controls.SeoContent
     name: SeoContent
   - uid: Altazion.ECommerce.Controls.SeoContentPanel

@@ -25,12 +25,12 @@ items:
       path: C:/agent/_work/2/s/EquihiraRelease/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/FilArianeCategories.cs
     id: ProductFilArianeCategories
     path: FilArianeCategories.cs
-    startLine: 21
+    startLine: 25
   assemblies:
   - Altazion.ECommerce.Controls
   namespace: Altazion.ECommerce.Controls
   summary: "\naffiche un ul représentant le fil des catégories\n"
-  remarks: "\nLa structure du fil d&apos;ariane est la suivante : \n<ul><li></li><li></li><li></li></ul>\n"
+  remarks: "\n<p>La structure du fil d&apos;ariane est la suivante : </p>\n<ul><li></li><li></li><li></li></ul>\n<p>A utiliser lorsque le breadcrumb &quot;de navigation&quot; n&apos;est\npas souhaitable et doit être remplacé par un breadcrumb\nprésentant le positionnement d&apos;un article dans sa catégorie \nprincipale</p>\n"
   example: []
   syntax:
     content: 'public class ProductFilArianeCategories : WebControl, IComponent, IDisposable, IParserAccessor, IUrlResolutionService, IDataBindingsAccessor, IControlBuilderAccessor, IControlDesignerAccessor, IExpressionsAccessor, IAttributeAccessor, IEquihiraBindable'
@@ -67,7 +67,7 @@ items:
       path: C:/agent/_work/2/s/EquihiraRelease/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/FilArianeCategories.cs
     id: .ctor
     path: FilArianeCategories.cs
-    startLine: 26
+    startLine: 30
   assemblies:
   - Altazion.ECommerce.Controls
   namespace: Altazion.ECommerce.Controls
@@ -97,7 +97,7 @@ items:
       path: C:/agent/_work/2/s/EquihiraRelease/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/FilArianeCategories.cs
     id: Header
     path: FilArianeCategories.cs
-    startLine: 34
+    startLine: 38
   assemblies:
   - Altazion.ECommerce.Controls
   namespace: Altazion.ECommerce.Controls
@@ -132,7 +132,7 @@ items:
       path: C:/agent/_work/2/s/EquihiraRelease/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/FilArianeCategories.cs
     id: HeaderCssClass
     path: FilArianeCategories.cs
-    startLine: 39
+    startLine: 43
   assemblies:
   - Altazion.ECommerce.Controls
   namespace: Altazion.ECommerce.Controls
@@ -167,7 +167,7 @@ items:
       path: C:/agent/_work/2/s/EquihiraRelease/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/FilArianeCategories.cs
     id: ItemCssClass
     path: FilArianeCategories.cs
-    startLine: 44
+    startLine: 48
   assemblies:
   - Altazion.ECommerce.Controls
   namespace: Altazion.ECommerce.Controls
@@ -202,7 +202,7 @@ items:
       path: C:/agent/_work/2/s/EquihiraRelease/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/FilArianeCategories.cs
     id: FirstItemCssClass
     path: FilArianeCategories.cs
-    startLine: 49
+    startLine: 53
   assemblies:
   - Altazion.ECommerce.Controls
   namespace: Altazion.ECommerce.Controls
@@ -237,7 +237,7 @@ items:
       path: C:/agent/_work/2/s/EquihiraRelease/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/FilArianeCategories.cs
     id: LastItemCssClass
     path: FilArianeCategories.cs
-    startLine: 54
+    startLine: 58
   assemblies:
   - Altazion.ECommerce.Controls
   namespace: Altazion.ECommerce.Controls
@@ -272,7 +272,7 @@ items:
       path: C:/agent/_work/2/s/EquihiraRelease/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/FilArianeCategories.cs
     id: Separator
     path: FilArianeCategories.cs
-    startLine: 60
+    startLine: 64
   assemblies:
   - Altazion.ECommerce.Controls
   namespace: Altazion.ECommerce.Controls
@@ -307,7 +307,7 @@ items:
       path: C:/agent/_work/2/s/EquihiraRelease/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/FilArianeCategories.cs
     id: UsePageTitleIfEmpty
     path: FilArianeCategories.cs
-    startLine: 67
+    startLine: 71
   assemblies:
   - Altazion.ECommerce.Controls
   namespace: Altazion.ECommerce.Controls
