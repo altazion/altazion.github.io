@@ -5,7 +5,7 @@ L'api e-commerce est destinée à être appelée au sein de votre site pour réa
 *   sont réalisées dans le contexte de l'utilisateur, vous devrez particulièrement faire attention aux cookies de l'utilisateur qui identifie la session auprès du serveur
 *   sont réalisées, dans la mesure du possible, au travers un lien HTTPS pour garantir la confidentialité des informations
 
-Certaines fonctionnalitées sont aussi réalisables via des appels à des pages web "connues" de notre solution ([consultez en la liste](/administration/on-premise/e-commerce/pagesconnues/))
+Certaines fonctionnalitées sont aussi réalisables via des appels à des pages web "connues" de notre solution ([consultez en la liste](https://aide.altazion.com/fr-fr/commerce/knownpages.html))
 
 ## Gestion des erreurs
 
