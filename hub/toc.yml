@@ -1,0 +1,7 @@
+- name: Altazion Hub
+  href: index.md
+  items:
+    - name: API
+      href: api/toc.yml
+    - name: Webhooks
+      href: extensibility/events/toc.yml
