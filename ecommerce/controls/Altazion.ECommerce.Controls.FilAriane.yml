@@ -25,7 +25,7 @@ items:
       path: C:/agent/_work/2/s/EquihiraRelease/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/FilAriane.cs
     id: FilAriane
     path: FilAriane.cs
-    startLine: 22
+    startLine: 23
   assemblies:
   - Altazion.ECommerce.Controls
   namespace: Altazion.ECommerce.Controls
@@ -66,7 +66,7 @@ items:
       path: C:/agent/_work/2/s/EquihiraRelease/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/FilAriane.cs
     id: .ctor
     path: FilAriane.cs
-    startLine: 27
+    startLine: 28
   assemblies:
   - Altazion.ECommerce.Controls
   namespace: Altazion.ECommerce.Controls
@@ -96,7 +96,7 @@ items:
       path: C:/agent/_work/2/s/EquihiraRelease/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/FilAriane.cs
     id: Header
     path: FilAriane.cs
-    startLine: 35
+    startLine: 36
   assemblies:
   - Altazion.ECommerce.Controls
   namespace: Altazion.ECommerce.Controls
@@ -131,7 +131,7 @@ items:
       path: C:/agent/_work/2/s/EquihiraRelease/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/FilAriane.cs
     id: HeaderCssClass
     path: FilAriane.cs
-    startLine: 39
+    startLine: 40
   assemblies:
   - Altazion.ECommerce.Controls
   namespace: Altazion.ECommerce.Controls
@@ -166,7 +166,7 @@ items:
       path: C:/agent/_work/2/s/EquihiraRelease/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/FilAriane.cs
     id: ItemCssClass
     path: FilAriane.cs
-    startLine: 44
+    startLine: 45
   assemblies:
   - Altazion.ECommerce.Controls
   namespace: Altazion.ECommerce.Controls
@@ -201,7 +201,7 @@ items:
       path: C:/agent/_work/2/s/EquihiraRelease/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/FilAriane.cs
     id: FirstItemCssClass
     path: FilAriane.cs
-    startLine: 51
+    startLine: 52
   assemblies:
   - Altazion.ECommerce.Controls
   namespace: Altazion.ECommerce.Controls
@@ -237,7 +237,7 @@ items:
       path: C:/agent/_work/2/s/EquihiraRelease/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/FilAriane.cs
     id: LastItemCssClass
     path: FilAriane.cs
-    startLine: 58
+    startLine: 59
   assemblies:
   - Altazion.ECommerce.Controls
   namespace: Altazion.ECommerce.Controls
@@ -273,7 +273,7 @@ items:
       path: C:/agent/_work/2/s/EquihiraRelease/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/FilAriane.cs
     id: Separator
     path: FilAriane.cs
-    startLine: 65
+    startLine: 66
   assemblies:
   - Altazion.ECommerce.Controls
   namespace: Altazion.ECommerce.Controls
@@ -309,7 +309,7 @@ items:
       path: C:/agent/_work/2/s/EquihiraRelease/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/FilAriane.cs
     id: UsePageTitleIfEmpty
     path: FilAriane.cs
-    startLine: 73
+    startLine: 74
   assemblies:
   - Altazion.ECommerce.Controls
   namespace: Altazion.ECommerce.Controls

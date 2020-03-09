@@ -19,7 +19,7 @@ items:
       path: C:/agent/_work/2/s/EquihiraRelease/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/ProductLinks.cs
     id: ProduitAttributLink
     path: ProductLinks.cs
-    startLine: 387
+    startLine: 393
   assemblies:
   - Altazion.ECommerce.Controls
   namespace: Altazion.ECommerce.Controls
@@ -64,7 +64,7 @@ items:
       path: C:/agent/_work/2/s/EquihiraRelease/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/ProductLinks.cs
     id: AttributeGuid
     path: ProductLinks.cs
-    startLine: 401
+    startLine: 407
   assemblies:
   - Altazion.ECommerce.Controls
   namespace: Altazion.ECommerce.Controls
@@ -97,7 +97,7 @@ items:
       path: C:/agent/_work/2/s/EquihiraRelease/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/ProductLinks.cs
     id: Format
     path: ProductLinks.cs
-    startLine: 402
+    startLine: 408
   assemblies:
   - Altazion.ECommerce.Controls
   namespace: Altazion.ECommerce.Controls

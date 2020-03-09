@@ -66,7 +66,7 @@ items:
       path: C:/agent/_work/2/s/EquihiraRelease/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/ControlesMarques.cs
     id: TextFormat
     path: ControlesMarques.cs
-    startLine: 62
+    startLine: 68
   assemblies:
   - Altazion.ECommerce.Controls
   namespace: Altazion.ECommerce.Controls
@@ -101,7 +101,7 @@ items:
       path: C:/agent/_work/2/s/EquihiraRelease/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/ControlesMarques.cs
     id: TypeLien
     path: ControlesMarques.cs
-    startLine: 74
+    startLine: 80
   assemblies:
   - Altazion.ECommerce.Controls
   namespace: Altazion.ECommerce.Controls
@@ -137,7 +137,7 @@ items:
       path: C:/agent/_work/2/s/EquihiraRelease/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/ControlesMarques.cs
     id: .ctor
     path: ControlesMarques.cs
-    startLine: 79
+    startLine: 85
   assemblies:
   - Altazion.ECommerce.Controls
   namespace: Altazion.ECommerce.Controls

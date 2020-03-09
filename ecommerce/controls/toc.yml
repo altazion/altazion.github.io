@@ -88,6 +88,8 @@
     name: FacebookLoginLink
   - uid: Altazion.ECommerce.Controls.FilAriane
     name: FilAriane
+  - uid: Altazion.ECommerce.Controls.FilArianeJsonLd
+    name: FilArianeJsonLd
   - uid: Altazion.ECommerce.Controls.IncitationImage
     name: IncitationImage
   - uid: Altazion.ECommerce.Controls.IncitationLibelle

@@ -6,6 +6,7 @@ items:
   parent: Altazion.ECommerce.Controls
   children:
   - Altazion.ECommerce.Controls.MarqueLink.TypeMarqueLink.MoteurDeRecherche
+  - Altazion.ECommerce.Controls.MarqueLink.TypeMarqueLink.PagePersoOuMoteur
   - Altazion.ECommerce.Controls.MarqueLink.TypeMarqueLink.SiteWeb
   langs:
   - csharp
@@ -90,6 +91,38 @@ items:
   example: []
   syntax:
     content: SiteWeb = 1
+    return:
+      type: Altazion.ECommerce.Controls.MarqueLink.TypeMarqueLink
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Altazion.ECommerce.Controls.MarqueLink.TypeMarqueLink.PagePersoOuMoteur
+  commentId: F:Altazion.ECommerce.Controls.MarqueLink.TypeMarqueLink.PagePersoOuMoteur
+  id: PagePersoOuMoteur
+  parent: Altazion.ECommerce.Controls.MarqueLink.TypeMarqueLink
+  langs:
+  - csharp
+  - vb
+  name: PagePersoOuMoteur
+  nameWithType: MarqueLink.TypeMarqueLink.PagePersoOuMoteur
+  fullName: Altazion.ECommerce.Controls.MarqueLink.TypeMarqueLink.PagePersoOuMoteur
+  type: Field
+  source:
+    remote:
+      path: C:/agent/_work/2/s/EquihiraRelease/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/ControlesMarques.cs
+    id: PagePersoOuMoteur
+    path: ControlesMarques.cs
+    startLine: 61
+  assemblies:
+  - Altazion.ECommerce.Controls
+  namespace: Altazion.ECommerce.Controls
+  summary: "\nUn lien vers la page perso si il y en \na une de renseignée ou vers le moteur\nsi ce n&apos;est pas le cas\n"
+  example: []
+  syntax:
+    content: PagePersoOuMoteur = 2
     return:
       type: Altazion.ECommerce.Controls.MarqueLink.TypeMarqueLink
   modifiers.csharp:
