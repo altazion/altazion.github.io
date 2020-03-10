@@ -47,6 +47,7 @@ items:
   - Altazion.ECommerce.Controls.EvenementCrossCanalTitle
   - Altazion.ECommerce.Controls.FacebookLoginLink
   - Altazion.ECommerce.Controls.FilAriane
+  - Altazion.ECommerce.Controls.FilArianeJsonLd
   - Altazion.ECommerce.Controls.IncitationImage
   - Altazion.ECommerce.Controls.IncitationLibelle
   - Altazion.ECommerce.Controls.IncitationProduitField
@@ -440,6 +441,11 @@ references:
   name: FilAriane
   nameWithType: FilAriane
   fullName: Altazion.ECommerce.Controls.FilAriane
+- uid: Altazion.ECommerce.Controls.FilArianeJsonLd
+  commentId: T:Altazion.ECommerce.Controls.FilArianeJsonLd
+  name: FilArianeJsonLd
+  nameWithType: FilArianeJsonLd
+  fullName: Altazion.ECommerce.Controls.FilArianeJsonLd
 - uid: Altazion.ECommerce.Controls.ProductFilArianeCategories
   commentId: T:Altazion.ECommerce.Controls.ProductFilArianeCategories
   name: ProductFilArianeCategories

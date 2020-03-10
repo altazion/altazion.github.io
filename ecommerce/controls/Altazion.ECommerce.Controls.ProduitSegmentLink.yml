@@ -18,7 +18,7 @@ items:
       path: C:/agent/_work/2/s/EquihiraRelease/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/ProductLinks.cs
     id: ProduitSegmentLink
     path: ProductLinks.cs
-    startLine: 319
+    startLine: 325
   assemblies:
   - Altazion.ECommerce.Controls
   namespace: Altazion.ECommerce.Controls
@@ -63,7 +63,7 @@ items:
       path: C:/agent/_work/2/s/EquihiraRelease/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/ProductLinks.cs
     id: TextIfEmpty
     path: ProductLinks.cs
-    startLine: 339
+    startLine: 345
   assemblies:
   - Altazion.ECommerce.Controls
   namespace: Altazion.ECommerce.Controls

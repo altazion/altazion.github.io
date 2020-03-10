@@ -17,7 +17,7 @@ items:
       path: C:/agent/_work/2/s/EquihiraRelease/ECommerce/e-commerce/dev/Altazion.ECommerce.Controls/ControlesMarques.cs
     id: MarquePanel
     path: ControlesMarques.cs
-    startLine: 273
+    startLine: 292
   assemblies:
   - Altazion.ECommerce.Controls
   namespace: Altazion.ECommerce.Controls
