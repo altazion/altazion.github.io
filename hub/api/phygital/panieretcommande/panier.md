@@ -31,3 +31,4 @@
 [!include[vider](panier.vider.autogen.md)]
 
 
+
