@@ -7,3 +7,4 @@
 [!include[supprimecontenuarticle](index.supprimecontenuarticle.autogen.md)]
 
 
+
