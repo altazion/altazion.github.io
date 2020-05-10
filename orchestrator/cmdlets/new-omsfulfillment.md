@@ -75,4 +75,3 @@ Les paramètres communs :
 |---|---|---|
 |AutoConfirm|Switch|Valide automatiquement l'ordre de préparation pour qu'il soit envoyé ou mis à réalisation|
 
-## Exemple
