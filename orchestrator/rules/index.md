@@ -14,7 +14,7 @@
 |[Exit-OmsRule](../cmdlets/exit-omsrule.md)|Termine l'exécution de la règle actuelle, si la commande n'est pas totalement préparée, les produits restants sont placés en reliquat. _remplace Exit-OmsRuleSet_|
 |Invoke-OmsExternalApi||
 |[Get-OmsSortAlgorithm](../cmdlets/get-omssortalgorithm.md)||
-|[Get-OmsSuppliers](../cmdlets/get-omssuppliers.md)||
+|[Get-OmsSupplier](../cmdlets/get-omssupplier.md)||
 |[New-OmsFulfillment](../cmdlets/new-omsfulfillment.md)||
 |[Select-OmsOrderLines](../cmdlets/select-omsorderlines.md)||
 |[Trace-OmsOnOrder](../cmdlets/trace-omsonorder.md)||

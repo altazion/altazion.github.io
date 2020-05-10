@@ -52,6 +52,9 @@ Pour des lignes non associées à un mode de prépa :
 |$orderrows|Pipeline|Les lignes à traiter pour créer l'ordre de prépa. Si ces lignes sont pré-associé à un autre mode, celui-ci sera remplacé._Vous pouvez aussi passer un objet Order entier_|
 |UseDefaultWarehouse|Switch|[Ne peut pas être utilisé avec les autres Switchs de cette table] Affecte toutes les lignes à une préparation sur stock, dans le dépot par défaut/principal|
 |Warehouse|DataObject|[Ne peut pas être utilisé avec les autres Switchs de cette table] Affecte toutes les lignes à une prépa sur stock réalisé dans le dépot passé en valeur de ce paramètre|
+|Store|DataObject|[Ne peut pas être utilisé avec les autres Switchs de cette table] Affecte toutes les lignes à une prépa dans le magasin passé en valeur|
+|Supplier|DataObject|[Ne peut pas être utilisé avec les autres Switchs de cette table] Affecte toutes les lignes à une prépa Drop-shipping associé au fournisseur passé en tant que valeur|
+
 
 > [!NOTE]
 > Le résultat de Select-OmsOrderLine est un tableau d'objet Order. Si celui-ci ne contient qu'une ligne, vous pouvez le passer en paramètre à New-OmsFulfillmentOrder. Si le paramètre pipeline en entrée contient plus d'un Order, cette commande lancera une exception InvalidOperationException.

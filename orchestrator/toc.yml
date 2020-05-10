@@ -4,4 +4,9 @@
   items:
     - name: Règles de prépa
       href: rules/index.md
-                
+    - name: Cmdlets de personnalisation
+      items:
+        - name: Exit-OmsRule
+          href: cmdlets/exit-omsrule.md
+        - name: Get-OmsSupplier
+          href: cmdlets/exit-omsrule.md
