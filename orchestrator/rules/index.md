@@ -11,15 +11,15 @@
 |Commandes|Description|
 |---|---|
 |Confirm-OmsFullFilment||
-|[Exit-OmsRule](../cmdlets/exit-omsrule.md)|Termine l'exécution de la règle actuelle, si la commande n'est pas totalement préparée, les produits restants sont placés en reliquat. _remplace Exit-OmsRuleSet_|
-|Invoke-OmsExternalApi||
-|[Get-OmsSortAlgorithm](../cmdlets/get-omssortalgorithm.md)||
-|[Get-OmsSupplier](../cmdlets/get-omssupplier.md)||
-|[New-OmsFulfillment](../cmdlets/new-omsfulfillment.md)||
-|[Select-OmsOrderLines](../cmdlets/select-omsorderlines.md)||
-|[Trace-OmsOnOrder](../cmdlets/trace-omsonorder.md)||
-|[Update-OmsFulfillment](../cmdlets/update-omsfulfillment.md)||
-|[Update-OmsOrder](../cmdlets/update-omsorder.md)||
+|[Exit-OmsRule](../cmdlets/exit-omsrule.md)|Termine l'exécution de la règle actuelle, par défaut sans enregistrer le résultat.|
+|Invoke-OmsExternalApi|Invoke une api externe pour traiter un bon de commande|
+|[Get-OmsSortAlgorithm](../cmdlets/get-omssortalgorithm.md)|-|
+|[Get-OmsSupplier](../cmdlets/get-omssupplier.md)|Obtient une liste de fournisseur de marchandises|
+|[New-OmsFulfillment](../cmdlets/new-omsfulfillment.md)|Crée un nouvel ordre de préparation|
+|[Select-OmsOrderLines](../cmdlets/select-omsorderlines.md)|Obtient un ensemble de ligne de commandes, en les associants éventuellement à un sourcing|
+|[Trace-OmsOnOrder](../cmdlets/trace-omsonorder.md)|Ajoute une trace dans le dossier du bon de commande|
+|[Update-OmsFulfillment](../cmdlets/update-omsfulfillment.md)|Met à jour un ordre de préparation|
+|[Update-OmsOrder](../cmdlets/update-omsorder.md)|Met à jour un bon de commande|
 
 ### Développer une nouvelle Cmdlet
 

@@ -10,3 +10,13 @@
           href: cmdlets/exit-omsrule.md
         - name: Get-OmsSupplier
           href: cmdlets/exit-omsrule.md
+        - name: New-OmsFulfillment
+          href: cmdlets/new-omsfulfillment.md
+        - name: Select-OmsOrderLines
+          href: cmdlets/select-omsorderlines.md
+        - name: Trace-OmsOnOrder
+          href: cmdlets/trace-omsonorder.md
+        - name: Update-OmsFulfillment
+          href: cmdlets/update-omsfulfillment.md
+        - name: Update-OmsOrder
+          href: cmdlets/update-omsorder.md
