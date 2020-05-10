@@ -4,7 +4,14 @@
 
 ## Règles standards
 
-## Ecrire une règle personnalisée
+Il existe quelques règles pré-définies, que vous pouvez configurer au travers d'Office. Ces règles sont [consultables sur le site d'aide général](https://aide.altazion.com/fr-fr/orchestrator/prepa-mep.html)
+
+## Ecrire des règles personnalisées
+
+La création de règles personnalisées se fait via l'écriture d'un fichier RuleSet contenant à la fois :
+
+- vos règles
+- la définition des conditions de priorisations entre-elles.
 
 ### Cmdlet standards
 
@@ -29,4 +36,5 @@
 
 ### Intégrer un service externe
 
-### Deployer votre règle
+### Deployer vos règles
+
