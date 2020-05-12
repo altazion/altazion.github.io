@@ -10,7 +10,7 @@ Applique un ou des ordre(s) de préparation sur un bon de commande afin de mettr
         -SetCompleted $ordreprepa
         
         # Annule les lignes restantes (une fois le SetCompleted éventuel appliqué)
-        - CancelRemaining
+        -CancelRemaining
 ```
 
 ## Paramètres

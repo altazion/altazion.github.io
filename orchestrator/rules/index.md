@@ -13,6 +13,24 @@ La création de règles personnalisées se fait via l'écriture d'un fichier Rul
 - vos règles
 - la définition des conditions de priorisations entre-elles.
 
+### Fichier de ruleset
+
+```xml
+<OrderSplitOptions>
+
+    <Rule code="maRegle">
+        <Step id="ClickNCollect" customizable="false"><![CDATA[
+            # votre code powershell de mise en préparation
+        ]]></Step>        
+    </Rule>
+
+    <Ruleset prefer="Priority">
+        <Rule code="maRegle" />
+    </Ruleset>
+
+</OrderSplitOptions>
+```
+
 ### Cmdlet standards
 
 |Commandes|Description|
