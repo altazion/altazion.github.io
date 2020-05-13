@@ -22,3 +22,12 @@
 
 
 
+
+[!include[archiver](magasins.archiver.autogen.md)]
+
+[!include[creer](magasins.creer.autogen.md)]
+
+[!include[inscrire](magasins.inscrire.autogen.md)]
+
+[!include[modifier](magasins.modifier.autogen.md)]
+
