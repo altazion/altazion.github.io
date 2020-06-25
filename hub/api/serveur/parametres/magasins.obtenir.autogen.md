@@ -1,6 +1,6 @@
 ## <span id='obtenir'>Obtenir un magasin</span>
 
-Récupère un magasin depuis son code.
+Récupère les évènements Cross Canaux non archivés
 
 Url :`[GET] app/parametres/magasins/{code}`
 
@@ -8,7 +8,26 @@ Paramètres :
 
 - **code** (string) : Le code du magasin
 
-Type de retour : `MagasinBase`
+Url :`[GET] app/parametres/magasins/{guid:Guid}`
+
+Paramètres : 
+
+- **guid** (Guid) : L'identifiant du magasin
+
+Url :`[GET] app/magasins/{magasin_guid:Guid}/evenements`
+
+Paramètres : 
+
+- **magasin_guid** (Guid) : L'identifiant du magasin
+
+Url :`[GET] app/magasins/evenements/crosscanal?date1={date1:DateTime?}&date2={date2:DateTime?}`
+
+Paramètres : 
+
+- **date1** (DateTime?)
+- **date2** (DateTime?)
+
+Type de retour : `EvenementCrossCanal[]`
 
 Type(s) de données :
 
@@ -27,6 +46,36 @@ class MagasinBase
 	string Email { get; set; }
 	string Pays { get; set; }
 	bool ActifPourCrossCanal { get; set; }
+}
+
+class EvenementMagasin
+{
+	Guid Guid { get; set; }
+	string Libelle { get; set; }
+	string Description { get; set; }
+	EvenementCrossCanalBase InfoEventCrossCanal { get; set; }
+}
+
+class EvenementCrossCanalBase
+{
+	Guid Guid { get; set; }
+	string Libelle { get; set; }
+	string Url { get; set; }
+	DateTime Date { get; set; }
+	string Message { get; set; }
+}
+
+class EvenementCrossCanal
+{
+	string Categorie { get; set; }
+	string Descriptif { get; set; }
+	bool ObligatoirePourIntegres { get; set; }
+	bool ObligatoirePourAffilies { get; set; }
+	Guid Guid { get; set; }
+	string Libelle { get; set; }
+	string Url { get; set; }
+	DateTime Date { get; set; }
+	string Message { get; set; }
 }
 
 ```

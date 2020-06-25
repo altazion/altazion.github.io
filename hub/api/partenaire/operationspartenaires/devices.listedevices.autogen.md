@@ -21,6 +21,7 @@ class DeviceData
 	string StoreCode { get; set; }
 	Guid? StoreGuid { get; set; }
 	PosteTypeEcran Kind { get; set; }
+	string DeviceCode { get; set; }
 }
 
 enum PosteTypeEcran
