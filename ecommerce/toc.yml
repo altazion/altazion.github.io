@@ -1,7 +1,7 @@
 - name: Altazion Commerce
   href: index.md
 - name: Personnalisation
-    href: personnalisation/toc.yml
-    topicHref: personnalisation.md
+  href: personnalisation/toc.yml
+  topicHref: personnalisation.md
 - name: Controles
   href: controls/index.md
