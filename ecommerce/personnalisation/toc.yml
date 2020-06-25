@@ -4,3 +4,15 @@
   href: ecommerce-homepage.md
 - name: Descente produits
   href: ecommerce-descente.md
+- name: Fiche produit
+  href: ecommerce-ficheproduit.md
+- name: Process
+  items:
+    - name: Panier
+      href: ecommerce-panier.md
+    - name: Login
+      href: ecommerce-loginprocess.md      
+    - name: Confirmation Commande
+      href: ecommerce-confirmprocess.md            
+    - name: Recu Commande
+      href: ecommerce-recuprocess.md                  
