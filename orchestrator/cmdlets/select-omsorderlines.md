@@ -14,8 +14,6 @@ Selectionne une liste de lignes correspondant à des critères. Si l'un de ces c
         # limite à 
 ```
 
-
-
 Le type de retour de cette commande est un Order (ou un ensemble d'order si vous utilisez le switch -GroupBy, cf. ci-dessous) contenant uniquement les lignes selectionnées.
 
 > [!NOTE]

@@ -46,13 +46,37 @@ La création de règles personnalisées se fait via l'écriture d'un fichier Rul
 |[Update-OmsFulfillment](../cmdlets/update-omsfulfillment.md)|Met à jour un ordre de préparation|
 |[Update-OmsOrder](../cmdlets/update-omsorder.md)|Met à jour un bon de commande|
 
-### Développer une nouvelle Cmdlet
-
-=> module powershell core
-=> doit être hébérgé sur le cloud pour le SaaS
-=> Onprem : doit être dans le dossier bin ou dans le dossier ext de la partie logistique
-
-### Intégrer un service externe
-
 ### Deployer vos règles
 
+#### SaaS
+
+Si vous utilisez notre solution en mode SaaS, vous pouvez tout simplement utiliser notre interface de configuration dans _Paramètres_ > _Logistique_ > _Règles de préparation_ et de passer en mode _Avancé_ pour accèder à l'écran de configuration des règles.
+
+Celui-ci vous permettra de coller votre fichier de configuration, et de le renseigner un ensemble de commandes de tests pour valider le comportement. N'hésitez pas à tester et finaliser vos règles dans l'interface.
+
+#### OnPremise
+
+En solution onPremise, vous pouvez utiliser deux procédures pour déployer vos règles :
+
+- comme pour le mode Saas, vous pouvez utiliser l'interface d'Altazion Office pour écrire vos règles
+- vous pouvez créer et déposer un fichier dans votre dossier [d'extensibilité "logistique"](https://aide.altazion.com/fr-fr/administration/onpremise/dossier.html#dossiers-dextensibilit%C3%A9). Le fichier devra se nommer :
+
+    {EXTFOLDER}\bin\oms-rulesets.xml
+
+> [!NOTE]
+> Vous pourrez utiliser cette seconde solution pour réaliser des déploiements depuis un système de gestion de source via un build CI/DevOps par exemple. 
+
+## Etendre les règles
+
+### Développer une nouvelle Cmdlet
+
+On prem
+=> module powershell core
+=> doit être dans le dossier bin ou dans le dossier ext de la partie logistique
+
+Saas
+=> point api
+=> doit être hébérgé sur le cloud pour accès public
+=> Exclusivement en https
+
+### Intégrer un service externe
