@@ -31,7 +31,10 @@ La création de règles personnalisées se fait via l'écriture d'un fichier Rul
 </OrderSplitOptions>
 ```
 
+
+
 ### Cmdlet standards
+
 
 |Commandes|Description|
 |---|---|
@@ -45,6 +48,11 @@ La création de règles personnalisées se fait via l'écriture d'un fichier Rul
 |[Trace-OmsOnOrder](../cmdlets/trace-omsonorder.md)|Ajoute une trace dans le dossier du bon de commande|
 |[Update-OmsFulfillment](../cmdlets/update-omsfulfillment.md)|Met à jour un ordre de préparation|
 |[Update-OmsOrder](../cmdlets/update-omsorder.md)|Met à jour un bon de commande|
+
+
+
+> [!NOTE]
+> Vous pouvez aussi étendre la solution en implémentant [vos propres Cmdlets](extensibilite.md).
 
 ### Deployer vos règles
 
@@ -66,17 +74,3 @@ En solution onPremise, vous pouvez utiliser deux procédures pour déployer vos 
 > [!NOTE]
 > Vous pourrez utiliser cette seconde solution pour réaliser des déploiements depuis un système de gestion de source via un build CI/DevOps par exemple. 
 
-## Etendre les règles
-
-### Développer une nouvelle Cmdlet
-
-On prem
-=> module powershell core
-=> doit être dans le dossier bin ou dans le dossier ext de la partie logistique
-
-Saas
-=> point api
-=> doit être hébérgé sur le cloud pour accès public
-=> Exclusivement en https
-
-### Intégrer un service externe

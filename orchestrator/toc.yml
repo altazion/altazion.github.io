@@ -4,6 +4,9 @@
   items:
     - name: Règles de prépa
       href: rules/index.md
+      items:
+        - name: Extensibilité
+          href: rules/extensibilite.md
     - name: Cmdlets de personnalisation
       items:
         - name: Exit-OmsRule
