@@ -1,0 +1,9 @@
+- name: Présentation
+  href: index.md
+- name: Digital Signage
+  href: digitalsignage/index.md
+- name: Interactive Signage
+  href: interactivesignage/index.md
+  items:
+    - name: Templates
+      href: interactivesignage/templates.md
