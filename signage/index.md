@@ -7,8 +7,6 @@ Le module Altazion Signage se décline en deux grands ensembles en fonction du c
 
 ## Digital Signage
 
-
-
 ## Interactive Signage
 
 ### Achats sur bornes & tablettes
