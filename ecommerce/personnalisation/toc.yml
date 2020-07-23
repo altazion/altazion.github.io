@@ -15,4 +15,9 @@
     - name: Confirmation Commande
       href: ecommerce-confirmprocess.md            
     - name: Recu Commande
-      href: ecommerce-recuprocess.md                  
+      href: ecommerce-recuprocess.md   
+- name: Créer un template
+  href: implementer-template.md
+  items:
+    - name: Déployer
+      href: deployer-template.md               
