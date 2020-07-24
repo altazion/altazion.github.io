@@ -8,3 +8,13 @@
         items:
           - name: Personnalisation avancée
             href: customize/modeles/printengine.md
+  - name: Extensibilité (onpremise)
+    items:
+      - name: Financier
+        items:
+          - name: Mode de règlement
+            href: extensions/financier/modereglement.md
+      - name: Logistique
+        items:
+          - name: Mode de livraison
+            href: extensions/logistique/modelivraison.md
