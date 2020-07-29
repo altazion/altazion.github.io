@@ -10,8 +10,7 @@ Ce mode d'extensibilité vous permet une plus grande liberté, mais vous demande
 
 Si vous n'êtes pas familier avec l'inversion de contrôle, le principe en est assez simple : dans de très nombreux endroits de notre solution, nous avons mis en place la possibilité pour vous d'écrire un "plug-in", sous la forme d'une interface à implémenter, pour que vous puissiez remplacer le comportement standard de la solution. 
 
-Par exemple, lors de l'ajout au panier d'un article dans le module Commerce, nous effectuons une vérification de disponibilité du produit pour savoir quelle quantité maximale peut être commandé. Ce traitement a un comportement par défaut qui effectue une vérification dans la base de données. Toutefois, vous pouvez implémenter l'interface :
-
+Par exemple, lors de l'ajout au panier d'un article dans le module Commerce, nous effectuons une vérification de disponibilité du produit pour savoir quelle quantité maximale peut être commandé. Ce traitement a un comportement par défaut qui effectue une vérification dans la base de données. Vous pouvez toutefois changer ce comportement, en implémentant l'interface :
 
 ```csharp
     IPanierStockCheck
@@ -38,6 +37,8 @@ Par exemple :
         }
     }
 ```
+
+Une fois l'interface implémentée, ajoutez une balise d'export signalant qu'elle doit être utilisée, compilez puis déployez l'assembly correspondante dans le dossier d'extensibilité (cf. [ci-dessous](#dossier-extensibilité-client))
 
 Quelques pointeurs pour comprendre le fonctionnement général de l'inversion de contrôle et son implémentation en technologies .net :
 
