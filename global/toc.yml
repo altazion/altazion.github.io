@@ -1,0 +1,8 @@
+- name: Etendre la solution
+  href: index.md
+- name: Modules
+  items:
+    - name: Office
+      href: ../office/index.md
+    - name: Orchestrator
+      href: ../orchestrator/index.md      
