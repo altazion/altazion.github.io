@@ -1,9 +1,10 @@
 - name: Altazion Hub
   href: index.md
-  - name: Extensibilité (Saas)
-    items:
-      - name: Evènements
-        href: extensibility/events/index.md
+  items:
+    - name: Extensibilité (Saas)
+      items:
+        - name: Evènements
+          href: extensibility/events/index.md
 - name: Référence 
   items:
     - name: API
