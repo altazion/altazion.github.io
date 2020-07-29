@@ -12,7 +12,37 @@ Si vous n'êtes pas familier avec l'inversion de contrôle, le principe en est a
 
 Par exemple, lors de l'ajout au panier d'un article dans le module Commerce, nous effectuons une vérification de disponibilité du produit pour savoir quelle quantité maximale peut être commandé. Ce traitement a un comportement par défaut qui effectue une vérification dans la base de données. Toutefois, vous pouvez implémenter l'interface :
 
-    ICheckStock
+
+```csharp
+    IPanierStockCheck
+```
+
+Par exemple :
+
+```csharp
+    [Export(typeof(IPanierStockCheck))]
+    public class MaVerifStock : IPanierStockCheck
+    {
+        bool IPanierStockCheck.CheckStock(Guid art_guid, 
+            ref decimal quantite, Guid? magasin, string typeCommandable)
+        {
+            var stockProduit = ApiModuleStock.GetStock(art_guid, magasinGuid);
+            if(stockProduit.Front.Quantite >= quantite)
+                return true;
+            else 
+            {
+                // on ajuste la quantité commandable
+                quantite = stockProduit.Front.Quantite; 
+                return false;
+            }
+        }
+    }
+```
+
+Quelques pointeurs pour comprendre le fonctionnement général de l'inversion de contrôle et son implémentation en technologies .net :
+
+- https://medium.com/ividata-link/c-linjection-de-dépendances-di-et-l-inversion-de-contrôle-ioc-48dbe76cff6b
+- https://docs.microsoft.com/en-us/dotnet/framework/mef/
 
 ### Paths importants
 
@@ -24,18 +54,21 @@ Le dossier se trouvant dans %ALLUSERSPROFILE% permet de configurer et personnali
 
 #### Dossier extensibilité client
 
-Lorsque vous développez des extensions, vous devez les  : 
+Lorsque vous développez des extensions, vous devez les déposer dans un dossier connu de la solution se trouvant sous la racine : 
 
-**$ROOTEXTFOLDER$** = %ALLUSERSPROFILE%\Cpoint\[e]\ext
+**$ROOTEXTFOLDER$** = %ALLUSERSPROFILE%\Cpoint\\\[e]\ext
 
 > [!NOTE]
 > Le dossier `ext` peut être défini dans un autre emplacement en modifiant la configuration, si vous souhaitez, par exemple, placer un environnement de tests et un environnement de production sur le même serveur. Contactez notre service de support pour plus d'informations.
 
-Les dossiers suivent un principe de découpage par module :
+A l'intérieur de cette racine, vous pourrez déposer votre extensions dans l'un des sous dossiers suivants, en fonction du module que vous voulez étendre.
 
-Module|Chemin 
----|---
-Serveur Gestion commerciale | **$ROOTEXTFOLDER$**\services 
-Serveur e-commerce | **$ROOTEXTFOLDER$**\ecommerce 
-Serveur logistique | **$ROOTEXTFOLDER$**\logistique 
-Serveur caisses / phygital | **$ROOTEXTFOLDER$**\POSCentral 
+Module|Chemin|
+---|---|
+Altazion Office (ERP et Back Office) | **$ROOTEXTFOLDER$**\services |
+Altazion e-commerce | **$ROOTEXTFOLDER$**\ecommerce |
+Altazion Orchestrator (OMS et Batchs) | **$ROOTEXTFOLDER$**\logistique |
+Altazion Store & Signage | **$ROOTEXTFOLDER$**\POSCentral |
+
+> [!WARNING]
+> Vous ne devez en aucun cas déposer vos extensions dans le dossier d'installation du programme. Le programme de mise à jour, permettant l'installation des nos nouvelles versions, supprime tous les fichiers qu'il ne reconnait pas lors de la mise à jour.
