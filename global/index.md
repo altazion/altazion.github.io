@@ -2,6 +2,16 @@
 
 Les possibilités d'extension de la solution sont très différentes selon le fait que vous utilisiez nos outils en mode SaaS (hébergés par nos soins) ou OnPremise (installés sur vos serveurs)
 
+## SaaS
+
+Si vous utilisez notre solution en mode SaaS, vous ne pouvez pas étendre directement nos outils en injectant votre code directement sur nos serveurs. 
+
+Vous pouvez toutefois intégrer vos personnalisation en développant des plugins que vous hébergerez sur votre infrastructure et qui pourront étendre l'un des points de contributions de nos solutions.
+
+Vous pouvez, par exemple, écrire un [gestionnaire d'évènement de type Webhook](../hub/extensibility/index.md) pour réagir à la création d'un nouveau client et synchroniser ses informations avec votre système CRM ; créer un template pour Signage ; ou encore écrire une page d'extension pour Office.
+
+Consultez la description de chaque application pour en connaitre les points de contribution et méchanismes d'extension.
+
 ## On Premise
 
 A la différence du mode SaaS/Cloud, il est possible d'ajouter des personnalisations "codées" dans notre solution Cloud. En complément des solutions d'extensibilité utilisables en mode Cloud, il est aussi possible d'écrire des extensions sous forme de classes .net et d'utiliser [l'inversion de contrôle et l'injection de dépendance](https://medium.com/ividata-link/c-linjection-de-dépendances-di-et-l-inversion-de-contrôle-ioc-48dbe76cff6b) pour insérer du code personnalisé dans l'application. 

@@ -1,8 +1,8 @@
 - name: Etendre la solution
   href: index.md
-- name: Modules
-  items:
-    - name: Office
-      href: ../office/index.md
-    - name: Orchestrator
-      href: ../orchestrator/index.md      
+- name: Altazion Office
+  href: ../office/index.md
+- name: Altazion Hub
+  href: ../hub/index.md
+- name: Altazion Orchestrator
+  href: ../orchestrator/index.md      
