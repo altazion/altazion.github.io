@@ -17,8 +17,8 @@ De plus, si vous souhaitez utiliser ce moyen de paiement sur votre site e-commer
 
 ### `IModePaiement`
 
-[!include](ecommerce-reglements-sharedpublic-2.md)
+[!include[ecommerce-reglements-sharedpublic-2](ecommerce-reglements-sharedpublic-2.md)]
 
 ## Intégration e-commerce
 
-[!include](ecommerce-reglements-sharedpublic-1.md)
+[!include[ecommerce-reglements-sharedpublic-1](ecommerce-reglements-sharedpublic-1.md)]
