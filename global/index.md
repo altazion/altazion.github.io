@@ -83,3 +83,7 @@ Altazion Store & Signage | **$ROOTEXTFOLDER$**\POSCentral |
 
 > [!WARNING]
 > Vous ne devez en aucun cas déposer vos extensions dans le dossier d'installation du programme. Le programme de mise à jour, permettant l'installation des nos nouvelles versions, supprime tous les fichiers qu'il ne reconnait pas lors de la mise à jour.
+
+## Exemples
+
+Vous pourrez trouver des exemples d'extensions sur notre github, dans la repository [altazion/onpremise-extensibility-samples](https://github.com/altazion/onpremise-extensibility-samples)
