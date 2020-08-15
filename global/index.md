@@ -48,14 +48,24 @@ Par exemple :
     }
 ```
 
-Une fois l'interface implémentée, ajoutez une balise d'export signalant qu'elle doit être utilisée, compilez puis déployez l'assembly correspondante dans le dossier d'extensibilité (cf. [ci-dessous](#dossier-extensibilité-client))
-
 Quelques pointeurs pour comprendre le fonctionnement général de l'inversion de contrôle et son implémentation en technologies .net :
 
 - https://medium.com/ividata-link/c-linjection-de-dépendances-di-et-l-inversion-de-contrôle-ioc-48dbe76cff6b
 - https://docs.microsoft.com/en-us/dotnet/framework/mef/
 
-### Paths importants
+### SDK
+
+Bien entendu, pour pouvoir implémenter l'interface `IPanierStockCheck`, il vous faut d'abord référencer sa définition. Nous mettons à disposition des développeurs un SDK, déployé sous forme de nuget herbergés sur Github.
+
+> [WARNING]
+> Pour l'instant, ce SDK est uniquement disponible sur demande, après signature d'un NDA. Nous vous invitons à nous contacter via l'adresse se trouvant sur le profil d'altazion : https://github.com/altazion.
+> Une fois l'accès accordé, vous pourrez ajouter la source de nuget en suivant le procédure ci-dessous.
+
+Vous aurez besoin de vous connecter à un flux de package Github. Pour cela, le plus simple est de créer un token PAT ayant le droit `read:packages`, puis d'ajouter l'url correspondant à notre organisation. [Pour plus de détail, suivez ce guide détaillé](use-github-packages.md)
+
+### Déployer
+
+Une fois l'interface implémentée, ajoutez une balise d'export signalant qu'elle doit être utilisée, compilez puis déployez l'assembly correspondante dans le dossier d'extensibilité.
 
 La solution possède deux paths "importants" en configuration OnPremise :
 - le(s) dossier(s) où se trouvent installés les différents modules de l'application (en règle générale : %ProgramFiles%\simplement-e\apps\{nom du module})
