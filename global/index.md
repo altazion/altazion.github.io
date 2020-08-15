@@ -57,7 +57,7 @@ Quelques pointeurs pour comprendre le fonctionnement général de l'inversion de
 
 Bien entendu, pour pouvoir implémenter l'interface `IPanierStockCheck`, il vous faut d'abord référencer sa définition. Nous mettons à disposition des développeurs un SDK, déployé sous forme de nuget herbergés sur Github.
 
-> [WARNING]
+> [!WARNING]
 > Pour l'instant, ce SDK est uniquement disponible sur demande, après signature d'un NDA. Nous vous invitons à nous contacter via l'adresse se trouvant sur le profil d'altazion : https://github.com/altazion.
 > Une fois l'accès accordé, vous pourrez ajouter la source de nuget en suivant le procédure ci-dessous.
 
