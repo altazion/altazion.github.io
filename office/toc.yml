@@ -21,3 +21,5 @@
       items:
         - name: Mode de livraison
           href: extensions/logistique/modelivraison.md
+    - name: Notifications (events)
+      href: extensions/events.md

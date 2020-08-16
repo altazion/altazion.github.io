@@ -4,13 +4,10 @@ En utilisant les évènements, vous pourrez ajouter des traitements personnalis�
 
 ## Comment utiliser les évènements ?
 
-### En solution OnPremise
-
-En plus de permettre l'utilisation des webhooks (voir ci-dessous), les solutions déployées en OnPremise permettent d'ajouter du code personnalisé spécifique.
-
-### En solution cloud / SaaS
-
 Si vous utilisez nos solutions en mode hébergé, vous devez forcément utiliser le mode des webhooks pour réaliser vos personnalisations. Un webhook est simplement un appel à une API ou à un service externe qui sera déclenché par la solution lors de l'évènement.
+
+> [!NOTE]
+> En plus de permettre l'utilisation des webhooks, les solutions déployées en OnPremise permettent d'ajouter du code personnalisé spécifique [En savoir plus](../../extensions/events.md).
 
 Il existe plusieurs connecteurs vers des services externes "standards" vous permettant de démarrer rapidement, avec un minimum de développement l'intégration de vos personnalisations.
 
