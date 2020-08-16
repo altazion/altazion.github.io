@@ -8,6 +8,10 @@
         items:
           - name: Personnalisation avancée
             href: customize/modeles/printengine.md
+  - name: Extensibilité (SaaS)
+    items:
+      - name: Notifications (events)
+        href: extensibility/events/toc.yml
   - name: Extensibilité (onpremise)
     items:
       - name: Financier
