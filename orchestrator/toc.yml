@@ -10,16 +10,20 @@
     - name: Cmdlets de personnalisation
       items:
         - name: Exit-OmsRule
-          href: cmdlets/exit-omsrule.md
+          href: rules/cmdlets/exit-omsrule.md
         - name: Get-OmsSupplier
-          href: cmdlets/exit-omsrule.md
+          href: rules/cmdlets/exit-omsrule.md
         - name: New-OmsFulfillment
-          href: cmdlets/new-omsfulfillment.md
+          href: rules/cmdlets/new-omsfulfillment.md
         - name: Select-OmsOrderLines
-          href: cmdlets/select-omsorderlines.md
+          href: rules/cmdlets/select-omsorderlines.md
         - name: Trace-OmsOnOrder
-          href: cmdlets/trace-omsonorder.md
+          href: rules/cmdlets/trace-omsonorder.md
         - name: Update-OmsFulfillment
-          href: cmdlets/update-omsfulfillment.md
+          href: rules/cmdlets/update-omsfulfillment.md
         - name: Update-OmsOrder
-          href: cmdlets/update-omsorder.md
+          href: rules/cmdlets/update-omsorder.md
+- name: Stock unifié
+  topic: stock/index.md
+- name: Expédition
+  topic: shipping/index.md
