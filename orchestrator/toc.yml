@@ -24,6 +24,6 @@
         - name: Update-OmsOrder
           href: rules/cmdlets/update-omsorder.md
 - name: Stock unifié
-  topic: stock/index.md
+  href: stock/index.md
 - name: Expédition
-  topic: shipping/index.md
+  href: shipping/index.md
