@@ -1,29 +1,34 @@
 - name: Orchestrator
   href: index.md
-- name: Préparation
-  items:
-    - name: Règles de prépa
-      href: rules/index.md
+- name: Traitement des commandes
+  href: traitementscommandes.md
+  -items:
+    - name: Types de commandes
+      href: typescommandes.md
+    - name: Préparation
       items:
-        - name: Extensibilité
-          href: rules/extensibilite.md
-    - name: Cmdlets de personnalisation
-      items:
-        - name: Exit-OmsRule
-          href: rules/cmdlets/exit-omsrule.md
-        - name: Get-OmsSupplier
-          href: rules/cmdlets/exit-omsrule.md
-        - name: New-OmsFulfillment
-          href: rules/cmdlets/new-omsfulfillment.md
-        - name: Select-OmsOrderLines
-          href: rules/cmdlets/select-omsorderlines.md
-        - name: Trace-OmsOnOrder
-          href: rules/cmdlets/trace-omsonorder.md
-        - name: Update-OmsFulfillment
-          href: rules/cmdlets/update-omsfulfillment.md
-        - name: Update-OmsOrder
-          href: rules/cmdlets/update-omsorder.md
+        - name: Règles de prépa
+          href: rules/index.md
+          items:
+            - name: Extensibilité
+              href: rules/extensibilite.md
+            - name: Cmdlets de personnalisation
+              items:
+                - name: Exit-OmsRule
+                  href: rules/cmdlets/exit-omsrule.md
+                - name: Get-OmsSupplier
+                  href: rules/cmdlets/exit-omsrule.md
+                - name: New-OmsFulfillment
+                  href: rules/cmdlets/new-omsfulfillment.md
+                - name: Select-OmsOrderLines
+                  href: rules/cmdlets/select-omsorderlines.md
+                - name: Trace-OmsOnOrder
+                  href: rules/cmdlets/trace-omsonorder.md
+                - name: Update-OmsFulfillment
+                  href: rules/cmdlets/update-omsfulfillment.md
+                - name: Update-OmsOrder
+                      href: rules/cmdlets/update-omsorder.md
+    - name: Expédition
+      href: shipping/index.md
 - name: Stock unifié
   href: stock/index.md
-- name: Expédition
-  href: shipping/index.md
