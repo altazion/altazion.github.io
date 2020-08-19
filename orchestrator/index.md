@@ -13,7 +13,7 @@ Il se base en partie, comme Office et Hub sur notre scheduler de traitement inte
 L'utilisation du composant OMS d'Orchestrator lui confère les rôles :
 
 - de déterminer la meilleure façon de traiter une commande, en suivant un [process que vous pouvez configurer](traitementcommande.md)
-- d'assurer l'aide à la préparation, en optimisant [les étapes permettant la préparation](rules/index.md), le picking, la fabrication, la commande fournisseur ou tout autre mode d'approvisionnement
+- d'assurer l'aide à la préparation, en optimisant [le choix de la meilleure façon de préparer une commande](rules/index.md), le picking, la fabrication, la commande fournisseur ou tout autre mode d'approvisionnement
 - de centraliser les retours et de déterminer les éléments expédiés, ceux facturables, ceux en reliquat ou à rembourser
 - d'établir les pièces de ventes (factures, avoirs, etc.) et d'en faire découler toutes les opérations financières tels que les captures de montants CB, l'émission de lettres chèques, etc.
 
