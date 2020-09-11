@@ -13,6 +13,6 @@ Le traitement de commande est une étape complexe, faisant intervenir plusieurs 
 
 Les différentes étapes permettant de passer d'une commande à une livraison sont regroupées dans ce que nous appelons un _Rail_. Chaque _Rail_ correspond à une suite d'actions, automatiques ou non, qui permettront de réaliser toutes les opérations nécessaires pour livrer le client. Vous pouvez, bien entendu, créer plusieurs _rails_ différents, en fonction de la méthode d'obtention, par exemple.
 
-
+Lorsqu'une commande entre dans le module de préparation OMS, on parle d'un [commande _complète_](https://aide.altazion.com/fr-fr/guide/ventes/commandes/completes.html)
 
 
