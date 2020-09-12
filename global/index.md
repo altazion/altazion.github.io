@@ -63,6 +63,12 @@ Bien entendu, pour pouvoir implémenter l'interface `IPanierStockCheck`, il vous
 
 Vous aurez besoin de vous connecter à un flux de package Github. Pour cela, le plus simple est de créer un token PAT ayant le droit `read:packages`, puis d'ajouter l'url correspondant à notre organisation. [Pour plus de détail, suivez ce guide détaillé](use-github-packages.md)
 
+En complément des packages nugets vous permettant de développer, vous trouverez dans notre SDK :
+
+- la documentation des classes métier qui composent notre solution
+- le descriptif de la base de données.
+
+
 ### Déployer
 
 Une fois l'interface implémentée, ajoutez une balise d'export signalant qu'elle doit être utilisée, compilez puis déployez l'assembly correspondante dans le dossier d'extensibilité.
