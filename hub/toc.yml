@@ -1,13 +1,6 @@
 - name: Altazion Hub
   href: index.md
-  items:
-    - name: Extensibilité (Saas)
-      items:
-        - name: Evènements
-          href: extensibility/events/index.md
 - name: Référence 
   items:
     - name: API
       href: api/toc.yml
-    - name: Webhooks
-      href: extensibility/events/toc.yml

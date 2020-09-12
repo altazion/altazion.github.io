@@ -23,6 +23,9 @@
   - name: Paramètres
     href: utilisateur/parametres/index.md
     items: 
+    - name: Evenements
+      href: utilisateur/parametres/evenements.md
+      items: 
     - name: Magasins
       href: utilisateur/parametres/magasins.md
       items: 
@@ -94,6 +97,9 @@
       href: serveur/parametres/index.md#raisonjuridique
     - name: Sites webs
       href: serveur/parametres/index.md#siteswebs
+    - name: Evenements
+      href: serveur/parametres/evenements.md
+      items: 
     - name: Magasins
       href: serveur/parametres/magasins.md
       items: 

@@ -6,25 +6,3 @@
 
 [!include[progressioncommande](commmandes.progressioncommande.autogen.md)]
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

@@ -1,0 +1,25 @@
+## <span id='creer'>Créer un évènement magasin</span>
+
+Créé un évènement magasin
+
+Url :`[PUT] app/magasins/{magasin_guid}/evenements`
+
+Paramètres : 
+
+- **magasin_guid** (Guid)
+- en tant que body, un objet ObjetCreationEvenementMagasin
+
+Type de retour : `bool`
+
+Type(s) de données :
+
+```csharp
+class ObjetCreationEvenementMagasin
+{
+	string Categorie { get; set; }
+	DateTime Date { get; set; }
+	string Libelle { get; set; }
+	string Description { get; set; }
+}
+
+```
