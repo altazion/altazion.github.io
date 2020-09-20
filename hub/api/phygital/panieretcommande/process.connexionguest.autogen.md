@@ -44,6 +44,7 @@ class ResumeProcess
 class CompteEtAdresseClientProcess
 {
 	string Password { get; set; }
+	CompteEtAdresseClientProcessLoyalty Fidelite { get; set; }
 	Guid Guid { get; set; }
 	string Civilite { get; set; }
 	string Nom { get; set; }
@@ -56,6 +57,18 @@ class CompteEtAdresseClientProcess
 	string PayPk { get; set; }
 	string Region { get; set; }
 	string Email { get; set; }
+}
+
+class CompteEtAdresseClientProcessLoyalty
+{
+	Guid[] ProgrammesAActiver { get; set; }
+	CompteEtAdresseClientProcessAccount[] IdentifiantsExistants { get; set; }
+}
+
+class CompteEtAdresseClientProcessAccount
+{
+	Guid ProgrammeGuid { get; set; }
+	string Identifiant { get; set; }
 }
 
 ```

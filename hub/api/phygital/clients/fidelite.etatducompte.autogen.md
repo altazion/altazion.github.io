@@ -8,7 +8,7 @@ Paramètres :
 
 - **clientGuid** (Guid) : L'identifiant du client
 
-Type de retour : `LoyaltyStatus`
+Type de retour : `LoyaltyStatus[]`
 
 Type(s) de données :
 
@@ -16,8 +16,10 @@ Type(s) de données :
 class LoyaltyStatus
 {
 	LoyaltyKind TypeCompte { get; set; }
+	Guid ProgrammeGuid { get; set; }
 	decimal Balance { get; set; }
 	PhygitalSite.Crm.LoyaltyController+CouponData[] Coupons { get; set; }
+	PhygitalSite.Crm.LoyaltyController+LoyaltyAccount[] Accounts { get; set; }
 }
 
 enum LoyaltyKind
@@ -44,6 +46,12 @@ enum CouponKind
 	BonAchat, // =0
 	Avantage, // =1
 	ChequeFidelite, // =2
+}
+
+class LoyaltyAccount
+{
+	string Identifiant { get; set; }
+	string Libelle { get; set; }
 }
 
 ```

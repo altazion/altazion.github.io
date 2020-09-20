@@ -23,12 +23,6 @@
   - name: Paramètres
     href: utilisateur/parametres/index.md
     items: 
-    - name: Evenements
-      href: utilisateur/parametres/evenements.md
-      items: 
-    - name: Magasins
-      href: utilisateur/parametres/magasins.md
-      items: 
     - name: Options
       href: utilisateur/parametres/options.md
       items: 
@@ -38,13 +32,15 @@
     - name: Info. personnelles
       href: utilisateur/utilisateur/infopersonnelles.md
       items: 
+  - name: Cross Canal
+    href: utilisateur/crosscanal/index.md
+    items: 
+    - name: Magasins
+      href: utilisateur/crosscanal/magasins.md
+      items: 
   - name: Commercial
     href: utilisateur/commercial/index.md
     items: 
-    - name: Sauvegarde contenu article
-      href: utilisateur/commercial/index.md#sauvegardecontenuarticle
-    - name: Supprime contenu article
-      href: utilisateur/commercial/index.md#supprimecontenuarticle
     - name: Campagnes
       href: utilisateur/commercial/campagnes.md
       items: 
@@ -97,12 +93,6 @@
       href: serveur/parametres/index.md#raisonjuridique
     - name: Sites webs
       href: serveur/parametres/index.md#siteswebs
-    - name: Evenements
-      href: serveur/parametres/evenements.md
-      items: 
-    - name: Magasins
-      href: serveur/parametres/magasins.md
-      items: 
     - name: Options
       href: serveur/parametres/options.md
       items: 
@@ -121,10 +111,6 @@
   - name: Commercial
     href: serveur/commercial/index.md
     items: 
-    - name: Sauvegarde contenu article
-      href: serveur/commercial/index.md#sauvegardecontenuarticle
-    - name: Supprime contenu article
-      href: serveur/commercial/index.md#supprimecontenuarticle
     - name: Campagnes
       href: serveur/commercial/campagnes.md
       items: 

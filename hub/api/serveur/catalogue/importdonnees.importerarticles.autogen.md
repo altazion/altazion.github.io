@@ -2,11 +2,11 @@
 
 Envoie une liste d'article dans les tables d'imports
 
-Url :`[GET] app/catalogue/import`
+Url :`[POST] app/catalogue/import`
 
 Paramètres : 
 
-- Cette url n'accepte aucun paramètre
+- en tant que body, un objet ArticleImportData[] : Les articles à importer sous forme d'un tableau de ArticleImportData
 
 Type de retour : `int`
 

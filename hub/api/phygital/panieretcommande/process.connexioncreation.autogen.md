@@ -50,6 +50,7 @@ class ResumeProcess
 class CompteEtAdresseClientProcess
 {
 	string Password { get; set; }
+	CompteEtAdresseClientProcessLoyalty Fidelite { get; set; }
 	Guid Guid { get; set; }
 	string Civilite { get; set; }
 	string Nom { get; set; }
