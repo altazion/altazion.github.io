@@ -85,6 +85,7 @@ enum MetaTypeArticle
 
 class ErreurPanier
 {
+	int ErrorCode { get; set; }
 	GraviteErreurPanier Gravite { get; }
 	string Message { get; set; }
 	bool EstBloquante { get; set; }

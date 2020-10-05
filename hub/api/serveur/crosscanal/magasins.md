@@ -47,3 +47,4 @@
 [!include[modifier](magasins.modifier.autogen.md)]
 
 
+
