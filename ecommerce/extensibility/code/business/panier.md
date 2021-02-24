@@ -9,4 +9,5 @@ IInfoLignePanierProvider
 
 ## Finalisation
 
+|Nom module|
 IPostValidationPanier

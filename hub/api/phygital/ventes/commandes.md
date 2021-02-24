@@ -7,27 +7,3 @@
 [!include[paiementsimple](commandes.paiementsimple.autogen.md)]
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

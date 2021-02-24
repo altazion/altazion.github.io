@@ -5,27 +5,3 @@
 [!include[transfertpanier](deviceactif.transfertpanier.autogen.md)]
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

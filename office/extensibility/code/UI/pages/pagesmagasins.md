@@ -12,4 +12,6 @@
 
 L'emplacement d'extensions suivant *remplace* l'affichange standard : 
 
+|Section|Screen|ControlGroup|Description|
+|---|---|---|---|
 |PoS|EditMagasin|Horaires|La saisie des horaires|

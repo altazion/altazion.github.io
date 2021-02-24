@@ -9,27 +9,3 @@
 [!include[verifier](opt-insnewsletters.verifier.autogen.md)]
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

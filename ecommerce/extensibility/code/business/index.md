@@ -2,19 +2,21 @@
 
 ### Techniques
 
-- SEO
-- Gestion de la session utilisateur
+- [SEO](seo.md)
+- [Gestion de la session utilisateur](session.md)
 
 ### Catalogue
 
+- [Recherche](recherche.md)
+
 ### Animation commerciale
 
-- Promotions
-
+- [Promotions](promotions.md)
 
 ### Process de commande
 
-- Paiement
+- [Panier](panier.md)
+- [Paiement](paiement.md)
 
 ### Espace client
 

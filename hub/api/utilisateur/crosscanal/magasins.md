@@ -15,7 +15,3 @@
 [!include[rechercher](magasins.rechercher.autogen.md)]
 
 
-
-
-
-
