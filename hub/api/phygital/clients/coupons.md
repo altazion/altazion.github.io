@@ -7,3 +7,4 @@
 [!include[detailscoupons](coupons.detailscoupons.autogen.md)]
 
 
+

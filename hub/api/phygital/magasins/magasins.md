@@ -5,3 +5,4 @@
 [!include[listestatscommande](magasins.listestatscommande.autogen.md)]
 
 
+
