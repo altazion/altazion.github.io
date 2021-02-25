@@ -6,5 +6,3 @@
 
 [!include[suppressionmagasin](magasins.suppressionmagasin.autogen.md)]
 
-
-

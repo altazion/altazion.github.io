@@ -4,8 +4,6 @@
 
 [!include[entreeenpool](pool.entreeenpool.autogen.md)]
 
-[!include[entreeenpool](pool.entreeenpool.autogen.md)]
-
 [!include[expirationpreparateur](pool.expirationpreparateur.autogen.md)]
 
 [!include[pre-affectationpreparateur](pool.pre-affectationpreparateur.autogen.md)]
@@ -19,8 +17,4 @@
 [!include[relanceprepa3](pool.relanceprepa3.autogen.md)]
 
 [!include[retourenpool](pool.retourenpool.autogen.md)]
-
-[!include[retourenpool](pool.retourenpool.autogen.md)]
-
-
 

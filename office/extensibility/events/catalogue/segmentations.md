@@ -6,5 +6,3 @@
 
 [!include[suppressionsegmentation](segmentations.suppressionsegmentation.autogen.md)]
 
-
-

@@ -1,3 +1,0 @@
-# Erp
-
-[!include[temp](index.autogen.md)]
