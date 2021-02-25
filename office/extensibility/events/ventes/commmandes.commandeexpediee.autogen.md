@@ -5,7 +5,7 @@ Cet évènement est déclenché lorsqu'une commande est expédiée (partiellemen
 Informations sur l'évènement : 
 
  - **Catégorie** : e/rp
- - **Code** : PréparationBcd
+ - **Code** : ExpeditionBcd
  - **Classe de données** : OmsCommandeExpeditionEventData
 
 Type(s) de données :

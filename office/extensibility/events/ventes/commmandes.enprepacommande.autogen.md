@@ -1,11 +1,11 @@
-## <span id='commandepreparee'>Commande Préparee</span>
+## <span id='enprepacommande'>En prépa Commande</span>
 
-Cet évènement est déclenché lorsqu'une commande est préparée (partiellement ou intégralement)
+Cet évènement est déclenché lorsqu'une commande est entrée en phase de préparation
 
 Informations sur l'évènement : 
 
  - **Catégorie** : e/rp
- - **Code** : PréparationBcd
+ - **Code** : EnPrepaBcd
  - **Classe de données** : OmsCommandePreparationEventData
 
 Type(s) de données :

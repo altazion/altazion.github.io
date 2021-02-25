@@ -1,3 +1,7 @@
+- name: Généralités
+  href: index.md
+- name: APIs Altazion Hub
+  href: hub-api.md
 - name: Utilisateur
   href: utilisateur/index.md
   items: 

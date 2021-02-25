@@ -1,0 +1,11 @@
+# Médiations
+
+[!include[mediationenerreur](mediations.mediationenerreur.autogen.md)]
+
+[!include[mediationterminee](mediations.mediationterminee.autogen.md)]
+
+[!include[nouvellemediation](mediations.nouvellemediation.autogen.md)]
+
+[!include[nouvelletermineeavecsucces](mediations.nouvelletermineeavecsucces.autogen.md)]
+
+

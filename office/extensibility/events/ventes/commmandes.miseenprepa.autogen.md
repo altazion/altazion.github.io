@@ -6,7 +6,7 @@ Informations sur l'évènement :
 
  - **Catégorie** : e/rp
  - **Code** : MiseEnPrepaBcd
- - **Classe de données** : OmsCommandePoolEventData
+ - **Classe de données** : OmsCommandeEventData
 
 Type(s) de données :
 
@@ -144,10 +144,8 @@ class ClientBase
 	string Civilite { get; set; }
 }
 
-class OmsCommandePoolEventData
+class OmsCommandeEventData
 {
-	Guid ZonePreparationGuid { get; set; }
-	DateTime? DateMaximaleTraitement { get; set; }
 	Guid BcdGuid { get; set; }
 	string Numero { get; set; }
 	Guid ClientGuid { get; set; }

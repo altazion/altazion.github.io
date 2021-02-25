@@ -1,3 +1,5 @@
+- name: Évènements
+  href: index.md
 - name: Catalogue
   href: catalogue/index.md
   items: 
@@ -15,11 +17,6 @@
   items: 
   - name: Annonce
     href: entreprise/annonce.md
-- name: Erp
-  href: erp/index.md
-  items: 
-  - name: Clients
-    href: erp/clients.md
 - name: Logistique
   href: logistique/index.md
   items: 
@@ -40,6 +37,11 @@
   items: 
   - name: Magasins
     href: pointsdevente/magasins.md
+- name: Système
+  href: systeme/index.md
+  items: 
+  - name: Médiations
+    href: systeme/mediations.md
 - name: Ventes
   href: ventes/index.md
   items: 
@@ -47,3 +49,5 @@
     href: ventes/commmandes.md
   - name: ECommerce
     href: ventes/ecommerce.md
+  - name: Règlements
+    href: ventes/reglements.md

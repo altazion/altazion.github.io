@@ -6,19 +6,11 @@ Informations sur l'évènement :
 
  - **Catégorie** : orchestrator
  - **Code** : NouvelleCommandePool
- - **Classe de données** : OmsCommandePoolEventDataWithActor
+ - **Classe de données** : OmsCommandePoolEventData
 
 Type(s) de données :
 
 ```csharp
-enum OmsCommandePoolActorKind
-{
-	VendeurMarketplace, // =0
-	Partenaire, // =1
-	Logisticien, // =2
-	Magasin, // =3
-}
-
 class MagasinBase
 {
 	Guid Guid { get; set; }
@@ -152,12 +144,8 @@ class ClientBase
 	string Civilite { get; set; }
 }
 
-class OmsCommandePoolEventDataWithActor
+class OmsCommandePoolEventData
 {
-	OmsCommandePoolActorKind ActorKind { get; set; }
-	Guid ActorGuid { get; set; }
-	string ActorName { get; set; }
-	string ActorEmail { get; set; }
 	Guid ZonePreparationGuid { get; set; }
 	DateTime? DateMaximaleTraitement { get; set; }
 	Guid BcdGuid { get; set; }
